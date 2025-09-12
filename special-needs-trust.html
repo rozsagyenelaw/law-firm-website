@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Special Needs Trust - Law Offices of Rozsa Gyene</title>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary-blue: #1e3a5f;
+            --accent-gold: #c9a961;
+            --text-dark: #2c3e50;
+            --text-light: #6c757d;
+            --background: #ffffff;
+            --section-bg: #f8f9fa;
+            --border-color: #dee2e6;
+            --soft-blue: #e8f4f8;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            color: var(--text-dark);
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Header */
+        header {
+            background: white;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .top-bar {
+            background: var(--primary-blue);
+            color: white;
+            padding: 10px 0;
+            font-size: 14px;
+        }
+
+        .top-bar .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .top-bar a {
+            color: var(--accent-gold);
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        nav {
+            padding: 20px 0;
+        }
+
+        nav .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            color: var(--primary-blue);
+        }
+
+        .logo-text {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .logo-text .firm-name {
+            font-family: 'Playfair Display', serif;
+            font-size: 24px;
+            font-weight: 700;
+        }
+
+        .logo-text .tagline {
+            font-size: 12px;
+            color: var(--text-light);
+            margin-top: 2px;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, #5f7fbf 0%, #3A4B6B 100%);
+            color: white;
+            padding: 100px 0;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 56px;
+            margin-bottom: 20px;
+        }
+
+        .hero-subtitle {
+            font-size: 24px;
+            color: var(--accent-gold);
+            margin-bottom: 30px;
+        }
+
+        .hero-description {
+            font-size: 18px;
+            max-width: 800px;
+            margin: 0 auto 40px;
+            line-height: 1.8;
+        }
+
+        .hero-price {
+            font-size: 24px;
+            margin: 30px 0;
+        }
+
+        .hero-price strong {
+            color: var(--accent-gold);
+            font-size: 36px;
+        }
+
+        .btn-primary {
+            background: var(--accent-gold);
+            color: white;
+            padding: 15px 40px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 18px;
+            transition: all 0.3s;
+            display: inline-block;
+        }
+
+        .btn-primary:hover {
+            background: #b8982f;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(201, 169, 97, 0.3);
+        }
+
+        .btn-secondary {
+            background: transparent;
+            color: white;
+            border: 2px solid white;
+            padding: 13px 40px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 18px;
+            transition: all 0.3s;
+            display: inline-block;
+        }
+
+        .btn-secondary:hover {
+            background: white;
+            color: var(--primary-blue);
+        }
+
+        /* About Section */
+        .about-section {
+            padding: 80px 0;
+            background: white;
+        }
+
+        .about-section h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 42px;
+            color: var(--primary-blue);
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .about-content {
+            max-width: 900px;
+            margin: 0 auto;
+            font-size: 18px;
+            line-height: 1.8;
+            color: var(--text-light);
+        }
+
+        .about-content p {
+            margin-bottom: 20px;
+        }
+
+        /* Benefits Section */
+        .benefits {
+            background: var(--section-bg);
+            padding: 80px 0;
+        }
+
+        .benefits h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 42px;
+            color: var(--primary-blue);
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .benefits-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 30px;
+        }
+
+        .benefit-card {
+            background: white;
+            padding: 40px 30px;
+            border-radius: 10px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+            transition: all 0.3s;
+            border-top: 4px solid var(--accent-gold);
+        }
+
+        .benefit-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+        }
+
+        .benefit-icon {
+            width: 70px;
+            height: 70px;
+            background: var(--soft-blue);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+            font-size: 32px;
+            color: var(--primary-blue);
+        }
+
+        .benefit-card h3 {
+            color: var(--primary-blue);
+            margin-bottom: 15px;
+            font-size: 24px;
+        }
+
+        .benefit-card p {
+            color: var(--text-light);
+            line-height: 1.6;
+        }
+
+        /* How It Works Section */
+        .how-it-works {
+            padding: 80px 0;
+            background: white;
+        }
+
+        .how-it-works h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 42px;
+            color: var(--primary-blue);
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .steps-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 40px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .step-card {
+            text-align: center;
+        }
+
+        .step-number {
+            width: 80px;
+            height: 80px;
+            background: var(--accent-gold);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 36px;
+            font-weight: bold;
+            margin: 0 auto 20px;
+        }
+
+        .step-card h3 {
+            color: var(--primary-blue);
+            margin-bottom: 10px;
+        }
+
+        .step-card p {
+            color: var(--text-light);
+        }
+
+        /* FAQ Section */
+        .faq {
+            background: var(--soft-blue);
+            padding: 80px 0;
+        }
+
+        .faq h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 42px;
+            color: var(--primary-blue);
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .faq-container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .faq-item {
+            background: white;
+            margin-bottom: 20px;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+        }
+
+        .faq-question {
+            color: var(--primary-blue);
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+
+        .faq-answer {
+            color: var(--text-light);
+            line-height: 1.6;
+        }
+
+        /* CTA Section */
+        .cta {
+            background: var(--primary-blue);
+            color: white;
+            padding: 80px 0;
+            text-align: center;
+        }
+
+        .cta h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 42px;
+            margin-bottom: 20px;
+        }
+
+        .cta p {
+            font-size: 20px;
+            margin-bottom: 30px;
+        }
+
+        .phone-large {
+            font-size: 36px;
+            color: var(--accent-gold);
+            font-weight: bold;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 20px;
+        }
+
+        /* Form Section */
+        .form-section {
+            padding: 80px 0;
+            background: white;
+        }
+
+        .form-container {
+            max-width: 700px;
+            margin: 0 auto;
+            background: var(--section-bg);
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+        }
+
+        .form-group {
+            margin-bottom: 25px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 10px;
+            color: var(--primary-blue);
+            font-weight: 600;
+            font-size: 18px;
+        }
+
+        .form-group input {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid var(--border-color);
+            border-radius: 8px;
+            font-size: 16px;
+        }
+
+        .radio-group {
+            display: flex;
+            gap: 30px;
+            margin-top: 10px;
+        }
+
+        .submit-btn {
+            background: var(--accent-gold);
+            color: white;
+            padding: 15px 50px;
+            border: none;
+            border-radius: 50px;
+            font-size: 18px;
+            font-weight: 600;
+            cursor: pointer;
+            width: 100%;
+            transition: all 0.3s;
+        }
+
+        .submit-btn:hover {
+            background: #b8982f;
+            transform: translateY(-2px);
+        }
+
+        /* Footer */
+        footer {
+            background: var(--primary-blue);
+            color: white;
+            padding: 40px 0;
+            text-align: center;
+        }
+
+        .footer-contact a {
+            color: var(--accent-gold);
+            text-decoration: none;
+            font-size: 18px;
+            margin: 0 20px;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 36px;
+            }
+            
+            .benefits-grid,
+            .steps-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="top-bar">
+            <div class="container">
+                <div>
+                    <i class="fas fa-certificate"></i> Licensed California Attorney - Bar #208356
+                </div>
+                <div>
+                    <i class="fas fa-phone"></i> Free Consultation: <a href="tel:8182916217">(818) 291-6217</a>
+                </div>
+            </div>
+        </div>
+        <nav>
+            <div class="container">
+                <a href="/" class="logo">
+                    <div class="logo-text">
+                        <span class="firm-name">LAW OFFICES OF ROZSA GYENE</span>
+                        <span class="tagline">Estate Planning & Probate Specialists Since 2001</span>
+                    </div>
+                </a>
+                <div style="display: flex; gap: 20px; align-items: center;">
+                    <a href="/" style="color: var(--text-dark); text-decoration: none;">Home</a>
+                    <a href="https://square.site/book/0W2A8PKKPYC21/law-offices-of-rozsa-gyene-glendale-ca" class="btn-primary" style="padding: 10px 25px; font-size: 14px;">Book Now</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Special Needs Trust</h1>
+            <p class="hero-subtitle">Ensure your loved ones are looked after, no matter what the future may hold</p>
+            <p class="hero-description">
+                We'll draft a customized trust to safeguard your child's eligibility for government benefits, 
+                even if they receive inheritance from your estate. Don't leave your family's future up to chance - make a plan today.
+            </p>
+            
+            <div class="hero-price">
+                Starting at just <strong>$950</strong>
+            </div>
+            
+            <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
+                <a href="https://square.site/book/0W2A8PKKPYC21/law-offices-of-rozsa-gyene-glendale-ca" class="btn-primary">Get Started</a>
+                <a href="#form" class="btn-secondary">Learn More</a>
+            </div>
+            
+            <p style="margin-top: 30px;">Call Now for a Free Consultation:</p>
+            <a href="tel:8182916217" class="phone-large">(818) 291-6217</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section">
+        <div class="container">
+            <h2>What is a Special Needs Trust?</h2>
+            <div class="about-content">
+                <p>
+                    A Special Needs Trust is a powerful legal tool that can help protect the financial interests of a child with special needs.
+                </p>
+                <p>
+                    One of the main benefits of a special needs trust is that it allows parents or caregivers to access money now to care for 
+                    a child with special needs, without affecting the child's eligibility for Medicaid and other government benefits in the future. 
+                    There may be a variety of tools available to help you meet your estate planning needs and to protect the interests of your child.
+                </p>
+                <p>
+                    A common concern for parents of a child with special needs is to ensure that their child receives his or her inheritance 
+                    without compromising his or her eligibility for government benefits.
+                </p>
+                <p>
+                    We guide you through specific strategies to protect your child's financial interests now and in the future.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="benefits">
+        <div class="container">
+            <h2>Benefits of a Special Needs Trust</h2>
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Preserve Government Benefits</h3>
+                    <p>Maintain eligibility for crucial programs like Medicaid, SSI, and other government assistance while still providing additional support.</p>
+                </div>
+                
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-dollar-sign"></i>
+                    </div>
+                    <h3>Supplement Basic Needs</h3>
+                    <p>Provide funds for quality of life improvements that government benefits don't cover - therapy, education, recreation, and personal care.</p>
+                </div>
+                
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h3>Housing & Care Options</h3>
+                    <p>Ensure your loved one has access to appropriate housing, caregiving, and support services throughout their lifetime.</p>
+                </div>
+                
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Family Peace of Mind</h3>
+                    <p>Know that your child will be cared for even when you're no longer able to provide support yourself.</p>
+                </div>
+                
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-gavel"></i>
+                    </div>
+                    <h3>Legal Protection</h3>
+                    <p>Assets in the trust are protected from creditors and cannot be considered when determining benefit eligibility.</p>
+                </div>
+                
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>Customized Care</h3>
+                    <p>Tailor the trust to your child's specific needs, abilities, and circumstances for personalized support.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="how-it-works">
+        <div class="container">
+            <h2>How We Create Your Special Needs Trust</h2>
+            <div class="steps-grid">
+                <div class="step-card">
+                    <div class="step-number">1</div>
+                    <h3>Consultation</h3>
+                    <p>We discuss your child's specific needs and current benefit situation</p>
+                </div>
+                
+                <div class="step-card">
+                    <div class="step-number">2</div>
+                    <h3>Planning</h3>
+                    <p>Design a trust structure that protects benefits while maximizing support</p>
+                </div>
+                
+                <div class="step-card">
+                    <div class="step-number">3</div>
+                    <h3>Drafting</h3>
+                    <p>Create legally sound documents that comply with all regulations</p>
+                </div>
+                
+                <div class="step-card">
+                    <div class="step-number">4</div>
+                    <h3>Implementation</h3>
+                    <p>Execute the trust and ensure proper funding and management</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq">
+        <div class="container">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">What can a Special Needs Trust pay for?</div>
+                    <div class="faq-answer">
+                        The trust can pay for supplemental needs not covered by government benefits, including: medical and dental expenses, 
+                        education and tutoring, recreation and entertainment, travel and transportation, personal care attendants, therapy, 
+                        and quality of life improvements.
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">Will the trust affect my child's government benefits?</div>
+                    <div class="faq-answer">
+                        When properly structured, a Special Needs Trust will not affect eligibility for means-tested government benefits 
+                        like SSI and Medicaid. The trust supplements, rather than replaces, these benefits.
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">Who can be the trustee?</div>
+                    <div class="faq-answer">
+                        You can serve as trustee initially, and name successor trustees for when you're no longer able. This can be 
+                        a family member, friend, or professional trustee. We'll help you choose the best option for your situation.
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">When should I create a Special Needs Trust?</div>
+                    <div class="faq-answer">
+                        The sooner the better. Creating the trust now ensures your child is protected if something happens to you unexpectedly. 
+                        It also allows you to fund the trust gradually over time through your estate plan.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <h2>Protect Your Child's Future Today</h2>
+            <p>Don't wait to secure your loved one's financial future and government benefits</p>
+            <a href="https://square.site/book/0W2A8PKKPYC21/law-offices-of-rozsa-gyene-glendale-ca" class="btn-primary">Book An Appointment</a>
+            <p style="margin-top: 30px;">Draft your Trust over the phone with an Attorney:</p>
+            <a href="tel:8182916217" class="phone-large">(818) 291-6217</a>
+        </div>
+    </section>
+
+    <!-- Form Section -->
+    <section class="form-section" id="form">
+        <div class="container">
+            <h2 style="text-align: center; font-family: 'Playfair Display', serif; font-size: 42px; color: var(--primary-blue); margin-bottom: 40px;">
+                Does Your Child Need a Special Needs Trust?
+            </h2>
+            
+            <div class="form-container">
+                <form action="https://getform.io/f/YOUR-FORM-ID" method="POST">
+                    <div class="form-group">
+                        <label>Do you have a child with disability?</label>
+                        <div class="radio-group">
+                            <label><input type="radio" name="child_disability" value="yes"> Yes</label>
+                            <label><input type="radio" name="child_disability" value="no"> No</label>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Does your child receive government benefits?</label>
+                        <div class="radio-group">
+                            <label><input type="radio" name="government_benefits" value="yes"> Yes</label>
+                            <label><input type="radio" name="government_benefits" value="no"> No</label>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Are you married?</label>
+                        <div class="radio-group">
+                            <label><input type="radio" name="married" value="yes"> Yes</label>
+                            <label><input type="radio" name="married" value="no"> No</label>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Do you want to ensure that your child receives his or her inheritance without losing eligibility for government benefits?</label>
+                        <div class="radio-group">
+                            <label><input type="radio" name="preserve_benefits" value="yes"> Yes</label>
+                            <label><input type="radio" name="preserve_benefits" value="no"> No</label>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Phone:</label>
+                        <input type="tel" id="phone" name="phone" placeholder="optional">
+                    </div>
+
+                    <button type="submit" class="submit-btn">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <h3 style="margin-bottom: 20px;">CONTACT US</h3>
+            <div class="footer-contact">
+                <a href="tel:8182916217"><i class="fas fa-phone"></i> (818) 291-6217</a>
+                <a href="mailto:rozsagyenelaw@yahoo.com"><i class="fas fa-envelope"></i> rozsagyenelaw@yahoo.com</a>
+            </div>
+            <p style="margin-top: 20px;">Law Offices of Rozsa Gyene<br>
+            State Bar No. 208356<br>
+            450 N Brand Blvd. Suite 600<br>
+            Glendale CA 91203</p>
+        </div>
+    </footer>
+</body>
+</html>
