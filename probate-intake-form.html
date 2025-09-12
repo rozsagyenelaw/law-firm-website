@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Probate Intake Form - Law Offices of Rozsa Gyene</title>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f4f4f4;
+        }
+        
+        /* Header */
+        .header-banner {
+            background: linear-gradient(135deg, #1e3a5f 0%, #2a5298 100%);
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        
+        .header-banner h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 42px;
+            margin-bottom: 10px;
+        }
+        
+        .header-banner p {
+            font-size: 18px;
+            opacity: 0.95;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        
+        .section {
+            margin-bottom: 30px;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 8px;
+        }
+        
+        .section-title {
+            font-size: 1.3em;
+            font-weight: bold;
+            color: #1e3a5f;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #c9a961;
+        }
+        
+        .form-group {
+            margin-bottom: 15px;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: 600;
+            color: #555;
+        }
+        
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"],
+        input[type="date"],
+        input[type="number"],
+        select,
+        textarea {
+            width: 100%;
+            padding: 8px 12px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 14px;
+            transition: border-color 0.3s;
+        }
+        
+        input:focus,
+        select:focus,
+        textarea:focus {
+            outline: none;
+            border-color: #c9a961;
+        }
+        
+        .radio-group,
+        .checkbox-group {
+            display: flex;
+            gap: 20px;
+            margin-top: 5px;
+            flex-wrap: wrap;
+        }
+        
+        .radio-item,
+        .checkbox-item {
+            display: flex;
+            align-items: center;
+        }
+        
+        input[type="radio"],
+        input[type="checkbox"] {
+            margin-right: 5px;
+        }
+        
+        .required {
+            color: #e74c3c;
+        }
+        
+        .hidden {
+            display: none !important;
+        }
+        
+        .row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+        }
+        
+        .dynamic-section {
+            background: #e8f4f8;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+            position: relative;
+            border-left: 3px solid #c9a961;
+        }
+        
+        .remove-btn {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background: #e74c3c;
+            color: white;
+            border: none;
+            padding: 5px 10px;
+            border-radius: 3px;
+            cursor: pointer;
+            font-size: 12px;
+        }
+        
+        .remove-btn:hover {
+            background: #c0392b;
+        }
+        
+        .add-btn {
+            background: #c9a961;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 14px;
+            margin-top: 10px;
+            transition: all 0.3s;
+        }
+        
+        .add-btn:hover {
+            background: #b8982f;
+            transform: translateY(-2px);
+        }
+        
+        .submit-section {
+            text-align: center;
+            margin-top: 30px;
+        }
+        
+        .submit-btn {
+            background: #27ae60;
+            color: white;
+            border: none;
+            padding: 15px 40px;
+            border-radius: 50px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: bold;
+            transition: all 0.3s;
+        }
+        
+        .submit-btn:hover {
+            background: #229954;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(39, 174, 96, 0.3);
+        }
+        
+        .info-box {
+            background: #d4edda;
+            border: 1px solid #c3e6cb;
+            color: #155724;
+            padding: 15px;
+            border-radius: 4px;
+            margin-bottom: 15px;
+        }
+        
+        .warning-box {
+            background: #fff3cd;
+            border: 1px solid #ffeaa7;
+            color: #856404;
+            padding: 15px;
+            border-radius: 4px;
+            margin-bottom: 15px;
+        }
+        
+        @media (max-width: 600px) {
+            .row {
+                grid-template-columns: 1fr;
+            }
+            
+            .radio-group,
+            .checkbox-group {
+                flex-direction: column;
+                gap: 10px;
+            }
+            
+            .header-banner h1 {
+                font-size: 28px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header-banner">
+        <h1>Probate Intake Form</h1>
+        <p>Please provide the following information to help us assist you with the probate process</p>
+    </div>
+    
+    <div class="container">
+        <div class="info-box">
+            <i class="fas fa-info-circle"></i> This form is secure and confidential. All information will be sent directly to our office.
+        </div>
+        
+        <!-- FORM WITH GETFORM ENDPOINT -->
+        <form id="probateIntakeForm" action="https://getform.io/f/amdyyjwb" method="POST">
+            
+            <!-- Hidden fields for Getform configuration -->
+            <input type="hidden" name="_gotcha" style="display:none">
+            
+            <!-- PETITIONER/CONTACT INFORMATION -->
+            <div class="section">
+                <h2 class="section-title">YOUR CONTACT INFORMATION</h2>
+                <div class="info-box">Please provide your contact information as the person seeking probate assistance.</div>
+                <div class="row">
+                    <div class="form-group">
+                        <label for="petitioner_first_name">Your First Name <span class="required">*</span></label>
+                        <input type="text" id="petitioner_first_name" name="petitioner_first_name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="petitioner_last_name">Your Last Name <span class="required">*</span></label>
+                        <input type="text" id="petitioner_last_name" name="petitioner_last_name" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="petitioner_email">Your Email Address <span class="required">*</span></label>
+                    <input type="email" id="petitioner_email" name="petitioner_email" required>
+                </div>
+                <div class="row">
+                    <div class="form-group">
+                        <label for="petitioner_phone">Your Phone Number <span class="required">*</span></label>
+                        <input type="tel" id="petitioner_phone" name="petitioner_phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="petitioner_relationship">Your Relationship to Decedent <span class="required">*</span></label>
+                        <select id="petitioner_relationship" name="petitioner_relationship" required>
+                            <option value="">Select...</option>
+                            <option value="Spouse">Spouse</option>
+                            <option value="Child">Child</option>
+                            <option value="Parent">Parent</option>
+                            <option value="Sibling">Sibling</option>
+                            <option value="Grandchild">Grandchild</option>
+                            <option value="Niece/Nephew">Niece/Nephew</option>
+                            <option value="Named Executor">Named Executor</option>
+                            <option value="Beneficiary">Beneficiary</option>
+                            <option value="Creditor">Creditor</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="petitioner_address">Your Street Address</label>
+                    <input type="text" id="petitioner_address" name="petitioner_address">
+                </div>
+                <div class="row">
+                    <div class="form-group">
+                        <label for="petitioner_city">City</label>
+                        <input type="text" id="petitioner_city" name="petitioner_city">
+                    </div>
+                    <div class="form-group">
+                        <label for="petitioner_state">State</label>
+                        <input type="text" id="petitioner_state" name="petitioner_state" value="CA">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="petitioner_zip">ZIP Code</label>
+                    <input type="text" id="petitioner_zip" name="petitioner_zip">
+                </div>
+            </div>
+            
+            <!-- DECEDENT INFORMATION -->
+            <div class="section">
+                <h2 class="section-title">DECEDENT INFORMATION</h2>
+                <div class="row">
+                    <div class="form-group">
+                        <label for="decedent_first_name">Decedent's First Name <span class="required">*</span></label>
+                        <input type="text" id="decedent_first_name" name="decedent_first_name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="decedent_middle_name">Decedent's Middle Name</label>
+                        <input type="text" id="decedent_middle_name" name="decedent_middle_name">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="decedent_last_name">Decedent's Last Name <span class="required">*</span></label>
+                    <input type="text" id="decedent_last_name" name="decedent_last_name" required>
+                </div>
+                <div class="form-group">
+                    <label for="decedent_aka">Also Known As (other names used)</label>
+                    <input type="text" id="decedent_aka" name="decedent_aka" placeholder="Nicknames, maiden names, etc.">
+                </div>
+                <div class="row">
+                    <div class="form-group">
+                        <label for="death_date">Date of Death <span class="required">*</span></label>
+                        <input type="date" id="death_date" name="death_date" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="death_place">Place of Death (City, State) <span class="required">*</span></label>
+                        <input type="text" id="death_place" name="death_place" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="death_address">Decedent's Last Street Address</label>
+                    <input type="text" id="death_address" name="death_address">
+                </div>
+                <div class="row">
+                    <div class="form-group">
+                        <label for="death_city">City</label>
+                        <input type="text" id="death_city" name="death_city">
+                    </div>
+                    <div class="form-group">
+                        <label for="death_county">County <span class="required">*</span></label>
+                        <input type="text" id="death_county" name="death_county" value="LOS ANGELES" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-group">
+                        <label for="decedent_ssn">Decedent's Social Security Number (last 4 digits)</label>
+                        <input type="text" id="decedent_ssn" name="decedent_ssn" placeholder="XXX-XX-____" maxlength="4">
+                    </div>
+                    <div class="form-group">
+                        <label for="decedent_birthdate">Decedent's Date of Birth</label>
+                        <input type="date" id="decedent_birthdate" name="decedent_birthdate">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="marital_status">Decedent's Marital Status at Death <span class="required">*</span></label>
+                    <select id="marital_status" name="marital_status" required onchange="toggleSpouseInfo()">
+                        <option value="">Select...</option>
+                        <option value="Single">Single</option>
+                        <option value="Married">Married</option>
+                        <option value="Divorced">Divorced</option>
+                        <option value="Widowed">Widowed</option>
+                        <option value="Domestic Partnership">Domestic Partnership</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Was Decedent a California Resident? <span class="required">*</span></label>
+                    <div class="radio-group">
+                        <div class="radio-item">
+                            <input type="radio" id="resident_yes" name="death_resident" value="yes" required>
+                            <label for="resident_yes">Yes</label>
+                        </div>
+                        <div class="radio-item">
+                            <input type="radio" id="resident_no" name="death_resident" value="no" required>
+                            <label for="resident_no">No</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- SURVIVING SPOUSE INFO -->
+            <div class="section hidden" id="spouseSection">
+                <h2 class="section-title">SURVIVING SPOUSE INFORMATION</h2>
+                <div class="row">
+                    <div class="form-group">
+                        <label for="spouse_first_name">Spouse's First Name</label>
+                        <input type="text" id="spouse_first_name" name="spouse_first_name">
+                    </div>
+                    <div class="form-group">
+                        <label for="spouse_last_name">Spouse's Last Name</label>
+                        <input type="text" id="spouse_last_name" name="spouse_last_name">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="spouse_address">Spouse's Current Address</label>
+                    <input type="text" id="spouse_address" name="spouse_address">
+                </div>
+                <div class="form-group">
+                    <label for="spouse_phone">Spouse's Phone Number</label>
+                    <input type="tel" id="spouse_phone" name="spouse_phone">
+                </div>
+            </div>
+            
+            <!-- WILL AND TRUST INFORMATION -->
+            <div class="section">
+                <h2 class="section-title">WILL AND TRUST INFORMATION</h2>
+                <div class="form-group">
+                    <label>Did the decedent leave a Will? <span class="required">*</span></label>
+                    <div class="radio-group">
+                        <div class="radio-item">
+                            <input type="radio" id="will_yes" name="has_will" value="yes" onchange="toggleWillInfo()" required>
+                            <label for="will_yes">Yes</label>
+                        </div>
+                        <div class="radio-item">
+                            <input type="radio" id="will_no" name="has_will" value="no" onchange="toggleWillInfo()" required>
+                            <label for="will_no">No</label>
+                        </div>
+                        <div class="radio-item">
+                            <input type="radio" id="will_unsure" name="has_will" value="unsure" onchange="toggleWillInfo()" required>
+                            <label for="will_unsure">Not Sure</label>
+                        </div>
+                    </div>
+                </div>
+                <div id="willDetails" class="hidden">
+                    <div class="form-group">
+                        <label for="will_date">Date of Will</label>
+                        <input type="date" id="will_date" name="will_date">
+                    </div>
+                    <div class="form-group">
+                        <label>Do you have the original Will?</label>
+                        <div class="radio-group">
+                            <div class="radio-item">
+                                <input type="radio" id="original_yes" name="has_original_will" value="yes">
+                                <label for="original_yes">Yes</label>
+                            </div>
+                            <div class="radio-item">
+                                <input type="radio" id="original_no" name="has_original_will" value="no">
+                                <label for="original_no">No</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="executor_name">Named Executor in Will</label>
+                        <input type="text" id="executor_name" name="executor_name">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Did the decedent have a Trust?</label>
+                    <div class="radio-group">
+                        <div class="radio-item">
+                            <input type="radio" id="trust_yes" name="has_trust" value="yes">
+                            <label for="trust_yes">Yes</label>
+                        </div>
+                        <div class="radio-item">
+                            <input type="radio" id="trust_no" name="has_trust" value="no">
+                            <label for="trust_no">No</label>
+                        </div>
+                        <div class="radio-item">
+                            <input type="radio" id="trust_unsure" name="has_trust" value="unsure">
+                            <label for="trust_unsure">Not Sure</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- HEIRS AND BENEFICIARIES -->
+            <div class="section">
+                <h2 class="section-title">HEIRS AND BENEFICIARIES</h2>
+                <div class="info-box">Please list all potential heirs (children, parents, siblings) and named beneficiaries.</div>
+                <div id="heirsContainer"></div>
+                <button type="button" class="add-btn" onclick="addHeir()">Add Heir/Beneficiary</button>
+                <textarea name="heirs_list" id="heirs_list" style="display:none;"></textarea>
+            </div>
+            
+            <!-- ESTATE ASSETS -->
+            <div class="section">
+                <h2 class="section-title">ESTATE ASSETS</h2>
+                <div class="warning-box">Please provide estimates to help determine the appropriate probate procedure.</div>
+                <div class="form-group">
+                    <label for="estate_value">Estimated Total Value of Estate <span class="required">*</span></label>
+                    <select id="estate_value" name="estate_value" required>
+                        <option value="">Select...</option>
+                        <option value="Under $184,500">Under $184,500</option>
+                        <option value="$184,500 - $500,000">$184,500 - $500,000</option>
+                        <option value="$500,000 - $1,000,000">$500,000 - $1,000,000</option>
+                        <option value="$1,000,000 - $3,000,000">$1,000,000 - $3,000,000</option>
+                        <option value="Over $3,000,000">Over $3,000,000</option>
+                        <option value="Unknown">Unknown</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="personal_property_value">Estimated Personal Property Value</label>
+                    <input type="text" id="personal_property_value" name="personal_property_value" placeholder="$">
+                </div>
+                <div class="form-group">
+                    <label>Real Property (Real Estate)</label>
+                    <div class="radio-group">
+                        <div class="radio-item">
+                            <input type="radio" id="property_yes" name="has_real_property" value="yes" onchange="togglePropertyInfo()">
+                            <label for="property_yes">Yes</label>
+                        </div>
+                        <div class="radio-item">
+                            <input type="radio" id="property_no" name="has_real_property" value="no" onchange="togglePropertyInfo()">
+                            <label for="property_no">No</label>
+                        </div>
+                    </div>
+                </div>
+                <div id="propertyDetails" class="hidden">
+                    <div class="form-group">
+                        <label for="real_property_gross">Gross Value of Real Property</label>
+                        <input type="text" id="real_property_gross" name="real_property_gross" placeholder="$">
+                    </div>
+                    <div class="form-group">
+                        <label for="real_property_encumbrance">Encumbrances (Mortgages, Liens)</label>
+                        <input type="text" id="real_property_encumbrance" name="real_property_encumbrance" placeholder="$">
+                    </div>
+                    <div id="propertiesContainer"></div>
+                    <button type="button" class="add-btn" onclick="addProperty()">Add Property Details</button>
+                </div>
+                <div class="form-group">
+                    <label>Types of Assets (check all that apply)</label>
+                    <div class="checkbox-group">
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="asset_bank" name="asset_types[]" value="Bank Accounts">
+                            <label for="asset_bank">Bank Accounts</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="asset_investment" name="asset_types[]" value="Investment Accounts">
+                            <label for="asset_investment">Investment Accounts</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="asset_retirement" name="asset_types[]" value="Retirement Accounts">
+                            <label for="asset_retirement">Retirement Accounts (401k, IRA)</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="asset_life" name="asset_types[]" value="Life Insurance">
+                            <label for="asset_life">Life Insurance</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="asset_vehicle" name="asset_types[]" value="Vehicles">
+                            <label for="asset_vehicle">Vehicles</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="asset_business" name="asset_types[]" value="Business Interests">
+                            <label for="asset_business">Business Interests</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="asset_personal" name="asset_types[]" value="Personal Property">
+                            <label for="asset_personal">Personal Property</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- URGENT MATTERS -->
+            <div class="section">
+                <h2 class="section-title">URGENT MATTERS</h2>
+                <div class="warning-box">Please indicate any time-sensitive issues requiring immediate attention.</div>
+                <div class="form-group">
+                    <label>Are there any urgent matters? (check all that apply)</label>
+                    <div class="checkbox-group">
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="urgent_eviction" name="urgent_matters[]" value="Pending Eviction">
+                            <label for="urgent_eviction">Pending eviction from decedent's property</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="urgent_foreclosure" name="urgent_matters[]" value="Foreclosure">
+                            <label for="urgent_foreclosure">Foreclosure proceedings</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="urgent_business" name="urgent_matters[]" value="Business Operations">
+                            <label for="urgent_business">Ongoing business requiring management</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="urgent_court" name="urgent_matters[]" value="Court Deadlines">
+                            <label for="urgent_court">Court deadlines or pending litigation</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="urgent_tax" name="urgent_matters[]" value="Tax Deadlines">
+                            <label for="urgent_tax">Tax deadlines</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="urgent_access" name="urgent_matters[]" value="Asset Access">
+                            <label for="urgent_access">Need immediate access to funds</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="urgent_details">Please explain any urgent matters:</label>
+                    <textarea id="urgent_details" name="urgent_details" rows="3"></textarea>
+                </div>
+            </div>
+            
+            <!-- ADDITIONAL INFORMATION -->
+            <div class="section">
+                <h2 class="section-title">ADDITIONAL INFORMATION</h2>
+                <div class="form-group">
+                    <label>What type of probate assistance are you seeking?</label>
+                    <div class="checkbox-group">
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="assist_full" name="assistance_type[]" value="Full Probate">
+                            <label for="assist_full">Full probate administration</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="assist_summary" name="assistance_type[]" value="Summary Probate">
+                            <label for="assist_summary">Summary/simplified probate</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="assist_affidavit" name="assistance_type[]" value="Small Estate Affidavit">
+                            <label for="assist_affidavit">Small estate affidavit</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="assist_spousal" name="assistance_type[]" value="Spousal Property Petition">
+                            <label for="assist_spousal">Spousal property petition</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="assist_consult" name="assistance_type[]" value="Consultation">
+                            <label for="assist_consult">Consultation only</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="assist_unsure" name="assistance_type[]" value="Not Sure">
+                            <label for="assist_unsure">Not sure - need guidance</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="additional_info">Is there anything else we should know?</label>
+                    <textarea id="additional_info" name="additional_info" rows="4" placeholder="Special circumstances, family disputes, questions, etc."></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="referral_source">How did you hear about us?</label>
+                    <select id="referral_source" name="referral_source">
+                        <option value="">Select...</option>
+                        <option value="Google Search">Google Search</option>
+                        <option value="Friend/Family">Friend or Family</option>
+                        <option value="Another Attorney">Another Attorney</option>
+                        <option value="Social Media">Social Media</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+            </div>
+            
+            <div class="submit-section">
+                <button type="submit" class="submit-btn">Submit Probate Intake Form</button>
+            </div>
+        </form>
+    </div>
+    
+    <script>
+        let heirCount = 0;
+        let propertyCount = 0;
+        
+        function toggleSpouseInfo() {
+            const married = document.getElementById('marital_status').value === 'Married';
+            document.getElementById('spouseSection').classList.toggle('hidden', !married);
+        }
+        
+        function toggleWillInfo() {
+            const hasWill = document.getElementById('will_yes').checked;
+            document.getElementById('willDetails').classList.toggle('hidden', !hasWill);
+        }
+        
+        function togglePropertyInfo() {
+            const hasProperty = document.getElementById('property_yes').checked;
+            document.getElementById('propertyDetails').classList.toggle('hidden', !hasProperty);
+        }
+        
+        function removeSection(id) {
+            document.getElementById(id).remove();
+            updateHeirsList();
+        }
+        
+        function updateHeirsList() {
+            // Collect all heir information and put it in the hidden textarea
+            const heirsData = [];
+            for (let i = 1; i <= heirCount; i++) {
+                const section = document.getElementById(`heir${i}Section`);
+                if (section) {
+                    const name = section.querySelector(`[name="heir${i}_name"]`).value;
+                    const relationship = section.querySelector(`[name="heir${i}_relationship"]`).value;
+                    const age = section.querySelector(`[name="heir${i}_age"]`).value;
+                    const address = section.querySelector(`[name="heir${i}_address"]`).value;
+                    if (name) {
+                        heirsData.push(`${name},${relationship},${age},${address}`);
+                    }
+                }
+            }
+            document.getElementById('heirs_list').value = heirsData.join('\n');
+        }
+        
+        function addHeir() {
+            heirCount++;
+            const container = document.getElementById('heirsContainer');
+            const section = document.createElement('div');
+            section.className = 'dynamic-section';
+            section.id = `heir${heirCount}Section`;
+            section.innerHTML = `
+                ${heirCount > 1 ? `<button type="button" class="remove-btn" onclick="removeSection('heir${heirCount}Section')">Remove</button>` : ''}
+                <h3>Heir/Beneficiary ${heirCount}</h3>
+                <div class="row">
+                    <div class="form-group">
+                        <label>Full Name</label>
+                        <input type="text" name="heir${heirCount}_name" onchange="updateHeirsList()">
+                    </div>
+                    <div class="form-group">
+                        <label>Relationship</label>
+                        <select name="heir${heirCount}_relationship" onchange="updateHeirsList()">
+                            <option value="">Select...</option>
+                            <option value="Spouse">Spouse</option>
+                            <option value="Child">Child</option>
+                            <option value="Grandchild">Grandchild</option>
+                            <option value="Parent">Parent</option>
+                            <option value="Sibling">Sibling</option>
+                            <option value="Niece/Nephew">Niece/Nephew</option>
+                            <option value="Friend">Friend</option>
+                            <option value="Charity">Charity</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-group">
+                        <label>Age</label>
+                        <input type="number" name="heir${heirCount}_age" onchange="updateHeirsList()">
+                    </div>
+                    <div class="form-group">
+                        <label>Minor?</label>
+                        <select name="heir${heirCount}_minor">
+                            <option value="">Select...</option>
+                            <option value="yes">Yes (Under 18)</option>
+                            <option value="no">No (18 or older)</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Address</label>
+                    <input type="text" name="heir${heirCount}_address" onchange="updateHeirsList()">
+                </div>
+            `;
+            container.appendChild(section);
+        }
+        
+        function addProperty() {
+            propertyCount++;
+            const container = document.getElementById('propertiesContainer');
+            const section = document.createElement('div');
+            section.className = 'dynamic-section';
+            section.id = `property${propertyCount}Section`;
+            section.innerHTML = `
+                ${propertyCount > 1 ? `<button type="button" class="remove-btn" onclick="removeSection('property${propertyCount}Section')">Remove</button>` : ''}
+                <h3>Property ${propertyCount}</h3>
+                <div class="form-group">
+                    <label>Property Address</label>
+                    <input type="text" name="property${propertyCount}_address">
+                </div>
+                <div class="row">
+                    <div class="form-group">
+                        <label>Property Type</label>
+                        <select name="property${propertyCount}_type">
+                            <option value="">Select...</option>
+                            <option value="Single Family Home">Single Family Home</option>
+                            <option value="Condo">Condo</option>
+                            <option value="Multi-Family">Multi-Family</option>
+                            <option value="Commercial">Commercial</option>
+                            <option value="Vacant Land">Vacant Land</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Estimated Value</label>
+                        <input type="text" name="property${propertyCount}_value" placeholder="$">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-group">
+                        <label>Mortgage Balance</label>
+                        <input type="text" name="property${propertyCount}_mortgage" placeholder="$">
+                    </div>
+                    <div class="form-group">
+                        <label>How Title is Held</label>
+                        <select name="property${propertyCount}_title">
+                            <option value="">Select...</option>
+                            <option value="Sole Ownership">Sole Ownership</option>
+                            <option value="Joint Tenancy">Joint Tenancy</option>
+                            <option value="Tenants in Common">Tenants in Common</option>
+                            <option value="Community Property">Community Property</option>
+                            <option value="Trust">Held in Trust</option>
+                            <option value="Unknown">Unknown</option>
+                        </select>
+                    </div>
+                </div>
+            `;
+            container.appendChild(section);
+        }
+        
+        // Add at least one heir section by default
+        addHeir();
+        
+        // Update heirs list before form submission
+        document.getElementById('probateIntakeForm').addEventListener('submit', function(e) {
+            updateHeirsList();
+        });
+    </script>
+</body>
+</html>
