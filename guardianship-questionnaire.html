@@ -1,0 +1,1111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guardianship Questionnaire - Law Offices of Rozsa Gyene</title>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f4f4f4;
+        }
+        
+        /* Header */
+        .header-banner {
+            background: linear-gradient(135deg, #5f7fbf 0%, #3A4B6B 100%);
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        
+        .header-banner h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 42px;
+            margin-bottom: 10px;
+        }
+        
+        .header-banner p {
+            font-size: 18px;
+            opacity: 0.95;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        
+        .section {
+            margin-bottom: 30px;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 8px;
+        }
+        
+        .section-title {
+            font-size: 1.3em;
+            font-weight: bold;
+            color: #1e3a5f;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #c9a961;
+        }
+        
+        .subsection-title {
+            font-size: 1.1em;
+            font-weight: 600;
+            color: #2c3e50;
+            margin: 20px 0 15px 0;
+            padding: 10px;
+            background: #e8f4f8;
+            border-left: 3px solid #c9a961;
+        }
+        
+        .form-group {
+            margin-bottom: 15px;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: 600;
+            color: #555;
+        }
+        
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"],
+        input[type="date"],
+        input[type="number"],
+        select,
+        textarea {
+            width: 100%;
+            padding: 8px 12px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 14px;
+            transition: border-color 0.3s;
+        }
+        
+        input:focus,
+        select:focus,
+        textarea:focus {
+            outline: none;
+            border-color: #c9a961;
+        }
+        
+        .radio-group,
+        .checkbox-group {
+            display: flex;
+            gap: 20px;
+            margin-top: 5px;
+            flex-wrap: wrap;
+        }
+        
+        .radio-item,
+        .checkbox-item {
+            display: flex;
+            align-items: center;
+        }
+        
+        input[type="radio"],
+        input[type="checkbox"] {
+            margin-right: 5px;
+        }
+        
+        .required {
+            color: #e74c3c;
+        }
+        
+        .hidden {
+            display: none !important;
+        }
+        
+        .row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+        }
+        
+        .row-3 {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 15px;
+        }
+        
+        .dynamic-section {
+            background: #eaf6ff;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+            position: relative;
+            border-left: 3px solid #5f7fbf;
+        }
+        
+        .remove-btn {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background: #e74c3c;
+            color: white;
+            border: none;
+            padding: 5px 10px;
+            border-radius: 3px;
+            cursor: pointer;
+            font-size: 12px;
+        }
+        
+        .remove-btn:hover {
+            background: #c0392b;
+        }
+        
+        .add-btn {
+            background: #5f7fbf;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 14px;
+            margin-top: 10px;
+            transition: all 0.3s;
+        }
+        
+        .add-btn:hover {
+            background: #4a69a7;
+            transform: translateY(-2px);
+        }
+        
+        .submit-section {
+            text-align: center;
+            margin-top: 30px;
+        }
+        
+        .submit-btn {
+            background: #27ae60;
+            color: white;
+            border: none;
+            padding: 15px 40px;
+            border-radius: 50px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: bold;
+            transition: all 0.3s;
+        }
+        
+        .submit-btn:hover {
+            background: #229954;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(39, 174, 96, 0.3);
+        }
+        
+        .info-box {
+            background: #d1ecf1;
+            border: 1px solid #bee5eb;
+            color: #0c5460;
+            padding: 15px;
+            border-radius: 4px;
+            margin-bottom: 20px;
+        }
+        
+        .warning-box {
+            background: #fff3cd;
+            border: 1px solid #ffeaa7;
+            color: #856404;
+            padding: 15px;
+            border-radius: 4px;
+            margin-bottom: 20px;
+        }
+        
+        .success-box {
+            background: #d4edda;
+            border: 1px solid #c3e6cb;
+            color: #155724;
+            padding: 15px;
+            border-radius: 4px;
+            margin-bottom: 20px;
+        }
+        
+        @media (max-width: 600px) {
+            .row,
+            .row-3 {
+                grid-template-columns: 1fr;
+            }
+            
+            .radio-group,
+            .checkbox-group {
+                flex-direction: column;
+                gap: 10px;
+            }
+            
+            .header-banner h1 {
+                font-size: 28px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header-banner">
+        <h1>Guardianship Questionnaire</h1>
+        <p>Complete Information for California Minor Guardianship Petition (GC-210)</p>
+    </div>
+    
+    <div class="container">
+        <div class="info-box">
+            <i class="fas fa-info-circle"></i> <strong>Important:</strong> This questionnaire gathers information needed to file a guardianship petition for a minor (under 18) in California. 
+            Guardianship gives an adult the legal authority to care for a minor child when parents are unable to do so.
+        </div>
+        
+        <!-- Replace YOUR-FORM-ID with your actual Getform ID -->
+        <form id="guardianshipForm" action="https://getform.io/f/YOUR-FORM-ID" method="POST">
+            
+            <!-- SECTION 1: PETITIONER INFORMATION -->
+            <div class="section">
+                <h2 class="section-title">SECTION 1: PETITIONER INFORMATION</h2>
+                <div class="info-box">This is the person requesting to be appointed as guardian.</div>
+                
+                <div class="row">
+                    <div class="form-group">
+                        <label for="petitioner_first_name">First Name <span class="required">*</span></label>
+                        <input type="text" id="petitioner_first_name" name="petitioner_first_name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="petitioner_middle_name">Middle Name</label>
+                        <input type="text" id="petitioner_middle_name" name="petitioner_middle_name">
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="petitioner_last_name">Last Name <span class="required">*</span></label>
+                    <input type="text" id="petitioner_last_name" name="petitioner_last_name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="petitioner_address">Street Address <span class="required">*</span></label>
+                    <input type="text" id="petitioner_address" name="petitioner_address" required>
+                </div>
+                
+                <div class="row-3">
+                    <div class="form-group">
+                        <label for="petitioner_city">City <span class="required">*</span></label>
+                        <input type="text" id="petitioner_city" name="petitioner_city" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="petitioner_state">State <span class="required">*</span></label>
+                        <input type="text" id="petitioner_state" name="petitioner_state" value="CA" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="petitioner_zip">ZIP Code <span class="required">*</span></label>
+                        <input type="text" id="petitioner_zip" name="petitioner_zip" required>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="form-group">
+                        <label for="petitioner_phone">Phone Number <span class="required">*</span></label>
+                        <input type="tel" id="petitioner_phone" name="petitioner_phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="petitioner_email">Email Address <span class="required">*</span></label>
+                        <input type="email" id="petitioner_email" name="petitioner_email" required>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="form-group">
+                        <label for="petitioner_dob">Date of Birth</label>
+                        <input type="date" id="petitioner_dob" name="petitioner_dob">
+                    </div>
+                    <div class="form-group">
+                        <label for="petitioner_relationship">Relationship to Minor <span class="required">*</span></label>
+                        <select id="petitioner_relationship" name="petitioner_relationship" required onchange="checkRelationship()">
+                            <option value="">Select...</option>
+                            <option value="grandparent">Grandparent</option>
+                            <option value="aunt_uncle">Aunt/Uncle</option>
+                            <option value="sibling">Adult Sibling</option>
+                            <option value="cousin">Cousin</option>
+                            <option value="family_friend">Family Friend</option>
+                            <option value="foster_parent">Foster Parent</option>
+                            <option value="step_parent">Step-Parent</option>
+                            <option value="other_relative">Other Relative</option>
+                            <option value="non_relative">Non-Relative</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <div class="form-group hidden" id="relationship_details_div">
+                    <label for="relationship_details">Please explain your relationship to the minor:</label>
+                    <textarea id="relationship_details" name="relationship_details" rows="3"></textarea>
+                </div>
+                
+                <div class="form-group">
+                    <label>Are you requesting to be appointed as: <span class="required">*</span></label>
+                    <div class="checkbox-group">
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="guardian_person" name="guardian_type[]" value="person">
+                            <label for="guardian_person">Guardian of the Person (physical custody)</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="guardian_estate" name="guardian_type[]" value="estate">
+                            <label for="guardian_estate">Guardian of the Estate (financial matters)</label>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label>Have you ever been convicted of a crime?</label>
+                    <div class="radio-group">
+                        <div class="radio-item">
+                            <input type="radio" id="crime_yes" name="criminal_history" value="yes" onchange="toggleCrime()">
+                            <label for="crime_yes">Yes</label>
+                        </div>
+                        <div class="radio-item">
+                            <input type="radio" id="crime_no" name="criminal_history" value="no" onchange="toggleCrime()">
+                            <label for="crime_no">No</label>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="form-group hidden" id="crime_details_div">
+                    <label for="crime_details">Please explain (type of crime, date, outcome):</label>
+                    <textarea id="crime_details" name="crime_details" rows="3"></textarea>
+                </div>
+            </div>
+            
+            <!-- SECTION 2: MINOR CHILDREN INFORMATION -->
+            <div class="section">
+                <h2 class="section-title">SECTION 2: MINOR CHILDREN INFORMATION</h2>
+                <div class="info-box">List all minor children for whom guardianship is being requested.</div>
+                
+                <div id="minorsContainer"></div>
+                <button type="button" class="add-btn" onclick="addMinor()">Add Minor Child</button>
+            </div>
+            
+            <!-- SECTION 3: PARENTS' INFORMATION -->
+            <div class="section">
+                <h2 class="section-title">SECTION 3: PARENTS' INFORMATION</h2>
+                
+                <h3 class="subsection-title">Mother's Information</h3>
+                
+                <div class="row">
+                    <div class="form-group">
+                        <label for="mother_first_name">Mother's First Name</label>
+                        <input type="text" id="mother_first_name" name="mother_first_name">
+                    </div>
+                    <div class="form-group">
+                        <label for="mother_last_name">Mother's Last Name</label>
+                        <input type="text" id="mother_last_name" name="mother_last_name">
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="mother_status">Mother's Status <span class="required">*</span></label>
+                    <select id="mother_status" name="mother_status" required onchange="toggleMotherInfo()">
+                        <option value="">Select...</option>
+                        <option value="living">Living</option>
+                        <option value="deceased">Deceased</option>
+                        <option value="unknown">Unknown/Cannot be Located</option>
+                        <option value="rights_terminated">Parental Rights Terminated</option>
+                    </select>
+                </div>
+                
+                <div id="mother_living_info" class="hidden">
+                    <div class="form-group">
+                        <label for="mother_address">Mother's Current Address</label>
+                        <input type="text" id="mother_address" name="mother_address">
+                    </div>
+                    
+                    <div class="row">
+                        <div class="form-group">
+                            <label for="mother_phone">Mother's Phone</label>
+                            <input type="tel" id="mother_phone" name="mother_phone">
+                        </div>
+                        <div class="form-group">
+                            <label for="mother_email">Mother's Email</label>
+                            <input type="email" id="mother_email" name="mother_email">
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label>Does the mother consent to this guardianship?</label>
+                        <div class="radio-group">
+                            <div class="radio-item">
+                                <input type="radio" id="mother_consent_yes" name="mother_consent" value="yes">
+                                <label for="mother_consent_yes">Yes</label>
+                            </div>
+                            <div class="radio-item">
+                                <input type="radio" id="mother_consent_no" name="mother_consent" value="no">
+                                <label for="mother_consent_no">No</label>
+                            </div>
+                            <div class="radio-item">
+                                <input type="radio" id="mother_consent_unknown" name="mother_consent" value="unknown">
+                                <label for="mother_consent_unknown">Unknown</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <h3 class="subsection-title">Father's Information</h3>
+                
+                <div class="row">
+                    <div class="form-group">
+                        <label for="father_first_name">Father's First Name</label>
+                        <input type="text" id="father_first_name" name="father_first_name">
+                    </div>
+                    <div class="form-group">
+                        <label for="father_last_name">Father's Last Name</label>
+                        <input type="text" id="father_last_name" name="father_last_name">
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="father_status">Father's Status <span class="required">*</span></label>
+                    <select id="father_status" name="father_status" required onchange="toggleFatherInfo()">
+                        <option value="">Select...</option>
+                        <option value="living">Living</option>
+                        <option value="deceased">Deceased</option>
+                        <option value="unknown">Unknown/Cannot be Located</option>
+                        <option value="rights_terminated">Parental Rights Terminated</option>
+                        <option value="not_established">Paternity Not Established</option>
+                    </select>
+                </div>
+                
+                <div id="father_living_info" class="hidden">
+                    <div class="form-group">
+                        <label for="father_address">Father's Current Address</label>
+                        <input type="text" id="father_address" name="father_address">
+                    </div>
+                    
+                    <div class="row">
+                        <div class="form-group">
+                            <label for="father_phone">Father's Phone</label>
+                            <input type="tel" id="father_phone" name="father_phone">
+                        </div>
+                        <div class="form-group">
+                            <label for="father_email">Father's Email</label>
+                            <input type="email" id="father_email" name="father_email">
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label>Does the father consent to this guardianship?</label>
+                        <div class="radio-group">
+                            <div class="radio-item">
+                                <input type="radio" id="father_consent_yes" name="father_consent" value="yes">
+                                <label for="father_consent_yes">Yes</label>
+                            </div>
+                            <div class="radio-item">
+                                <input type="radio" id="father_consent_no" name="father_consent" value="no">
+                                <label for="father_consent_no">No</label>
+                            </div>
+                            <div class="radio-item">
+                                <input type="radio" id="father_consent_unknown" name="father_consent" value="unknown">
+                                <label for="father_consent_unknown">Unknown</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- SECTION 4: REASONS FOR GUARDIANSHIP -->
+            <div class="section">
+                <h2 class="section-title">SECTION 4: REASONS FOR GUARDIANSHIP</h2>
+                <div class="warning-box">
+                    <i class="fas fa-exclamation-triangle"></i> The court needs to understand why the parents cannot care for the child(ren).
+                </div>
+                
+                <div class="form-group">
+                    <label>Primary reasons parents cannot provide care (check all that apply): <span class="required">*</span></label>
+                    <div class="checkbox-group">
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="reason_abandonment" name="guardianship_reasons[]" value="abandonment">
+                            <label for="reason_abandonment">Abandonment</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="reason_substance" name="guardianship_reasons[]" value="substance_abuse">
+                            <label for="reason_substance">Substance Abuse</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="reason_incarceration" name="guardianship_reasons[]" value="incarceration">
+                            <label for="reason_incarceration">Incarceration</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="reason_mental" name="guardianship_reasons[]" value="mental_illness">
+                            <label for="reason_mental">Mental Illness</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="reason_military" name="guardianship_reasons[]" value="military">
+                            <label for="reason_military">Military Deployment</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="reason_medical" name="guardianship_reasons[]" value="medical">
+                            <label for="reason_medical">Medical Condition</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="reason_abuse" name="guardianship_reasons[]" value="abuse">
+                            <label for="reason_abuse">Child Abuse/Neglect</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="reason_death" name="guardianship_reasons[]" value="death">
+                            <label for="reason_death">Death of Parent(s)</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="reason_voluntary" name="guardianship_reasons[]" value="voluntary">
+                            <label for="reason_voluntary">Voluntary Surrender</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="reason_other" name="guardianship_reasons[]" value="other">
+                            <label for="reason_other">Other</label>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="reason_details">Please provide detailed explanation: <span class="required">*</span></label>
+                    <textarea id="reason_details" name="reason_details" rows="5" required placeholder="Explain the specific circumstances requiring guardianship..."></textarea>
+                </div>
+                
+                <div class="form-group">
+                    <label for="current_living">Where is/are the child(ren) currently living? <span class="required">*</span></label>
+                    <textarea id="current_living" name="current_living" rows="3" required placeholder="Current address and with whom..."></textarea>
+                </div>
+                
+                <div class="form-group">
+                    <label for="how_long">How long has/have the child(ren) been with you?</label>
+                    <input type="text" id="how_long" name="how_long" placeholder="e.g., 6 months, 2 years">
+                </div>
+            </div>
+            
+            <!-- SECTION 5: INDIAN CHILD WELFARE ACT (ICWA) -->
+            <div class="section">
+                <h2 class="section-title">SECTION 5: INDIAN CHILD WELFARE ACT (ICWA)</h2>
+                <div class="info-box">
+                    Federal law provides special protections for Native American children. This information is required.
+                </div>
+                
+                <div class="form-group">
+                    <label>Is the child or either parent a member or eligible for membership in a Native American tribe? <span class="required">*</span></label>
+                    <div class="radio-group">
+                        <div class="radio-item">
+                            <input type="radio" id="icwa_yes" name="icwa_applies" value="yes" onchange="toggleICWA()" required>
+                            <label for="icwa_yes">Yes</label>
+                        </div>
+                        <div class="radio-item">
+                            <input type="radio" id="icwa_no" name="icwa_applies" value="no" onchange="toggleICWA()" required>
+                            <label for="icwa_no">No</label>
+                        </div>
+                        <div class="radio-item">
+                            <input type="radio" id="icwa_unknown" name="icwa_applies" value="unknown" onchange="toggleICWA()" required>
+                            <label for="icwa_unknown">Unknown</label>
+                        </div>
+                    </div>
+                </div>
+                
+                <div id="icwa_details" class="hidden">
+                    <div class="form-group">
+                        <label for="tribe_name">Name of Tribe:</label>
+                        <input type="text" id="tribe_name" name="tribe_name">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="tribe_contact">Tribal Contact Information:</label>
+                        <textarea id="tribe_contact" name="tribe_contact" rows="3"></textarea>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- SECTION 6: OTHER INTERESTED PERSONS -->
+            <div class="section">
+                <h2 class="section-title">SECTION 6: OTHER INTERESTED PERSONS</h2>
+                <div class="info-box">
+                    List all persons who have an interest in this guardianship (grandparents, siblings, other relatives, etc.)
+                </div>
+                
+                <div id="interestedContainer"></div>
+                <button type="button" class="add-btn" onclick="addInterested()">Add Interested Person</button>
+            </div>
+            
+            <!-- SECTION 7: CHILD'S ESTATE (If requesting Guardianship of Estate) -->
+            <div class="section">
+                <h2 class="section-title">SECTION 7: CHILD'S ESTATE</h2>
+                <div class="info-box">Complete if the child has assets requiring management (inheritance, lawsuit settlement, etc.)</div>
+                
+                <div class="form-group">
+                    <label>Does the child have any assets or income? <span class="required">*</span></label>
+                    <div class="radio-group">
+                        <div class="radio-item">
+                            <input type="radio" id="assets_yes" name="has_assets" value="yes" onchange="toggleAssets()" required>
+                            <label for="assets_yes">Yes</label>
+                        </div>
+                        <div class="radio-item">
+                            <input type="radio" id="assets_no" name="has_assets" value="no" onchange="toggleAssets()" required>
+                            <label for="assets_no">No</label>
+                        </div>
+                    </div>
+                </div>
+                
+                <div id="assets_details" class="hidden">
+                    <div class="form-group">
+                        <label>Type of assets (check all that apply):</label>
+                        <div class="checkbox-group">
+                            <div class="checkbox-item">
+                                <input type="checkbox" id="asset_inheritance" name="asset_types[]" value="inheritance">
+                                <label for="asset_inheritance">Inheritance</label>
+                            </div>
+                            <div class="checkbox-item">
+                                <input type="checkbox" id="asset_settlement" name="asset_types[]" value="settlement">
+                                <label for="asset_settlement">Lawsuit Settlement</label>
+                            </div>
+                            <div class="checkbox-item">
+                                <input type="checkbox" id="asset_ss" name="asset_types[]" value="social_security">
+                                <label for="asset_ss">Social Security Benefits</label>
+                            </div>
+                            <div class="checkbox-item">
+                                <input type="checkbox" id="asset_bank" name="asset_types[]" value="bank_account">
+                                <label for="asset_bank">Bank Accounts</label>
+                            </div>
+                            <div class="checkbox-item">
+                                <input type="checkbox" id="asset_property" name="asset_types[]" value="real_property">
+                                <label for="asset_property">Real Property</label>
+                            </div>
+                            <div class="checkbox-item">
+                                <input type="checkbox" id="asset_other" name="asset_types[]" value="other">
+                                <label for="asset_other">Other</label>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="asset_value">Estimated total value of child's estate:</label>
+                        <input type="text" id="asset_value" name="asset_value" placeholder="$">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="asset_description">Describe assets in detail:</label>
+                        <textarea id="asset_description" name="asset_description" rows="4"></textarea>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="blocked_account">Will assets be placed in blocked account?</label>
+                        <select id="blocked_account" name="blocked_account">
+                            <option value="">Select...</option>
+                            <option value="yes">Yes</option>
+                            <option value="no">No</option>
+                            <option value="partial">Partially</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- SECTION 8: VISITATION -->
+            <div class="section">
+                <h2 class="section-title">SECTION 8: VISITATION</h2>
+                
+                <div class="form-group">
+                    <label>Should the parents have visitation rights? <span class="required">*</span></label>
+                    <div class="radio-group">
+                        <div class="radio-item">
+                            <input type="radio" id="visitation_yes" name="visitation" value="yes" onchange="toggleVisitation()" required>
+                            <label for="visitation_yes">Yes</label>
+                        </div>
+                        <div class="radio-item">
+                            <input type="radio" id="visitation_no" name="visitation" value="no" onchange="toggleVisitation()" required>
+                            <label for="visitation_no">No</label>
+                        </div>
+                        <div class="radio-item">
+                            <input type="radio" id="visitation_supervised" name="visitation" value="supervised" onchange="toggleVisitation()" required>
+                            <label for="visitation_supervised">Yes, but supervised only</label>
+                        </div>
+                    </div>
+                </div>
+                
+                <div id="visitation_details" class="hidden">
+                    <div class="form-group">
+                        <label for="visitation_schedule">Proposed visitation schedule:</label>
+                        <textarea id="visitation_schedule" name="visitation_schedule" rows="3" placeholder="e.g., Every other weekend, holidays..."></textarea>
+                    </div>
+                </div>
+                
+                <div id="no_visitation_reason" class="hidden">
+                    <div class="form-group">
+                        <label for="no_visitation_explanation">Explain why visitation should not be allowed:</label>
+                        <textarea id="no_visitation_explanation" name="no_visitation_explanation" rows="3"></textarea>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- SECTION 9: EDUCATION AND MEDICAL -->
+            <div class="section">
+                <h2 class="section-title">SECTION 9: EDUCATION AND MEDICAL INFORMATION</h2>
+                
+                <h3 class="subsection-title">School Information</h3>
+                
+                <div class="form-group">
+                    <label for="school_name">Current School Name:</label>
+                    <input type="text" id="school_name" name="school_name">
+                </div>
+                
+                <div class="row">
+                    <div class="form-group">
+                        <label for="grade_level">Grade Level:</label>
+                        <input type="text" id="grade_level" name="grade_level">
+                    </div>
+                    <div class="form-group">
+                        <label for="school_district">School District:</label>
+                        <input type="text" id="school_district" name="school_district">
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label>Does the child have an IEP or 504 Plan?</label>
+                    <div class="radio-group">
+                        <div class="radio-item">
+                            <input type="radio" id="iep_yes" name="has_iep" value="yes">
+                            <label for="iep_yes">Yes, IEP</label>
+                        </div>
+                        <div class="radio-item">
+                            <input type="radio" id="504_yes" name="has_iep" value="504">
+                            <label for="504_yes">Yes, 504 Plan</label>
+                        </div>
+                        <div class="radio-item">
+                            <input type="radio" id="iep_no" name="has_iep" value="no">
+                            <label for="iep_no">No</label>
+                        </div>
+                    </div>
+                </div>
+                
+                <h3 class="subsection-title">Medical Information</h3>
+                
+                <div class="form-group">
+                    <label for="doctor_name">Primary Doctor/Pediatrician:</label>
+                    <input type="text" id="doctor_name" name="doctor_name">
+                </div>
+                
+                <div class="form-group">
+                    <label for="doctor_phone">Doctor's Phone:</label>
+                    <input type="tel" id="doctor_phone" name="doctor_phone">
+                </div>
+                
+                <div class="form-group">
+                    <label for="health_insurance">Health Insurance Provider:</label>
+                    <input type="text" id="health_insurance" name="health_insurance">
+                </div>
+                
+                <div class="form-group">
+                    <label for="medical_conditions">Any medical conditions or special needs:</label>
+                    <textarea id="medical_conditions" name="medical_conditions" rows="3"></textarea>
+                </div>
+                
+                <div class="form-group">
+                    <label for="medications">Current medications:</label>
+                    <textarea id="medications" name="medications" rows="3"></textarea>
+                </div>
+            </div>
+            
+            <!-- SECTION 10: TEMPORARY VS PERMANENT -->
+            <div class="section">
+                <h2 class="section-title">SECTION 10: TYPE OF GUARDIANSHIP</h2>
+                
+                <div class="form-group">
+                    <label>What type of guardianship are you seeking? <span class="required">*</span></label>
+                    <div class="radio-group">
+                        <div class="radio-item">
+                            <input type="radio" id="permanent_guard" name="guardianship_type" value="permanent" required>
+                            <label for="permanent_guard">Permanent Guardianship</label>
+                        </div>
+                        <div class="radio-item">
+                            <input type="radio" id="temporary_guard" name="guardianship_type" value="temporary" required>
+                            <label for="temporary_guard">Temporary Guardianship (90 days or less)</label>
+                        </div>
+                        <div class="radio-item">
+                            <input type="radio" id="emergency_guard" name="guardianship_type" value="emergency" required>
+                            <label for="emergency_guard">Emergency Guardianship (immediate danger)</label>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="end_date">If temporary, expected end date:</label>
+                    <input type="date" id="end_date" name="end_date">
+                </div>
+                
+                <div class="form-group">
+                    <label for="reunification">Is reunification with parents expected?</label>
+                    <select id="reunification" name="reunification">
+                        <option value="">Select...</option>
+                        <option value="yes">Yes</option>
+                        <option value="no">No</option>
+                        <option value="unknown">Unknown</option>
+                    </select>
+                </div>
+            </div>
+            
+            <!-- SECTION 11: COURT INFORMATION -->
+            <div class="section">
+                <h2 class="section-title">SECTION 11: COURT INFORMATION</h2>
+                
+                <div class="form-group">
+                    <label for="court_county">Which county court will you file in? <span class="required">*</span></label>
+                    <select id="court_county" name="court_county" required>
+                        <option value="">Select...</option>
+                        <option value="los_angeles">Los Angeles</option>
+                        <option value="orange">Orange</option>
+                        <option value="san_bernardino">San Bernardino</option>
+                        <option value="riverside">Riverside</option>
+                        <option value="ventura">Ventura</option>
+                        <option value="san_diego">San Diego</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label>Are there any existing court cases involving this child?</label>
+                    <div class="radio-group">
+                        <div class="radio-item">
+                            <input type="radio" id="existing_yes" name="existing_cases" value="yes" onchange="toggleExisting()">
+                            <label for="existing_yes">Yes</label>
+                        </div>
+                        <div class="radio-item">
+                            <input type="radio" id="existing_no" name="existing_cases" value="no" onchange="toggleExisting()">
+                            <label for="existing_no">No</label>
+                        </div>
+                    </div>
+                </div>
+                
+                <div id="existing_details" class="hidden">
+                    <div class="form-group">
+                        <label for="case_type">Type of case:</label>
+                        <select id="case_type" name="case_type">
+                            <option value="">Select...</option>
+                            <option value="dependency">Dependency (CPS/DCFS)</option>
+                            <option value="family_law">Family Law (Custody)</option>
+                            <option value="delinquency">Delinquency</option>
+                            <option value="adoption">Adoption</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="case_number">Case Number:</label>
+                        <input type="text" id="case_number" name="case_number">
+                    </div>
+                </div>
+            </div>
+            
+            <!-- SECTION 12: ADDITIONAL INFORMATION -->
+            <div class="section">
+                <h2 class="section-title">SECTION 12: ADDITIONAL INFORMATION</h2>
+                
+                <div class="form-group">
+                    <label for="special_circumstances">Are there any special circumstances the court should know about?</label>
+                    <textarea id="special_circumstances" name="special_circumstances" rows="4" placeholder="Immigration issues, pending criminal matters, CPS involvement, etc."></textarea>
+                </div>
+                
+                <div class="form-group">
+                    <label for="additional_requests">Any special requests for the court?</label>
+                    <textarea id="additional_requests" name="additional_requests" rows="3" placeholder="Name change, travel authorization, etc."></textarea>
+                </div>
+                
+                <div class="form-group">
+                    <label for="attorney_needed">Do you need attorney representation?</label>
+                    <select id="attorney_needed" name="attorney_needed">
+                        <option value="">Select...</option>
+                        <option value="yes_full">Yes, full representation</option>
+                        <option value="yes_limited">Yes, limited scope</option>
+                        <option value="yes_consultation">Yes, consultation only</option>
+                        <option value="no">No, self-representation</option>
+                    </select>
+                </div>
+            </div>
+            
+            <div class="submit-section">
+                <button type="submit" class="submit-btn">Submit Guardianship Questionnaire</button>
+            </div>
+        </form>
+    </div>
+    
+    <script>
+        let minorCount = 0;
+        let interestedCount = 0;
+        
+        function checkRelationship() {
+            const relationship = document.getElementById('petitioner_relationship').value;
+            const detailsDiv = document.getElementById('relationship_details_div');
+            if (relationship === 'non_relative' || relationship === 'other_relative') {
+                detailsDiv.classList.remove('hidden');
+            } else {
+                detailsDiv.classList.add('hidden');
+            }
+        }
+        
+        function toggleCrime() {
+            const hasCrime = document.getElementById('crime_yes').checked;
+            document.getElementById('crime_details_div').classList.toggle('hidden', !hasCrime);
+        }
+        
+        function toggleMotherInfo() {
+            const status = document.getElementById('mother_status').value;
+            const infoDiv = document.getElementById('mother_living_info');
+            if (status === 'living') {
+                infoDiv.classList.remove('hidden');
+            } else {
+                infoDiv.classList.add('hidden');
+            }
+        }
+        
+        function toggleFatherInfo() {
+            const status = document.getElementById('father_status').value;
+            const infoDiv = document.getElementById('father_living_info');
+            if (status === 'living') {
+                infoDiv.classList.remove('hidden');
+            } else {
+                infoDiv.classList.add('hidden');
+            }
+        }
+        
+        function toggleICWA() {
+            const applies = document.getElementById('icwa_yes').checked;
+            document.getElementById('icwa_details').classList.toggle('hidden', !applies);
+        }
+        
+        function toggleAssets() {
+            const hasAssets = document.getElementById('assets_yes').checked;
+            document.getElementById('assets_details').classList.toggle('hidden', !hasAssets);
+        }
+        
+        function toggleVisitation() {
+            const visitation = document.querySelector('input[name="visitation"]:checked')?.value;
+            document.getElementById('visitation_details').classList.toggle('hidden', visitation !== 'yes' && visitation !== 'supervised');
+            document.getElementById('no_visitation_reason').classList.toggle('hidden', visitation !== 'no');
+        }
+        
+        function toggleExisting() {
+            const hasExisting = document.getElementById('existing_yes').checked;
+            document.getElementById('existing_details').classList.toggle('hidden', !hasExisting);
+        }
+        
+        function removeSection(id) {
+            document.getElementById(id).remove();
+        }
+        
+        function addMinor() {
+            minorCount++;
+            const container = document.getElementById('minorsContainer');
+            const section = document.createElement('div');
+            section.className = 'dynamic-section';
+            section.id = `minor${minorCount}Section`;
+            section.innerHTML = `
+                ${minorCount > 1 ? `<button type="button" class="remove-btn" onclick="removeSection('minor${minorCount}Section')">Remove</button>` : ''}
+                <h3>Minor Child ${minorCount}</h3>
+                <div class="row">
+                    <div class="form-group">
+                        <label>First Name <span class="required">*</span></label>
+                        <input type="text" name="minor${minorCount}_first_name" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Middle Name</label>
+                        <input type="text" name="minor${minorCount}_middle_name">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Last Name <span class="required">*</span></label>
+                    <input type="text" name="minor${minorCount}_last_name" required>
+                </div>
+                <div class="row">
+                    <div class="form-group">
+                        <label>Date of Birth <span class="required">*</span></label>
+                        <input type="date" name="minor${minorCount}_dob" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Age <span class="required">*</span></label>
+                        <input type="number" name="minor${minorCount}_age" min="0" max="17" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-group">
+                        <label>Gender</label>
+                        <select name="minor${minorCount}_gender">
+                            <option value="">Select...</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Birth State/Country</label>
+                        <input type="text" name="minor${minorCount}_birthplace">
+                    </div>
+                </div>
+            `;
+            container.appendChild(section);
+        }
+        
+        function addInterested() {
+            interestedCount++;
+            const container = document.getElementById('interestedContainer');
+            const section = document.createElement('div');
+            section.className = 'dynamic-section';
+            section.id = `interested${interestedCount}Section`;
+            section.innerHTML = `
+                ${interestedCount > 1 ? `<button type="button" class="remove-btn" onclick="removeSection('interested${interestedCount}Section')">Remove</button>` : ''}
+                <h3>Interested Person ${interestedCount}</h3>
+                <div class="row">
+                    <div class="form-group">
+                        <label>Full Name</label>
+                        <input type="text" name="interested${interestedCount}_name">
+                    </div>
+                    <div class="form-group">
+                        <label>Relationship to Minor</label>
+                        <select name="interested${interestedCount}_relationship">
+                            <option value="">Select...</option>
+                            <option value="grandparent">Grandparent</option>
+                            <option value="aunt_uncle">Aunt/Uncle</option>
+                            <option value="sibling">Sibling</option>
+                            <option value="cousin">Cousin</option>
+                            <option value="step_parent">Step-Parent</option>
+                            <option value="foster_parent">Foster Parent</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Address</label>
+                    <input type="text" name="interested${interestedCount}_address">
+                </div>
+                <div class="row">
+                    <div class="form-group">
+                        <label>Phone</label>
+                        <input type="tel" name="interested${interestedCount}_phone">
+                    </div>
+                    <div class="form-group">
+                        <label>Email</label>
+                        <input type="email" name="interested${interestedCount}_email">
+                    </div>
+                </div>
+            `;
+            container.appendChild(section);
+        }
+        
+        // Add at least one minor section by default
+        addMinor();
+    </script>
+</body>
+</html>
