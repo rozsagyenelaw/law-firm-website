@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Living Trusts - Law Offices of Rozsa Gyene</title>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary-blue: #1e3a5f;
+            --accent-gold: #c9a961;
+            --text-dark: #2c3e50;
+            --text-light: #6c757d;
+            --background: #ffffff;
+            --section-bg: #f8f9fa;
+            --border-color: #dee2e6;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            color: var(--text-dark);
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Header Styles - Same as homepage */
+        header {
+            background: white;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .top-bar {
+            background: var(--primary-blue);
+            color: white;
+            padding: 10px 0;
+            font-size: 14px;
+        }
+
+        .top-bar .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .top-bar a {
+            color: var(--accent-gold);
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        nav {
+            padding: 20px 0;
+        }
+
+        nav .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            color: var(--primary-blue);
+        }
+
+        .logo-text {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .logo-text .firm-name {
+            font-family: 'Playfair Display', serif;
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 1.2;
+        }
+
+        .logo-text .tagline {
+            font-size: 12px;
+            color: var(--text-light);
+            margin-top: 2px;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, #3A4B6B 0%, #2c5282 100%);
+            color: white;
+            padding: 100px 0;
+            position: relative;
+        }
+
+        .hero h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 56px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .hero-subtitle {
+            font-size: 24px;
+            text-align: center;
+            color: var(--accent-gold);
+            margin-bottom: 30px;
+        }
+
+        .hero-description {
+            font-size: 18px;
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto 40px;
+            line-height: 1.8;
+        }
+
+        .hero-buttons {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .btn-primary {
+            background: var(--accent-gold);
+            color: white;
+            padding: 15px 40px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 18px;
+            transition: all 0.3s;
+            display: inline-block;
+        }
+
+        .btn-primary:hover {
+            background: #b8982f;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(201, 169, 97, 0.3);
+        }
+
+        .btn-secondary {
+            background: transparent;
+            color: white;
+            border: 2px solid white;
+            padding: 13px 40px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 18px;
+            transition: all 0.3s;
+            display: inline-block;
+        }
+
+        .btn-secondary:hover {
+            background: white;
+            color: var(--primary-blue);
+        }
+
+        .hero-price {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 20px;
+        }
+
+        .hero-price strong {
+            color: var(--accent-gold);
+            font-size: 28px;
+        }
+
+        .limited-offer {
+            background: rgba(201, 169, 97, 0.2);
+            padding: 10px 20px;
+            border-radius: 30px;
+            display: inline-block;
+            margin-top: 15px;
+        }
+
+        /* Stats Section */
+        .stats {
+            background: #3A4B6B;
+            padding: 60px 0;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 40px;
+            text-align: center;
+        }
+
+        .stat-item {
+            color: white;
+        }
+
+        .stat-number {
+            font-size: 56px;
+            font-weight: bold;
+            color: var(--accent-gold);
+            margin-bottom: 10px;
+        }
+
+        .stat-label {
+            font-size: 20px;
+        }
+
+        /* Benefits Section */
+        .benefits {
+            padding: 80px 0;
+            background: white;
+        }
+
+        .section-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 42px;
+            text-align: center;
+            color: var(--primary-blue);
+            margin-bottom: 60px;
+        }
+
+        .benefits-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 30px;
+        }
+
+        .benefit-card {
+            background: var(--section-bg);
+            padding: 30px;
+            border-left: 4px solid var(--accent-gold);
+            transition: all 0.3s;
+        }
+
+        .benefit-card:hover {
+            transform: translateX(10px);
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+        }
+
+        .benefit-card h3 {
+            color: var(--primary-blue);
+            margin-bottom: 15px;
+            font-size: 22px;
+        }
+
+        .benefit-card p {
+            color: var(--text-light);
+            line-height: 1.6;
+        }
+
+        /* What's Included Section */
+        .included {
+            background: linear-gradient(135deg, #E8EAF6 0%, #C5CAE9 100%);
+            padding: 80px 0;
+        }
+
+        .included-box {
+            background: white;
+            padding: 50px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .included-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+            margin-top: 30px;
+        }
+
+        .included-item {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .included-item i {
+            color: var(--accent-gold);
+            font-size: 20px;
+        }
+
+        /* CTA Section */
+        .cta {
+            background: var(--primary-blue);
+            padding: 60px 0;
+            text-align: center;
+        }
+
+        .cta h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 42px;
+            color: white;
+            margin-bottom: 20px;
+        }
+
+        .cta p {
+            color: white;
+            font-size: 20px;
+            margin-bottom: 30px;
+        }
+
+        .phone-large {
+            font-size: 36px;
+            color: var(--accent-gold);
+            font-weight: bold;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 20px;
+        }
+
+        /* Form Section */
+        .form-section {
+            padding: 80px 0;
+            background: white;
+        }
+
+        .form-container {
+            max-width: 700px;
+            margin: 0 auto;
+            background: var(--section-bg);
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+        }
+
+        .form-group {
+            margin-bottom: 25px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 10px;
+            color: var(--primary-blue);
+            font-weight: 600;
+            font-size: 18px;
+        }
+
+        .form-group input,
+        .form-group select {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid var(--border-color);
+            border-radius: 8px;
+            font-size: 16px;
+            transition: border-color 0.3s;
+        }
+
+        .form-group input:focus,
+        .form-group select:focus {
+            outline: none;
+            border-color: var(--accent-gold);
+        }
+
+        .radio-group {
+            display: flex;
+            gap: 30px;
+            margin-top: 10px;
+        }
+
+        .radio-group label {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            cursor: pointer;
+            font-weight: normal;
+        }
+
+        .submit-btn {
+            background: var(--accent-gold);
+            color: white;
+            padding: 15px 50px;
+            border: none;
+            border-radius: 50px;
+            font-size: 18px;
+            font-weight: 600;
+            cursor: pointer;
+            width: 100%;
+            transition: all 0.3s;
+        }
+
+        .submit-btn:hover {
+            background: #b8982f;
+            transform: translateY(-2px);
+        }
+
+        /* Footer */
+        footer {
+            background: var(--primary-blue);
+            color: white;
+            padding: 40px 0;
+            text-align: center;
+        }
+
+        .footer-contact {
+            margin-bottom: 20px;
+        }
+
+        .footer-contact a {
+            color: var(--accent-gold);
+            text-decoration: none;
+            font-size: 18px;
+            margin: 0 20px;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 36px;
+            }
+            
+            .stat-number {
+                font-size: 36px;
+            }
+            
+            .benefits-grid,
+            .included-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="top-bar">
+            <div class="container">
+                <div>
+                    <i class="fas fa-certificate"></i> Licensed California Attorney - Bar #208356
+                </div>
+                <div>
+                    <i class="fas fa-phone"></i> Free Consultation: <a href="tel:8182916217">(818) 291-6217</a>
+                </div>
+            </div>
+        </div>
+        <nav>
+            <div class="container">
+                <a href="/" class="logo">
+                    <div class="logo-text">
+                        <span class="firm-name">LAW OFFICES OF ROZSA GYENE</span>
+                        <span class="tagline">Estate Planning & Probate Specialists Since 2001</span>
+                    </div>
+                </a>
+                <div style="display: flex; gap: 20px; align-items: center;">
+                    <a href="/" style="color: var(--text-dark); text-decoration: none;">Home</a>
+                    <a href="https://square.site/book/0W2A8PKKPYC21/law-offices-of-rozsa-gyene-glendale-ca" class="btn-primary" style="padding: 10px 25px; font-size: 14px;">Book Now</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Living Trusts</h1>
+            <p class="hero-subtitle">Protect Your Family and Assets Today</p>
+            <p class="hero-description">
+                We'll craft a personalized estate plan that allows you to protect the assets you've worked hard to build, 
+                and ensure that your loved ones are taken care of no matter what the future holds.
+            </p>
+            
+            <div class="hero-buttons">
+                <a href="https://square.site/book/0W2A8PKKPYC21/law-offices-of-rozsa-gyene-glendale-ca" class="btn-primary">Book An Appointment</a>
+                <a href="#form" class="btn-secondary">Start Online</a>
+            </div>
+            
+            <div class="hero-price">
+                <p>Individual Trust: <strong>$575</strong></p>
+                <p>Married Trust: <strong>$675</strong></p>
+                <div class="limited-offer">
+                    <strong>Limited Time Offer!</strong> Regular Price: $1,900<br>
+                    Offer Expires September 14, 2025
+                </div>
+                <p style="margin-top: 20px;">Call Now for a Free Consultation:</p>
+                <a href="tel:8182916217" style="color: var(--accent-gold); font-size: 32px; font-weight: bold; text-decoration: none;">(818) 291-6217</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="container">
+            <h2 style="text-align: center; color: white; font-size: 42px; margin-bottom: 50px; font-family: 'Playfair Display', serif;">
+                Why Choose Law Offices of Rozsa Gyene for Your Living Trust?
+            </h2>
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-number">3,000+</div>
+                    <div class="stat-label">Estate Plans Created</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">25+</div>
+                    <div class="stat-label">Years Experience</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">100%</div>
+                    <div class="stat-label">Attorney Drafted</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">3-5 Days</div>
+                    <div class="stat-label">Document Delivery</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="benefits">
+        <div class="container">
+            <h2 class="section-title">Benefits of a Living Trust</h2>
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <h3><i class="fas fa-check" style="color: var(--accent-gold); margin-right: 10px;"></i>Avoid Probate Completely</h3>
+                    <p>Save your family 6-18 months and thousands in court costs. Assets transfer immediately upon death.</p>
+                </div>
+                <div class="benefit-card">
+                    <h3><i class="fas fa-check" style="color: var(--accent-gold); margin-right: 10px;"></i>Maintain Total Privacy</h3>
+                    <p>Unlike wills, trusts are completely private. No public court records of your assets or beneficiaries.</p>
+                </div>
+                <div class="benefit-card">
+                    <h3><i class="fas fa-check" style="color: var(--accent-gold); margin-right: 10px;"></i>Protect During Incapacity</h3>
+                    <p>If you become unable to manage affairs, your chosen successor trustee steps in immediately - no court needed.</p>
+                </div>
+                <div class="benefit-card">
+                    <h3><i class="fas fa-check" style="color: var(--accent-gold); margin-right: 10px;"></i>Save on Taxes</h3>
+                    <p>Married couples can protect up to $27 million from estate taxes with proper trust planning.</p>
+                </div>
+                <div class="benefit-card">
+                    <h3><i class="fas fa-check" style="color: var(--accent-gold); margin-right: 10px;"></i>Flexible & Revocable</h3>
+                    <p>Change beneficiaries, trustees, or terms anytime during your lifetime. You maintain complete control.</p>
+                </div>
+                <div class="benefit-card">
+                    <h3><i class="fas fa-check" style="color: var(--accent-gold); margin-right: 10px;"></i>Protect Minor Children</h3>
+                    <p>Set age restrictions and conditions for inheritance. Name guardians and trustees you trust.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- What's Included Section -->
+    <section class="included">
+        <div class="container">
+            <h2 class="section-title" style="margin-bottom: 40px;">Your Attorney-Drafted Estate Plan Includes:</h2>
+            <div class="included-box">
+                <div class="included-grid">
+                    <div class="included-item">
+                        <i class="fas fa-file-contract"></i>
+                        <span>Living Trust</span>
+                    </div>
+                    <div class="included-item">
+                        <i class="fas fa-file-alt"></i>
+                        <span>Pour-Over Will</span>
+                    </div>
+                    <div class="included-item">
+                        <i class="fas fa-gavel"></i>
+                        <span>Durable Power of Attorney</span>
+                    </div>
+                    <div class="included-item">
+                        <i class="fas fa-heartbeat"></i>
+                        <span>Advance Health Care Directive</span>
+                    </div>
+                    <div class="included-item">
+                        <i class="fas fa-shield-alt"></i>
+                        <span>HIPAA Authorization Form</span>
+                    </div>
+                    <div class="included-item">
+                        <i class="fas fa-user-shield"></i>
+                        <span>Nominations of Guardians for Minor Children</span>
+                    </div>
+                    <div class="included-item">
+                        <i class="fas fa-certificate"></i>
+                        <span>Certificate of Trust</span>
+                    </div>
+                    <div class="included-item">
+                        <i class="fas fa-home"></i>
+                        <span>Trust Transfer Deed</span>
+                    </div>
+                    <div class="included-item">
+                        <i class="fas fa-list"></i>
+                        <span>Personal Property Assignment</span>
+                    </div>
+                    <div class="included-item">
+                        <i class="fas fa-file-signature"></i>
+                        <span>Personal Property Memorandum</span>
+                    </div>
+                    <div class="included-item">
+                        <i class="fas fa-hospital"></i>
+                        <span>Authorization for Release of Protected Health Information</span>
+                    </div>
+                    <div class="included-item">
+                        <i class="fas fa-plus"></i>
+                        <span>& More...</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <h2>Can't Make it to the Office?</h2>
+            <p>Draft Your Living Trust Online or Over the Phone with an Attorney!</p>
+            <div class="hero-buttons">
+                <a href="https://square.site/book/0W2A8PKKPYC21/law-offices-of-rozsa-gyene-glendale-ca" class="btn-primary">Book An Appointment</a>
+                <a href="#form" class="btn-secondary" style="border-color: white;">Start Now Online</a>
+            </div>
+            <a href="tel:8182916217" class="phone-large">(818) 291-6217</a>
+        </div>
+    </section>
+
+    <!-- Form Section -->
+    <section class="form-section" id="form">
+        <div class="container">
+            <h2 class="section-title">What Type of Estate Plan is Right for You?</h2>
+            <div class="form-container">
+                <form action="https://getform.io/f/YOUR-FORM-ID" method="POST">
+                    <div class="form-group">
+                        <label>Do you have a current will?</label>
+                        <div class="radio-group">
+                            <label><input type="radio" name="current_will" value="yes"> Yes</label>
+                            <label><input type="radio" name="current_will" value="no"> No</label>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Do you have a current trust that needs to be updated?</label>
+                        <div class="radio-group">
+                            <label><input type="radio" name="current_trust" value="yes"> Yes</label>
+                            <label><input type="radio" name="current_trust" value="no"> No</label>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Are you married?</label>
+                        <div class="radio-group">
+                            <label><input type="radio" name="married" value="yes"> Yes</label>
+                            <label><input type="radio" name="married" value="no"> No</label>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Do you have any minor children?</label>
+                        <div class="radio-group">
+                            <label><input type="radio" name="minor_children" value="yes"> Yes</label>
+                            <label><input type="radio" name="minor_children" value="no"> No</label>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Do you have a life insurance policy?</label>
+                        <div class="radio-group">
+                            <label><input type="radio" name="life_insurance" value="yes"> Yes</label>
+                            <label><input type="radio" name="life_insurance" value="no"> No</label>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Do you have power of attorney for assets or healthcare decisions?</label>
+                        <div class="radio-group">
+                            <label><input type="radio" name="power_attorney" value="yes"> Yes</label>
+                            <label><input type="radio" name="power_attorney" value="no"> No</label>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Phone:</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+
+                    <button type="submit" class="submit-btn">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <h3 style="margin-bottom: 20px;">CONTACT US</h3>
+            <div class="footer-contact">
+                <a href="tel:8182916217"><i class="fas fa-phone"></i> (818) 291-6217</a>
+                <a href="mailto:rozsagyenelaw@yahoo.com"><i class="fas fa-envelope"></i> rozsagyenelaw@yahoo.com</a>
+            </div>
+            <p>Law Offices of Rozsa Gyene<br>
+            State Bar No. 208356<br>
+            450 N Brand Blvd. Suite 600<br>
+            Glendale CA 91203</p>
+        </div>
+    </footer>
+
+    <!-- Google Ads Conversion Tracking -->
+    <script>
+    window.addEventListener('load', function() {
+        const form = document.querySelector('form');
+        if(form) {
+            form.addEventListener('submit', function() {
+                if(typeof gtag !== 'undefined') {
+                    gtag('event', 'conversion', {
+                        'send_to': 'AW-989094207/gc4mCNilkoAbEL_C0dcD'
+                    });
+                }
+            });
+        }
+    });
+    </script>
+</body>
+</html>
