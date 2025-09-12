@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trust Amendment Services - Law Offices of Rozsa Gyene</title>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary-blue: #1e3a5f;
+            --accent-gold: #c9a961;
+            --text-dark: #2c3e50;
+            --text-light: #6c757d;
+            --background: #ffffff;
+            --section-bg: #f8f9fa;
+            --border-color: #dee2e6;
+            --warning-bg: #fff3cd;
+            --warning-border: #ffc107;
+            --warning-text: #856404;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            color: var(--text-dark);
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Header */
+        header {
+            background: white;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .top-bar {
+            background: var(--primary-blue);
+            color: white;
+            padding: 10px 0;
+            font-size: 14px;
+        }
+
+        .top-bar .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .top-bar a {
+            color: var(--accent-gold);
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        nav {
+            padding: 20px 0;
+        }
+
+        nav .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            color: var(--primary-blue);
+        }
+
+        .logo-text {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .logo-text .firm-name {
+            font-family: 'Playfair Display', serif;
+            font-size: 24px;
+            font-weight: 700;
+        }
+
+        .logo-text .tagline {
+            font-size: 12px;
+            color: var(--text-light);
+            margin-top: 2px;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: white;
+            padding: 100px 0;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 56px;
+            margin-bottom: 20px;
+        }
+
+        .hero-subtitle {
+            font-size: 24px;
+            margin-bottom: 30px;
+            opacity: 0.95;
+        }
+
+        .price-badge {
+            display: inline-block;
+            background: white;
+            color: #2a5298;
+            padding: 15px 40px;
+            border-radius: 50px;
+            font-size: 28px;
+            font-weight: bold;
+            margin: 30px 0;
+        }
+
+        .btn-primary {
+            background: var(--accent-gold);
+            color: white;
+            padding: 15px 40px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 18px;
+            transition: all 0.3s;
+            display: inline-block;
+        }
+
+        .btn-primary:hover {
+            background: #b8982f;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(201, 169, 97, 0.3);
+        }
+
+        /* Info Section */
+        .info-section {
+            padding: 80px 0;
+            background: white;
+        }
+
+        .info-section h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 42px;
+            color: var(--primary-blue);
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .info-content {
+            max-width: 900px;
+            margin: 0 auto;
+            font-size: 18px;
+            line-height: 1.8;
+            color: var(--text-light);
+        }
+
+        /* Reasons Grid */
+        .reasons-section {
+            background: var(--section-bg);
+            padding: 80px 0;
+        }
+
+        .reasons-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 30px;
+            margin-top: 50px;
+        }
+
+        .reason-card {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            border-left: 4px solid var(--accent-gold);
+            box-shadow: 0 3px 15px rgba(0,0,0,0.08);
+            transition: all 0.3s;
+        }
+
+        .reason-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 25px rgba(0,0,0,0.15);
+        }
+
+        .reason-card h3 {
+            color: var(--primary-blue);
+            margin-bottom: 15px;
+            font-size: 22px;
+        }
+
+        .reason-card p {
+            color: var(--text-light);
+            line-height: 1.6;
+        }
+
+        /* Process Section */
+        .process-section {
+            padding: 80px 0;
+            background: white;
+        }
+
+        .process-section h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 42px;
+            color: var(--primary-blue);
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .process-steps {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 40px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .step {
+            text-align: center;
+        }
+
+        .step-number {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 70px;
+            height: 70px;
+            background: var(--accent-gold);
+            color: white;
+            border-radius: 50%;
+            font-size: 28px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .step h3 {
+            color: var(--primary-blue);
+            margin-bottom: 10px;
+            font-size: 20px;
+        }
+
+        .step p {
+            color: var(--text-light);
+        }
+
+        /* Warning Box */
+        .warning-box {
+            background: var(--warning-bg);
+            border-left: 4px solid var(--warning-border);
+            padding: 30px;
+            margin: 40px auto;
+            max-width: 900px;
+            border-radius: 8px;
+        }
+
+        .warning-box h3 {
+            color: var(--warning-text);
+            margin-bottom: 15px;
+            font-size: 24px;
+        }
+
+        .warning-box p {
+            color: var(--warning-text);
+            line-height: 1.6;
+        }
+
+        /* Benefits Section */
+        .benefits {
+            background: var(--section-bg);
+            padding: 80px 0;
+        }
+
+        .benefits h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 42px;
+            color: var(--primary-blue);
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .benefits-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .benefit-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 15px;
+        }
+
+        .benefit-icon {
+            color: var(--accent-gold);
+            font-size: 24px;
+            margin-top: 5px;
+        }
+
+        .benefit-content h4 {
+            color: var(--primary-blue);
+            margin-bottom: 5px;
+        }
+
+        .benefit-content p {
+            color: var(--text-light);
+        }
+
+        /* CTA Section */
+        .cta {
+            background: var(--primary-blue);
+            color: white;
+            padding: 80px 0;
+            text-align: center;
+        }
+
+        .cta h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 42px;
+            margin-bottom: 20px;
+        }
+
+        .cta p {
+            font-size: 20px;
+            margin-bottom: 30px;
+        }
+
+        .phone-large {
+            font-size: 36px;
+            color: var(--accent-gold);
+            font-weight: bold;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 20px;
+        }
+
+        /* Footer */
+        footer {
+            background: var(--primary-blue);
+            color: white;
+            padding: 40px 0;
+            text-align: center;
+        }
+
+        .footer-contact a {
+            color: var(--accent-gold);
+            text-decoration: none;
+            font-size: 18px;
+            margin: 0 20px;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 36px;
+            }
+            
+            .reasons-grid,
+            .process-steps,
+            .benefits-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="top-bar">
+            <div class="container">
+                <div>
+                    <i class="fas fa-certificate"></i> Licensed California Attorney - Bar #208356
+                </div>
+                <div>
+                    <i class="fas fa-phone"></i> Free Consultation: <a href="tel:8182916217">(818) 291-6217</a>
+                </div>
+            </div>
+        </div>
+        <nav>
+            <div class="container">
+                <a href="/" class="logo">
+                    <div class="logo-text">
+                        <span class="firm-name">LAW OFFICES OF ROZSA GYENE</span>
+                        <span class="tagline">Estate Planning & Probate Specialists Since 2001</span>
+                    </div>
+                </a>
+                <div style="display: flex; gap: 20px; align-items: center;">
+                    <a href="/" style="color: var(--text-dark); text-decoration: none;">Home</a>
+                    <a href="https://square.site/book/0W2A8PKKPYC21/law-offices-of-rozsa-gyene-glendale-ca" class="btn-primary" style="padding: 10px 25px; font-size: 14px;">Book Now</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Trust Amendment Services</h1>
+            <p class="hero-subtitle">Update Your Living Trust to Reflect Life's Changes</p>
+            <p style="font-size: 18px; max-width: 800px; margin: 0 auto;">
+                Life changes, and your trust should too. Whether you've had changes in assets, beneficiaries, or trustees, 
+                we'll help you keep your trust current and legally compliant.
+            </p>
+            <div class="price-badge">Starting at $350</div>
+            <div>
+                <a href="https://square.site/book/0W2A8PKKPYC21/law-offices-of-rozsa-gyene-glendale-ca" class="btn-primary">Schedule Consultation</a>
+            </div>
+            <p style="margin-top: 30px;">Call for immediate assistance:</p>
+            <a href="tel:8182916217" style="color: var(--accent-gold); font-size: 32px; font-weight: bold; text-decoration: none;">(818) 291-6217</a>
+        </div>
+    </section>
+
+    <!-- Info Section -->
+    <section class="info-section">
+        <div class="container">
+            <h2>When Do You Need a Trust Amendment?</h2>
+            <div class="info-content">
+                <p>
+                    Your living trust is a dynamic document that should evolve with your life circumstances. 
+                    A trust amendment allows you to make changes to your existing trust without completely rewriting it, 
+                    saving you time and money while ensuring your estate plan remains effective and up-to-date.
+                </p>
+                <p style="margin-top: 20px;">
+                    California law requires specific procedures for trust amendments to be legally valid. 
+                    Our experienced attorneys ensure your amendments are properly drafted, executed, and integrated 
+                    with your original trust documents to avoid any future disputes or complications.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reasons Section -->
+    <section class="reasons-section">
+        <div class="container">
+            <h2 style="text-align: center; font-family: 'Playfair Display', serif; font-size: 42px; color: var(--primary-blue); margin-bottom: 20px;">
+                Common Reasons for Trust Amendments
+            </h2>
+            <div class="reasons-grid">
+                <div class="reason-card">
+                    <h3><i class="fas fa-users" style="color: var(--accent-gold); margin-right: 10px;"></i>Family Changes</h3>
+                    <p>Marriage, divorce, births, deaths, or changes in family relationships requiring updates to beneficiaries or guardians.</p>
+                </div>
+                
+                <div class="reason-card">
+                    <h3><i class="fas fa-home" style="color: var(--accent-gold); margin-right: 10px;"></i>Asset Changes</h3>
+                    <p>Purchase or sale of real estate, significant changes in financial assets, or acquisition of business interests.</p>
+                </div>
+                
+                <div class="reason-card">
+                    <h3><i class="fas fa-user-tie" style="color: var(--accent-gold); margin-right: 10px;"></i>Trustee Updates</h3>
+                    <p>Changing successor trustees due to death, incapacity, or simply choosing someone better suited for the role.</p>
+                </div>
+                
+                <div class="reason-card">
+                    <h3><i class="fas fa-hand-holding-usd" style="color: var(--accent-gold); margin-right: 10px;"></i>Distribution Changes</h3>
+                    <p>Modifying how and when beneficiaries receive their inheritance, including age restrictions or conditions.</p>
+                </div>
+                
+                <div class="reason-card">
+                    <h3><i class="fas fa-gavel" style="color: var(--accent-gold); margin-right: 10px;"></i>Tax Law Updates</h3>
+                    <p>Adapting to changes in federal or state tax laws to maximize tax benefits and minimize liabilities.</p>
+                </div>
+                
+                <div class="reason-card">
+                    <h3><i class="fas fa-map-marker-alt" style="color: var(--accent-gold); margin-right: 10px;"></i>Relocation</h3>
+                    <p>Moving to a different state may require updates to ensure your trust complies with local laws.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="process-section">
+        <div class="container">
+            <h2>Our Trust Amendment Process</h2>
+            <div class="process-steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Review Current Trust</h3>
+                    <p>We thoroughly review your existing trust documents to understand your current plan</p>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>Identify Changes</h3>
+                    <p>Discuss what needs updating and ensure all changes align with your goals</p>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>Draft Amendment</h3>
+                    <p>Create legally compliant amendment documents that clearly state all changes</p>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <h3>Execute & Notarize</h3>
+                    <p>Properly sign and notarize documents to ensure legal validity</p>
+                </div>
+            </div>
+            
+            <div class="warning-box">
+                <h3><i class="fas fa-exclamation-triangle"></i> Important Considerations</h3>
+                <p>
+                    Multiple amendments can create confusion and potential conflicts. If you need extensive changes 
+                    or have already made several amendments, we may recommend a complete trust restatement instead. 
+                    This provides a clean, consolidated document that's easier to administer and reduces the risk of errors.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="benefits">
+        <div class="container">
+            <h2>Why Choose Professional Amendment Services?</h2>
+            <div class="benefits-grid">
+                <div class="benefit-item">
+                    <i class="fas fa-check-circle benefit-icon"></i>
+                    <div class="benefit-content">
+                        <h4>Legal Compliance</h4>
+                        <p>Ensure amendments meet all California legal requirements</p>
+                    </div>
+                </div>
+                
+                <div class="benefit-item">
+                    <i class="fas fa-check-circle benefit-icon"></i>
+                    <div class="benefit-content">
+                        <h4>Avoid Conflicts</h4>
+                        <p>Prevent contradictions between original trust and amendments</p>
+                    </div>
+                </div>
+                
+                <div class="benefit-item">
+                    <i class="fas fa-check-circle benefit-icon"></i>
+                    <div class="benefit-content">
+                        <h4>Cost Effective</h4>
+                        <p>More affordable than creating an entirely new trust</p>
+                    </div>
+                </div>
+                
+                <div class="benefit-item">
+                    <i class="fas fa-check-circle benefit-icon"></i>
+                    <div class="benefit-content">
+                        <h4>Quick Turnaround</h4>
+                        <p>Amendments completed within days, not weeks</p>
+                    </div>
+                </div>
+                
+                <div class="benefit-item">
+                    <i class="fas fa-check-circle benefit-icon"></i>
+                    <div class="benefit-content">
+                        <h4>Peace of Mind</h4>
+                        <p>Know your trust accurately reflects your current wishes</p>
+                    </div>
+                </div>
+                
+                <div class="benefit-item">
+                    <i class="fas fa-check-circle benefit-icon"></i>
+                    <div class="benefit-content">
+                        <h4>Expert Guidance</h4>
+                        <p>25+ years experience in California trust law</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <h2>Keep Your Trust Current</h2>
+            <p>Don't let an outdated trust compromise your estate plan</p>
+            <a href="https://square.site/book/0W2A8PKKPYC21/law-offices-of-rozsa-gyene-glendale-ca" class="btn-primary">Schedule Your Amendment Review</a>
+            <p style="margin-top: 30px;">Or call us directly:</p>
+            <a href="tel:8182916217" class="phone-large">(818) 291-6217</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <h3 style="margin-bottom: 20px;">CONTACT US</h3>
+            <div class="footer-contact">
+                <a href="tel:8182916217"><i class="fas fa-phone"></i> (818) 291-6217</a>
+                <a href="mailto:rozsagyenelaw@yahoo.com"><i class="fas fa-envelope"></i> rozsagyenelaw@yahoo.com</a>
+            </div>
+            <p style="margin-top: 20px;">Law Offices of Rozsa Gyene<br>
+            State Bar No. 208356<br>
+            450 N Brand Blvd. Suite 600<br>
+            Glendale CA 91203</p>
+        </div>
+    </footer>
+</body>
+</html>
