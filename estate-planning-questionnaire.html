@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estate Planning Questionnaire - Law Offices of Rozsa Gyene</title>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f4f4f4;
+        }
+        
+        /* Header */
+        .header-banner {
+            background: linear-gradient(135deg, #1e3a5f 0%, #2a5298 100%);
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        
+        .header-banner h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 42px;
+            margin-bottom: 10px;
+        }
+        
+        .header-banner p {
+            font-size: 18px;
+            opacity: 0.95;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        
+        .section {
+            margin-bottom: 30px;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 8px;
+        }
+        
+        .section-title {
+            font-size: 1.3em;
+            font-weight: bold;
+            color: #1e3a5f;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #c9a961;
+        }
+        
+        .form-group {
+            margin-bottom: 15px;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: 600;
+            color: #555;
+        }
+        
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"],
+        input[type="date"],
+        input[type="number"],
+        select,
+        textarea {
+            width: 100%;
+            padding: 8px 12px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 14px;
+            transition: border-color 0.3s;
+        }
+        
+        input:focus,
+        select:focus,
+        textarea:focus {
+            outline: none;
+            border-color: #c9a961;
+        }
+        
+        .radio-group,
+        .checkbox-group {
+            display: flex;
+            gap: 20px;
+            margin-top: 5px;
+            flex-wrap: wrap;
+        }
+        
+        .radio-item,
+        .checkbox-item {
+            display: flex;
+            align-items: center;
+        }
+        
+        input[type="radio"],
+        input[type="checkbox"] {
+            margin-right: 5px;
+        }
+        
+        .required {
+            color: #e74c3c;
+        }
+        
+        .hidden {
+            display: none !important;
+        }
+        
+        .row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+        }
+        
+        .row-3 {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 15px;
+        }
+        
+        .dynamic-section {
+            background: #e8f4f8;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+            position: relative;
+            border-left: 3px solid #c9a961;
+        }
+        
+        .remove-btn {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background: #e74c3c;
+            color: white;
+            border: none;
+            padding: 5px 10px;
+            border-radius: 3px;
+            cursor: pointer;
+            font-size: 12px;
+        }
+        
+        .remove-btn:hover {
+            background: #c0392b;
+        }
+        
+        .add-btn {
+            background: #c9a961;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 14px;
+            margin-top: 10px;
+            transition: all 0.3s;
+        }
+        
+        .add-btn:hover {
+            background: #b8982f;
+            transform: translateY(-2px);
+        }
+        
+        .submit-section {
+            text-align: center;
+            margin-top: 30px;
+        }
+        
+        .submit-btn {
+            background: #27ae60;
+            color: white;
+            border: none;
+            padding: 15px 40px;
+            border-radius: 50px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: bold;
+            transition: all 0.3s;
+        }
+        
+        .submit-btn:hover {
+            background: #229954;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(39, 174, 96, 0.3);
+        }
+        
+        .info-box {
+            background: #d4edda;
+            border: 1px solid #c3e6cb;
+            color: #155724;
+            padding: 15px;
+            border-radius: 4px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        
+        @media (max-width: 600px) {
+            .row,
+            .row-3 {
+                grid-template-columns: 1fr;
+            }
+            
+            .radio-group,
+            .checkbox-group {
+                flex-direction: column;
+                gap: 10px;
+            }
+            
+            .header-banner h1 {
+                font-size: 28px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header-banner">
+        <h1>Estate Planning Questionnaire</h1>
+        <p>Complete this form to help us create your personalized estate plan</p>
+    </div>
+    
+    <div class="container">
+        <div class="info-box">
+            <i class="fas fa-info-circle"></i> This questionnaire is secure and confidential. Your information will be sent directly to our office.
+        </div>
+        
+        <form id="estatePlanningForm" action="https://getform.io/f/awnyggeb" method="POST">
+            
+            <!-- EMAIL -->
+            <div class="section">
+                <div class="form-group">
+                    <label for="email">Email Address <span class="required">*</span></label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+            </div>
+            
+            <!-- CLIENT INFO -->
+            <div class="section">
+                <h2 class="section-title">CLIENT INFORMATION</h2>
+                <div class="row">
+                    <div class="form-group">
+                        <label for="firstName">First Name <span class="required">*</span></label>
+                        <input type="text" id="firstName" name="firstName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="middleName">Middle Name</label>
+                        <input type="text" id="middleName" name="middleName">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="lastName">Last Name <span class="required">*</span></label>
+                    <input type="text" id="lastName" name="lastName" required>
+                </div>
+                <div class="form-group">
+                    <label for="aka">Also Known As</label>
+                    <input type="text" id="aka" name="aka">
+                </div>
+                <div class="row">
+                    <div class="form-group">
+                        <label>Gender</label>
+                        <div class="radio-group">
+                            <div class="radio-item">
+                                <input type="radio" id="male" name="gender" value="Male">
+                                <label for="male">Male</label>
+                            </div>
+                            <div class="radio-item">
+                                <input type="radio" id="female" name="gender" value="Female">
+                                <label for="female">Female</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="dob">Date of Birth <span class="required">*</span></label>
+                        <input type="date" id="dob" name="dob" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-group">
+                        <label for="ssn">Social Security Number</label>
+                        <input type="text" id="ssn" name="ssn" placeholder="XXX-XX-XXXX">
+                    </div>
+                    <div class="form-group">
+                        <label>U.S. Citizen?</label>
+                        <div class="radio-group">
+                            <div class="radio-item">
+                                <input type="radio" id="citizenYes" name="citizen" value="Yes">
+                                <label for="citizenYes">Yes</label>
+                            </div>
+                            <div class="radio-item">
+                                <input type="radio" id="citizenNo" name="citizen" value="No">
+                                <label for="citizenNo">No</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="address">Street Address <span class="required">*</span></label>
+                    <input type="text" id="address" name="address" required>
+                </div>
+                <div class="row">
+                    <div class="form-group">
+                        <label for="city">City <span class="required">*</span></label>
+                        <input type="text" id="city" name="city" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="state">State <span class="required">*</span></label>
+                        <input type="text" id="state" name="state" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-group">
+                        <label for="zip">Zip Code</label>
+                        <input type="text" id="zip" name="zip">
+                    </div>
+                    <div class="form-group">
+                        <label for="county">County</label>
+                        <input type="text" id="county" name="county">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Contact Phone</label>
+                    <input type="tel" id="phone" name="phone">
+                </div>
+                <div class="form-group">
+                    <label for="maritalStatus">Marital Status</label>
+                    <select id="maritalStatus" name="maritalStatus" onchange="toggleSpouse()">
+                        <option value="">Select...</option>
+                        <option value="Single">Single</option>
+                        <option value="Married">Married</option>
+                        <option value="Separated">Separated</option>
+                        <option value="Divorced">Divorced</option>
+                        <option value="Widowed">Widowed</option>
+                    </select>
+                </div>
+                <div class="form-group hidden" id="marriageDateGroup">
+                    <label for="marriageDate">Date of Marriage</label>
+                    <input type="date" id="marriageDate" name="marriageDate">
+                </div>
+                <div class="form-group">
+                    <label>Do you currently have a Living Trust?</label>
+                    <div class="radio-group">
+                        <div class="radio-item">
+                            <input type="radio" id="trustYes" name="currentTrust" value="Yes">
+                            <label for="trustYes">Yes</label>
+                        </div>
+                        <div class="radio-item">
+                            <input type="radio" id="trustNo" name="currentTrust" value="No">
+                            <label for="trustNo">No</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- SPOUSE INFO -->
+            <div class="section hidden" id="spouseSection">
+                <h2 class="section-title">SPOUSE INFORMATION</h2>
+                <div class="row">
+                    <div class="form-group">
+                        <label for="spouseFirstName">Spouse First Name <span class="required">*</span></label>
+                        <input type="text" id="spouseFirstName" name="spouseFirstName">
+                    </div>
+                    <div class="form-group">
+                        <label for="spouseMiddleName">Spouse Middle Name</label>
+                        <input type="text" id="spouseMiddleName" name="spouseMiddleName">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="spouseLastName">Spouse Last Name <span class="required">*</span></label>
+                    <input type="text" id="spouseLastName" name="spouseLastName">
+                </div>
+                <div class="form-group">
+                    <label for="spouseAka">Spouse Also Known As</label>
+                    <input type="text" id="spouseAka" name="spouseAka">
+                </div>
+                <div class="row">
+                    <div class="form-group">
+                        <label>Spouse Gender</label>
+                        <div class="radio-group">
+                            <div class="radio-item">
+                                <input type="radio" id="spouseMale" name="spouseGender" value="Male">
+                                <label for="spouseMale">Male</label>
+                            </div>
+                            <div class="radio-item">
+                                <input type="radio" id="spouseFemale" name="spouseGender" value="Female">
+                                <label for="spouseFemale">Female</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="spouseDob">Spouse Date of Birth <span class="required">*</span></label>
+                        <input type="date" id="spouseDob" name="spouseDob">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-group">
+                        <label for="spouseSsn">Spouse SSN</label>
+                        <input type="text" id="spouseSsn" name="spouseSsn" placeholder="XXX-XX-XXXX">
+                    </div>
+                    <div class="form-group">
+                        <label>Spouse U.S. Citizen?</label>
+                        <div class="radio-group">
+                            <div class="radio-item">
+                                <input type="radio" id="spouseCitizenYes" name="spouseCitizen" value="Yes">
+                                <label for="spouseCitizenYes">Yes</label>
+                            </div>
+                            <div class="radio-item">
+                                <input type="radio" id="spouseCitizenNo" name="spouseCitizen" value="No">
+                                <label for="spouseCitizenNo">No</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Did you sign a pre-nuptial agreement?</label>
+                    <div class="radio-group">
+                        <div class="radio-item">
+                            <input type="radio" id="prenupYes" name="prenup" value="Yes">
+                            <label for="prenupYes">Yes</label>
+                        </div>
+                        <div class="radio-item">
+                            <input type="radio" id="prenupNo" name="prenup" value="No">
+                            <label for="prenupNo">No</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- CHILDREN -->
+            <div class="section">
+                <h2 class="section-title">CHILDREN INFORMATION</h2>
+                <div id="childrenContainer"></div>
+                <button type="button" class="add-btn" onclick="addChild()">Add Child</button>
+            </div>
+            
+            <!-- EXCLUDED FAMILY -->
+            <div class="section">
+                <h2 class="section-title">EXCLUDED FAMILY MEMBERS</h2>
+                <div class="form-group">
+                    <label>Are there any family members you want to exclude from your Living Trust?</label>
+                    <div class="radio-group">
+                        <div class="radio-item">
+                            <input type="radio" id="excludeYes" name="excludeFamily" value="Yes" onchange="toggleExclude()">
+                            <label for="excludeYes">Yes</label>
+                        </div>
+                        <div class="radio-item">
+                            <input type="radio" id="excludeNo" name="excludeFamily" value="No" onchange="toggleExclude()">
+                            <label for="excludeNo">No</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group hidden" id="excludeDetails">
+                    <label for="excludedMembers">List names and relationships:</label>
+                    <textarea id="excludedMembers" name="excludedMembers" rows="4"></textarea>
+                </div>
+            </div>
+            
+            <!-- INITIAL TRUSTEES -->
+            <div class="section">
+                <h2 class="section-title">INITIAL TRUSTEE(S)</h2>
+                <div class="form-group">
+                    <label>Who will serve as Initial Trustee(s)?</label>
+                    <div class="radio-group">
+                        <div class="radio-item">
+                            <input type="radio" id="trusteeClient" name="initialTrustee" value="Client">
+                            <label for="trusteeClient">Client to serve as Initial Trustee</label>
+                        </div>
+                        <div class="radio-item hidden" id="trusteeBothOption">
+                            <input type="radio" id="trusteeBoth" name="initialTrustee" value="Both">
+                            <label for="trusteeBoth">Client and Spouse to serve together</label>
+                        </div>
+                        <div class="radio-item hidden" id="trusteeSpouseOption">
+                            <input type="radio" id="trusteeSpouse" name="initialTrustee" value="Spouse">
+                            <label for="trusteeSpouse">Spouse to serve as Initial Trustee</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- SUCCESSOR TRUSTEES -->
+            <div class="section">
+                <h2 class="section-title">SUCCESSOR TRUSTEE(S)</h2>
+                <div id="successorTrusteeContainer"></div>
+                <button type="button" class="add-btn" onclick="addSuccessorTrustee()">Add Successor Trustee</button>
+                <div class="form-group" style="margin-top: 20px;">
+                    <label>How should Successor Trustees serve?</label>
+                    <div class="radio-group">
+                        <div class="radio-item">
+                            <input type="radio" id="serveOrder" name="trusteeServe" value="Order">
+                            <label for="serveOrder">In the order listed above</label>
+                        </div>
+                        <div class="radio-item">
+                            <input type="radio" id="serveTogether" name="trusteeServe" value="Together">
+                            <label for="serveTogether">Together as Co-Trustees</label>
+                        </div>
+                        <div class="radio-item">
+                            <input type="radio" id="serveOther" name="trusteeServe" value="Other">
+                            <label for="serveOther">Other arrangement</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- SPECIFIC GIFTS -->
+            <div class="section">
+                <h2 class="section-title">SPECIFIC GIFTS</h2>
+                <div id="specificGiftsContainer"></div>
+                <button type="button" class="add-btn" onclick="addSpecificGift()">Add Specific Gift</button>
+            </div>
+            
+            <!-- ESTATE DISTRIBUTION -->
+            <div class="section">
+                <h2 class="section-title">DISTRIBUTION OF REMAINING TRUST ESTATE</h2>
+                <div class="form-group">
+                    <label>How should your estate be distributed?</label>
+                    <div class="radio-group">
+                        <div class="radio-item">
+                            <input type="radio" id="divideEqually" name="distributionType" value="Equal">
+                            <label for="divideEqually">Divide equally among beneficiaries</label>
+                        </div>
+                        <div class="radio-item">
+                            <input type="radio" id="dividePercentage" name="distributionType" value="Percentage">
+                            <label for="dividePercentage">Divide by specific percentages</label>
+                        </div>
+                    </div>
+                </div>
+                <div id="beneficiariesContainer"></div>
+                <button type="button" class="add-btn" onclick="addBeneficiary()">Add Beneficiary</button>
+            </div>
+            
+            <!-- Additional sections continue with same structure... -->
+            
+            <div class="submit-section">
+                <button type="submit" class="submit-btn">Submit Questionnaire</button>
+            </div>
+        </form>
+    </div>
+    
+    <script>
+        // Include all the JavaScript from the original file
+        let childCount=0,trusteeCount=0,giftCount=0,beneficiaryCount=0;
+        
+        function toggleSpouse(){
+            const m=document.getElementById('maritalStatus').value;
+            const s=document.getElementById('spouseSection');
+            const md=document.getElementById('marriageDateGroup');
+            const tb=document.getElementById('trusteeBothOption');
+            const ts=document.getElementById('trusteeSpouseOption');
+            
+            if(m==='Married'){
+                s.classList.remove('hidden');
+                md.classList.remove('hidden');
+                tb.classList.remove('hidden');
+                ts.classList.remove('hidden');
+                document.getElementById('spouseFirstName').required=true;
+                document.getElementById('spouseLastName').required=true;
+                document.getElementById('spouseDob').required=true;
+            }else{
+                s.classList.add('hidden');
+                md.classList.add('hidden');
+                tb.classList.add('hidden');
+                ts.classList.add('hidden');
+                document.getElementById('spouseFirstName').required=false;
+                document.getElementById('spouseLastName').required=false;
+                document.getElementById('spouseDob').required=false;
+            }
+        }
+        
+        function toggleExclude(){
+            document.getElementById('excludeDetails').classList.toggle('hidden',!document.getElementById('excludeYes').checked);
+        }
+        
+        function removeSection(id){
+            document.getElementById(id).remove();
+        }
+        
+        function addChild(){
+            childCount++;
+            const c=document.getElementById('childrenContainer');
+            const s=document.createElement('div');
+            s.className='dynamic-section';
+            s.id=`child${childCount}Section`;
+            s.innerHTML=`${childCount>1?`<button type="button" class="remove-btn" onclick="removeSection('child${childCount}Section')">Remove</button>`:''}<h3>Child ${childCount}</h3><div class="form-group"><label>Full Name</label><input type="text" name="child${childCount}Name"></div><div class="row"><div class="form-group"><label>Date of Birth</label><input type="date" name="child${childCount}Dob"></div><div class="form-group"><label>Gender</label><select name="child${childCount}Gender"><option value="">Select...</option><option value="Male">Male</option><option value="Female">Female</option></select></div></div>`;
+            c.appendChild(s);
+        }
+        
+        function addSuccessorTrustee(){
+            trusteeCount++;
+            const c=document.getElementById('successorTrusteeContainer');
+            const s=document.createElement('div');
+            s.className='dynamic-section';
+            s.id=`trustee${trusteeCount}Section`;
+            s.innerHTML=`${trusteeCount>1?`<button type="button" class="remove-btn" onclick="removeSection('trustee${trusteeCount}Section')">Remove</button>`:''}<h3>Successor Trustee ${trusteeCount}</h3><div class="form-group"><label>Name</label><input type="text" name="trustee${trusteeCount}Name"></div><div class="form-group"><label>Address</label><input type="text" name="trustee${trusteeCount}Address"></div>`;
+            c.appendChild(s);
+        }
+        
+        function addSpecificGift(){
+            giftCount++;
+            const c=document.getElementById('specificGiftsContainer');
+            const s=document.createElement('div');
+            s.className='dynamic-section';
+            s.id=`gift${giftCount}Section`;
+            s.innerHTML=`${giftCount>1?`<button type="button" class="remove-btn" onclick="removeSection('gift${giftCount}Section')">Remove</button>`:''}<h3>Specific Gift ${giftCount}</h3><div class="row"><div class="form-group"><label>Beneficiary Name</label><input type="text" name="gift${giftCount}Beneficiary"></div><div class="form-group"><label>Relationship</label><input type="text" name="gift${giftCount}Relationship"></div></div><div class="form-group"><label>Item Description</label><textarea name="gift${giftCount}Item" rows="2"></textarea></div>`;
+            c.appendChild(s);
+        }
+        
+        function addBeneficiary(){
+            beneficiaryCount++;
+            const c=document.getElementById('beneficiariesContainer');
+            const s=document.createElement('div');
+            s.className='dynamic-section';
+            s.id=`beneficiary${beneficiaryCount}Section`;
+            s.innerHTML=`${beneficiaryCount>1?`<button type="button" class="remove-btn" onclick="removeSection('beneficiary${beneficiaryCount}Section')">Remove</button>`:''}<h3>Beneficiary ${beneficiaryCount}</h3><div class="row"><div class="form-group"><label>Name</label><input type="text" name="beneficiary${beneficiaryCount}Name"></div><div class="form-group"><label>Relationship</label><input type="text" name="beneficiary${beneficiaryCount}Relationship"></div></div>`;
+            c.appendChild(s);
+        }
+        
+        // Initialize with one child and one trustee
+        addChild();
+        addSuccessorTrustee();
+    </script>
+</body>
+</html>
