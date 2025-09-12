@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asset Protection Planning - Law Offices of Rozsa Gyene</title>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary-blue: #1e3a5f;
+            --accent-gold: #c9a961;
+            --text-dark: #2c3e50;
+            --text-light: #6c757d;
+            --background: #ffffff;
+            --section-bg: #f8f9fa;
+            --border-color: #dee2e6;
+            --danger: #dc3545;
+            --warning-bg: #fff3cd;
+            --warning-border: #ffc107;
+            --warning-text: #856404;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            color: var(--text-dark);
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Header */
+        header {
+            background: white;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .top-bar {
+            background: var(--primary-blue);
+            color: white;
+            padding: 10px 0;
+            font-size: 14px;
+        }
+
+        .top-bar .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .top-bar a {
+            color: var(--accent-gold);
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        nav {
+            padding: 20px 0;
+        }
+
+        nav .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            color: var(--primary-blue);
+        }
+
+        .logo-text {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .logo-text .firm-name {
+            font-family: 'Playfair Display', serif;
+            font-size: 24px;
+            font-weight: 700;
+        }
+
+        .logo-text .tagline {
+            font-size: 12px;
+            color: var(--text-light);
+            margin-top: 2px;
+        }
+
+        /* Hero Section */
+        .hero-section {
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: white;
+            padding: 100px 0;
+            text-align: center;
+        }
+
+        .hero-section h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 56px;
+            margin-bottom: 20px;
+        }
+
+        .subtitle {
+            font-size: 24px;
+            margin-bottom: 10px;
+            opacity: 0.95;
+        }
+
+        .btn-primary {
+            background: var(--accent-gold);
+            color: white;
+            padding: 15px 40px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 18px;
+            transition: all 0.3s;
+            display: inline-block;
+            margin-top: 20px;
+        }
+
+        .btn-primary:hover {
+            background: #b8982f;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(201, 169, 97, 0.3);
+        }
+
+        /* Warning Section */
+        .warning-section {
+            background: var(--warning-bg);
+            border-left: 4px solid var(--warning-border);
+            padding: 30px;
+            margin: 40px auto;
+            max-width: 900px;
+            border-radius: 8px;
+        }
+
+        .warning-section h3 {
+            color: var(--warning-text);
+            margin-bottom: 10px;
+            font-size: 24px;
+        }
+
+        .warning-section p {
+            color: var(--warning-text);
+            font-size: 18px;
+        }
+
+        /* Services Grid */
+        .services-section {
+            padding: 80px 0;
+            background: var(--section-bg);
+        }
+
+        .section-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 42px;
+            color: var(--primary-blue);
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 30px;
+            margin-bottom: 60px;
+        }
+
+        .service-card {
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+            transition: all 0.3s;
+            border-top: 4px solid var(--accent-gold);
+        }
+
+        .service-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+        }
+
+        .service-card h3 {
+            color: var(--primary-blue);
+            font-size: 24px;
+            margin-bottom: 15px;
+        }
+
+        .price {
+            color: var(--accent-gold);
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+
+        .service-card p {
+            color: var(--text-light);
+            margin-bottom: 20px;
+            line-height: 1.6;
+        }
+
+        .service-card ul {
+            list-style: none;
+            margin-bottom: 25px;
+            padding-left: 0;
+        }
+
+        .service-card ul li {
+            padding: 8px 0;
+            padding-left: 25px;
+            position: relative;
+            color: var(--text-light);
+        }
+
+        .service-card ul li:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #4CAF50;
+            font-weight: bold;
+        }
+
+        /* Risk Section */
+        .risk-section {
+            padding: 80px 0;
+            background: white;
+        }
+
+        .risk-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 40px;
+            margin-top: 50px;
+        }
+
+        .risk-item {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .risk-icon {
+            font-size: 48px;
+            margin-bottom: 15px;
+        }
+
+        .risk-item h3 {
+            color: var(--primary-blue);
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        .risk-item p {
+            color: var(--text-light);
+        }
+
+        /* Strategy Timeline */
+        .strategy-section {
+            padding: 80px 0;
+            background: var(--section-bg);
+        }
+
+        .timeline {
+            max-width: 800px;
+            margin: 50px auto;
+        }
+
+        .timeline-item {
+            background: white;
+            padding: 30px;
+            margin-bottom: 30px;
+            border-radius: 8px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+            border-left: 4px solid var(--accent-gold);
+        }
+
+        .timeline-number {
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            background: var(--accent-gold);
+            color: white;
+            text-align: center;
+            line-height: 40px;
+            border-radius: 50%;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+
+        .timeline-item h3 {
+            color: var(--primary-blue);
+            margin-bottom: 10px;
+        }
+
+        .timeline-item p {
+            color: var(--text-light);
+        }
+
+        /* Benefits Section */
+        .benefits-section {
+            padding: 80px 0;
+            background: white;
+        }
+
+        .benefits-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 40px;
+            margin-top: 50px;
+        }
+
+        .benefit-item {
+            text-align: center;
+        }
+
+        .benefit-icon {
+            font-size: 48px;
+            color: var(--accent-gold);
+            margin-bottom: 15px;
+        }
+
+        .benefit-item h3 {
+            color: var(--primary-blue);
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        .benefit-item p {
+            color: var(--text-light);
+        }
+
+        /* CTA Section */
+        .cta-section {
+            background: linear-gradient(135deg, var(--primary-blue) 0%, #2a5298 100%);
+            color: white;
+            padding: 80px 0;
+            text-align: center;
+        }
+
+        .cta-section h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 42px;
+            margin-bottom: 20px;
+        }
+
+        .cta-section p {
+            font-size: 20px;
+            margin-bottom: 30px;
+            opacity: 0.95;
+        }
+
+        .phone-large {
+            font-size: 36px;
+            color: var(--accent-gold);
+            font-weight: bold;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 20px;
+        }
+
+        /* Footer */
+        footer {
+            background: var(--primary-blue);
+            color: white;
+            padding: 40px 0;
+            text-align: center;
+        }
+
+        .footer-contact a {
+            color: var(--accent-gold);
+            text-decoration: none;
+            font-size: 18px;
+            margin: 0 20px;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero-section h1 {
+                font-size: 36px;
+            }
+            
+            .services-grid,
+            .risk-grid,
+            .benefits-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="top-bar">
+            <div class="container">
+                <div>
+                    <i class="fas fa-certificate"></i> Licensed California Attorney - Bar #208356
+                </div>
+                <div>
+                    <i class="fas fa-phone"></i> Free Consultation: <a href="tel:8182916217">(818) 291-6217</a>
+                </div>
+            </div>
+        </div>
+        <nav>
+            <div class="container">
+                <a href="/" class="logo">
+                    <div class="logo-text">
+                        <span class="firm-name">LAW OFFICES OF ROZSA GYENE</span>
+                        <span class="tagline">Estate Planning & Probate Specialists Since 2001</span>
+                    </div>
+                </a>
+                <div style="display: flex; gap: 20px; align-items: center;">
+                    <a href="/" style="color: var(--text-dark); text-decoration: none;">Home</a>
+                    <a href="https://square.site/book/0W2A8PKKPYC21/law-offices-of-rozsa-gyene-glendale-ca" class="btn-primary" style="padding: 10px 25px; font-size: 14px;">Book Now</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container">
+            <h1>Asset Protection Planning</h1>
+            <p class="subtitle">Safeguard Your Wealth from Lawsuits, Creditors, and Unforeseen Risks</p>
+            <p style="font-size: 18px;">Over 25 Years of Protecting California Families & Businesses</p>
+            <a href="#contact" class="btn-primary">Protect Your Assets Today</a>
+        </div>
+    </section>
+
+    <!-- Warning Section -->
+    <div class="container">
+        <div class="warning-section">
+            <h3><i class="fas fa-exclamation-triangle"></i> Time is Critical</h3>
+            <p>Asset protection planning must be done BEFORE you need it. Once a lawsuit is filed or a creditor makes a claim, it may be too late to protect your assets.</p>
+        </div>
+    </div>
+
+    <!-- Services Section -->
+    <section class="services-section">
+        <div class="container">
+            <h2 class="section-title">Comprehensive Asset Protection Solutions</h2>
+            <div class="services-grid">
+                <!-- Domestic Asset Protection Trust -->
+                <div class="service-card">
+                    <h3>Domestic Asset Protection Trust</h3>
+                    <p class="price">Starting at $2,500</p>
+                    <p>The gold standard in asset protection. Protects assets while keeping them in the United States.</p>
+                    <ul>
+                        <li>Protection from future creditors</li>
+                        <li>Maintained control as beneficiary</li>
+                        <li>Estate tax benefits</li>
+                        <li>Nevada or Delaware trust options</li>
+                        <li>Divorce protection features</li>
+                    </ul>
+                    <a href="#contact" class="btn-primary">Learn More</a>
+                </div>
+
+                <!-- Family Limited Partnership -->
+                <div class="service-card">
+                    <h3>Family Limited Partnership</h3>
+                    <p class="price">Starting at $1,800</p>
+                    <p>Protect family assets while maintaining control and reducing estate taxes.</p>
+                    <ul>
+                        <li>Charging order protection</li>
+                        <li>Estate tax discounts</li>
+                        <li>Centralized management</li>
+                        <li>Succession planning tool</li>
+                        <li>Asset consolidation</li>
+                    </ul>
+                    <a href="#contact" class="btn-primary">Get Started</a>
+                </div>
+
+                <!-- LLC Protection Strategy -->
+                <div class="service-card">
+                    <h3>LLC Protection Strategy</h3>
+                    <p class="price">Starting at $1,200</p>
+                    <p>Use LLCs to compartmentalize risk and protect multiple assets.</p>
+                    <ul>
+                        <li>Separate LLC for each asset</li>
+                        <li>Series LLC options</li>
+                        <li>Wyoming LLC benefits</li>
+                        <li>Anonymity features</li>
+                        <li>Charging order protection</li>
+                    </ul>
+                    <a href="#contact" class="btn-primary">Explore Options</a>
+                </div>
+            </div>
+
+            <!-- Advanced Strategies -->
+            <h2 class="section-title" style="margin-top: 80px;">Advanced Protection Strategies</h2>
+            <div class="services-grid">
+                <!-- Offshore Protection -->
+                <div class="service-card">
+                    <h3>Offshore Asset Protection</h3>
+                    <p class="price">Custom Pricing</p>
+                    <p>Maximum protection through international structures for high-net-worth individuals.</p>
+                    <ul>
+                        <li>Cook Islands or Nevis trusts</li>
+                        <li>Offshore LLC combinations</li>
+                        <li>International diversification</li>
+                        <li>Maximum creditor deterrence</li>
+                        <li>Privacy enhancement</li>
+                    </ul>
+                </div>
+
+                <!-- Integrated Planning -->
+                <div class="service-card">
+                    <h3>Integrated Estate & Asset Protection</h3>
+                    <p class="price">Starting at $3,500</p>
+                    <p>Combine estate planning with asset protection for comprehensive wealth preservation.</p>
+                    <ul>
+                        <li>Living trust integration</li>
+                        <li>Irrevocable trust strategies</li>
+                        <li>Business succession planning</li>
+                        <li>Tax optimization</li>
+                        <li>Multi-generational protection</li>
+                    </ul>
+                </div>
+
+                <!-- Equity Stripping -->
+                <div class="service-card">
+                    <h3>Equity Stripping & Liens</h3>
+                    <p class="price">Starting at $1,500</p>
+                    <p>Remove equity from exposed assets to make them unattractive to creditors.</p>
+                    <ul>
+                        <li>Friendly liens</li>
+                        <li>Home equity management</li>
+                        <li>Business equity protection</li>
+                        <li>Debt shield strategies</li>
+                        <li>Asset encumbrance</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Risk Assessment Section -->
+    <section class="risk-section">
+        <div class="container">
+            <h2 class="section-title">Who Needs Asset Protection?</h2>
+            <div class="risk-grid">
+                <div class="risk-item">
+                    <div class="risk-icon">🏢</div>
+                    <h3>Business Owners</h3>
+                    <p>Separate business risks from personal assets</p>
+                </div>
+                <div class="risk-item">
+                    <div class="risk-icon">⚕️</div>
+                    <h3>Medical Professionals</h3>
+                    <p>Protect against malpractice claims exceeding insurance</p>
+                </div>
+                <div class="risk-item">
+                    <div class="risk-icon">🏠</div>
+                    <h3>Real Estate Investors</h3>
+                    <p>Shield properties from tenant lawsuits and liabilities</p>
+                </div>
+                <div class="risk-item">
+                    <div class="risk-icon">💰</div>
+                    <h3>High Net Worth Individuals</h3>
+                    <p>Preserve wealth from frivolous lawsuits</p>
+                </div>
+                <div class="risk-item">
+                    <div class="risk-icon">🚗</div>
+                    <h3>Anyone with Assets</h3>
+                    <p>In our litigious society, everyone is at risk</p>
+                </div>
+                <div class="risk-item">
+                    <div class="risk-icon">👨‍👩‍👧‍👦</div>
+                    <h3>Parents & Families</h3>
+                    <p>Protect your children's inheritance</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Strategy Timeline -->
+    <section class="strategy-section">
+        <div class="container">
+            <h2 class="section-title">Your Asset Protection Journey</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-number">1</div>
+                    <h3>Risk Assessment</h3>
+                    <p>We analyze your current asset exposure, identify vulnerabilities, and assess potential threats to your wealth.</p>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-number">2</div>
+                    <h3>Custom Strategy Design</h3>
+                    <p>Based on your unique situation, we design a tailored protection plan using the most effective legal structures.</p>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-number">3</div>
+                    <h3>Implementation</h3>
+                    <p>We create and implement your protection structures, ensuring proper funding and legal compliance.</p>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-number">4</div>
+                    <h3>Ongoing Maintenance</h3>
+                    <p>Regular reviews and updates ensure your protection remains effective as laws and circumstances change.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="benefits-section">
+        <div class="container">
+            <h2 class="section-title">Why Choose Law Offices of Rozsa Gyene?</h2>
+            <div class="benefits-grid">
+                <div class="benefit-item">
+                    <div class="benefit-icon">⚖️</div>
+                    <h3>25+ Years Experience</h3>
+                    <p>Decades of protecting California families and businesses</p>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-icon">🛡️</div>
+                    <h3>Proven Strategies</h3>
+                    <p>Court-tested protection methods that work</p>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-icon">🎯</div>
+                    <h3>Customized Solutions</h3>
+                    <p>Tailored strategies for your unique situation</p>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-icon">🤝</div>
+                    <h3>Integrated Planning</h3>
+                    <p>Coordination with estate and tax planning</p>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-icon">🔒</div>
+                    <h3>Confidential Service</h3>
+                    <p>Discrete protection of your privacy</p>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-icon">📈</div>
+                    <h3>Wealth Preservation</h3>
+                    <p>Secure your legacy for generations</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section" id="contact">
+        <div class="container">
+            <h2>Don't Wait Until It's Too Late</h2>
+            <p>Asset protection must be implemented before you need it</p>
+            <a href="tel:8182916217" class="btn-primary">Call (818) 291-6217 for Free Consultation</a>
+            <p style="margin-top: 30px;">Or book online:</p>
+            <a href="https://square.site/book/0W2A8PKKPYC21/law-offices-of-rozsa-gyene-glendale-ca" class="btn-primary">Schedule Appointment</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <h3 style="margin-bottom: 20px;">Law Offices of Rozsa Gyene</h3>
+            <p>450 N Brand Blvd. Suite 600<br>
+            Glendale, CA 91203</p>
+            <div class="footer-contact" style="margin-top: 20px;">
+                <a href="tel:8182916217"><i class="fas fa-phone"></i> (818) 291-6217</a>
+                <a href="mailto:rozsagyenelaw@yahoo.com"><i class="fas fa-envelope"></i> rozsagyenelaw@yahoo.com</a>
+            </div>
+            <p style="margin-top: 30px; font-size: 14px; opacity: 0.8;">© 2024 Law Offices of Rozsa Gyene. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
