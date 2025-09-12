@@ -1,0 +1,819 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guardianship Services - Law Offices of Rozsa Gyene</title>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary-blue: #1e3a5f;
+            --accent-gold: #c9a961;
+            --light-blue: #5f7fbf;
+            --text-dark: #2c3e50;
+            --text-light: #6c757d;
+            --background: #ffffff;
+            --section-bg: #f8f9fa;
+            --border-color: #dee2e6;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            color: var(--text-dark);
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Header */
+        header {
+            background: white;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .top-bar {
+            background: var(--primary-blue);
+            color: white;
+            padding: 10px 0;
+            font-size: 14px;
+        }
+
+        .top-bar .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .top-bar a {
+            color: var(--accent-gold);
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        nav {
+            padding: 20px 0;
+        }
+
+        nav .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            color: var(--primary-blue);
+        }
+
+        .logo-text {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .logo-text .firm-name {
+            font-family: 'Playfair Display', serif;
+            font-size: 24px;
+            font-weight: 700;
+        }
+
+        .logo-text .tagline {
+            font-size: 12px;
+            color: var(--text-light);
+            margin-top: 2px;
+        }
+
+        /* Hero Section */
+        .hero-section {
+            background: linear-gradient(135deg, var(--light-blue) 0%, var(--primary-blue) 100%);
+            color: white;
+            padding: 100px 0;
+            text-align: center;
+        }
+
+        .hero-section h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 56px;
+            margin-bottom: 20px;
+        }
+
+        .subtitle {
+            font-size: 24px;
+            margin-bottom: 10px;
+            opacity: 0.95;
+        }
+
+        .btn-primary {
+            background: var(--accent-gold);
+            color: white;
+            padding: 15px 40px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 18px;
+            transition: all 0.3s;
+            display: inline-block;
+            margin-top: 20px;
+        }
+
+        .btn-primary:hover {
+            background: #b8982f;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(201, 169, 97, 0.3);
+        }
+
+        /* Info Sections */
+        .info-section {
+            padding: 80px 0;
+            background: white;
+        }
+
+        .info-section:nth-child(even) {
+            background: var(--section-bg);
+        }
+
+        .section-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 42px;
+            color: var(--primary-blue);
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .intro-text {
+            font-size: 20px;
+            color: var(--text-light);
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto 50px;
+            line-height: 1.8;
+        }
+
+        /* Two Column Layout */
+        .two-column {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 50px;
+            align-items: center;
+            margin-bottom: 50px;
+        }
+
+        .content-column h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 32px;
+            color: var(--primary-blue);
+            margin-bottom: 20px;
+        }
+
+        .content-column p {
+            color: var(--text-light);
+            margin-bottom: 15px;
+            line-height: 1.8;
+        }
+
+        .checklist {
+            list-style: none;
+            padding: 0;
+        }
+
+        .checklist li {
+            padding: 12px 0;
+            padding-left: 35px;
+            position: relative;
+            color: var(--text-light);
+        }
+
+        .checklist li:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: var(--accent-gold);
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        /* Cards Grid */
+        .cards-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 30px;
+            margin-bottom: 50px;
+        }
+
+        .info-card {
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+            transition: all 0.3s;
+            border-top: 4px solid var(--accent-gold);
+        }
+
+        .info-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+        }
+
+        .info-card h3 {
+            color: var(--primary-blue);
+            font-size: 24px;
+            margin-bottom: 15px;
+        }
+
+        .info-card p {
+            color: var(--text-light);
+            line-height: 1.6;
+        }
+
+        .icon-circle {
+            width: 60px;
+            height: 60px;
+            background: var(--light-blue);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+            font-size: 24px;
+            color: white;
+        }
+
+        /* Process Timeline */
+        .timeline {
+            position: relative;
+            max-width: 900px;
+            margin: 50px auto;
+        }
+
+        .timeline-item {
+            background: white;
+            padding: 30px;
+            margin-bottom: 30px;
+            border-radius: 8px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+            border-left: 4px solid var(--accent-gold);
+            position: relative;
+        }
+
+        .timeline-number {
+            position: absolute;
+            left: -20px;
+            top: 30px;
+            width: 40px;
+            height: 40px;
+            background: var(--accent-gold);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+        }
+
+        .timeline-item h3 {
+            color: var(--primary-blue);
+            margin-bottom: 10px;
+        }
+
+        .timeline-item p {
+            color: var(--text-light);
+        }
+
+        /* Alert Boxes */
+        .alert-box {
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+        }
+
+        .alert-warning {
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            color: #856404;
+        }
+
+        .alert-info {
+            background: #d1ecf1;
+            border-left: 4px solid #17a2b8;
+            color: #0c5460;
+        }
+
+        .alert-success {
+            background: #d4edda;
+            border-left: 4px solid #28a745;
+            color: #155724;
+        }
+
+        /* FAQ Section */
+        .faq-item {
+            background: white;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+            overflow: hidden;
+        }
+
+        .faq-question {
+            padding: 20px 30px;
+            background: var(--light-blue);
+            color: white;
+            cursor: pointer;
+            font-weight: 600;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: background 0.3s;
+        }
+
+        .faq-question:hover {
+            background: var(--primary-blue);
+        }
+
+        .faq-answer {
+            padding: 30px;
+            color: var(--text-light);
+            line-height: 1.8;
+        }
+
+        /* CTA Section */
+        .cta-section {
+            background: linear-gradient(135deg, var(--primary-blue) 0%, var(--light-blue) 100%);
+            color: white;
+            padding: 80px 0;
+            text-align: center;
+        }
+
+        .cta-section h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 42px;
+            margin-bottom: 20px;
+        }
+
+        .cta-section p {
+            font-size: 20px;
+            margin-bottom: 30px;
+            opacity: 0.95;
+        }
+
+        /* Footer */
+        footer {
+            background: var(--primary-blue);
+            color: white;
+            padding: 40px 0;
+            text-align: center;
+        }
+
+        .footer-contact a {
+            color: var(--accent-gold);
+            text-decoration: none;
+            font-size: 18px;
+            margin: 0 20px;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero-section h1 {
+                font-size: 36px;
+            }
+            
+            .two-column,
+            .cards-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .timeline-number {
+                left: -15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="top-bar">
+            <div class="container">
+                <div>
+                    <i class="fas fa-certificate"></i> Licensed California Attorney - Bar #208356
+                </div>
+                <div>
+                    <i class="fas fa-phone"></i> Free Consultation: <a href="tel:8182916217">(818) 291-6217</a>
+                </div>
+            </div>
+        </div>
+        <nav>
+            <div class="container">
+                <a href="/" class="logo">
+                    <div class="logo-text">
+                        <span class="firm-name">LAW OFFICES OF ROZSA GYENE</span>
+                        <span class="tagline">Estate Planning & Probate Specialists Since 2001</span>
+                    </div>
+                </a>
+                <div style="display: flex; gap: 20px; align-items: center;">
+                    <a href="/" style="color: var(--text-dark); text-decoration: none;">Home</a>
+                    <a href="https://square.site/book/0W2A8PKKPYC21/law-offices-of-rozsa-gyene-glendale-ca" class="btn-primary" style="padding: 10px 25px; font-size: 14px;">Book Now</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container">
+            <h1>Guardianship Services</h1>
+            <p class="subtitle">Protecting Children When Parents Cannot</p>
+            <p style="font-size: 18px;">Compassionate Legal Guidance for Minor Guardianship in California</p>
+            <a href="#contact" class="btn-primary">Get Guardianship Help Today</a>
+        </div>
+    </section>
+
+    <!-- What is Guardianship -->
+    <section class="info-section">
+        <div class="container">
+            <h2 class="section-title">What is Guardianship?</h2>
+            <p class="intro-text">
+                Guardianship is a legal arrangement where a court appoints a responsible adult to care for a minor child (under 18) 
+                when parents are unable or unwilling to do so. Unlike adoption, guardianship does not permanently sever parental rights.
+            </p>
+            
+            <div class="two-column">
+                <div class="content-column">
+                    <h3>When is Guardianship Needed?</h3>
+                    <ul class="checklist">
+                        <li>Parents are deceased or incapacitated</li>
+                        <li>Parents struggle with substance abuse</li>
+                        <li>Parents are incarcerated</li>
+                        <li>Child has been abandoned</li>
+                        <li>Parents are deployed military</li>
+                        <li>Parents have serious mental illness</li>
+                        <li>Child is being abused or neglected</li>
+                        <li>Parents voluntarily surrender care</li>
+                    </ul>
+                </div>
+                <div class="content-column">
+                    <h3>Who Can Be a Guardian?</h3>
+                    <p>Any responsible adult can petition to become a guardian, though courts prefer relatives when possible:</p>
+                    <ul class="checklist">
+                        <li>Grandparents</li>
+                        <li>Aunts and Uncles</li>
+                        <li>Adult Siblings</li>
+                        <li>Other Relatives</li>
+                        <li>Family Friends</li>
+                        <li>Foster Parents</li>
+                        <li>Any Caring Adult</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Types of Guardianship -->
+    <section class="info-section">
+        <div class="container">
+            <h2 class="section-title">Types of Guardianship</h2>
+            
+            <div class="cards-grid">
+                <div class="info-card">
+                    <div class="icon-circle">
+                        <i class="fas fa-user-shield"></i>
+                    </div>
+                    <h3>Guardian of the Person</h3>
+                    <p>Responsible for the child's daily care, including:</p>
+                    <ul class="checklist">
+                        <li>Physical custody and care</li>
+                        <li>Food, clothing, and shelter</li>
+                        <li>Medical and dental decisions</li>
+                        <li>Educational decisions</li>
+                        <li>Safety and protection</li>
+                    </ul>
+                </div>
+                
+                <div class="info-card">
+                    <div class="icon-circle">
+                        <i class="fas fa-coins"></i>
+                    </div>
+                    <h3>Guardian of the Estate</h3>
+                    <p>Manages the child's finances and property:</p>
+                    <ul class="checklist">
+                        <li>Inheritance management</li>
+                        <li>Lawsuit settlements</li>
+                        <li>Social Security benefits</li>
+                        <li>Investment accounts</li>
+                        <li>Real property</li>
+                    </ul>
+                </div>
+                
+                <div class="info-card">
+                    <div class="icon-circle">
+                        <i class="fas fa-balance-scale"></i>
+                    </div>
+                    <h3>Full Guardianship</h3>
+                    <p>Complete responsibility for both person and estate:</p>
+                    <ul class="checklist">
+                        <li>All personal care duties</li>
+                        <li>All financial responsibilities</li>
+                        <li>Court supervision required</li>
+                        <li>Annual accountings</li>
+                        <li>Most comprehensive protection</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="alert-box alert-info">
+                <i class="fas fa-info-circle"></i> <strong>Important:</strong> Guardianship can be temporary (90 days or less) or permanent (until the child turns 18). 
+                Emergency guardianships are available when a child faces immediate danger.
+            </div>
+        </div>
+    </section>
+
+    <!-- The Guardianship Process -->
+    <section class="info-section">
+        <div class="container">
+            <h2 class="section-title">The Guardianship Process</h2>
+            <p class="intro-text">
+                Establishing guardianship requires court approval through a formal legal process. 
+                Here's what to expect:
+            </p>
+            
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-number">1</div>
+                    <h3>Initial Consultation</h3>
+                    <p>We assess your situation, determine if guardianship is appropriate, and explore alternatives. 
+                    We'll discuss the child's needs, family dynamics, and your ability to serve as guardian.</p>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-number">2</div>
+                    <h3>File Petition</h3>
+                    <p>We prepare and file the Petition for Appointment of Guardian (Form GC-210) with the court, 
+                    including all supporting documents and declarations.</p>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-number">3</div>
+                    <h3>Serve Notice</h3>
+                    <p>Legal notice must be given to parents, relatives, and other interested parties. 
+                    This ensures everyone has an opportunity to participate in the proceedings.</p>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-number">4</div>
+                    <h3>Investigation</h3>
+                    <p>The court may order an investigation by a court investigator or social worker to evaluate 
+                    the proposed guardianship and make recommendations.</p>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-number">5</div>
+                    <h3>Court Hearing</h3>
+                    <p>Attend the guardianship hearing where the judge will review evidence, hear testimony, 
+                    and determine if guardianship is in the child's best interests.</p>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-number">6</div>
+                    <h3>Letters of Guardianship</h3>
+                    <p>If approved, the court issues Letters of Guardianship, giving you legal authority 
+                    to care for the child and make decisions on their behalf.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rights and Responsibilities -->
+    <section class="info-section">
+        <div class="container">
+            <h2 class="section-title">Guardian Rights & Responsibilities</h2>
+            
+            <div class="two-column">
+                <div class="content-column">
+                    <h3>Your Rights as Guardian</h3>
+                    <ul class="checklist">
+                        <li>Make educational decisions</li>
+                        <li>Consent to medical treatment</li>
+                        <li>Apply for benefits on child's behalf</li>
+                        <li>Determine where child lives</li>
+                        <li>Access school and medical records</li>
+                        <li>Make day-to-day parenting decisions</li>
+                        <li>Receive financial assistance (if eligible)</li>
+                    </ul>
+                </div>
+                <div class="content-column">
+                    <h3>Your Responsibilities</h3>
+                    <ul class="checklist">
+                        <li>Provide safe, stable home</li>
+                        <li>Meet child's basic needs</li>
+                        <li>Ensure education and healthcare</li>
+                        <li>File court status reports</li>
+                        <li>Manage finances responsibly</li>
+                        <li>Facilitate parent visitation (if ordered)</li>
+                        <li>Act in child's best interests</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="alert-box alert-warning">
+                <i class="fas fa-exclamation-triangle"></i> <strong>Note:</strong> Guardians must get court approval for major decisions like 
+                moving out of state, changing the child's name, or allowing adoption.
+            </div>
+        </div>
+    </section>
+
+    <!-- Special Considerations -->
+    <section class="info-section">
+        <div class="container">
+            <h2 class="section-title">Special Considerations</h2>
+            
+            <div class="cards-grid">
+                <div class="info-card">
+                    <h3>Indian Child Welfare Act (ICWA)</h3>
+                    <p>Special federal protections apply if the child is Native American or eligible for tribal membership. 
+                    Additional notice requirements and placement preferences must be followed.</p>
+                </div>
+                
+                <div class="info-card">
+                    <h3>Immigration Issues</h3>
+                    <p>Guardianship may help undocumented children obtain Special Immigrant Juvenile Status (SIJS), 
+                    potentially leading to lawful permanent residence.</p>
+                </div>
+                
+                <div class="info-card">
+                    <h3>Educational Rights</h3>
+                    <p>Guardians can enroll children in school, consent to IEPs, and make educational decisions. 
+                    Some schools may require additional documentation.</p>
+                </div>
+                
+                <div class="info-card">
+                    <h3>Financial Support</h3>
+                    <p>Guardians may be eligible for CalWORKs, AFDC-FC, or other financial assistance programs. 
+                    The child may also receive Social Security survivor benefits.</p>
+                </div>
+                
+                <div class="info-card">
+                    <h3>Visitation Rights</h3>
+                    <p>Parents typically retain visitation rights unless the court finds it would be detrimental to the child. 
+                    Visitation can be supervised if necessary.</p>
+                </div>
+                
+                <div class="info-card">
+                    <h3>Termination</h3>
+                    <p>Guardianship ends when the child turns 18, is adopted, emancipated, or if the court terminates it. 
+                    Parents can petition to regain custody if circumstances improve.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="info-section">
+        <div class="container">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            
+            <div class="faq-item">
+                <div class="faq-question">
+                    How long does the guardianship process take?
+                    <span>+</span>
+                </div>
+                <div class="faq-answer">
+                    The process typically takes 2-3 months from filing to court hearing. Emergency guardianships can be obtained 
+                    within days if the child faces immediate danger. Temporary guardianships (up to 90 days) have expedited procedures.
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">
+                    Do I need the parents' consent?
+                    <span>+</span>
+                </div>
+                <div class="faq-answer">
+                    Parent consent makes the process easier but is not required. If parents object, the court will hold a contested 
+                    hearing to determine what's best for the child. Parents who cannot be located must still be notified through 
+                    publication or other means.
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">
+                    What's the difference between guardianship and adoption?
+                    <span>+</span>
+                </div>
+                <div class="faq-answer">
+                    Guardianship is temporary and doesn't end parental rights - parents can petition to regain custody. 
+                    Adoption permanently transfers all parental rights and creates a new legal parent-child relationship. 
+                    Guardianship ends at 18; adoption is permanent.
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">
+                    Can I get financial help as a guardian?
+                    <span>+</span>
+                </div>
+                <div class="faq-answer">
+                    Yes, several programs provide financial assistance to guardians including CalWORKs, Kin-GAP, AFDC-FC, 
+                    and Social Security benefits. Eligibility depends on factors like your relationship to the child, 
+                    income level, and the child's eligibility for benefits.
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">
+                    Can guardianship be changed or terminated?
+                    <span>+</span>
+                </div>
+                <div class="faq-answer">
+                    Yes, guardianship can be modified or terminated by the court. Parents can petition to regain custody if they 
+                    can show changed circumstances. Guardians can also request termination if they can no longer serve. 
+                    The court always considers the child's best interests.
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="info-section">
+        <div class="container">
+            <h2 class="section-title">Why Choose Law Offices of Rozsa Gyene?</h2>
+            
+            <div class="cards-grid">
+                <div class="info-card">
+                    <div class="icon-circle">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>Compassionate Approach</h3>
+                    <p>We understand the emotional challenges of guardianship cases and provide caring, 
+                    supportive guidance throughout the process.</p>
+                </div>
+                
+                <div class="info-card">
+                    <div class="icon-circle">
+                        <i class="fas fa-gavel"></i>
+                    </div>
+                    <h3>25+ Years Experience</h3>
+                    <p>With over two decades handling California guardianships, we know how to navigate 
+                    complex family situations and court requirements.</p>
+                </div>
+                
+                <div class="info-card">
+                    <div class="icon-circle">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Family-Focused Solutions</h3>
+                    <p>We work to preserve family relationships when possible while always prioritizing 
+                    the child's safety and wellbeing.</p>
+                </div>
+            </div>
+            
+            <div class="alert-box alert-success">
+                <i class="fas fa-check-circle"></i> <strong>Free Consultation:</strong> We offer a free initial consultation to discuss your 
+                guardianship needs and explain your options. Call us today at (818) 291-6217.
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section" id="contact">
+        <div class="container">
+            <h2>Protect a Child's Future Today</h2>
+            <p>Don't wait when a child needs protection and stability</p>
+            <a href="tel:8182916217" class="btn-primary">Call (818) 291-6217 for Free Consultation</a>
+            <p style="margin-top: 30px;">Or complete our online questionnaire:</p>
+            <a href="guardianship-questionnaire.html" class="btn-primary">Start Guardianship Questionnaire</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <h3 style="margin-bottom: 20px;">Law Offices of Rozsa Gyene</h3>
+            <p>450 N Brand Blvd. Suite 600<br>
+            Glendale, CA 91203</p>
+            <div class="footer-contact" style="margin-top: 20px;">
+                <a href="tel:8182916217"><i class="fas fa-phone"></i> (818) 291-6217</a>
+                <a href="mailto:rozsagyenelaw@yahoo.com"><i class="fas fa-envelope"></i> rozsagyenelaw@yahoo.com</a>
+            </div>
+            <p style="margin-top: 30px; font-size: 14px; opacity: 0.8;">© 2024 Law Offices of Rozsa Gyene. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
