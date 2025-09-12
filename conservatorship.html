@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conservatorship & Guardianship - Law Offices of Rozsa Gyene</title>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary-blue: #1e3a5f;
+            --accent-gold: #c9a961;
+            --text-dark: #2c3e50;
+            --text-light: #6c757d;
+            --background: #ffffff;
+            --section-bg: #f8f9fa;
+            --border-color: #dee2e6;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            color: var(--text-dark);
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Header */
+        header {
+            background: white;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .top-bar {
+            background: var(--primary-blue);
+            color: white;
+            padding: 10px 0;
+            font-size: 14px;
+        }
+
+        .top-bar .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .top-bar a {
+            color: var(--accent-gold);
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        nav {
+            padding: 20px 0;
+        }
+
+        nav .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            color: var(--primary-blue);
+        }
+
+        .logo-text {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .logo-text .firm-name {
+            font-family: 'Playfair Display', serif;
+            font-size: 24px;
+            font-weight: 700;
+        }
+
+        .logo-text .tagline {
+            font-size: 12px;
+            color: var(--text-light);
+            margin-top: 2px;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, #4A69BD 0%, #3A4B6B 100%);
+            color: white;
+            padding: 100px 0;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 56px;
+            margin-bottom: 20px;
+        }
+
+        .hero-tagline {
+            font-size: 24px;
+            color: var(--accent-gold);
+            margin-bottom: 30px;
+        }
+
+        .hero-description {
+            font-size: 18px;
+            max-width: 800px;
+            margin: 0 auto 40px;
+            line-height: 1.8;
+        }
+
+        .hero-buttons {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .btn-primary {
+            background: var(--accent-gold);
+            color: white;
+            padding: 15px 40px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 18px;
+            transition: all 0.3s;
+            display: inline-block;
+        }
+
+        .btn-primary:hover {
+            background: #b8982f;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(201, 169, 97, 0.3);
+        }
+
+        .btn-secondary {
+            background: transparent;
+            color: white;
+            border: 2px solid white;
+            padding: 13px 40px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 18px;
+            transition: all 0.3s;
+            display: inline-block;
+        }
+
+        .btn-secondary:hover {
+            background: white;
+            color: var(--primary-blue);
+        }
+
+        /* Info Sections */
+        .info-section {
+            padding: 80px 0;
+        }
+
+        .info-section h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 42px;
+            color: var(--primary-blue);
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .info-content {
+            max-width: 900px;
+            margin: 0 auto;
+            font-size: 18px;
+            line-height: 1.8;
+            color: var(--text-light);
+        }
+
+        .info-content strong {
+            color: var(--primary-blue);
+            font-weight: 600;
+        }
+
+        /* Services Grid */
+        .services {
+            background: var(--section-bg);
+            padding: 80px 0;
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 50px;
+        }
+
+        .service-card {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+            transition: all 0.3s;
+        }
+
+        .service-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+        }
+
+        .service-icon {
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(135deg, var(--accent-gold) 0%, #e6c584 100%);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+            font-size: 28px;
+            color: white;
+        }
+
+        .service-card h3 {
+            color: var(--primary-blue);
+            margin-bottom: 15px;
+            font-size: 24px;
+        }
+
+        .service-card p {
+            color: var(--text-light);
+            line-height: 1.6;
+        }
+
+        /* Process Timeline */
+        .process {
+            padding: 80px 0;
+            background: white;
+        }
+
+        .timeline {
+            max-width: 900px;
+            margin: 50px auto;
+        }
+
+        .timeline-item {
+            display: flex;
+            gap: 30px;
+            margin-bottom: 40px;
+            position: relative;
+        }
+
+        .timeline-item::after {
+            content: '';
+            position: absolute;
+            left: 29px;
+            top: 60px;
+            width: 2px;
+            height: calc(100% + 20px);
+            background: var(--border-color);
+        }
+
+        .timeline-item:last-child::after {
+            display: none;
+        }
+
+        .timeline-number {
+            width: 60px;
+            height: 60px;
+            background: var(--accent-gold);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            font-weight: bold;
+            flex-shrink: 0;
+        }
+
+        .timeline-content h3 {
+            color: var(--primary-blue);
+            margin-bottom: 10px;
+        }
+
+        .timeline-content p {
+            color: var(--text-light);
+        }
+
+        /* Stats Section */
+        .stats {
+            background: var(--primary-blue);
+            padding: 60px 0;
+            text-align: center;
+            color: white;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 40px;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .stat-item {
+            padding: 20px;
+        }
+
+        .stat-number {
+            font-size: 48px;
+            font-weight: bold;
+            color: var(--accent-gold);
+            margin-bottom: 10px;
+        }
+
+        .stat-label {
+            font-size: 18px;
+        }
+
+        /* CTA Section */
+        .cta {
+            background: linear-gradient(135deg, var(--primary-blue) 0%, #2c5282 100%);
+            color: white;
+            padding: 80px 0;
+            text-align: center;
+        }
+
+        .cta h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 42px;
+            margin-bottom: 20px;
+        }
+
+        .cta p {
+            font-size: 20px;
+            margin-bottom: 30px;
+        }
+
+        .phone-large {
+            font-size: 36px;
+            color: var(--accent-gold);
+            font-weight: bold;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 20px;
+        }
+
+        /* Form Section */
+        .form-section {
+            padding: 80px 0;
+            background: white;
+        }
+
+        .form-container {
+            max-width: 700px;
+            margin: 0 auto;
+            background: var(--section-bg);
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+        }
+
+        .form-group {
+            margin-bottom: 25px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 10px;
+            color: var(--primary-blue);
+            font-weight: 600;
+            font-size: 18px;
+        }
+
+        .form-group input {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid var(--border-color);
+            border-radius: 8px;
+            font-size: 16px;
+        }
+
+        .radio-group {
+            display: flex;
+            gap: 30px;
+            margin-top: 10px;
+        }
+
+        .submit-btn {
+            background: var(--accent-gold);
+            color: white;
+            padding: 15px 50px;
+            border: none;
+            border-radius: 50px;
+            font-size: 18px;
+            font-weight: 600;
+            cursor: pointer;
+            width: 100%;
+            transition: all 0.3s;
+        }
+
+        .submit-btn:hover {
+            background: #b8982f;
+            transform: translateY(-2px);
+        }
+
+        /* Footer */
+        footer {
+            background: var(--primary-blue);
+            color: white;
+            padding: 40px 0;
+            text-align: center;
+        }
+
+        .footer-contact a {
+            color: var(--accent-gold);
+            text-decoration: none;
+            font-size: 18px;
+            margin: 0 20px;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 36px;
+            }
+            
+            .services-grid,
+            .stats-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .timeline-item {
+                flex-direction: column;
+                gap: 20px;
+            }
+            
+            .timeline-item::after {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="top-bar">
+            <div class="container">
+                <div>
+                    <i class="fas fa-certificate"></i> Licensed California Attorney - Bar #208356
+                </div>
+                <div>
+                    <i class="fas fa-phone"></i> Free Consultation: <a href="tel:8182916217">(818) 291-6217</a>
+                </div>
+            </div>
+        </div>
+        <nav>
+            <div class="container">
+                <a href="/" class="logo">
+                    <div class="logo-text">
+                        <span class="firm-name">LAW OFFICES OF ROZSA GYENE</span>
+                        <span class="tagline">Estate Planning & Probate Specialists Since 2001</span>
+                    </div>
+                </a>
+                <div style="display: flex; gap: 20px; align-items: center;">
+                    <a href="/" style="color: var(--text-dark); text-decoration: none;">Home</a>
+                    <a href="https://square.site/book/0W2A8PKKPYC21/law-offices-of-rozsa-gyene-glendale-ca" class="btn-primary" style="padding: 10px 25px; font-size: 14px;">Book Now</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Conservatorship & Guardianship</h1>
+            <p class="hero-tagline">Ensuring your loved ones are protected and cared for</p>
+            <p class="hero-description">
+                When a loved one can no longer manage their own affairs due to age, disability, or medical conditions, 
+                a conservatorship provides the legal framework to protect them and manage their needs with dignity and care.
+            </p>
+            
+            <div class="hero-buttons">
+                <a href="https://square.site/book/0W2A8PKKPYC21/law-offices-of-rozsa-gyene-glendale-ca" class="btn-primary">Get Started</a>
+                <a href="#form" class="btn-secondary">Learn More</a>
+            </div>
+            
+            <p style="margin-top: 30px;">Call Now for a Free Legal Consultation:</p>
+            <a href="tel:8182916217" class="phone-large">(818) 291-6217</a>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-number">300+</div>
+                    <div class="stat-label">Conservatorships Established</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">25+</div>
+                    <div class="stat-label">Years of Experience</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">100%</div>
+                    <div class="stat-label">Court Approval Rate</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">24/7</div>
+                    <div class="stat-label">Support Available</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="info-section">
+        <div class="container">
+            <h2>About Conservatorship</h2>
+            <div class="info-content">
+                <p>
+                    <strong>Conservatorship</strong> is a legal arrangement in which one person (called the <strong>conservator</strong>) 
+                    is appointed by a court to manage the financial affairs and/or daily life of another person (called the <strong>conservatee</strong>) 
+                    who is unable to do so for themselves.
+                </p>
+                <p style="margin-top: 20px;">
+                    The conservatee is typically an elderly person or someone with a disability. The conservator is responsible for making 
+                    decisions on behalf of the conservatee. This can include managing finances, paying bills, making healthcare decisions, 
+                    and ensuring the conservatee has proper housing and care. The court oversees the conservator's actions to make sure 
+                    they are acting in the best interests of the conservatee.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services">
+        <div class="container">
+            <h2>What Our Law Firm Can Do For You</h2>
+            <p style="text-align: center; max-width: 800px; margin: 0 auto 50px; color: var(--text-light);">
+                We provide valuable support and expertise to anyone seeking to establish a conservatorship 
+                and ensure that your loved one's needs are properly cared for.
+            </p>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-gavel"></i>
+                    </div>
+                    <h3>Court Representation</h3>
+                    <p>We handle all court appearances and filings, ensuring your petition is properly presented and approved.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-file-alt"></i>
+                    </div>
+                    <h3>Document Preparation</h3>
+                    <p>Complete preparation of all necessary legal documents, petitions, and annual accountings required by the court.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-calculator"></i>
+                    </div>
+                    <h3>Annual Accounting</h3>
+                    <p>Professional preparation and filing of required annual accountings to maintain compliance with court requirements.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Asset Management</h3>
+                    <p>Guidance on proper management and protection of the conservatee's assets and financial affairs.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Family Mediation</h3>
+                    <p>Help resolve family disputes and ensure all parties understand their rights and responsibilities.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-phone-alt"></i>
+                    </div>
+                    <h3>Ongoing Support</h3>
+                    <p>Continuous legal support throughout the conservatorship to address any issues or changes that arise.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="process">
+        <div class="container">
+            <h2 style="text-align: center; font-family: 'Playfair Display', serif; font-size: 42px; color: var(--primary-blue); margin-bottom: 50px;">
+                Our Conservatorship Process
+            </h2>
+            
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-number">1</div>
+                    <div class="timeline-content">
+                        <h3>Initial Consultation</h3>
+                        <p>Free consultation to assess your situation and determine if conservatorship is the right solution.</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-number">2</div>
+                    <div class="timeline-content">
+                        <h3>Document Preparation</h3>
+                        <p>We prepare all necessary petitions, notices, and supporting documents required by the court.</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-number">3</div>
+                    <div class="timeline-content">
+                        <h3>Court Filing</h3>
+                        <p>File petition with the court and serve notice to all required parties.</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-number">4</div>
+                    <div class="timeline-content">
+                        <h3>Court Hearing</h3>
+                        <p>Represent you at the court hearing to establish the conservatorship.</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-number">5</div>
+                    <div class="timeline-content">
+                        <h3>Ongoing Support</h3>
+                        <p>Continue to provide support with annual accountings and any modifications needed.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <h2>Need Help Protecting Your Loved One?</h2>
+            <p>We'll guide you through every step of the conservatorship process</p>
+            <a href="https://square.site/book/0W2A8PKKPYC21/law-offices-of-rozsa-gyene-glendale-ca" class="btn-primary">Book An Appointment</a>
+            <p style="margin-top: 30px;">Or Call Us Now for a FREE Legal Consultation</p>
+            <a href="tel:8182916217" class="phone-large">(818) 291-6217</a>
+        </div>
+    </section>
+
+    <!-- Form Section -->
+    <section class="form-section" id="form">
+        <div class="container">
+            <h2 style="text-align: center; font-family: 'Playfair Display', serif; font-size: 42px; color: var(--primary-blue); margin-bottom: 40px;">
+                Find Out If a Conservatorship is Right for You
+            </h2>
+            
+            <div class="form-container">
+                <form action="https://getform.io/f/YOUR-FORM-ID" method="POST">
+                    <div class="form-group">
+                        <label>Do you have a loved one who is unable to manage their own finances and/or daily care?</label>
+                        <div class="radio-group">
+                            <label><input type="radio" name="unable_manage" value="yes"> Yes</label>
+                            <label><input type="radio" name="unable_manage" value="no"> No</label>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Does this person have a disability or medical condition?</label>
+                        <div class="radio-group">
+                            <label><input type="radio" name="disability" value="yes"> Yes</label>
+                            <label><input type="radio" name="disability" value="no"> No</label>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Does this person have a trusted friend or family member who could serve as conservator?</label>
+                        <div class="radio-group">
+                            <label><input type="radio" name="trusted_person" value="yes"> Yes</label>
+                            <label><input type="radio" name="trusted_person" value="no"> No</label>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Does this person have a power of attorney or a living will?</label>
+                        <div class="radio-group">
+                            <label><input type="radio" name="poa_living_will" value="yes"> Yes</label>
+                            <label><input type="radio" name="poa_living_will" value="no"> No</label>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Phone:</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+
+                    <button type="submit" class="submit-btn">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <h3 style="margin-bottom: 20px;">CONTACT US</h3>
+            <div class="footer-contact">
+                <a href="tel:8182916217"><i class="fas fa-phone"></i> (818) 291-6217</a>
+                <a href="mailto:rozsagyenelaw@yahoo.com"><i class="fas fa-envelope"></i> rozsagyenelaw@yahoo.com</a>
+            </div>
+            <p style="margin-top: 20px;">Law Offices of Rozsa Gyene<br>
+            State Bar No. 208356<br>
+            450 N Brand Blvd. Suite 600<br>
+            Glendale CA 91203</p>
+        </div>
+    </footer>
+</body>
+</html>
