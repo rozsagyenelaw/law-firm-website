@@ -13,73 +13,278 @@
     
     <style>
         * {
-            box-sizing: border-box;
             margin: 0;
             padding: 0;
+            box-sizing: border-box;
         }
-        
+
+        :root {
+            --primary-blue: #1e3a5f;
+            --accent-gold: #c9a961;
+            --text-dark: #2c3e50;
+            --text-light: #6c757d;
+            --background: #ffffff;
+            --section-bg: #f8f9fa;
+            --hover-bg: #f8f9fa;
+            --border-color: #dee2e6;
+            --soft-blue: #e8f4f8;
+            --danger: #e74c3c;
+            --success-bg: #d4edda;
+            --success-border: #c3e6cb;
+            --success-text: #155724;
+            --warning-bg: #fff3cd;
+            --warning-border: #ffeaa7;
+            --warning-text: #856404;
+        }
+
         body {
             font-family: 'Inter', sans-serif;
+            color: var(--text-dark);
             line-height: 1.6;
-            color: #333;
-            background: #f4f4f4;
+            background: var(--section-bg);
         }
-        
-        /* Header */
-        .header-banner {
-            background: linear-gradient(135deg, #1e3a5f 0%, #2a5298 100%);
+
+        /* Top Bar */
+        .top-bar {
+            background: var(--primary-blue);
             color: white;
-            padding: 40px 20px;
-            text-align: center;
+            padding: 10px 0;
+            font-size: 14px;
         }
-        
-        .header-banner h1 {
+
+        .top-bar .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .top-bar a {
+            color: var(--accent-gold);
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        /* Main Navigation */
+        header {
+            background: white;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav {
+            padding: 20px 0;
+        }
+
+        nav .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            color: var(--primary-blue);
+        }
+
+        .logo-text {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .logo-text .firm-name {
             font-family: 'Playfair Display', serif;
-            font-size: 42px;
+            font-size: 24px;
+            font-weight: 700;
+        }
+
+        .logo-text .tagline {
+            font-size: 12px;
+            color: var(--text-light);
+            margin-top: 2px;
+        }
+
+        /* Navigation Menu */
+        .nav-menu {
+            display: flex;
+            list-style: none;
+            gap: 0;
+            align-items: center;
+        }
+
+        .nav-item {
+            position: relative;
+        }
+
+        .nav-link {
+            display: block;
+            padding: 15px 20px;
+            color: var(--text-dark);
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.3s;
+            position: relative;
+        }
+
+        .nav-link:hover {
+            color: var(--accent-gold);
+        }
+
+        .nav-item:hover .nav-link {
+            background: var(--hover-bg);
+        }
+
+        /* Dropdown Arrow */
+        .nav-link.has-dropdown::after {
+            content: "▼";
+            font-size: 10px;
+            margin-left: 5px;
+            transition: transform 0.3s;
+        }
+
+        .nav-item:hover .nav-link.has-dropdown::after {
+            transform: rotate(180deg);
+        }
+
+        /* Dropdown Menu */
+        .dropdown {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            min-width: 250px;
+            background: white;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+            border-radius: 8px;
+            opacity: 0;
+            visibility: hidden;
+            transform: translateY(-10px);
+            transition: all 0.3s;
+            border-top: 3px solid var(--accent-gold);
+        }
+
+        .nav-item:hover .dropdown {
+            opacity: 1;
+            visibility: visible;
+            transform: translateY(0);
+        }
+
+        .dropdown-item {
+            display: block;
+            padding: 12px 20px;
+            color: var(--text-dark);
+            text-decoration: none;
+            transition: all 0.3s;
+            border-bottom: 1px solid #f0f0f0;
+        }
+
+        .dropdown-item:last-child {
+            border-bottom: none;
+            border-radius: 0 0 8px 8px;
+        }
+
+        .dropdown-item:hover {
+            background: var(--hover-bg);
+            color: var(--accent-gold);
+            padding-left: 25px;
+        }
+
+        /* Book Now Button in Nav */
+        .btn-book {
+            background: var(--accent-gold);
+            color: white;
+            padding: 12px 30px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s;
+            margin-left: 20px;
+        }
+
+        .btn-book:hover {
+            background: #b8982f;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(201, 169, 97, 0.3);
+        }
+
+        /* Mobile Menu Toggle */
+        .mobile-toggle {
+            display: none;
+            background: none;
+            border: none;
+            font-size: 24px;
+            color: var(--text-dark);
+            cursor: pointer;
+        }
+
+        .close-menu {
+            display: none;
+        }
+
+        /* Form Container */
+        .form-container {
+            max-width: 1200px;
+            margin: 40px auto;
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 48px;
+            color: var(--primary-blue);
+            text-align: center;
             margin-bottom: 10px;
         }
-        
-        .header-banner p {
+
+        .subtitle {
+            text-align: center;
+            color: var(--text-light);
             font-size: 18px;
-            opacity: 0.95;
+            margin-bottom: 40px;
         }
-        
-        .container {
-            max-width: 1200px;
-            margin: 20px auto;
-            background: white;
-            padding: 30px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }
-        
+
+        /* Form Sections */
         .section {
-            margin-bottom: 30px;
-            padding: 20px;
-            background: #f8f9fa;
-            border-radius: 8px;
+            margin-bottom: 40px;
+            padding: 30px;
+            background: var(--section-bg);
+            border-radius: 10px;
+            border-left: 4px solid var(--accent-gold);
         }
-        
+
         .section-title {
-            font-size: 1.3em;
+            font-family: 'Playfair Display', serif;
+            font-size: 24px;
             font-weight: bold;
-            color: #1e3a5f;
-            margin-bottom: 20px;
-            padding-bottom: 10px;
-            border-bottom: 2px solid #c9a961;
+            color: var(--primary-blue);
+            margin-bottom: 25px;
+            padding-bottom: 15px;
+            border-bottom: 2px solid var(--accent-gold);
         }
-        
+
+        /* Form Elements */
         .form-group {
-            margin-bottom: 15px;
+            margin-bottom: 20px;
         }
-        
+
         label {
             display: block;
-            margin-bottom: 5px;
+            margin-bottom: 8px;
             font-weight: 600;
-            color: #555;
+            color: var(--text-dark);
         }
-        
+
         input[type="text"],
         input[type="email"],
         input[type="tel"],
@@ -88,172 +293,381 @@
         select,
         textarea {
             width: 100%;
-            padding: 8px 12px;
-            border: 1px solid #ddd;
-            border-radius: 4px;
-            font-size: 14px;
-            transition: border-color 0.3s;
+            padding: 12px 15px;
+            border: 2px solid var(--border-color);
+            border-radius: 8px;
+            font-size: 15px;
+            transition: all 0.3s;
         }
-        
+
         input:focus,
         select:focus,
         textarea:focus {
             outline: none;
-            border-color: #c9a961;
+            border-color: var(--accent-gold);
+            box-shadow: 0 0 0 3px rgba(201, 169, 97, 0.1);
         }
-        
+
         .radio-group,
         .checkbox-group {
             display: flex;
-            gap: 20px;
-            margin-top: 5px;
+            gap: 25px;
+            margin-top: 10px;
             flex-wrap: wrap;
         }
-        
+
         .radio-item,
         .checkbox-item {
             display: flex;
             align-items: center;
         }
-        
+
         input[type="radio"],
         input[type="checkbox"] {
-            margin-right: 5px;
+            margin-right: 8px;
+            cursor: pointer;
         }
-        
+
+        .radio-item label,
+        .checkbox-item label {
+            cursor: pointer;
+            font-weight: normal;
+        }
+
         .required {
-            color: #e74c3c;
+            color: var(--danger);
         }
-        
+
         .hidden {
-            display: none !important;
+            display: none;
         }
-        
+
         .row {
             display: grid;
             grid-template-columns: 1fr 1fr;
-            gap: 15px;
+            gap: 20px;
         }
-        
-        .dynamic-section {
-            background: #e8f4f8;
+
+        .row-3 {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 20px;
+        }
+
+        /* Info and Warning Boxes */
+        .info-box {
+            background: var(--success-bg);
+            border: 2px solid var(--success-border);
+            color: var(--success-text);
             padding: 15px;
-            margin-bottom: 15px;
-            border-radius: 5px;
-            position: relative;
-            border-left: 3px solid #c9a961;
+            border-radius: 8px;
+            margin-bottom: 20px;
         }
-        
+
+        .warning-box {
+            background: var(--warning-bg);
+            border: 2px solid var(--warning-border);
+            color: var(--warning-text);
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        /* Dynamic Sections */
+        .dynamic-section {
+            background: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            position: relative;
+            border: 2px solid var(--border-color);
+        }
+
+        .dynamic-section h3 {
+            color: var(--primary-blue);
+            margin-bottom: 15px;
+            font-size: 18px;
+        }
+
         .remove-btn {
             position: absolute;
-            top: 10px;
-            right: 10px;
-            background: #e74c3c;
+            top: 15px;
+            right: 15px;
+            background: var(--danger);
             color: white;
             border: none;
-            padding: 5px 10px;
-            border-radius: 3px;
-            cursor: pointer;
-            font-size: 12px;
-        }
-        
-        .remove-btn:hover {
-            background: #c0392b;
-        }
-        
-        .add-btn {
-            background: #c9a961;
-            color: white;
-            border: none;
-            padding: 10px 20px;
-            border-radius: 4px;
+            padding: 8px 15px;
+            border-radius: 5px;
             cursor: pointer;
             font-size: 14px;
-            margin-top: 10px;
             transition: all 0.3s;
         }
-        
+
+        .remove-btn:hover {
+            background: #c0392b;
+            transform: translateY(-2px);
+        }
+
+        .add-btn {
+            background: var(--accent-gold);
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 50px;
+            cursor: pointer;
+            font-size: 15px;
+            font-weight: 600;
+            margin-top: 15px;
+            transition: all 0.3s;
+        }
+
         .add-btn:hover {
             background: #b8982f;
             transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(201, 169, 97, 0.3);
         }
-        
+
+        /* Submit Section */
         .submit-section {
             text-align: center;
-            margin-top: 30px;
+            margin-top: 50px;
+            padding-top: 30px;
+            border-top: 2px solid var(--border-color);
         }
-        
+
         .submit-btn {
-            background: #27ae60;
+            background: linear-gradient(135deg, var(--accent-gold) 0%, #b8982f 100%);
             color: white;
             border: none;
-            padding: 15px 40px;
+            padding: 18px 50px;
             border-radius: 50px;
             cursor: pointer;
-            font-size: 16px;
+            font-size: 18px;
             font-weight: bold;
             transition: all 0.3s;
+            box-shadow: 0 5px 15px rgba(201, 169, 97, 0.3);
         }
-        
+
         .submit-btn:hover {
-            background: #229954;
-            transform: translateY(-2px);
-            box-shadow: 0 5px 15px rgba(39, 174, 96, 0.3);
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(201, 169, 97, 0.4);
         }
-        
-        .info-box {
-            background: #d4edda;
-            border: 1px solid #c3e6cb;
-            color: #155724;
-            padding: 15px;
-            border-radius: 4px;
-            margin-bottom: 15px;
+
+        /* Footer */
+        footer {
+            background: var(--primary-blue);
+            color: white;
+            padding: 40px 0;
+            text-align: center;
+            margin-top: 60px;
         }
-        
-        .warning-box {
-            background: #fff3cd;
-            border: 1px solid #ffeaa7;
-            color: #856404;
-            padding: 15px;
-            border-radius: 4px;
-            margin-bottom: 15px;
+
+        .footer-contact a {
+            color: var(--accent-gold);
+            text-decoration: none;
+            font-size: 18px;
+            margin: 0 20px;
         }
-        
-        @media (max-width: 600px) {
-            .row {
+
+        /* Mobile Styles */
+        @media (max-width: 992px) {
+            .mobile-toggle {
+                display: block;
+            }
+
+            .close-menu {
+                display: block;
+                position: absolute;
+                top: 20px;
+                right: 20px;
+                background: none;
+                border: none;
+                font-size: 30px;
+                cursor: pointer;
+            }
+
+            .nav-menu {
+                position: fixed;
+                top: 0;
+                right: -100%;
+                width: 300px;
+                height: 100vh;
+                background: white;
+                flex-direction: column;
+                padding: 60px 0 20px;
+                box-shadow: -5px 0 20px rgba(0,0,0,0.1);
+                transition: right 0.3s;
+                overflow-y: auto;
+                gap: 0;
+            }
+
+            .nav-menu.active {
+                right: 0;
+            }
+
+            .nav-item {
+                width: 100%;
+            }
+
+            .nav-link {
+                padding: 15px 20px;
+                border-bottom: 1px solid #f0f0f0;
+            }
+
+            .dropdown {
+                position: static;
+                opacity: 1;
+                visibility: visible;
+                transform: none;
+                box-shadow: none;
+                display: none;
+                background: var(--hover-bg);
+                border-radius: 0;
+                border-top: none;
+            }
+
+            .nav-item.active .dropdown {
+                display: block;
+            }
+
+            .dropdown-item {
+                padding-left: 40px;
+                border-bottom: 1px solid #e0e0e0;
+            }
+
+            .btn-book {
+                margin: 20px;
+                display: block;
+                text-align: center;
+            }
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 36px;
+            }
+
+            .form-container {
+                padding: 20px;
+            }
+
+            .section {
+                padding: 20px;
+            }
+
+            .row,
+            .row-3 {
                 grid-template-columns: 1fr;
             }
-            
+
             .radio-group,
             .checkbox-group {
                 flex-direction: column;
-                gap: 10px;
+                gap: 15px;
             }
-            
-            .header-banner h1 {
-                font-size: 28px;
+
+            .top-bar .container {
+                flex-direction: column;
+                gap: 5px;
             }
         }
     </style>
 </head>
 <body>
-    <div class="header-banner">
-        <h1>Probate Intake Form</h1>
-        <p>Please provide the following information to help us assist you with the probate process</p>
-    </div>
-    
-    <div class="container">
-        <div class="info-box">
-            <i class="fas fa-info-circle"></i> This form is secure and confidential. All information will be sent directly to our office.
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="container">
+            <div>
+                <i class="fas fa-certificate"></i> Licensed California Attorney - Bar #208356
+            </div>
+            <div>
+                <i class="fas fa-phone"></i> Free Consultation: <a href="tel:8182916217">(818) 291-6217</a>
+            </div>
         </div>
-        
-        <!-- FORM WITH GETFORM ENDPOINT -->
+    </div>
+
+    <!-- Main Navigation -->
+    <header>
+        <nav>
+            <div class="container">
+                <a href="index.html" class="logo">
+                    <div class="logo-text">
+                        <span class="firm-name">LAW OFFICES OF ROZSA GYENE</span>
+                        <span class="tagline">Estate Planning & Probate Specialists Since 2001</span>
+                    </div>
+                </a>
+
+                <button class="mobile-toggle" onclick="toggleMenu()">
+                    <i class="fas fa-bars"></i>
+                </button>
+
+                <ul class="nav-menu" id="navMenu">
+                    <button class="close-menu" onclick="toggleMenu()">
+                        <i class="fas fa-times"></i>
+                    </button>
+
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">About</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#" class="nav-link has-dropdown">Estate Planning</a>
+                        <div class="dropdown">
+                            <a href="living-trusts.html" class="dropdown-item">Living Trusts</a>
+                            <a href="trust-amendment.html" class="dropdown-item">Trust Amendments</a>
+                            <a href="special-needs-trust.html" class="dropdown-item">Special Needs Trusts</a>
+                            <a href="life-insurance-trust.html" class="dropdown-item">Life Insurance Trusts</a>
+                            <a href="asset-protection.html" class="dropdown-item">Asset Protection</a>
+                            <a href="estate-planning-questionnaire.html" class="dropdown-item">Estate Planning Form</a>
+                        </div>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#" class="nav-link has-dropdown">Probate</a>
+                        <div class="dropdown">
+                            <a href="probate.html" class="dropdown-item">Probate Services</a>
+                            <a href="probate-intake-form.html" class="dropdown-item">Probate Intake Form</a>
+                        </div>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#" class="nav-link has-dropdown">Conservatorship</a>
+                        <div class="dropdown">
+                            <a href="conservatorship.html" class="dropdown-item">Conservatorship Services</a>
+                            <a href="conservatorship-questionnaire.html" class="dropdown-item">Conservatorship Form</a>
+                        </div>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#" class="nav-link has-dropdown">Guardianship</a>
+                        <div class="dropdown">
+                            <a href="guardianship.html" class="dropdown-item">Guardianship Services</a>
+                            <a href="guardianship-questionnaire.html" class="dropdown-item">Guardianship Form</a>
+                        </div>
+                    </li>
+
+                    <a href="https://square.site/book/0W2A8PKKPYC21/law-offices-of-rozsa-gyene-glendale-ca" class="btn-book">Book Now</a>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Form Container -->
+    <div class="form-container">
+        <h1>Probate Intake Questionnaire</h1>
+        <p class="subtitle">Complete this form to help us assess your probate needs and prepare necessary documentation</p>
+
+        <!-- UPDATED FORM WITH NEW GETFORM ENDPOINT -->
         <form id="probateIntakeForm" action="https://getform.io/f/amdyyjwb" method="POST">
-            
+
             <!-- Hidden fields for Getform configuration -->
             <input type="hidden" name="_gotcha" style="display:none">
-            
-            <!-- PETITIONER/CONTACT INFORMATION -->
+
+            <!-- PETITIONER/CONTACT INFORMATION (Maps to Petitioner in DE-111) -->
             <div class="section">
                 <h2 class="section-title">YOUR CONTACT INFORMATION</h2>
                 <div class="info-box">Please provide your contact information as the person seeking probate assistance.</div>
@@ -312,8 +726,8 @@
                     <input type="text" id="petitioner_zip" name="petitioner_zip">
                 </div>
             </div>
-            
-            <!-- DECEDENT INFORMATION -->
+
+            <!-- DECEDENT INFORMATION (Maps to DE-111 Section 3) -->
             <div class="section">
                 <h2 class="section-title">DECEDENT INFORMATION</h2>
                 <div class="row">
@@ -393,8 +807,8 @@
                     </div>
                 </div>
             </div>
-            
-            <!-- SURVIVING SPOUSE INFO -->
+
+            <!-- SURVIVING SPOUSE INFO (Maps to DE-111 Section 5) -->
             <div class="section hidden" id="spouseSection">
                 <h2 class="section-title">SURVIVING SPOUSE INFORMATION</h2>
                 <div class="row">
@@ -416,8 +830,8 @@
                     <input type="tel" id="spouse_phone" name="spouse_phone">
                 </div>
             </div>
-            
-            <!-- WILL AND TRUST INFORMATION -->
+
+            <!-- WILL AND TRUST INFORMATION (Maps to DE-111 Section 3f) -->
             <div class="section">
                 <h2 class="section-title">WILL AND TRUST INFORMATION</h2>
                 <div class="form-group">
@@ -459,6 +873,23 @@
                         <label for="executor_name">Named Executor in Will</label>
                         <input type="text" id="executor_name" name="executor_name">
                     </div>
+                    <div class="form-group">
+                        <label>Is the Will self-proving?</label>
+                        <div class="radio-group">
+                            <div class="radio-item">
+                                <input type="radio" id="self_proving_yes" name="will_self_proving" value="yes">
+                                <label for="self_proving_yes">Yes</label>
+                            </div>
+                            <div class="radio-item">
+                                <input type="radio" id="self_proving_no" name="will_self_proving" value="no">
+                                <label for="self_proving_no">No</label>
+                            </div>
+                            <div class="radio-item">
+                                <input type="radio" id="self_proving_unsure" name="will_self_proving" value="unsure">
+                                <label for="self_proving_unsure">Not Sure</label>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="form-group">
                     <label>Did the decedent have a Trust?</label>
@@ -478,8 +909,8 @@
                     </div>
                 </div>
             </div>
-            
-            <!-- HEIRS AND BENEFICIARIES -->
+
+            <!-- HEIRS AND BENEFICIARIES (Maps to DE-111 Section 8) -->
             <div class="section">
                 <h2 class="section-title">HEIRS AND BENEFICIARIES</h2>
                 <div class="info-box">Please list all potential heirs (children, parents, siblings) and named beneficiaries.</div>
@@ -487,8 +918,8 @@
                 <button type="button" class="add-btn" onclick="addHeir()">Add Heir/Beneficiary</button>
                 <textarea name="heirs_list" id="heirs_list" style="display:none;"></textarea>
             </div>
-            
-            <!-- ESTATE ASSETS -->
+
+            <!-- ESTATE ASSETS (Maps to DE-111 Section 3d) -->
             <div class="section">
                 <h2 class="section-title">ESTATE ASSETS</h2>
                 <div class="warning-box">Please provide estimates to help determine the appropriate probate procedure.</div>
@@ -567,7 +998,118 @@
                     </div>
                 </div>
             </div>
-            
+
+            <!-- ADMINISTRATION TYPE (Maps to DE-111 Section 2c) -->
+            <div class="section">
+                <h2 class="section-title">ADMINISTRATION TYPE</h2>
+                <div class="form-group">
+                    <label for="admin_type">Type of Administration Requested <span class="required">*</span></label>
+                    <select id="admin_type" name="admin_type" required>
+                        <option value="">Select...</option>
+                        <option value="full">Full Authority under Independent Administration</option>
+                        <option value="limited">Limited Authority under Independent Administration</option>
+                        <option value="supervised">Court Supervised Administration</option>
+                        <option value="unsure">Not Sure - Need Guidance</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Will bond be required? <span class="required">*</span></label>
+                    <div class="radio-group">
+                        <div class="radio-item">
+                            <input type="radio" id="bond_yes" name="bond_required" value="yes" required>
+                            <label for="bond_yes">Yes</label>
+                        </div>
+                        <div class="radio-item">
+                            <input type="radio" id="bond_no" name="bond_required" value="no" required>
+                            <label for="bond_no">No</label>
+                        </div>
+                        <div class="radio-item">
+                            <input type="radio" id="bond_unsure" name="bond_required" value="unsure" required>
+                            <label for="bond_unsure">Not Sure</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="bond_amount">Bond Amount (if known)</label>
+                    <input type="text" id="bond_amount" name="bond_amount" placeholder="$">
+                </div>
+            </div>
+
+            <!-- DEBTS AND LIABILITIES -->
+            <div class="section">
+                <h2 class="section-title">DEBTS AND LIABILITIES</h2>
+                <div class="form-group">
+                    <label>Are there known debts? <span class="required">*</span></label>
+                    <div class="radio-group">
+                        <div class="radio-item">
+                            <input type="radio" id="debts_yes" name="has_debts" value="yes" onchange="toggleDebtInfo()" required>
+                            <label for="debts_yes">Yes</label>
+                        </div>
+                        <div class="radio-item">
+                            <input type="radio" id="debts_no" name="has_debts" value="no" onchange="toggleDebtInfo()" required>
+                            <label for="debts_no">No</label>
+                        </div>
+                        <div class="radio-item">
+                            <input type="radio" id="debts_unsure" name="has_debts" value="unsure" onchange="toggleDebtInfo()" required>
+                            <label for="debts_unsure">Not Sure</label>
+                        </div>
+                    </div>
+                </div>
+                <div id="debtDetails" class="hidden">
+                    <div class="form-group">
+                        <label>Types of Debts (check all that apply)</label>
+                        <div class="checkbox-group">
+                            <div class="checkbox-item">
+                                <input type="checkbox" id="debt_mortgage" name="debt_types[]" value="Mortgage">
+                                <label for="debt_mortgage">Mortgage</label>
+                            </div>
+                            <div class="checkbox-item">
+                                <input type="checkbox" id="debt_credit" name="debt_types[]" value="Credit Cards">
+                                <label for="debt_credit">Credit Cards</label>
+                            </div>
+                            <div class="checkbox-item">
+                                <input type="checkbox" id="debt_medical" name="debt_types[]" value="Medical Bills">
+                                <label for="debt_medical">Medical Bills</label>
+                            </div>
+                            <div class="checkbox-item">
+                                <input type="checkbox" id="debt_tax" name="debt_types[]" value="Taxes">
+                                <label for="debt_tax">Taxes</label>
+                            </div>
+                            <div class="checkbox-item">
+                                <input type="checkbox" id="debt_personal" name="debt_types[]" value="Personal Loans">
+                                <label for="debt_personal">Personal Loans</label>
+                            </div>
+                            <div class="checkbox-item">
+                                <input type="checkbox" id="debt_other" name="debt_types[]" value="Other">
+                                <label for="debt_other">Other</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="debt_estimate">Estimated Total Debts</label>
+                        <input type="text" id="debt_estimate" name="debt_estimate" placeholder="$">
+                    </div>
+                </div>
+            </div>
+
+            <!-- COURT INFORMATION (For PDF Mapping) -->
+            <div class="section">
+                <h2 class="section-title">COURT INFORMATION</h2>
+                <div class="info-box">Los Angeles County probate cases are typically filed in the Stanley Mosk Courthouse.</div>
+                <div class="form-group">
+                    <label for="court_county">Court County</label>
+                    <input type="text" id="court_county" name="court_county" value="LOS ANGELES" readonly>
+                </div>
+                <div class="form-group">
+                    <label for="court_branch">Court Branch</label>
+                    <input type="text" id="court_branch" name="court_branch" value="CENTRAL" readonly>
+                </div>
+                <div class="form-group">
+                    <label for="publication_newspaper">Newspaper for Publication</label>
+                    <input type="text" id="publication_newspaper" name="publication_newspaper" value="DAILY JOURNAL">
+                </div>
+            </div>
+
             <!-- URGENT MATTERS -->
             <div class="section">
                 <h2 class="section-title">URGENT MATTERS</h2>
@@ -606,7 +1148,39 @@
                     <textarea id="urgent_details" name="urgent_details" rows="3"></textarea>
                 </div>
             </div>
-            
+
+            <!-- PRIOR PROCEEDINGS -->
+            <div class="section">
+                <h2 class="section-title">PRIOR PROCEEDINGS</h2>
+                <div class="form-group">
+                    <label>Has any probate proceeding been started?</label>
+                    <div class="radio-group">
+                        <div class="radio-item">
+                            <input type="radio" id="proceeding_yes" name="prior_proceeding" value="yes" onchange="toggleProceedingInfo()">
+                            <label for="proceeding_yes">Yes</label>
+                        </div>
+                        <div class="radio-item">
+                            <input type="radio" id="proceeding_no" name="prior_proceeding" value="no" onchange="toggleProceedingInfo()">
+                            <label for="proceeding_no">No</label>
+                        </div>
+                    </div>
+                </div>
+                <div id="proceedingDetails" class="hidden">
+                    <div class="form-group">
+                        <label for="case_number">Case Number</label>
+                        <input type="text" id="case_number" name="case_number">
+                    </div>
+                    <div class="form-group">
+                        <label for="court_name">Court Name</label>
+                        <input type="text" id="court_name" name="court_name">
+                    </div>
+                    <div class="form-group">
+                        <label for="proceeding_status">Current Status</label>
+                        <textarea id="proceeding_status" name="proceeding_status" rows="2"></textarea>
+                    </div>
+                </div>
+            </div>
+
             <!-- ADDITIONAL INFORMATION -->
             <div class="section">
                 <h2 class="section-title">ADDITIONAL INFORMATION</h2>
@@ -655,37 +1229,91 @@
                     </select>
                 </div>
             </div>
-            
+
             <div class="submit-section">
                 <button type="submit" class="submit-btn">Submit Probate Intake Form</button>
             </div>
         </form>
     </div>
-    
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <h3 style="margin-bottom: 20px;">CONTACT US</h3>
+            <div class="footer-contact">
+                <a href="tel:8182916217"><i class="fas fa-phone"></i> (818) 291-6217</a>
+                <a href="mailto:rozsagyenelaw@yahoo.com"><i class="fas fa-envelope"></i> rozsagyenelaw@yahoo.com</a>
+            </div>
+            <p style="margin-top: 20px;">Law Offices of Rozsa Gyene<br>
+            State Bar No. 208356<br>
+            450 N Brand Blvd. Suite 600<br>
+            Glendale CA 91203</p>
+        </div>
+    </footer>
+
     <script>
+        // Navigation menu toggle
+        function toggleMenu() {
+            const navMenu = document.getElementById('navMenu');
+            navMenu.classList.toggle('active');
+        }
+
+        // Mobile dropdown toggle
+        document.querySelectorAll('.nav-item').forEach(item => {
+            item.addEventListener('click', function(e) {
+                if (window.innerWidth <= 992) {
+                    if (e.target.classList.contains('has-dropdown')) {
+                        e.preventDefault();
+                        this.classList.toggle('active');
+                    }
+                }
+            });
+        });
+
+        // Close mobile menu when clicking outside
+        document.addEventListener('click', function(e) {
+            const navMenu = document.getElementById('navMenu');
+            const mobileToggle = document.querySelector('.mobile-toggle');
+            
+            if (navMenu && mobileToggle && !navMenu.contains(e.target) && !mobileToggle.contains(e.target)) {
+                navMenu.classList.remove('active');
+            }
+        });
+
+        // Form functionality
         let heirCount = 0;
         let propertyCount = 0;
-        
+
         function toggleSpouseInfo() {
             const married = document.getElementById('marital_status').value === 'Married';
             document.getElementById('spouseSection').classList.toggle('hidden', !married);
         }
-        
+
         function toggleWillInfo() {
             const hasWill = document.getElementById('will_yes').checked;
             document.getElementById('willDetails').classList.toggle('hidden', !hasWill);
         }
-        
+
         function togglePropertyInfo() {
             const hasProperty = document.getElementById('property_yes').checked;
             document.getElementById('propertyDetails').classList.toggle('hidden', !hasProperty);
         }
-        
+
+        function toggleDebtInfo() {
+            const hasDebts = document.getElementById('debts_yes').checked;
+            document.getElementById('debtDetails').classList.toggle('hidden', !hasDebts);
+        }
+
+        function toggleProceedingInfo() {
+            const hasProceeding = document.getElementById('proceeding_yes').checked;
+            document.getElementById('proceedingDetails').classList.toggle('hidden', !hasProceeding);
+        }
+
         function removeSection(id) {
             document.getElementById(id).remove();
             updateHeirsList();
         }
-        
+
         function updateHeirsList() {
             // Collect all heir information and put it in the hidden textarea
             const heirsData = [];
@@ -703,7 +1331,7 @@
             }
             document.getElementById('heirs_list').value = heirsData.join('\n');
         }
-        
+
         function addHeir() {
             heirCount++;
             const container = document.getElementById('heirsContainer');
@@ -752,10 +1380,18 @@
                     <label>Address</label>
                     <input type="text" name="heir${heirCount}_address" onchange="updateHeirsList()">
                 </div>
+                <div class="form-group">
+                    <label>Phone/Email</label>
+                    <input type="text" name="heir${heirCount}_contact">
+                </div>
+                <div class="form-group">
+                    <label>Notes (inheritance percentage, special circumstances)</label>
+                    <textarea name="heir${heirCount}_notes" rows="2"></textarea>
+                </div>
             `;
             container.appendChild(section);
         }
-        
+
         function addProperty() {
             propertyCount++;
             const container = document.getElementById('propertiesContainer');
@@ -808,10 +1444,10 @@
             `;
             container.appendChild(section);
         }
-        
+
         // Add at least one heir section by default
         addHeir();
-        
+
         // Update heirs list before form submission
         document.getElementById('probateIntakeForm').addEventListener('submit', function(e) {
             updateHeirsList();
