@@ -599,6 +599,15 @@
                 flex-direction: column;
                 gap: 5px;
             }
+
+            /* Mobile styles for the family protection image section */
+            section > .container > div[style*="grid-template-columns: 1fr 1fr"] {
+                grid-template-columns: 1fr !important;
+            }
+            
+            section > .container > div[style*="grid-template-columns: 1fr 1fr"] > div:first-child {
+                order: -1;
+            }
         }
     </style>
 </head>
@@ -730,6 +739,53 @@
                         <li>Foster Parents</li>
                         <li>Any Caring Adult</li>
                     </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Family Protection Section with Image -->
+    <section class="info-section" style="background: white; padding: 80px 0;">
+        <div class="container">
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: center;">
+                <div style="border-radius: 10px; overflow: hidden; box-shadow: 0 15px 40px rgba(0,0,0,0.1);">
+                    <img src="images/family-guardianship.png" alt="Family planning for child guardianship protection" style="width: 100%; height: auto; display: block;">
+                </div>
+                <div>
+                    <h2 style="font-family: 'Playfair Display', serif; font-size: 42px; color: #1e3a5f; margin-bottom: 25px;">Protecting Your Children's Future</h2>
+                    <p style="color: #6c757d; line-height: 1.8; margin-bottom: 20px; font-size: 17px;">
+                        Every parent's priority is ensuring their children are cared for, no matter what happens. 
+                        Establishing guardianship plans gives you peace of mind knowing your children will be raised 
+                        by someone you trust, with the values you hold dear.
+                    </p>
+                    <p style="color: #6c757d; line-height: 1.8; margin-bottom: 25px; font-size: 17px;">
+                        Whether you're creating an estate plan, facing deployment, or helping a family member in crisis, 
+                        we guide you through the guardianship process with compassion and expertise, ensuring your 
+                        children's best interests are always protected.
+                    </p>
+                    <div style="margin-top: 30px;">
+                        <div style="display: flex; align-items: center; margin-bottom: 15px;">
+                            <i class="fas fa-shield-alt" style="color: #c9a961; font-size: 20px; margin-right: 15px; width: 20px;"></i>
+                            <span style="color: #2c3e50; font-size: 16px;">Choose trusted guardians for your children</span>
+                        </div>
+                        <div style="display: flex; align-items: center; margin-bottom: 15px;">
+                            <i class="fas fa-shield-alt" style="color: #c9a961; font-size: 20px; margin-right: 15px; width: 20px;"></i>
+                            <span style="color: #2c3e50; font-size: 16px;">Ensure continuity of care and values</span>
+                        </div>
+                        <div style="display: flex; align-items: center; margin-bottom: 15px;">
+                            <i class="fas fa-shield-alt" style="color: #c9a961; font-size: 20px; margin-right: 15px; width: 20px;"></i>
+                            <span style="color: #2c3e50; font-size: 16px;">Avoid court-appointed strangers</span>
+                        </div>
+                        <div style="display: flex; align-items: center; margin-bottom: 15px;">
+                            <i class="fas fa-shield-alt" style="color: #c9a961; font-size: 20px; margin-right: 15px; width: 20px;"></i>
+                            <span style="color: #2c3e50; font-size: 16px;">Provide clear instructions for care</span>
+                        </div>
+                    </div>
+                    <div style="margin-top: 35px;">
+                        <a href="tel:8182916217" style="display: inline-block; background: #c9a961; color: white; padding: 15px 40px; border-radius: 50px; text-decoration: none; font-weight: 600; font-size: 17px; transition: all 0.3s;">
+                            <i class="fas fa-phone" style="margin-right: 8px;"></i> Discuss Your Guardianship Needs
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
