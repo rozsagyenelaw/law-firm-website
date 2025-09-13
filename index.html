@@ -279,10 +279,93 @@
             color: var(--primary-blue);
         }
 
+        /* Consultation Image Section - New Addition */
+        .consultation-section {
+            padding: 80px 0;
+            background: white;
+        }
+
+        .consultation-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: center;
+        }
+
+        .consultation-image {
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 15px 40px rgba(0,0,0,0.1);
+        }
+
+        .consultation-image img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .consultation-text h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 42px;
+            color: var(--primary-blue);
+            margin-bottom: 25px;
+            line-height: 1.2;
+        }
+
+        .consultation-text p {
+            color: var(--text-light);
+            line-height: 1.8;
+            margin-bottom: 20px;
+            font-size: 17px;
+        }
+
+        .consultation-features {
+            margin-top: 30px;
+        }
+
+        .consultation-feature {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        .consultation-feature i {
+            color: var(--accent-gold);
+            font-size: 20px;
+            margin-right: 15px;
+        }
+
+        .consultation-feature span {
+            color: var(--text-dark);
+            font-size: 16px;
+        }
+
+        .consultation-cta {
+            margin-top: 35px;
+        }
+
+        .consultation-cta a {
+            display: inline-block;
+            background: var(--accent-gold);
+            color: white;
+            padding: 15px 40px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 17px;
+            transition: all 0.3s;
+        }
+
+        .consultation-cta a:hover {
+            background: #b8982f;
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(201, 169, 97, 0.3);
+        }
+
         /* Why Choose Section */
         .why-choose {
             padding: 80px 0;
-            background: white;
+            background: var(--section-bg);
         }
 
         .features-grid {
@@ -316,7 +399,7 @@
         /* Services Section */
         .services {
             padding: 80px 0;
-            background: var(--section-bg);
+            background: white;
         }
 
         .section-title {
@@ -341,10 +424,10 @@
         }
 
         .service-card {
-            background: white;
+            background: var(--section-bg);
             padding: 40px 30px;
             border-radius: 10px;
-            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+            box-shadow: 0 5px 20px rgba(0,0,0,0.08);
             text-align: center;
             transition: all 0.3s;
             border-top: 4px solid var(--accent-gold);
@@ -383,7 +466,7 @@
         /* Process Section */
         .process {
             padding: 80px 0;
-            background: white;
+            background: var(--section-bg);
         }
 
         .process-steps {
@@ -423,7 +506,7 @@
         /* About Section */
         .about {
             padding: 80px 0;
-            background: var(--section-bg);
+            background: white;
         }
 
         .about-content {
@@ -451,7 +534,7 @@
             align-items: center;
             margin-top: 30px;
             padding: 20px;
-            background: white;
+            background: var(--section-bg);
             border-radius: 8px;
         }
 
@@ -486,7 +569,7 @@
         /* Testimonials Section */
         .testimonials {
             padding: 80px 0;
-            background: white;
+            background: var(--section-bg);
         }
 
         .testimonials-grid {
@@ -497,10 +580,11 @@
         }
 
         .testimonial-card {
-            background: var(--section-bg);
+            background: white;
             padding: 30px;
             border-radius: 10px;
             position: relative;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.08);
         }
 
         .quote-icon {
@@ -532,7 +616,7 @@
         /* FAQ Section */
         .faq {
             padding: 80px 0;
-            background: var(--section-bg);
+            background: white;
         }
 
         .faq-container {
@@ -541,7 +625,7 @@
         }
 
         .faq-item {
-            background: white;
+            background: var(--section-bg);
             margin-bottom: 20px;
             border-radius: 8px;
             overflow: hidden;
@@ -550,7 +634,7 @@
 
         .faq-question {
             padding: 20px 30px;
-            background: white;
+            background: var(--section-bg);
             cursor: pointer;
             display: flex;
             justify-content: space-between;
@@ -559,7 +643,7 @@
         }
 
         .faq-question:hover {
-            background: var(--section-bg);
+            background: #e8e9ea;
         }
 
         .faq-question h3 {
@@ -616,7 +700,7 @@
         /* Contact Section */
         .contact {
             padding: 80px 0;
-            background: white;
+            background: var(--section-bg);
         }
 
         .contact-content {
@@ -656,7 +740,7 @@
         }
 
         .map-container {
-            background: var(--section-bg);
+            background: white;
             border-radius: 10px;
             height: 400px;
             display: flex;
@@ -781,6 +865,14 @@
                 display: block;
                 text-align: center;
             }
+
+            .consultation-content {
+                grid-template-columns: 1fr;
+            }
+
+            .consultation-image {
+                order: -1;
+            }
         }
 
         @media (max-width: 768px) {
@@ -810,6 +902,10 @@
             .about-stats {
                 grid-template-columns: 1fr;
                 gap: 20px;
+            }
+
+            .consultation-text h2 {
+                font-size: 32px;
             }
         }
     </style>
@@ -851,8 +947,8 @@
                         <a href="index.html" class="nav-link">Home</a>
                     </li>
                     <li class="nav-item">
-    <a href="about.html" class="nav-link">About</a>
-</li>
+                        <a href="about.html" class="nav-link">About</a>
+                    </li>
 
                     <li class="nav-item">
                         <a href="#" class="nav-link has-dropdown">Estate Planning</a>
@@ -896,7 +992,7 @@
         </nav>
     </header>
 
-    <!-- Hero Section -->
+    <!-- Hero Section - KEEPING YOUR ORIGINAL -->
     <section class="hero">
         <div class="container">
             <h1>Protect Your Family's Future</h1>
@@ -904,6 +1000,52 @@
             <div>
                 <a href="https://square.site/book/0W2A8PKKPYC21/law-offices-of-rozsa-gyene-glendale-ca" class="btn-primary">Schedule Consultation</a>
                 <a href="estate-planning-questionnaire.html" class="btn-secondary">Start Planning</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- NEW: Consultation Image Section -->
+    <section class="consultation-section">
+        <div class="container">
+            <div class="consultation-content">
+                <div class="consultation-image">
+                    <img src="images/consultation-meeting.jpg" alt="Estate Planning Consultation at Law Offices of Rozsa Gyene">
+                </div>
+                <div class="consultation-text">
+                    <h2>Experience You Can Trust</h2>
+                    <p>
+                        For over 25 years, the Law Offices of Rozsa Gyene has been helping Southern California families 
+                        protect their assets and secure their legacy. Every consultation begins with understanding your 
+                        unique situation.
+                    </p>
+                    <p>
+                        We take the time to listen, explain your options clearly, and create customized solutions that 
+                        give you peace of mind about your family's future.
+                    </p>
+                    <div class="consultation-features">
+                        <div class="consultation-feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Free Initial Consultation</span>
+                        </div>
+                        <div class="consultation-feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Personalized Legal Strategies</span>
+                        </div>
+                        <div class="consultation-feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>25+ Years of Experience</span>
+                        </div>
+                        <div class="consultation-feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Compassionate Client Service</span>
+                        </div>
+                    </div>
+                    <div class="consultation-cta">
+                        <a href="tel:8182916217">
+                            <i class="fas fa-phone" style="margin-right: 8px;"></i> Call (818) 291-6217
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -1352,4 +1494,3 @@
     </script>
 </body>
 </html>
-
