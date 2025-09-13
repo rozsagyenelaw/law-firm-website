@@ -725,7 +725,8 @@
         </div>
         
         <!-- IMPORTANT: Replace YOUR-FORM-ID with your actual Getform ID -->
-        <form id="guardianshipForm" action="https://getform.io/f/YOUR-FORM-ID" method="POST">
+       <form name="guardianship-questionnaire" method="POST" data-netlify="true" action="/form-complete.html">
+    <input type="hidden" name="form-name" value="guardianship-questionnaire">
             <input type="hidden" name="_next" value="https://livingtrust-attorneys.com/thank-you-guardianship.html">
             
             <!-- Hidden fields for Getform configuration -->
