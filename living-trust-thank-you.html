@@ -1,1 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You - Living Trust Consultation Request Received</title>
+    
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-N2PW6VX7');</script>
+    <!-- End Google Tag Manager -->
+    
+    <!-- Google Ads Global Site Tag -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-989094207"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-989094207');
+      
+      // IMPORTANT: Replace LIVING_TRUST_CONVERSION_LABEL with your actual conversion label from Google Ads
+      gtag('event', 'conversion', {
+        'send_to': 'AW-989094207/LIVING_TRUST_CONVERSION_LABEL',
+        'value': 1.0,
+        'currency': 'USD'
+      });
+    </script>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
+        :root {
+            --primary-blue: #1e3a5f;
+            --accent-gold: #c9a961;
+            --text-dark: #2c3e50;
+            --text-light: #6c757d;
+            --background: #ffffff;
+            --section-bg: #f8f9fa;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            color: var(--text-dark);
+            line-height: 1.6;
+            background: var(--section-bg);
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Header */
+        .header {
+            background: white;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+            padding: 20px 0;
+        }
+
+        .logo {
+            text-align: center;
+            text-decoration: none;
+            color: var(--primary-blue);
+        }
+
+        .firm-name {
+            font-family: 'Playfair Display', serif;
+            font-size: 28px;
+            font-weight: 700;
+            color: var(--primary-blue);
+        }
+
+        /* Thank You Section */
+        .thank-you-section {
+            padding: 80px 0;
+            text-align: center;
+        }
+
+        .success-icon {
+            display: inline-block;
+            width: 100px;
+            height: 100px;
+            background: var(--accent-gold);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 30px;
+        }
+
+        .success-icon i {
+            font-size: 48px;
+            color: white;
+        }
+
+        .thank-you-section h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 42px;
+            color: var(--primary-blue);
+            margin-bottom: 20px;
+        }
+
+        .thank-you-section .subtitle {
+            font-size: 20px;
+            color: var(--text-light);
+            margin-bottom: 40px;
+        }
+
+        /* Info Box */
+        .info-box {
+            background: white;
+            border-radius: 10px;
+            padding: 40px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+            margin-bottom: 40px;
+        }
+
+        .info-box h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 28px;
+            color: var(--primary-blue);
+            margin-bottom: 25px;
+        }
+
+        .timeline-item {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 25px;
+            padding-left: 20px;
+        }
+
+        .timeline-item i {
+            color: var(--accent-gold);
+            font-size: 20px;
+            margin-right: 15px;
+            margin-top: 3px;
+        }
+
+        .timeline-item div {
+            flex: 1;
+        }
+
+        .timeline-item h3 {
+            color: var(--primary-blue);
+            margin-bottom: 5px;
+            font-size: 18px;
+        }
+
+        .timeline-item p {
+            color: var(--text-light);
+            line-height: 1.6;
+        }
+
+        /* CTA Buttons */
+        .cta-buttons {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 40px;
+        }
+
+        .btn {
+            padding: 15px 40px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 17px;
+            transition: all 0.3s;
+            display: inline-block;
+        }
+
+        .btn-primary {
+            background: var(--accent-gold);
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background: #b8982f;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(201, 169, 97, 0.3);
+        }
+
+        .btn-secondary {
+            background: white;
+            color: var(--primary-blue);
+            border: 2px solid var(--primary-blue);
+        }
+
+        .btn-secondary:hover {
+            background: var(--primary-blue);
+            color: white;
+        }
+
+        /* Contact Info */
+        .contact-info {
+            background: white;
+            border-radius: 10px;
+            padding: 30px;
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        .contact-info h3 {
+            color: var(--primary-blue);
+            margin-bottom: 20px;
+        }
+
+        .contact-info p {
+            color: var(--text-light);
+            margin-bottom: 10px;
+        }
+
+        .contact-info a {
+            color: var(--accent-gold);
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        /* Redirect Notice */
+        .redirect-notice {
+            background: #fff3cd;
+            border: 1px solid #ffc107;
+            border-radius: 8px;
+            padding: 20px;
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        .redirect-notice i {
+            color: #856404;
+            margin-right: 10px;
+        }
+
+        .redirect-notice p {
+            color: #856404;
+            margin: 0;
+        }
+
+        /* Mobile Styles */
+        @media (max-width: 768px) {
+            .thank-you-section h1 {
+                font-size: 32px;
+            }
+
+            .info-box {
+                padding: 30px 20px;
+            }
+
+            .cta-buttons {
+                flex-direction: column;
+            }
+
+            .btn {
+                width: 100%;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N2PW6VX7"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <a href="https://livingtrust-attorneys.com/" class="logo">
+                <div class="firm-name">LAW OFFICES OF ROZSA GYENE</div>
+            </a>
+        </div>
+    </header>
+
+    <!-- Thank You Section -->
+    <section class="thank-you-section">
+        <div class="container">
+            <div class="success-icon">
+                <i class="fas fa-check"></i>
+            </div>
+            
+            <h1>Thank You for Your Interest!</h1>
+            <p class="subtitle">Your Living Trust consultation request has been received.</p>
+
+            <div class="info-box">
+                <h2>What Happens Next?</h2>
+                
+                <div class="timeline-item">
+                    <i class="fas fa-clock"></i>
+                    <div>
+                        <h3>Within 24 Hours</h3>
+                        <p>Our office will contact you to schedule your free consultation at a time that works best for you.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <i class="fas fa-comments"></i>
+                    <div>
+                        <h3>Your Consultation</h3>
+                        <p>We'll discuss your estate planning goals, review your assets, and explain how a living trust can protect your family.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <i class="fas fa-file-alt"></i>
+                    <div>
+                        <h3>Personalized Plan</h3>
+                        <p>You'll receive a customized estate planning strategy with transparent pricing and clear next steps.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Optional Next Step -->
+            <div class="redirect-notice">
+                <p>
+                    <i class="fas fa-info-circle"></i>
+                    <strong>Optional:</strong> Complete our detailed questionnaire to help us prepare for your consultation.
+                    <br><small>This saves time during your meeting but is not required.</small>
+                </p>
+            </div>
+
+            <div class="cta-buttons">
+                <a href="https://livingtrust-attorneys.com/estate-planning-questionnaire" class="btn btn-primary">Complete Questionnaire (Optional)</a>
+                <a href="https://livingtrust-attorneys.com/" class="btn btn-secondary">Return to Homepage</a>
+            </div>
+
+            <div class="contact-info">
+                <h3>Need Immediate Assistance?</h3>
+                <p>Call us directly at</p>
+                <p><a href="tel:8182916217"><i class="fas fa-phone"></i> (818) 291-6217</a></p>
+                <p>Monday - Friday: 9:00 AM - 5:00 PM</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
