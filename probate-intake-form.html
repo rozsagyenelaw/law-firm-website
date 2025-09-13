@@ -690,7 +690,8 @@
         <p class="subtitle">Complete this form to help us assess your probate needs and prepare necessary documentation</p>
 
         <!-- UPDATED FORM WITH NEW GETFORM ENDPOINT -->
-        <form id="probateIntakeForm" action="https://getform.io/f/amdyyjwb" method="POST">
+       <form name="probate-intake" method="POST" data-netlify="true" action="/intake-complete.html">
+    <input type="hidden" name="form-name" value="probate-intake">
             <input type="hidden" name="_next" value="https://livingtrust-attorneys.com/thank-you-guardianship.html">
 
             <!-- Hidden fields for Getform configuration -->
@@ -1484,4 +1485,5 @@
     </script>
 </body>
 </html>
+
 
