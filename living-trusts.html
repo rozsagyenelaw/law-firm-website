@@ -25,7 +25,6 @@
             --text-light: #6c757d;
             --background: #ffffff;
             --section-bg: #f8f9fa;
-            --hover-bg: #f8f9fa;
             --border-color: #dee2e6;
         }
 
@@ -61,7 +60,7 @@
             font-weight: 600;
         }
 
-        /* Main Navigation */
+        /* Header Styles - Complete Navigation */
         header {
             background: white;
             box-shadow: 0 2px 10px rgba(0,0,0,0.08);
@@ -92,14 +91,14 @@
             flex-direction: column;
         }
 
-        .logo-text .firm-name {
+        .firm-name {
             font-family: 'Playfair Display', serif;
             font-size: 24px;
             font-weight: 700;
-            line-height: 1.2;
+            color: var(--primary-blue);
         }
 
-        .logo-text .tagline {
+        .tagline {
             font-size: 12px;
             color: var(--text-light);
             margin-top: 2px;
@@ -219,6 +218,60 @@
 
         .close-menu {
             display: none;
+        }
+
+        .top-bar {
+            background: var(--primary-blue);
+            color: white;
+            padding: 10px 0;
+            font-size: 14px;
+        }
+
+        .top-bar .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .top-bar a {
+            color: var(--accent-gold);
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        nav {
+            padding: 20px 0;
+        }
+
+        nav .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            color: var(--primary-blue);
+        }
+
+        .logo-text {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .logo-text .firm-name {
+            font-family: 'Playfair Display', serif;
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 1.2;
+        }
+
+        .logo-text .tagline {
+            font-size: 12px;
+            color: var(--text-light);
+            margin-top: 2px;
         }
 
         /* Hero Section */
@@ -540,7 +593,7 @@
             margin: 0 20px;
         }
 
-        /* Mobile Styles */
+        /* Responsive */
         @media (max-width: 992px) {
             .mobile-toggle {
                 display: block;
@@ -612,7 +665,7 @@
                 text-align: center;
             }
         }
-
+        
         @media (max-width: 768px) {
             .hero h1 {
                 font-size: 36px;
@@ -630,6 +683,15 @@
             .top-bar .container {
                 flex-direction: column;
                 gap: 5px;
+            }
+
+            /* Mobile styles for the family image section */
+            section > .container > div[style*="grid-template-columns: 1fr 1fr"] {
+                grid-template-columns: 1fr !important;
+            }
+            
+            section > .container > div[style*="grid-template-columns: 1fr 1fr"] > div:last-child {
+                order: -1;
             }
         }
     </style>
@@ -671,8 +733,8 @@
                         <a href="index.html" class="nav-link">Home</a>
                     </li>
                     <li class="nav-item">
-    <a href="about.html" class="nav-link">About</a>
-</li>
+                        <a href="about.html" class="nav-link">About</a>
+                    </li>
 
                     <li class="nav-item">
                         <a href="#" class="nav-link has-dropdown">Estate Planning</a>
@@ -766,6 +828,51 @@
                 <div class="stat-item">
                     <div class="stat-number">3-5 Days</div>
                     <div class="stat-label">Document Delivery</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Family Legacy Section with Image -->
+    <section style="padding: 80px 0; background: #f8f9fa;">
+        <div class="container">
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: center;">
+                <div>
+                    <h2 style="font-family: 'Playfair Display', serif; font-size: 42px; color: #1e3a5f; margin-bottom: 25px;">Protecting Every Generation</h2>
+                    <p style="color: #6c757d; line-height: 1.8; margin-bottom: 20px; font-size: 17px;">
+                        A living trust isn't just a legal document—it's a promise to your family. It ensures that your children, 
+                        grandchildren, and future generations are protected and provided for according to your wishes.
+                    </p>
+                    <p style="color: #6c757d; line-height: 1.8; margin-bottom: 25px; font-size: 17px;">
+                        From protecting minor children with guardian nominations to ensuring elderly parents are cared for, 
+                        your living trust creates a comprehensive safety net for everyone you love.
+                    </p>
+                    <div style="margin-top: 30px;">
+                        <div style="display: flex; align-items: center; margin-bottom: 15px;">
+                            <i class="fas fa-heart" style="color: #c9a961; font-size: 20px; margin-right: 15px; width: 20px;"></i>
+                            <span style="color: #2c3e50; font-size: 16px;">Grandparents' legacy preserved</span>
+                        </div>
+                        <div style="display: flex; align-items: center; margin-bottom: 15px;">
+                            <i class="fas fa-heart" style="color: #c9a961; font-size: 20px; margin-right: 15px; width: 20px;"></i>
+                            <span style="color: #2c3e50; font-size: 16px;">Parents' wishes honored</span>
+                        </div>
+                        <div style="display: flex; align-items: center; margin-bottom: 15px;">
+                            <i class="fas fa-heart" style="color: #c9a961; font-size: 20px; margin-right: 15px; width: 20px;"></i>
+                            <span style="color: #2c3e50; font-size: 16px;">Children's future secured</span>
+                        </div>
+                        <div style="display: flex; align-items: center; margin-bottom: 15px;">
+                            <i class="fas fa-heart" style="color: #c9a961; font-size: 20px; margin-right: 15px; width: 20px;"></i>
+                            <span style="color: #2c3e50; font-size: 16px;">Family harmony maintained</span>
+                        </div>
+                    </div>
+                    <div style="margin-top: 35px;">
+                        <a href="tel:8182916217" style="display: inline-block; background: #c9a961; color: white; padding: 15px 40px; border-radius: 50px; text-decoration: none; font-weight: 600; font-size: 17px; transition: all 0.3s;">
+                            <i class="fas fa-phone" style="margin-right: 8px;"></i> Start Protecting Your Family Today
+                        </a>
+                    </div>
+                </div>
+                <div style="border-radius: 10px; overflow: hidden; box-shadow: 0 15px 40px rgba(0,0,0,0.1);">
+                    <img src="images/multigenerational-family.png" alt="Multi-generational family protected by living trust" style="width: 100%; height: auto; display: block;">
                 </div>
             </div>
         </div>
@@ -966,50 +1073,20 @@
         </div>
     </footer>
 
+    <!-- Google Ads Conversion Tracking -->
     <script>
-        // Mobile menu toggle
-        function toggleMenu() {
-            const navMenu = document.getElementById('navMenu');
-            navMenu.classList.toggle('active');
-        }
-
-        // Mobile dropdown toggle
-        document.querySelectorAll('.nav-item').forEach(item => {
-            item.addEventListener('click', function(e) {
-                if (window.innerWidth <= 992) {
-                    // Only toggle if clicking on the main link, not dropdown items
-                    if (e.target.classList.contains('has-dropdown')) {
-                        e.preventDefault();
-                        this.classList.toggle('active');
-                    }
+    window.addEventListener('load', function() {
+        const form = document.querySelector('form');
+        if(form) {
+            form.addEventListener('submit', function() {
+                if(typeof gtag !== 'undefined') {
+                    gtag('event', 'conversion', {
+                        'send_to': 'AW-989094207/gc4mCNilkoAbEL_C0dcD'
+                    });
                 }
             });
-        });
-
-        // Close mobile menu when clicking outside
-        document.addEventListener('click', function(e) {
-            const navMenu = document.getElementById('navMenu');
-            const mobileToggle = document.querySelector('.mobile-toggle');
-            
-            if (!navMenu.contains(e.target) && !mobileToggle.contains(e.target)) {
-                navMenu.classList.remove('active');
-            }
-        });
-
-        // Google Ads Conversion Tracking
-        window.addEventListener('load', function() {
-            const form = document.querySelector('form');
-            if(form) {
-                form.addEventListener('submit', function() {
-                    if(typeof gtag !== 'undefined') {
-                        gtag('event', 'conversion', {
-                            'send_to': 'AW-989094207/gc4mCNilkoAbEL_C0dcD'
-                        });
-                    }
-                });
-            }
-        });
+        }
+    });
     </script>
 </body>
 </html>
-
