@@ -208,6 +208,27 @@
             box-shadow: 0 5px 15px rgba(201, 169, 97, 0.3);
         }
 
+        /* Client Portal Button in Nav */
+        .btn-client-portal {
+            background: var(--primary-blue);
+            color: white;
+            padding: 12px 30px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s;
+            margin-left: 20px;
+            border: 2px solid var(--primary-blue);
+        }
+
+        .btn-client-portal:hover {
+            background: transparent;
+            color: var(--primary-blue);
+            border: 2px solid var(--primary-blue);
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(30, 58, 95, 0.2);
+        }
+
         /* Mobile Menu Toggle */
         .mobile-toggle {
             display: none;
@@ -565,6 +586,12 @@
                 text-align: center;
             }
 
+            .btn-client-portal {
+                margin: 20px;
+                display: block;
+                text-align: center;
+            }
+
             .about-content {
                 grid-template-columns: 1fr;
             }
@@ -676,6 +703,7 @@
                         </div>
                     </li>
 
+                    <a href="https://portal.livingtrust-attorneys.com/" class="btn-client-portal" target="_blank">Client Portal</a>
                     <a href="https://square.site/book/0W2A8PKKPYC21/law-offices-of-rozsa-gyene-glendale-ca" class="btn-book">Book Now</a>
                 </ul>
             </div>
