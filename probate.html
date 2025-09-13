@@ -27,6 +27,7 @@
             --background: #ffffff;
             --section-bg: #f8f9fa;
             --hover-bg: #f8f9fa;
+            --border-color: #dee2e6;
         }
 
         body {
@@ -96,6 +97,7 @@
             font-family: 'Playfair Display', serif;
             font-size: 24px;
             font-weight: 700;
+            line-height: 1.2;
         }
 
         .logo-text .tagline {
@@ -631,6 +633,15 @@
                 flex-direction: column;
                 gap: 5px;
             }
+
+            /* Mobile styles for the professional guidance image section */
+            section > .container > div[style*="grid-template-columns: 1fr 1fr"] {
+                grid-template-columns: 1fr !important;
+            }
+            
+            section > .container > div[style*="grid-template-columns: 1fr 1fr"] > div:last-child {
+                order: -1;
+            }
         }
     </style>
 </head>
@@ -670,9 +681,10 @@
                     <li class="nav-item">
                         <a href="index.html" class="nav-link">Home</a>
                     </li>
+                    
                     <li class="nav-item">
-    <a href="about.html" class="nav-link">About</a>
-</li>
+                        <a href="about.html" class="nav-link">About</a>
+                    </li>
 
                     <li class="nav-item">
                         <a href="#" class="nav-link has-dropdown">Estate Planning</a>
@@ -774,6 +786,52 @@
                 <p style="text-align: center; color: #666; font-size: 16px;">
                     State Bar #208356 | Licensed California Probate Attorney
                 </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Professional Guidance Section with Image -->
+    <section style="padding: 80px 0; background: #f8f9fa;">
+        <div class="container">
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: center;">
+                <div>
+                    <h2 style="font-family: 'Playfair Display', serif; font-size: 42px; color: #2E4057; margin-bottom: 25px;">Guiding You Through Every Step</h2>
+                    <p style="color: #6c757d; line-height: 1.8; margin-bottom: 20px; font-size: 17px;">
+                        Probate doesn't have to be overwhelming. With over 25 years of experience and hundreds of estates successfully 
+                        administered, we provide the expertise and compassion your family needs during this difficult time.
+                    </p>
+                    <p style="color: #6c757d; line-height: 1.8; margin-bottom: 25px; font-size: 17px;">
+                        From the initial filing to the final distribution of assets, we handle every legal detail while keeping you 
+                        informed and protected throughout the process. Our goal is to honor your loved one's wishes while minimizing 
+                        stress and maximizing the value of the estate.
+                    </p>
+                    <div style="margin-top: 30px;">
+                        <div style="display: flex; align-items: center; margin-bottom: 15px;">
+                            <i class="fas fa-balance-scale" style="color: #c9a961; font-size: 20px; margin-right: 15px; width: 20px;"></i>
+                            <span style="color: #2c3e50; font-size: 16px;">Court-approved expertise</span>
+                        </div>
+                        <div style="display: flex; align-items: center; margin-bottom: 15px;">
+                            <i class="fas fa-balance-scale" style="color: #c9a961; font-size: 20px; margin-right: 15px; width: 20px;"></i>
+                            <span style="color: #2c3e50; font-size: 16px;">No upfront costs required</span>
+                        </div>
+                        <div style="display: flex; align-items: center; margin-bottom: 15px;">
+                            <i class="fas fa-balance-scale" style="color: #c9a961; font-size: 20px; margin-right: 15px; width: 20px;"></i>
+                            <span style="color: #2c3e50; font-size: 16px;">Protection from personal liability</span>
+                        </div>
+                        <div style="display: flex; align-items: center; margin-bottom: 15px;">
+                            <i class="fas fa-balance-scale" style="color: #c9a961; font-size: 20px; margin-right: 15px; width: 20px;"></i>
+                            <span style="color: #2c3e50; font-size: 16px;">Fair resolution for all heirs</span>
+                        </div>
+                    </div>
+                    <div style="margin-top: 35px;">
+                        <a href="tel:8182916217" style="display: inline-block; background: #c9a961; color: white; padding: 15px 40px; border-radius: 50px; text-decoration: none; font-weight: 600; font-size: 17px; transition: all 0.3s;">
+                            <i class="fas fa-phone" style="margin-right: 8px;"></i> Get Expert Probate Help Today
+                        </a>
+                    </div>
+                </div>
+                <div style="border-radius: 10px; overflow: hidden; box-shadow: 0 15px 40px rgba(0,0,0,0.1);">
+                    <img src="images/probate-legal-guidance.png" alt="Professional probate legal guidance and document handling" style="width: 100%; height: auto; display: block;">
+                </div>
             </div>
         </div>
     </section>
@@ -1004,4 +1062,3 @@
     </script>
 </body>
 </html>
-
