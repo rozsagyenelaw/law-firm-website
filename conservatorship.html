@@ -25,7 +25,6 @@
             --text-light: #6c757d;
             --background: #ffffff;
             --section-bg: #f8f9fa;
-            --hover-bg: #f8f9fa;
             --border-color: #dee2e6;
         }
 
@@ -41,7 +40,15 @@
             padding: 0 20px;
         }
 
-        /* Top Bar */
+        /* Header */
+        header {
+            background: white;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
         .top-bar {
             background: var(--primary-blue);
             color: white;
@@ -59,15 +66,6 @@
             color: var(--accent-gold);
             text-decoration: none;
             font-weight: 600;
-        }
-
-        /* Main Navigation */
-        header {
-            background: white;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
-            position: sticky;
-            top: 0;
-            z-index: 1000;
         }
 
         nav {
@@ -102,122 +100,6 @@
             font-size: 12px;
             color: var(--text-light);
             margin-top: 2px;
-        }
-
-        /* Navigation Menu */
-        .nav-menu {
-            display: flex;
-            list-style: none;
-            gap: 0;
-            align-items: center;
-        }
-
-        .nav-item {
-            position: relative;
-        }
-
-        .nav-link {
-            display: block;
-            padding: 15px 20px;
-            color: var(--text-dark);
-            text-decoration: none;
-            font-weight: 500;
-            transition: all 0.3s;
-            position: relative;
-        }
-
-        .nav-link:hover {
-            color: var(--accent-gold);
-        }
-
-        .nav-item:hover .nav-link {
-            background: var(--hover-bg);
-        }
-
-        /* Dropdown Arrow */
-        .nav-link.has-dropdown::after {
-            content: "▼";
-            font-size: 10px;
-            margin-left: 5px;
-            transition: transform 0.3s;
-        }
-
-        .nav-item:hover .nav-link.has-dropdown::after {
-            transform: rotate(180deg);
-        }
-
-        /* Dropdown Menu */
-        .dropdown {
-            position: absolute;
-            top: 100%;
-            left: 0;
-            min-width: 250px;
-            background: white;
-            box-shadow: 0 5px 20px rgba(0,0,0,0.15);
-            border-radius: 8px;
-            opacity: 0;
-            visibility: hidden;
-            transform: translateY(-10px);
-            transition: all 0.3s;
-            border-top: 3px solid var(--accent-gold);
-        }
-
-        .nav-item:hover .dropdown {
-            opacity: 1;
-            visibility: visible;
-            transform: translateY(0);
-        }
-
-        .dropdown-item {
-            display: block;
-            padding: 12px 20px;
-            color: var(--text-dark);
-            text-decoration: none;
-            transition: all 0.3s;
-            border-bottom: 1px solid #f0f0f0;
-        }
-
-        .dropdown-item:last-child {
-            border-bottom: none;
-            border-radius: 0 0 8px 8px;
-        }
-
-        .dropdown-item:hover {
-            background: var(--hover-bg);
-            color: var(--accent-gold);
-            padding-left: 25px;
-        }
-
-        /* Book Now Button in Nav */
-        .btn-book {
-            background: var(--accent-gold);
-            color: white;
-            padding: 12px 30px;
-            border-radius: 50px;
-            text-decoration: none;
-            font-weight: 600;
-            transition: all 0.3s;
-            margin-left: 20px;
-        }
-
-        .btn-book:hover {
-            background: #b8982f;
-            transform: translateY(-2px);
-            box-shadow: 0 5px 15px rgba(201, 169, 97, 0.3);
-        }
-
-        /* Mobile Menu Toggle */
-        .mobile-toggle {
-            display: none;
-            background: none;
-            border: none;
-            font-size: 24px;
-            color: var(--text-dark);
-            cursor: pointer;
-        }
-
-        .close-menu {
-            display: none;
         }
 
         /* Hero Section */
@@ -554,79 +436,7 @@
             margin: 0 20px;
         }
 
-        /* Mobile Styles */
-        @media (max-width: 992px) {
-            .mobile-toggle {
-                display: block;
-            }
-
-            .close-menu {
-                display: block;
-                position: absolute;
-                top: 20px;
-                right: 20px;
-                background: none;
-                border: none;
-                font-size: 30px;
-                cursor: pointer;
-            }
-
-            .nav-menu {
-                position: fixed;
-                top: 0;
-                right: -100%;
-                width: 300px;
-                height: 100vh;
-                background: white;
-                flex-direction: column;
-                padding: 60px 0 20px;
-                box-shadow: -5px 0 20px rgba(0,0,0,0.1);
-                transition: right 0.3s;
-                overflow-y: auto;
-                gap: 0;
-            }
-
-            .nav-menu.active {
-                right: 0;
-            }
-
-            .nav-item {
-                width: 100%;
-            }
-
-            .nav-link {
-                padding: 15px 20px;
-                border-bottom: 1px solid #f0f0f0;
-            }
-
-            .dropdown {
-                position: static;
-                opacity: 1;
-                visibility: visible;
-                transform: none;
-                box-shadow: none;
-                display: none;
-                background: var(--hover-bg);
-                border-radius: 0;
-                border-top: none;
-            }
-
-            .nav-item.active .dropdown {
-                display: block;
-            }
-
-            .dropdown-item {
-                padding-left: 40px;
-                border-bottom: 1px solid #e0e0e0;
-            }
-
-            .btn-book {
-                margin: 20px;
-                display: block;
-                text-align: center;
-            }
-        }
-
+        /* Responsive */
         @media (max-width: 768px) {
             .hero h1 {
                 font-size: 36px;
@@ -645,93 +455,34 @@
             .timeline-item::after {
                 display: none;
             }
-
-            .top-bar .container {
-                flex-direction: column;
-                gap: 5px;
-            }
         }
     </style>
 </head>
 <body>
-    <!-- Top Bar -->
-    <div class="top-bar">
-        <div class="container">
-            <div>
-                <i class="fas fa-certificate"></i> Licensed California Attorney - Bar #208356
-            </div>
-            <div>
-                <i class="fas fa-phone"></i> Free Consultation: <a href="tel:8182916217">(818) 291-6217</a>
+    <!-- Header -->
+    <header>
+        <div class="top-bar">
+            <div class="container">
+                <div>
+                    <i class="fas fa-certificate"></i> Licensed California Attorney - Bar #208356
+                </div>
+                <div>
+                    <i class="fas fa-phone"></i> Free Consultation: <a href="tel:8182916217">(818) 291-6217</a>
+                </div>
             </div>
         </div>
-    </div>
-
-    <!-- Main Navigation -->
-    <header>
         <nav>
             <div class="container">
-                <a href="index.html" class="logo">
+                <a href="/" class="logo">
                     <div class="logo-text">
                         <span class="firm-name">LAW OFFICES OF ROZSA GYENE</span>
                         <span class="tagline">Estate Planning & Probate Specialists Since 2001</span>
                     </div>
                 </a>
-
-                <button class="mobile-toggle" onclick="toggleMenu()">
-                    <i class="fas fa-bars"></i>
-                </button>
-
-                <ul class="nav-menu" id="navMenu">
-                    <button class="close-menu" onclick="toggleMenu()">
-                        <i class="fas fa-times"></i>
-                    </button>
-
-                    <li class="nav-item">
-                        <a href="index.html" class="nav-link">Home</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a href="about.html" class="nav-link">About</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a href="#" class="nav-link has-dropdown">Estate Planning</a>
-                        <div class="dropdown">
-                            <a href="living-trusts.html" class="dropdown-item">Living Trusts</a>
-                            <a href="trust-amendment.html" class="dropdown-item">Trust Amendments</a>
-                            <a href="special-needs-trust.html" class="dropdown-item">Special Needs Trusts</a>
-                            <a href="life-insurance-trust.html" class="dropdown-item">Life Insurance Trusts</a>
-                            <a href="asset-protection.html" class="dropdown-item">Asset Protection</a>
-                            <a href="estate-planning-questionnaire.html" class="dropdown-item">Estate Planning Form</a>
-                        </div>
-                    </li>
-
-                    <li class="nav-item">
-                        <a href="#" class="nav-link has-dropdown">Probate</a>
-                        <div class="dropdown">
-                            <a href="probate.html" class="dropdown-item">Probate Services</a>
-                            <a href="probate-intake-form.html" class="dropdown-item">Probate Intake Form</a>
-                        </div>
-                    </li>
-
-                    <li class="nav-item">
-                        <a href="#" class="nav-link has-dropdown">Conservatorship</a>
-                        <div class="dropdown">
-                            <a href="conservatorship.html" class="dropdown-item">Conservatorship Services</a>
-                            <a href="conservatorship-questionnaire.html" class="dropdown-item">Conservatorship Form</a>
-                        </div>
-                    </li>
-
-                    <li class="nav-item">
-                        <a href="#" class="nav-link has-dropdown">Guardianship</a>
-                        <div class="dropdown">
-                            <a href="guardianship.html" class="dropdown-item">Guardianship Services</a>
-                            <a href="guardianship-questionnaire.html" class="dropdown-item">Guardianship Form</a>
-                        </div>
-                    </li>
-
-                    <a href="https://square.site/book/0W2A8PKKPYC21/law-offices-of-rozsa-gyene-glendale-ca" class="btn-book">Book Now</a>
-                </ul>
+                <div style="display: flex; gap: 20px; align-items: center;">
+                    <a href="/" style="color: var(--text-dark); text-decoration: none;">Home</a>
+                    <a href="https://square.site/book/0W2A8PKKPYC21/law-offices-of-rozsa-gyene-glendale-ca" class="btn-primary" style="padding: 10px 25px; font-size: 14px;">Book Now</a>
+                </div>
             </div>
         </nav>
     </header>
@@ -796,6 +547,47 @@
                     and ensuring the conservatee has proper housing and care. The court oversees the conservator's actions to make sure 
                     they are acting in the best interests of the conservatee.
                 </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Compassionate Care Section with Image -->
+    <section style="padding: 80px 0; background: #f8f9fa;">
+        <div class="container">
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: center;">
+                <div style="border-radius: 10px; overflow: hidden; box-shadow: 0 15px 40px rgba(0,0,0,0.1);">
+                    <img src="images/elderly-care-support.png" alt="Compassionate conservatorship support for elderly loved ones" style="width: 100%; height: auto; display: block;">
+                </div>
+                <div>
+                    <h2 style="font-family: 'Playfair Display', serif; font-size: 36px; color: #1e3a5f; margin-bottom: 25px;">Protecting Those Who Need It Most</h2>
+                    <p style="color: #6c757d; line-height: 1.8; margin-bottom: 20px; font-size: 17px;">
+                        When your loved one needs assistance managing their daily affairs, we're here to help establish the legal 
+                        framework that ensures their dignity, safety, and wellbeing are protected.
+                    </p>
+                    <p style="color: #6c757d; line-height: 1.8; margin-bottom: 25px; font-size: 17px;">
+                        Our compassionate approach recognizes the emotional challenges families face during this transition. 
+                        We work closely with you to create solutions that honor your loved one's wishes while ensuring their 
+                        proper care and protection.
+                    </p>
+                    <div style="margin-top: 30px;">
+                        <div style="display: flex; align-items: center; margin-bottom: 15px;">
+                            <i class="fas fa-check-circle" style="color: #c9a961; font-size: 20px; margin-right: 15px;"></i>
+                            <span style="color: #2c3e50;">Dignified care for elderly parents</span>
+                        </div>
+                        <div style="display: flex; align-items: center; margin-bottom: 15px;">
+                            <i class="fas fa-check-circle" style="color: #c9a961; font-size: 20px; margin-right: 15px;"></i>
+                            <span style="color: #2c3e50;">Protection from financial exploitation</span>
+                        </div>
+                        <div style="display: flex; align-items: center; margin-bottom: 15px;">
+                            <i class="fas fa-check-circle" style="color: #c9a961; font-size: 20px; margin-right: 15px;"></i>
+                            <span style="color: #2c3e50;">Ensuring proper medical care</span>
+                        </div>
+                        <div style="display: flex; align-items: center; margin-bottom: 15px;">
+                            <i class="fas fa-check-circle" style="color: #c9a961; font-size: 20px; margin-right: 15px;"></i>
+                            <span style="color: #2c3e50;">Family peace of mind</span>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -999,36 +791,5 @@
             Glendale CA 91203</p>
         </div>
     </footer>
-
-    <script>
-        // Mobile menu toggle
-        function toggleMenu() {
-            const navMenu = document.getElementById('navMenu');
-            navMenu.classList.toggle('active');
-        }
-
-        // Mobile dropdown toggle
-        document.querySelectorAll('.nav-item').forEach(item => {
-            item.addEventListener('click', function(e) {
-                if (window.innerWidth <= 992) {
-                    // Only toggle if clicking on the main link, not dropdown items
-                    if (e.target.classList.contains('has-dropdown')) {
-                        e.preventDefault();
-                        this.classList.toggle('active');
-                    }
-                }
-            });
-        });
-
-        // Close mobile menu when clicking outside
-        document.addEventListener('click', function(e) {
-            const navMenu = document.getElementById('navMenu');
-            const mobileToggle = document.querySelector('.mobile-toggle');
-            
-            if (!navMenu.contains(e.target) && !mobileToggle.contains(e.target)) {
-                navMenu.classList.remove('active');
-            }
-        });
-    </script>
 </body>
 </html>
