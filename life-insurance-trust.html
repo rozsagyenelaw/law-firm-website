@@ -724,6 +724,15 @@
                 flex-direction: column;
                 gap: 5px;
             }
+
+            /* Mobile styles for the legal expertise image section */
+            section > .container > div[style*="grid-template-columns: 1fr 1fr"] {
+                grid-template-columns: 1fr !important;
+            }
+            
+            section > .container > div[style*="grid-template-columns: 1fr 1fr"] > div:last-child {
+                order: -1;
+            }
         }
     </style>
 </head>
@@ -857,6 +866,53 @@
                     of the insured, while also making those proceeds available as a source of liquid funds for the payment of estate 
                     taxes and other obligations.
                 </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Legal Expertise Section with Image -->
+    <section class="about-section" style="background: #f8f9fa; padding: 80px 0;">
+        <div class="container">
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: center;">
+                <div>
+                    <h2 style="font-family: 'Playfair Display', serif; font-size: 42px; color: #1e3a5f; margin-bottom: 25px;">Advanced Estate Planning Expertise</h2>
+                    <p style="color: #6c757d; line-height: 1.8; margin-bottom: 20px; font-size: 17px;">
+                        Creating an effective ILIT requires sophisticated legal expertise and attention to detail. 
+                        Our attorneys have over 25 years of experience drafting trusts that meet complex IRS requirements 
+                        while maximizing protection for your beneficiaries.
+                    </p>
+                    <p style="color: #6c757d; line-height: 1.8; margin-bottom: 25px; font-size: 17px;">
+                        We ensure your ILIT is properly structured to avoid common pitfalls that could trigger estate 
+                        tax inclusion, such as retained incidents of ownership or improper Crummey powers. Every detail 
+                        matters when protecting millions in life insurance proceeds.
+                    </p>
+                    <div style="margin-top: 30px;">
+                        <div style="display: flex; align-items: center; margin-bottom: 15px;">
+                            <i class="fas fa-balance-scale" style="color: #c9a961; font-size: 20px; margin-right: 15px; width: 20px;"></i>
+                            <span style="color: #2c3e50; font-size: 16px;">IRS-compliant trust structures</span>
+                        </div>
+                        <div style="display: flex; align-items: center; margin-bottom: 15px;">
+                            <i class="fas fa-balance-scale" style="color: #c9a961; font-size: 20px; margin-right: 15px; width: 20px;"></i>
+                            <span style="color: #2c3e50; font-size: 16px;">Proper Crummey notice procedures</span>
+                        </div>
+                        <div style="display: flex; align-items: center; margin-bottom: 15px;">
+                            <i class="fas fa-balance-scale" style="color: #c9a961; font-size: 20px; margin-right: 15px; width: 20px;"></i>
+                            <span style="color: #2c3e50; font-size: 16px;">Dynasty trust provisions available</span>
+                        </div>
+                        <div style="display: flex; align-items: center; margin-bottom: 15px;">
+                            <i class="fas fa-balance-scale" style="color: #c9a961; font-size: 20px; margin-right: 15px; width: 20px;"></i>
+                            <span style="color: #2c3e50; font-size: 16px;">Generation-skipping tax planning</span>
+                        </div>
+                    </div>
+                    <div style="margin-top: 35px;">
+                        <a href="tel:8182916217" style="display: inline-block; background: #c9a961; color: white; padding: 15px 40px; border-radius: 50px; text-decoration: none; font-weight: 600; font-size: 17px; transition: all 0.3s;">
+                            <i class="fas fa-phone" style="margin-right: 8px;"></i> Discuss Your ILIT Strategy
+                        </a>
+                    </div>
+                </div>
+                <div style="border-radius: 10px; overflow: hidden; box-shadow: 0 15px 40px rgba(0,0,0,0.1);">
+                    <img src="images/ilit-legal-documents.png" alt="Life Insurance Trust legal documents in law office" style="width: 100%; height: auto; display: block;">
+                </div>
             </div>
         </div>
     </section>
