@@ -689,13 +689,9 @@
         <h1>Probate Intake Questionnaire</h1>
         <p class="subtitle">Complete this form to help us assess your probate needs and prepare necessary documentation</p>
 
-        <!-- UPDATED FORM WITH NEW GETFORM ENDPOINT -->
-       <form name="probate-intake" method="POST" data-netlify="true" action="/intake-complete.html">
+       <form name="probate-intake" method="POST" data-netlify="true" action="/thank-you-probate-intake.html">
     <input type="hidden" name="form-name" value="probate-intake">
-            <input type="hidden" name="_next" value="https://livingtrust-attorneys.com/thank-you-guardianship.html">
-
-            <!-- Hidden fields for Getform configuration -->
-            <input type="hidden" name="_gotcha" style="display:none">
+          
 
             <!-- PETITIONER/CONTACT INFORMATION (Maps to Petitioner in DE-111) -->
             <div class="section">
@@ -1485,5 +1481,6 @@
     </script>
 </body>
 </html>
+
 
 
