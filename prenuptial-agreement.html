@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>California Prenuptial Agreement Form - Law Offices of Rozsa Gyene</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f5f5f5;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+            border-radius: 10px 10px 0 0;
+            margin-bottom: 0;
+        }
+        
+        .form-container {
+            background: white;
+            padding: 40px;
+            border-radius: 0 0 10px 10px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        
+        .section {
+            margin-bottom: 40px;
+        }
+        
+        .section-title {
+            font-size: 1.5em;
+            color: #2c3e50;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #3498db;
+        }
+        
+        .form-group {
+            margin-bottom: 20px;
+        }
+        
+        label {
+            display: block;
+            font-weight: 600;
+            margin-bottom: 8px;
+            color: #555;
+        }
+        
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"],
+        input[type="date"],
+        input[type="number"],
+        select,
+        textarea {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #e0e0e0;
+            border-radius: 5px;
+            font-size: 16px;
+            transition: border-color 0.3s;
+        }
+        
+        input:focus,
+        select:focus,
+        textarea:focus {
+            outline: none;
+            border-color: #3498db;
+        }
+        
+        textarea {
+            min-height: 150px;
+            resize: vertical;
+        }
+        
+        .checkbox-group {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 15px;
+        }
+        
+        .checkbox-group input[type="checkbox"] {
+            margin-right: 10px;
+            margin-top: 5px;
+        }
+        
+        .two-column {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+        
+        .warning-box {
+            background: #fff3cd;
+            border: 2px solid #ffc107;
+            border-radius: 5px;
+            padding: 20px;
+            margin-bottom: 30px;
+        }
+        
+        .warning-box h3 {
+            color: #856404;
+            margin-bottom: 10px;
+        }
+        
+        .submit-btn {
+            background: linear-gradient(135deg, #3498db 0%, #2980b9 100%);
+            color: white;
+            padding: 15px 40px;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+            font-weight: 600;
+            cursor: pointer;
+            display: block;
+            margin: 40px auto 20px;
+            transition: transform 0.3s;
+        }
+        
+        .submit-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 20px rgba(52, 152, 219, 0.3);
+        }
+        
+        .required {
+            color: #e74c3c;
+        }
+        
+        @media (max-width: 768px) {
+            .two-column {
+                grid-template-columns: 1fr;
+            }
+            
+            .form-container {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>California Prenuptial Agreement Form</h1>
+            <p>Law Offices of Rozsa Gyene</p>
+        </div>
+        
+        <form name="prenuptial-agreement" method="POST" data-netlify="true" class="form-container">
+            <div class="warning-box">
+                <h3>⚠️ Important Legal Notice</h3>
+                <p>California law requires that each party to a prenuptial agreement must be represented by separate legal counsel, or must waive this right in writing. This form is for initial information gathering only and does not constitute legal advice or create an attorney-client relationship.</p>
+            </div>
+
+            <!-- SECTION 1: PARTY A INFORMATION -->
+            <div class="section">
+                <h2 class="section-title">Party A Information</h2>
+                
+                <div class="two-column">
+                    <div class="form-group">
+                        <label for="partyA_firstName">First Name <span class="required">*</span></label>
+                        <input type="text" id="partyA_firstName" name="partyA_firstName" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="partyA_lastName">Last Name <span class="required">*</span></label>
+                        <input type="text" id="partyA_lastName" name="partyA_lastName" required>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="partyA_address">Current Address <span class="required">*</span></label>
+                    <input type="text" id="partyA_address" name="partyA_address" required>
+                </div>
+                
+                <div class="two-column">
+                    <div class="form-group">
+                        <label for="partyA_city">City <span class="required">*</span></label>
+                        <input type="text" id="partyA_city" name="partyA_city" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="partyA_state">State <span class="required">*</span></label>
+                        <select id="partyA_state" name="partyA_state" required>
+                            <option value="">Select State</option>
+                            <option value="CA" selected>California</option>
+                            <!-- Add other states as needed -->
+                        </select>
+                    </div>
+                </div>
+                
+                <div class="two-column">
+                    <div class="form-group">
+                        <label for="partyA_zip">ZIP Code <span class="required">*</span></label>
+                        <input type="text" id="partyA_zip" name="partyA_zip" pattern="[0-9]{5}" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="partyA_phone">Phone Number <span class="required">*</span></label>
+                        <input type="tel" id="partyA_phone" name="partyA_phone" required>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="partyA_email">Email Address <span class="required">*</span></label>
+                    <input type="email" id="partyA_email" name="partyA_email" required>
+                </div>
+                
+                <div class="two-column">
+                    <div class="form-group">
+                        <label for="partyA_occupation">Occupation</label>
+                        <input type="text" id="partyA_occupation" name="partyA_occupation">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="partyA_income">Annual Income</label>
+                        <input type="number" id="partyA_income" name="partyA_income" min="0">
+                    </div>
+                </div>
+            </div>
+
+            <!-- SECTION 2: PARTY B INFORMATION -->
+            <div class="section">
+                <h2 class="section-title">Party B Information</h2>
+                
+                <div class="two-column">
+                    <div class="form-group">
+                        <label for="partyB_firstName">First Name <span class="required">*</span></label>
+                        <input type="text" id="partyB_firstName" name="partyB_firstName" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="partyB_lastName">Last Name <span class="required">*</span></label>
+                        <input type="text" id="partyB_lastName" name="partyB_lastName" required>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="partyB_address">Current Address <span class="required">*</span></label>
+                    <input type="text" id="partyB_address" name="partyB_address" required>
+                </div>
+                
+                <div class="two-column">
+                    <div class="form-group">
+                        <label for="partyB_city">City <span class="required">*</span></label>
+                        <input type="text" id="partyB_city" name="partyB_city" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="partyB_state">State <span class="required">*</span></label>
+                        <select id="partyB_state" name="partyB_state" required>
+                            <option value="">Select State</option>
+                            <option value="CA" selected>California</option>
+                            <!-- Add other states as needed -->
+                        </select>
+                    </div>
+                </div>
+                
+                <div class="two-column">
+                    <div class="form-group">
+                        <label for="partyB_zip">ZIP Code <span class="required">*</span></label>
+                        <input type="text" id="partyB_zip" name="partyB_zip" pattern="[0-9]{5}" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="partyB_phone">Phone Number <span class="required">*</span></label>
+                        <input type="tel" id="partyB_phone" name="partyB_phone" required>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="partyB_email">Email Address <span class="required">*</span></label>
+                    <input type="email" id="partyB_email" name="partyB_email" required>
+                </div>
+                
+                <div class="two-column">
+                    <div class="form-group">
+                        <label for="partyB_occupation">Occupation</label>
+                        <input type="text" id="partyB_occupation" name="partyB_occupation">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="partyB_income">Annual Income</label>
+                        <input type="number" id="partyB_income" name="partyB_income" min="0">
+                    </div>
+                </div>
+            </div>
+
+            <!-- SECTION 3: MARRIAGE INFORMATION -->
+            <div class="section">
+                <h2 class="section-title">Marriage Information</h2>
+                
+                <div class="two-column">
+                    <div class="form-group">
+                        <label for="wedding_date">Intended Wedding Date <span class="required">*</span></label>
+                        <input type="date" id="wedding_date" name="wedding_date" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="wedding_location">Wedding Location</label>
+                        <input type="text" id="wedding_location" name="wedding_location">
+                    </div>
+                </div>
+            </div>
+
+            <!-- SECTION 4: ASSETS AND DEBTS -->
+            <div class="section">
+                <h2 class="section-title">Assets and Debts Disclosure</h2>
+                
+                <div class="form-group">
+                    <label for="partyA_assets">Party A - List of Assets (Real Estate, Bank Accounts, Investments, Business Interests, etc.)</label>
+                    <textarea id="partyA_assets" name="partyA_assets" placeholder="Please list all significant assets with approximate values"></textarea>
+                </div>
+                
+                <div class="form-group">
+                    <label for="partyA_debts">Party A - List of Debts (Mortgages, Loans, Credit Cards, etc.)</label>
+                    <textarea id="partyA_debts" name="partyA_debts" placeholder="Please list all significant debts with approximate amounts"></textarea>
+                </div>
+                
+                <div class="form-group">
+                    <label for="partyB_assets">Party B - List of Assets (Real Estate, Bank Accounts, Investments, Business Interests, etc.)</label>
+                    <textarea id="partyB_assets" name="partyB_assets" placeholder="Please list all significant assets with approximate values"></textarea>
+                </div>
+                
+                <div class="form-group">
+                    <label for="partyB_debts">Party B - List of Debts (Mortgages, Loans, Credit Cards, etc.)</label>
+                    <textarea id="partyB_debts" name="partyB_debts" placeholder="Please list all significant debts with approximate amounts"></textarea>
+                </div>
+            </div>
+
+            <!-- SECTION 5: PROPERTY DIVISION PREFERENCES -->
+            <div class="section">
+                <h2 class="section-title">Property Division Preferences</h2>
+                
+                <div class="form-group">
+                    <label for="property_regime">Preferred Property Regime <span class="required">*</span></label>
+                    <select id="property_regime" name="property_regime" required>
+                        <option value="">Select Option</option>
+                        <option value="separate">Complete Separation of Property</option>
+                        <option value="community">Community Property</option>
+                        <option value="mixed">Mixed (Some Separate, Some Community)</option>
+                        <option value="custom">Custom Arrangement</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="property_details">Please explain your property division preferences in detail:</label>
+                    <textarea id="property_details" name="property_details"></textarea>
+                </div>
+                
+                <div class="checkbox-group">
+                    <input type="checkbox" id="income_separate" name="income_separate">
+                    <label for="income_separate">Income earned during marriage should remain separate property</label>
+                </div>
+                
+                <div class="checkbox-group">
+                    <input type="checkbox" id="retirement_separate" name="retirement_separate">
+                    <label for="retirement_separate">Retirement accounts should remain separate property</label>
+                </div>
+                
+                <div class="checkbox-group">
+                    <input type="checkbox" id="business_separate" name="business_separate">
+                    <label for="business_separate">Business interests should remain separate property</label>
+                </div>
+            </div>
+
+            <!-- SECTION 6: SPOUSAL SUPPORT -->
+            <div class="section">
+                <h2 class="section-title">Spousal Support (Alimony)</h2>
+                
+                <div class="form-group">
+                    <label for="spousal_support">Spousal Support Agreement <span class="required">*</span></label>
+                    <select id="spousal_support" name="spousal_support" required>
+                        <option value="">Select Option</option>
+                        <option value="waive">Both parties waive spousal support</option>
+                        <option value="preserve">Preserve court's jurisdiction over spousal support</option>
+                        <option value="limited">Limited spousal support with conditions</option>
+                        <option value="custom">Custom arrangement</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="support_details">If custom or limited, please explain:</label>
+                    <textarea id="support_details" name="support_details"></textarea>
+                </div>
+            </div>
+
+            <!-- SECTION 7: LEGAL REPRESENTATION -->
+            <div class="section">
+                <h2 class="section-title">Legal Representation</h2>
+                
+                <div class="checkbox-group">
+                    <input type="checkbox" id="partyA_hasAttorney" name="partyA_hasAttorney">
+                    <label for="partyA_hasAttorney">Party A has retained or will retain separate legal counsel</label>
+                </div>
+                
+                <div class="form-group">
+                    <label for="partyA_attorney">Party A's Attorney (if known):</label>
+                    <input type="text" id="partyA_attorney" name="partyA_attorney">
+                </div>
+                
+                <div class="checkbox-group">
+                    <input type="checkbox" id="partyB_hasAttorney" name="partyB_hasAttorney">
+                    <label for="partyB_hasAttorney">Party B has retained or will retain separate legal counsel</label>
+                </div>
+                
+                <div class="form-group">
+                    <label for="partyB_attorney">Party B's Attorney (if known):</label>
+                    <input type="text" id="partyB_attorney" name="partyB_attorney">
+                </div>
+            </div>
+
+            <!-- SECTION 8: ADDITIONAL PROVISIONS -->
+            <div class="section">
+                <h2 class="section-title">Additional Provisions</h2>
+                
+                <div class="form-group">
+                    <label for="additional_provisions">Any additional terms or provisions you'd like to include:</label>
+                    <textarea id="additional_provisions" name="additional_provisions" placeholder="Estate planning considerations, pet custody, specific property arrangements, etc."></textarea>
+                </div>
+            </div>
+
+            <!-- SECTION 9: ACKNOWLEDGMENTS -->
+            <div class="section">
+                <h2 class="section-title">Acknowledgments</h2>
+                
+                <div class="checkbox-group">
+                    <input type="checkbox" id="voluntary" name="voluntary" required>
+                    <label for="voluntary">I understand that this agreement must be entered into voluntarily by both parties <span class="required">*</span></label>
+                </div>
+                
+                <div class="checkbox-group">
+                    <input type="checkbox" id="disclosure" name="disclosure" required>
+                    <label for="disclosure">I understand that full financial disclosure is required from both parties <span class="required">*</span></label>
+                </div>
+                
+                <div class="checkbox-group">
+                    <input type="checkbox" id="seven_day" name="seven_day" required>
+                    <label for="seven_day">I understand that California law requires at least 7 days between receiving the agreement and signing it <span class="required">*</span></label>
+                </div>
+                
+                <div class="checkbox-group">
+                    <input type="checkbox" id="legal_advice" name="legal_advice" required>
+                    <label for="legal_advice">I understand that each party should have independent legal representation <span class="required">*</span></label>
+                </div>
+                
+                <div class="checkbox-group">
+                    <input type="checkbox" id="not_binding" name="not_binding" required>
+                    <label for="not_binding">I understand that this form submission does not create a binding prenuptial agreement and that a formal agreement must be drafted and properly executed <span class="required">*</span></label>
+                </div>
+            </div>
+
+            <!-- SECTION 10: SUBMISSION -->
+            <div class="section">
+                <h2 class="section-title">Form Submission</h2>
+                
+                <div class="form-group">
+                    <label for="submitter_name">Your Name <span class="required">*</span></label>
+                    <input type="text" id="submitter_name" name="submitter_name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="submitter_relationship">I am <span class="required">*</span></label>
+                    <select id="submitter_relationship" name="submitter_relationship" required>
+                        <option value="">Select</option>
+                        <option value="partyA">Party A</option>
+                        <option value="partyB">Party B</option>
+                        <option value="both">Submitting on behalf of both parties</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="contact_preference">Preferred Contact Method <span class="required">*</span></label>
+                    <select id="contact_preference" name="contact_preference" required>
+                        <option value="">Select</option>
+                        <option value="email">Email</option>
+                        <option value="phone">Phone</option>
+                        <option value="both">Either</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="urgency">Timeline for Agreement <span class="required">*</span></label>
+                    <select id="urgency" name="urgency" required>
+                        <option value="">Select</option>
+                        <option value="urgent">Urgent (Wedding in less than 30 days)</option>
+                        <option value="normal">Normal (Wedding in 30-90 days)</option>
+                        <option value="planning">Planning ahead (Wedding in 90+ days)</option>
+                    </select>
+                </div>
+            </div>
+
+            <button type="submit" class="submit-btn">Submit Prenuptial Agreement Information</button>
+            
+            <p style="text-align: center; color: #666; margin-top: 20px;">
+                By submitting this form, you agree to be contacted by the Law Offices of Rozsa Gyene 
+                regarding your prenuptial agreement needs.
+            </p>
+        </form>
+    </div>
+</body>
+</html>
