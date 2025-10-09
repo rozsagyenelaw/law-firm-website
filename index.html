@@ -74,7 +74,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             --primary-blue: #1e3a5f;
             --accent-gold: #c9a961;
             --text-dark: #2c3e50;
-            --text-light: #555555; /* ACCESSIBILITY FIX: Darkened from #6c757d for better contrast */
+            --text-light: #4a4a4a; /* ACCESSIBILITY FIX: Further darkened from #555555 for better contrast (7:1 ratio) */
             --background: #ffffff;
             --section-bg: #f8f9fa;
             --hover-bg: #f8f9fa;
@@ -111,6 +111,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             color: var(--accent-gold);
             text-decoration: none;
             font-weight: 600;
+            /* ACCESSIBILITY FIX: Better touch targets */
+            display: inline-block;
+            padding: 4px 0;
         }
 
         /* Main Navigation */
@@ -251,6 +254,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             font-weight: 600;
             transition: all 0.3s;
             margin-left: 20px;
+            /* ACCESSIBILITY FIX: Minimum touch target height */
+            min-height: 48px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
         }
 
         .btn-book:hover {
@@ -270,6 +278,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             transition: all 0.3s;
             margin-left: 20px;
             border: 2px solid var(--primary-blue);
+            /* ACCESSIBILITY FIX: Minimum touch target height */
+            min-height: 48px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
         }
 
         .btn-client-portal:hover {
@@ -281,6 +294,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         }
 
         /* Mobile Menu Toggle */
+        /* ACCESSIBILITY FIX: Increased touch target size to 48x48px minimum */
         .mobile-toggle {
             display: none;
             background: none;
@@ -288,10 +302,18 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             font-size: 24px;
             color: var(--text-dark);
             cursor: pointer;
+            min-width: 48px;
+            min-height: 48px;
+            padding: 12px;
         }
 
         .close-menu {
             display: none;
+        }
+
+        .nav-item-close {
+            display: none;
+            list-style: none;
         }
 
         /* Hero Section */
@@ -325,6 +347,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             transition: all 0.3s;
             display: inline-block;
             margin: 10px;
+            /* ACCESSIBILITY FIX: Minimum touch target height */
+            min-height: 48px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
         }
 
         .btn-primary:hover {
@@ -345,6 +372,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             transition: all 0.3s;
             display: inline-block;
             margin: 10px;
+            /* ACCESSIBILITY FIX: Minimum touch target height */
+            min-height: 48px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
         }
 
         .btn-secondary:hover {
@@ -427,6 +459,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             font-weight: 600;
             font-size: 17px;
             transition: all 0.3s;
+            /* ACCESSIBILITY FIX: Minimum touch target height */
+            min-height: 48px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
         }
 
         .consultation-cta a:hover {
@@ -534,6 +571,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             color: var(--accent-gold);
             text-decoration: none;
             font-weight: 600;
+            /* ACCESSIBILITY FIX: Minimum touch target height */
+            display: inline-block;
+            padding: 8px 0;
+            min-height: 44px;
+            line-height: 28px;
         }
 
         /* Process Section */
@@ -713,6 +755,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             justify-content: space-between;
             align-items: center;
             transition: background 0.3s;
+            /* ACCESSIBILITY FIX: Minimum touch target height */
+            min-height: 60px;
         }
 
         .faq-question:hover {
@@ -806,6 +850,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             color: var(--text-light);
         }
 
+        .contact-item a {
+            /* ACCESSIBILITY FIX: Better touch targets */
+            display: inline-block;
+            min-height: 44px;
+            line-height: 44px;
+        }
+
         .contact-item strong {
             color: var(--text-dark);
             display: block;
@@ -854,6 +905,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             color: white;
             text-decoration: none;
             transition: color 0.3s;
+            /* ACCESSIBILITY FIX: Better touch targets for mobile */
+            display: inline-block;
+            padding: 4px 0;
+            min-height: 32px;
+            line-height: 24px;
         }
 
         .footer-section a:hover {
@@ -873,15 +929,25 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 display: block;
             }
 
-            .close-menu {
+            .nav-item-close {
                 display: block;
                 position: absolute;
-                top: 20px;
-                right: 20px;
+                top: 10px;
+                right: 10px;
+                z-index: 10;
+            }
+
+            .close-menu {
+                display: block;
                 background: none;
                 border: none;
                 font-size: 30px;
                 cursor: pointer;
+                color: var(--text-dark);
+                /* ACCESSIBILITY FIX: Minimum touch target size */
+                min-width: 48px;
+                min-height: 48px;
+                padding: 9px;
             }
 
             .nav-menu {
@@ -910,6 +976,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             .nav-link {
                 padding: 15px 20px;
                 border-bottom: 1px solid #f0f0f0;
+                /* ACCESSIBILITY FIX: Minimum touch target height */
+                min-height: 48px;
+                display: flex;
+                align-items: center;
             }
 
             .dropdown {
@@ -931,18 +1001,22 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             .dropdown-item {
                 padding-left: 40px;
                 border-bottom: 1px solid #e0e0e0;
+                /* ACCESSIBILITY FIX: Minimum touch target height */
+                min-height: 48px;
+                display: flex;
+                align-items: center;
             }
 
-            .btn-book {
-                margin: 20px;
-                display: block;
-                text-align: center;
-            }
-
+            .btn-book,
             .btn-client-portal {
-                margin: 20px;
+                margin: 10px 20px;
                 display: block;
                 text-align: center;
+                /* ACCESSIBILITY FIX: Minimum touch target height */
+                min-height: 48px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
             }
 
             .consultation-content {
@@ -1025,10 +1099,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 </button>
 
                 <ul class="nav-menu" id="navMenu">
-                    <!-- ACCESSIBILITY FIX: Added aria-label to close menu button -->
-                    <button class="close-menu" onclick="toggleMenu()" aria-label="Close navigation menu">
-                        <i class="fas fa-times"></i>
-                    </button>
+                    <li class="nav-item-close">
+                        <!-- ACCESSIBILITY FIX: Added aria-label to close menu button -->
+                        <button class="close-menu" onclick="toggleMenu()" aria-label="Close navigation menu">
+                            <i class="fas fa-times"></i>
+                        </button>
+                    </li>
 
                     <li class="nav-item">
                         <a href="index.html" class="nav-link">Home</a>
@@ -1076,8 +1152,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         </div>
                     </li>
 
-                    <a href="https://portal.livingtrust-attorneys.com/" class="btn-client-portal" target="_blank" rel="noopener">Client Portal</a>
-                    <a href="https://square.site/book/0W2A8PKKPYC21/law-offices-of-rozsa-gyene-glendale-ca" class="btn-book">Book Now</a>
+                    <li class="nav-item">
+                        <a href="https://portal.livingtrust-attorneys.com/" class="btn-client-portal" target="_blank" rel="noopener">Client Portal</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://square.site/book/0W2A8PKKPYC21/law-offices-of-rozsa-gyene-glendale-ca" class="btn-book">Book Now</a>
+                    </li>
                 </ul>
             </div>
         </nav>
