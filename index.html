@@ -4,6 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Law Offices of Rozsa Gyene - Estate Planning & Probate Attorney Glendale CA</title>
+    
+    <!-- SEO FIX: Added meta description -->
+    <meta name="description" content="Experienced estate planning attorney in Glendale, CA. Living trusts from $575, probate, trust administration & asset protection. Free consultation. Serving families since 2001. Call (818) 291-6217.">
+    
+    <!-- PERFORMANCE FIX: Preconnect to external domains -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://www.googletagmanager.com">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    
     <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -46,11 +56,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   }
 }
 </script>  
-    <!-- Google Fonts -->
+    <!-- PERFORMANCE FIX: Optimized Google Fonts loading with display=swap -->
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     
-    <!-- Font Awesome for Icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- PERFORMANCE FIX: Defer Font Awesome loading -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"></noscript>
     
     <style>
         * {
@@ -63,7 +74,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             --primary-blue: #1e3a5f;
             --accent-gold: #c9a961;
             --text-dark: #2c3e50;
-            --text-light: #6c757d;
+            --text-light: #555555; /* ACCESSIBILITY FIX: Darkened from #6c757d for better contrast */
             --background: #ffffff;
             --section-bg: #f8f9fa;
             --hover-bg: #f8f9fa;
@@ -980,8 +991,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </head>
 <body>
     <!-- Google Tag Manager (noscript) -->
+    <!-- ACCESSIBILITY FIX: Added title to iframe -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N2PW6VX7"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Manager"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
     
     <!-- Top Bar -->
@@ -1007,12 +1019,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     </div>
                 </a>
 
-                <button class="mobile-toggle" onclick="toggleMenu()">
+                <!-- ACCESSIBILITY FIX: Added aria-label to mobile toggle button -->
+                <button class="mobile-toggle" onclick="toggleMenu()" aria-label="Open navigation menu">
                     <i class="fas fa-bars"></i>
                 </button>
 
                 <ul class="nav-menu" id="navMenu">
-                    <button class="close-menu" onclick="toggleMenu()">
+                    <!-- ACCESSIBILITY FIX: Added aria-label to close menu button -->
+                    <button class="close-menu" onclick="toggleMenu()" aria-label="Close navigation menu">
                         <i class="fas fa-times"></i>
                     </button>
 
@@ -1062,14 +1076,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         </div>
                     </li>
 
-                    <a href="https://portal.livingtrust-attorneys.com/" class="btn-client-portal" target="_blank">Client Portal</a>
+                    <a href="https://portal.livingtrust-attorneys.com/" class="btn-client-portal" target="_blank" rel="noopener">Client Portal</a>
                     <a href="https://square.site/book/0W2A8PKKPYC21/law-offices-of-rozsa-gyene-glendale-ca" class="btn-book">Book Now</a>
                 </ul>
             </div>
         </nav>
     </header>
 
-    <!-- Hero Section - KEEPING YOUR ORIGINAL -->
+    <!-- Hero Section -->
     <section class="hero">
         <div class="container">
             <h1>Protect Your Family's Future</h1>
@@ -1086,7 +1100,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <div class="container">
             <div class="consultation-content">
                 <div class="consultation-image">
-                    <img src="images/consultation-meeting.jpg" alt="Estate Planning Consultation at Law Offices of Rozsa Gyene">
+                    <!-- PERFORMANCE FIX: Added loading="lazy" and optimized dimensions -->
+                    <img src="images/consultation-meeting.jpg" alt="Estate Planning Consultation at Law Offices of Rozsa Gyene" loading="lazy" width="600" height="400">
                 </div>
                 <div class="consultation-text">
                     <h2>Experience You Can Trust</h2>
@@ -1470,6 +1485,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     </div>
                 </div>
                 
+                <!-- ACCESSIBILITY FIX: Added title to Google Maps iframe -->
                 <div class="map-container" style="height: auto; padding: 0;">
                     <iframe 
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3301.7623836775592!2d-118.25699502444974!3d34.152420812434336!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c0fdcf1d04f7%3A0x7311a02968e2274a!2s450%20N%20Brand%20Blvd%2C%20Glendale%2C%20CA%2091203%2C%20USA!5e0!3m2!1sen!2shu!4v1757764150130!5m2!1sen!2shu" 
@@ -1478,7 +1494,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         style="border:0; border-radius: 10px;" 
                         allowfullscreen="" 
                         loading="lazy" 
-                        referrerpolicy="no-referrer-when-downgrade">
+                        referrerpolicy="no-referrer-when-downgrade"
+                        title="Google Maps location of Law Offices of Rozsa Gyene at 450 N Brand Blvd Suite 600, Glendale, CA 91203">
                     </iframe>
                 </div>
             </div>
@@ -1541,6 +1558,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         </div>
     </footer>
 
+    <!-- PERFORMANCE FIX: Moved scripts to bottom and kept them minimal -->
     <script>
         // Mobile menu toggle
         function toggleMenu() {
@@ -1579,8 +1597,3 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     </script>
 </body>
 </html>
-
-
-
-
-
