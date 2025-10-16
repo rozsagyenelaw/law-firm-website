@@ -505,7 +505,9 @@
             font-size: 18px;
         }
 
-        .form-group input {
+        .form-group input,
+        .form-group select,
+        .form-group textarea {
             width: 100%;
             padding: 12px;
             border: 2px solid #dee2e6;
@@ -517,6 +519,14 @@
             display: flex;
             gap: 30px;
             margin-top: 10px;
+        }
+
+        .radio-group label {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            cursor: pointer;
+            font-weight: normal;
         }
 
         .submit-btn {
@@ -661,7 +671,6 @@
                 gap: 5px;
             }
 
-            /* Mobile styles for the professional guidance image section */
             section > .container > div[style*="grid-template-columns: 1fr 1fr"] {
                 grid-template-columns: 1fr !important;
             }
@@ -978,15 +987,58 @@
         </div>
     </section>
 
-    <!-- Form Section -->
-    <section class="form-section">
+    <!-- Enhanced Form Section with Lead Quality Scoring -->
+    <section class="form-section" id="form">
         <div class="container">
             <h2 style="text-align: center; font-family: 'Playfair Display', serif; font-size: 42px; color: var(--primary-blue); margin-bottom: 40px;">
-                Is Probate Required? Find Out in 60 Seconds
+                Get Your Free Probate Consultation
             </h2>
             <div class="form-container">
-                <form name="probate-contact" method="POST" data-netlify="true" action="/probate-thank-you.html">
-    <input type="hidden" name="form-name" value="probate-contact">
+                <form id="probate-form" class="lead-form" name="probate-contact" method="POST" data-netlify="true" action="/probate-thank-you.html">
+                    <input type="hidden" name="form-name" value="probate-contact">
+                    
+                    <!-- NEW: Quality Indicator Fields -->
+                    <div class="form-group">
+                        <label for="estate_value">Estimated Estate Value? *</label>
+                        <select id="estate_value" name="estate_value" required>
+                            <option value="">Please select...</option>
+                            <option value="under_500k">Under $500,000</option>
+                            <option value="500k_1m">$500,000 - $1 Million</option>
+                            <option value="1m_5m">$1 Million - $5 Million</option>
+                            <option value="5m_plus">Over $5 Million</option>
+                            <option value="unsure">Not sure</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="probate_situation">Your Situation? *</label>
+                        <select id="probate_situation" name="probate_situation" required>
+                            <option value="">Please select...</option>
+                            <option value="deceased_relative">Family member recently passed</option>
+                            <option value="named_executor">I'm the executor/administrator</option>
+                            <option value="dispute">There's a dispute with heirs/beneficiaries</option>
+                            <option value="need_info">Just need information</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="timeline">Timeline? *</label>
+                        <select id="timeline" name="timeline" required>
+                            <option value="">Please select...</option>
+                            <option value="urgent">This week (urgent)</option>
+                            <option value="soon">Within a month</option>
+                            <option value="planning">Just planning/researching</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Did the decedent own real property (house, land)?</label>
+                        <div class="radio-group">
+                            <label><input type="radio" name="owns_property" value="yes"> Yes</label>
+                            <label><input type="radio" name="owns_property" value="no"> No</label>
+                        </div>
+                    </div>
+
                     <div class="form-group">
                         <label>Did the decedent have a will?</label>
                         <div class="radio-group">
@@ -995,46 +1047,41 @@
                         </div>
                     </div>
 
+                    <!-- Basic Contact Info -->
                     <div class="form-group">
-                        <label>Did the decedent own assets in his or her name?</label>
-                        <div class="radio-group">
-                            <label><input type="radio" name="own_assets" value="yes"> Yes</label>
-                            <label><input type="radio" name="own_assets" value="no"> No</label>
-                        </div>
-                    </div>
-
-                    <div class="form-group">
-                        <label>Did they have bank/investment accounts over $184,500?</label>
-                        <div class="radio-group">
-                            <label><input type="radio" name="account_value" value="yes"> Yes</label>
-                            <label><input type="radio" name="account_value" value="no"> No</label>
-                        </div>
-                    </div>
-
-                    <div class="form-group">
-                        <label>Has a probate case been filed yet?</label>
-                        <div class="radio-group">
-                            <label><input type="radio" name="case_filed" value="yes"> Yes</label>
-                            <label><input type="radio" name="case_filed" value="no"> No</label>
-                        </div>
-                    </div>
-
-                    <div class="form-group">
-                        <label for="name">Name:</label>
+                        <label for="name">Your Name: *</label>
                         <input type="text" id="name" name="name" required>
                     </div>
 
                     <div class="form-group">
-                        <label for="email">Email:</label>
+                        <label for="email">Email: *</label>
                         <input type="email" id="email" name="email" required>
                     </div>
 
                     <div class="form-group">
-                        <label for="phone">Phone:</label>
+                        <label for="phone">Phone: *</label>
                         <input type="tel" id="phone" name="phone" required>
                     </div>
 
-                    <button type="submit" class="submit-btn">Submit</button>
+                    <div class="form-group">
+                        <label for="message">Tell us about your situation (optional):</label>
+                        <textarea id="message" name="message" rows="4"></textarea>
+                    </div>
+
+                    <!-- Hidden tracking fields for Google Ads -->
+                    <input type="hidden" name="service_type" value="probate_administration">
+                    <input type="hidden" name="utm_source" id="utm_source">
+                    <input type="hidden" name="utm_campaign" id="utm_campaign">
+                    <input type="hidden" name="utm_term" id="utm_term">
+                    <input type="hidden" name="utm_medium" id="utm_medium">
+                    <input type="hidden" name="gclid" id="gclid">
+                    <input type="hidden" name="landing_page" value="probate">
+
+                    <button type="submit" class="submit-btn">Get Free Consultation</button>
+                    
+                    <p style="text-align: center; margin-top: 15px; color: #6c757d; font-size: 14px;">
+                        By submitting, you agree to be contacted by our office.
+                    </p>
                 </form>
             </div>
         </div>
@@ -1061,6 +1108,7 @@
         </div>
     </footer>
 
+    <!-- JavaScript -->
     <script>
         // Mobile menu toggle
         function toggleMenu() {
@@ -1072,7 +1120,6 @@
         document.querySelectorAll('.nav-item').forEach(item => {
             item.addEventListener('click', function(e) {
                 if (window.innerWidth <= 992) {
-                    // Only toggle if clicking on the main link, not dropdown items
                     if (e.target.classList.contains('has-dropdown')) {
                         e.preventDefault();
                         this.classList.toggle('active');
@@ -1091,8 +1138,174 @@
             }
         });
     </script>
+
+    <!-- Enhanced JavaScript for UTM Tracking + Lead Scoring -->
+    <script>
+    // ========================================
+    // PART 1: Capture UTM Parameters & GCLID
+    // ========================================
+    (function() {
+        const urlParams = new URLSearchParams(window.location.search);
+        
+        const utmData = {
+            utm_source: urlParams.get('utm_source') || sessionStorage.getItem('utm_source') || '',
+            utm_campaign: urlParams.get('utm_campaign') || sessionStorage.getItem('utm_campaign') || '',
+            utm_term: urlParams.get('utm_term') || sessionStorage.getItem('utm_term') || '',
+            utm_medium: urlParams.get('utm_medium') || sessionStorage.getItem('utm_medium') || '',
+            gclid: urlParams.get('gclid') || sessionStorage.getItem('gclid') || ''
+        };
+        
+        Object.keys(utmData).forEach(key => {
+            if (utmData[key]) sessionStorage.setItem(key, utmData[key]);
+        });
+        
+        Object.keys(utmData).forEach(key => {
+            const field = document.getElementById(key);
+            if (field) field.value = utmData[key];
+        });
+    })();
+
+    // ========================================
+    // PART 2: Client-Side Lead Scoring
+    // ========================================
+    function scoreLeadClientSide() {
+        const form = document.getElementById('probate-form');
+        const formData = new FormData(form);
+        const data = {};
+        formData.forEach((value, key) => { data[key] = value; });
+        
+        let score = 90; // Base score for probate (higher than living trust)
+        
+        // Estate value scoring
+        const estateScores = {
+            'under_500k': 10,
+            '500k_1m': 30,
+            '1m_5m': 60,
+            '5m_plus': 100,
+            'unsure': 20
+        };
+        score += estateScores[data.estate_value] || 0;
+        
+        // Situation scoring (probate-specific)
+        const situationScores = {
+            'deceased_relative': 20,
+            'named_executor': 30,
+            'dispute': 50,
+            'need_info': -10
+        };
+        score += situationScores[data.probate_situation] || 0;
+        
+        // Timeline scoring
+        const timelineScores = {
+            'urgent': 50,
+            'soon': 30,
+            'planning': 5
+        };
+        score += timelineScores[data.timeline] || 0;
+        
+        // Property bonus
+        if (data.owns_property === 'yes') {
+            score += 25;
+        }
+        
+        // Has will
+        if (data.has_will === 'yes') {
+            score += 10;
+        }
+        
+        // Message analysis
+        const message = (data.message || '').toLowerCase();
+        if (message.includes('property') || message.includes('real estate') || message.includes('house')) {
+            score += 10;
+        }
+        if (message.includes('million')) {
+            score += 15;
+        }
+        if (message.includes('urgent') || message.includes('asap') || message.includes('immediately')) {
+            score += 10;
+        }
+        if (message.includes('dispute') || message.includes('fight') || message.includes('contest')) {
+            score += 20;
+        }
+        
+        // Red flags
+        if (message.includes('free') || message.includes('cheap') || message.includes('affordable')) {
+            score -= 15;
+        }
+        
+        // Determine tier
+        let tier = 'COLD';
+        if (score >= 150) tier = 'HOT';
+        else if (score >= 100) tier = 'WARM';
+        else if (score >= 50) tier = 'LUKEWARM';
+        
+        console.log('Probate Lead Score:', score, '| Tier:', tier);
+        return { score, tier };
+    }
+
+    // ========================================
+    // PART 3: Enhanced Form Submission
+    // ========================================
+    document.getElementById('probate-form').addEventListener('submit', async function(e) {
+        e.preventDefault();
+        
+        const submitBtn = this.querySelector('.submit-btn');
+        const originalText = submitBtn.textContent;
+        submitBtn.textContent = 'Submitting...';
+        submitBtn.disabled = true;
+        
+        const formData = new FormData(this);
+        const data = {};
+        formData.forEach((value, key) => {
+            data[key] = value;
+        });
+        
+        // Calculate lead score
+        const scoring = scoreLeadClientSide();
+        data.score = scoring.score;
+        data.tier = scoring.tier;
+        
+        // Track Google Ads conversion
+        if (typeof gtag !== 'undefined' && data.gclid) {
+            gtag('event', 'conversion', {
+                'send_to': 'AW-989094207/gc4mCNilkoAbEL_C0dcD',
+                'value': 1.0,
+                'currency': 'USD'
+            });
+        }
+        
+        // Send to Netlify Function for lead scoring and alerts
+        try {
+            await fetch('/.netlify/functions/score-lead', {
+                method: 'POST',
+                headers: {'Content-Type': 'application/json'},
+                body: JSON.stringify(data)
+            });
+            console.log('Lead scored successfully:', scoring.tier, scoring.score);
+        } catch (error) {
+            console.log('Lead scoring error (form still submitted):', error);
+        }
+        
+        // Submit to Netlify Forms
+        try {
+            const netlifyResponse = await fetch('/', {
+                method: 'POST',
+                headers: { "Content-Type": "application/x-www-form-urlencoded" },
+                body: new URLSearchParams(formData).toString()
+            });
+            
+            if (netlifyResponse.ok) {
+                window.location.href = '/probate-thank-you.html';
+            } else {
+                throw new Error('Form submission failed');
+            }
+        } catch (error) {
+            console.error('Form submission error:', error);
+            alert('There was an error submitting the form. Please call us at (818) 291-6217');
+            submitBtn.textContent = originalText;
+            submitBtn.disabled = false;
+        }
+    });
+    </script>
 </body>
 </html>
-
-
-
