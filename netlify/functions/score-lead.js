@@ -1,5 +1,53 @@
-// Netlify Function for Lead Scoring and Email Alerts
+// Netlify Function for Lead Scoring, Email Alerts, and Google Sheets Logging
 const fetch = require('node-fetch');
+const { google } = require('googleapis');
+
+// Initialize Google Sheets
+async function appendToSheet(data) {
+    try {
+        const auth = new google.auth.GoogleAuth({
+            credentials: JSON.parse(process.env.GOOGLE_SERVICE_ACCOUNT),
+            scopes: ['https://www.googleapis.com/auth/spreadsheets'],
+        });
+
+        const sheets = google.sheets({ version: 'v4', auth });
+        
+        const row = [
+            new Date().toISOString(),
+            data.name || '',
+            data.phone || '',
+            data.email || '',
+            data.estate_value || '',
+            data.timeline || '',
+            data.owns_property || '',
+            data.married || '',
+            data.minor_children || '',
+            data.message || '',
+            data.score || 0,
+            data.tier || '',
+            data.utm_source || '',
+            data.utm_campaign || '',
+            data.utm_term || '',
+            data.gclid || '',
+            data.service_type || ''
+        ];
+
+        await sheets.spreadsheets.values.append({
+            spreadsheetId: process.env.GOOGLE_SHEET_ID,
+            range: 'Sheet1!A:Q',
+            valueInputOption: 'USER_ENTERED',
+            resource: {
+                values: [row]
+            }
+        });
+
+        console.log('Data logged to Google Sheets');
+        return true;
+    } catch (error) {
+        console.error('Google Sheets error:', error);
+        return false;
+    }
+}
 
 exports.handler = async (event, context) => {
     if (event.httpMethod !== 'POST') {
@@ -15,6 +63,9 @@ exports.handler = async (event, context) => {
         const tier = data.tier || 'UNKNOWN';
         
         console.log(`New lead: ${data.name} | Score: ${score} | Tier: ${tier}`);
+        
+        // Log to Google Sheets (always, regardless of tier)
+        await appendToSheet(data);
         
         // Send email alert for HOT and WARM leads via SendGrid
         if (tier === 'HOT' || tier === 'WARM') {
@@ -121,7 +172,8 @@ exports.handler = async (event, context) => {
                 success: true,
                 score: score,
                 tier: tier,
-                alert_sent: tier === 'HOT' || tier === 'WARM'
+                alert_sent: tier === 'HOT' || tier === 'WARM',
+                logged_to_sheets: true
             })
         };
         
