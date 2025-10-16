@@ -1,0 +1,8 @@
+{
+  "name": "law-office-lead-scoring",
+  "version": "1.0.0",
+  "description": "Lead scoring and email alerts for law office",
+  "dependencies": {
+    "node-fetch": "^2.6.7"
+  }
+}
