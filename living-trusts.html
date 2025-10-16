@@ -1045,7 +1045,7 @@
                     <input type="hidden" name="gclid" id="gclid">
                     <input type="hidden" name="landing_page" value="living-trusts">
 
-                    <button type="submit" class="submit-btn">Get Started</button>
+                    <button type="submit" class="submit-btn">Get Started - $575</button>
                     
                     <p style="text-align: center; margin-top: 15px; color: #6c757d; font-size: 14px;">
                         By submitting, you agree to be contacted by our office.
@@ -1119,12 +1119,17 @@
         submitBtn.textContent = 'Submitting...';
         submitBtn.disabled = true;
         
-        // Get form data for scoring (we'll send to YOUR backend too)
+        // Get form data for scoring
         const formData = new FormData(this);
         const data = {};
         formData.forEach((value, key) => {
             data[key] = value;
         });
+        
+        // Calculate lead score
+        const scoring = scoreLeadClientSide();
+        data.score = scoring.score;
+        data.tier = scoring.tier;
         
         // Track Google Ads conversion
         if (typeof gtag !== 'undefined' && data.gclid) {
@@ -1135,15 +1140,16 @@
             });
         }
         
-        // Send to YOUR backend for lead scoring (optional - we'll build this)
+        // Send to Netlify Function for lead scoring and email alerts
         try {
-            await fetch('https://your-backend-url.com/api/score-lead', {
+            await fetch('/.netlify/functions/score-lead', {
                 method: 'POST',
                 headers: {'Content-Type': 'application/json'},
                 body: JSON.stringify(data)
             });
+            console.log('Lead scored successfully:', scoring.tier, scoring.score);
         } catch (error) {
-            console.log('Lead scoring backend not yet setup:', error);
+            console.log('Lead scoring error (form still submitted):', error);
             // Not critical - form still submits to Netlify
         }
     });
@@ -1213,4 +1219,3 @@
     </script>
 </body>
 </html>
-
