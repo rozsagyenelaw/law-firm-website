@@ -241,60 +241,6 @@
             display: none;
         }
 
-        .top-bar {
-            background: var(--primary-blue);
-            color: white;
-            padding: 10px 0;
-            font-size: 14px;
-        }
-
-        .top-bar .container {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        .top-bar a {
-            color: var(--accent-gold);
-            text-decoration: none;
-            font-weight: 600;
-        }
-
-        nav {
-            padding: 20px 0;
-        }
-
-        nav .container {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        .logo {
-            display: flex;
-            align-items: center;
-            text-decoration: none;
-            color: var(--primary-blue);
-        }
-
-        .logo-text {
-            display: flex;
-            flex-direction: column;
-        }
-
-        .logo-text .firm-name {
-            font-family: 'Playfair Display', serif;
-            font-size: 24px;
-            font-weight: 700;
-            line-height: 1.2;
-        }
-
-        .logo-text .tagline {
-            font-size: 12px;
-            color: var(--text-light);
-            margin-top: 2px;
-        }
-
         /* Hero Section */
         .hero {
             background: linear-gradient(135deg, #3A4B6B 0%, #2c5282 100%);
@@ -1013,25 +959,43 @@
         </div>
     </section>
 
-    <!-- Form Section -->
+    <!-- Enhanced Form Section with Lead Quality Scoring -->
     <section class="form-section" id="form">
         <div class="container">
-            <h2 class="section-title">What Type of Estate Plan is Right for You?</h2>
+            <h2 class="section-title">Get Your Living Trust Started Today</h2>
             <div class="form-container">
-                <form name="living-trust-contact" method="POST" data-netlify="true" action="/living-trust-thank-you.html">
+                <form id="living-trust-form" class="lead-form" name="living-trust-contact" method="POST" data-netlify="true" action="/living-trust-thank-you.html">
+                    <!-- Hidden Netlify field -->
+                    <input type="hidden" name="form-name" value="living-trust-contact">
+                    
+                    <!-- NEW: Quality Indicator Fields -->
                     <div class="form-group">
-                        <label>Do you have a current will?</label>
-                        <div class="radio-group">
-                            <label><input type="radio" name="current_will" value="yes"> Yes</label>
-                            <label><input type="radio" name="current_will" value="no"> No</label>
-                        </div>
+                        <label for="estate_value">Estimated Estate Value? *</label>
+                        <select id="estate_value" name="estate_value" required>
+                            <option value="">Please select...</option>
+                            <option value="under_500k">Under $500,000</option>
+                            <option value="500k_1m">$500,000 - $1 Million</option>
+                            <option value="1m_5m">$1 Million - $5 Million</option>
+                            <option value="5m_plus">Over $5 Million</option>
+                            <option value="unsure">Not sure</option>
+                        </select>
                     </div>
 
                     <div class="form-group">
-                        <label>Do you have a current trust that needs to be updated?</label>
+                        <label for="timeline">When do you need your Living Trust? *</label>
+                        <select id="timeline" name="timeline" required>
+                            <option value="">Please select...</option>
+                            <option value="urgent">This week (urgent)</option>
+                            <option value="soon">Within a month</option>
+                            <option value="planning">Just planning ahead (3+ months)</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Do you own real estate?</label>
                         <div class="radio-group">
-                            <label><input type="radio" name="current_trust" value="yes"> Yes</label>
-                            <label><input type="radio" name="current_trust" value="no"> No</label>
+                            <label><input type="radio" name="owns_property" value="yes"> Yes</label>
+                            <label><input type="radio" name="owns_property" value="no"> No</label>
                         </div>
                     </div>
 
@@ -1044,45 +1008,48 @@
                     </div>
 
                     <div class="form-group">
-                        <label>Do you have any minor children?</label>
+                        <label>Do you have minor children?</label>
                         <div class="radio-group">
                             <label><input type="radio" name="minor_children" value="yes"> Yes</label>
                             <label><input type="radio" name="minor_children" value="no"> No</label>
                         </div>
                     </div>
 
+                    <!-- Basic Contact Info -->
                     <div class="form-group">
-                        <label>Do you have a life insurance policy?</label>
-                        <div class="radio-group">
-                            <label><input type="radio" name="life_insurance" value="yes"> Yes</label>
-                            <label><input type="radio" name="life_insurance" value="no"> No</label>
-                        </div>
-                    </div>
-
-                    <div class="form-group">
-                        <label>Do you have power of attorney for assets or healthcare decisions?</label>
-                        <div class="radio-group">
-                            <label><input type="radio" name="power_attorney" value="yes"> Yes</label>
-                            <label><input type="radio" name="power_attorney" value="no"> No</label>
-                        </div>
-                    </div>
-
-                    <div class="form-group">
-                        <label for="name">Name:</label>
+                        <label for="name">Your Name: *</label>
                         <input type="text" id="name" name="name" required>
                     </div>
 
                     <div class="form-group">
-                        <label for="email">Email:</label>
+                        <label for="email">Email: *</label>
                         <input type="email" id="email" name="email" required>
                     </div>
 
                     <div class="form-group">
-                        <label for="phone">Phone:</label>
+                        <label for="phone">Phone: *</label>
                         <input type="tel" id="phone" name="phone" required>
                     </div>
 
-                    <button type="submit" class="submit-btn">Submit</button>
+                    <div class="form-group">
+                        <label for="message">Tell us about your situation (optional):</label>
+                        <textarea id="message" name="message" rows="4" style="width: 100%; padding: 12px; border: 2px solid var(--border-color); border-radius: 8px; font-size: 16px; font-family: 'Inter', sans-serif;"></textarea>
+                    </div>
+
+                    <!-- Hidden tracking fields for Google Ads -->
+                    <input type="hidden" name="service_type" value="living_trust">
+                    <input type="hidden" name="utm_source" id="utm_source">
+                    <input type="hidden" name="utm_campaign" id="utm_campaign">
+                    <input type="hidden" name="utm_term" id="utm_term">
+                    <input type="hidden" name="utm_medium" id="utm_medium">
+                    <input type="hidden" name="gclid" id="gclid">
+                    <input type="hidden" name="landing_page" value="living-trusts">
+
+                    <button type="submit" class="submit-btn">Get Started - $575</button>
+                    
+                    <p style="text-align: center; margin-top: 15px; color: #6c757d; font-size: 14px;">
+                        By submitting, you agree to be contacted by our office.
+                    </p>
                 </form>
             </div>
         </div>
@@ -1103,26 +1070,146 @@
         </div>
     </footer>
 
-    <!-- Google Ads Conversion Tracking -->
+    <!-- Mobile Menu Toggle Script -->
     <script>
-    window.addEventListener('load', function() {
-        const form = document.querySelector('form');
-        if(form) {
-            form.addEventListener('submit', function() {
-                if(typeof gtag !== 'undefined') {
-                    gtag('event', 'conversion', {
-                        'send_to': 'AW-989094207/gc4mCNilkoAbEL_C0dcD'
-                    });
-                }
+        function toggleMenu() {
+            const menu = document.getElementById('navMenu');
+            menu.classList.toggle('active');
+        }
+    </script>
+
+    <!-- Enhanced JavaScript for UTM Tracking + Lead Scoring -->
+    <script>
+    // ========================================
+    // PART 1: Capture UTM Parameters & GCLID
+    // ========================================
+    (function() {
+        const urlParams = new URLSearchParams(window.location.search);
+        
+        // Capture and store UTM data
+        const utmData = {
+            utm_source: urlParams.get('utm_source') || sessionStorage.getItem('utm_source') || '',
+            utm_campaign: urlParams.get('utm_campaign') || sessionStorage.getItem('utm_campaign') || '',
+            utm_term: urlParams.get('utm_term') || sessionStorage.getItem('utm_term') || '',
+            utm_medium: urlParams.get('utm_medium') || sessionStorage.getItem('utm_medium') || '',
+            gclid: urlParams.get('gclid') || sessionStorage.getItem('gclid') || ''
+        };
+        
+        // Save to sessionStorage so they persist across pages
+        Object.keys(utmData).forEach(key => {
+            if (utmData[key]) sessionStorage.setItem(key, utmData[key]);
+        });
+        
+        // Fill hidden fields
+        Object.keys(utmData).forEach(key => {
+            const field = document.getElementById(key);
+            if (field) field.value = utmData[key];
+        });
+    })();
+
+    // ========================================
+    // PART 2: Enhanced Form Submission
+    // ========================================
+    document.getElementById('living-trust-form').addEventListener('submit', async function(e) {
+        // Don't prevent default - let Netlify handle it
+        // But we'll add our tracking
+        
+        const submitBtn = this.querySelector('.submit-btn');
+        const originalText = submitBtn.textContent;
+        submitBtn.textContent = 'Submitting...';
+        submitBtn.disabled = true;
+        
+        // Get form data for scoring (we'll send to YOUR backend too)
+        const formData = new FormData(this);
+        const data = {};
+        formData.forEach((value, key) => {
+            data[key] = value;
+        });
+        
+        // Track Google Ads conversion
+        if (typeof gtag !== 'undefined' && data.gclid) {
+            gtag('event', 'conversion', {
+                'send_to': 'AW-989094207/gc4mCNilkoAbEL_C0dcD',
+                'value': 575.00,
+                'currency': 'USD'
             });
         }
+        
+        // Send to YOUR backend for lead scoring (optional - we'll build this)
+        try {
+            await fetch('https://your-backend-url.com/api/score-lead', {
+                method: 'POST',
+                headers: {'Content-Type': 'application/json'},
+                body: JSON.stringify(data)
+            });
+        } catch (error) {
+            console.log('Lead scoring backend not yet setup:', error);
+            // Not critical - form still submits to Netlify
+        }
+    });
+
+    // ========================================
+    // PART 3: Client-Side Lead Scoring Preview
+    // ========================================
+    // This scores the lead in the browser so you can see the quality immediately
+    function scoreLeadClientSide() {
+        const form = document.getElementById('living-trust-form');
+        const formData = new FormData(form);
+        const data = {};
+        formData.forEach((value, key) => { data[key] = value; });
+        
+        let score = 60; // Base score for living trust
+        
+        // Estate value scoring
+        const estateScores = {
+            'under_500k': 10,
+            '500k_1m': 30,
+            '1m_5m': 60,
+            '5m_plus': 100,
+            'unsure': 20
+        };
+        score += estateScores[data.estate_value] || 0;
+        
+        // Timeline scoring
+        const timelineScores = {
+            'urgent': 50,
+            'soon': 30,
+            'planning': 10
+        };
+        score += timelineScores[data.timeline] || 0;
+        
+        // Property bonus
+        if (data.owns_property === 'yes') {
+            score += 20;
+        }
+        
+        // Message analysis
+        const message = (data.message || '').toLowerCase();
+        if (message.includes('property') || message.includes('real estate') || message.includes('house')) {
+            score += 10;
+        }
+        if (message.includes('million')) {
+            score += 15;
+        }
+        if (message.includes('urgent') || message.includes('asap') || message.includes('soon')) {
+            score += 10;
+        }
+        
+        // Determine tier
+        let tier = 'COLD';
+        if (score >= 150) tier = 'HOT';
+        else if (score >= 100) tier = 'WARM';
+        else if (score >= 50) tier = 'LUKEWARM';
+        
+        console.log('Lead Score:', score, '| Tier:', tier);
+        return { score, tier };
+    }
+
+    // Score on form change (for your reference)
+    document.getElementById('living-trust-form').addEventListener('change', function() {
+        const scoring = scoreLeadClientSide();
+        // You could display this to yourself in dev tools or admin panel
     });
     </script>
 </body>
 </html>
-
-
-
-
-
-
