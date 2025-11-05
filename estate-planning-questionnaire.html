@@ -696,9 +696,19 @@
         <h1>Estate Planning Questionnaire</h1>
         <p class="subtitle">Complete this comprehensive form to help us prepare your estate planning documents</p>
 
-        <form id="estatePlanningForm" name="estate-planning-questionnaire" method="POST" data-netlify="true" action="/thank-you-estate-planning.html">
+        <form id="estatePlanningForm" name="estate-planning-questionnaire" method="POST" data-netlify="true">
     <input type="hidden" name="form-name" value="estate-planning-questionnaire">
-            <!-- Hidden field for thank you page redirect -->
+            <!-- Hidden fields for dynamic data -->
+            <input type="hidden" name="childrenData" id="childrenData">
+            <input type="hidden" name="beneficiariesData" id="beneficiariesData">
+            <input type="hidden" name="successorTrusteesData" id="successorTrusteesData">
+            <input type="hidden" name="specificGiftsData" id="specificGiftsData">
+            <input type="hidden" name="charitiesData" id="charitiesData">
+            <input type="hidden" name="executorsData" id="executorsData">
+            <input type="hidden" name="guardiansData" id="guardiansData">
+            <input type="hidden" name="finPOAData" id="finPOAData">
+            <input type="hidden" name="healthPOAData" id="healthPOAData">
+            <input type="hidden" name="insuranceData" id="insuranceData">
 
             <!-- EMAIL -->
             <div class="section">
@@ -1529,6 +1539,174 @@
 
         addChild();
         addSuccessorTrustee();
+
+        // Form submission handler to collect all dynamic data
+        document.getElementById('estatePlanningForm').addEventListener('submit', function(e) {
+            // Collect Children Data
+            const childrenData = [];
+            for(let i = 1; i <= childCount; i++) {
+                const section = document.getElementById(`child${i}Section`);
+                if(section) {
+                    const childObj = {
+                        name: section.querySelector(`[name="child${i}Name"]`)?.value || '',
+                        dob: section.querySelector(`[name="child${i}Dob"]`)?.value || '',
+                        gender: section.querySelector(`[name="child${i}Gender"]`)?.value || '',
+                        relationship: Array.from(section.querySelectorAll(`[name="child${i}Rel"]:checked`)).map(cb => cb.value).join(', ')
+                    };
+                    childrenData.push(childObj);
+                }
+            }
+            document.getElementById('childrenData').value = JSON.stringify(childrenData, null, 2);
+
+            // Collect Beneficiaries Data
+            const beneficiariesData = [];
+            for(let i = 1; i <= beneficiaryCount; i++) {
+                const section = document.getElementById(`beneficiary${i}Section`);
+                if(section) {
+                    const benefObj = {
+                        name: section.querySelector(`[name="beneficiary${i}Name"]`)?.value || '',
+                        relationship: section.querySelector(`[name="beneficiary${i}Relationship"]`)?.value || '',
+                        age: section.querySelector(`[name="beneficiary${i}Age"]`)?.value || '',
+                        gender: section.querySelector(`[name="beneficiary${i}Gender"]`)?.value || '',
+                        percentage: section.querySelector(`[name="beneficiary${i}Percentage"]`)?.value || ''
+                    };
+                    beneficiariesData.push(benefObj);
+                }
+            }
+            document.getElementById('beneficiariesData').value = JSON.stringify(beneficiariesData, null, 2);
+
+            // Collect Successor Trustees Data
+            const trusteesData = [];
+            for(let i = 1; i <= trusteeCount; i++) {
+                const section = document.getElementById(`trustee${i}Section`);
+                if(section) {
+                    const trusteeObj = {
+                        name: section.querySelector(`[name="trustee${i}Name"]`)?.value || '',
+                        address: section.querySelector(`[name="trustee${i}Address"]`)?.value || '',
+                        gender: section.querySelector(`[name="trustee${i}Gender"]`)?.value || '',
+                        citizen: section.querySelector(`[name="trustee${i}Citizen"]:checked`)?.value || ''
+                    };
+                    trusteesData.push(trusteeObj);
+                }
+            }
+            document.getElementById('successorTrusteesData').value = JSON.stringify(trusteesData, null, 2);
+
+            // Collect Specific Gifts Data
+            const giftsData = [];
+            for(let i = 1; i <= giftCount; i++) {
+                const section = document.getElementById(`gift${i}Section`);
+                if(section) {
+                    const giftObj = {
+                        beneficiary: section.querySelector(`[name="gift${i}Beneficiary"]`)?.value || '',
+                        relationship: section.querySelector(`[name="gift${i}Relationship"]`)?.value || '',
+                        item: section.querySelector(`[name="gift${i}Item"]`)?.value || ''
+                    };
+                    giftsData.push(giftObj);
+                }
+            }
+            document.getElementById('specificGiftsData').value = JSON.stringify(giftsData, null, 2);
+
+            // Collect Charities Data
+            const charitiesData = [];
+            for(let i = 1; i <= charityCount; i++) {
+                const section = document.getElementById(`charity${i}Section`);
+                if(section) {
+                    const charityObj = {
+                        name: section.querySelector(`[name="charity${i}Name"]`)?.value || '',
+                        address: section.querySelector(`[name="charity${i}Address"]`)?.value || '',
+                        percentage: section.querySelector(`[name="charity${i}Percentage"]`)?.value || ''
+                    };
+                    charitiesData.push(charityObj);
+                }
+            }
+            document.getElementById('charitiesData').value = JSON.stringify(charitiesData, null, 2);
+
+            // Collect Executors Data
+            const executorsData = {client: [], spouse: []};
+            for(let person of ['client', 'spouse']) {
+                for(let i = 1; i <= executorCount[person]; i++) {
+                    const section = document.getElementById(`${person}Executor${i}Section`);
+                    if(section) {
+                        const execObj = {
+                            name: section.querySelector(`[name="${person}Executor${i}Name"]`)?.value || '',
+                            address: section.querySelector(`[name="${person}Executor${i}Address"]`)?.value || '',
+                            phone: section.querySelector(`[name="${person}Executor${i}Phone"]`)?.value || ''
+                        };
+                        executorsData[person].push(execObj);
+                    }
+                }
+            }
+            document.getElementById('executorsData').value = JSON.stringify(executorsData, null, 2);
+
+            // Collect Guardians Data
+            const guardiansData = [];
+            for(let i = 1; i <= guardianCount; i++) {
+                const section = document.getElementById(`guardian${i}Section`);
+                if(section) {
+                    const guardianObj = {
+                        name: section.querySelector(`[name="guardian${i}Name"]`)?.value || '',
+                        address: section.querySelector(`[name="guardian${i}Address"]`)?.value || '',
+                        relationship: section.querySelector(`[name="guardian${i}Relationship"]`)?.value || ''
+                    };
+                    guardiansData.push(guardianObj);
+                }
+            }
+            document.getElementById('guardiansData').value = JSON.stringify(guardiansData, null, 2);
+
+            // Collect Financial POA Data
+            const finPOAData = {client: [], spouse: []};
+            for(let person of ['client', 'spouse']) {
+                for(let i = 1; i <= finPOACount[person]; i++) {
+                    const section = document.getElementById(`${person}FinPOA${i}Section`);
+                    if(section) {
+                        const poaObj = {
+                            name: section.querySelector(`[name="${person}FinPOA${i}Name"]`)?.value || '',
+                            address: section.querySelector(`[name="${person}FinPOA${i}Address"]`)?.value || '',
+                            phone: section.querySelector(`[name="${person}FinPOA${i}Phone"]`)?.value || ''
+                        };
+                        finPOAData[person].push(poaObj);
+                    }
+                }
+            }
+            document.getElementById('finPOAData').value = JSON.stringify(finPOAData, null, 2);
+
+            // Collect Healthcare POA Data
+            const healthPOAData = {client: [], spouse: []};
+            for(let person of ['client', 'spouse']) {
+                for(let i = 1; i <= healthPOACount[person]; i++) {
+                    const section = document.getElementById(`${person}HealthPOA${i}Section`);
+                    if(section) {
+                        const poaObj = {
+                            name: section.querySelector(`[name="${person}HealthPOA${i}Name"]`)?.value || '',
+                            address: section.querySelector(`[name="${person}HealthPOA${i}Address"]`)?.value || '',
+                            phone: section.querySelector(`[name="${person}HealthPOA${i}Phone"]`)?.value || ''
+                        };
+                        healthPOAData[person].push(poaObj);
+                    }
+                }
+            }
+            document.getElementById('healthPOAData').value = JSON.stringify(healthPOAData, null, 2);
+
+            // Collect Insurance Data
+            const insuranceData = [];
+            for(let i = 1; i <= insuranceCount; i++) {
+                const section = document.getElementById(`insurance${i}Section`);
+                if(section) {
+                    const insObj = {
+                        type: section.querySelector(`[name="insurance${i}Type"]`)?.value || '',
+                        value: section.querySelector(`[name="insurance${i}Value"]`)?.value || '',
+                        trust: section.querySelector(`[name="insurance${i}Trust"]:checked`)?.value || ''
+                    };
+                    insuranceData.push(insObj);
+                }
+            }
+            document.getElementById('insuranceData').value = JSON.stringify(insuranceData, null, 2);
+
+            // Redirect to thank you page after submission
+            setTimeout(() => {
+                window.location.href = '/thank-you-estate-planning.html';
+            }, 100);
+        });
 
         document.getElementById('dividePercentage').addEventListener('change',function(){
             const p=this.checked;
