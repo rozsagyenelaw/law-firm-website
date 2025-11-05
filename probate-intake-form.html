@@ -691,9 +691,11 @@
         <h1>Probate Intake Questionnaire</h1>
         <p class="subtitle">Complete this form to help us assess your probate needs and prepare necessary documentation</p>
 
-       <form name="probate-intake" method="POST" data-netlify="true" action="/probate-thank-you.html">
+       <form name="probate-intake" method="POST" data-netlify="true">
     <input type="hidden" name="form-name" value="probate-intake">
-          
+            <!-- Hidden fields for dynamic data -->
+            <input type="hidden" name="heirsData" id="heirsData">
+            <input type="hidden" name="propertiesData" id="propertiesData">
 
             <!-- PETITIONER/CONTACT INFORMATION (Maps to Petitioner in DE-111) -->
             <div class="section">
@@ -1479,6 +1481,45 @@
         // Update heirs list before form submission
         document.getElementById('probateIntakeForm').addEventListener('submit', function(e) {
             updateHeirsList();
+
+            // Collect all dynamic data
+            // Collect Heirs Data
+            const heirsData = [];
+            for(let i = 1; i <= heirCount; i++) {
+                const section = document.getElementById(`heir${i}Section`);
+                if(section) {
+                    const heirObj = {
+                        name: section.querySelector(`[name="heir${i}_name"]`)?.value || '',
+                        relationship: section.querySelector(`[name="heir${i}_relationship"]`)?.value || '',
+                        dob: section.querySelector(`[name="heir${i}_dob"]`)?.value || '',
+                        address: section.querySelector(`[name="heir${i}_address"]`)?.value || '',
+                        phone: section.querySelector(`[name="heir${i}_phone"]`)?.value || '',
+                        email: section.querySelector(`[name="heir${i}_email"]`)?.value || '',
+                        deceased: section.querySelector(`[name="heir${i}_deceased"]`)?.value || ''
+                    };
+                    heirsData.push(heirObj);
+                }
+            }
+            document.getElementById('heirsData').value = JSON.stringify(heirsData, null, 2);
+
+            // Collect Properties Data
+            const propertiesData = [];
+            for(let i = 1; i <= propertyCount; i++) {
+                const section = document.getElementById(`property${i}Section`);
+                if(section) {
+                    const propObj = {
+                        address: section.querySelector(`[name="property${i}_address"]`)?.value || '',
+                        value: section.querySelector(`[name="property${i}_value"]`)?.value || ''
+                    };
+                    propertiesData.push(propObj);
+                }
+            }
+            document.getElementById('propertiesData').value = JSON.stringify(propertiesData, null, 2);
+
+            // Redirect to thank you page after submission
+            setTimeout(() => {
+                window.location.href = '/probate-thank-you.html';
+            }, 100);
         });
     </script>
 </body>

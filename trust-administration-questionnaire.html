@@ -944,9 +944,14 @@
             </div>
 
             <div class="form-body">
-                <form id="trustAdminForm" name="trust-admin-questionnaire" method="POST" data-netlify="true" action="/trust-admin-questionnaire-thank-you.html">
+                <form id="trustAdminForm" name="trust-admin-questionnaire" method="POST" data-netlify="true">
                     <input type="hidden" name="form-name" value="trust-admin-questionnaire">
-                    
+                    <!-- Hidden fields for dynamic data -->
+                    <input type="hidden" name="coTrusteesData" id="coTrusteesData">
+                    <input type="hidden" name="propertiesData" id="propertiesData">
+                    <input type="hidden" name="bankAccountsData" id="bankAccountsData">
+                    <input type="hidden" name="beneficiariesData" id="beneficiariesData">
+
                     <!-- Section 1: Trustee Information -->
                     <div class="form-section active" id="section-1">
                         <h2 class="section-title">Section 1: Successor Trustee Information</h2>
@@ -1883,14 +1888,81 @@
                 return;
             }
             
+            // Collect all dynamic data before submission
+            // Collect Co-Trustees Data
+            const coTrusteesData = [];
+            for(let i = 1; i <= coTrusteeCount; i++) {
+                const section = document.getElementById(`coTrustee${i}Section`);
+                if(section) {
+                    const trusteeObj = {
+                        name: section.querySelector(`[name="coTrustee${i}_name"]`)?.value || '',
+                        address: section.querySelector(`[name="coTrustee${i}_address"]`)?.value || '',
+                        phone: section.querySelector(`[name="coTrustee${i}_phone"]`)?.value || '',
+                        email: section.querySelector(`[name="coTrustee${i}_email"]`)?.value || ''
+                    };
+                    coTrusteesData.push(trusteeObj);
+                }
+            }
+            document.getElementById('coTrusteesData').value = JSON.stringify(coTrusteesData, null, 2);
+
+            // Collect Properties Data
+            const propertiesData = [];
+            for(let i = 1; i <= propertyCount; i++) {
+                const section = document.getElementById(`property${i}Section`);
+                if(section) {
+                    const propObj = {
+                        address: section.querySelector(`[name="property${i}_address"]`)?.value || '',
+                        value: section.querySelector(`[name="property${i}_value"]`)?.value || '',
+                        mortgageBalance: section.querySelector(`[name="property${i}_mortgage"]`)?.value || ''
+                    };
+                    propertiesData.push(propObj);
+                }
+            }
+            document.getElementById('propertiesData').value = JSON.stringify(propertiesData, null, 2);
+
+            // Collect Bank Accounts Data
+            const bankAccountsData = [];
+            for(let i = 1; i <= bankAccountCount; i++) {
+                const section = document.getElementById(`bankAccount${i}Section`);
+                if(section) {
+                    const accObj = {
+                        institution: section.querySelector(`[name="bankAccount${i}_institution"]`)?.value || '',
+                        accountNumber: section.querySelector(`[name="bankAccount${i}_number"]`)?.value || '',
+                        balance: section.querySelector(`[name="bankAccount${i}_balance"]`)?.value || ''
+                    };
+                    bankAccountsData.push(accObj);
+                }
+            }
+            document.getElementById('bankAccountsData').value = JSON.stringify(bankAccountsData, null, 2);
+
+            // Collect Beneficiaries Data
+            const beneficiariesData = [];
+            for(let i = 1; i <= beneficiaryCount; i++) {
+                const section = document.getElementById(`beneficiary${i}Section`);
+                if(section) {
+                    const benObj = {
+                        name: section.querySelector(`[name="beneficiary${i}_name"]`)?.value || '',
+                        relationship: section.querySelector(`[name="beneficiary${i}_relationship"]`)?.value || '',
+                        address: section.querySelector(`[name="beneficiary${i}_address"]`)?.value || '',
+                        phone: section.querySelector(`[name="beneficiary${i}_phone"]`)?.value || '',
+                        email: section.querySelector(`[name="beneficiary${i}_email"]`)?.value || ''
+                    };
+                    beneficiariesData.push(benObj);
+                }
+            }
+            document.getElementById('beneficiariesData').value = JSON.stringify(beneficiariesData, null, 2);
+
             // Track conversion
             if(typeof gtag !== 'undefined') {
                 gtag('event', 'conversion', {
                     'send_to': 'AW-989094207/TRUST_ADMIN_QUESTIONNAIRE_COMPLETE'
                 });
             }
-            
+
             // Submit form
+            setTimeout(() => {
+                window.location.href = '/trust-administration-questionnaire-thank-you.html';
+            }, 100);
             this.submit();
         });
     </script>

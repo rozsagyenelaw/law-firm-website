@@ -727,10 +727,12 @@
         </div>
         
        <!-- IMPORTANT: This now uses Netlify Forms -->
-      <form name="guardianship-questionnaire" method="POST" data-netlify="true" action="/thank-you-guardianship.html">
+      <form name="guardianship-questionnaire" method="POST" data-netlify="true">
     <input type="hidden" name="form-name" value="guardianship-questionnaire">
-         
-               
+            <!-- Hidden fields for dynamic data -->
+            <input type="hidden" name="minorsData" id="minorsData">
+            <input type="hidden" name="interestedPartiesData" id="interestedPartiesData">
+
             <!-- SECTION 1: PETITIONER INFORMATION -->
             <div class="section">
                 <h2 class="section-title">SECTION 1: PETITIONER INFORMATION</h2>
@@ -1604,6 +1606,48 @@
         
         // Add at least one minor section by default
         addMinor();
+
+        // Form submission handler to collect all dynamic data
+        document.querySelector('form[name="guardianship-questionnaire"]').addEventListener('submit', function(e) {
+            // Collect Minors Data
+            const minorsData = [];
+            for(let i = 1; i <= minorCount; i++) {
+                const section = document.getElementById(`minor${i}Section`);
+                if(section) {
+                    const minorObj = {
+                        name: section.querySelector(`[name="minor${i}_name"]`)?.value || '',
+                        dob: section.querySelector(`[name="minor${i}_dob"]`)?.value || '',
+                        gender: section.querySelector(`[name="minor${i}_gender"]`)?.value || '',
+                        relationship: section.querySelector(`[name="minor${i}_relationship"]`)?.value || '',
+                        address: section.querySelector(`[name="minor${i}_address"]`)?.value || ''
+                    };
+                    minorsData.push(minorObj);
+                }
+            }
+            document.getElementById('minorsData').value = JSON.stringify(minorsData, null, 2);
+
+            // Collect Interested Parties Data
+            const interestedData = [];
+            for(let i = 1; i <= interestedCount; i++) {
+                const section = document.getElementById(`interested${i}Section`);
+                if(section) {
+                    const intObj = {
+                        name: section.querySelector(`[name="interested${i}_name"]`)?.value || '',
+                        relationship: section.querySelector(`[name="interested${i}_relationship"]`)?.value || '',
+                        address: section.querySelector(`[name="interested${i}_address"]`)?.value || '',
+                        phone: section.querySelector(`[name="interested${i}_phone"]`)?.value || '',
+                        email: section.querySelector(`[name="interested${i}_email"]`)?.value || ''
+                    };
+                    interestedData.push(intObj);
+                }
+            }
+            document.getElementById('interestedPartiesData').value = JSON.stringify(interestedData, null, 2);
+
+            // Redirect to thank you page after submission
+            setTimeout(() => {
+                window.location.href = '/thank-you-guardianship.html';
+            }, 100);
+        });
     </script>
 </body>
 </html>

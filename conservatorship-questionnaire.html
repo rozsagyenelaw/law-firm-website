@@ -727,9 +727,13 @@
         </div>
         
         <!-- GetForm endpoint configured -->
-      <form name="conservatorship-questionnaire" method="POST" data-netlify="true" action="/thank-you-conservatorship.html">
+      <form name="conservatorship-questionnaire" method="POST" data-netlify="true">
     <input type="hidden" name="form-name" value="conservatorship-questionnaire">
-            
+            <!-- Hidden fields for dynamic data -->
+            <input type="hidden" name="relativesData" id="relativesData">
+            <input type="hidden" name="propertiesData" id="propertiesData">
+            <input type="hidden" name="accountsData" id="accountsData">
+
             <!-- SECTION 1: PETITIONER INFORMATION (Person requesting conservatorship) -->
             <div class="section">
                 <h2 class="section-title">SECTION 1: PETITIONER INFORMATION</h2>
@@ -1535,6 +1539,59 @@
         
         // Add at least one relative section by default
         addRelative();
+
+        // Form submission handler to collect all dynamic data
+        document.querySelector('form[name="conservatorship-questionnaire"]').addEventListener('submit', function(e) {
+            // Collect Relatives Data
+            const relativesData = [];
+            for(let i = 1; i <= relativeCount; i++) {
+                const section = document.getElementById(`relative${i}Section`);
+                if(section) {
+                    const relObj = {
+                        name: section.querySelector(`[name="relative${i}_name"]`)?.value || '',
+                        relationship: section.querySelector(`[name="relative${i}_relationship"]`)?.value || '',
+                        address: section.querySelector(`[name="relative${i}_address"]`)?.value || '',
+                        phone: section.querySelector(`[name="relative${i}_phone"]`)?.value || ''
+                    };
+                    relativesData.push(relObj);
+                }
+            }
+            document.getElementById('relativesData').value = JSON.stringify(relativesData, null, 2);
+
+            // Collect Properties Data
+            const propertiesData = [];
+            for(let i = 1; i <= propertyCount; i++) {
+                const section = document.getElementById(`property${i}Section`);
+                if(section) {
+                    const propObj = {
+                        address: section.querySelector(`[name="property${i}_address"]`)?.value || '',
+                        value: section.querySelector(`[name="property${i}_value"]`)?.value || ''
+                    };
+                    propertiesData.push(propObj);
+                }
+            }
+            document.getElementById('propertiesData').value = JSON.stringify(propertiesData, null, 2);
+
+            // Collect Accounts Data
+            const accountsData = [];
+            for(let i = 1; i <= accountCount; i++) {
+                const section = document.getElementById(`account${i}Section`);
+                if(section) {
+                    const accObj = {
+                        institution: section.querySelector(`[name="account${i}_institution"]`)?.value || '',
+                        type: section.querySelector(`[name="account${i}_type"]`)?.value || '',
+                        balance: section.querySelector(`[name="account${i}_balance"]`)?.value || ''
+                    };
+                    accountsData.push(accObj);
+                }
+            }
+            document.getElementById('accountsData').value = JSON.stringify(accountsData, null, 2);
+
+            // Redirect to thank you page after submission
+            setTimeout(() => {
+                window.location.href = '/thank-you-conservatorship.html';
+            }, 100);
+        });
     </script>
 </body>
 </html>
