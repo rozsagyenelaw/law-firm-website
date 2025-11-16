@@ -382,22 +382,77 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
         /* Hero Section */
         .hero {
-            background: linear-gradient(135deg, #1e3a5f 0%, #2a5298 100%);
+            position: relative;
+            height: 100vh;
+            min-height: 600px;
+            overflow: hidden;
             color: white;
-            padding: 120px 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .hero-slider {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+        }
+
+        .hero-slide {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-size: cover;
+            background-position: center;
+            opacity: 0;
+            transition: opacity 1.5s ease-in-out;
+        }
+
+        .hero-slide.active {
+            opacity: 1;
+        }
+
+        .hero-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            z-index: 2;
+        }
+
+        .hero-content-wrapper {
+            position: relative;
+            z-index: 3;
             text-align: center;
+            width: 100%;
         }
 
         .hero h1 {
             font-family: 'Playfair Display', serif;
             font-size: 56px;
             margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
         }
 
         .hero p {
             font-size: 24px;
             margin-bottom: 30px;
             opacity: 0.95;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+        }
+
+        .hero-buttons {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
         }
 
         .btn-primary {
@@ -446,6 +501,19 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         .btn-secondary:hover {
             background: white;
             color: var(--primary-blue);
+        }
+
+        /* Transparent buttons for hero */
+        .btn-transparent {
+            background: rgba(255, 255, 255, 0.15) !important;
+            border: 2px solid rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(10px);
+        }
+
+        .btn-transparent:hover {
+            background: rgba(255, 255, 255, 0.25) !important;
+            border-color: white;
+            transform: translateY(-2px);
         }
 
         /* Consultation Image Section - New Addition */
@@ -1230,12 +1298,22 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
     <!-- Hero Section -->
     <section class="hero">
-        <div class="container">
-            <h1>Protect Your Family's Future</h1>
-            <p>Estate Planning, Probate & Trust Administration Since 2001</p>
-            <div>
-                <a href="https://portal.livingtrust-attorneys.com/book" class="btn-primary">Schedule Consultation</a>
-                <a href="estate-planning-questionnaire.html" class="btn-secondary">Start Planning</a>
+        <div class="hero-slider">
+            <div class="hero-slide active" style="background-image: url('media/hero/family-generations.jpg');"></div>
+            <div class="hero-slide" style="background-image: url('media/hero/happy-family.jpg');"></div>
+            <div class="hero-slide" style="background-image: url('media/hero/young-family.jpg');"></div>
+            <div class="hero-slide" style="background-image: url('media/hero/estate-planning.jpg');"></div>
+        </div>
+        <div class="hero-overlay"></div>
+
+        <div class="hero-content-wrapper">
+            <div class="container">
+                <h1>Protect Your Family's Future</h1>
+                <p>Estate Planning, Probate & Trust Administration Since 2001</p>
+                <div class="hero-buttons">
+                    <a href="https://portal.livingtrust-attorneys.com/book" class="btn-primary btn-transparent">Schedule Consultation</a>
+                    <a href="estate-planning-questionnaire.html" class="btn-secondary btn-transparent">Start Planning</a>
+                </div>
             </div>
         </div>
     </section>
@@ -1739,6 +1817,20 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             const faqItem = element.parentElement;
             faqItem.classList.toggle('active');
         }
+
+        // Hero Slider Auto-scroll
+        let currentSlide = 0;
+        const slides = document.querySelectorAll('.hero-slide');
+        const totalSlides = slides.length;
+
+        function nextSlide() {
+            slides[currentSlide].classList.remove('active');
+            currentSlide = (currentSlide + 1) % totalSlides;
+            slides[currentSlide].classList.add('active');
+        }
+
+        // Auto-advance every 5 seconds
+        setInterval(nextSlide, 5000);
     </script>
 </body>
 </html>
