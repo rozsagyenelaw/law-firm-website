@@ -60,14 +60,15 @@
             font-weight: 600;
         }
 
-        /* Header Styles - Complete Navigation */
+        /* Main Navigation */
         header {
-            background: transparent;
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            z-index: 100;
+            background: transparent !important;
+            position: absolute !important;
+            top: 0 !important;
+            left: 0 !important;
+            width: 100% !important;
+            z-index: 100 !important;
+            display: block !important;
         }
 
         nav {
@@ -92,6 +93,27 @@
             flex-direction: column;
         }
 
+        .nav-phone-cta {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            background: var(--accent-gold);
+            color: white;
+            padding: 8px 16px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 14px;
+            transition: all 0.3s;
+            margin-left: auto;
+            margin-right: 20px;
+        }
+
+        .nav-phone-cta:hover {
+            background: #b8982f;
+            transform: translateY(-2px);
+        }
+
         .firm-name {
             font-family: 'Playfair Display', serif;
             font-size: 16px;
@@ -114,11 +136,6 @@
 
         .nav-item {
             position: relative;
-        }
-
-        .nav-item-close {
-            display: none;
-            list-style: none;
         }
 
         .nav-link {
@@ -205,6 +222,10 @@
             font-weight: 600;
             transition: all 0.3s;
             margin-left: 20px;
+            min-height: 48px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
         }
 
         .btn-book:hover {
@@ -215,7 +236,7 @@
 
         /* Client Portal Button in Nav */
         .btn-client-portal {
-            background: #2a5298;
+            background: var(--primary-blue);
             color: white;
             padding: 12px 30px;
             border-radius: 50px;
@@ -223,15 +244,19 @@
             font-weight: 600;
             transition: all 0.3s;
             margin-left: 20px;
-            border: 2px solid #2a5298;
+            border: 2px solid var(--primary-blue);
+            min-height: 48px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
         }
 
         .btn-client-portal:hover {
-            background: #1e3a5f;
-            color: white;
-            border: 2px solid #1e3a5f;
+            background: transparent;
+            color: var(--primary-blue);
+            border: 2px solid var(--primary-blue);
             transform: translateY(-2px);
-            box-shadow: 0 5px 15px rgba(30, 58, 95, 0.3);
+            box-shadow: 0 5px 15px rgba(30, 58, 95, 0.2);
         }
 
         /* Mobile Menu Toggle */
@@ -252,6 +277,11 @@
             display: none;
         }
 
+        .nav-item-close {
+            display: none;
+            list-style: none;
+        }
+
         /* Hero Section */
         .hero {
             position: sticky;
@@ -261,11 +291,20 @@
             overflow: hidden;
             color: white;
             z-index: 1;
-            background: url('media/happy-couple.jpg') center/cover no-repeat;
         }
 
-        .hero::before {
-            content: '';
+        .hero-slider {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+            background: url('media/happy-couple.jpg') center/cover no-repeat;
+            background-size: cover;
+        }
+
+        .hero-overlay {
             position: absolute;
             top: 0;
             left: 0;
@@ -633,15 +672,24 @@
                 display: block;
             }
 
-            .close-menu {
+            .nav-item-close {
                 display: block;
                 position: absolute;
-                top: 20px;
-                right: 20px;
+                top: 10px;
+                right: 10px;
+                z-index: 10;
+            }
+
+            .close-menu {
+                display: block;
                 background: none;
                 border: none;
                 font-size: 30px;
                 cursor: pointer;
+                color: var(--text-dark);
+                min-width: 48px;
+                min-height: 48px;
+                padding: 9px;
             }
 
             .nav-menu {
@@ -670,6 +718,11 @@
             .nav-link {
                 padding: 15px 20px;
                 border-bottom: 1px solid #f0f0f0;
+                min-height: 48px;
+                display: flex;
+                align-items: center;
+                color: var(--text-dark);
+                text-shadow: none;
             }
 
             .dropdown {
@@ -691,22 +744,28 @@
             .dropdown-item {
                 padding-left: 40px;
                 border-bottom: 1px solid #e0e0e0;
+                min-height: 48px;
+                display: flex;
+                align-items: center;
             }
 
-            .btn-book {
-                margin: 20px;
-                display: block;
-                text-align: center;
-            }
-
+            .btn-book,
             .btn-client-portal {
-                margin: 20px;
+                margin: 10px 20px;
                 display: block;
                 text-align: center;
+                min-height: 48px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
             }
         }
         
         @media (max-width: 768px) {
+            .nav-phone-cta {
+                display: none;
+            }
+
             .hero h1 {
                 font-size: 36px;
             }
@@ -737,29 +796,33 @@
     </style>
 </head>
 <body>
-    <!-- Top Bar -->
-    <div class="top-bar">
-        <div class="container">
-            <div>
-                <i class="fas fa-certificate"></i> Licensed California Attorney - Bar #208356
-            </div>
-            <div>
-                <i class="fas fa-phone"></i> Free Consultation: <a href="tel:8182916217">(818) 291-6217</a>
-            </div>
-        </div>
-    </div>
-
     <!-- Hero Section -->
     <section class="hero">
+        <!-- Top Bar -->
+        <div class="top-bar" style="position: absolute !important; top: 0 !important; left: 0 !important; width: 100% !important; z-index: 101 !important;">
+            <div class="container">
+                <div>
+                    <i class="fas fa-certificate"></i> Licensed California Attorney - Bar #208356
+                </div>
+                <div>
+                    <i class="fas fa-phone"></i> Free Consultation: <a href="tel:8182916217">(818) 291-6217</a>
+                </div>
+            </div>
+        </div>
+
         <!-- Main Navigation Inside Hero -->
-        <header>
-            <nav>
-                <div class="container">
+        <header style="position: absolute !important; top: 180px !important; left: 0 !important; width: 100% !important; z-index: 100 !important; display: block !important; visibility: visible !important;">
+            <nav style="display: block !important; visibility: visible !important;">
+                <div class="container" style="display: flex !important; visibility: visible !important;">
                     <a href="index.html" class="logo">
                         <div class="logo-text">
                             <span class="firm-name">LAW OFFICES OF ROZSA GYENE</span>
                             <span class="tagline">Estate Planning & Probate Specialists Since 2001</span>
                         </div>
+                    </a>
+
+                    <a href="tel:8182916217" class="nav-phone-cta">
+                        <i class="fas fa-phone"></i> (818) 291-6217
                     </a>
 
                     <button class="mobile-toggle" onclick="toggleMenu()">
@@ -828,6 +891,8 @@
                 </div>
             </nav>
         </header>
+        <div class="hero-slider"></div>
+        <div class="hero-overlay"></div>
         <div class="container">
             <div class="hero-content-card">
                 <h1>Living Trusts</h1>
