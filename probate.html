@@ -254,8 +254,10 @@
             color: white;
             padding: 100px 0;
             text-align: center;
-            position: relative;
+            position: sticky;
+            top: 0;
             min-height: 100vh;
+            z-index: 0;
         }
 
         .hero::before {
@@ -336,6 +338,8 @@
             background: white;
             padding: 60px 0;
             text-align: center;
+            position: relative;
+            z-index: 1;
         }
 
         .credentials-grid {
@@ -384,6 +388,7 @@
             background: url('images/senior-couple-consultation.jpg') center/cover no-repeat;
             padding: 80px 0;
             position: relative;
+            z-index: 1;
         }
 
         .zero-cost::before {
@@ -453,6 +458,8 @@
         .services {
             background: white;
             padding: 60px 0;
+            position: relative;
+            z-index: 1;
         }
 
         .services h2 {
@@ -575,6 +582,7 @@
             background: url('images/superior-court.jpg') center/cover no-repeat;
             padding: 80px 0;
             position: relative;
+            z-index: 1;
         }
 
         .testimonials::before {
@@ -701,6 +709,8 @@
         .form-section {
             padding: 80px 0;
             background: white;
+            position: relative;
+            z-index: 1;
         }
 
         .form-container {
@@ -772,6 +782,8 @@
             color: white;
             padding: 30px 0;
             text-align: center;
+            position: relative;
+            z-index: 1;
         }
 
         .cta-content {
@@ -811,6 +823,8 @@
             color: white;
             padding: 40px 0;
             text-align: center;
+            position: relative;
+            z-index: 1;
         }
 
         .footer-contact a {
@@ -1132,7 +1146,7 @@
     </section>
 
     <!-- Professional Guidance Section with Image -->
-    <section style="padding: 80px 0; background: #f8f9fa;">
+    <section style="padding: 80px 0; background: #f8f9fa; position: relative; z-index: 1;">
         <div class="container">
             <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: center;">
                 <div>
