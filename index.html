@@ -186,11 +186,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
         /* Main Navigation */
         header {
-            background: white;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
             box-shadow: 0 2px 10px rgba(0,0,0,0.08);
-            position: sticky;
+            position: absolute;
             top: 0;
-            z-index: 1000;
+            left: 0;
+            width: 100%;
+            z-index: 100;
         }
 
         nav {
@@ -386,7 +389,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
         /* Hero Section */
         .hero {
-            position: relative;
+            position: sticky;
+            top: 0;
             height: 100vh;
             min-height: 600px;
             overflow: hidden;
@@ -394,6 +398,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             display: flex;
             align-items: center;
             justify-content: center;
+            z-index: 1;
         }
 
         .hero-slider {
@@ -518,6 +523,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             background: rgba(255, 255, 255, 0.25) !important;
             border-color: white;
             transform: translateY(-2px);
+        }
+
+        /* Main Content Wrapper - Scrolls over hero */
+        .main-content {
+            position: relative;
+            z-index: 10;
+            background: white;
         }
 
         /* Consultation Image Section - New Addition */
@@ -1600,89 +1612,88 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         </div>
     </div>
 
-    <!-- Main Navigation -->
-    <header>
-        <nav>
-            <div class="container">
-                <a href="index.html" class="logo">
-                    <div class="logo-text">
-                        <span class="firm-name">LAW OFFICES OF ROZSA GYENE</span>
-                        <span class="tagline">Estate Planning & Probate Specialists Since 2001</span>
-                    </div>
-                </a>
-
-                <!-- ACCESSIBILITY FIX: Added aria-label to mobile toggle button -->
-                <button class="mobile-toggle" onclick="toggleMenu()" aria-label="Open navigation menu">
-                    <i class="fas fa-bars"></i>
-                </button>
-
-                <ul class="nav-menu" id="navMenu">
-                    <li class="nav-item-close">
-                        <!-- ACCESSIBILITY FIX: Added aria-label to close menu button -->
-                        <button class="close-menu" onclick="toggleMenu()" aria-label="Close navigation menu">
-                            <i class="fas fa-times"></i>
-                        </button>
-                    </li>
-
-                    <li class="nav-item">
-                        <a href="index.html" class="nav-link">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="about.html" class="nav-link">About</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a href="#" class="nav-link has-dropdown">Estate Planning</a>
-                        <div class="dropdown">
-                            <a href="living-trusts.html" class="dropdown-item">Living Trusts</a>
-                            <a href="trust-administration.html" class="dropdown-item">Trust Administration</a>
-                            <a href="trust-administration-questionnaire.html" class="dropdown-item">Trust Administration Questionnaire</a>
-                            <a href="trust-amendment.html" class="dropdown-item">Trust Amendments</a>
-                            <a href="special-needs-trust.html" class="dropdown-item">Special Needs Trusts</a>
-                            <a href="life-insurance-trust.html" class="dropdown-item">Life Insurance Trusts</a>
-                            <a href="asset-protection.html" class="dropdown-item">Asset Protection</a>
-                            <a href="estate-planning-questionnaire.html" class="dropdown-item">Estate Planning Form</a>
-                            <a href="prenuptial-agreement.html" class="dropdown-item">Prenuptial Agreement Form</a>
-                        </div>
-                    </li>
-
-                    <li class="nav-item">
-                        <a href="#" class="nav-link has-dropdown">Probate</a>
-                        <div class="dropdown">
-                            <a href="probate.html" class="dropdown-item">Probate Services</a>
-                            <a href="probate-intake-form.html" class="dropdown-item">Probate Intake Form</a>
-                        </div>
-                    </li>
-
-                    <li class="nav-item">
-                        <a href="#" class="nav-link has-dropdown">Conservatorship</a>
-                        <div class="dropdown">
-                            <a href="conservatorship.html" class="dropdown-item">Conservatorship Services</a>
-                            <a href="conservatorship-questionnaire.html" class="dropdown-item">Conservatorship Form</a>
-                        </div>
-                    </li>
-
-                    <li class="nav-item">
-                        <a href="#" class="nav-link has-dropdown">Guardianship</a>
-                        <div class="dropdown">
-                            <a href="guardianship.html" class="dropdown-item">Guardianship Services</a>
-                            <a href="guardianship-questionnaire.html" class="dropdown-item">Guardianship Form</a>
-                        </div>
-                    </li>
-
-                    <li class="nav-item">
-                        <a href="https://portal.livingtrust-attorneys.com/" class="btn-client-portal" target="_blank" rel="noopener">Client Portal</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="https://portal.livingtrust-attorneys.com/book" class="btn-book">Book Now</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </header>
-
     <!-- Hero Section -->
     <section class="hero">
+        <!-- Main Navigation Inside Hero -->
+        <header>
+            <nav>
+                <div class="container">
+                    <a href="index.html" class="logo">
+                        <div class="logo-text">
+                            <span class="firm-name">LAW OFFICES OF ROZSA GYENE</span>
+                            <span class="tagline">Estate Planning & Probate Specialists Since 2001</span>
+                        </div>
+                    </a>
+
+                    <!-- ACCESSIBILITY FIX: Added aria-label to mobile toggle button -->
+                    <button class="mobile-toggle" onclick="toggleMenu()" aria-label="Open navigation menu">
+                        <i class="fas fa-bars"></i>
+                    </button>
+
+                    <ul class="nav-menu" id="navMenu">
+                        <li class="nav-item-close">
+                            <!-- ACCESSIBILITY FIX: Added aria-label to close menu button -->
+                            <button class="close-menu" onclick="toggleMenu()" aria-label="Close navigation menu">
+                                <i class="fas fa-times"></i>
+                            </button>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="about.html" class="nav-link">About</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#" class="nav-link has-dropdown">Estate Planning</a>
+                            <div class="dropdown">
+                                <a href="living-trusts.html" class="dropdown-item">Living Trusts</a>
+                                <a href="trust-administration.html" class="dropdown-item">Trust Administration</a>
+                                <a href="trust-administration-questionnaire.html" class="dropdown-item">Trust Administration Questionnaire</a>
+                                <a href="trust-amendment.html" class="dropdown-item">Trust Amendments</a>
+                                <a href="special-needs-trust.html" class="dropdown-item">Special Needs Trusts</a>
+                                <a href="life-insurance-trust.html" class="dropdown-item">Life Insurance Trusts</a>
+                                <a href="asset-protection.html" class="dropdown-item">Asset Protection</a>
+                                <a href="estate-planning-questionnaire.html" class="dropdown-item">Estate Planning Form</a>
+                                <a href="prenuptial-agreement.html" class="dropdown-item">Prenuptial Agreement Form</a>
+                            </div>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#" class="nav-link has-dropdown">Probate</a>
+                            <div class="dropdown">
+                                <a href="probate.html" class="dropdown-item">Probate Services</a>
+                                <a href="probate-intake-form.html" class="dropdown-item">Probate Intake Form</a>
+                            </div>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#" class="nav-link has-dropdown">Conservatorship</a>
+                            <div class="dropdown">
+                                <a href="conservatorship.html" class="dropdown-item">Conservatorship Services</a>
+                                <a href="conservatorship-questionnaire.html" class="dropdown-item">Conservatorship Form</a>
+                            </div>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#" class="nav-link has-dropdown">Guardianship</a>
+                            <div class="dropdown">
+                                <a href="guardianship.html" class="dropdown-item">Guardianship Services</a>
+                                <a href="guardianship-questionnaire.html" class="dropdown-item">Guardianship Form</a>
+                            </div>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="https://portal.livingtrust-attorneys.com/" class="btn-client-portal" target="_blank" rel="noopener">Client Portal</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="https://portal.livingtrust-attorneys.com/book" class="btn-book">Book Now</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
         <div class="hero-slider">
             <div class="hero-slide active" style="background-image: url('media/hero/family-generations.jpg');"></div>
             <div class="hero-slide" style="background-image: url('media/hero/happy-family.jpg');"></div>
@@ -1702,6 +1713,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             </div>
         </div>
     </section>
+
+    <!-- Main Content Wrapper - Scrolls over hero -->
+    <div class="main-content">
 
     <!-- NEW: Consultation Image Section -->
     <section class="consultation-section">
@@ -2217,6 +2231,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         // Auto-advance every 5 seconds
         setInterval(nextSlide, 5000);
     </script>
+
+    </div><!-- End main-content -->
 
     <!-- AI Chat Widget -->
     <div class="chat-widget" id="chatWidget">
