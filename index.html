@@ -186,9 +186,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
         /* Main Navigation */
         header {
-            background: rgba(255, 255, 255, 0.95);
-            backdrop-filter: blur(10px);
-            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+            background: transparent;
             position: absolute;
             top: 0;
             left: 0;
@@ -197,7 +195,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         }
 
         nav {
-            padding: 20px 0;
+            padding: 20px 0 10px 0;
         }
 
         nav .container {
@@ -218,17 +216,37 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             flex-direction: column;
         }
 
+        .nav-phone-cta {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            background: var(--accent-gold);
+            color: white;
+            padding: 8px 16px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 14px;
+            transition: all 0.3s;
+            margin-left: auto;
+            margin-right: 20px;
+        }
+
+        .nav-phone-cta:hover {
+            background: #b8982f;
+            transform: translateY(-2px);
+        }
+
         .firm-name {
             font-family: 'Playfair Display', serif;
-            font-size: 24px;
+            font-size: 16px;
             font-weight: 700;
-            color: var(--primary-blue);
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
         }
 
         .tagline {
-            font-size: 12px;
-            color: #3a3a3a; /* ACCESSIBILITY FIX: Darker for small text (9:1 contrast ratio) */
-            margin-top: 2px;
+            display: none;
         }
 
         /* Navigation Menu */
@@ -245,12 +263,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
         .nav-link {
             display: block;
-            padding: 15px 20px;
-            color: var(--text-dark);
+            padding: 10px 15px;
+            color: white;
             text-decoration: none;
             font-weight: 500;
+            font-size: 15px;
             transition: all 0.3s;
             position: relative;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
         }
 
         .nav-link:hover {
@@ -258,7 +278,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         }
 
         .nav-item:hover .nav-link {
-            background: var(--hover-bg);
+            background: rgba(255,255,255,0.1);
         }
 
         /* Dropdown Arrow */
@@ -371,11 +391,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             background: none;
             border: none;
             font-size: 24px;
-            color: var(--text-dark);
+            color: white;
             cursor: pointer;
             min-width: 48px;
             min-height: 48px;
             padding: 12px;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
         }
 
         .close-menu {
@@ -395,9 +416,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             min-height: 600px;
             overflow: hidden;
             color: white;
-            display: flex;
-            align-items: center;
-            justify-content: center;
             z-index: 1;
         }
 
@@ -437,7 +455,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         }
 
         .hero-content-wrapper {
-            position: relative;
+            position: absolute;
+            bottom: 80px;
+            left: 0;
+            right: 0;
             z-index: 3;
             text-align: center;
             width: 100%;
@@ -530,6 +551,209 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             position: relative;
             z-index: 10;
             background: white;
+        }
+
+        /* Trust Badges Section */
+        .trust-badges {
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            padding: 40px 0;
+            border-bottom: 3px solid var(--accent-gold);
+        }
+
+        .trust-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 30px;
+            text-align: center;
+        }
+
+        .trust-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+            transition: transform 0.3s;
+        }
+
+        .trust-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+        }
+
+        .trust-item strong {
+            font-size: 16px;
+            color: var(--primary-blue);
+            margin-bottom: 5px;
+            display: block;
+        }
+
+        .trust-item span {
+            font-size: 14px;
+            color: var(--text-light);
+        }
+
+        /* CTA Urgency */
+        .cta-urgency {
+            background: rgba(255,255,255,0.1);
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+            border-left: 4px solid var(--accent-gold);
+        }
+
+        .cta-urgency p {
+            margin: 10px 0;
+            font-size: 18px;
+        }
+
+        .cta-urgency i {
+            color: var(--accent-gold);
+            margin-right: 10px;
+        }
+
+        /* Service Area Section */
+        .service-area {
+            padding: 80px 0;
+            background: white;
+        }
+
+        .service-area-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            margin-top: 50px;
+            align-items: center;
+        }
+
+        .california-map {
+            position: relative;
+            width: 100%;
+            max-width: 400px;
+            height: 400px;
+            margin: 0 auto;
+            background: linear-gradient(135deg, var(--primary-blue) 0%, #2a5298 100%);
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 10px 40px rgba(30,58,95,0.3);
+        }
+
+        .central-marker {
+            font-size: 60px;
+            color: var(--accent-gold);
+            z-index: 2;
+        }
+
+        .service-circle {
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            background: rgba(201,169,97,0.2);
+            border: 3px solid var(--accent-gold);
+            z-index: 1;
+        }
+
+        .pulse {
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+                opacity: 1;
+            }
+            50% {
+                transform: scale(1.2);
+                opacity: 0.5;
+            }
+            100% {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+
+        .service-locations {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+        }
+
+        .location-pin {
+            position: absolute;
+            color: white;
+            font-size: 24px;
+            cursor: pointer;
+            transition: transform 0.3s;
+        }
+
+        .location-pin:hover {
+            transform: scale(1.3);
+        }
+
+        .location-name {
+            position: absolute;
+            left: 30px;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 12px;
+            font-weight: 600;
+            white-space: nowrap;
+            background: rgba(0,0,0,0.7);
+            padding: 5px 10px;
+            border-radius: 5px;
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+
+        .location-pin:hover .location-name {
+            opacity: 1;
+        }
+
+        .service-area-list h3 {
+            color: var(--primary-blue);
+            font-size: 28px;
+            margin-bottom: 30px;
+        }
+
+        .cities-list {
+            list-style: none;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+        }
+
+        .cities-list li {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: var(--text-dark);
+            font-size: 16px;
+        }
+
+        .cities-list i {
+            color: var(--accent-gold);
+            font-size: 18px;
+        }
+
+        .service-area-cta {
+            margin-top: 40px;
+            padding: 30px;
+            background: var(--section-bg);
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .service-area-cta p {
+            margin-bottom: 20px;
+            color: var(--text-dark);
+            font-size: 18px;
         }
 
         /* Consultation Image Section - New Addition */
@@ -1254,6 +1478,31 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         }
 
         @media (max-width: 768px) {
+            .nav-phone-cta {
+                display: none;
+            }
+
+            .trust-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+
+            .service-area-content {
+                grid-template-columns: 1fr;
+            }
+
+            .california-map {
+                max-width: 100%;
+                height: 300px;
+            }
+
+            .cities-list {
+                grid-template-columns: 1fr;
+            }
+
+            .hero-content-wrapper {
+                bottom: 40px;
+            }
+
             .hero h1 {
                 font-size: 36px;
             }
@@ -1625,6 +1874,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         </div>
                     </a>
 
+                    <a href="tel:8182916217" class="nav-phone-cta">
+                        <i class="fas fa-phone"></i> (818) 291-6217
+                    </a>
+
                     <!-- ACCESSIBILITY FIX: Added aria-label to mobile toggle button -->
                     <button class="mobile-toggle" onclick="toggleMenu()" aria-label="Open navigation menu">
                         <i class="fas fa-bars"></i>
@@ -1716,6 +1969,39 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
     <!-- Main Content Wrapper - Scrolls over hero -->
     <div class="main-content">
+
+    <!-- Trust Badges Section -->
+    <section class="trust-badges">
+        <div class="container">
+            <div class="trust-grid">
+                <div class="trust-item">
+                    <i class="fas fa-users" style="font-size: 2.5rem; color: var(--accent-gold); margin-bottom: 0.5rem;"></i>
+                    <strong>5000+ Families Served</strong>
+                    <span>Since 2001</span>
+                </div>
+                <div class="trust-item">
+                    <i class="fas fa-certificate" style="font-size: 2.5rem; color: var(--accent-gold); margin-bottom: 0.5rem;"></i>
+                    <strong>California State Bar #208356</strong>
+                    <span>Licensed & Verified</span>
+                </div>
+                <div class="trust-item">
+                    <i class="fas fa-star" style="font-size: 2.5rem; color: var(--accent-gold); margin-bottom: 0.5rem;"></i>
+                    <strong>A+ Rated</strong>
+                    <span>Better Business Bureau</span>
+                </div>
+                <div class="trust-item">
+                    <i class="fas fa-award" style="font-size: 2.5rem; color: var(--accent-gold); margin-bottom: 0.5rem;"></i>
+                    <strong>25+ Years Experience</strong>
+                    <span>Estate Planning Experts</span>
+                </div>
+                <div class="trust-item">
+                    <i class="fas fa-shield-alt" style="font-size: 2.5rem; color: var(--accent-gold); margin-bottom: 0.5rem;"></i>
+                    <strong>100% Confidential</strong>
+                    <span>Attorney-Client Privilege</span>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- NEW: Consultation Image Section -->
     <section class="consultation-section">
@@ -2124,11 +2410,68 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         </div>
     </section>
 
+    <!-- Service Area Section -->
+    <section class="service-area">
+        <div class="container">
+            <h2 class="section-title">Proudly Serving Southern California</h2>
+            <p class="section-subtitle">Expert estate planning legal services throughout Los Angeles County and beyond</p>
+
+            <div class="service-area-content">
+                <div class="service-area-visual">
+                    <div class="california-map">
+                        <i class="fas fa-map-marker-alt central-marker"></i>
+                        <div class="service-circle pulse"></div>
+                        <div class="service-locations">
+                            <span class="location-pin" style="top: 30%; left: 45%;">
+                                <i class="fas fa-map-pin"></i>
+                                <span class="location-name">Glendale</span>
+                            </span>
+                            <span class="location-pin" style="top: 35%; left: 35%;">
+                                <i class="fas fa-map-pin"></i>
+                                <span class="location-name">Burbank</span>
+                            </span>
+                            <span class="location-pin" style="top: 40%; left: 60%;">
+                                <i class="fas fa-map-pin"></i>
+                                <span class="location-name">Pasadena</span>
+                            </span>
+                            <span class="location-pin" style="top: 55%; left: 50%;">
+                                <i class="fas fa-map-pin"></i>
+                                <span class="location-name">Los Angeles</span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-area-list">
+                    <h3>We Serve All of Southern California Including:</h3>
+                    <ul class="cities-list">
+                        <li><i class="fas fa-check-circle"></i> Glendale</li>
+                        <li><i class="fas fa-check-circle"></i> Burbank</li>
+                        <li><i class="fas fa-check-circle"></i> Pasadena</li>
+                        <li><i class="fas fa-check-circle"></i> Los Angeles</li>
+                        <li><i class="fas fa-check-circle"></i> La Cañada Flintridge</li>
+                        <li><i class="fas fa-check-circle"></i> Arcadia</li>
+                        <li><i class="fas fa-check-circle"></i> San Fernando Valley</li>
+                        <li><i class="fas fa-check-circle"></i> Santa Clarita</li>
+                        <li><i class="fas fa-check-circle"></i> And all surrounding areas</li>
+                    </ul>
+                    <div class="service-area-cta">
+                        <p><strong>Not sure if we serve your area?</strong></p>
+                        <a href="tel:8182916217" class="btn-primary">Call Us: (818) 291-6217</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- CTA Section -->
     <section class="cta">
         <div class="container">
             <h2>Don't Wait to Protect Your Family</h2>
             <p>70% of Americans don't have an estate plan. Don't be part of this statistic.</p>
+            <div class="cta-urgency">
+                <p><i class="fas fa-clock"></i> <strong>Limited consultation slots available this week</strong></p>
+                <p><i class="fas fa-bolt"></i> Book within 24 hours for priority scheduling</p>
+            </div>
             <a href="tel:8182916217" class="btn-primary">Call (818) 291-6217</a>
             <a href="https://portal.livingtrust-attorneys.com/book" class="btn-secondary">Book Online</a>
         </div>
