@@ -597,16 +597,17 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
         /* CTA Urgency */
         .cta-urgency {
-            background: rgba(255,255,255,0.1);
+            background: rgba(255,255,255,0.15);
             padding: 20px;
             border-radius: 10px;
-            margin: 20px 0;
+            margin: 30px 0;
             border-left: 4px solid var(--accent-gold);
         }
 
         .cta-urgency p {
             margin: 10px 0;
             font-size: 18px;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
         }
 
         .cta-urgency i {
@@ -1244,22 +1245,67 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
         /* CTA Section */
         .cta {
-            background: linear-gradient(135deg, var(--primary-blue) 0%, #2a5298 100%);
+            background: url('media/superior-court.jpg') center/cover no-repeat;
+            position: relative;
             color: white;
             padding: 80px 0;
             text-align: center;
+            min-height: 500px;
+            display: flex;
+            align-items: center;
+        }
+
+        .cta::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(30, 58, 95, 0.75);
+            z-index: 1;
+        }
+
+        .cta .container {
+            position: relative;
+            z-index: 2;
+        }
+
+        .cta-content {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            padding: 50px 40px;
+            border-radius: 15px;
+            max-width: 800px;
+            margin: 0 auto;
+            border: 1px solid rgba(255, 255, 255, 0.2);
         }
 
         .cta h2 {
             font-family: 'Playfair Display', serif;
             font-size: 42px;
             margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
         }
 
         .cta p {
             font-size: 20px;
             margin-bottom: 30px;
             opacity: 0.95;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+        }
+
+        .cta .btn-primary,
+        .cta .btn-secondary {
+            background: rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(10px);
+            border: 2px solid rgba(255, 255, 255, 0.8);
+        }
+
+        .cta .btn-primary:hover,
+        .cta .btn-secondary:hover {
+            background: rgba(255, 255, 255, 0.25);
+            transform: translateY(-2px);
         }
 
         /* Contact Section */
@@ -1322,27 +1368,46 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
         /* Footer */
         footer {
-            background: var(--primary-blue);
+            background: linear-gradient(135deg, #2a5298 0%, #1e3a5f 50%, #152b47 100%);
             color: white;
-            padding: 50px 0 30px;
+            padding: 60px 0 30px;
+            border-top: 4px solid var(--accent-gold);
+            position: relative;
+        }
+
+        footer::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 4px;
+            background: linear-gradient(90deg, var(--accent-gold) 0%, rgba(201,169,97,0.3) 100%);
         }
 
         .footer-content {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 40px;
-            margin-bottom: 30px;
+            gap: 50px;
+            margin-bottom: 40px;
         }
 
         .footer-section h3 {
-            margin-bottom: 20px;
+            margin-bottom: 25px;
             color: var(--accent-gold);
+            font-size: 20px;
+            font-weight: 600;
+            font-family: 'Playfair Display', serif;
         }
 
-        .footer-section p,
+        .footer-section p {
+            margin-bottom: 15px;
+            line-height: 1.8;
+            opacity: 0.9;
+        }
+
         .footer-section li {
-            margin-bottom: 10px;
-            /* ACCESSIBILITY FIX: Removed opacity to maintain proper contrast */
+            margin-bottom: 12px;
         }
 
         .footer-section ul {
@@ -1352,24 +1417,79 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         .footer-section a {
             color: white;
             text-decoration: none;
-            transition: color 0.3s;
-            /* ACCESSIBILITY FIX: Better touch targets for mobile */
-            display: inline-block;
+            transition: all 0.3s;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
             padding: 4px 0;
             min-height: 32px;
             line-height: 24px;
+            opacity: 0.9;
         }
 
         .footer-section a:hover {
             color: var(--accent-gold);
+            transform: translateX(5px);
+            opacity: 1;
+        }
+
+        .footer-section a i {
+            font-size: 12px;
+            color: var(--accent-gold);
+            transition: all 0.3s;
+        }
+
+        .footer-section a:hover i {
+            transform: translateX(3px);
+        }
+
+        .footer-contact-item {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 15px;
+        }
+
+        .footer-contact-item i {
+            color: var(--accent-gold);
+            font-size: 18px;
+            width: 24px;
+        }
+
+        .footer-cta-box {
+            background: rgba(201,169,97,0.15);
+            padding: 25px;
+            border-radius: 10px;
+            border: 1px solid rgba(201,169,97,0.3);
+            margin-top: 20px;
+        }
+
+        .footer-cta-box h4 {
+            color: var(--accent-gold);
+            margin-bottom: 15px;
+            font-size: 18px;
+        }
+
+        .footer-cta-box p {
+            margin-bottom: 15px;
+            font-size: 14px;
+        }
+
+        .footer-cta-box .btn-primary {
+            width: 100%;
+            text-align: center;
         }
 
         .footer-bottom {
             text-align: center;
             padding-top: 30px;
             border-top: 1px solid rgba(255,255,255,0.1);
-            /* ACCESSIBILITY FIX: Removed opacity to maintain proper contrast */
-            color: rgba(255, 255, 255, 0.9); /* Use color with alpha instead */
+            color: rgba(255, 255, 255, 0.8);
+            font-size: 14px;
+        }
+
+        .footer-bottom p {
+            margin: 0;
         }
 
         /* Mobile Styles */
@@ -1511,6 +1631,22 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 font-size: 18px;
             }
 
+            .cta-content {
+                padding: 30px 20px;
+            }
+
+            .cta h2 {
+                font-size: 32px;
+            }
+
+            .cta p {
+                font-size: 16px;
+            }
+
+            .cta-urgency p {
+                font-size: 14px;
+            }
+
             .about-content,
             .contact-content {
                 grid-template-columns: 1fr;
@@ -1519,6 +1655,19 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             .services-grid,
             .testimonials-grid {
                 grid-template-columns: 1fr;
+            }
+
+            .footer-content {
+                grid-template-columns: 1fr;
+                gap: 40px;
+            }
+
+            .footer-section {
+                text-align: left;
+            }
+
+            .footer-cta-box {
+                margin-top: 25px;
             }
 
             .top-bar .container {
@@ -2466,14 +2615,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <!-- CTA Section -->
     <section class="cta">
         <div class="container">
-            <h2>Don't Wait to Protect Your Family</h2>
-            <p>70% of Americans don't have an estate plan. Don't be part of this statistic.</p>
-            <div class="cta-urgency">
-                <p><i class="fas fa-clock"></i> <strong>Limited consultation slots available this week</strong></p>
-                <p><i class="fas fa-bolt"></i> Book within 24 hours for priority scheduling</p>
+            <div class="cta-content">
+                <h2>Don't Wait to Protect Your Family</h2>
+                <p>70% of Americans don't have an estate plan. Don't be part of this statistic.</p>
+                <div class="cta-urgency">
+                    <p><i class="fas fa-clock"></i> <strong>Limited consultation slots available this week</strong></p>
+                    <p><i class="fas fa-bolt"></i> Book within 24 hours for priority scheduling</p>
+                </div>
+                <a href="tel:8182916217" class="btn-primary">Call (818) 291-6217</a>
+                <a href="https://portal.livingtrust-attorneys.com/book" class="btn-secondary">Book Online</a>
             </div>
-            <a href="tel:8182916217" class="btn-primary">Call (818) 291-6217</a>
-            <a href="https://portal.livingtrust-attorneys.com/book" class="btn-secondary">Book Online</a>
         </div>
     </section>
 
@@ -2484,39 +2635,57 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <div class="footer-section">
                     <h3>About Our Firm</h3>
                     <p>Law Offices of Rozsa Gyene has been serving Southern California families with dedication and expertise since 2001. We specialize in estate planning, probate, and protective proceedings.</p>
+                    <div class="footer-cta-box">
+                        <h4>Ready to Get Started?</h4>
+                        <p>Schedule your free consultation today</p>
+                        <a href="https://portal.livingtrust-attorneys.com/book" class="btn-primary">Book Consultation</a>
+                    </div>
                 </div>
-                
+
                 <div class="footer-section">
                     <h3>Practice Areas</h3>
                     <ul>
-                        <li><a href="living-trusts.html">Living Trusts</a></li>
-                        <li><a href="probate.html">Probate</a></li>
-                        <li><a href="conservatorship.html">Conservatorship</a></li>
-                        <li><a href="guardianship.html">Guardianship</a></li>
-                        <li><a href="special-needs-trust.html">Special Needs Trusts</a></li>
-                        <li><a href="asset-protection.html">Asset Protection</a></li>
+                        <li><a href="living-trusts.html"><i class="fas fa-chevron-right"></i> Living Trusts</a></li>
+                        <li><a href="probate.html"><i class="fas fa-chevron-right"></i> Probate</a></li>
+                        <li><a href="conservatorship.html"><i class="fas fa-chevron-right"></i> Conservatorship</a></li>
+                        <li><a href="guardianship.html"><i class="fas fa-chevron-right"></i> Guardianship</a></li>
+                        <li><a href="special-needs-trust.html"><i class="fas fa-chevron-right"></i> Special Needs Trusts</a></li>
+                        <li><a href="asset-protection.html"><i class="fas fa-chevron-right"></i> Asset Protection</a></li>
                     </ul>
                 </div>
-                
+
                 <div class="footer-section">
                     <h3>Resources</h3>
                     <ul>
-                        <li><a href="estate-planning-questionnaire.html">Estate Planning Form</a></li>
-                        <li><a href="probate-intake-form.html">Probate Intake Form</a></li>
-                        <li><a href="conservatorship-questionnaire.html">Conservatorship Form</a></li>
-                        <li><a href="guardianship-questionnaire.html">Guardianship Form</a></li>
+                        <li><a href="estate-planning-questionnaire.html"><i class="fas fa-file-alt"></i> Estate Planning Form</a></li>
+                        <li><a href="probate-intake-form.html"><i class="fas fa-file-alt"></i> Probate Intake Form</a></li>
+                        <li><a href="conservatorship-questionnaire.html"><i class="fas fa-file-alt"></i> Conservatorship Form</a></li>
+                        <li><a href="guardianship-questionnaire.html"><i class="fas fa-file-alt"></i> Guardianship Form</a></li>
+                        <li><a href="https://portal.livingtrust-attorneys.com/" target="_blank"><i class="fas fa-sign-in-alt"></i> Client Portal</a></li>
                     </ul>
                 </div>
-                
+
                 <div class="footer-section">
-                    <h3>Contact Information</h3>
-                    <p>450 N Brand Blvd. Suite 600<br>
-                    Glendale, CA 91203</p>
-                    <p><a href="tel:8182916217">(818) 291-6217</a></p>
-                    <p><a href="mailto:rozsagyenelaw@yahoo.com">rozsagyenelaw@yahoo.com</a></p>
+                    <h3>Contact Us</h3>
+                    <div class="footer-contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>450 N Brand Blvd. Suite 600<br>Glendale, CA 91203</div>
+                    </div>
+                    <div class="footer-contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div><a href="tel:8182916217">(818) 291-6217</a></div>
+                    </div>
+                    <div class="footer-contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div><a href="mailto:rozsagyenelaw@yahoo.com">rozsagyenelaw@yahoo.com</a></div>
+                    </div>
+                    <div class="footer-contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div>Mon-Fri: 9:00 AM - 5:00 PM<br>Sat: By Appointment<br>Sun: Closed</div>
+                    </div>
                 </div>
             </div>
-            
+
             <div class="footer-bottom">
                 <p>&copy; 2024 Law Offices of Rozsa Gyene. All rights reserved. | California State Bar #208356</p>
             </div>
