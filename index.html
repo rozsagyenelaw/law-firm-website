@@ -1270,6 +1270,311 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 font-size: 32px;
             }
         }
+
+        /* Chat Widget Styles */
+        .chat-widget {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            width: 380px;
+            max-width: calc(100vw - 40px);
+            height: 550px;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+            display: none;
+            flex-direction: column;
+            z-index: 9999;
+            overflow: hidden;
+        }
+
+        .chat-header {
+            background: linear-gradient(135deg, var(--primary-blue) 0%, #2a5298 100%);
+            color: white;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .chat-header-content {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .chat-header-content i {
+            font-size: 20px;
+        }
+
+        .chat-header-content span {
+            font-weight: 600;
+            font-size: 16px;
+        }
+
+        .chat-minimize {
+            background: rgba(255,255,255,0.2);
+            border: none;
+            color: white;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        .chat-minimize:hover {
+            background: rgba(255,255,255,0.3);
+        }
+
+        .chat-body {
+            flex: 1;
+            padding: 20px;
+            overflow-y: auto;
+            background: #f8f9fa;
+        }
+
+        .chat-message {
+            margin-bottom: 15px;
+            display: flex;
+        }
+
+        .user-message {
+            justify-content: flex-end;
+        }
+
+        .bot-message {
+            justify-content: flex-start;
+        }
+
+        .message-content {
+            max-width: 80%;
+            padding: 12px 16px;
+            border-radius: 12px;
+            line-height: 1.5;
+        }
+
+        .user-message .message-content {
+            background: var(--primary-blue);
+            color: white;
+            border-bottom-right-radius: 4px;
+        }
+
+        .bot-message .message-content {
+            background: white;
+            color: var(--text-dark);
+            border-bottom-left-radius: 4px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+
+        .message-content p {
+            margin: 0;
+            font-size: 14px;
+        }
+
+        .message-content p + p {
+            margin-top: 8px;
+        }
+
+        .chat-footer {
+            padding: 15px;
+            background: white;
+            border-top: 1px solid #e0e0e0;
+        }
+
+        .transcript-button {
+            width: 100%;
+            background: var(--accent-gold);
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 8px;
+            font-weight: 600;
+            cursor: pointer;
+            margin-bottom: 10px;
+            transition: background 0.3s;
+        }
+
+        .transcript-button:hover {
+            background: #b8982f;
+        }
+
+        .chat-input-container {
+            display: flex;
+            gap: 10px;
+        }
+
+        .chat-input-container input {
+            flex: 1;
+            padding: 12px;
+            border: 1px solid #ddd;
+            border-radius: 25px;
+            font-size: 14px;
+            outline: none;
+        }
+
+        .chat-input-container input:focus {
+            border-color: var(--primary-blue);
+        }
+
+        .chat-input-container button {
+            background: var(--primary-blue);
+            color: white;
+            border: none;
+            width: 45px;
+            height: 45px;
+            border-radius: 50%;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        .chat-input-container button:hover {
+            background: #2a5298;
+        }
+
+        .chat-toggle {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: linear-gradient(135deg, var(--primary-blue) 0%, #2a5298 100%);
+            color: white;
+            border: none;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            cursor: pointer;
+            box-shadow: 0 5px 20px rgba(30, 58, 95, 0.4);
+            z-index: 9998;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            transition: transform 0.3s;
+        }
+
+        .chat-toggle:hover {
+            transform: scale(1.1);
+        }
+
+        .chat-badge {
+            position: absolute;
+            top: -5px;
+            right: -5px;
+            background: var(--accent-gold);
+            color: white;
+            padding: 4px 8px;
+            border-radius: 12px;
+            font-size: 11px;
+            font-weight: 600;
+            white-space: nowrap;
+            display: none;
+        }
+
+        /* Transcript Modal */
+        .transcript-modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.6);
+            z-index: 10000;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .transcript-modal.active {
+            display: flex;
+        }
+
+        .transcript-modal-content {
+            background: white;
+            border-radius: 15px;
+            width: 90%;
+            max-width: 500px;
+            max-height: 90vh;
+            overflow-y: auto;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+        }
+
+        .transcript-modal-header {
+            background: linear-gradient(135deg, var(--primary-blue) 0%, #2a5298 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 15px 15px 0 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .transcript-modal-header h3 {
+            margin: 0;
+            font-size: 20px;
+        }
+
+        .transcript-modal-close {
+            background: none;
+            border: none;
+            color: white;
+            font-size: 28px;
+            cursor: pointer;
+            width: 35px;
+            height: 35px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            transition: background 0.3s;
+        }
+
+        .transcript-modal-close:hover {
+            background: rgba(255,255,255,0.2);
+        }
+
+        .transcript-modal-body {
+            padding: 30px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            color: var(--text-dark);
+            font-weight: 600;
+            font-size: 14px;
+        }
+
+        .form-group input {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            font-size: 14px;
+            font-family: 'Inter', sans-serif;
+        }
+
+        .form-group input:focus {
+            outline: none;
+            border-color: var(--primary-blue);
+        }
+
+        @media (max-width: 768px) {
+            .chat-widget {
+                width: calc(100vw - 20px);
+                height: calc(100vh - 20px);
+                bottom: 10px;
+                right: 10px;
+            }
+
+            .chat-toggle {
+                bottom: 15px;
+                right: 15px;
+            }
+        }
     </style>
 </head>
 <body>
@@ -1907,6 +2212,218 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
         // Auto-advance every 5 seconds
         setInterval(nextSlide, 5000);
+    </script>
+
+    <!-- AI Chat Widget -->
+    <div class="chat-widget" id="chatWidget">
+        <div class="chat-header">
+            <div class="chat-header-content">
+                <i class="fas fa-comment-dots"></i>
+                <span>Ask About Estate Planning</span>
+            </div>
+            <button class="chat-minimize" onclick="toggleChat()">
+                <i class="fas fa-minus"></i>
+            </button>
+        </div>
+        <div class="chat-body" id="chatBody">
+            <div class="chat-message bot-message">
+                <div class="message-content">
+                    <p>Hello! I'm here to answer your questions about estate planning, living trusts, probate, and our legal services.</p>
+                    <p>How can I help you today?</p>
+                </div>
+            </div>
+        </div>
+        <div class="chat-footer">
+            <button id="transcriptButton" class="transcript-button" onclick="openTranscriptModal()" style="display: none;">
+                <i class="fas fa-envelope"></i> Email Transcript
+            </button>
+            <div class="chat-input-container">
+                <input type="text" id="chatInput" placeholder="Type your question..." onkeypress="if(event.key === 'Enter') sendMessage()">
+                <button onclick="sendMessage()">
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <button class="chat-toggle" onclick="toggleChat()" id="chatToggle">
+        <i class="fas fa-comments"></i>
+        <span class="chat-badge">Chat with us!</span>
+    </button>
+
+    <!-- Transcript Modal -->
+    <div class="transcript-modal" id="transcriptModal">
+        <div class="transcript-modal-content">
+            <div class="transcript-modal-header">
+                <h3>Email Chat Transcript</h3>
+                <button class="transcript-modal-close" onclick="closeTranscriptModal()">&times;</button>
+            </div>
+            <div class="transcript-modal-body">
+                <p style="margin-bottom: 20px; color: var(--text-light);">Get a copy of this conversation sent to your email. We'll also reach out to schedule your free consultation!</p>
+                <form id="transcriptForm" name="chat-transcript" method="POST" data-netlify="true">
+                    <input type="hidden" name="form-name" value="chat-transcript">
+                    <input type="hidden" name="transcript" id="transcriptContent">
+                    <div class="form-group">
+                        <label for="userName">Your Name *</label>
+                        <input type="text" id="userName" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="userEmail">Your Email *</label>
+                        <input type="email" id="userEmail" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="userPhone">Phone Number</label>
+                        <input type="tel" id="userPhone" name="phone" placeholder="(818) 291-6217">
+                    </div>
+                    <button type="submit" class="btn-primary">Send Transcript</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let chatMessages = [];
+        let isFirstMessage = true;
+
+        function toggleChat() {
+            const widget = document.getElementById('chatWidget');
+            const toggle = document.getElementById('chatToggle');
+
+            if (widget.style.display === 'none' || widget.style.display === '') {
+                widget.style.display = 'flex';
+                toggle.style.display = 'none';
+            } else {
+                widget.style.display = 'none';
+                toggle.style.display = 'flex';
+            }
+        }
+
+        async function sendMessage() {
+            const input = document.getElementById('chatInput');
+            const message = input.value.trim();
+
+            if (!message) return;
+
+            // Add user message to chat
+            addMessageToChat('user', message);
+            chatMessages.push({ role: 'user', content: message });
+            input.value = '';
+
+            // Show loading indicator
+            const loadingDiv = addMessageToChat('bot', 'Thinking...');
+
+            try {
+                const response = await fetch('/api/chat', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ messages: chatMessages })
+                });
+
+                // Remove loading indicator
+                loadingDiv.remove();
+
+                if (!response.ok) {
+                    const errorData = await response.json();
+                    throw new Error(errorData.error || 'Server error');
+                }
+
+                const data = await response.json();
+                addMessageToChat('bot', data.message);
+                chatMessages.push({ role: 'assistant', content: data.message });
+
+                // Show transcript button after first exchange
+                if (isFirstMessage) {
+                    document.getElementById('transcriptButton').style.display = 'inline-block';
+                    isFirstMessage = false;
+                }
+
+            } catch (error) {
+                console.error('Chat error:', error);
+                loadingDiv.remove();
+                addMessageToChat('bot', 'I apologize, but I\'m having trouble connecting. Please call us at (818) 291-6217 or email rozsagyenelaw@yahoo.com for immediate assistance.');
+            }
+        }
+
+        function addMessageToChat(role, content) {
+            const chatBody = document.getElementById('chatBody');
+            const messageDiv = document.createElement('div');
+            messageDiv.className = `chat-message ${role}-message`;
+
+            const contentDiv = document.createElement('div');
+            contentDiv.className = 'message-content';
+            contentDiv.innerHTML = `<p>${content.replace(/\n/g, '<br>')}</p>`;
+
+            messageDiv.appendChild(contentDiv);
+            chatBody.appendChild(messageDiv);
+            chatBody.scrollTop = chatBody.scrollHeight;
+
+            return messageDiv;
+        }
+
+        function openTranscriptModal() {
+            const modal = document.getElementById('transcriptModal');
+            modal.classList.add('active');
+
+            // Prepare transcript
+            const transcript = formatTranscript();
+            document.getElementById('transcriptContent').value = transcript;
+        }
+
+        function closeTranscriptModal() {
+            const modal = document.getElementById('transcriptModal');
+            modal.classList.remove('active');
+        }
+
+        function formatTranscript() {
+            let transcript = 'CHAT TRANSCRIPT - Law Offices of Rozsa Gyene\n';
+            transcript += 'Estate Planning & Probate Attorneys\n';
+            transcript += 'Date: ' + new Date().toLocaleString() + '\n';
+            transcript += '='.repeat(60) + '\n\n';
+
+            chatMessages.forEach((msg) => {
+                const role = msg.role === 'user' ? 'YOU' : 'AI ASSISTANT';
+                transcript += `${role}:\n${msg.content}\n\n`;
+            });
+
+            transcript += '='.repeat(60) + '\n';
+            transcript += 'Law Offices of Rozsa Gyene\n';
+            transcript += '450 N Brand Blvd. Suite 600, Glendale, CA 91203\n';
+            transcript += 'Phone: (818) 291-6217\n';
+            transcript += 'Email: rozsagyenelaw@yahoo.com\n';
+            transcript += '\nSchedule your FREE consultation today!\n';
+
+            return transcript;
+        }
+
+        // Handle transcript form submission
+        document.getElementById('transcriptForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+
+            const formData = new FormData(this);
+
+            fetch('/', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+                body: new URLSearchParams(formData).toString()
+            })
+            .then(() => {
+                alert('Thank you! Your transcript has been sent. We\'ll be in touch soon!');
+                closeTranscriptModal();
+            })
+            .catch((error) => {
+                alert('There was an error sending your transcript. Please call us at (818) 291-6217.');
+            });
+        });
+
+        // Close modal when clicking outside
+        window.onclick = function(event) {
+            const modal = document.getElementById('transcriptModal');
+            if (event.target == modal) {
+                closeTranscriptModal();
+            }
+        }
     </script>
 </body>
 </html>
