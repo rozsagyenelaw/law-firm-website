@@ -4,6 +4,7 @@
   "description": "Lead scoring and email alerts for law office",
   "dependencies": {
     "node-fetch": "^2.6.7",
-    "googleapis": "^118.0.0"
+    "googleapis": "^118.0.0",
+    "openai": "^4.20.0"
   }
 }
