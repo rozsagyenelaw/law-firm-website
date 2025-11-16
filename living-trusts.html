@@ -282,6 +282,21 @@
             list-style: none;
         }
 
+        /* Trust Badge Cards */
+        .trust-badge-card {
+            background: white;
+            padding: 30px 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .trust-badge-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+        }
+
         /* Hero Section */
         .hero {
             position: sticky;
@@ -512,17 +527,36 @@
 
         /* What's Included Section */
         .included {
-            background: linear-gradient(135deg, #E8EAF6 0%, #C5CAE9 100%);
+            background: url('images/consultation-meeting.jpg') center/cover no-repeat;
             padding: 80px 0;
+            position: relative;
+        }
+
+        .included::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(30, 58, 95, 0.85);
+            z-index: 1;
+        }
+
+        .included .container {
+            position: relative;
+            z-index: 2;
         }
 
         .included-box {
-            background: white;
+            background: rgba(255, 255, 255, 0.15);
             padding: 50px;
             border-radius: 15px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
             max-width: 1000px;
             margin: 0 auto;
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
         }
 
         .included-grid {
@@ -543,48 +577,78 @@
             font-size: 20px;
         }
 
+        .included-item span {
+            color: white;
+            font-weight: 500;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        }
+
         /* CTA Section */
         .cta {
-            background: var(--primary-blue);
-            padding: 60px 0;
+            background: white;
+            padding: 10px 0;
             text-align: center;
         }
 
         .cta h2 {
             font-family: 'Playfair Display', serif;
-            font-size: 42px;
-            color: white;
-            margin-bottom: 20px;
+            font-size: 26px;
+            color: var(--primary-blue);
+            margin-bottom: 5px;
         }
 
         .cta p {
-            color: white;
-            font-size: 20px;
-            margin-bottom: 30px;
+            color: var(--text-dark);
+            font-size: 15px;
+            margin-bottom: 5px;
         }
 
         .phone-large {
-            font-size: 36px;
+            font-size: 24px;
             color: var(--accent-gold);
             font-weight: bold;
             text-decoration: none;
             display: inline-block;
-            margin-top: 20px;
+            margin: 0;
         }
 
         /* Form Section */
         .form-section {
             padding: 80px 0;
-            background: white;
+            background: url('images/client-consultation-handshake.jpg') center/cover no-repeat;
+            position: relative;
+        }
+
+        .form-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(30, 58, 95, 0.85);
+            z-index: 1;
+        }
+
+        .form-section .container {
+            position: relative;
+            z-index: 2;
+        }
+
+        .form-section .section-title {
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
         }
 
         .form-container {
             max-width: 700px;
             margin: 0 auto;
-            background: var(--section-bg);
+            background: rgba(255, 255, 255, 0.15);
             padding: 40px;
             border-radius: 15px;
-            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
         }
 
         .form-group {
@@ -594,9 +658,10 @@
         .form-group label {
             display: block;
             margin-bottom: 10px;
-            color: var(--primary-blue);
+            color: white;
             font-weight: 600;
             font-size: 18px;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
         }
 
         .form-group input,
@@ -788,9 +853,14 @@
             section > .container > div[style*="grid-template-columns: 1fr 1fr"] {
                 grid-template-columns: 1fr !important;
             }
-            
+
             section > .container > div[style*="grid-template-columns: 1fr 1fr"] > div:last-child {
                 order: -1;
+            }
+
+            /* Mobile styles for trust badge cards */
+            div[style*="grid-template-columns: repeat(5, 1fr)"] {
+                grid-template-columns: 1fr !important;
             }
         }
     </style>
@@ -924,28 +994,56 @@
     <!-- Main Content Wrapper - Scrolls over hero -->
     <div class="main-content">
 
-    <!-- Stats Section -->
-    <section class="stats">
+    <!-- Trust Badges Section -->
+    <section style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 80px 0;">
         <div class="container">
-            <h2 style="text-align: center; color: white; font-size: 42px; margin-bottom: 50px; font-family: 'Playfair Display', serif;">
-                Why Choose Law Offices of Rozsa Gyene for Your Living Trust?
+            <h2 style="text-align: center; color: var(--primary-blue); font-size: 42px; margin-bottom: 60px; font-family: 'Playfair Display', serif;">
+                Why Choose Law Offices of Rozsa Gyene?
             </h2>
-            <div class="stats-grid">
-                <div class="stat-item">
-                    <div class="stat-number">3,000+</div>
-                    <div class="stat-label">Estate Plans Created</div>
+            <div style="display: grid; grid-template-columns: repeat(5, 1fr); gap: 20px; max-width: 1200px; margin: 0 auto;">
+                <div class="trust-badge-card">
+                    <div style="width: 60px; height: 60px; background: linear-gradient(135deg, #c9a961 0%, #b8982f 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 15px;">
+                        <i class="fas fa-users" style="font-size: 28px; color: white;"></i>
+                    </div>
+                    <div style="font-size: 24px; font-weight: bold; color: var(--primary-blue); margin-bottom: 6px;">5000+ Families</div>
+                    <div style="font-size: 14px; color: var(--text-light); font-weight: 500;">Served</div>
+                    <div style="font-size: 13px; color: var(--text-light); margin-top: 6px;">Since 2001</div>
                 </div>
-                <div class="stat-item">
-                    <div class="stat-number">25+</div>
-                    <div class="stat-label">Years Experience</div>
+
+                <div class="trust-badge-card">
+                    <div style="width: 60px; height: 60px; background: linear-gradient(135deg, #c9a961 0%, #b8982f 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 15px;">
+                        <i class="fas fa-certificate" style="font-size: 28px; color: white;"></i>
+                    </div>
+                    <div style="font-size: 24px; font-weight: bold; color: var(--primary-blue); margin-bottom: 6px;">California State Bar</div>
+                    <div style="font-size: 14px; color: var(--text-light); font-weight: 500;">#208356</div>
+                    <div style="font-size: 13px; color: var(--text-light); margin-top: 6px;">Licensed & Verified</div>
                 </div>
-                <div class="stat-item">
-                    <div class="stat-number">100%</div>
-                    <div class="stat-label">Attorney Drafted</div>
+
+                <div class="trust-badge-card">
+                    <div style="width: 60px; height: 60px; background: linear-gradient(135deg, #c9a961 0%, #b8982f 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 15px;">
+                        <i class="fas fa-star" style="font-size: 28px; color: white;"></i>
+                    </div>
+                    <div style="font-size: 24px; font-weight: bold; color: var(--primary-blue); margin-bottom: 6px;">A+ Rated</div>
+                    <div style="font-size: 14px; color: var(--text-light); font-weight: 500;">Better Business Bureau</div>
+                    <div style="font-size: 13px; color: var(--text-light); margin-top: 6px;">Trusted Excellence</div>
                 </div>
-                <div class="stat-item">
-                    <div class="stat-number">3-5 Days</div>
-                    <div class="stat-label">Document Delivery</div>
+
+                <div class="trust-badge-card">
+                    <div style="width: 60px; height: 60px; background: linear-gradient(135deg, #c9a961 0%, #b8982f 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 15px;">
+                        <i class="fas fa-award" style="font-size: 28px; color: white;"></i>
+                    </div>
+                    <div style="font-size: 24px; font-weight: bold; color: var(--primary-blue); margin-bottom: 6px;">25+ Years</div>
+                    <div style="font-size: 14px; color: var(--text-light); font-weight: 500;">Experience</div>
+                    <div style="font-size: 13px; color: var(--text-light); margin-top: 6px;">Estate Planning Experts</div>
+                </div>
+
+                <div class="trust-badge-card">
+                    <div style="width: 60px; height: 60px; background: linear-gradient(135deg, #c9a961 0%, #b8982f 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 15px;">
+                        <i class="fas fa-shield-alt" style="font-size: 28px; color: white;"></i>
+                    </div>
+                    <div style="font-size: 24px; font-weight: bold; color: var(--primary-blue); margin-bottom: 6px;">100% Confidential</div>
+                    <div style="font-size: 14px; color: var(--text-light); font-weight: 500;">Attorney-Client Privilege</div>
+                    <div style="font-size: 13px; color: var(--text-light); margin-top: 6px;">Your Privacy Protected</div>
                 </div>
             </div>
         </div>
@@ -990,7 +1088,7 @@
                     </div>
                 </div>
                 <div style="border-radius: 10px; overflow: hidden; box-shadow: 0 15px 40px rgba(0,0,0,0.1);">
-                    <img src="images/multigenerational-family.png" alt="Multi-generational family protected by living trust" style="width: 100%; height: auto; display: block;">
+                    <img src="images/happy-family-home.jpg" alt="Happy family at home protected by living trust" style="width: 100%; height: auto; display: block;">
                 </div>
             </div>
         </div>
@@ -1032,7 +1130,7 @@
     <!-- What's Included Section -->
     <section class="included">
         <div class="container">
-            <h2 class="section-title" style="margin-bottom: 40px;">Your Attorney-Drafted Estate Plan Includes:</h2>
+            <h2 class="section-title" style="margin-bottom: 40px; color: white; text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">Your Attorney-Drafted Estate Plan Includes:</h2>
             <div class="included-box">
                 <div class="included-grid">
                     <div class="included-item">
@@ -1092,12 +1190,8 @@
     <section class="cta">
         <div class="container">
             <h2>Can't Make it to the Office?</h2>
-            <p>Draft Your Living Trust Online or Over the Phone with an Attorney!</p>
-            <div class="hero-buttons">
-                <a href="https://portal.livingtrust-attorneys.com/book" class="btn-primary">Book An Appointment</a>
-                <a href="#form" class="btn-secondary" style="border-color: white;">Start Now Online</a>
-            </div>
-            <a href="tel:8182916217" class="phone-large">(818) 291-6217</a>
+            <p style="margin-bottom: 5px;">Draft Your Living Trust Online or Over the Phone with an Attorney!</p>
+            <a href="tel:8182916217" class="phone-large" style="margin-top: 0; margin-bottom: 0;">(818) 291-6217</a>
         </div>
     </section>
 
