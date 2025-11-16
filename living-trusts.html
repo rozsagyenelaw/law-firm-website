@@ -62,15 +62,16 @@
 
         /* Header Styles - Complete Navigation */
         header {
-            background: white;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
-            position: sticky;
+            background: transparent;
+            position: absolute;
             top: 0;
-            z-index: 1000;
+            left: 0;
+            width: 100%;
+            z-index: 100;
         }
 
         nav {
-            padding: 20px 0;
+            padding: 20px 0 10px 0;
         }
 
         nav .container {
@@ -93,15 +94,14 @@
 
         .firm-name {
             font-family: 'Playfair Display', serif;
-            font-size: 24px;
+            font-size: 16px;
             font-weight: 700;
-            color: var(--primary-blue);
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
         }
 
         .tagline {
-            font-size: 12px;
-            color: var(--text-light);
-            margin-top: 2px;
+            display: none;
         }
 
         /* Navigation Menu */
@@ -116,14 +116,21 @@
             position: relative;
         }
 
+        .nav-item-close {
+            display: none;
+            list-style: none;
+        }
+
         .nav-link {
             display: block;
-            padding: 15px 20px;
-            color: var(--text-dark);
+            padding: 10px 15px;
+            color: white;
             text-decoration: none;
             font-weight: 500;
+            font-size: 15px;
             transition: all 0.3s;
             position: relative;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
         }
 
         .nav-link:hover {
@@ -131,7 +138,7 @@
         }
 
         .nav-item:hover .nav-link {
-            background: var(--hover-bg);
+            background: rgba(255,255,255,0.1);
         }
 
         /* Dropdown Arrow */
@@ -208,7 +215,7 @@
 
         /* Client Portal Button in Nav */
         .btn-client-portal {
-            background: var(--primary-blue);
+            background: #2a5298;
             color: white;
             padding: 12px 30px;
             border-radius: 50px;
@@ -216,15 +223,15 @@
             font-weight: 600;
             transition: all 0.3s;
             margin-left: 20px;
-            border: 2px solid var(--primary-blue);
+            border: 2px solid #2a5298;
         }
 
         .btn-client-portal:hover {
-            background: transparent;
-            color: var(--primary-blue);
-            border: 2px solid var(--primary-blue);
+            background: #1e3a5f;
+            color: white;
+            border: 2px solid #1e3a5f;
             transform: translateY(-2px);
-            box-shadow: 0 5px 15px rgba(30, 58, 95, 0.2);
+            box-shadow: 0 5px 15px rgba(30, 58, 95, 0.3);
         }
 
         /* Mobile Menu Toggle */
@@ -233,8 +240,12 @@
             background: none;
             border: none;
             font-size: 24px;
-            color: var(--text-dark);
+            color: white;
             cursor: pointer;
+            min-width: 48px;
+            min-height: 48px;
+            padding: 12px;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
         }
 
         .close-menu {
@@ -243,32 +254,69 @@
 
         /* Hero Section */
         .hero {
-            background: linear-gradient(135deg, #3A4B6B 0%, #2c5282 100%);
+            position: sticky;
+            top: 0;
+            height: 100vh;
+            min-height: 600px;
+            overflow: hidden;
             color: white;
-            padding: 100px 0;
-            position: relative;
+            z-index: 1;
+            background: url('media/happy-couple.jpg') center/cover no-repeat;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.4);
+            z-index: 2;
+        }
+
+        .hero .container {
+            position: absolute;
+            bottom: 50px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 3;
+            width: 100%;
+            max-width: 1200px;
+            padding: 0 20px;
+        }
+
+        .hero-content-card {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            padding: 30px 40px;
+            border-radius: 15px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
         }
 
         .hero h1 {
             font-family: 'Playfair Display', serif;
-            font-size: 56px;
-            margin-bottom: 20px;
+            font-size: 48px;
+            margin-bottom: 15px;
             text-align: center;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
         }
 
         .hero-subtitle {
-            font-size: 24px;
+            font-size: 22px;
             text-align: center;
             color: var(--accent-gold);
-            margin-bottom: 30px;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
         }
 
         .hero-description {
-            font-size: 18px;
+            font-size: 16px;
             text-align: center;
             max-width: 800px;
-            margin: 0 auto 40px;
-            line-height: 1.8;
+            margin: 0 auto 25px;
+            line-height: 1.6;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
         }
 
         .hero-buttons {
@@ -279,7 +327,9 @@
         }
 
         .btn-primary {
-            background: var(--accent-gold);
+            background: rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(10px);
+            border: 2px solid rgba(255, 255, 255, 0.8);
             color: white;
             padding: 15px 40px;
             border-radius: 50px;
@@ -291,15 +341,16 @@
         }
 
         .btn-primary:hover {
-            background: #b8982f;
+            background: rgba(255, 255, 255, 0.25);
             transform: translateY(-2px);
-            box-shadow: 0 5px 15px rgba(201, 169, 97, 0.3);
+            box-shadow: 0 5px 15px rgba(255, 255, 255, 0.3);
         }
 
         .btn-secondary {
-            background: transparent;
+            background: rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(10px);
+            border: 2px solid rgba(255, 255, 255, 0.8);
             color: white;
-            border: 2px solid white;
             padding: 13px 40px;
             border-radius: 50px;
             text-decoration: none;
@@ -310,19 +361,28 @@
         }
 
         .btn-secondary:hover {
-            background: white;
-            color: var(--primary-blue);
+            background: rgba(255, 255, 255, 0.25);
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(255, 255, 255, 0.3);
         }
 
         .hero-price {
             text-align: center;
-            margin-top: 40px;
-            font-size: 20px;
+            margin-top: 25px;
+            font-size: 18px;
         }
 
         .hero-price strong {
             color: var(--accent-gold);
-            font-size: 28px;
+            font-size: 24px;
+        }
+
+        .price-row {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin-bottom: 15px;
+            flex-wrap: wrap;
         }
 
         .limited-offer {
@@ -331,6 +391,13 @@
             border-radius: 30px;
             display: inline-block;
             margin-top: 15px;
+        }
+
+        /* Main Content Wrapper - Scrolls over hero */
+        .main-content {
+            position: relative;
+            z-index: 10;
+            background: white;
         }
 
         /* Stats Section */
@@ -682,105 +749,115 @@
         </div>
     </div>
 
-    <!-- Main Navigation -->
-    <header>
-        <nav>
-            <div class="container">
-                <a href="index.html" class="logo">
-                    <div class="logo-text">
-                        <span class="firm-name">LAW OFFICES OF ROZSA GYENE</span>
-                        <span class="tagline">Estate Planning & Probate Specialists Since 2001</span>
-                    </div>
-                </a>
-
-                <button class="mobile-toggle" onclick="toggleMenu()">
-                    <i class="fas fa-bars"></i>
-                </button>
-
-                <ul class="nav-menu" id="navMenu">
-                    <button class="close-menu" onclick="toggleMenu()">
-                        <i class="fas fa-times"></i>
-                    </button>
-
-                    <li class="nav-item">
-                        <a href="index.html" class="nav-link">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="about.html" class="nav-link">About</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a href="#" class="nav-link has-dropdown">Estate Planning</a>
-                        <div class="dropdown">
-                            <a href="living-trusts.html" class="dropdown-item">Living Trusts</a>
-                            <a href="trust-administration.html" class="dropdown-item">Trust Administration</a>
-                            <a href="trust-administration-questionnaire.html" class="dropdown-item">Trust Administration Questionnaire</a>
-                            <a href="trust-amendment.html" class="dropdown-item">Trust Amendments</a>
-                            <a href="special-needs-trust.html" class="dropdown-item">Special Needs Trusts</a>
-                            <a href="life-insurance-trust.html" class="dropdown-item">Life Insurance Trusts</a>
-                            <a href="asset-protection.html" class="dropdown-item">Asset Protection</a>
-                            <a href="estate-planning-questionnaire.html" class="dropdown-item">Estate Planning Form</a>
-                        </div>
-                    </li>
-
-                    <li class="nav-item">
-                        <a href="#" class="nav-link has-dropdown">Probate</a>
-                        <div class="dropdown">
-                            <a href="probate.html" class="dropdown-item">Probate Services</a>
-                            <a href="probate-intake-form.html" class="dropdown-item">Probate Intake Form</a>
-                        </div>
-                    </li>
-
-                    <li class="nav-item">
-                        <a href="#" class="nav-link has-dropdown">Conservatorship</a>
-                        <div class="dropdown">
-                            <a href="conservatorship.html" class="dropdown-item">Conservatorship Services</a>
-                            <a href="conservatorship-questionnaire.html" class="dropdown-item">Conservatorship Form</a>
-                        </div>
-                    </li>
-
-                    <li class="nav-item">
-                        <a href="#" class="nav-link has-dropdown">Guardianship</a>
-                        <div class="dropdown">
-                            <a href="guardianship.html" class="dropdown-item">Guardianship Services</a>
-                            <a href="guardianship-questionnaire.html" class="dropdown-item">Guardianship Form</a>
-                        </div>
-                    </li>
-
-                    <a href="https://portal.livingtrust-attorneys.com/" class="btn-client-portal" target="_blank">Client Portal</a>
-                    <a href="https://portal.livingtrust-attorneys.com/book" class="btn-book">Book Now</a>
-                </ul>
-            </div>
-        </nav>
-    </header>
-
     <!-- Hero Section -->
     <section class="hero">
-        <div class="container">
-            <h1>Living Trusts</h1>
-            <p class="hero-subtitle">Protect Your Family and Assets Today</p>
-            <p class="hero-description">
-                We'll craft a personalized estate plan that allows you to protect the assets you've worked hard to build, 
-                and ensure that your loved ones are taken care of no matter what the future holds.
-            </p>
-            
-            <div class="hero-buttons">
-                <a href="https://portal.livingtrust-attorneys.com/book" class="btn-primary">Book An Appointment</a>
-                <a href="#form" class="btn-secondary">Start Online</a>
-            </div>
-            
-            <div class="hero-price">
-                <p>Individual Trust: <strong>$575</strong></p>
-                <p>Married Trust: <strong>$675</strong></p>
-                <div class="limited-offer">
-                    <strong>Limited Time Offer!</strong> Regular Price: $1,900<br>
-                    Offer Expires October 17, 2025
+        <!-- Main Navigation Inside Hero -->
+        <header>
+            <nav>
+                <div class="container">
+                    <a href="index.html" class="logo">
+                        <div class="logo-text">
+                            <span class="firm-name">LAW OFFICES OF ROZSA GYENE</span>
+                            <span class="tagline">Estate Planning & Probate Specialists Since 2001</span>
+                        </div>
+                    </a>
+
+                    <button class="mobile-toggle" onclick="toggleMenu()">
+                        <i class="fas fa-bars"></i>
+                    </button>
+
+                    <ul class="nav-menu" id="navMenu">
+                        <li class="nav-item-close">
+                            <button class="close-menu" onclick="toggleMenu()">
+                                <i class="fas fa-times"></i>
+                            </button>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="about.html" class="nav-link">About</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#" class="nav-link has-dropdown">Estate Planning</a>
+                            <div class="dropdown">
+                                <a href="living-trusts.html" class="dropdown-item">Living Trusts</a>
+                                <a href="trust-administration.html" class="dropdown-item">Trust Administration</a>
+                                <a href="trust-administration-questionnaire.html" class="dropdown-item">Trust Administration Questionnaire</a>
+                                <a href="trust-amendment.html" class="dropdown-item">Trust Amendments</a>
+                                <a href="special-needs-trust.html" class="dropdown-item">Special Needs Trusts</a>
+                                <a href="life-insurance-trust.html" class="dropdown-item">Life Insurance Trusts</a>
+                                <a href="asset-protection.html" class="dropdown-item">Asset Protection</a>
+                                <a href="estate-planning-questionnaire.html" class="dropdown-item">Estate Planning Form</a>
+                            </div>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#" class="nav-link has-dropdown">Probate</a>
+                            <div class="dropdown">
+                                <a href="probate.html" class="dropdown-item">Probate Services</a>
+                                <a href="probate-intake-form.html" class="dropdown-item">Probate Intake Form</a>
+                            </div>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#" class="nav-link has-dropdown">Conservatorship</a>
+                            <div class="dropdown">
+                                <a href="conservatorship.html" class="dropdown-item">Conservatorship Services</a>
+                                <a href="conservatorship-questionnaire.html" class="dropdown-item">Conservatorship Form</a>
+                            </div>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#" class="nav-link has-dropdown">Guardianship</a>
+                            <div class="dropdown">
+                                <a href="guardianship.html" class="dropdown-item">Guardianship Services</a>
+                                <a href="guardianship-questionnaire.html" class="dropdown-item">Guardianship Form</a>
+                            </div>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="https://portal.livingtrust-attorneys.com/" class="btn-client-portal" target="_blank">Client Portal</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="https://portal.livingtrust-attorneys.com/book" class="btn-book">Book Now</a>
+                        </li>
+                    </ul>
                 </div>
-                <p style="margin-top: 20px;">Call Now for a Free Consultation:</p>
-                <a href="tel:8182916217" style="color: var(--accent-gold); font-size: 32px; font-weight: bold; text-decoration: none;">(818) 291-6217</a>
+            </nav>
+        </header>
+        <div class="container">
+            <div class="hero-content-card">
+                <h1>Living Trusts</h1>
+                <p class="hero-subtitle">Protect Your Family and Assets Today</p>
+                <p class="hero-description">
+                    We'll craft a personalized estate plan that allows you to protect the assets you've worked hard to build,
+                    and ensure that your loved ones are taken care of no matter what the future holds.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="https://portal.livingtrust-attorneys.com/book" class="btn-primary">Book An Appointment</a>
+                    <a href="#form" class="btn-secondary">Start Online</a>
+                </div>
+
+                <div class="hero-price">
+                    <div class="price-row">
+                        <p>Individual Trust: <strong>$575</strong></p>
+                        <p>Married Trust: <strong>$675</strong></p>
+                    </div>
+                    <div class="limited-offer">
+                        <strong>Limited Time Offer!</strong> Regular Price: $1,900<br>
+                        Offer Expires November 30, 2025
+                    </div>
+                </div>
             </div>
         </div>
     </section>
+
+    <!-- Main Content Wrapper - Scrolls over hero -->
+    <div class="main-content">
 
     <!-- Stats Section -->
     <section class="stats">
@@ -1069,6 +1146,8 @@
             Glendale CA 91203</p>
         </div>
     </footer>
+
+    </div> <!-- End main-content -->
 
     <!-- Mobile Menu Toggle Script -->
     <script>
