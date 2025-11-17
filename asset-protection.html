@@ -67,11 +67,8 @@
 
         /* Main Navigation */
         header {
-            background: white;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
-            position: sticky;
-            top: 0;
-            z-index: 1000;
+            background: transparent !important;
+            box-shadow: none;
         }
 
         nav {
@@ -88,7 +85,8 @@
             display: flex;
             align-items: center;
             text-decoration: none;
-            color: var(--primary-blue);
+            color: white;
+            margin-top: 19px;
         }
 
         .logo-text {
@@ -100,11 +98,12 @@
             font-family: 'Playfair Display', serif;
             font-size: 24px;
             font-weight: 700;
+            color: white;
         }
 
         .logo-text .tagline {
             font-size: 12px;
-            color: var(--text-light);
+            color: rgba(255, 255, 255, 0.9);
             margin-top: 2px;
         }
 
@@ -123,7 +122,7 @@
         .nav-link {
             display: block;
             padding: 15px 20px;
-            color: var(--text-dark);
+            color: white;
             text-decoration: none;
             font-weight: 500;
             transition: all 0.3s;
@@ -135,7 +134,7 @@
         }
 
         .nav-item:hover .nav-link {
-            background: var(--hover-bg);
+            background: rgba(255, 255, 255, 0.1);
         }
 
         /* Dropdown Arrow */
@@ -247,41 +246,140 @@
 
         /* Hero Section */
         .hero-section {
-            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            background: url('images/family-generations.jpg') center/cover no-repeat;
             color: white;
-            padding: 100px 0;
+            padding: 0;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            min-height: 100vh;
+            z-index: 0;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .hero-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(30, 58, 95, 0.7);
+            z-index: 1;
+        }
+
+        .hero-section > .container {
+            position: relative;
+            z-index: 2;
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 200px 20px 120px;
+        }
+
+        .hero-content-card {
+            background: rgba(255, 255, 255, 0.08);
+            backdrop-filter: blur(15px);
+            -webkit-backdrop-filter: blur(15px);
+            border-radius: 20px;
+            padding: 30px 28px;
+            max-width: 800px;
+            margin: 0 auto;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            box-shadow: 0 10px 40px rgba(0,0,0,0.3);
             text-align: center;
         }
 
         .hero-section h1 {
             font-family: 'Playfair Display', serif;
-            font-size: 56px;
-            margin-bottom: 20px;
+            font-size: 48px;
+            margin-bottom: 15px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
         }
 
         .subtitle {
-            font-size: 24px;
-            margin-bottom: 10px;
+            font-size: 20px;
+            color: var(--accent-gold);
+            margin-bottom: 20px;
+            opacity: 0.95;
+        }
+
+        .hero-description {
+            font-size: 16px;
+            max-width: 800px;
+            margin: 0 auto 25px;
+            line-height: 1.6;
             opacity: 0.95;
         }
 
         .btn-primary {
-            background: var(--accent-gold);
+            background: rgba(201, 169, 97, 0.9);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border: 2px solid rgba(201, 169, 97, 0.5);
             color: white;
-            padding: 15px 40px;
+            padding: 12px 35px;
             border-radius: 50px;
             text-decoration: none;
             font-weight: 600;
-            font-size: 18px;
+            font-size: 16px;
             transition: all 0.3s;
             display: inline-block;
-            margin-top: 20px;
+            box-shadow: 0 5px 20px rgba(201, 169, 97, 0.5);
         }
 
         .btn-primary:hover {
-            background: #b8982f;
+            background: rgba(184, 152, 47, 1);
+            border-color: rgba(184, 152, 47, 0.8);
             transform: translateY(-2px);
-            box-shadow: 0 5px 15px rgba(201, 169, 97, 0.3);
+            box-shadow: 0 8px 25px rgba(201, 169, 97, 0.6);
+        }
+
+        .btn-secondary {
+            background: rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            color: white;
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            padding: 10px 35px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 16px;
+            transition: all 0.3s;
+            display: inline-block;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .btn-secondary:hover {
+            background: rgba(255, 255, 255, 0.25);
+            border-color: rgba(255, 255, 255, 0.5);
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+        }
+
+        /* Trust Badges */
+        .trust-badge-card {
+            background: white;
+            padding: 30px 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .trust-badge-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+        }
+
+        /* Main Content - Scrolls over hero */
+        .main-content {
+            position: relative;
+            z-index: 10;
+            background: white;
         }
 
         /* Warning Section */
@@ -532,6 +630,27 @@
             margin: 0 20px;
         }
 
+        .phone-large {
+            font-size: 28px;
+            color: var(--accent-gold);
+            font-weight: bold;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 5px;
+        }
+
+        @media (max-width: 992px) {
+            .trust-badge-card {
+                padding: 25px 15px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            section[style*="grid-template-columns: repeat(5, 1fr)"] > div {
+                grid-template-columns: repeat(2, 1fr) !important;
+            }
+        }
+
         /* Mobile Styles */
         @media (max-width: 992px) {
             .mobile-toggle {
@@ -639,100 +758,166 @@
     </style>
 </head>
 <body>
-    <!-- Top Bar -->
-    <div class="top-bar">
-        <div class="container">
-            <div>
-                <i class="fas fa-certificate"></i> Licensed California Attorney - Bar #208356
-            </div>
-            <div>
-                <i class="fas fa-phone"></i> Free Consultation: <a href="tel:8182916217">(818) 291-6217</a>
-            </div>
-        </div>
-    </div>
-
-    <!-- Main Navigation -->
-    <header>
-        <nav>
-            <div class="container">
-                <a href="index.html" class="logo">
-                    <div class="logo-text">
-                        <span class="firm-name">LAW OFFICES OF ROZSA GYENE</span>
-                        <span class="tagline">Estate Planning & Probate Specialists Since 2001</span>
-                    </div>
-                </a>
-
-                <button class="mobile-toggle" onclick="toggleMenu()">
-                    <i class="fas fa-bars"></i>
-                </button>
-
-                <ul class="nav-menu" id="navMenu">
-                    <button class="close-menu" onclick="toggleMenu()">
-                        <i class="fas fa-times"></i>
-                    </button>
-
-                    <li class="nav-item">
-                        <a href="index.html" class="nav-link">Home</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a href="about.html" class="nav-link">About</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a href="#" class="nav-link has-dropdown">Estate Planning</a>
-                        <div class="dropdown">
-                            <a href="living-trusts.html" class="dropdown-item">Living Trusts</a>
-                            <a href="trust-administration.html" class="dropdown-item">Trust Administration</a>
-                            <a href="trust-administration-questionnaire.html" class="dropdown-item">Trust Administration Questionnaire</a>
-                            <a href="trust-amendment.html" class="dropdown-item">Trust Amendments</a>
-                            <a href="special-needs-trust.html" class="dropdown-item">Special Needs Trusts</a>
-                            <a href="life-insurance-trust.html" class="dropdown-item">Life Insurance Trusts</a>
-                            <a href="asset-protection.html" class="dropdown-item">Asset Protection</a>
-                            <a href="estate-planning-questionnaire.html" class="dropdown-item">Estate Planning Form</a>
-                        </div>
-                    </li>
-
-                    <li class="nav-item">
-                        <a href="#" class="nav-link has-dropdown">Probate</a>
-                        <div class="dropdown">
-                            <a href="probate.html" class="dropdown-item">Probate Services</a>
-                            <a href="probate-intake-form.html" class="dropdown-item">Probate Intake Form</a>
-                        </div>
-                    </li>
-
-                    <li class="nav-item">
-                        <a href="#" class="nav-link has-dropdown">Conservatorship</a>
-                        <div class="dropdown">
-                            <a href="conservatorship.html" class="dropdown-item">Conservatorship Services</a>
-                            <a href="conservatorship-questionnaire.html" class="dropdown-item">Conservatorship Form</a>
-                        </div>
-                    </li>
-
-                    <li class="nav-item">
-                        <a href="#" class="nav-link has-dropdown">Guardianship</a>
-                        <div class="dropdown">
-                            <a href="guardianship.html" class="dropdown-item">Guardianship Services</a>
-                            <a href="guardianship-questionnaire.html" class="dropdown-item">Guardianship Form</a>
-                        </div>
-                    </li>
-
-                    <a href="https://portal.livingtrust-attorneys.com/" class="btn-client-portal" target="_blank">Client Portal</a>
-                    <a href="https://portal.livingtrust-attorneys.com/book" class="btn-book">Book Now</a>
-                </ul>
-            </div>
-        </nav>
-    </header>
-
     <!-- Hero Section -->
     <section class="hero-section">
+        <!-- Top Bar -->
+        <div class="top-bar" style="position: absolute; top: 0; left: 0; width: 100%; z-index: 101;">
+            <div class="container">
+                <div>
+                    <i class="fas fa-certificate"></i> Licensed California Attorney - Bar #208356
+                </div>
+                <div>
+                    <i class="fas fa-phone"></i> Free Consultation: <a href="tel:8182916217">(818) 291-6217</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Navigation -->
+        <header style="position: absolute; top: 20px; left: 0; width: 100%; z-index: 100;">
+            <nav>
+                <div class="container">
+                    <a href="index.html" class="logo">
+                        <div class="logo-text">
+                            <span class="firm-name">LAW OFFICES OF ROZSA GYENE</span>
+                            <span class="tagline">Estate Planning & Probate Specialists Since 2001</span>
+                        </div>
+                    </a>
+
+                    <button class="mobile-toggle" onclick="toggleMenu()">
+                        <i class="fas fa-bars"></i>
+                    </button>
+
+                    <ul class="nav-menu" id="navMenu">
+                        <button class="close-menu" onclick="toggleMenu()">
+                            <i class="fas fa-times"></i>
+                        </button>
+
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="about.html" class="nav-link">About</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#" class="nav-link has-dropdown">Estate Planning</a>
+                            <div class="dropdown">
+                                <a href="living-trusts.html" class="dropdown-item">Living Trusts</a>
+                                <a href="trust-administration.html" class="dropdown-item">Trust Administration</a>
+                                <a href="trust-administration-questionnaire.html" class="dropdown-item">Trust Administration Questionnaire</a>
+                                <a href="trust-amendment.html" class="dropdown-item">Trust Amendments</a>
+                                <a href="special-needs-trust.html" class="dropdown-item">Special Needs Trusts</a>
+                                <a href="life-insurance-trust.html" class="dropdown-item">Life Insurance Trusts</a>
+                                <a href="asset-protection.html" class="dropdown-item">Asset Protection</a>
+                                <a href="estate-planning-questionnaire.html" class="dropdown-item">Estate Planning Form</a>
+                            </div>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#" class="nav-link has-dropdown">Probate</a>
+                            <div class="dropdown">
+                                <a href="probate.html" class="dropdown-item">Probate Services</a>
+                                <a href="probate-intake-form.html" class="dropdown-item">Probate Intake Form</a>
+                            </div>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#" class="nav-link has-dropdown">Conservatorship</a>
+                            <div class="dropdown">
+                                <a href="conservatorship.html" class="dropdown-item">Conservatorship Services</a>
+                                <a href="conservatorship-questionnaire.html" class="dropdown-item">Conservatorship Form</a>
+                            </div>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#" class="nav-link has-dropdown">Guardianship</a>
+                            <div class="dropdown">
+                                <a href="guardianship.html" class="dropdown-item">Guardianship Services</a>
+                                <a href="guardianship-questionnaire.html" class="dropdown-item">Guardianship Form</a>
+                            </div>
+                        </li>
+
+                        <a href="https://portal.livingtrust-attorneys.com/" class="btn-client-portal" target="_blank">Client Portal</a>
+                        <a href="https://portal.livingtrust-attorneys.com/book" class="btn-book">Book Now</a>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
         <div class="container">
-            <h1>Asset Protection Planning</h1>
-            <p class="subtitle">Safeguard Your Wealth from Lawsuits, Creditors, and Unforeseen Risks</p>
-            <p style="font-size: 18px;">Over 25 Years of Protecting California Families & Businesses</p>
-            <a href="#contact" class="btn-primary">Protect Your Assets Today</a>
+            <div class="hero-content-card">
+                <h1>Asset Protection Planning</h1>
+                <p class="subtitle">Safeguard Your Wealth from Lawsuits, Creditors, and Unforeseen Risks</p>
+                <p class="hero-description">Over 25 Years of Protecting California Families & Businesses</p>
+
+                <div style="display: flex; gap: 15px; justify-content: center; flex-wrap: wrap; margin-top: 25px;">
+                    <a href="#contact" class="btn-primary">Protect Your Assets Today</a>
+                    <a href="tel:8182916217" class="btn-secondary">Call (818) 291-6217</a>
+                </div>
+
+                <p style="margin-top: 20px; margin-bottom: 5px;">Free Consultation Available:</p>
+                <a href="tel:8182916217" class="phone-large">(818) 291-6217</a>
+            </div>
         </div>
     </section>
+
+    <!-- Main Content - Scrolls over hero -->
+    <div class="main-content">
+        <!-- Trust Badges Section -->
+        <section style="padding: 50px 0; background: white;">
+            <div class="container">
+                <h2 style="text-align: center; font-family: 'Playfair Display', serif; font-size: 32px; color: var(--primary-blue); margin-bottom: 40px;">
+                    Why Choose Law Offices of Rozsa Gyene for Asset Protection?
+                </h2>
+                <div style="display: grid; grid-template-columns: repeat(5, 1fr); gap: 20px; max-width: 1200px; margin: 0 auto;">
+                    <div class="trust-badge-card">
+                        <div style="width: 50px; height: 50px; background: linear-gradient(135deg, #c9a961 0%, #b8982f 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 12px;">
+                            <i class="fas fa-users" style="font-size: 22px; color: white;"></i>
+                        </div>
+                        <div style="font-size: 18px; font-weight: bold; color: var(--primary-blue); margin-bottom: 4px;">5000+ Families</div>
+                        <div style="font-size: 12px; color: var(--text-light); font-weight: 500;">Served</div>
+                        <div style="font-size: 11px; color: var(--text-light); margin-top: 4px;">Since 2001</div>
+                    </div>
+
+                    <div class="trust-badge-card">
+                        <div style="width: 50px; height: 50px; background: linear-gradient(135deg, #c9a961 0%, #b8982f 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 12px;">
+                            <i class="fas fa-certificate" style="font-size: 22px; color: white;"></i>
+                        </div>
+                        <div style="font-size: 18px; font-weight: bold; color: var(--primary-blue); margin-bottom: 4px; line-height: 1.2;">California State Bar</div>
+                        <div style="font-size: 12px; color: var(--text-light); font-weight: 500;">#208356</div>
+                        <div style="font-size: 11px; color: var(--text-light); margin-top: 4px;">Licensed & Verified</div>
+                    </div>
+
+                    <div class="trust-badge-card">
+                        <div style="width: 50px; height: 50px; background: linear-gradient(135deg, #c9a961 0%, #b8982f 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 12px;">
+                            <i class="fas fa-star" style="font-size: 22px; color: white;"></i>
+                        </div>
+                        <div style="font-size: 18px; font-weight: bold; color: var(--primary-blue); margin-bottom: 4px;">A+ Rated</div>
+                        <div style="font-size: 12px; color: var(--text-light); font-weight: 500;">Better Business Bureau</div>
+                        <div style="font-size: 11px; color: var(--text-light); margin-top: 4px;">Trusted Excellence</div>
+                    </div>
+
+                    <div class="trust-badge-card">
+                        <div style="width: 50px; height: 50px; background: linear-gradient(135deg, #c9a961 0%, #b8982f 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 12px;">
+                            <i class="fas fa-award" style="font-size: 22px; color: white;"></i>
+                        </div>
+                        <div style="font-size: 18px; font-weight: bold; color: var(--primary-blue); margin-bottom: 4px;">25+ Years</div>
+                        <div style="font-size: 12px; color: var(--text-light); font-weight: 500;">Experience</div>
+                        <div style="font-size: 11px; color: var(--text-light); margin-top: 4px;">Estate Planning Experts</div>
+                    </div>
+
+                    <div class="trust-badge-card">
+                        <div style="width: 50px; height: 50px; background: linear-gradient(135deg, #c9a961 0%, #b8982f 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 12px;">
+                            <i class="fas fa-shield-alt" style="font-size: 22px; color: white;"></i>
+                        </div>
+                        <div style="font-size: 18px; font-weight: bold; color: var(--primary-blue); margin-bottom: 4px;">100% Confidential</div>
+                        <div style="font-size: 12px; color: var(--text-light); font-weight: 500;">Attorney-Client Privilege</div>
+                        <div style="font-size: 11px; color: var(--text-light); margin-top: 4px;">Your Privacy Protected</div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
     <!-- Warning Section -->
     <div class="container">
@@ -1019,6 +1204,7 @@
             <p style="margin-top: 30px; font-size: 14px; opacity: 0.8;">© 2024 Law Offices of Rozsa Gyene. All rights reserved.</p>
         </div>
     </footer>
+    </div>
 
     <script>
         // Mobile menu toggle
