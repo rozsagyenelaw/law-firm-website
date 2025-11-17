@@ -64,11 +64,8 @@
 
         /* Main Navigation */
         header {
-            background: white;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
-            position: sticky;
-            top: 0;
-            z-index: 1000;
+            background: transparent !important;
+            box-shadow: none;
         }
 
         nav {
@@ -85,7 +82,7 @@
             display: flex;
             align-items: center;
             text-decoration: none;
-            color: var(--primary-blue);
+            color: white;
         }
 
         .logo-text {
@@ -97,11 +94,12 @@
             font-family: 'Playfair Display', serif;
             font-size: 24px;
             font-weight: 700;
+            color: white;
         }
 
         .logo-text .tagline {
             font-size: 12px;
-            color: var(--text-light);
+            color: rgba(255, 255, 255, 0.8);
             margin-top: 2px;
         }
 
@@ -120,7 +118,7 @@
         .nav-link {
             display: block;
             padding: 15px 20px;
-            color: var(--text-dark);
+            color: white;
             text-decoration: none;
             font-weight: 500;
             transition: all 0.3s;
@@ -234,7 +232,7 @@
             background: none;
             border: none;
             font-size: 24px;
-            color: var(--text-dark);
+            color: white;
             cursor: pointer;
         }
 
@@ -244,41 +242,92 @@
 
         /* Hero Section */
         .hero-section {
-            background: linear-gradient(135deg, var(--light-blue) 0%, var(--primary-blue) 100%);
+            background: url('images/guardianship-hero-background.jpg') center/cover no-repeat;
             color: white;
             padding: 100px 0;
             text-align: center;
+            position: sticky;
+            top: 0;
+            min-height: 100vh;
+            z-index: 0;
+        }
+
+        .hero-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(30, 58, 95, 0.75);
+            backdrop-filter: blur(5px);
+            z-index: 1;
+        }
+
+        .hero-section .container {
+            position: absolute;
+            bottom: 50px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 3;
+            width: 100%;
+            max-width: 1200px;
+            padding: 0 20px;
+        }
+
+        .hero-content-card {
+            background: rgba(255, 255, 255, 0.08);
+            padding: 40px 35px;
+            border-radius: 20px;
+            max-width: 900px;
+            margin: 0 auto;
+            backdrop-filter: blur(15px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            box-shadow: 0 10px 40px rgba(0,0,0,0.3);
         }
 
         .hero-section h1 {
             font-family: 'Playfair Display', serif;
-            font-size: 56px;
-            margin-bottom: 20px;
+            font-size: 48px;
+            margin-bottom: 15px;
         }
 
         .subtitle {
-            font-size: 24px;
-            margin-bottom: 10px;
-            opacity: 0.95;
+            font-size: 20px;
+            color: var(--accent-gold);
+            margin-bottom: 20px;
+        }
+
+        .hero-description {
+            font-size: 16px;
+            max-width: 800px;
+            margin: 0 auto 25px;
+            line-height: 1.6;
         }
 
         .btn-primary {
             background: var(--accent-gold);
             color: white;
-            padding: 15px 40px;
+            padding: 12px 35px;
             border-radius: 50px;
             text-decoration: none;
             font-weight: 600;
-            font-size: 18px;
+            font-size: 16px;
             transition: all 0.3s;
             display: inline-block;
-            margin-top: 20px;
         }
 
         .btn-primary:hover {
             background: #b8982f;
             transform: translateY(-2px);
             box-shadow: 0 5px 15px rgba(201, 169, 97, 0.3);
+        }
+
+        /* Main Content Wrapper - Scrolls over hero */
+        .main-content {
+            position: relative;
+            z-index: 10;
+            background: white;
         }
 
         /* Info Sections */
@@ -639,21 +688,23 @@
     </style>
 </head>
 <body>
-    <!-- Top Bar -->
-    <div class="top-bar">
-        <div class="container">
-            <div>
-                <i class="fas fa-certificate"></i> Licensed California Attorney - Bar #208356
-            </div>
-            <div>
-                <i class="fas fa-phone"></i> Free Consultation: <a href="tel:8182916217">(818) 291-6217</a>
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <!-- Top Bar -->
+        <div class="top-bar" style="position: absolute !important; top: 0 !important; left: 0 !important; width: 100% !important; z-index: 101 !important;">
+            <div class="container">
+                <div>
+                    <i class="fas fa-certificate"></i> Licensed California Attorney - Bar #208356
+                </div>
+                <div>
+                    <i class="fas fa-phone"></i> Free Consultation: <a href="tel:8182916217">(818) 291-6217</a>
+                </div>
             </div>
         </div>
-    </div>
 
-    <!-- Main Navigation -->
-    <header>
-        <nav>
+        <!-- Main Navigation Inside Hero -->
+        <header style="position: absolute !important; top: 180px !important; left: 0 !important; width: 100% !important; z-index: 100 !important; display: block !important; visibility: visible !important;">
+            <nav>
             <div class="container">
                 <a href="index.html" class="logo">
                     <div class="logo-text">
@@ -722,52 +773,169 @@
                 </ul>
             </div>
         </nav>
-    </header>
+        </header>
 
-    <!-- Hero Section -->
-    <section class="hero-section">
         <div class="container">
-            <h1>Guardianship Services</h1>
-            <p class="subtitle">Protecting Children When Parents Cannot</p>
-            <p style="font-size: 18px;">Compassionate Legal Guidance for Minor Guardianship in California</p>
-            <a href="#contact" class="btn-primary">Get Guardianship Help Today</a>
+            <div class="hero-content-card">
+                <h1>Guardianship Services</h1>
+                <p class="subtitle">Protecting Children When Parents Cannot</p>
+                <p class="hero-description">Compassionate Legal Guidance for Minor Guardianship in California</p>
+                <a href="#contact" class="btn-primary">Get Guardianship Help Today</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content Wrapper - Scrolls over hero -->
+    <div class="main-content">
+
+    <!-- Trust Badges -->
+    <section style="background: white; padding: 60px 0; border-bottom: 1px solid #e9ecef;">
+        <div class="container">
+            <div style="display: grid; grid-template-columns: repeat(5, 1fr); gap: 20px; max-width: 1200px; margin: 0 auto;">
+                <!-- 5000+ Families -->
+                <div style="background: white; padding: 30px 20px; border-radius: 12px; box-shadow: 0 3px 15px rgba(0,0,0,0.08); text-align: center; transition: all 0.3s;">
+                    <div style="width: 50px; height: 50px; background: linear-gradient(135deg, #5f7fbf 0%, #1e3a5f 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 15px;">
+                        <i class="fas fa-users" style="font-size: 24px; color: white;"></i>
+                    </div>
+                    <div style="font-size: 28px; font-weight: 700; color: var(--primary-blue); margin-bottom: 5px;">5000+</div>
+                    <div style="font-size: 13px; color: var(--text-light);">Families Helped</div>
+                </div>
+
+                <!-- California State Bar -->
+                <div style="background: white; padding: 30px 20px; border-radius: 12px; box-shadow: 0 3px 15px rgba(0,0,0,0.08); text-align: center; transition: all 0.3s;">
+                    <div style="width: 50px; height: 50px; background: linear-gradient(135deg, var(--accent-gold) 0%, #b8982f 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 15px;">
+                        <i class="fas fa-certificate" style="font-size: 24px; color: white;"></i>
+                    </div>
+                    <div style="font-size: 28px; font-weight: 700; color: var(--primary-blue); margin-bottom: 5px;">CA</div>
+                    <div style="font-size: 13px; color: var(--text-light);">State Bar Licensed</div>
+                </div>
+
+                <!-- A+ Rated -->
+                <div style="background: white; padding: 30px 20px; border-radius: 12px; box-shadow: 0 3px 15px rgba(0,0,0,0.08); text-align: center; transition: all 0.3s;">
+                    <div style="width: 50px; height: 50px; background: linear-gradient(135deg, #5f7fbf 0%, #1e3a5f 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 15px;">
+                        <i class="fas fa-star" style="font-size: 24px; color: white;"></i>
+                    </div>
+                    <div style="font-size: 28px; font-weight: 700; color: var(--primary-blue); margin-bottom: 5px;">A+</div>
+                    <div style="font-size: 13px; color: var(--text-light);">Rated Service</div>
+                </div>
+
+                <!-- 25+ Years -->
+                <div style="background: white; padding: 30px 20px; border-radius: 12px; box-shadow: 0 3px 15px rgba(0,0,0,0.08); text-align: center; transition: all 0.3s;">
+                    <div style="width: 50px; height: 50px; background: linear-gradient(135deg, var(--accent-gold) 0%, #b8982f 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 15px;">
+                        <i class="fas fa-award" style="font-size: 24px; color: white;"></i>
+                    </div>
+                    <div style="font-size: 28px; font-weight: 700; color: var(--primary-blue); margin-bottom: 5px;">25+</div>
+                    <div style="font-size: 13px; color: var(--text-light);">Years Experience</div>
+                </div>
+
+                <!-- 100% Confidential -->
+                <div style="background: white; padding: 30px 20px; border-radius: 12px; box-shadow: 0 3px 15px rgba(0,0,0,0.08); text-align: center; transition: all 0.3s;">
+                    <div style="width: 50px; height: 50px; background: linear-gradient(135deg, #5f7fbf 0%, #1e3a5f 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 15px;">
+                        <i class="fas fa-lock" style="font-size: 24px; color: white;"></i>
+                    </div>
+                    <div style="font-size: 28px; font-weight: 700; color: var(--primary-blue); margin-bottom: 5px;">100%</div>
+                    <div style="font-size: 13px; color: var(--text-light);">Confidential</div>
+                </div>
+            </div>
         </div>
     </section>
 
     <!-- What is Guardianship -->
-    <section class="info-section">
+    <section style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 80px 0;">
         <div class="container">
-            <h2 class="section-title">What is Guardianship?</h2>
-            <p class="intro-text">
-                Guardianship is a legal arrangement where a court appoints a responsible adult to care for a minor child (under 18) 
+            <h2 style="text-align: center; font-family: 'Playfair Display', serif; font-size: 42px; color: var(--primary-blue); margin-bottom: 20px;">
+                What is Guardianship?
+            </h2>
+            <p style="text-align: center; max-width: 900px; margin: 0 auto 50px; color: var(--text-light); font-size: 18px; line-height: 1.8;">
+                Guardianship is a legal arrangement where a court appoints a responsible adult to care for a minor child (under 18)
                 when parents are unable or unwilling to do so. Unlike adoption, guardianship does not permanently sever parental rights.
             </p>
-            
-            <div class="two-column">
-                <div class="content-column">
-                    <h3>When is Guardianship Needed?</h3>
-                    <ul class="checklist">
-                        <li>Parents are deceased or incapacitated</li>
-                        <li>Parents struggle with substance abuse</li>
-                        <li>Parents are incarcerated</li>
-                        <li>Child has been abandoned</li>
-                        <li>Parents are deployed military</li>
-                        <li>Parents have serious mental illness</li>
-                        <li>Child is being abused or neglected</li>
-                        <li>Parents voluntarily surrender care</li>
+
+            <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 30px; max-width: 1200px; margin: 0 auto;">
+                <!-- When is Guardianship Needed Card -->
+                <div style="background: white; padding: 40px; border-radius: 15px; box-shadow: 0 5px 25px rgba(0,0,0,0.08); transition: all 0.3s;">
+                    <div style="display: flex; align-items: center; margin-bottom: 25px;">
+                        <div style="width: 60px; height: 60px; background: linear-gradient(135deg, #5f7fbf 0%, #1e3a5f 100%); border-radius: 12px; display: flex; align-items: center; justify-content: center; margin-right: 20px;">
+                            <i class="fas fa-question-circle" style="font-size: 28px; color: white;"></i>
+                        </div>
+                        <h3 style="font-family: 'Playfair Display', serif; font-size: 26px; color: var(--primary-blue); margin: 0;">When is Guardianship Needed?</h3>
+                    </div>
+                    <ul style="list-style: none; padding: 0; margin: 0;">
+                        <li style="display: flex; align-items: center; padding: 12px 0; border-bottom: 1px solid #f0f0f0;">
+                            <i class="fas fa-check-circle" style="color: var(--accent-gold); margin-right: 15px; font-size: 18px;"></i>
+                            <span style="color: var(--text-dark); font-size: 16px;">Parents are deceased or incapacitated</span>
+                        </li>
+                        <li style="display: flex; align-items: center; padding: 12px 0; border-bottom: 1px solid #f0f0f0;">
+                            <i class="fas fa-check-circle" style="color: var(--accent-gold); margin-right: 15px; font-size: 18px;"></i>
+                            <span style="color: var(--text-dark); font-size: 16px;">Parents struggle with substance abuse</span>
+                        </li>
+                        <li style="display: flex; align-items: center; padding: 12px 0; border-bottom: 1px solid #f0f0f0;">
+                            <i class="fas fa-check-circle" style="color: var(--accent-gold); margin-right: 15px; font-size: 18px;"></i>
+                            <span style="color: var(--text-dark); font-size: 16px;">Parents are incarcerated</span>
+                        </li>
+                        <li style="display: flex; align-items: center; padding: 12px 0; border-bottom: 1px solid #f0f0f0;">
+                            <i class="fas fa-check-circle" style="color: var(--accent-gold); margin-right: 15px; font-size: 18px;"></i>
+                            <span style="color: var(--text-dark); font-size: 16px;">Child has been abandoned</span>
+                        </li>
+                        <li style="display: flex; align-items: center; padding: 12px 0; border-bottom: 1px solid #f0f0f0;">
+                            <i class="fas fa-check-circle" style="color: var(--accent-gold); margin-right: 15px; font-size: 18px;"></i>
+                            <span style="color: var(--text-dark); font-size: 16px;">Parents are deployed military</span>
+                        </li>
+                        <li style="display: flex; align-items: center; padding: 12px 0; border-bottom: 1px solid #f0f0f0;">
+                            <i class="fas fa-check-circle" style="color: var(--accent-gold); margin-right: 15px; font-size: 18px;"></i>
+                            <span style="color: var(--text-dark); font-size: 16px;">Parents have serious mental illness</span>
+                        </li>
+                        <li style="display: flex; align-items: center; padding: 12px 0; border-bottom: 1px solid #f0f0f0;">
+                            <i class="fas fa-check-circle" style="color: var(--accent-gold); margin-right: 15px; font-size: 18px;"></i>
+                            <span style="color: var(--text-dark); font-size: 16px;">Child is being abused or neglected</span>
+                        </li>
+                        <li style="display: flex; align-items: center; padding: 12px 0;">
+                            <i class="fas fa-check-circle" style="color: var(--accent-gold); margin-right: 15px; font-size: 18px;"></i>
+                            <span style="color: var(--text-dark); font-size: 16px;">Parents voluntarily surrender care</span>
+                        </li>
                     </ul>
                 </div>
-                <div class="content-column">
-                    <h3>Who Can Be a Guardian?</h3>
-                    <p>Any responsible adult can petition to become a guardian, though courts prefer relatives when possible:</p>
-                    <ul class="checklist">
-                        <li>Grandparents</li>
-                        <li>Aunts and Uncles</li>
-                        <li>Adult Siblings</li>
-                        <li>Other Relatives</li>
-                        <li>Family Friends</li>
-                        <li>Foster Parents</li>
-                        <li>Any Caring Adult</li>
+
+                <!-- Who Can Be a Guardian Card -->
+                <div style="background: white; padding: 40px; border-radius: 15px; box-shadow: 0 5px 25px rgba(0,0,0,0.08); transition: all 0.3s;">
+                    <div style="display: flex; align-items: center; margin-bottom: 25px;">
+                        <div style="width: 60px; height: 60px; background: linear-gradient(135deg, var(--accent-gold) 0%, #b8982f 100%); border-radius: 12px; display: flex; align-items: center; justify-content: center; margin-right: 20px;">
+                            <i class="fas fa-users" style="font-size: 28px; color: white;"></i>
+                        </div>
+                        <h3 style="font-family: 'Playfair Display', serif; font-size: 26px; color: var(--primary-blue); margin: 0;">Who Can Be a Guardian?</h3>
+                    </div>
+                    <p style="color: var(--text-light); margin-bottom: 20px; font-size: 16px; line-height: 1.6;">
+                        Any responsible adult can petition to become a guardian, though courts prefer relatives when possible:
+                    </p>
+                    <ul style="list-style: none; padding: 0; margin: 0;">
+                        <li style="display: flex; align-items: center; padding: 12px 0; border-bottom: 1px solid #f0f0f0;">
+                            <i class="fas fa-heart" style="color: var(--accent-gold); margin-right: 15px; font-size: 18px;"></i>
+                            <span style="color: var(--text-dark); font-size: 16px;">Grandparents</span>
+                        </li>
+                        <li style="display: flex; align-items: center; padding: 12px 0; border-bottom: 1px solid #f0f0f0;">
+                            <i class="fas fa-heart" style="color: var(--accent-gold); margin-right: 15px; font-size: 18px;"></i>
+                            <span style="color: var(--text-dark); font-size: 16px;">Aunts and Uncles</span>
+                        </li>
+                        <li style="display: flex; align-items: center; padding: 12px 0; border-bottom: 1px solid #f0f0f0;">
+                            <i class="fas fa-heart" style="color: var(--accent-gold); margin-right: 15px; font-size: 18px;"></i>
+                            <span style="color: var(--text-dark); font-size: 16px;">Adult Siblings</span>
+                        </li>
+                        <li style="display: flex; align-items: center; padding: 12px 0; border-bottom: 1px solid #f0f0f0;">
+                            <i class="fas fa-heart" style="color: var(--accent-gold); margin-right: 15px; font-size: 18px;"></i>
+                            <span style="color: var(--text-dark); font-size: 16px;">Other Relatives</span>
+                        </li>
+                        <li style="display: flex; align-items: center; padding: 12px 0; border-bottom: 1px solid #f0f0f0;">
+                            <i class="fas fa-heart" style="color: var(--accent-gold); margin-right: 15px; font-size: 18px;"></i>
+                            <span style="color: var(--text-dark); font-size: 16px;">Family Friends</span>
+                        </li>
+                        <li style="display: flex; align-items: center; padding: 12px 0; border-bottom: 1px solid #f0f0f0;">
+                            <i class="fas fa-heart" style="color: var(--accent-gold); margin-right: 15px; font-size: 18px;"></i>
+                            <span style="color: var(--text-dark); font-size: 16px;">Foster Parents</span>
+                        </li>
+                        <li style="display: flex; align-items: center; padding: 12px 0;">
+                            <i class="fas fa-heart" style="color: var(--accent-gold); margin-right: 15px; font-size: 18px;"></i>
+                            <span style="color: var(--text-dark); font-size: 16px;">Any Caring Adult</span>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -822,60 +990,111 @@
     </section>
 
     <!-- Types of Guardianship -->
-    <section class="info-section">
-        <div class="container">
-            <h2 class="section-title">Types of Guardianship</h2>
-            
-            <div class="cards-grid">
-                <div class="info-card">
-                    <div class="icon-circle">
-                        <i class="fas fa-user-shield"></i>
+    <section style="background: url('images/guardianship-family-beach.jpg') center/cover no-repeat; padding: 80px 0; position: relative;">
+        <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(30, 58, 95, 0.5); z-index: 1;"></div>
+        <div class="container" style="position: relative; z-index: 2;">
+            <div style="background: rgba(255, 255, 255, 0.08); padding: 50px 40px; border-radius: 20px; max-width: 1100px; margin: 0 auto; backdrop-filter: blur(15px); border: 1px solid rgba(255, 255, 255, 0.3); box-shadow: 0 10px 40px rgba(0,0,0,0.3);">
+                <h2 style="text-align: center; font-family: 'Playfair Display', serif; font-size: 42px; color: white; margin-bottom: 50px; text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">Types of Guardianship</h2>
+
+                <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 25px; margin-bottom: 40px;">
+                    <div style="background: rgba(255, 255, 255, 0.15); padding: 30px; border-radius: 15px; backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.2);">
+                        <div style="width: 60px; height: 60px; background: linear-gradient(135deg, var(--accent-gold) 0%, #b8982f 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 20px;">
+                            <i class="fas fa-user-shield" style="font-size: 28px; color: white;"></i>
+                        </div>
+                        <h3 style="color: white; text-align: center; margin-bottom: 15px; font-size: 22px;">Guardian of the Person</h3>
+                        <p style="color: rgba(255, 255, 255, 0.9); margin-bottom: 15px; text-align: center; font-size: 15px;">Responsible for the child's daily care, including:</p>
+                        <ul style="list-style: none; padding: 0; margin: 0; color: rgba(255, 255, 255, 0.85); font-size: 14px;">
+                            <li style="padding: 8px 0; border-bottom: 1px solid rgba(255, 255, 255, 0.2); display: flex; align-items: center;">
+                                <i class="fas fa-check" style="color: var(--accent-gold); margin-right: 10px; font-size: 12px;"></i>
+                                Physical custody and care
+                            </li>
+                            <li style="padding: 8px 0; border-bottom: 1px solid rgba(255, 255, 255, 0.2); display: flex; align-items: center;">
+                                <i class="fas fa-check" style="color: var(--accent-gold); margin-right: 10px; font-size: 12px;"></i>
+                                Food, clothing, and shelter
+                            </li>
+                            <li style="padding: 8px 0; border-bottom: 1px solid rgba(255, 255, 255, 0.2); display: flex; align-items: center;">
+                                <i class="fas fa-check" style="color: var(--accent-gold); margin-right: 10px; font-size: 12px;"></i>
+                                Medical and dental decisions
+                            </li>
+                            <li style="padding: 8px 0; border-bottom: 1px solid rgba(255, 255, 255, 0.2); display: flex; align-items: center;">
+                                <i class="fas fa-check" style="color: var(--accent-gold); margin-right: 10px; font-size: 12px;"></i>
+                                Educational decisions
+                            </li>
+                            <li style="padding: 8px 0; display: flex; align-items: center;">
+                                <i class="fas fa-check" style="color: var(--accent-gold); margin-right: 10px; font-size: 12px;"></i>
+                                Safety and protection
+                            </li>
+                        </ul>
                     </div>
-                    <h3>Guardian of the Person</h3>
-                    <p>Responsible for the child's daily care, including:</p>
-                    <ul class="checklist">
-                        <li>Physical custody and care</li>
-                        <li>Food, clothing, and shelter</li>
-                        <li>Medical and dental decisions</li>
-                        <li>Educational decisions</li>
-                        <li>Safety and protection</li>
-                    </ul>
-                </div>
-                
-                <div class="info-card">
-                    <div class="icon-circle">
-                        <i class="fas fa-coins"></i>
+
+                    <div style="background: rgba(255, 255, 255, 0.15); padding: 30px; border-radius: 15px; backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.2);">
+                        <div style="width: 60px; height: 60px; background: linear-gradient(135deg, var(--accent-gold) 0%, #b8982f 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 20px;">
+                            <i class="fas fa-coins" style="font-size: 28px; color: white;"></i>
+                        </div>
+                        <h3 style="color: white; text-align: center; margin-bottom: 15px; font-size: 22px;">Guardian of the Estate</h3>
+                        <p style="color: rgba(255, 255, 255, 0.9); margin-bottom: 15px; text-align: center; font-size: 15px;">Manages the child's finances and property:</p>
+                        <ul style="list-style: none; padding: 0; margin: 0; color: rgba(255, 255, 255, 0.85); font-size: 14px;">
+                            <li style="padding: 8px 0; border-bottom: 1px solid rgba(255, 255, 255, 0.2); display: flex; align-items: center;">
+                                <i class="fas fa-check" style="color: var(--accent-gold); margin-right: 10px; font-size: 12px;"></i>
+                                Inheritance management
+                            </li>
+                            <li style="padding: 8px 0; border-bottom: 1px solid rgba(255, 255, 255, 0.2); display: flex; align-items: center;">
+                                <i class="fas fa-check" style="color: var(--accent-gold); margin-right: 10px; font-size: 12px;"></i>
+                                Lawsuit settlements
+                            </li>
+                            <li style="padding: 8px 0; border-bottom: 1px solid rgba(255, 255, 255, 0.2); display: flex; align-items: center;">
+                                <i class="fas fa-check" style="color: var(--accent-gold); margin-right: 10px; font-size: 12px;"></i>
+                                Social Security benefits
+                            </li>
+                            <li style="padding: 8px 0; border-bottom: 1px solid rgba(255, 255, 255, 0.2); display: flex; align-items: center;">
+                                <i class="fas fa-check" style="color: var(--accent-gold); margin-right: 10px; font-size: 12px;"></i>
+                                Investment accounts
+                            </li>
+                            <li style="padding: 8px 0; display: flex; align-items: center;">
+                                <i class="fas fa-check" style="color: var(--accent-gold); margin-right: 10px; font-size: 12px;"></i>
+                                Real property
+                            </li>
+                        </ul>
                     </div>
-                    <h3>Guardian of the Estate</h3>
-                    <p>Manages the child's finances and property:</p>
-                    <ul class="checklist">
-                        <li>Inheritance management</li>
-                        <li>Lawsuit settlements</li>
-                        <li>Social Security benefits</li>
-                        <li>Investment accounts</li>
-                        <li>Real property</li>
-                    </ul>
-                </div>
-                
-                <div class="info-card">
-                    <div class="icon-circle">
-                        <i class="fas fa-balance-scale"></i>
+
+                    <div style="background: rgba(255, 255, 255, 0.15); padding: 30px; border-radius: 15px; backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.2);">
+                        <div style="width: 60px; height: 60px; background: linear-gradient(135deg, var(--accent-gold) 0%, #b8982f 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 20px;">
+                            <i class="fas fa-balance-scale" style="font-size: 28px; color: white;"></i>
+                        </div>
+                        <h3 style="color: white; text-align: center; margin-bottom: 15px; font-size: 22px;">Full Guardianship</h3>
+                        <p style="color: rgba(255, 255, 255, 0.9); margin-bottom: 15px; text-align: center; font-size: 15px;">Complete responsibility for both person and estate:</p>
+                        <ul style="list-style: none; padding: 0; margin: 0; color: rgba(255, 255, 255, 0.85); font-size: 14px;">
+                            <li style="padding: 8px 0; border-bottom: 1px solid rgba(255, 255, 255, 0.2); display: flex; align-items: center;">
+                                <i class="fas fa-check" style="color: var(--accent-gold); margin-right: 10px; font-size: 12px;"></i>
+                                All personal care duties
+                            </li>
+                            <li style="padding: 8px 0; border-bottom: 1px solid rgba(255, 255, 255, 0.2); display: flex; align-items: center;">
+                                <i class="fas fa-check" style="color: var(--accent-gold); margin-right: 10px; font-size: 12px;"></i>
+                                All financial responsibilities
+                            </li>
+                            <li style="padding: 8px 0; border-bottom: 1px solid rgba(255, 255, 255, 0.2); display: flex; align-items: center;">
+                                <i class="fas fa-check" style="color: var(--accent-gold); margin-right: 10px; font-size: 12px;"></i>
+                                Court supervision required
+                            </li>
+                            <li style="padding: 8px 0; border-bottom: 1px solid rgba(255, 255, 255, 0.2); display: flex; align-items: center;">
+                                <i class="fas fa-check" style="color: var(--accent-gold); margin-right: 10px; font-size: 12px;"></i>
+                                Annual accountings
+                            </li>
+                            <li style="padding: 8px 0; display: flex; align-items: center;">
+                                <i class="fas fa-check" style="color: var(--accent-gold); margin-right: 10px; font-size: 12px;"></i>
+                                Most comprehensive protection
+                            </li>
+                        </ul>
                     </div>
-                    <h3>Full Guardianship</h3>
-                    <p>Complete responsibility for both person and estate:</p>
-                    <ul class="checklist">
-                        <li>All personal care duties</li>
-                        <li>All financial responsibilities</li>
-                        <li>Court supervision required</li>
-                        <li>Annual accountings</li>
-                        <li>Most comprehensive protection</li>
-                    </ul>
                 </div>
-            </div>
-            
-            <div class="alert-box alert-info">
-                <i class="fas fa-info-circle"></i> <strong>Important:</strong> Guardianship can be temporary (90 days or less) or permanent (until the child turns 18). 
-                Emergency guardianships are available when a child faces immediate danger.
+
+                <div style="background: rgba(201, 169, 97, 0.2); border-left: 4px solid var(--accent-gold); padding: 20px 25px; border-radius: 8px; backdrop-filter: blur(10px);">
+                    <p style="color: white; margin: 0; font-size: 16px; line-height: 1.6;">
+                        <i class="fas fa-info-circle" style="color: var(--accent-gold); margin-right: 10px;"></i>
+                        <strong>Important:</strong> Guardianship can be temporary (90 days or less) or permanent (until the child turns 18).
+                        Emergency guardianships are available when a child faces immediate danger.
+                    </p>
+                </div>
             </div>
         </div>
     </section>
@@ -936,40 +1155,101 @@
     </section>
 
     <!-- Rights and Responsibilities -->
-    <section class="info-section">
-        <div class="container">
-            <h2 class="section-title">Guardian Rights & Responsibilities</h2>
-            
-            <div class="two-column">
-                <div class="content-column">
-                    <h3>Your Rights as Guardian</h3>
-                    <ul class="checklist">
-                        <li>Make educational decisions</li>
-                        <li>Consent to medical treatment</li>
-                        <li>Apply for benefits on child's behalf</li>
-                        <li>Determine where child lives</li>
-                        <li>Access school and medical records</li>
-                        <li>Make day-to-day parenting decisions</li>
-                        <li>Receive financial assistance (if eligible)</li>
-                    </ul>
+    <section style="background: url('images/family-guardianship.png') center/cover no-repeat; padding: 80px 0; position: relative;">
+        <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(30, 58, 95, 0.35); z-index: 1;"></div>
+        <div class="container" style="position: relative; z-index: 2;">
+            <div style="background: rgba(255, 255, 255, 0.03); padding: 50px 40px; border-radius: 20px; max-width: 1100px; margin: 0 auto; backdrop-filter: blur(12px); border: 1px solid rgba(255, 255, 255, 0.2); box-shadow: 0 10px 40px rgba(0,0,0,0.3);">
+                <h2 style="text-align: center; font-family: 'Playfair Display', serif; font-size: 42px; color: white; margin-bottom: 50px; text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">Guardian Rights & Responsibilities</h2>
+
+                <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 30px; margin-bottom: 40px;">
+                    <!-- Your Rights as Guardian -->
+                    <div style="background: rgba(255, 255, 255, 0.08); padding: 35px; border-radius: 15px; backdrop-filter: blur(8px); border: 1px solid rgba(255, 255, 255, 0.2);">
+                        <div style="display: flex; align-items: center; margin-bottom: 25px;">
+                            <div style="width: 50px; height: 50px; background: linear-gradient(135deg, #5f7fbf 0%, #1e3a5f 100%); border-radius: 10px; display: flex; align-items: center; justify-content: center; margin-right: 15px;">
+                                <i class="fas fa-gavel" style="font-size: 24px; color: white;"></i>
+                            </div>
+                            <h3 style="color: white; margin: 0; font-size: 24px;">Your Rights as Guardian</h3>
+                        </div>
+                        <ul style="list-style: none; padding: 0; margin: 0; color: rgba(255, 255, 255, 0.9);">
+                            <li style="padding: 10px 0; border-bottom: 1px solid rgba(255, 255, 255, 0.2); display: flex; align-items: center;">
+                                <i class="fas fa-check-circle" style="color: var(--accent-gold); margin-right: 12px; font-size: 16px;"></i>
+                                <span style="font-size: 15px;">Make educational decisions</span>
+                            </li>
+                            <li style="padding: 10px 0; border-bottom: 1px solid rgba(255, 255, 255, 0.2); display: flex; align-items: center;">
+                                <i class="fas fa-check-circle" style="color: var(--accent-gold); margin-right: 12px; font-size: 16px;"></i>
+                                <span style="font-size: 15px;">Consent to medical treatment</span>
+                            </li>
+                            <li style="padding: 10px 0; border-bottom: 1px solid rgba(255, 255, 255, 0.2); display: flex; align-items: center;">
+                                <i class="fas fa-check-circle" style="color: var(--accent-gold); margin-right: 12px; font-size: 16px;"></i>
+                                <span style="font-size: 15px;">Apply for benefits on child's behalf</span>
+                            </li>
+                            <li style="padding: 10px 0; border-bottom: 1px solid rgba(255, 255, 255, 0.2); display: flex; align-items: center;">
+                                <i class="fas fa-check-circle" style="color: var(--accent-gold); margin-right: 12px; font-size: 16px;"></i>
+                                <span style="font-size: 15px;">Determine where child lives</span>
+                            </li>
+                            <li style="padding: 10px 0; border-bottom: 1px solid rgba(255, 255, 255, 0.2); display: flex; align-items: center;">
+                                <i class="fas fa-check-circle" style="color: var(--accent-gold); margin-right: 12px; font-size: 16px;"></i>
+                                <span style="font-size: 15px;">Access school and medical records</span>
+                            </li>
+                            <li style="padding: 10px 0; border-bottom: 1px solid rgba(255, 255, 255, 0.2); display: flex; align-items: center;">
+                                <i class="fas fa-check-circle" style="color: var(--accent-gold); margin-right: 12px; font-size: 16px;"></i>
+                                <span style="font-size: 15px;">Make day-to-day parenting decisions</span>
+                            </li>
+                            <li style="padding: 10px 0; display: flex; align-items: center;">
+                                <i class="fas fa-check-circle" style="color: var(--accent-gold); margin-right: 12px; font-size: 16px;"></i>
+                                <span style="font-size: 15px;">Receive financial assistance (if eligible)</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Your Responsibilities -->
+                    <div style="background: rgba(255, 255, 255, 0.08); padding: 35px; border-radius: 15px; backdrop-filter: blur(8px); border: 1px solid rgba(255, 255, 255, 0.2);">
+                        <div style="display: flex; align-items: center; margin-bottom: 25px;">
+                            <div style="width: 50px; height: 50px; background: linear-gradient(135deg, var(--accent-gold) 0%, #b8982f 100%); border-radius: 10px; display: flex; align-items: center; justify-content: center; margin-right: 15px;">
+                                <i class="fas fa-tasks" style="font-size: 24px; color: white;"></i>
+                            </div>
+                            <h3 style="color: white; margin: 0; font-size: 24px;">Your Responsibilities</h3>
+                        </div>
+                        <ul style="list-style: none; padding: 0; margin: 0; color: rgba(255, 255, 255, 0.9);">
+                            <li style="padding: 10px 0; border-bottom: 1px solid rgba(255, 255, 255, 0.2); display: flex; align-items: center;">
+                                <i class="fas fa-star" style="color: var(--accent-gold); margin-right: 12px; font-size: 16px;"></i>
+                                <span style="font-size: 15px;">Provide safe, stable home</span>
+                            </li>
+                            <li style="padding: 10px 0; border-bottom: 1px solid rgba(255, 255, 255, 0.2); display: flex; align-items: center;">
+                                <i class="fas fa-star" style="color: var(--accent-gold); margin-right: 12px; font-size: 16px;"></i>
+                                <span style="font-size: 15px;">Meet child's basic needs</span>
+                            </li>
+                            <li style="padding: 10px 0; border-bottom: 1px solid rgba(255, 255, 255, 0.2); display: flex; align-items: center;">
+                                <i class="fas fa-star" style="color: var(--accent-gold); margin-right: 12px; font-size: 16px;"></i>
+                                <span style="font-size: 15px;">Ensure education and healthcare</span>
+                            </li>
+                            <li style="padding: 10px 0; border-bottom: 1px solid rgba(255, 255, 255, 0.2); display: flex; align-items: center;">
+                                <i class="fas fa-star" style="color: var(--accent-gold); margin-right: 12px; font-size: 16px;"></i>
+                                <span style="font-size: 15px;">File court status reports</span>
+                            </li>
+                            <li style="padding: 10px 0; border-bottom: 1px solid rgba(255, 255, 255, 0.2); display: flex; align-items: center;">
+                                <i class="fas fa-star" style="color: var(--accent-gold); margin-right: 12px; font-size: 16px;"></i>
+                                <span style="font-size: 15px;">Manage finances responsibly</span>
+                            </li>
+                            <li style="padding: 10px 0; border-bottom: 1px solid rgba(255, 255, 255, 0.2); display: flex; align-items: center;">
+                                <i class="fas fa-star" style="color: var(--accent-gold); margin-right: 12px; font-size: 16px;"></i>
+                                <span style="font-size: 15px;">Facilitate parent visitation (if ordered)</span>
+                            </li>
+                            <li style="padding: 10px 0; display: flex; align-items: center;">
+                                <i class="fas fa-star" style="color: var(--accent-gold); margin-right: 12px; font-size: 16px;"></i>
+                                <span style="font-size: 15px;">Act in child's best interests</span>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="content-column">
-                    <h3>Your Responsibilities</h3>
-                    <ul class="checklist">
-                        <li>Provide safe, stable home</li>
-                        <li>Meet child's basic needs</li>
-                        <li>Ensure education and healthcare</li>
-                        <li>File court status reports</li>
-                        <li>Manage finances responsibly</li>
-                        <li>Facilitate parent visitation (if ordered)</li>
-                        <li>Act in child's best interests</li>
-                    </ul>
+
+                <div style="background: rgba(255, 193, 7, 0.15); border-left: 4px solid #ffc107; padding: 20px 25px; border-radius: 8px; backdrop-filter: blur(8px);">
+                    <p style="color: white; margin: 0; font-size: 16px; line-height: 1.6;">
+                        <i class="fas fa-exclamation-triangle" style="color: #ffc107; margin-right: 10px;"></i>
+                        <strong>Note:</strong> Guardians must get court approval for major decisions like
+                        moving out of state, changing the child's name, or allowing adoption.
+                    </p>
                 </div>
-            </div>
-            
-            <div class="alert-box alert-warning">
-                <i class="fas fa-exclamation-triangle"></i> <strong>Note:</strong> Guardians must get court approval for major decisions like 
-                moving out of state, changing the child's name, or allowing adoption.
             </div>
         </div>
     </section>
@@ -1020,66 +1300,69 @@
     </section>
 
     <!-- FAQ Section -->
-    <section class="info-section">
-        <div class="container">
-            <h2 class="section-title">Frequently Asked Questions</h2>
-            
-            <div class="faq-item">
-                <div class="faq-question">
-                    How long does the guardianship process take?
-                    <span>+</span>
+    <section style="background: url('images/guardianship-elder-law.jpg') center/cover no-repeat; padding: 80px 0; position: relative;">
+        <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(30, 58, 95, 0.5); z-index: 1;"></div>
+        <div class="container" style="position: relative; z-index: 2;">
+            <h2 style="text-align: center; font-family: 'Playfair Display', serif; font-size: 42px; color: white; margin-bottom: 50px; text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">Frequently Asked Questions</h2>
+
+            <div style="max-width: 900px; margin: 0 auto;">
+                <div style="background: rgba(255, 255, 255, 0.1); margin-bottom: 20px; border-radius: 12px; backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.2); overflow: hidden;">
+                    <div class="faq-question" style="padding: 20px 30px; background: rgba(95, 127, 191, 0.3); color: white; cursor: pointer; font-weight: 600; display: flex; justify-content: space-between; align-items: center; transition: background 0.3s;">
+                        How long does the guardianship process take?
+                        <span>+</span>
+                    </div>
+                    <div class="faq-answer" style="padding: 25px 30px; color: white; line-height: 1.8; background: rgba(255, 255, 255, 0.05);">
+                        The process typically takes 2-3 months from filing to court hearing. Emergency guardianships can be obtained
+                        within days if the child faces immediate danger. Temporary guardianships (up to 90 days) have expedited procedures.
+                    </div>
                 </div>
-                <div class="faq-answer">
-                    The process typically takes 2-3 months from filing to court hearing. Emergency guardianships can be obtained 
-                    within days if the child faces immediate danger. Temporary guardianships (up to 90 days) have expedited procedures.
+
+                <div style="background: rgba(255, 255, 255, 0.1); margin-bottom: 20px; border-radius: 12px; backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.2); overflow: hidden;">
+                    <div class="faq-question" style="padding: 20px 30px; background: rgba(95, 127, 191, 0.3); color: white; cursor: pointer; font-weight: 600; display: flex; justify-content: space-between; align-items: center; transition: background 0.3s;">
+                        Do I need the parents' consent?
+                        <span>+</span>
+                    </div>
+                    <div class="faq-answer" style="padding: 25px 30px; color: white; line-height: 1.8; background: rgba(255, 255, 255, 0.05);">
+                        Parent consent makes the process easier but is not required. If parents object, the court will hold a contested
+                        hearing to determine what's best for the child. Parents who cannot be located must still be notified through
+                        publication or other means.
+                    </div>
                 </div>
-            </div>
-            
-            <div class="faq-item">
-                <div class="faq-question">
-                    Do I need the parents' consent?
-                    <span>+</span>
+
+                <div style="background: rgba(255, 255, 255, 0.1); margin-bottom: 20px; border-radius: 12px; backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.2); overflow: hidden;">
+                    <div class="faq-question" style="padding: 20px 30px; background: rgba(95, 127, 191, 0.3); color: white; cursor: pointer; font-weight: 600; display: flex; justify-content: space-between; align-items: center; transition: background 0.3s;">
+                        What's the difference between guardianship and adoption?
+                        <span>+</span>
+                    </div>
+                    <div class="faq-answer" style="padding: 25px 30px; color: white; line-height: 1.8; background: rgba(255, 255, 255, 0.05);">
+                        Guardianship is temporary and doesn't end parental rights - parents can petition to regain custody.
+                        Adoption permanently transfers all parental rights and creates a new legal parent-child relationship.
+                        Guardianship ends at 18; adoption is permanent.
+                    </div>
                 </div>
-                <div class="faq-answer">
-                    Parent consent makes the process easier but is not required. If parents object, the court will hold a contested 
-                    hearing to determine what's best for the child. Parents who cannot be located must still be notified through 
-                    publication or other means.
+
+                <div style="background: rgba(255, 255, 255, 0.1); margin-bottom: 20px; border-radius: 12px; backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.2); overflow: hidden;">
+                    <div class="faq-question" style="padding: 20px 30px; background: rgba(95, 127, 191, 0.3); color: white; cursor: pointer; font-weight: 600; display: flex; justify-content: space-between; align-items: center; transition: background 0.3s;">
+                        Can I get financial help as a guardian?
+                        <span>+</span>
+                    </div>
+                    <div class="faq-answer" style="padding: 25px 30px; color: white; line-height: 1.8; background: rgba(255, 255, 255, 0.05);">
+                        Yes, several programs provide financial assistance to guardians including CalWORKs, Kin-GAP, AFDC-FC,
+                        and Social Security benefits. Eligibility depends on factors like your relationship to the child,
+                        income level, and the child's eligibility for benefits.
+                    </div>
                 </div>
-            </div>
-            
-            <div class="faq-item">
-                <div class="faq-question">
-                    What's the difference between guardianship and adoption?
-                    <span>+</span>
-                </div>
-                <div class="faq-answer">
-                    Guardianship is temporary and doesn't end parental rights - parents can petition to regain custody. 
-                    Adoption permanently transfers all parental rights and creates a new legal parent-child relationship. 
-                    Guardianship ends at 18; adoption is permanent.
-                </div>
-            </div>
-            
-            <div class="faq-item">
-                <div class="faq-question">
-                    Can I get financial help as a guardian?
-                    <span>+</span>
-                </div>
-                <div class="faq-answer">
-                    Yes, several programs provide financial assistance to guardians including CalWORKs, Kin-GAP, AFDC-FC, 
-                    and Social Security benefits. Eligibility depends on factors like your relationship to the child, 
-                    income level, and the child's eligibility for benefits.
-                </div>
-            </div>
-            
-            <div class="faq-item">
-                <div class="faq-question">
-                    Can guardianship be changed or terminated?
-                    <span>+</span>
-                </div>
-                <div class="faq-answer">
-                    Yes, guardianship can be modified or terminated by the court. Parents can petition to regain custody if they 
-                    can show changed circumstances. Guardians can also request termination if they can no longer serve. 
-                    The court always considers the child's best interests.
+
+                <div style="background: rgba(255, 255, 255, 0.1); margin-bottom: 20px; border-radius: 12px; backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.2); overflow: hidden;">
+                    <div class="faq-question" style="padding: 20px 30px; background: rgba(95, 127, 191, 0.3); color: white; cursor: pointer; font-weight: 600; display: flex; justify-content: space-between; align-items: center; transition: background 0.3s;">
+                        Can guardianship be changed or terminated?
+                        <span>+</span>
+                    </div>
+                    <div class="faq-answer" style="padding: 25px 30px; color: white; line-height: 1.8; background: rgba(255, 255, 255, 0.05);">
+                        Yes, guardianship can be modified or terminated by the court. Parents can petition to regain custody if they
+                        can show changed circumstances. Guardians can also request termination if they can no longer serve.
+                        The court always considers the child's best interests.
+                    </div>
                 </div>
             </div>
         </div>
@@ -1127,13 +1410,44 @@
     </section>
 
     <!-- CTA Section -->
-    <section class="cta-section" id="contact">
-        <div class="container">
-            <h2>Protect a Child's Future Today</h2>
-            <p>Don't wait when a child needs protection and stability</p>
-            <a href="tel:8182916217" class="btn-primary">Call (818) 291-6217 for Free Consultation</a>
-            <p style="margin-top: 30px;">Or complete our online questionnaire:</p>
-            <a href="guardianship-questionnaire.html" class="btn-primary">Start Guardianship Questionnaire</a>
+    <section style="background: linear-gradient(135deg, #1e3a5f 0%, #2c5282 50%, #5f7fbf 100%); color: white; padding: 100px 0; text-align: center; position: relative; overflow: hidden;" id="contact">
+        <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: radial-gradient(circle at 20% 50%, rgba(201, 169, 97, 0.1) 0%, transparent 50%), radial-gradient(circle at 80% 50%, rgba(95, 127, 191, 0.15) 0%, transparent 50%); z-index: 1;"></div>
+        <div class="container" style="position: relative; z-index: 2;">
+            <div style="max-width: 800px; margin: 0 auto;">
+                <div style="display: inline-block; background: rgba(201, 169, 97, 0.2); padding: 12px 30px; border-radius: 50px; margin-bottom: 25px; border: 1px solid rgba(201, 169, 97, 0.3);">
+                    <i class="fas fa-shield-alt" style="color: var(--accent-gold); margin-right: 10px;"></i>
+                    <span style="color: var(--accent-gold); font-weight: 600; font-size: 14px; letter-spacing: 1px;">GUARDIANSHIP SERVICES</span>
+                </div>
+
+                <h2 style="font-family: 'Playfair Display', serif; font-size: 48px; margin-bottom: 20px; line-height: 1.2;">Protect a Child's Future Today</h2>
+                <p style="font-size: 20px; margin-bottom: 40px; opacity: 0.95; line-height: 1.6;">Don't wait when a child needs protection and stability. Get compassionate legal guidance from experienced guardianship attorneys.</p>
+
+                <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap; margin-bottom: 40px;">
+                    <a href="tel:8182916217" style="display: inline-flex; align-items: center; background: var(--accent-gold); color: white; padding: 18px 40px; border-radius: 50px; text-decoration: none; font-weight: 600; font-size: 18px; transition: all 0.3s; box-shadow: 0 10px 30px rgba(201, 169, 97, 0.3);">
+                        <i class="fas fa-phone" style="margin-right: 12px; font-size: 20px;"></i>
+                        Call (818) 291-6217
+                    </a>
+                    <a href="guardianship-questionnaire.html" style="display: inline-flex; align-items: center; background: rgba(255, 255, 255, 0.15); color: white; padding: 18px 40px; border-radius: 50px; text-decoration: none; font-weight: 600; font-size: 18px; transition: all 0.3s; backdrop-filter: blur(10px); border: 2px solid rgba(255, 255, 255, 0.3);">
+                        <i class="fas fa-file-alt" style="margin-right: 12px; font-size: 20px;"></i>
+                        Start Questionnaire
+                    </a>
+                </div>
+
+                <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; max-width: 700px; margin: 0 auto; padding-top: 40px; border-top: 1px solid rgba(255, 255, 255, 0.2);">
+                    <div>
+                        <div style="font-size: 36px; font-weight: 700; color: var(--accent-gold); margin-bottom: 5px;">25+</div>
+                        <div style="font-size: 14px; opacity: 0.9;">Years Experience</div>
+                    </div>
+                    <div>
+                        <div style="font-size: 36px; font-weight: 700; color: var(--accent-gold); margin-bottom: 5px;">100%</div>
+                        <div style="font-size: 14px; opacity: 0.9;">Confidential</div>
+                    </div>
+                    <div>
+                        <div style="font-size: 36px; font-weight: 700; color: var(--accent-gold); margin-bottom: 5px;">Free</div>
+                        <div style="font-size: 14px; opacity: 0.9;">Consultation</div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -1181,5 +1495,8 @@
             }
         });
     </script>
+
+    </div> <!-- End main-content -->
+
 </body>
 </html>
