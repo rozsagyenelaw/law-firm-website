@@ -106,11 +106,8 @@
 
         /* Main Navigation */
         header {
-            background: white;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
-            position: sticky;
-            top: 0;
-            z-index: 1000;
+            background: transparent !important;
+            box-shadow: none;
         }
 
         nav {
@@ -127,7 +124,7 @@
             display: flex;
             align-items: center;
             text-decoration: none;
-            color: var(--primary-blue);
+            color: white;
         }
 
         .logo-text {
@@ -139,12 +136,12 @@
             font-family: 'Playfair Display', serif;
             font-size: 24px;
             font-weight: 700;
-            color: var(--primary-blue);
+            color: white;
         }
 
         .tagline {
             font-size: 12px;
-            color: var(--text-light);
+            color: rgba(255, 255, 255, 0.9);
             margin-top: 2px;
         }
 
@@ -163,7 +160,7 @@
         .nav-link {
             display: block;
             padding: 15px 20px;
-            color: var(--text-dark);
+            color: white;
             text-decoration: none;
             font-weight: 500;
             transition: all 0.3s;
@@ -175,7 +172,7 @@
         }
 
         .nav-item:hover .nav-link {
-            background: var(--hover-bg);
+            background: rgba(255, 255, 255, 0.1);
         }
 
         .nav-link.has-dropdown::after {
@@ -282,9 +279,48 @@
 
         /* Hero Section */
         .hero {
-            background: linear-gradient(135deg, #1e3a5f 0%, #3a5478 100%);
+            background: url('images/trust-admin-consultation.jpg') center/cover no-repeat;
             color: white;
-            padding: 100px 0;
+            padding: 0;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            min-height: 100vh;
+            z-index: 0;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(30, 58, 95, 0.7);
+            z-index: 1;
+        }
+
+        .hero > .container {
+            position: relative;
+            z-index: 2;
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 200px 20px 100px;
+        }
+
+        .hero-content-card {
+            background: rgba(255, 255, 255, 0.08);
+            backdrop-filter: blur(15px);
+            border-radius: 20px;
+            padding: 40px 35px;
+            max-width: 900px;
+            margin: 0 auto;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            box-shadow: 0 10px 40px rgba(0,0,0,0.3);
             text-align: center;
         }
 
@@ -292,6 +328,7 @@
             font-family: 'Playfair Display', serif;
             font-size: 56px;
             margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
         }
 
         .hero-subtitle {
@@ -351,17 +388,41 @@
             color: var(--primary-blue);
         }
 
-        /* Trust Admin Overview Section */
-        .overview {
-            padding: 80px 0;
+        /* Trust Badge Cards */
+        .trust-badge-card {
+            background: white;
+            padding: 30px 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .trust-badge-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+        }
+
+        /* Main Content - Scrolls over hero */
+        .main-content {
+            position: relative;
+            z-index: 10;
             background: white;
         }
 
+        /* Trust Admin Overview Section */
+        .overview {
+            padding: 80px 0;
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+        }
+
         .overview-content {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 60px;
-            align-items: center;
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            padding: 50px 60px;
+            border-radius: 20px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.1);
         }
 
         .overview-text h2 {
@@ -370,6 +431,7 @@
             color: var(--primary-blue);
             margin-bottom: 25px;
             line-height: 1.2;
+            text-align: center;
         }
 
         .overview-text p {
@@ -426,7 +488,24 @@
         /* Fee Structure Section */
         .fee-structure {
             padding: 80px 0;
-            background: var(--section-bg);
+            background: url('images/fee-consultation.jpg') center/cover no-repeat;
+            position: relative;
+        }
+
+        .fee-structure::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(30, 58, 95, 0.75);
+            z-index: 1;
+        }
+
+        .fee-structure .container {
+            position: relative;
+            z-index: 2;
         }
 
         .section-title {
@@ -444,6 +523,14 @@
             margin-bottom: 50px;
         }
 
+        .fee-structure .section-title {
+            color: white;
+        }
+
+        .fee-structure .section-subtitle {
+            color: rgba(255, 255, 255, 0.9);
+        }
+
         .fee-options {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
@@ -453,24 +540,35 @@
         }
 
         .fee-option {
-            background: white;
+            background: rgba(255, 255, 255, 0.08);
+            backdrop-filter: blur(15px);
             border-radius: 15px;
             padding: 40px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
             transition: all 0.3s;
+            border: 1px solid rgba(255, 255, 255, 0.2);
             border-top: 4px solid var(--accent-gold);
         }
 
         .fee-option:hover {
             transform: translateY(-5px);
-            box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.4);
+            background: rgba(255, 255, 255, 0.12);
         }
 
         .fee-option h3 {
-            color: var(--primary-blue);
+            color: white;
             font-size: 28px;
             margin-bottom: 20px;
             text-align: center;
+        }
+
+        .fee-option p {
+            color: rgba(255, 255, 255, 0.9);
+        }
+
+        .fee-option ul li {
+            color: white;
         }
 
         .fee-option ul {
@@ -531,23 +629,28 @@
         }
 
         .fee-note {
-            background: #fff3cd;
-            border-left: 4px solid var(--warning-orange);
+            background: rgba(255, 255, 255, 0.08);
+            backdrop-filter: blur(15px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-left: 4px solid var(--accent-gold);
             padding: 15px 20px;
             margin-top: 30px;
             border-radius: 5px;
             max-width: 900px;
             margin-left: auto;
             margin-right: auto;
+            color: white;
         }
 
         .fee-note i {
-            color: var(--warning-orange);
+            color: var(--accent-gold);
             margin-right: 10px;
         }
 
         .fee-comparison {
-            background: linear-gradient(135deg, #e8f4fd 0%, #d1e7f5 100%);
+            background: rgba(255, 255, 255, 0.08);
+            backdrop-filter: blur(15px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
             padding: 30px;
             border-radius: 15px;
             max-width: 900px;
@@ -556,68 +659,64 @@
         }
 
         .fee-comparison h4 {
-            color: var(--primary-blue);
+            color: white;
             font-size: 24px;
             margin-bottom: 15px;
         }
 
         .fee-comparison p {
-            color: var(--text-light);
+            color: rgba(255, 255, 255, 0.9);
             line-height: 1.8;
         }
 
         /* Process Timeline Section */
         .process-timeline {
             padding: 80px 0;
-            background: white;
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+        }
+
+        .process-timeline .section-title {
+            color: var(--primary-blue);
+        }
+
+        .process-timeline .section-subtitle {
+            color: var(--text-light);
         }
 
         .timeline {
             position: relative;
-            max-width: 1000px;
+            max-width: 1200px;
             margin: 0 auto;
-            padding: 0 20px;
+            padding: 50px 20px;
+            white-space: nowrap;
         }
 
         .timeline::before {
             content: '';
             position: absolute;
-            left: 50%;
-            top: 0;
-            bottom: 0;
-            width: 2px;
+            left: 20px;
+            right: 20px;
+            top: 60px;
+            height: 3px;
             background: var(--accent-gold);
-            transform: translateX(-50%);
         }
 
         .timeline-item {
             position: relative;
-            margin-bottom: 50px;
+            display: inline-block;
+            width: 19%;
+            text-align: center;
+            vertical-align: top;
+            margin-right: 1%;
+            white-space: normal;
         }
 
-        .timeline-content {
-            background: var(--section-bg);
-            padding: 30px;
-            border-radius: 10px;
-            width: calc(50% - 30px);
-            box-shadow: 0 5px 20px rgba(0,0,0,0.08);
-            transition: all 0.3s;
-        }
-
-        .timeline-item:nth-child(odd) .timeline-content {
-            margin-left: auto;
-        }
-
-        .timeline-content:hover {
-            transform: scale(1.02);
-            box-shadow: 0 10px 30px rgba(0,0,0,0.12);
+        .timeline-item:last-child {
+            margin-right: 0;
         }
 
         .timeline-icon {
-            position: absolute;
-            left: 50%;
-            top: 20px;
-            transform: translateX(-50%);
+            position: relative;
             width: 50px;
             height: 50px;
             background: var(--accent-gold);
@@ -628,30 +727,75 @@
             color: white;
             font-size: 20px;
             box-shadow: 0 5px 15px rgba(201, 169, 97, 0.3);
-            z-index: 1;
+            z-index: 2;
+            margin: 0 auto 20px;
+            border: 3px solid white;
         }
 
-        .timeline-content h3 {
-            color: var(--primary-blue);
-            margin-bottom: 10px;
-            font-size: 22px;
+        .timeline-content {
+            background: white;
+            padding: 20px 15px;
+            border-radius: 10px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+            transition: all 0.3s;
+            min-height: 200px;
+            border-top: 3px solid var(--accent-gold);
         }
 
-        .timeline-content p {
-            color: var(--text-light);
-            line-height: 1.6;
+        .timeline-content:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            border-top-color: var(--primary-blue);
         }
 
         .timeline-time {
             color: var(--accent-gold);
             font-weight: 600;
-            margin-bottom: 10px;
+            font-size: 12px;
+            margin-bottom: 8px;
+        }
+
+        .timeline-content h3 {
+            color: var(--primary-blue);
+            margin-bottom: 8px;
+            font-size: 16px;
+        }
+
+        .timeline-content p {
+            color: var(--text-light);
+            line-height: 1.5;
+            font-size: 13px;
         }
 
         /* Responsibilities Section */
         .responsibilities {
             padding: 80px 0;
-            background: var(--section-bg);
+            background: url('images/trustee-responsibilities.jpg') center/cover no-repeat;
+            position: relative;
+        }
+
+        .responsibilities::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(30, 58, 95, 0.75);
+            z-index: 1;
+        }
+
+        .responsibilities .container {
+            position: relative;
+            z-index: 2;
+        }
+
+        .responsibilities .section-title {
+            color: white;
+        }
+
+        .responsibilities .section-subtitle {
+            color: rgba(255, 255, 255, 0.9);
         }
 
         .responsibilities-grid {
@@ -662,17 +806,20 @@
         }
 
         .responsibility-card {
-            background: white;
+            background: rgba(255, 255, 255, 0.08);
+            backdrop-filter: blur(15px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
             padding: 30px;
             border-radius: 10px;
-            box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+            box-shadow: 0 5px 20px rgba(0,0,0,0.3);
             transition: all 0.3s;
             border-top: 4px solid var(--accent-gold);
         }
 
         .responsibility-card:hover {
             transform: translateY(-10px);
-            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+            background: rgba(255, 255, 255, 0.12);
         }
 
         .responsibility-icon {
@@ -682,19 +829,19 @@
         }
 
         .responsibility-card h3 {
-            color: var(--primary-blue);
+            color: white;
             margin-bottom: 15px;
             font-size: 20px;
         }
 
         .responsibility-card p {
-            color: var(--text-light);
+            color: rgba(255, 255, 255, 0.9);
             line-height: 1.6;
         }
 
         /* Warning Section */
         .warning-section {
-            background: linear-gradient(135deg, #dc3545 0%, #c82333 100%);
+            background: linear-gradient(135deg, #7a8f9f 0%, #5f7483 100%);
             padding: 60px 0;
             color: white;
         }
@@ -739,16 +886,35 @@
         /* Contact Form Section */
         .form-section {
             padding: 80px 0;
-            background: white;
+            background: url('images/client-consultation-handshake.jpg') center/cover no-repeat;
+            position: relative;
+        }
+
+        .form-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(30, 58, 95, 0.75);
+            z-index: 1;
+        }
+
+        .form-section .container {
+            position: relative;
+            z-index: 2;
         }
 
         .form-container {
             max-width: 800px;
             margin: 0 auto;
-            background: var(--section-bg);
+            background: rgba(255, 255, 255, 0.08);
+            backdrop-filter: blur(15px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
             padding: 50px;
             border-radius: 15px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
         }
 
         .form-header {
@@ -759,12 +925,12 @@
         .form-header h2 {
             font-family: 'Playfair Display', serif;
             font-size: 36px;
-            color: var(--primary-blue);
+            color: white;
             margin-bottom: 15px;
         }
 
         .form-header p {
-            color: var(--text-light);
+            color: rgba(255, 255, 255, 0.9);
             font-size: 18px;
         }
 
@@ -775,7 +941,7 @@
         .form-group label {
             display: block;
             margin-bottom: 10px;
-            color: var(--primary-blue);
+            color: white;
             font-weight: 600;
             font-size: 16px;
         }
@@ -806,7 +972,7 @@
         }
 
         .required {
-            color: #dc3545;
+            color: var(--accent-gold);
         }
 
         .radio-group {
@@ -821,6 +987,7 @@
             gap: 8px;
             cursor: pointer;
             font-weight: normal;
+            color: white;
         }
 
         .submit-btn {
@@ -846,21 +1013,38 @@
         .privacy-note {
             text-align: center;
             margin-top: 20px;
-            color: var(--text-light);
+            color: rgba(255, 255, 255, 0.9);
             font-size: 14px;
         }
 
         .privacy-note i {
-            color: var(--success-green);
+            color: var(--accent-gold);
             margin-right: 5px;
         }
 
         /* CTA Section */
         .cta {
-            background: linear-gradient(135deg, var(--primary-blue) 0%, #2a5298 100%);
+            background: url('images/trustee-responsibilities.jpg') center/cover no-repeat;
             color: white;
             padding: 80px 0;
             text-align: center;
+            position: relative;
+        }
+
+        .cta::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(30, 58, 95, 0.85);
+            z-index: 1;
+        }
+
+        .cta .container {
+            position: relative;
+            z-index: 2;
         }
 
         .cta h2 {
@@ -880,8 +1064,20 @@
             color: var(--accent-gold);
             font-weight: bold;
             text-decoration: none;
-            display: block;
+            display: inline-block;
             margin: 20px 0;
+            padding: 15px 40px;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border: 2px solid var(--accent-gold);
+            border-radius: 50px;
+            transition: all 0.3s;
+        }
+
+        .phone-large:hover {
+            background: rgba(255, 255, 255, 0.2);
+            transform: scale(1.05);
+            box-shadow: 0 10px 30px rgba(201, 169, 97, 0.3);
         }
 
         /* Footer */
@@ -889,6 +1085,8 @@
             background: var(--primary-blue);
             color: white;
             padding: 50px 0 30px;
+            position: relative;
+            z-index: 20;
         }
 
         .footer-content {
@@ -1007,17 +1205,23 @@
                 grid-template-columns: 1fr;
             }
 
-            .timeline::before {
-                left: 30px;
+            .timeline {
+                overflow-x: auto;
+                white-space: nowrap;
+                padding-bottom: 20px;
+            }
+
+            .timeline-item {
+                width: 280px;
+                margin-right: 20px;
             }
 
             .timeline-content {
-                width: calc(100% - 80px);
-                margin-left: 80px !important;
+                white-space: normal;
             }
 
-            .timeline-icon {
-                left: 30px;
+            .timeline::before {
+                top: 50px;
             }
         }
 
@@ -1050,6 +1254,15 @@
                 padding: 30px 20px;
             }
 
+            .trust-badge-card {
+                padding: 20px 15px;
+            }
+
+            /* Mobile styles for trust badge cards */
+            div[style*="grid-template-columns: repeat(5, 1fr)"] {
+                grid-template-columns: 1fr !important;
+            }
+
             .top-bar .container {
                 flex-direction: column;
                 gap: 5px;
@@ -1063,103 +1276,163 @@
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
     
-    <!-- Top Bar -->
-    <div class="top-bar">
-        <div class="container">
-            <div>
-                <i class="fas fa-certificate"></i> Licensed California Attorney - Bar #208356
-            </div>
-            <div>
-                <i class="fas fa-phone"></i> Free Consultation: <a href="tel:8182916217">(818) 291-6217</a>
-            </div>
-        </div>
-    </div>
-
-    <!-- Main Navigation -->
-    <header>
-        <nav>
-            <div class="container">
-                <a href="index.html" class="logo">
-                    <div class="logo-text">
-                        <span class="firm-name">LAW OFFICES OF ROZSA GYENE</span>
-                        <span class="tagline">Estate Planning & Probate Specialists Since 2001</span>
-                    </div>
-                </a>
-
-                <button class="mobile-toggle" onclick="toggleMenu()">
-                    <i class="fas fa-bars"></i>
-                </button>
-
-                <ul class="nav-menu" id="navMenu">
-                    <button class="close-menu" onclick="toggleMenu()">
-                        <i class="fas fa-times"></i>
-                    </button>
-
-                    <li class="nav-item">
-                        <a href="index.html" class="nav-link">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="about.html" class="nav-link">About</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a href="#" class="nav-link has-dropdown">Estate Planning</a>
-                        <div class="dropdown">
-                            <a href="living-trusts.html" class="dropdown-item">Living Trusts</a>
-                            <a href="trust-administration.html" class="dropdown-item">Trust Administration</a>
-                            <a href="trust-administration-questionnaire.html" class="dropdown-item">Trust Administration Questionnaire</a>
-                            <a href="trust-amendment.html" class="dropdown-item">Trust Amendments</a>
-                            <a href="special-needs-trust.html" class="dropdown-item">Special Needs Trusts</a>
-                            <a href="life-insurance-trust.html" class="dropdown-item">Life Insurance Trusts</a>
-                            <a href="asset-protection.html" class="dropdown-item">Asset Protection</a>
-                            <a href="estate-planning-questionnaire.html" class="dropdown-item">Estate Planning Form</a>
-                        </div>
-                    </li>
-
-                    <li class="nav-item">
-                        <a href="#" class="nav-link has-dropdown">Probate</a>
-                        <div class="dropdown">
-                            <a href="probate.html" class="dropdown-item">Probate Services</a>
-                            <a href="probate-intake-form.html" class="dropdown-item">Probate Intake Form</a>
-                        </div>
-                    </li>
-
-                    <li class="nav-item">
-                        <a href="#" class="nav-link has-dropdown">Conservatorship</a>
-                        <div class="dropdown">
-                            <a href="conservatorship.html" class="dropdown-item">Conservatorship Services</a>
-                            <a href="conservatorship-questionnaire.html" class="dropdown-item">Conservatorship Form</a>
-                        </div>
-                    </li>
-
-                    <li class="nav-item">
-                        <a href="#" class="nav-link has-dropdown">Guardianship</a>
-                        <div class="dropdown">
-                            <a href="guardianship.html" class="dropdown-item">Guardianship Services</a>
-                            <a href="guardianship-questionnaire.html" class="dropdown-item">Guardianship Form</a>
-                        </div>
-                    </li>
-
-                    <a href="https://portal.livingtrust-attorneys.com/" class="btn-client-portal" target="_blank">Client Portal</a>
-                    <a href="https://portal.livingtrust-attorneys.com/book" class="btn-book">Book Now</a>
-                </ul>
-            </div>
-        </nav>
-    </header>
-
     <!-- Hero Section -->
     <section class="hero">
+        <!-- Top Bar -->
+        <div class="top-bar" style="position: absolute !important; top: 0 !important; left: 0 !important; width: 100% !important; z-index: 101 !important;">
+            <div class="container">
+                <div>
+                    <i class="fas fa-certificate"></i> Licensed California Attorney - Bar #208356
+                </div>
+                <div>
+                    <i class="fas fa-phone"></i> Free Consultation: <a href="tel:8182916217">(818) 291-6217</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Navigation Inside Hero -->
+        <header style="position: absolute !important; top: 50px !important; left: 0 !important; width: 100% !important; z-index: 100 !important; display: block !important; visibility: visible !important;">
+            <nav>
+                <div class="container">
+                    <a href="index.html" class="logo">
+                        <div class="logo-text">
+                            <span class="firm-name">LAW OFFICES OF ROZSA GYENE</span>
+                            <span class="tagline">Estate Planning & Probate Specialists Since 2001</span>
+                        </div>
+                    </a>
+
+                    <button class="mobile-toggle" onclick="toggleMenu()">
+                        <i class="fas fa-bars"></i>
+                    </button>
+
+                    <ul class="nav-menu" id="navMenu">
+                        <button class="close-menu" onclick="toggleMenu()">
+                            <i class="fas fa-times"></i>
+                        </button>
+
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="about.html" class="nav-link">About</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#" class="nav-link has-dropdown">Estate Planning</a>
+                            <div class="dropdown">
+                                <a href="living-trusts.html" class="dropdown-item">Living Trusts</a>
+                                <a href="trust-administration.html" class="dropdown-item">Trust Administration</a>
+                                <a href="trust-administration-questionnaire.html" class="dropdown-item">Trust Administration Questionnaire</a>
+                                <a href="trust-amendment.html" class="dropdown-item">Trust Amendments</a>
+                                <a href="special-needs-trust.html" class="dropdown-item">Special Needs Trusts</a>
+                                <a href="life-insurance-trust.html" class="dropdown-item">Life Insurance Trusts</a>
+                                <a href="asset-protection.html" class="dropdown-item">Asset Protection</a>
+                                <a href="estate-planning-questionnaire.html" class="dropdown-item">Estate Planning Form</a>
+                            </div>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#" class="nav-link has-dropdown">Probate</a>
+                            <div class="dropdown">
+                                <a href="probate.html" class="dropdown-item">Probate Services</a>
+                                <a href="probate-intake-form.html" class="dropdown-item">Probate Intake Form</a>
+                            </div>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#" class="nav-link has-dropdown">Conservatorship</a>
+                            <div class="dropdown">
+                                <a href="conservatorship.html" class="dropdown-item">Conservatorship Services</a>
+                                <a href="conservatorship-questionnaire.html" class="dropdown-item">Conservatorship Form</a>
+                            </div>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#" class="nav-link has-dropdown">Guardianship</a>
+                            <div class="dropdown">
+                                <a href="guardianship.html" class="dropdown-item">Guardianship Services</a>
+                                <a href="guardianship-questionnaire.html" class="dropdown-item">Guardianship Form</a>
+                            </div>
+                        </li>
+
+                        <a href="https://portal.livingtrust-attorneys.com/" class="btn-client-portal" target="_blank">Client Portal</a>
+                        <a href="https://portal.livingtrust-attorneys.com/book" class="btn-book">Book Now</a>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
         <div class="container">
-            <h1>Trust Administration Services</h1>
-            <p class="hero-subtitle">Guiding Trustees Through Their Duties After a Death</p>
-            <p class="hero-description">
-                When someone passes away with a living trust, the successor trustee must properly administer 
-                the trust according to California law. We provide comprehensive guidance through this complex 
-                process, ensuring all legal requirements are met while honoring the trustor's wishes.
-            </p>
-            <div class="hero-buttons">
-                <a href="#form" class="btn-primary">Get Help Now</a>
-                <a href="tel:8182916217" class="btn-secondary">Call (818) 291-6217</a>
+            <div class="hero-content-card">
+                <h1>Trust Administration Services</h1>
+                <p class="hero-subtitle">Guiding Trustees Through Their Duties After a Death</p>
+                <p class="hero-description">
+                    When someone passes away with a living trust, the successor trustee must properly administer
+                    the trust according to California law. We provide comprehensive guidance through this complex
+                    process, ensuring all legal requirements are met while honoring the trustor's wishes.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#form" class="btn-primary">Get Help Now</a>
+                    <a href="tel:8182916217" class="btn-secondary">Call (818) 291-6217</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content Wrapper - Scrolls over hero -->
+    <div class="main-content">
+
+    <!-- Trust Badges Section -->
+    <section style="padding: 50px 0; background: white;">
+        <div class="container">
+            <h2 style="text-align: center; font-family: 'Playfair Display', serif; font-size: 32px; color: var(--primary-blue); margin-bottom: 40px;">
+                Why Choose Law Offices of Rozsa Gyene for Trust Administration?
+            </h2>
+            <div style="display: grid; grid-template-columns: repeat(5, 1fr); gap: 20px; max-width: 1200px; margin: 0 auto;">
+                <div class="trust-badge-card">
+                    <div style="width: 50px; height: 50px; background: linear-gradient(135deg, #c9a961 0%, #b8982f 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 12px;">
+                        <i class="fas fa-users" style="font-size: 22px; color: white;"></i>
+                    </div>
+                    <div style="font-size: 18px; font-weight: bold; color: var(--primary-blue); margin-bottom: 4px;">5000+ Families</div>
+                    <div style="font-size: 12px; color: var(--text-light); font-weight: 500;">Served</div>
+                    <div style="font-size: 11px; color: var(--text-light); margin-top: 4px;">Since 2001</div>
+                </div>
+
+                <div class="trust-badge-card">
+                    <div style="width: 50px; height: 50px; background: linear-gradient(135deg, #c9a961 0%, #b8982f 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 12px;">
+                        <i class="fas fa-certificate" style="font-size: 22px; color: white;"></i>
+                    </div>
+                    <div style="font-size: 18px; font-weight: bold; color: var(--primary-blue); margin-bottom: 4px; line-height: 1.2;">California State Bar</div>
+                    <div style="font-size: 12px; color: var(--text-light); font-weight: 500;">#208356</div>
+                    <div style="font-size: 11px; color: var(--text-light); margin-top: 4px;">Licensed & Verified</div>
+                </div>
+
+                <div class="trust-badge-card">
+                    <div style="width: 50px; height: 50px; background: linear-gradient(135deg, #c9a961 0%, #b8982f 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 12px;">
+                        <i class="fas fa-star" style="font-size: 22px; color: white;"></i>
+                    </div>
+                    <div style="font-size: 18px; font-weight: bold; color: var(--primary-blue); margin-bottom: 4px;">A+ Rated</div>
+                    <div style="font-size: 12px; color: var(--text-light); font-weight: 500;">Better Business Bureau</div>
+                    <div style="font-size: 11px; color: var(--text-light); margin-top: 4px;">Trusted Excellence</div>
+                </div>
+
+                <div class="trust-badge-card">
+                    <div style="width: 50px; height: 50px; background: linear-gradient(135deg, #c9a961 0%, #b8982f 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 12px;">
+                        <i class="fas fa-award" style="font-size: 22px; color: white;"></i>
+                    </div>
+                    <div style="font-size: 18px; font-weight: bold; color: var(--primary-blue); margin-bottom: 4px;">25+ Years</div>
+                    <div style="font-size: 12px; color: var(--text-light); font-weight: 500;">Experience</div>
+                    <div style="font-size: 11px; color: var(--text-light); margin-top: 4px;">Estate Planning Experts</div>
+                </div>
+
+                <div class="trust-badge-card">
+                    <div style="width: 50px; height: 50px; background: linear-gradient(135deg, #c9a961 0%, #b8982f 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 12px;">
+                        <i class="fas fa-shield-alt" style="font-size: 22px; color: white;"></i>
+                    </div>
+                    <div style="font-size: 18px; font-weight: bold; color: var(--primary-blue); margin-bottom: 4px;">100% Confidential</div>
+                    <div style="font-size: 12px; color: var(--text-light); font-weight: 500;">Attorney-Client Privilege</div>
+                    <div style="font-size: 11px; color: var(--text-light); margin-top: 4px;">Your Privacy Protected</div>
+                </div>
             </div>
         </div>
     </section>
@@ -1200,10 +1473,6 @@
                         </div>
                     </div>
                 </div>
-                <div class="overview-image">
-                    <div class="urgent-badge">Time-Sensitive</div>
-                    <img src="images/trust-administration-meeting.jpg" alt="Trust administration consultation">
-                </div>
             </div>
         </div>
     </section>
@@ -1218,8 +1487,8 @@
                 <!-- Regular Retainer Option -->
                 <div class="fee-option">
                     <h3><i class="fas fa-clock" style="color: var(--accent-gold); margin-right: 10px;"></i>Regular Retainer Agreement</h3>
-                    <p style="color: var(--text-light); line-height: 1.8; margin: 20px 0;">
-                        Traditional hourly billing arrangement where you pay for services as they are rendered. 
+                    <p style="color: rgba(255, 255, 255, 0.9); line-height: 1.8; margin: 20px 0;">
+                        Traditional hourly billing arrangement where you pay for services as they are rendered.
                         This option provides transparency and control over legal costs throughout the administration process.
                     </p>
                     <ul>
@@ -1234,8 +1503,8 @@
                 <!-- Contingency Fee Option -->
                 <div class="fee-option">
                     <h3><i class="fas fa-percentage" style="color: var(--accent-gold); margin-right: 10px;"></i>Contingency Fee Agreement</h3>
-                    <p style="color: var(--text-light); line-height: 1.8; margin: 20px 0;">
-                        Fee based on a percentage of the estate value, typically paid from trust assets upon distribution. 
+                    <p style="color: rgba(255, 255, 255, 0.9); line-height: 1.8; margin: 20px 0;">
+                        Fee based on a percentage of the estate value, typically paid from trust assets upon distribution.
                         This arrangement means no upfront costs and fees are only due when assets become available.
                     </p>
                     <ul>
@@ -1541,6 +1810,8 @@
             </div>
         </div>
     </section>
+
+    </div> <!-- End Main Content -->
 
     <!-- Footer -->
     <footer>
