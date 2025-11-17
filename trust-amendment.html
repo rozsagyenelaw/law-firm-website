@@ -66,11 +66,8 @@
 
         /* Main Navigation */
         header {
-            background: white;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
-            position: sticky;
-            top: 0;
-            z-index: 1000;
+            background: transparent !important;
+            box-shadow: none;
         }
 
         nav {
@@ -87,7 +84,8 @@
             display: flex;
             align-items: center;
             text-decoration: none;
-            color: var(--primary-blue);
+            color: white;
+            margin-top: 19px;
         }
 
         .logo-text {
@@ -99,11 +97,12 @@
             font-family: 'Playfair Display', serif;
             font-size: 24px;
             font-weight: 700;
+            color: white;
         }
 
         .logo-text .tagline {
             font-size: 12px;
-            color: var(--text-light);
+            color: rgba(255, 255, 255, 0.9);
             margin-top: 2px;
         }
 
@@ -122,7 +121,7 @@
         .nav-link {
             display: block;
             padding: 15px 20px;
-            color: var(--text-dark);
+            color: white;
             text-decoration: none;
             font-weight: 500;
             transition: all 0.3s;
@@ -134,7 +133,7 @@
         }
 
         .nav-item:hover .nav-link {
-            background: var(--hover-bg);
+            background: rgba(255, 255, 255, 0.1);
         }
 
         /* Dropdown Arrow */
@@ -246,9 +245,48 @@
 
         /* Hero Section */
         .hero {
-            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            background: url('images/trust-amendment-consultation.jpg') center/cover no-repeat;
             color: white;
-            padding: 100px 0;
+            padding: 0;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            min-height: 100vh;
+            z-index: 0;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(30, 58, 95, 0.7);
+            z-index: 1;
+        }
+
+        .hero > .container {
+            position: relative;
+            z-index: 2;
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 200px 20px 100px;
+        }
+
+        .hero-content-card {
+            background: rgba(255, 255, 255, 0.08);
+            backdrop-filter: blur(15px);
+            border-radius: 20px;
+            padding: 40px 35px;
+            max-width: 900px;
+            margin: 0 auto;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            box-shadow: 0 10px 40px rgba(0,0,0,0.3);
             text-align: center;
         }
 
@@ -256,6 +294,7 @@
             font-family: 'Playfair Display', serif;
             font-size: 56px;
             margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
         }
 
         .hero-subtitle {
@@ -266,17 +305,22 @@
 
         .price-badge {
             display: inline-block;
-            background: white;
-            color: #2a5298;
+            background: rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(10px);
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            color: white;
             padding: 15px 40px;
             border-radius: 50px;
             font-size: 28px;
             font-weight: bold;
             margin: 30px 0;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.2);
         }
 
         .btn-primary {
             background: var(--accent-gold);
+            backdrop-filter: blur(10px);
+            border: 2px solid rgba(201, 169, 97, 0.5);
             color: white;
             padding: 15px 40px;
             border-radius: 50px;
@@ -285,12 +329,36 @@
             font-size: 18px;
             transition: all 0.3s;
             display: inline-block;
+            box-shadow: 0 5px 20px rgba(201, 169, 97, 0.5);
         }
 
         .btn-primary:hover {
             background: #b8982f;
+            border-color: rgba(184, 152, 47, 0.8);
             transform: translateY(-2px);
-            box-shadow: 0 5px 15px rgba(201, 169, 97, 0.3);
+            box-shadow: 0 8px 25px rgba(201, 169, 97, 0.6);
+        }
+
+        /* Trust Badge Cards */
+        .trust-badge-card {
+            background: white;
+            padding: 30px 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .trust-badge-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+        }
+
+        /* Main Content - Scrolls over hero */
+        .main-content {
+            position: relative;
+            z-index: 10;
+            background: white;
         }
 
         /* Info Section */
@@ -317,8 +385,29 @@
 
         /* Reasons Grid */
         .reasons-section {
-            background: var(--section-bg);
+            background: url('images/trust-amendment-signing.jpg') center/cover no-repeat;
             padding: 80px 0;
+            position: relative;
+        }
+
+        .reasons-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(30, 58, 95, 0.75);
+            z-index: 1;
+        }
+
+        .reasons-section .container {
+            position: relative;
+            z-index: 2;
+        }
+
+        .reasons-section h2 {
+            color: white !important;
         }
 
         .reasons-grid {
@@ -329,34 +418,38 @@
         }
 
         .reason-card {
-            background: white;
+            background: rgba(255, 255, 255, 0.08);
+            backdrop-filter: blur(15px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
             padding: 30px;
             border-radius: 10px;
             border-left: 4px solid var(--accent-gold);
-            box-shadow: 0 3px 15px rgba(0,0,0,0.08);
+            box-shadow: 0 5px 20px rgba(0,0,0,0.3);
             transition: all 0.3s;
         }
 
         .reason-card:hover {
             transform: translateY(-5px);
-            box-shadow: 0 5px 25px rgba(0,0,0,0.15);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+            background: rgba(255, 255, 255, 0.12);
         }
 
         .reason-card h3 {
-            color: var(--primary-blue);
+            color: white;
             margin-bottom: 15px;
             font-size: 22px;
         }
 
         .reason-card p {
-            color: var(--text-light);
+            color: rgba(255, 255, 255, 0.9);
             line-height: 1.6;
         }
 
         /* Process Section */
         .process-section {
             padding: 80px 0;
-            background: white;
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            position: relative;
         }
 
         .process-section h2 {
@@ -369,14 +462,38 @@
 
         .process-steps {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 40px;
-            max-width: 1000px;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+            max-width: 1200px;
             margin: 0 auto;
+            position: relative;
+        }
+
+        .process-steps::before {
+            content: '';
+            position: absolute;
+            top: 35px;
+            left: 12.5%;
+            right: 12.5%;
+            height: 3px;
+            background: linear-gradient(90deg, var(--accent-gold) 0%, var(--accent-gold) 100%);
+            z-index: 0;
         }
 
         .step {
             text-align: center;
+            position: relative;
+            z-index: 1;
+            background: white;
+            padding: 30px 20px;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+            transition: all 0.3s;
+        }
+
+        .step:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
         }
 
         .step-number {
@@ -385,22 +502,27 @@
             justify-content: center;
             width: 70px;
             height: 70px;
-            background: var(--accent-gold);
+            background: linear-gradient(135deg, var(--accent-gold) 0%, #b8982f 100%);
             color: white;
             border-radius: 50%;
             font-size: 28px;
             font-weight: bold;
             margin-bottom: 20px;
+            border: 4px solid white;
+            box-shadow: 0 5px 15px rgba(201, 169, 97, 0.3);
         }
 
         .step h3 {
             color: var(--primary-blue);
             margin-bottom: 10px;
             font-size: 20px;
+            font-weight: 600;
         }
 
         .step p {
             color: var(--text-light);
+            line-height: 1.6;
+            font-size: 15px;
         }
 
         /* Warning Box */
@@ -426,14 +548,31 @@
 
         /* Benefits Section */
         .benefits {
-            background: var(--section-bg);
+            background: url('images/professional-amendment-services.jpg') center/cover no-repeat;
             padding: 80px 0;
+            position: relative;
+        }
+
+        .benefits::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(30, 58, 95, 0.75);
+            z-index: 1;
+        }
+
+        .benefits .container {
+            position: relative;
+            z-index: 2;
         }
 
         .benefits h2 {
             font-family: 'Playfair Display', serif;
             font-size: 42px;
-            color: var(--primary-blue);
+            color: white;
             text-align: center;
             margin-bottom: 50px;
         }
@@ -450,6 +589,19 @@
             display: flex;
             align-items: flex-start;
             gap: 15px;
+            background: rgba(255, 255, 255, 0.08);
+            backdrop-filter: blur(15px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+            transition: all 0.3s;
+        }
+
+        .benefit-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+            background: rgba(255, 255, 255, 0.12);
         }
 
         .benefit-icon {
@@ -459,20 +611,39 @@
         }
 
         .benefit-content h4 {
-            color: var(--primary-blue);
+            color: white;
             margin-bottom: 5px;
+            font-weight: 600;
         }
 
         .benefit-content p {
-            color: var(--text-light);
+            color: rgba(255, 255, 255, 0.9);
         }
 
         /* CTA Section */
         .cta {
-            background: var(--primary-blue);
+            background: url('images/consultation-meeting.jpg') center/cover no-repeat;
             color: white;
             padding: 80px 0;
             text-align: center;
+            position: relative;
+            min-height: 500px;
+        }
+
+        .cta::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(30, 58, 95, 0.80);
+            z-index: 1;
+        }
+
+        .cta .container {
+            position: relative;
+            z-index: 2;
         }
 
         .cta h2 {
@@ -495,12 +666,104 @@
             margin-top: 20px;
         }
 
+        /* FAQ Section */
+        .faq-section {
+            background: url('images/faq-background.jpg') center/cover no-repeat fixed;
+            padding: 80px 0;
+            position: relative;
+            min-height: 600px;
+        }
+
+        .faq-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(30, 58, 95, 0.75);
+            z-index: 1;
+        }
+
+        .faq-section .container {
+            position: relative;
+            z-index: 2;
+        }
+
+        /* FAQ Card */
+        .faq-card {
+            background: rgba(255, 255, 255, 0.12) !important;
+            backdrop-filter: blur(25px) !important;
+            -webkit-backdrop-filter: blur(25px) !important;
+            padding: 25px;
+            border-radius: 12px;
+            border: 2px solid rgba(255, 255, 255, 0.3) !important;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.5) !important;
+            transition: all 0.3s ease;
+        }
+
+        .faq-card:hover {
+            transform: translateY(-5px);
+            background: rgba(255, 255, 255, 0.18) !important;
+            box-shadow: 0 12px 40px rgba(0,0,0,0.6) !important;
+            border-color: rgba(201, 169, 97, 0.7) !important;
+        }
+
+        /* FAQ CTA Box */
+        .faq-cta-box {
+            background: rgba(255, 255, 255, 0.15) !important;
+            backdrop-filter: blur(25px) !important;
+            -webkit-backdrop-filter: blur(25px) !important;
+            border: 3px solid rgba(201, 169, 97, 0.7) !important;
+            border-radius: 15px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.6) !important;
+        }
+
+        /* Trust Review Section */
+        .trust-review-section {
+            background: url('images/consultation-meeting.jpg') center/cover no-repeat;
+            padding: 80px 0;
+            position: relative;
+            min-height: 600px;
+        }
+
+        .trust-review-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(30, 58, 95, 0.80);
+            z-index: 1;
+        }
+
+        .trust-review-section .container {
+            position: relative;
+            z-index: 2;
+        }
+
+        .trust-review-card {
+            background: rgba(255, 255, 255, 0.12) !important;
+            backdrop-filter: blur(25px) !important;
+            -webkit-backdrop-filter: blur(25px) !important;
+            padding: 50px 60px;
+            border-radius: 20px;
+            border: 2px solid rgba(255, 255, 255, 0.3) !important;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.5) !important;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
         /* Footer */
         footer {
-            background: var(--primary-blue);
+            background: #1a2f4a;
             color: white;
             padding: 40px 0;
             text-align: center;
+            position: relative;
+            z-index: 20;
+            border-top: 3px solid var(--accent-gold);
         }
 
         .footer-contact a {
@@ -587,17 +850,30 @@
                 display: block;
                 text-align: center;
             }
+
+            .trust-badge-card {
+                padding: 20px 15px;
+            }
+
+            /* Mobile styles for trust badge cards */
+            div[style*="grid-template-columns: repeat(5, 1fr)"] {
+                grid-template-columns: 1fr !important;
+            }
         }
 
         @media (max-width: 768px) {
             .hero h1 {
                 font-size: 36px;
             }
-            
+
             .reasons-grid,
             .process-steps,
             .benefits-grid {
                 grid-template-columns: 1fr;
+            }
+
+            .process-steps::before {
+                display: none;
             }
 
             .top-bar .container {
@@ -609,217 +885,354 @@
             section > .container > div[style*="grid-template-columns: 1fr 1fr"] {
                 grid-template-columns: 1fr !important;
             }
-            
+
             section > .container > div[style*="grid-template-columns: 1fr 1fr"] > div:last-child {
                 order: -1;
+            }
+
+            /* Mobile styles for pricing cards */
+            div[style*="grid-template-columns: repeat(3, 1fr)"] {
+                grid-template-columns: 1fr !important;
+            }
+
+            /* Mobile styles for comparison table */
+            div[style*="grid-template-columns: 2fr 1.5fr 1.5fr"] {
+                grid-template-columns: 1fr !important;
+            }
+
+            div[style*="grid-template-columns: 2fr 1.5fr 1.5fr"] > div {
+                border-left: none !important;
+                border-bottom: 1px solid #e9ecef !important;
+            }
+
+            /* Mobile styles for testimonials */
+            div[style*="grid-template-columns: repeat(3, 1fr)"] {
+                grid-template-columns: 1fr !important;
+            }
+
+            /* Mobile styles for FAQ 2-column grid */
+            div[style*="grid-template-columns: repeat(2, 1fr)"] {
+                grid-template-columns: 1fr !important;
+            }
+
+            /* Mobile styles for trust review card */
+            .trust-review-card {
+                padding: 30px 25px !important;
             }
         }
     </style>
 </head>
 <body>
-    <!-- Top Bar -->
-    <div class="top-bar">
-        <div class="container">
-            <div>
-                <i class="fas fa-certificate"></i> Licensed California Attorney - Bar #208356
-            </div>
-            <div>
-                <i class="fas fa-phone"></i> Free Consultation: <a href="tel:8182916217">(818) 291-6217</a>
-            </div>
-        </div>
-    </div>
-
-    <!-- Main Navigation -->
-    <header>
-        <nav>
-            <div class="container">
-                <a href="index.html" class="logo">
-                    <div class="logo-text">
-                        <span class="firm-name">LAW OFFICES OF ROZSA GYENE</span>
-                        <span class="tagline">Estate Planning & Probate Specialists Since 2001</span>
-                    </div>
-                </a>
-
-                <button class="mobile-toggle" onclick="toggleMenu()">
-                    <i class="fas fa-bars"></i>
-                </button>
-
-                <ul class="nav-menu" id="navMenu">
-                    <button class="close-menu" onclick="toggleMenu()">
-                        <i class="fas fa-times"></i>
-                    </button>
-
-                    <li class="nav-item">
-                        <a href="index.html" class="nav-link">Home</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a href="about.html" class="nav-link">About</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a href="#" class="nav-link has-dropdown">Estate Planning</a>
-                        <div class="dropdown">
-                            <a href="living-trusts.html" class="dropdown-item">Living Trusts</a>
-                            <a href="trust-administration.html" class="dropdown-item">Trust Administration</a>
-                            <a href="trust-administration-questionnaire.html" class="dropdown-item">Trust Administration Questionnaire</a>
-                            <a href="trust-amendment.html" class="dropdown-item">Trust Amendments</a>
-                            <a href="special-needs-trust.html" class="dropdown-item">Special Needs Trusts</a>
-                            <a href="life-insurance-trust.html" class="dropdown-item">Life Insurance Trusts</a>
-                            <a href="asset-protection.html" class="dropdown-item">Asset Protection</a>
-                            <a href="estate-planning-questionnaire.html" class="dropdown-item">Estate Planning Form</a>
-                        </div>
-                    </li>
-
-                    <li class="nav-item">
-                        <a href="#" class="nav-link has-dropdown">Probate</a>
-                        <div class="dropdown">
-                            <a href="probate.html" class="dropdown-item">Probate Services</a>
-                            <a href="probate-intake-form.html" class="dropdown-item">Probate Intake Form</a>
-                        </div>
-                    </li>
-
-                    <li class="nav-item">
-                        <a href="#" class="nav-link has-dropdown">Conservatorship</a>
-                        <div class="dropdown">
-                            <a href="conservatorship.html" class="dropdown-item">Conservatorship Services</a>
-                            <a href="conservatorship-questionnaire.html" class="dropdown-item">Conservatorship Form</a>
-                        </div>
-                    </li>
-
-                    <li class="nav-item">
-                        <a href="#" class="nav-link has-dropdown">Guardianship</a>
-                        <div class="dropdown">
-                            <a href="guardianship.html" class="dropdown-item">Guardianship Services</a>
-                            <a href="guardianship-questionnaire.html" class="dropdown-item">Guardianship Form</a>
-                        </div>
-                    </li>
-
-                    <a href="https://portal.livingtrust-attorneys.com/" class="btn-client-portal" target="_blank">Client Portal</a>
-                    <a href="https://portal.livingtrust-attorneys.com/book" class="btn-book">Book Now</a>
-                </ul>
-            </div>
-        </nav>
-    </header>
-
     <!-- Hero Section -->
     <section class="hero">
-        <div class="container">
-            <h1>Trust Amendment Services</h1>
-            <p class="hero-subtitle">Update Your Living Trust to Reflect Life's Changes</p>
-            <p style="font-size: 18px; max-width: 800px; margin: 0 auto;">
-                Life changes, and your trust should too. Whether you've had changes in assets, beneficiaries, or trustees, 
-                we'll help you keep your trust current and legally compliant.
-            </p>
-            <div class="price-badge">Starting at $350</div>
-            <div>
-                <a href="https://portal.livingtrust-attorneys.com/book" class="btn-primary">Schedule Consultation</a>
+        <!-- Top Bar -->
+        <div class="top-bar" style="position: absolute !important; top: 0 !important; left: 0 !important; width: 100% !important; z-index: 101 !important;">
+            <div class="container">
+                <div>
+                    <i class="fas fa-certificate"></i> Licensed California Attorney - Bar #208356
+                </div>
+                <div>
+                    <i class="fas fa-phone"></i> Free Consultation: <a href="tel:8182916217">(818) 291-6217</a>
+                </div>
             </div>
-            <p style="margin-top: 30px;">Call for immediate assistance:</p>
-            <a href="tel:8182916217" style="color: var(--accent-gold); font-size: 32px; font-weight: bold; text-decoration: none;">(818) 291-6217</a>
+        </div>
+
+        <!-- Main Navigation Inside Hero -->
+        <header style="position: absolute !important; top: 12px !important; left: 0 !important; width: 100% !important; z-index: 100 !important; display: block !important; visibility: visible !important;">
+            <nav>
+                <div class="container">
+                    <a href="index.html" class="logo">
+                        <div class="logo-text">
+                            <span class="firm-name">LAW OFFICES OF ROZSA GYENE</span>
+                            <span class="tagline">Estate Planning & Probate Specialists Since 2001</span>
+                        </div>
+                    </a>
+
+                    <button class="mobile-toggle" onclick="toggleMenu()">
+                        <i class="fas fa-bars"></i>
+                    </button>
+
+                    <ul class="nav-menu" id="navMenu">
+                        <button class="close-menu" onclick="toggleMenu()">
+                            <i class="fas fa-times"></i>
+                        </button>
+
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="about.html" class="nav-link">About</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#" class="nav-link has-dropdown">Estate Planning</a>
+                            <div class="dropdown">
+                                <a href="living-trusts.html" class="dropdown-item">Living Trusts</a>
+                                <a href="trust-administration.html" class="dropdown-item">Trust Administration</a>
+                                <a href="trust-administration-questionnaire.html" class="dropdown-item">Trust Administration Questionnaire</a>
+                                <a href="trust-amendment.html" class="dropdown-item">Trust Amendments</a>
+                                <a href="special-needs-trust.html" class="dropdown-item">Special Needs Trusts</a>
+                                <a href="life-insurance-trust.html" class="dropdown-item">Life Insurance Trusts</a>
+                                <a href="asset-protection.html" class="dropdown-item">Asset Protection</a>
+                                <a href="estate-planning-questionnaire.html" class="dropdown-item">Estate Planning Form</a>
+                            </div>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#" class="nav-link has-dropdown">Probate</a>
+                            <div class="dropdown">
+                                <a href="probate.html" class="dropdown-item">Probate Services</a>
+                                <a href="probate-intake-form.html" class="dropdown-item">Probate Intake Form</a>
+                            </div>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#" class="nav-link has-dropdown">Conservatorship</a>
+                            <div class="dropdown">
+                                <a href="conservatorship.html" class="dropdown-item">Conservatorship Services</a>
+                                <a href="conservatorship-questionnaire.html" class="dropdown-item">Conservatorship Form</a>
+                            </div>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#" class="nav-link has-dropdown">Guardianship</a>
+                            <div class="dropdown">
+                                <a href="guardianship.html" class="dropdown-item">Guardianship Services</a>
+                                <a href="guardianship-questionnaire.html" class="dropdown-item">Guardianship Form</a>
+                            </div>
+                        </li>
+
+                        <a href="https://portal.livingtrust-attorneys.com/" class="btn-client-portal" target="_blank">Client Portal</a>
+                        <a href="https://portal.livingtrust-attorneys.com/book" class="btn-book">Book Now</a>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <div class="container">
+            <div class="hero-content-card">
+                <h1>Trust Amendment Services</h1>
+                <p class="hero-subtitle">Update Your Living Trust to Reflect Life's Changes</p>
+                <p style="font-size: 18px; max-width: 800px; margin: 0 auto 30px; opacity: 0.95;">
+                    Life changes, and your trust should too. Whether you've had changes in assets, beneficiaries, or trustees,
+                    we'll help you keep your trust current and legally compliant.
+                </p>
+                <div class="price-badge">Starting at $350</div>
+                <div style="margin-top: 30px;">
+                    <a href="https://portal.livingtrust-attorneys.com/book" class="btn-primary">Schedule Consultation</a>
+                </div>
+                <p style="margin-top: 30px; font-size: 16px;">Call for immediate assistance:</p>
+                <a href="tel:8182916217" style="color: var(--accent-gold); font-size: 32px; font-weight: bold; text-decoration: none;">(818) 291-6217</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content Wrapper - Scrolls over hero -->
+    <div class="main-content">
+
+    <!-- Trust Badges Section -->
+    <section style="padding: 50px 0; background: white;">
+        <div class="container">
+            <h2 style="text-align: center; font-family: 'Playfair Display', serif; font-size: 32px; color: var(--primary-blue); margin-bottom: 40px;">
+                Why Choose Law Offices of Rozsa Gyene for Trust Amendments?
+            </h2>
+            <div style="display: grid; grid-template-columns: repeat(5, 1fr); gap: 20px; max-width: 1200px; margin: 0 auto;">
+                <div class="trust-badge-card">
+                    <div style="width: 50px; height: 50px; background: linear-gradient(135deg, #c9a961 0%, #b8982f 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 12px;">
+                        <i class="fas fa-users" style="font-size: 22px; color: white;"></i>
+                    </div>
+                    <div style="font-size: 18px; font-weight: bold; color: var(--primary-blue); margin-bottom: 4px;">5000+ Families</div>
+                    <div style="font-size: 12px; color: var(--text-light); font-weight: 500;">Served</div>
+                    <div style="font-size: 11px; color: var(--text-light); margin-top: 4px;">Since 2001</div>
+                </div>
+
+                <div class="trust-badge-card">
+                    <div style="width: 50px; height: 50px; background: linear-gradient(135deg, #c9a961 0%, #b8982f 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 12px;">
+                        <i class="fas fa-certificate" style="font-size: 22px; color: white;"></i>
+                    </div>
+                    <div style="font-size: 18px; font-weight: bold; color: var(--primary-blue); margin-bottom: 4px; line-height: 1.2;">California State Bar</div>
+                    <div style="font-size: 12px; color: var(--text-light); font-weight: 500;">#208356</div>
+                    <div style="font-size: 11px; color: var(--text-light); margin-top: 4px;">Licensed & Verified</div>
+                </div>
+
+                <div class="trust-badge-card">
+                    <div style="width: 50px; height: 50px; background: linear-gradient(135deg, #c9a961 0%, #b8982f 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 12px;">
+                        <i class="fas fa-star" style="font-size: 22px; color: white;"></i>
+                    </div>
+                    <div style="font-size: 18px; font-weight: bold; color: var(--primary-blue); margin-bottom: 4px;">A+ Rated</div>
+                    <div style="font-size: 12px; color: var(--text-light); font-weight: 500;">Better Business Bureau</div>
+                    <div style="font-size: 11px; color: var(--text-light); margin-top: 4px;">Trusted Excellence</div>
+                </div>
+
+                <div class="trust-badge-card">
+                    <div style="width: 50px; height: 50px; background: linear-gradient(135deg, #c9a961 0%, #b8982f 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 12px;">
+                        <i class="fas fa-award" style="font-size: 22px; color: white;"></i>
+                    </div>
+                    <div style="font-size: 18px; font-weight: bold; color: var(--primary-blue); margin-bottom: 4px;">25+ Years</div>
+                    <div style="font-size: 12px; color: var(--text-light); font-weight: 500;">Experience</div>
+                    <div style="font-size: 11px; color: var(--text-light); margin-top: 4px;">Estate Planning Experts</div>
+                </div>
+
+                <div class="trust-badge-card">
+                    <div style="width: 50px; height: 50px; background: linear-gradient(135deg, #c9a961 0%, #b8982f 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 12px;">
+                        <i class="fas fa-shield-alt" style="font-size: 22px; color: white;"></i>
+                    </div>
+                    <div style="font-size: 18px; font-weight: bold; color: var(--primary-blue); margin-bottom: 4px;">100% Confidential</div>
+                    <div style="font-size: 12px; color: var(--text-light); font-weight: 500;">Attorney-Client Privilege</div>
+                    <div style="font-size: 11px; color: var(--text-light); margin-top: 4px;">Your Privacy Protected</div>
+                </div>
+            </div>
         </div>
     </section>
 
     <!-- Info Section -->
-    <section class="info-section">
+    <section class="info-section" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);">
         <div class="container">
             <h2>When Do You Need a Trust Amendment?</h2>
-            <div class="info-content">
-                <p>
-                    Your living trust is a dynamic document that should evolve with your life circumstances. 
-                    A trust amendment allows you to make changes to your existing trust without completely rewriting it, 
-                    saving you time and money while ensuring your estate plan remains effective and up-to-date.
-                </p>
-                <p style="margin-top: 20px;">
-                    California law requires specific procedures for trust amendments to be legally valid. 
-                    Our experienced attorneys ensure your amendments are properly drafted, executed, and integrated 
-                    with your original trust documents to avoid any future disputes or complications.
-                </p>
+            <div class="info-content" style="background: white; padding: 50px 60px; border-radius: 20px; box-shadow: 0 10px 40px rgba(0,0,0,0.1);">
+                <div style="display: flex; align-items: start; margin-bottom: 30px;">
+                    <div style="min-width: 60px; height: 60px; background: linear-gradient(135deg, #c9a961 0%, #b8982f 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: 25px;">
+                        <i class="fas fa-file-contract" style="font-size: 28px; color: white;"></i>
+                    </div>
+                    <div>
+                        <h3 style="color: var(--primary-blue); font-size: 22px; margin-bottom: 15px; font-weight: 600;">Dynamic Estate Planning</h3>
+                        <p>
+                            Your living trust is a dynamic document that should evolve with your life circumstances.
+                            A trust amendment allows you to make changes to your existing trust without completely rewriting it,
+                            saving you time and money while ensuring your estate plan remains effective and up-to-date.
+                        </p>
+                    </div>
+                </div>
+                <div style="display: flex; align-items: start;">
+                    <div style="min-width: 60px; height: 60px; background: linear-gradient(135deg, #c9a961 0%, #b8982f 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: 25px;">
+                        <i class="fas fa-gavel" style="font-size: 28px; color: white;"></i>
+                    </div>
+                    <div>
+                        <h3 style="color: var(--primary-blue); font-size: 22px; margin-bottom: 15px; font-weight: 600;">California Legal Requirements</h3>
+                        <p>
+                            California law requires specific procedures for trust amendments to be legally valid.
+                            Our experienced attorneys ensure your amendments are properly drafted, executed, and integrated
+                            with your original trust documents to avoid any future disputes or complications.
+                        </p>
+                    </div>
+                </div>
             </div>
+        </div>
+    </section>
+
+    <!-- Pricing Breakdown Section -->
+    <section style="padding: 80px 0; background: white;">
+        <div class="container">
+            <h2 style="text-align: center; font-family: 'Playfair Display', serif; font-size: 42px; color: var(--primary-blue); margin-bottom: 20px;">
+                Transparent Pricing for Trust Amendments
+            </h2>
+            <p style="text-align: center; color: var(--text-light); font-size: 18px; max-width: 800px; margin: 0 auto 50px;">
+                Our flat-fee pricing ensures you know exactly what to expect - no hidden costs or surprise bills.
+            </p>
+            <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; max-width: 1100px; margin: 0 auto;">
+                <div style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 40px 30px; border-radius: 15px; text-align: center; border: 2px solid #dee2e6; transition: all 0.3s;">
+                    <div style="width: 70px; height: 70px; background: linear-gradient(135deg, #c9a961 0%, #b8982f 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 20px;">
+                        <i class="fas fa-file-alt" style="font-size: 32px; color: white;"></i>
+                    </div>
+                    <h3 style="color: var(--primary-blue); font-size: 24px; margin-bottom: 15px; font-weight: 600;">Simple Amendment</h3>
+                    <div style="font-size: 36px; font-weight: bold; color: var(--accent-gold); margin-bottom: 15px;">$350</div>
+                    <ul style="text-align: left; color: var(--text-light); line-height: 2; font-size: 15px; list-style: none; padding: 0;">
+                        <li><i class="fas fa-check" style="color: var(--accent-gold); margin-right: 10px;"></i>Single beneficiary change</li>
+                        <li><i class="fas fa-check" style="color: var(--accent-gold); margin-right: 10px;"></i>Trustee update</li>
+                        <li><i class="fas fa-check" style="color: var(--accent-gold); margin-right: 10px;"></i>Minor asset updates</li>
+                        <li><i class="fas fa-check" style="color: var(--accent-gold); margin-right: 10px;"></i>Notary services included</li>
+                    </ul>
+                </div>
+
+                <div style="background: linear-gradient(135deg, var(--primary-blue) 0%, #2a4a70 100%); padding: 40px 30px; border-radius: 15px; text-align: center; border: 3px solid var(--accent-gold); transform: scale(1.05); box-shadow: 0 10px 40px rgba(0,0,0,0.15);">
+                    <div style="background: rgba(255, 255, 255, 0.15); backdrop-filter: blur(10px); color: var(--accent-gold); padding: 5px 15px; border-radius: 20px; display: inline-block; margin-bottom: 15px; font-size: 12px; font-weight: 600; letter-spacing: 1px;">MOST POPULAR</div>
+                    <div style="width: 70px; height: 70px; background: linear-gradient(135deg, #c9a961 0%, #b8982f 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 20px;">
+                        <i class="fas fa-file-contract" style="font-size: 32px; color: white;"></i>
+                    </div>
+                    <h3 style="color: white; font-size: 24px; margin-bottom: 15px; font-weight: 600;">Standard Amendment</h3>
+                    <div style="font-size: 36px; font-weight: bold; color: var(--accent-gold); margin-bottom: 15px;">$550</div>
+                    <ul style="text-align: left; color: rgba(255, 255, 255, 0.9); line-height: 2; font-size: 15px; list-style: none; padding: 0;">
+                        <li><i class="fas fa-check" style="color: var(--accent-gold); margin-right: 10px;"></i>Multiple beneficiary changes</li>
+                        <li><i class="fas fa-check" style="color: var(--accent-gold); margin-right: 10px;"></i>Distribution modifications</li>
+                        <li><i class="fas fa-check" style="color: var(--accent-gold); margin-right: 10px;"></i>Trustee succession updates</li>
+                        <li><i class="fas fa-check" style="color: var(--accent-gold); margin-right: 10px;"></i>Guardian changes</li>
+                        <li><i class="fas fa-check" style="color: var(--accent-gold); margin-right: 10px;"></i>Notary services included</li>
+                    </ul>
+                </div>
+
+                <div style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 40px 30px; border-radius: 15px; text-align: center; border: 2px solid #dee2e6; transition: all 0.3s;">
+                    <div style="width: 70px; height: 70px; background: linear-gradient(135deg, #c9a961 0%, #b8982f 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 20px;">
+                        <i class="fas fa-file-signature" style="font-size: 32px; color: white;"></i>
+                    </div>
+                    <h3 style="color: var(--primary-blue); font-size: 24px; margin-bottom: 15px; font-weight: 600;">Complex Amendment</h3>
+                    <div style="font-size: 36px; font-weight: bold; color: var(--accent-gold); margin-bottom: 15px;">$850+</div>
+                    <ul style="text-align: left; color: var(--text-light); line-height: 2; font-size: 15px; list-style: none; padding: 0;">
+                        <li><i class="fas fa-check" style="color: var(--accent-gold); margin-right: 10px;"></i>Extensive restructuring</li>
+                        <li><i class="fas fa-check" style="color: var(--accent-gold); margin-right: 10px;"></i>Tax planning changes</li>
+                        <li><i class="fas fa-check" style="color: var(--accent-gold); margin-right: 10px;"></i>Business interest updates</li>
+                        <li><i class="fas fa-check" style="color: var(--accent-gold); margin-right: 10px;"></i>Multiple amendments</li>
+                        <li><i class="fas fa-check" style="color: var(--accent-gold); margin-right: 10px;"></i>Notary services included</li>
+                    </ul>
+                </div>
+            </div>
+            <p style="text-align: center; color: var(--text-light); font-size: 16px; max-width: 900px; margin: 40px auto 0; line-height: 1.8;">
+                <i class="fas fa-info-circle" style="color: var(--accent-gold); margin-right: 8px;"></i>
+                <strong>Note:</strong> If you need extensive changes or already have multiple amendments, we may recommend a complete trust restatement instead.
+                During your free consultation, we'll review your trust and recommend the most cost-effective approach.
+            </p>
         </div>
     </section>
 
     <!-- Trust Review Section with Image -->
-    <section class="info-section" style="background: #f8f9fa; padding: 80px 0;">
+    <section class="trust-review-section">
         <div class="container">
-            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: center;">
-                <div>
-                    <h2 style="font-family: 'Playfair Display', serif; font-size: 42px; color: #1e3a5f; margin-bottom: 25px;">Keeping Your Trust Current</h2>
-                    <p style="color: #6c757d; line-height: 1.8; margin-bottom: 20px; font-size: 17px;">
-                        Life doesn't stand still, and neither should your estate plan. Regular review and timely amendments 
-                        ensure your living trust continues to protect your assets and serve your family's best interests.
-                    </p>
-                    <p style="color: #6c757d; line-height: 1.8; margin-bottom: 25px; font-size: 17px;">
-                        Our experienced attorneys make the amendment process straightforward and stress-free. We'll review 
-                        your current trust, identify necessary updates, and ensure all changes are properly documented and 
-                        legally binding.
-                    </p>
-                    <div style="margin-top: 30px;">
-                        <div style="display: flex; align-items: center; margin-bottom: 15px;">
-                            <i class="fas fa-check-circle" style="color: #c9a961; font-size: 20px; margin-right: 15px; width: 20px;"></i>
-                            <span style="color: #2c3e50; font-size: 16px;">Review completed in one appointment</span>
-                        </div>
-                        <div style="display: flex; align-items: center; margin-bottom: 15px;">
-                            <i class="fas fa-check-circle" style="color: #c9a961; font-size: 20px; margin-right: 15px; width: 20px;"></i>
-                            <span style="color: #2c3e50; font-size: 16px;">Amendments drafted within 48 hours</span>
-                        </div>
-                        <div style="display: flex; align-items: center; margin-bottom: 15px;">
-                            <i class="fas fa-check-circle" style="color: #c9a961; font-size: 20px; margin-right: 15px; width: 20px;"></i>
-                            <span style="color: #2c3e50; font-size: 16px;">Flat fee pricing - no surprises</span>
-                        </div>
-                        <div style="display: flex; align-items: center; margin-bottom: 15px;">
-                            <i class="fas fa-check-circle" style="color: #c9a961; font-size: 20px; margin-right: 15px; width: 20px;"></i>
-                            <span style="color: #2c3e50; font-size: 16px;">Notary services included</span>
-                        </div>
-                    </div>
-                    <div style="margin-top: 35px;">
-                        <a href="tel:8182916217" style="display: inline-block; background: #c9a961; color: white; padding: 15px 40px; border-radius: 50px; text-decoration: none; font-weight: 600; font-size: 17px; transition: all 0.3s;">
-                            <i class="fas fa-phone" style="margin-right: 8px;"></i> Schedule Your Trust Review
-                        </a>
-                    </div>
-                </div>
-                <div style="border-radius: 10px; overflow: hidden; box-shadow: 0 15px 40px rgba(0,0,0,0.1);">
-                    <img src="images/trust-amendment-signing.png" alt="Professional reviewing and signing trust amendment documents" style="width: 100%; height: auto; display: block;">
-                </div>
-            </div>
-        </div>
-    </section>
+            <div class="trust-review-card">
+                <h2 style="font-family: 'Playfair Display', serif; font-size: 42px; color: white; margin-bottom: 25px; text-align: center;">Keeping Your Trust Current</h2>
+                <p style="color: rgba(255, 255, 255, 0.9); line-height: 1.8; margin-bottom: 20px; font-size: 17px; text-align: center;">
+                    Life doesn't stand still, and neither should your estate plan. Regular review and timely amendments
+                    ensure your living trust continues to protect your assets and serve your family's best interests.
+                </p>
+                <p style="color: rgba(255, 255, 255, 0.9); line-height: 1.8; margin-bottom: 35px; font-size: 17px; text-align: center;">
+                    Our experienced attorneys make the amendment process straightforward and stress-free. We'll review
+                    your current trust, identify necessary updates, and ensure all changes are properly documented and
+                    legally binding.
+                </p>
 
-    <!-- Reasons Section -->
-    <section class="reasons-section">
-        <div class="container">
-            <h2 style="text-align: center; font-family: 'Playfair Display', serif; font-size: 42px; color: var(--primary-blue); margin-bottom: 20px;">
-                Common Reasons for Trust Amendments
-            </h2>
-            <div class="reasons-grid">
-                <div class="reason-card">
-                    <h3><i class="fas fa-users" style="color: var(--accent-gold); margin-right: 10px;"></i>Family Changes</h3>
-                    <p>Marriage, divorce, births, deaths, or changes in family relationships requiring updates to beneficiaries or guardians.</p>
+                <div style="background: rgba(201, 169, 97, 0.2); padding: 25px; border-radius: 15px; border: 2px solid rgba(201, 169, 97, 0.5); margin-bottom: 35px; backdrop-filter: blur(10px);">
+                    <div style="display: flex; align-items: center; justify-content: center; gap: 12px; margin-bottom: 12px;">
+                        <i class="fas fa-video" style="color: var(--accent-gold); font-size: 24px;"></i>
+                        <h4 style="color: white; font-size: 20px; font-weight: 600; margin: 0;">Virtual Consultations Available</h4>
+                    </div>
+                    <p style="color: rgba(255, 255, 255, 0.9); line-height: 1.8; margin: 0; font-size: 16px; text-align: center;">
+                        Can't make it to our office? No problem! We offer secure video consultations via Zoom or phone for your convenience.
+                        Review and sign documents remotely with our mobile notary service - we come to you or arrange remote online notarization.
+                    </p>
                 </div>
-                
-                <div class="reason-card">
-                    <h3><i class="fas fa-home" style="color: var(--accent-gold); margin-right: 10px;"></i>Asset Changes</h3>
-                    <p>Purchase or sale of real estate, significant changes in financial assets, or acquisition of business interests.</p>
+
+                <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; margin-bottom: 35px;">
+                    <div style="display: flex; align-items: center; gap: 12px;">
+                        <i class="fas fa-check-circle" style="color: var(--accent-gold); font-size: 22px;"></i>
+                        <span style="color: white; font-size: 16px;">Review completed in one appointment</span>
+                    </div>
+                    <div style="display: flex; align-items: center; gap: 12px;">
+                        <i class="fas fa-check-circle" style="color: var(--accent-gold); font-size: 22px;"></i>
+                        <span style="color: white; font-size: 16px;">Amendments drafted within 48 hours</span>
+                    </div>
+                    <div style="display: flex; align-items: center; gap: 12px;">
+                        <i class="fas fa-check-circle" style="color: var(--accent-gold); font-size: 22px;"></i>
+                        <span style="color: white; font-size: 16px;">Flat fee pricing - no surprises</span>
+                    </div>
+                    <div style="display: flex; align-items: center; gap: 12px;">
+                        <i class="fas fa-check-circle" style="color: var(--accent-gold); font-size: 22px;"></i>
+                        <span style="color: white; font-size: 16px;">Notary services included</span>
+                    </div>
                 </div>
-                
-                <div class="reason-card">
-                    <h3><i class="fas fa-user-tie" style="color: var(--accent-gold); margin-right: 10px;"></i>Trustee Updates</h3>
-                    <p>Changing successor trustees due to death, incapacity, or simply choosing someone better suited for the role.</p>
-                </div>
-                
-                <div class="reason-card">
-                    <h3><i class="fas fa-hand-holding-usd" style="color: var(--accent-gold); margin-right: 10px;"></i>Distribution Changes</h3>
-                    <p>Modifying how and when beneficiaries receive their inheritance, including age restrictions or conditions.</p>
-                </div>
-                
-                <div class="reason-card">
-                    <h3><i class="fas fa-gavel" style="color: var(--accent-gold); margin-right: 10px;"></i>Tax Law Updates</h3>
-                    <p>Adapting to changes in federal or state tax laws to maximize tax benefits and minimize liabilities.</p>
-                </div>
-                
-                <div class="reason-card">
-                    <h3><i class="fas fa-map-marker-alt" style="color: var(--accent-gold); margin-right: 10px;"></i>Relocation</h3>
-                    <p>Moving to a different state may require updates to ensure your trust complies with local laws.</p>
+
+                <div style="text-align: center;">
+                    <a href="tel:8182916217" style="display: inline-block; background: var(--accent-gold); color: white; padding: 16px 45px; border-radius: 50px; text-decoration: none; font-weight: 600; font-size: 18px; transition: all 0.3s; box-shadow: 0 5px 20px rgba(201, 169, 97, 0.5);">
+                        <i class="fas fa-phone" style="margin-right: 10px;"></i> Schedule Your Trust Review
+                    </a>
                 </div>
             </div>
         </div>
@@ -835,33 +1248,184 @@
                     <h3>Review Current Trust</h3>
                     <p>We thoroughly review your existing trust documents to understand your current plan</p>
                 </div>
-                
+
                 <div class="step">
                     <div class="step-number">2</div>
                     <h3>Identify Changes</h3>
                     <p>Discuss what needs updating and ensure all changes align with your goals</p>
                 </div>
-                
+
                 <div class="step">
                     <div class="step-number">3</div>
                     <h3>Draft Amendment</h3>
                     <p>Create legally compliant amendment documents that clearly state all changes</p>
                 </div>
-                
+
                 <div class="step">
                     <div class="step-number">4</div>
                     <h3>Execute & Notarize</h3>
                     <p>Properly sign and notarize documents to ensure legal validity</p>
                 </div>
             </div>
-            
+
             <div class="warning-box">
                 <h3><i class="fas fa-exclamation-triangle"></i> Important Considerations</h3>
                 <p>
-                    Multiple amendments can create confusion and potential conflicts. If you need extensive changes 
-                    or have already made several amendments, we may recommend a complete trust restatement instead. 
+                    Multiple amendments can create confusion and potential conflicts. If you need extensive changes
+                    or have already made several amendments, we may recommend a complete trust restatement instead.
                     This provides a clean, consolidated document that's easier to administer and reduces the risk of errors.
                 </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reasons Section -->
+    <section class="reasons-section">
+        <div class="container">
+            <h2 style="text-align: center; font-family: 'Playfair Display', serif; font-size: 42px; color: var(--primary-blue); margin-bottom: 20px;">
+                Common Reasons for Trust Amendments
+            </h2>
+            <div class="reasons-grid">
+                <div class="reason-card">
+                    <h3><i class="fas fa-users" style="color: var(--accent-gold); margin-right: 10px;"></i>Family Changes</h3>
+                    <p>Marriage, divorce, births, deaths, or changes in family relationships requiring updates to beneficiaries or guardians.</p>
+                </div>
+
+                <div class="reason-card">
+                    <h3><i class="fas fa-home" style="color: var(--accent-gold); margin-right: 10px;"></i>Asset Changes</h3>
+                    <p>Purchase or sale of real estate, significant changes in financial assets, or acquisition of business interests.</p>
+                </div>
+
+                <div class="reason-card">
+                    <h3><i class="fas fa-user-tie" style="color: var(--accent-gold); margin-right: 10px;"></i>Trustee Updates</h3>
+                    <p>Changing successor trustees due to death, incapacity, or simply choosing someone better suited for the role.</p>
+                </div>
+
+                <div class="reason-card">
+                    <h3><i class="fas fa-hand-holding-usd" style="color: var(--accent-gold); margin-right: 10px;"></i>Distribution Changes</h3>
+                    <p>Modifying how and when beneficiaries receive their inheritance, including age restrictions or conditions.</p>
+                </div>
+
+                <div class="reason-card">
+                    <h3><i class="fas fa-gavel" style="color: var(--accent-gold); margin-right: 10px;"></i>Tax Law Updates</h3>
+                    <p>Adapting to changes in federal or state tax laws to maximize tax benefits and minimize liabilities.</p>
+                </div>
+
+                <div class="reason-card">
+                    <h3><i class="fas fa-map-marker-alt" style="color: var(--accent-gold); margin-right: 10px;"></i>Relocation</h3>
+                    <p>Moving to a different state may require updates to ensure your trust complies with local laws.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Amendment vs Restatement Comparison -->
+    <section style="padding: 80px 0; background: white;">
+        <div class="container">
+            <h2 style="text-align: center; font-family: 'Playfair Display', serif; font-size: 42px; color: var(--primary-blue); margin-bottom: 20px;">
+                Amendment vs. Trust Restatement: Which Do You Need?
+            </h2>
+            <p style="text-align: center; color: var(--text-light); font-size: 18px; max-width: 800px; margin: 0 auto 50px;">
+                Not sure which option is right for you? Here's a clear comparison to help you decide.
+            </p>
+
+            <div style="max-width: 1000px; margin: 0 auto; background: white; border-radius: 15px; overflow: hidden; box-shadow: 0 10px 40px rgba(0,0,0,0.1);">
+                <!-- Header Row -->
+                <div style="display: grid; grid-template-columns: 2fr 1.5fr 1.5fr; background: linear-gradient(135deg, var(--primary-blue) 0%, #2a4a70 100%); color: white;">
+                    <div style="padding: 25px 30px; font-weight: 600; font-size: 18px;">Consideration</div>
+                    <div style="padding: 25px 30px; font-weight: 600; font-size: 18px; border-left: 1px solid rgba(255,255,255,0.2); text-align: center;">
+                        <i class="fas fa-edit" style="margin-right: 8px;"></i>Amendment
+                    </div>
+                    <div style="padding: 25px 30px; font-weight: 600; font-size: 18px; border-left: 1px solid rgba(255,255,255,0.2); text-align: center;">
+                        <i class="fas fa-sync-alt" style="margin-right: 8px;"></i>Restatement
+                    </div>
+                </div>
+
+                <!-- Comparison Rows -->
+                <div style="display: grid; grid-template-columns: 2fr 1.5fr 1.5fr; border-bottom: 1px solid #e9ecef;">
+                    <div style="padding: 25px 30px; background: #f8f9fa; font-weight: 600; color: var(--primary-blue);">Best For</div>
+                    <div style="padding: 25px 30px; border-left: 1px solid #e9ecef; color: var(--text-light); text-align: center;">Minor, specific changes</div>
+                    <div style="padding: 25px 30px; border-left: 1px solid #e9ecef; color: var(--text-light); text-align: center;">Major restructuring or multiple changes</div>
+                </div>
+
+                <div style="display: grid; grid-template-columns: 2fr 1.5fr 1.5fr; border-bottom: 1px solid #e9ecef;">
+                    <div style="padding: 25px 30px; background: #f8f9fa; font-weight: 600; color: var(--primary-blue);">Number of Changes</div>
+                    <div style="padding: 25px 30px; border-left: 1px solid #e9ecef; color: var(--text-light); text-align: center;">1-3 changes</div>
+                    <div style="padding: 25px 30px; border-left: 1px solid #e9ecef; color: var(--text-light); text-align: center;">4+ changes or already have multiple amendments</div>
+                </div>
+
+                <div style="display: grid; grid-template-columns: 2fr 1.5fr 1.5fr; border-bottom: 1px solid #e9ecef;">
+                    <div style="padding: 25px 30px; background: #f8f9fa; font-weight: 600; color: var(--primary-blue);">Cost</div>
+                    <div style="padding: 25px 30px; border-left: 1px solid #e9ecef; text-align: center;">
+                        <span style="color: var(--accent-gold); font-weight: 600; font-size: 18px;">$350 - $850</span>
+                    </div>
+                    <div style="padding: 25px 30px; border-left: 1px solid #e9ecef; text-align: center;">
+                        <span style="color: var(--accent-gold); font-weight: 600; font-size: 18px;">$1,200 - $2,000</span>
+                    </div>
+                </div>
+
+                <div style="display: grid; grid-template-columns: 2fr 1.5fr 1.5fr; border-bottom: 1px solid #e9ecef;">
+                    <div style="padding: 25px 30px; background: #f8f9fa; font-weight: 600; color: var(--primary-blue);">Timeline</div>
+                    <div style="padding: 25px 30px; border-left: 1px solid #e9ecef; text-align: center;">
+                        <span style="color: #28a745; font-weight: 600;"><i class="fas fa-clock" style="margin-right: 5px;"></i>3-5 days</span>
+                    </div>
+                    <div style="padding: 25px 30px; border-left: 1px solid #e9ecef; text-align: center;">
+                        <span style="color: var(--text-light); font-weight: 600;"><i class="fas fa-clock" style="margin-right: 5px;"></i>1-2 weeks</span>
+                    </div>
+                </div>
+
+                <div style="display: grid; grid-template-columns: 2fr 1.5fr 1.5fr; border-bottom: 1px solid #e9ecef;">
+                    <div style="padding: 25px 30px; background: #f8f9fa; font-weight: 600; color: var(--primary-blue);">Document Clarity</div>
+                    <div style="padding: 25px 30px; border-left: 1px solid #e9ecef; color: var(--text-light); text-align: center;">Multiple documents to track</div>
+                    <div style="padding: 25px 30px; border-left: 1px solid #e9ecef; text-align: center;">
+                        <span style="color: #28a745; font-weight: 600;"><i class="fas fa-check-circle" style="margin-right: 5px;"></i>Single, clean document</span>
+                    </div>
+                </div>
+
+                <div style="display: grid; grid-template-columns: 2fr 1.5fr 1.5fr; border-bottom: 1px solid #e9ecef;">
+                    <div style="padding: 25px 30px; background: #f8f9fa; font-weight: 600; color: var(--primary-blue);">Recommended If</div>
+                    <div style="padding: 25px 30px; border-left: 1px solid #e9ecef; color: var(--text-light); font-size: 14px;">
+                        <ul style="margin: 0; padding-left: 20px; line-height: 1.8;">
+                            <li>First-time change</li>
+                            <li>Simple trustee update</li>
+                            <li>Single beneficiary change</li>
+                        </ul>
+                    </div>
+                    <div style="padding: 25px 30px; border-left: 1px solid #e9ecef; color: var(--text-light); font-size: 14px;">
+                        <ul style="margin: 0; padding-left: 20px; line-height: 1.8;">
+                            <li>Trust is 10+ years old</li>
+                            <li>Already have 2+ amendments</li>
+                            <li>Major life changes</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div style="display: grid; grid-template-columns: 2fr 1.5fr 1.5fr;">
+                    <div style="padding: 25px 30px; background: #f8f9fa; font-weight: 600; color: var(--primary-blue);">Asset Retitling Required?</div>
+                    <div style="padding: 25px 30px; border-left: 1px solid #e9ecef; text-align: center;">
+                        <span style="color: #28a745; font-weight: 600;"><i class="fas fa-times-circle" style="margin-right: 5px;"></i>No</span>
+                    </div>
+                    <div style="padding: 25px 30px; border-left: 1px solid #e9ecef; text-align: center;">
+                        <span style="color: #28a745; font-weight: 600;"><i class="fas fa-times-circle" style="margin-right: 5px;"></i>No</span>
+                    </div>
+                </div>
+            </div>
+
+            <div style="margin-top: 50px; background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 35px 40px; border-radius: 15px; border-left: 4px solid var(--accent-gold); max-width: 900px; margin-left: auto; margin-right: auto;">
+                <div style="display: flex; align-items: start; gap: 20px;">
+                    <i class="fas fa-lightbulb" style="color: var(--accent-gold); font-size: 32px; margin-top: 5px;"></i>
+                    <div>
+                        <h3 style="color: var(--primary-blue); margin-bottom: 12px; font-size: 22px; font-weight: 600;">Not Sure Which Option Is Right for You?</h3>
+                        <p style="color: var(--text-light); line-height: 1.8; margin-bottom: 20px;">
+                            During your free consultation, we'll review your existing trust, discuss your goals, and recommend
+                            the most cost-effective solution. There's no obligation - just expert guidance to help you make
+                            the best decision for your estate plan.
+                        </p>
+                        <a href="tel:8182916217" style="display: inline-block; background: var(--accent-gold); color: white; padding: 12px 30px; border-radius: 50px; text-decoration: none; font-weight: 600; transition: all 0.3s;">
+                            <i class="fas fa-phone" style="margin-right: 8px;"></i>Schedule Free Consultation
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -922,6 +1486,295 @@
         </div>
     </section>
 
+    <!-- Testimonials Section -->
+    <section style="padding: 80px 0; background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);">
+        <div class="container">
+            <h2 style="text-align: center; font-family: 'Playfair Display', serif; font-size: 42px; color: var(--primary-blue); margin-bottom: 20px;">
+                What Our Clients Say About Our Amendment Services
+            </h2>
+            <p style="text-align: center; color: var(--text-light); font-size: 18px; max-width: 800px; margin: 0 auto 50px;">
+                Don't just take our word for it - hear from families who've trusted us to update their estate plans.
+            </p>
+
+            <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; max-width: 1200px; margin: 0 auto;">
+                <!-- Testimonial 1 -->
+                <div style="background: white; padding: 35px 30px; border-radius: 15px; box-shadow: 0 5px 20px rgba(0,0,0,0.08); position: relative; transition: all 0.3s;">
+                    <div style="color: var(--accent-gold); font-size: 48px; line-height: 1; margin-bottom: 15px; font-family: Georgia, serif;">"</div>
+                    <p style="color: var(--text-light); line-height: 1.8; margin-bottom: 20px; font-style: italic;">
+                        After my husband passed away, I needed to update our trust to name my daughter as successor trustee.
+                        Rozsa made the process incredibly smooth and explained everything clearly. The amendment was completed
+                        in just a few days, giving me peace of mind during a difficult time.
+                    </p>
+                    <div style="border-top: 2px solid var(--accent-gold); padding-top: 20px;">
+                        <div style="font-weight: 600; color: var(--primary-blue); margin-bottom: 5px;">Margaret T.</div>
+                        <div style="color: var(--text-light); font-size: 14px;">Glendale, CA</div>
+                        <div style="color: var(--accent-gold); margin-top: 10px;">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div style="background: white; padding: 35px 30px; border-radius: 15px; box-shadow: 0 5px 20px rgba(0,0,0,0.08); position: relative; transition: all 0.3s;">
+                    <div style="color: var(--accent-gold); font-size: 48px; line-height: 1; margin-bottom: 15px; font-family: Georgia, serif;">"</div>
+                    <p style="color: var(--text-light); line-height: 1.8; margin-bottom: 20px; font-style: italic;">
+                        We needed to add our newborn grandchild as a beneficiary and update the distribution percentages.
+                        Rozsa's office handled everything efficiently and the flat fee pricing meant no surprises. Highly
+                        recommend their amendment services!
+                    </p>
+                    <div style="border-top: 2px solid var(--accent-gold); padding-top: 20px;">
+                        <div style="font-weight: 600; color: var(--primary-blue); margin-bottom: 5px;">Robert & Linda K.</div>
+                        <div style="color: var(--text-light); font-size: 14px;">Burbank, CA</div>
+                        <div style="color: var(--accent-gold); margin-top: 10px;">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div style="background: white; padding: 35px 30px; border-radius: 15px; box-shadow: 0 5px 20px rgba(0,0,0,0.08); position: relative; transition: all 0.3s;">
+                    <div style="color: var(--accent-gold); font-size: 48px; line-height: 1; margin-bottom: 15px; font-family: Georgia, serif;">"</div>
+                    <p style="color: var(--text-light); line-height: 1.8; margin-bottom: 20px; font-style: italic;">
+                        I initially thought I could amend my trust myself, but after talking to Rozsa, I realized how many
+                        legal pitfalls I could have fallen into. Her expertise was invaluable, and the cost was more than
+                        reasonable for the peace of mind I received.
+                    </p>
+                    <div style="border-top: 2px solid var(--accent-gold); padding-top: 20px;">
+                        <div style="font-weight: 600; color: var(--primary-blue); margin-bottom: 5px;">James M.</div>
+                        <div style="color: var(--text-light); font-size: 14px;">Pasadena, CA</div>
+                        <div style="color: var(--accent-gold); margin-top: 10px;">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div style="text-align: center; margin-top: 40px;">
+                <p style="color: var(--text-light); font-size: 16px; margin-bottom: 20px;">
+                    <i class="fas fa-award" style="color: var(--accent-gold); margin-right: 8px;"></i>
+                    Join over 5,000 satisfied families who have trusted us with their estate planning needs since 2001
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <h2 style="text-align: center; font-family: 'Playfair Display', serif; font-size: 42px; color: white; margin-bottom: 15px;">
+                Frequently Asked Questions
+            </h2>
+            <p style="text-align: center; color: rgba(255, 255, 255, 0.9); font-size: 18px; max-width: 700px; margin: 0 auto 50px;">
+                Quick answers to common questions about trust amendments
+            </p>
+
+            <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; max-width: 1100px; margin: 0 auto;">
+                <!-- FAQ Item 1 -->
+                <div class="faq-card">
+                    <h3 style="color: white; font-size: 18px; margin-bottom: 12px; font-weight: 600; display: flex; align-items: center;">
+                        <i class="fas fa-question-circle" style="color: var(--accent-gold); margin-right: 10px; font-size: 20px;"></i>
+                        Can I amend my trust myself?
+                    </h3>
+                    <p style="color: rgba(255, 255, 255, 0.85); line-height: 1.7; font-size: 15px;">
+                        While technically possible, we strongly advise against it. Trust amendments require specific legal procedures. A mistake can invalidate the amendment. Our affordable flat-fee pricing ensures your changes are legally sound.
+                    </p>
+                </div>
+
+                <!-- FAQ Item 2 -->
+                <div class="faq-card">
+                    <h3 style="color: white; font-size: 18px; margin-bottom: 12px; font-weight: 600; display: flex; align-items: center;">
+                        <i class="fas fa-question-circle" style="color: var(--accent-gold); margin-right: 10px; font-size: 20px;"></i>
+                        How much does it cost?
+                    </h3>
+                    <p style="color: rgba(255, 255, 255, 0.85); line-height: 1.7; font-size: 15px;">
+                        Simple amendments start at <strong style="color: var(--accent-gold);">$350</strong>, standard amendments at <strong style="color: var(--accent-gold);">$550</strong>, and complex amendments at <strong style="color: var(--accent-gold);">$850+</strong>. All pricing is flat-fee with no hidden costs. Notary services always included.
+                    </p>
+                </div>
+
+                <!-- FAQ Item 3 -->
+                <div class="faq-card">
+                    <h3 style="color: white; font-size: 18px; margin-bottom: 12px; font-weight: 600; display: flex; align-items: center;">
+                        <i class="fas fa-question-circle" style="color: var(--accent-gold); margin-right: 10px; font-size: 20px;"></i>
+                        How long does it take?
+                    </h3>
+                    <p style="color: rgba(255, 255, 255, 0.85); line-height: 1.7; font-size: 15px;">
+                        Most amendments are completed in <strong style="color: var(--accent-gold);">3-5 business days</strong>. We draft documents within 48 hours after your consultation. Once approved, we schedule your signing appointment. Expedited service available for urgent situations.
+                    </p>
+                </div>
+
+                <!-- FAQ Item 4 -->
+                <div class="faq-card">
+                    <h3 style="color: white; font-size: 18px; margin-bottom: 12px; font-weight: 600; display: flex; align-items: center;">
+                        <i class="fas fa-question-circle" style="color: var(--accent-gold); margin-right: 10px; font-size: 20px;"></i>
+                        What about multiple changes?
+                    </h3>
+                    <p style="color: rgba(255, 255, 255, 0.85); line-height: 1.7; font-size: 15px;">
+                        Multiple changes can be included in one amendment. However, if you already have several amendments or need extensive changes, we may recommend a <strong style="color: white;">trust restatement</strong> for clarity and easier administration.
+                    </p>
+                </div>
+
+                <!-- FAQ Item 5 -->
+                <div class="faq-card">
+                    <h3 style="color: white; font-size: 18px; margin-bottom: 12px; font-weight: 600; display: flex; align-items: center;">
+                        <i class="fas fa-question-circle" style="color: var(--accent-gold); margin-right: 10px; font-size: 20px;"></i>
+                        Do I need to retitle assets?
+                    </h3>
+                    <p style="color: rgba(255, 255, 255, 0.85); line-height: 1.7; font-size: 15px;">
+                        In most cases, <strong style="color: white;">no</strong>. Assets already in your trust remain - only internal provisions change. If adding new assets or making structural changes, some retitling may be needed. We'll advise based on your situation.
+                    </p>
+                </div>
+
+                <!-- FAQ Item 6 -->
+                <div class="faq-card">
+                    <h3 style="color: white; font-size: 18px; margin-bottom: 12px; font-weight: 600; display: flex; align-items: center;">
+                        <i class="fas fa-question-circle" style="color: var(--accent-gold); margin-right: 10px; font-size: 20px;"></i>
+                        What should I bring?
+                    </h3>
+                    <p style="color: rgba(255, 255, 255, 0.85); line-height: 1.7; font-size: 15px;">
+                        Bring your original trust document, any previous amendments, a list of desired changes, photo ID, and information about new beneficiaries/trustees (names, addresses, birthdates).
+                    </p>
+                </div>
+
+                <!-- FAQ Item 7 -->
+                <div class="faq-card">
+                    <h3 style="color: white; font-size: 18px; margin-bottom: 12px; font-weight: 600; display: flex; align-items: center;">
+                        <i class="fas fa-question-circle" style="color: var(--accent-gold); margin-right: 10px; font-size: 20px;"></i>
+                        Can spouses amend jointly?
+                    </h3>
+                    <p style="color: rgba(255, 255, 255, 0.85); line-height: 1.7; font-size: 15px;">
+                        For revocable joint trusts, both spouses typically must consent to amendments. Some trusts allow independent changes. We'll review your trust language and advise on proper procedures.
+                    </p>
+                </div>
+
+                <!-- FAQ Item 8 -->
+                <div class="faq-card">
+                    <h3 style="color: white; font-size: 18px; margin-bottom: 12px; font-weight: 600; display: flex; align-items: center;">
+                        <i class="fas fa-question-circle" style="color: var(--accent-gold); margin-right: 10px; font-size: 20px;"></i>
+                        Do I notify beneficiaries?
+                    </h3>
+                    <p style="color: rgba(255, 255, 255, 0.85); line-height: 1.7; font-size: 15px;">
+                        Generally <strong style="color: white;">no</strong>. Trust amendments are private. California law doesn't require notification. However, you may choose to inform parties of significant changes to avoid future disputes.
+                    </p>
+                </div>
+            </div>
+
+            <div class="faq-cta-box" style="text-align: center; margin-top: 50px; padding: 35px 40px;">
+                <h3 style="color: white; font-size: 26px; margin-bottom: 12px; font-weight: 600;">Still Have Questions?</h3>
+                <p style="color: rgba(255, 255, 255, 0.9); font-size: 17px; margin-bottom: 25px;">
+                    Schedule a free consultation to discuss your specific situation with an experienced estate planning attorney.
+                </p>
+                <a href="tel:8182916217" style="display: inline-block; background: var(--accent-gold); color: white; padding: 14px 35px; border-radius: 50px; text-decoration: none; font-weight: 600; font-size: 17px; transition: all 0.3s; box-shadow: 0 5px 20px rgba(201, 169, 97, 0.4);">
+                    <i class="fas fa-phone" style="margin-right: 10px;"></i>(818) 291-6217
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Next Steps Section -->
+    <section style="padding: 80px 0; background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);">
+        <div class="container">
+            <h2 style="text-align: center; font-family: 'Playfair Display', serif; font-size: 42px; color: var(--primary-blue); margin-bottom: 20px;">
+                Ready to Update Your Trust? Here's How to Get Started
+            </h2>
+            <p style="text-align: center; color: var(--text-light); font-size: 18px; max-width: 800px; margin: 0 auto 50px;">
+                Three simple steps to ensure your trust reflects your current wishes and life circumstances.
+            </p>
+
+            <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 40px; max-width: 1100px; margin: 0 auto 50px;">
+                <!-- Step 1 -->
+                <div style="background: white; padding: 40px 30px; border-radius: 15px; box-shadow: 0 5px 20px rgba(0,0,0,0.08); text-align: center; position: relative;">
+                    <div style="position: absolute; top: -25px; left: 50%; transform: translateX(-50%); width: 50px; height: 50px; background: linear-gradient(135deg, var(--accent-gold) 0%, #b8982f 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 5px 15px rgba(201, 169, 97, 0.3); border: 4px solid white;">
+                        <span style="color: white; font-size: 24px; font-weight: bold;">1</span>
+                    </div>
+                    <div style="margin-top: 15px; margin-bottom: 20px;">
+                        <i class="fas fa-phone-alt" style="font-size: 48px; color: var(--accent-gold);"></i>
+                    </div>
+                    <h3 style="color: var(--primary-blue); font-size: 22px; margin-bottom: 15px; font-weight: 600;">Schedule Your Free Consultation</h3>
+                    <p style="color: var(--text-light); line-height: 1.8; margin-bottom: 25px;">
+                        Call us or book online to schedule your complimentary consultation. We'll discuss your situation,
+                        review your existing trust, and recommend the best approach.
+                    </p>
+                    <div style="display: flex; flex-direction: column; gap: 12px;">
+                        <a href="tel:8182916217" style="display: inline-block; background: var(--accent-gold); color: white; padding: 12px 25px; border-radius: 50px; text-decoration: none; font-weight: 600; transition: all 0.3s;">
+                            <i class="fas fa-phone" style="margin-right: 8px;"></i>Call (818) 291-6217
+                        </a>
+                        <a href="https://portal.livingtrust-attorneys.com/book" style="display: inline-block; background: transparent; color: var(--primary-blue); padding: 12px 25px; border-radius: 50px; text-decoration: none; font-weight: 600; border: 2px solid var(--primary-blue); transition: all 0.3s;">
+                            <i class="fas fa-calendar" style="margin-right: 8px;"></i>Book Online
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Step 2 -->
+                <div style="background: white; padding: 40px 30px; border-radius: 15px; box-shadow: 0 5px 20px rgba(0,0,0,0.08); text-align: center; position: relative;">
+                    <div style="position: absolute; top: -25px; left: 50%; transform: translateX(-50%); width: 50px; height: 50px; background: linear-gradient(135deg, var(--accent-gold) 0%, #b8982f 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 5px 15px rgba(201, 169, 97, 0.3); border: 4px solid white;">
+                        <span style="color: white; font-size: 24px; font-weight: bold;">2</span>
+                    </div>
+                    <div style="margin-top: 15px; margin-bottom: 20px;">
+                        <i class="fas fa-file-signature" style="font-size: 48px; color: var(--accent-gold);"></i>
+                    </div>
+                    <h3 style="color: var(--primary-blue); font-size: 22px; margin-bottom: 15px; font-weight: 600;">Review & Approve Your Amendment</h3>
+                    <p style="color: var(--text-light); line-height: 1.8; margin-bottom: 20px;">
+                        We'll draft your amendment within 48 hours and send it for your review. You'll have time to read it
+                        carefully and ask any questions before moving forward.
+                    </p>
+                    <div style="background: rgba(201, 169, 97, 0.1); padding: 15px; border-radius: 10px; margin-top: 20px;">
+                        <p style="color: var(--text-dark); font-size: 14px; line-height: 1.6; margin: 0;">
+                            <i class="fas fa-info-circle" style="color: var(--accent-gold); margin-right: 6px;"></i>
+                            <strong>What to Bring:</strong> Original trust document, any previous amendments, and details about the changes you need
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Step 3 -->
+                <div style="background: white; padding: 40px 30px; border-radius: 15px; box-shadow: 0 5px 20px rgba(0,0,0,0.08); text-align: center; position: relative;">
+                    <div style="position: absolute; top: -25px; left: 50%; transform: translateX(-50%); width: 50px; height: 50px; background: linear-gradient(135deg, var(--accent-gold) 0%, #b8982f 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 5px 15px rgba(201, 169, 97, 0.3); border: 4px solid white;">
+                        <span style="color: white; font-size: 24px; font-weight: bold;">3</span>
+                    </div>
+                    <div style="margin-top: 15px; margin-bottom: 20px;">
+                        <i class="fas fa-certificate" style="font-size: 48px; color: var(--accent-gold);"></i>
+                    </div>
+                    <h3 style="color: var(--primary-blue); font-size: 22px; margin-bottom: 15px; font-weight: 600;">Sign & Complete</h3>
+                    <p style="color: var(--text-light); line-height: 1.8; margin-bottom: 20px;">
+                        Sign your amendment with our notary present (in-office, mobile, or remote). Your updated trust is now
+                        legally effective, and you'll have complete peace of mind.
+                    </p>
+                    <div style="background: rgba(40, 167, 69, 0.1); padding: 15px; border-radius: 10px; margin-top: 20px;">
+                        <p style="color: var(--text-dark); font-size: 14px; line-height: 1.6; margin: 0;">
+                            <i class="fas fa-check-circle" style="color: #28a745; margin-right: 6px;"></i>
+                            <strong>You're Done!</strong> Your trust now reflects your current wishes and is legally compliant
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div style="text-align: center; background: white; padding: 40px; border-radius: 15px; box-shadow: 0 5px 20px rgba(0,0,0,0.08); max-width: 800px; margin: 0 auto;">
+                <h3 style="color: var(--primary-blue); font-size: 24px; margin-bottom: 20px; font-weight: 600;">
+                    <i class="fas fa-clock" style="color: var(--accent-gold); margin-right: 10px;"></i>
+                    Most Amendments Completed in 3-5 Days
+                </h3>
+                <p style="color: var(--text-light); line-height: 1.8; font-size: 16px; margin-bottom: 25px;">
+                    Don't wait to update your trust. Life changes happen, and your estate plan should keep pace. The sooner you
+                    start, the sooner you'll have the peace of mind that comes with knowing your family is protected.
+                </p>
+                <a href="https://portal.livingtrust-attorneys.com/book" style="display: inline-block; background: var(--accent-gold); color: white; padding: 15px 40px; border-radius: 50px; text-decoration: none; font-weight: 600; font-size: 18px; transition: all 0.3s;">
+                    <i class="fas fa-calendar-check" style="margin-right: 10px;"></i>Get Started Today
+                </a>
+            </div>
+        </div>
+    </section>
+
     <!-- CTA Section -->
     <section class="cta">
         <div class="container">
@@ -932,6 +1785,8 @@
             <a href="tel:8182916217" class="phone-large">(818) 291-6217</a>
         </div>
     </section>
+
+    </div> <!-- End Main Content -->
 
     <!-- Footer -->
     <footer>
