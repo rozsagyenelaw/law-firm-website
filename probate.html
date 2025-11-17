@@ -877,6 +877,7 @@
             .nav-link {
                 padding: 15px 20px;
                 border-bottom: 1px solid #f0f0f0;
+                color: var(--text-dark);
             }
 
             .dropdown {
@@ -898,6 +899,7 @@
             .dropdown-item {
                 padding-left: 40px;
                 border-bottom: 1px solid #e0e0e0;
+                color: var(--text-dark);
             }
 
             .btn-book {
@@ -1435,14 +1437,15 @@
 
         // Mobile dropdown toggle
         document.querySelectorAll('.nav-item').forEach(item => {
-            item.addEventListener('click', function(e) {
-                if (window.innerWidth <= 992) {
-                    if (e.target.classList.contains('has-dropdown')) {
+            const dropdownLink = item.querySelector('.has-dropdown');
+            if (dropdownLink) {
+                dropdownLink.addEventListener('click', function(e) {
+                    if (window.innerWidth <= 992) {
                         e.preventDefault();
-                        this.classList.toggle('active');
+                        item.classList.toggle('active');
                     }
-                }
-            });
+                });
+            }
         });
 
         // Close mobile menu when clicking outside
