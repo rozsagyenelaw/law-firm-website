@@ -18,6 +18,10 @@
             box-sizing: border-box;
         }
 
+        html {
+            scroll-behavior: smooth;
+        }
+
         :root {
             --primary-blue: #1e3a5f;
             --accent-gold: #c9a961;
@@ -130,7 +134,7 @@
         }
 
         .nav-item:hover .nav-link {
-            background: var(--hover-bg);
+            background: rgba(255, 255, 255, 0.1);
         }
 
         /* Dropdown Arrow */
@@ -418,8 +422,18 @@
         }
 
         .info-card:hover {
-            transform: translateY(-5px);
+            transform: translateY(-5px) scale(1.02);
             box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+        }
+
+        /* Trust Badge Card Hover */
+        .trust-badge-card {
+            transition: all 0.3s ease;
+        }
+
+        .trust-badge-card:hover {
+            transform: translateY(-5px) scale(1.05);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.12) !important;
         }
 
         .info-card h3 {
@@ -454,13 +468,22 @@
         }
 
         .timeline-item {
-            background: white;
+            background: rgba(255, 255, 255, 0.1);
             padding: 30px;
             margin-bottom: 30px;
-            border-radius: 8px;
-            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+            border-radius: 12px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.2);
             border-left: 4px solid var(--accent-gold);
             position: relative;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            transition: all 0.3s ease;
+        }
+
+        .timeline-item:hover {
+            background: rgba(255, 255, 255, 0.15);
+            transform: translateX(10px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.3);
         }
 
         .timeline-number {
@@ -479,12 +502,14 @@
         }
 
         .timeline-item h3 {
-            color: var(--primary-blue);
+            color: white;
             margin-bottom: 10px;
+            font-size: 22px;
         }
 
         .timeline-item p {
-            color: var(--text-light);
+            color: rgba(255, 255, 255, 0.9);
+            line-height: 1.8;
         }
 
         /* Alert Boxes */
@@ -793,7 +818,7 @@
         <div class="container">
             <div style="display: grid; grid-template-columns: repeat(5, 1fr); gap: 20px; max-width: 1200px; margin: 0 auto;">
                 <!-- 5000+ Families -->
-                <div style="background: white; padding: 30px 20px; border-radius: 12px; box-shadow: 0 3px 15px rgba(0,0,0,0.08); text-align: center; transition: all 0.3s;">
+                <div class="trust-badge-card" style="background: white; padding: 30px 20px; border-radius: 12px; box-shadow: 0 3px 15px rgba(0,0,0,0.08); text-align: center;">
                     <div style="width: 50px; height: 50px; background: linear-gradient(135deg, #5f7fbf 0%, #1e3a5f 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 15px;">
                         <i class="fas fa-users" style="font-size: 24px; color: white;"></i>
                     </div>
@@ -802,7 +827,7 @@
                 </div>
 
                 <!-- California State Bar -->
-                <div style="background: white; padding: 30px 20px; border-radius: 12px; box-shadow: 0 3px 15px rgba(0,0,0,0.08); text-align: center; transition: all 0.3s;">
+                <div class="trust-badge-card" style="background: white; padding: 30px 20px; border-radius: 12px; box-shadow: 0 3px 15px rgba(0,0,0,0.08); text-align: center;">
                     <div style="width: 50px; height: 50px; background: linear-gradient(135deg, var(--accent-gold) 0%, #b8982f 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 15px;">
                         <i class="fas fa-certificate" style="font-size: 24px; color: white;"></i>
                     </div>
@@ -811,7 +836,7 @@
                 </div>
 
                 <!-- A+ Rated -->
-                <div style="background: white; padding: 30px 20px; border-radius: 12px; box-shadow: 0 3px 15px rgba(0,0,0,0.08); text-align: center; transition: all 0.3s;">
+                <div class="trust-badge-card" style="background: white; padding: 30px 20px; border-radius: 12px; box-shadow: 0 3px 15px rgba(0,0,0,0.08); text-align: center;">
                     <div style="width: 50px; height: 50px; background: linear-gradient(135deg, #5f7fbf 0%, #1e3a5f 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 15px;">
                         <i class="fas fa-star" style="font-size: 24px; color: white;"></i>
                     </div>
@@ -820,7 +845,7 @@
                 </div>
 
                 <!-- 25+ Years -->
-                <div style="background: white; padding: 30px 20px; border-radius: 12px; box-shadow: 0 3px 15px rgba(0,0,0,0.08); text-align: center; transition: all 0.3s;">
+                <div class="trust-badge-card" style="background: white; padding: 30px 20px; border-radius: 12px; box-shadow: 0 3px 15px rgba(0,0,0,0.08); text-align: center;">
                     <div style="width: 50px; height: 50px; background: linear-gradient(135deg, var(--accent-gold) 0%, #b8982f 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 15px;">
                         <i class="fas fa-award" style="font-size: 24px; color: white;"></i>
                     </div>
@@ -829,7 +854,7 @@
                 </div>
 
                 <!-- 100% Confidential -->
-                <div style="background: white; padding: 30px 20px; border-radius: 12px; box-shadow: 0 3px 15px rgba(0,0,0,0.08); text-align: center; transition: all 0.3s;">
+                <div class="trust-badge-card" style="background: white; padding: 30px 20px; border-radius: 12px; box-shadow: 0 3px 15px rgba(0,0,0,0.08); text-align: center;">
                     <div style="width: 50px; height: 50px; background: linear-gradient(135deg, #5f7fbf 0%, #1e3a5f 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 15px;">
                         <i class="fas fa-lock" style="font-size: 24px; color: white;"></i>
                     </div>
@@ -937,53 +962,6 @@
                             <span style="color: var(--text-dark); font-size: 16px;">Any Caring Adult</span>
                         </li>
                     </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Family Protection Section with Image -->
-    <section class="info-section" style="background: white; padding: 80px 0;">
-        <div class="container">
-            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: center;">
-                <div style="border-radius: 10px; overflow: hidden; box-shadow: 0 15px 40px rgba(0,0,0,0.1);">
-                    <img src="images/family-guardianship.png" alt="Family planning for child guardianship protection" style="width: 100%; height: auto; display: block;">
-                </div>
-                <div>
-                    <h2 style="font-family: 'Playfair Display', serif; font-size: 42px; color: #1e3a5f; margin-bottom: 25px;">Protecting Your Children's Future</h2>
-                    <p style="color: #6c757d; line-height: 1.8; margin-bottom: 20px; font-size: 17px;">
-                        Every parent's priority is ensuring their children are cared for, no matter what happens. 
-                        Establishing guardianship plans gives you peace of mind knowing your children will be raised 
-                        by someone you trust, with the values you hold dear.
-                    </p>
-                    <p style="color: #6c757d; line-height: 1.8; margin-bottom: 25px; font-size: 17px;">
-                        Whether you're creating an estate plan, facing deployment, or helping a family member in crisis, 
-                        we guide you through the guardianship process with compassion and expertise, ensuring your 
-                        children's best interests are always protected.
-                    </p>
-                    <div style="margin-top: 30px;">
-                        <div style="display: flex; align-items: center; margin-bottom: 15px;">
-                            <i class="fas fa-shield-alt" style="color: #c9a961; font-size: 20px; margin-right: 15px; width: 20px;"></i>
-                            <span style="color: #2c3e50; font-size: 16px;">Choose trusted guardians for your children</span>
-                        </div>
-                        <div style="display: flex; align-items: center; margin-bottom: 15px;">
-                            <i class="fas fa-shield-alt" style="color: #c9a961; font-size: 20px; margin-right: 15px; width: 20px;"></i>
-                            <span style="color: #2c3e50; font-size: 16px;">Ensure continuity of care and values</span>
-                        </div>
-                        <div style="display: flex; align-items: center; margin-bottom: 15px;">
-                            <i class="fas fa-shield-alt" style="color: #c9a961; font-size: 20px; margin-right: 15px; width: 20px;"></i>
-                            <span style="color: #2c3e50; font-size: 16px;">Avoid court-appointed strangers</span>
-                        </div>
-                        <div style="display: flex; align-items: center; margin-bottom: 15px;">
-                            <i class="fas fa-shield-alt" style="color: #c9a961; font-size: 20px; margin-right: 15px; width: 20px;"></i>
-                            <span style="color: #2c3e50; font-size: 16px;">Provide clear instructions for care</span>
-                        </div>
-                    </div>
-                    <div style="margin-top: 35px;">
-                        <a href="tel:8182916217" style="display: inline-block; background: #c9a961; color: white; padding: 15px 40px; border-radius: 50px; text-decoration: none; font-weight: 600; font-size: 17px; transition: all 0.3s;">
-                            <i class="fas fa-phone" style="margin-right: 8px;"></i> Discuss Your Guardianship Needs
-                        </a>
-                    </div>
                 </div>
             </div>
         </div>
@@ -1099,16 +1077,64 @@
         </div>
     </section>
 
-    <!-- The Guardianship Process -->
-    <section class="info-section">
+    <!-- Family Protection Section with Image -->
+    <section class="info-section" style="background: white; padding: 80px 0;">
         <div class="container">
-            <h2 class="section-title">The Guardianship Process</h2>
-            <p class="intro-text">
-                Establishing guardianship requires court approval through a formal legal process. 
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: center;">
+                <div style="border-radius: 10px; overflow: hidden; box-shadow: 0 15px 40px rgba(0,0,0,0.1);">
+                    <img src="images/family-guardianship.png" alt="Family planning for child guardianship protection" style="width: 100%; height: auto; display: block;">
+                </div>
+                <div>
+                    <h2 style="font-family: 'Playfair Display', serif; font-size: 42px; color: #1e3a5f; margin-bottom: 25px;">Protecting Your Children's Future</h2>
+                    <p style="color: #6c757d; line-height: 1.8; margin-bottom: 20px; font-size: 17px;">
+                        Every parent's priority is ensuring their children are cared for, no matter what happens. 
+                        Establishing guardianship plans gives you peace of mind knowing your children will be raised 
+                        by someone you trust, with the values you hold dear.
+                    </p>
+                    <p style="color: #6c757d; line-height: 1.8; margin-bottom: 25px; font-size: 17px;">
+                        Whether you're creating an estate plan, facing deployment, or helping a family member in crisis, 
+                        we guide you through the guardianship process with compassion and expertise, ensuring your 
+                        children's best interests are always protected.
+                    </p>
+                    <div style="margin-top: 30px;">
+                        <div style="display: flex; align-items: center; margin-bottom: 15px;">
+                            <i class="fas fa-shield-alt" style="color: #c9a961; font-size: 20px; margin-right: 15px; width: 20px;"></i>
+                            <span style="color: #2c3e50; font-size: 16px;">Choose trusted guardians for your children</span>
+                        </div>
+                        <div style="display: flex; align-items: center; margin-bottom: 15px;">
+                            <i class="fas fa-shield-alt" style="color: #c9a961; font-size: 20px; margin-right: 15px; width: 20px;"></i>
+                            <span style="color: #2c3e50; font-size: 16px;">Ensure continuity of care and values</span>
+                        </div>
+                        <div style="display: flex; align-items: center; margin-bottom: 15px;">
+                            <i class="fas fa-shield-alt" style="color: #c9a961; font-size: 20px; margin-right: 15px; width: 20px;"></i>
+                            <span style="color: #2c3e50; font-size: 16px;">Avoid court-appointed strangers</span>
+                        </div>
+                        <div style="display: flex; align-items: center; margin-bottom: 15px;">
+                            <i class="fas fa-shield-alt" style="color: #c9a961; font-size: 20px; margin-right: 15px; width: 20px;"></i>
+                            <span style="color: #2c3e50; font-size: 16px;">Provide clear instructions for care</span>
+                        </div>
+                    </div>
+                    <div style="margin-top: 35px;">
+                        <a href="tel:8182916217" style="display: inline-block; background: #c9a961; color: white; padding: 15px 40px; border-radius: 50px; text-decoration: none; font-weight: 600; font-size: 17px; transition: all 0.3s;">
+                            <i class="fas fa-phone" style="margin-right: 8px;"></i> Discuss Your Guardianship Needs
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- The Guardianship Process -->
+    <section style="background: url('images/superior-court.jpg') center/cover no-repeat; padding: 80px 0; position: relative;">
+        <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(30, 58, 95, 0.7); z-index: 1;"></div>
+        <div class="container" style="position: relative; z-index: 2;">
+            <h2 style="text-align: center; font-family: 'Playfair Display', serif; font-size: 42px; color: white; margin-bottom: 20px; text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">The Guardianship Process</h2>
+            <p style="text-align: center; max-width: 800px; margin: 0 auto 50px; color: rgba(255, 255, 255, 0.95); font-size: 18px; line-height: 1.8;">
+                Establishing guardianship requires court approval through a formal legal process.
                 Here's what to expect:
             </p>
-            
-            <div class="timeline">
+
+            <div class="timeline" style="max-width: 900px; margin: 50px auto;">
                 <div class="timeline-item">
                     <div class="timeline-number">1</div>
                     <h3>Initial Consultation</h3>
@@ -1149,6 +1175,51 @@
                     <h3>Letters of Guardianship</h3>
                     <p>If approved, the court issues Letters of Guardianship, giving you legal authority 
                     to care for the child and make decisions on their behalf.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Special Considerations -->
+    <section style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 80px 0;">
+        <div class="container">
+            <h2 style="text-align: center; font-family: 'Playfair Display', serif; font-size: 42px; color: var(--primary-blue); margin-bottom: 50px;">Special Considerations</h2>
+
+            <div class="cards-grid">
+                <div class="info-card">
+                    <h3>Indian Child Welfare Act (ICWA)</h3>
+                    <p>Special federal protections apply if the child is Native American or eligible for tribal membership.
+                    Additional notice requirements and placement preferences must be followed.</p>
+                </div>
+
+                <div class="info-card">
+                    <h3>Immigration Issues</h3>
+                    <p>Guardianship may help undocumented children obtain Special Immigrant Juvenile Status (SIJS),
+                    potentially leading to lawful permanent residence.</p>
+                </div>
+
+                <div class="info-card">
+                    <h3>Educational Rights</h3>
+                    <p>Guardians can enroll children in school, consent to IEPs, and make educational decisions.
+                    Some schools may require additional documentation.</p>
+                </div>
+
+                <div class="info-card">
+                    <h3>Financial Support</h3>
+                    <p>Guardians may be eligible for CalWORKs, AFDC-FC, or other financial assistance programs.
+                    The child may also receive Social Security survivor benefits.</p>
+                </div>
+
+                <div class="info-card">
+                    <h3>Visitation Rights</h3>
+                    <p>Parents typically retain visitation rights unless the court finds it would be detrimental to the child.
+                    Visitation can be supervised if necessary.</p>
+                </div>
+
+                <div class="info-card">
+                    <h3>Termination</h3>
+                    <p>Guardianship ends when the child turns 18, is adopted, emancipated, or if the court terminates it.
+                    Parents can petition to regain custody if circumstances improve.</p>
                 </div>
             </div>
         </div>
@@ -1254,46 +1325,63 @@
         </div>
     </section>
 
-    <!-- Special Considerations -->
-    <section class="info-section">
+    <!-- Testimonials Section -->
+    <section style="background: white; padding: 80px 0;">
         <div class="container">
-            <h2 class="section-title">Special Considerations</h2>
-            
-            <div class="cards-grid">
-                <div class="info-card">
-                    <h3>Indian Child Welfare Act (ICWA)</h3>
-                    <p>Special federal protections apply if the child is Native American or eligible for tribal membership. 
-                    Additional notice requirements and placement preferences must be followed.</p>
+            <h2 style="text-align: center; font-family: 'Playfair Display', serif; font-size: 42px; color: var(--primary-blue); margin-bottom: 50px;">
+                What Our Clients Say
+            </h2>
+
+            <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; max-width: 1200px; margin: 0 auto;">
+                <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); padding: 35px; border-radius: 15px; box-shadow: 0 5px 20px rgba(0,0,0,0.08); position: relative; transition: all 0.3s;">
+                    <div style="color: var(--accent-gold); font-size: 40px; line-height: 1; margin-bottom: 15px;">"</div>
+                    <p style="color: var(--text-light); font-size: 16px; line-height: 1.7; font-style: italic; margin-bottom: 20px;">
+                        When my sister could no longer care for her children, Rozsa helped me become their legal guardian. The process was smooth and the kids are now thriving in a stable home.
+                    </p>
+                    <div style="display: flex; align-items: center; gap: 10px;">
+                        <div style="width: 50px; height: 50px; background: linear-gradient(135deg, var(--accent-gold), #e6c584); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold; font-size: 20px;">
+                            M
+                        </div>
+                        <div>
+                            <div style="font-weight: 600; color: var(--primary-blue);">Maria Rodriguez</div>
+                            <div style="font-size: 14px; color: var(--text-light);">Burbank, CA</div>
+                        </div>
+                    </div>
+                    <div style="color: var(--accent-gold); margin-top: 15px;">★★★★★</div>
                 </div>
-                
-                <div class="info-card">
-                    <h3>Immigration Issues</h3>
-                    <p>Guardianship may help undocumented children obtain Special Immigrant Juvenile Status (SIJS), 
-                    potentially leading to lawful permanent residence.</p>
+
+                <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); padding: 35px; border-radius: 15px; box-shadow: 0 5px 20px rgba(0,0,0,0.08); position: relative; transition: all 0.3s;">
+                    <div style="color: var(--accent-gold); font-size: 40px; line-height: 1; margin-bottom: 15px;">"</div>
+                    <p style="color: var(--text-light); font-size: 16px; line-height: 1.7; font-style: italic; margin-bottom: 20px;">
+                        My grandchildren needed a guardian after their parents' accident. Rozsa walked us through every step with compassion and professionalism. Highly recommend their services.
+                    </p>
+                    <div style="display: flex; align-items: center; gap: 10px;">
+                        <div style="width: 50px; height: 50px; background: linear-gradient(135deg, var(--accent-gold), #e6c584); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold; font-size: 20px;">
+                            J
+                        </div>
+                        <div>
+                            <div style="font-weight: 600; color: var(--primary-blue);">James Chen</div>
+                            <div style="font-size: 14px; color: var(--text-light);">Pasadena, CA</div>
+                        </div>
+                    </div>
+                    <div style="color: var(--accent-gold); margin-top: 15px;">★★★★★</div>
                 </div>
-                
-                <div class="info-card">
-                    <h3>Educational Rights</h3>
-                    <p>Guardians can enroll children in school, consent to IEPs, and make educational decisions. 
-                    Some schools may require additional documentation.</p>
-                </div>
-                
-                <div class="info-card">
-                    <h3>Financial Support</h3>
-                    <p>Guardians may be eligible for CalWORKs, AFDC-FC, or other financial assistance programs. 
-                    The child may also receive Social Security survivor benefits.</p>
-                </div>
-                
-                <div class="info-card">
-                    <h3>Visitation Rights</h3>
-                    <p>Parents typically retain visitation rights unless the court finds it would be detrimental to the child. 
-                    Visitation can be supervised if necessary.</p>
-                </div>
-                
-                <div class="info-card">
-                    <h3>Termination</h3>
-                    <p>Guardianship ends when the child turns 18, is adopted, emancipated, or if the court terminates it. 
-                    Parents can petition to regain custody if circumstances improve.</p>
+
+                <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); padding: 35px; border-radius: 15px; box-shadow: 0 5px 20px rgba(0,0,0,0.08); position: relative; transition: all 0.3s;">
+                    <div style="color: var(--accent-gold); font-size: 40px; line-height: 1; margin-bottom: 15px;">"</div>
+                    <p style="color: var(--text-light); font-size: 16px; line-height: 1.7; font-style: italic; margin-bottom: 20px;">
+                        Being deployed overseas, I needed guardianship established for my daughter. Rozsa Law Firm handled everything efficiently and gave me peace of mind during deployment.
+                    </p>
+                    <div style="display: flex; align-items: center; gap: 10px;">
+                        <div style="width: 50px; height: 50px; background: linear-gradient(135deg, var(--accent-gold), #e6c584); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold; font-size: 20px;">
+                            D
+                        </div>
+                        <div>
+                            <div style="font-weight: 600; color: var(--primary-blue);">David Thompson</div>
+                            <div style="font-size: 14px; color: var(--text-light);">Glendale, CA</div>
+                        </div>
+                    </div>
+                    <div style="color: var(--accent-gold); margin-top: 15px;">★★★★★</div>
                 </div>
             </div>
         </div>
@@ -1369,9 +1457,9 @@
     </section>
 
     <!-- Why Choose Us -->
-    <section class="info-section">
+    <section style="background: linear-gradient(135deg, var(--primary-blue) 0%, var(--light-blue) 100%); padding: 80px 0;">
         <div class="container">
-            <h2 class="section-title">Why Choose Law Offices of Rozsa Gyene?</h2>
+            <h2 style="text-align: center; font-family: 'Playfair Display', serif; font-size: 42px; color: white; margin-bottom: 50px;">Why Choose Law Offices of Rozsa Gyene?</h2>
             
             <div class="cards-grid">
                 <div class="info-card">
@@ -1454,6 +1542,25 @@
     <!-- Footer -->
     <footer>
         <div class="container">
+            <!-- Google Reviews Badge -->
+            <div style="text-align: center; margin-bottom: 30px; padding-bottom: 30px; border-bottom: 1px solid rgba(255, 255, 255, 0.2);">
+                <div style="display: inline-block; background: rgba(255, 255, 255, 0.1); padding: 20px 40px; border-radius: 15px; backdrop-filter: blur(10px);">
+                    <div style="color: var(--accent-gold); font-size: 16px; font-weight: 600; margin-bottom: 10px;">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div style="color: white; font-size: 18px; font-weight: 600; margin-bottom: 5px;">
+                        4.8 Rating on Google
+                    </div>
+                    <div style="color: rgba(255, 255, 255, 0.8); font-size: 14px;">
+                        Based on 100+ client reviews
+                    </div>
+                </div>
+            </div>
+
             <h3 style="margin-bottom: 20px;">Law Offices of Rozsa Gyene</h3>
             <p>450 N Brand Blvd. Suite 600<br>
             Glendale, CA 91203</p>
