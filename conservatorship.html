@@ -18,6 +18,10 @@
             box-sizing: border-box;
         }
 
+        html {
+            scroll-behavior: smooth;
+        }
+
         :root {
             --primary-blue: #1e3a5f;
             --accent-gold: #c9a961;
@@ -239,6 +243,21 @@
             display: none;
         }
 
+        /* Trust Badge Cards */
+        .trust-badge-card {
+            background: white;
+            padding: 30px 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .trust-badge-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+        }
+
         /* Hero Section */
         .hero {
             background: url('images/conservatorship-consultation.jpg') center/cover no-repeat;
@@ -398,12 +417,30 @@
             padding: 30px;
             border-radius: 10px;
             box-shadow: 0 5px 20px rgba(0,0,0,0.08);
-            transition: all 0.3s;
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .service-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(201, 169, 97, 0.1), transparent);
+            transition: left 0.5s;
+        }
+
+        .service-card:hover::before {
+            left: 100%;
         }
 
         .service-card:hover {
-            transform: translateY(-10px);
-            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+            transform: translateY(-10px) scale(1.02);
+            box-shadow: 0 15px 40px rgba(201, 169, 97, 0.25);
+            border: 1px solid rgba(201, 169, 97, 0.2);
         }
 
         .service-icon {
@@ -417,6 +454,12 @@
             margin-bottom: 20px;
             font-size: 28px;
             color: white;
+            transition: all 0.3s;
+        }
+
+        .service-card:hover .service-icon {
+            transform: rotateY(360deg) scale(1.1);
+            box-shadow: 0 5px 20px rgba(201, 169, 97, 0.4);
         }
 
         .service-card h3 {
@@ -455,7 +498,7 @@
             top: 60px;
             width: 2px;
             height: calc(100% + 20px);
-            background: var(--border-color);
+            background: rgba(255, 255, 255, 0.3);
         }
 
         .timeline-item:last-child::after {
@@ -477,12 +520,13 @@
         }
 
         .timeline-content h3 {
-            color: var(--primary-blue);
+            color: white;
             margin-bottom: 10px;
+            font-size: 20px;
         }
 
         .timeline-content p {
-            color: var(--text-light);
+            color: rgba(255, 255, 255, 0.9);
         }
 
         /* Stats Section */
@@ -566,23 +610,42 @@
         .form-group label {
             display: block;
             margin-bottom: 10px;
-            color: var(--primary-blue);
+            color: white;
             font-weight: 600;
             font-size: 18px;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
         }
 
         .form-group input {
             width: 100%;
             padding: 12px;
-            border: 2px solid var(--border-color);
+            border: 2px solid rgba(255, 255, 255, 0.3);
             border-radius: 8px;
             font-size: 16px;
+            background: rgba(255, 255, 255, 0.9);
+            transition: all 0.3s;
+        }
+
+        .form-group input:focus {
+            outline: none;
+            border-color: var(--accent-gold);
+            background: white;
+            box-shadow: 0 0 15px rgba(201, 169, 97, 0.3);
         }
 
         .radio-group {
             display: flex;
             gap: 30px;
             margin-top: 10px;
+        }
+
+        .radio-group label {
+            color: white !important;
+            font-weight: 500 !important;
+            font-size: 16px !important;
+            display: flex;
+            align-items: center;
+            gap: 8px;
         }
 
         .submit-btn {
@@ -596,11 +659,13 @@
             cursor: pointer;
             width: 100%;
             transition: all 0.3s;
+            box-shadow: 0 4px 15px rgba(201, 169, 97, 0.4);
         }
 
         .submit-btn:hover {
             background: #b8982f;
-            transform: translateY(-2px);
+            transform: translateY(-3px) scale(1.02);
+            box-shadow: 0 6px 25px rgba(201, 169, 97, 0.6);
         }
 
         /* Footer */
@@ -729,6 +794,11 @@
             section > .container > div[style*="grid-template-columns: 1fr 1fr"] > div:first-child {
                 order: -1;
             }
+
+            /* Mobile styles for trust badge cards */
+            div[style*="grid-template-columns: repeat(5, 1fr)"] {
+                grid-template-columns: 1fr !important;
+            }
         }
     </style>
 </head>
@@ -842,59 +912,97 @@
     <!-- Main Content Wrapper - Scrolls over hero -->
     <div class="main-content">
 
-    <!-- Stats Section -->
-    <section class="stats">
+    <!-- Trust Badges Section -->
+    <section style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 60px 0;">
         <div class="container">
-            <div class="stats-grid">
-                <div class="stat-item">
-                    <div class="stat-number">300+</div>
-                    <div class="stat-label">Conservatorships Established</div>
+            <h2 style="text-align: center; color: var(--primary-blue); font-size: 42px; margin-bottom: 50px; font-family: 'Playfair Display', serif;">
+                Why Choose Law Offices of Rozsa Gyene?
+            </h2>
+            <div style="display: grid; grid-template-columns: repeat(5, 1fr); gap: 20px; max-width: 1200px; margin: 0 auto;">
+                <div class="trust-badge-card">
+                    <div style="width: 50px; height: 50px; background: linear-gradient(135deg, #c9a961 0%, #b8982f 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 12px;">
+                        <i class="fas fa-users" style="font-size: 22px; color: white;"></i>
+                    </div>
+                    <div style="font-size: 18px; font-weight: bold; color: var(--primary-blue); margin-bottom: 4px;">5000+ Families</div>
+                    <div style="font-size: 12px; color: var(--text-light); font-weight: 500;">Served</div>
+                    <div style="font-size: 11px; color: var(--text-light); margin-top: 4px;">Since 2001</div>
                 </div>
-                <div class="stat-item">
-                    <div class="stat-number">25+</div>
-                    <div class="stat-label">Years of Experience</div>
+
+                <div class="trust-badge-card">
+                    <div style="width: 50px; height: 50px; background: linear-gradient(135deg, #c9a961 0%, #b8982f 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 12px;">
+                        <i class="fas fa-certificate" style="font-size: 22px; color: white;"></i>
+                    </div>
+                    <div style="font-size: 18px; font-weight: bold; color: var(--primary-blue); margin-bottom: 4px; line-height: 1.2;">California State Bar</div>
+                    <div style="font-size: 12px; color: var(--text-light); font-weight: 500;">#208356</div>
+                    <div style="font-size: 11px; color: var(--text-light); margin-top: 4px;">Licensed & Verified</div>
                 </div>
-                <div class="stat-item">
-                    <div class="stat-number">100%</div>
-                    <div class="stat-label">Court Approval Rate</div>
+
+                <div class="trust-badge-card">
+                    <div style="width: 50px; height: 50px; background: linear-gradient(135deg, #c9a961 0%, #b8982f 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 12px;">
+                        <i class="fas fa-star" style="font-size: 22px; color: white;"></i>
+                    </div>
+                    <div style="font-size: 18px; font-weight: bold; color: var(--primary-blue); margin-bottom: 4px;">A+ Rated</div>
+                    <div style="font-size: 12px; color: var(--text-light); font-weight: 500;">Better Business Bureau</div>
+                    <div style="font-size: 11px; color: var(--text-light); margin-top: 4px;">Trusted Excellence</div>
                 </div>
-                <div class="stat-item">
-                    <div class="stat-number">24/7</div>
-                    <div class="stat-label">Support Available</div>
+
+                <div class="trust-badge-card">
+                    <div style="width: 50px; height: 50px; background: linear-gradient(135deg, #c9a961 0%, #b8982f 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 12px;">
+                        <i class="fas fa-award" style="font-size: 22px; color: white;"></i>
+                    </div>
+                    <div style="font-size: 18px; font-weight: bold; color: var(--primary-blue); margin-bottom: 4px;">25+ Years</div>
+                    <div style="font-size: 12px; color: var(--text-light); font-weight: 500;">Experience</div>
+                    <div style="font-size: 11px; color: var(--text-light); margin-top: 4px;">Estate Planning Experts</div>
+                </div>
+
+                <div class="trust-badge-card">
+                    <div style="width: 50px; height: 50px; background: linear-gradient(135deg, #c9a961 0%, #b8982f 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 12px;">
+                        <i class="fas fa-shield-alt" style="font-size: 22px; color: white;"></i>
+                    </div>
+                    <div style="font-size: 18px; font-weight: bold; color: var(--primary-blue); margin-bottom: 4px;">100% Confidential</div>
+                    <div style="font-size: 12px; color: var(--text-light); font-weight: 500;">Attorney-Client Privilege</div>
+                    <div style="font-size: 11px; color: var(--text-light); margin-top: 4px;">Your Privacy Protected</div>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- About Section -->
-    <section class="info-section">
-        <div class="container">
-            <h2>About Conservatorship</h2>
-            <div class="info-content">
-                <p>
-                    <strong>Conservatorship</strong> is a legal arrangement in which one person (called the <strong>conservator</strong>) 
-                    is appointed by a court to manage the financial affairs and/or daily life of another person (called the <strong>conservatee</strong>) 
-                    who is unable to do so for themselves.
-                </p>
-                <p style="margin-top: 20px;">
-                    The conservatee is typically an elderly person or someone with a disability. The conservator is responsible for making 
-                    decisions on behalf of the conservatee. This can include managing finances, paying bills, making healthcare decisions, 
-                    and ensuring the conservatee has proper housing and care. The court oversees the conservator's actions to make sure 
-                    they are acting in the best interests of the conservatee.
-                </p>
+    <section style="background: url('images/elderly-care-compassion.jpg') center/cover no-repeat; padding: 80px 0; position: relative;">
+        <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(30, 58, 95, 0.5); z-index: 1;"></div>
+        <div class="container" style="position: relative; z-index: 2;">
+            <div style="background: rgba(255, 255, 255, 0.08); padding: 50px 40px; border-radius: 20px; max-width: 900px; margin: 0 auto; backdrop-filter: blur(15px); border: 1px solid rgba(255, 255, 255, 0.3); box-shadow: 0 10px 40px rgba(0,0,0,0.3);">
+                <h2 style="font-family: 'Playfair Display', serif; font-size: 42px; color: white; text-align: center; margin-bottom: 30px; text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">About Conservatorship</h2>
+                <div style="color: white; font-size: 18px; line-height: 1.8;">
+                    <p>
+                        <strong style="color: var(--accent-gold);">Conservatorship</strong> is a legal arrangement in which one person (called the <strong style="color: var(--accent-gold);">conservator</strong>)
+                        is appointed by a court to manage the financial affairs and/or daily life of another person (called the <strong style="color: var(--accent-gold);">conservatee</strong>)
+                        who is unable to do so for themselves.
+                    </p>
+                    <p style="margin-top: 20px;">
+                        The conservatee is typically an elderly person or someone with a disability. The conservator is responsible for making
+                        decisions on behalf of the conservatee. This can include managing finances, paying bills, making healthcare decisions,
+                        and ensuring the conservatee has proper housing and care. The court oversees the conservator's actions to make sure
+                        they are acting in the best interests of the conservatee.
+                    </p>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- Compassionate Care Section with Image -->
-    <section style="padding: 80px 0; background: #f8f9fa;">
-        <div class="container">
+    <section style="padding: 80px 0; background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 50%, #ffffff 100%); position: relative;">
+        <!-- Decorative element -->
+        <div style="position: absolute; top: 0; right: 0; width: 300px; height: 300px; background: radial-gradient(circle, rgba(201, 169, 97, 0.08) 0%, transparent 70%); border-radius: 50%;"></div>
+
+        <div class="container" style="position: relative; z-index: 1;">
             <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: center;">
-                <div style="border-radius: 10px; overflow: hidden; box-shadow: 0 15px 40px rgba(0,0,0,0.1);">
+                <div style="border-radius: 20px; overflow: hidden; box-shadow: 0 20px 60px rgba(30, 58, 95, 0.15); position: relative; transform: perspective(1000px) rotateY(-5deg); transition: transform 0.3s;">
                     <img src="images/elderly-care-support.png" alt="Compassionate conservatorship support for elderly loved ones" style="width: 100%; height: auto; display: block;">
+                    <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(135deg, rgba(201, 169, 97, 0.1) 0%, transparent 50%); pointer-events: none;"></div>
                 </div>
                 <div>
-                    <h2 style="font-family: 'Playfair Display', serif; font-size: 36px; color: #1e3a5f; margin-bottom: 25px;">Protecting Those Who Need It Most</h2>
+                    <h2 style="font-family: 'Playfair Display', serif; font-size: 42px; color: #1e3a5f; margin-bottom: 25px; line-height: 1.2;">Protecting Those Who Need It Most</h2>
                     <p style="color: #6c757d; line-height: 1.8; margin-bottom: 20px; font-size: 17px;">
                         When your loved one needs assistance managing their daily affairs, we're here to help establish the legal 
                         framework that ensures their dignity, safety, and wellbeing are protected.
@@ -928,11 +1036,11 @@
     </section>
 
     <!-- Services Section -->
-    <section class="services">
+    <section class="services" style="padding: 60px 0;">
         <div class="container">
-            <h2>What Our Law Firm Can Do For You</h2>
-            <p style="text-align: center; max-width: 800px; margin: 0 auto 50px; color: var(--text-light);">
-                We provide valuable support and expertise to anyone seeking to establish a conservatorship 
+            <h2 style="font-family: 'Playfair Display', serif; font-size: 42px; text-align: center; color: var(--primary-blue); margin-bottom: 20px;">What Our Law Firm Can Do For You</h2>
+            <p style="text-align: center; max-width: 800px; margin: 0 auto 40px; color: var(--text-light); font-size: 18px; line-height: 1.6;">
+                We provide valuable support and expertise to anyone seeking to establish a conservatorship
                 and ensure that your loved one's needs are properly cared for.
             </p>
             
@@ -989,13 +1097,15 @@
     </section>
 
     <!-- Process Section -->
-    <section class="process">
-        <div class="container">
-            <h2 style="text-align: center; font-family: 'Playfair Display', serif; font-size: 42px; color: var(--primary-blue); margin-bottom: 50px;">
-                Our Conservatorship Process
-            </h2>
-            
-            <div class="timeline">
+    <section style="background: url('images/conservatorship-home-care.jpg') center/cover no-repeat; padding: 80px 0; position: relative;">
+        <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(30, 58, 95, 0.5); z-index: 1;"></div>
+        <div class="container" style="position: relative; z-index: 2;">
+            <div style="background: rgba(255, 255, 255, 0.08); padding: 50px 40px; border-radius: 20px; max-width: 1000px; margin: 0 auto; backdrop-filter: blur(15px); border: 1px solid rgba(255, 255, 255, 0.3); box-shadow: 0 10px 40px rgba(0,0,0,0.3);">
+                <h2 style="text-align: center; font-family: 'Playfair Display', serif; font-size: 42px; color: white; margin-bottom: 50px; text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">
+                    Our Conservatorship Process
+                </h2>
+
+                <div class="timeline">
                 <div class="timeline-item">
                     <div class="timeline-number">1</div>
                     <div class="timeline-content">
@@ -1037,27 +1147,189 @@
                 </div>
             </div>
         </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section style="background: white; padding: 80px 0;">
+        <div class="container">
+            <h2 style="text-align: center; font-family: 'Playfair Display', serif; font-size: 42px; color: var(--primary-blue); margin-bottom: 50px;">
+                What Our Clients Say
+            </h2>
+
+            <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; max-width: 1200px; margin: 0 auto;">
+                <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); padding: 35px; border-radius: 15px; box-shadow: 0 5px 20px rgba(0,0,0,0.08); position: relative; transition: all 0.3s;">
+                    <div style="color: var(--accent-gold); font-size: 40px; line-height: 1; margin-bottom: 15px;">"</div>
+                    <p style="color: var(--text-light); font-size: 16px; line-height: 1.7; font-style: italic; margin-bottom: 20px;">
+                        Rozsa helped us establish conservatorship for my mother who has dementia. The process was complex but they guided us through every step. My mother is now safe and properly cared for.
+                    </p>
+                    <div style="display: flex; align-items: center; gap: 10px;">
+                        <div style="width: 50px; height: 50px; background: linear-gradient(135deg, var(--accent-gold), #e6c584); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold; font-size: 20px;">
+                            S
+                        </div>
+                        <div>
+                            <div style="font-weight: 600; color: var(--primary-blue);">Sarah Martinez</div>
+                            <div style="font-size: 14px; color: var(--text-light);">Glendale, CA</div>
+                        </div>
+                    </div>
+                    <div style="color: var(--accent-gold); margin-top: 15px;">★★★★★</div>
+                </div>
+
+                <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); padding: 35px; border-radius: 15px; box-shadow: 0 5px 20px rgba(0,0,0,0.08); position: relative; transition: all 0.3s;">
+                    <div style="color: var(--accent-gold); font-size: 40px; line-height: 1; margin-bottom: 15px;">"</div>
+                    <p style="color: var(--text-light); font-size: 16px; line-height: 1.7; font-style: italic; margin-bottom: 20px;">
+                        My father was being taken advantage of financially. Rozsa Law Firm worked quickly to establish conservatorship and protect his assets. I'm grateful for their expertise and compassion.
+                    </p>
+                    <div style="display: flex; align-items: center; gap: 10px;">
+                        <div style="width: 50px; height: 50px; background: linear-gradient(135deg, var(--accent-gold), #e6c584); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold; font-size: 20px;">
+                            J
+                        </div>
+                        <div>
+                            <div style="font-weight: 600; color: var(--primary-blue);">James Thompson</div>
+                            <div style="font-size: 14px; color: var(--text-light);">Burbank, CA</div>
+                        </div>
+                    </div>
+                    <div style="color: var(--accent-gold); margin-top: 15px;">★★★★★</div>
+                </div>
+
+                <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); padding: 35px; border-radius: 15px; box-shadow: 0 5px 20px rgba(0,0,0,0.08); position: relative; transition: all 0.3s;">
+                    <div style="color: var(--accent-gold); font-size: 40px; line-height: 1; margin-bottom: 15px;">"</div>
+                    <p style="color: var(--text-light); font-size: 16px; line-height: 1.7; font-style: italic; margin-bottom: 20px;">
+                        Professional, caring, and knowledgeable. They made a difficult situation manageable. The court approved our petition on the first try. Highly recommend for conservatorship matters.
+                    </p>
+                    <div style="display: flex; align-items: center; gap: 10px;">
+                        <div style="width: 50px; height: 50px; background: linear-gradient(135deg, var(--accent-gold), #e6c584); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold; font-size: 20px;">
+                            M
+                        </div>
+                        <div>
+                            <div style="font-weight: 600; color: var(--primary-blue);">Maria Rodriguez</div>
+                            <div style="font-size: 14px; color: var(--text-light);">Pasadena, CA</div>
+                        </div>
+                    </div>
+                    <div style="color: var(--accent-gold); margin-top: 15px;">★★★★★</div>
+                </div>
+            </div>
+        </div>
     </section>
 
     <!-- CTA Section -->
-    <section class="cta">
+    <section style="background: linear-gradient(135deg, #1e3a5f 0%, #2c5282 50%, #1e3a5f 100%); padding: 80px 0; position: relative; overflow: hidden;">
+        <!-- Decorative circles -->
+        <div style="position: absolute; top: -50px; right: -50px; width: 200px; height: 200px; background: rgba(201, 169, 97, 0.1); border-radius: 50%;"></div>
+        <div style="position: absolute; bottom: -100px; left: -100px; width: 300px; height: 300px; background: rgba(201, 169, 97, 0.1); border-radius: 50%;"></div>
+
+        <div class="container" style="position: relative; z-index: 2;">
+            <div style="text-align: center; max-width: 800px; margin: 0 auto;">
+                <h2 style="font-family: 'Playfair Display', serif; font-size: 48px; color: white; margin-bottom: 20px; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);">
+                    Need Help Protecting Your Loved One?
+                </h2>
+                <p style="font-size: 22px; color: rgba(255, 255, 255, 0.9); margin-bottom: 40px; line-height: 1.6;">
+                    We'll guide you through every step of the conservatorship process
+                </p>
+
+                <div style="display: flex; gap: 20px; justify-content: center; align-items: center; flex-wrap: wrap; margin-bottom: 40px;">
+                    <a href="https://portal.livingtrust-attorneys.com/book" style="background: var(--accent-gold); color: white; padding: 18px 45px; border-radius: 50px; text-decoration: none; font-weight: 600; font-size: 18px; transition: all 0.3s; display: inline-flex; align-items: center; gap: 10px; box-shadow: 0 4px 15px rgba(201, 169, 97, 0.4);">
+                        <i class="fas fa-calendar-check"></i>
+                        Book An Appointment
+                    </a>
+                    <a href="tel:8182916217" style="background: transparent; border: 2px solid white; color: white; padding: 18px 45px; border-radius: 50px; text-decoration: none; font-weight: 600; font-size: 18px; transition: all 0.3s; display: inline-flex; align-items: center; gap: 10px;">
+                        <i class="fas fa-phone"></i>
+                        (818) 291-6217
+                    </a>
+                </div>
+
+                <p style="font-size: 16px; color: rgba(255, 255, 255, 0.8);">
+                    <i class="fas fa-shield-alt" style="color: var(--accent-gold); margin-right: 8px;"></i>
+                    Free Legal Consultation • No Obligation • 100% Confidential
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 80px 0;">
         <div class="container">
-            <h2>Need Help Protecting Your Loved One?</h2>
-            <p>We'll guide you through every step of the conservatorship process</p>
-            <a href="https://portal.livingtrust-attorneys.com/book" class="btn-primary">Book An Appointment</a>
-            <p style="margin-top: 30px;">Or Call Us Now for a FREE Legal Consultation</p>
-            <a href="tel:8182916217" class="phone-large">(818) 291-6217</a>
+            <h2 style="text-align: center; font-family: 'Playfair Display', serif; font-size: 42px; color: var(--primary-blue); margin-bottom: 20px;">
+                Frequently Asked Questions
+            </h2>
+            <p style="text-align: center; color: var(--text-light); font-size: 18px; margin-bottom: 50px; max-width: 700px; margin-left: auto; margin-right: auto;">
+                Get answers to common questions about conservatorship in California
+            </p>
+
+            <div style="max-width: 900px; margin: 0 auto;">
+                <div class="faq-item" style="background: white; margin-bottom: 15px; border-radius: 10px; overflow: hidden; box-shadow: 0 2px 10px rgba(0,0,0,0.05);">
+                    <button class="faq-question" onclick="toggleFAQ(this)" style="width: 100%; text-align: left; padding: 25px 30px; background: white; border: none; cursor: pointer; display: flex; justify-content: space-between; align-items: center; font-size: 18px; font-weight: 600; color: var(--primary-blue); transition: all 0.3s;">
+                        <span>What is the difference between conservatorship and guardianship?</span>
+                        <i class="fas fa-chevron-down" style="color: var(--accent-gold); transition: transform 0.3s;"></i>
+                    </button>
+                    <div class="faq-answer" style="max-height: 0; overflow: hidden; transition: max-height 0.3s ease;">
+                        <div style="padding: 0 30px 25px 30px; color: var(--text-light); line-height: 1.8;">
+                            Conservatorship is for adults who cannot care for themselves, while guardianship is for minors. Both provide legal authority to make decisions on behalf of another person, but conservatorship applies when the person is 18 or older and incapacitated due to age, illness, or disability.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item" style="background: white; margin-bottom: 15px; border-radius: 10px; overflow: hidden; box-shadow: 0 2px 10px rgba(0,0,0,0.05);">
+                    <button class="faq-question" onclick="toggleFAQ(this)" style="width: 100%; text-align: left; padding: 25px 30px; background: white; border: none; cursor: pointer; display: flex; justify-content: space-between; align-items: center; font-size: 18px; font-weight: 600; color: var(--primary-blue); transition: all 0.3s;">
+                        <span>How long does the conservatorship process take?</span>
+                        <i class="fas fa-chevron-down" style="color: var(--accent-gold); transition: transform 0.3s;"></i>
+                    </button>
+                    <div class="faq-answer" style="max-height: 0; overflow: hidden; transition: max-height 0.3s ease;">
+                        <div style="padding: 0 30px 25px 30px; color: var(--text-light); line-height: 1.8;">
+                            The process typically takes 60-90 days from filing to court approval. We file the petition within days of your consultation, and the court hearing is usually scheduled within 30-60 days. Emergency conservatorships can be established more quickly when there's immediate danger.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item" style="background: white; margin-bottom: 15px; border-radius: 10px; overflow: hidden; box-shadow: 0 2px 10px rgba(0,0,0,0.05);">
+                    <button class="faq-question" onclick="toggleFAQ(this)" style="width: 100%; text-align: left; padding: 25px 30px; background: white; border: none; cursor: pointer; display: flex; justify-content: space-between; align-items: center; font-size: 18px; font-weight: 600; color: var(--primary-blue); transition: all 0.3s;">
+                        <span>What are the costs involved in establishing a conservatorship?</span>
+                        <i class="fas fa-chevron-down" style="color: var(--accent-gold); transition: transform 0.3s;"></i>
+                    </button>
+                    <div class="faq-answer" style="max-height: 0; overflow: hidden; transition: max-height 0.3s ease;">
+                        <div style="padding: 0 30px 25px 30px; color: var(--text-light); line-height: 1.8;">
+                            Costs include court filing fees, investigation fees, attorney fees, and potentially bond costs. The exact amount varies based on the complexity of your case. Many families are surprised to learn that conservatorship fees are often paid from the conservatee's estate, and we can discuss payment options during your free consultation.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item" style="background: white; margin-bottom: 15px; border-radius: 10px; overflow: hidden; box-shadow: 0 2px 10px rgba(0,0,0,0.05);">
+                    <button class="faq-question" onclick="toggleFAQ(this)" style="width: 100%; text-align: left; padding: 25px 30px; background: white; border: none; cursor: pointer; display: flex; justify-content: space-between; align-items: center; font-size: 18px; font-weight: 600; color: var(--primary-blue); transition: all 0.3s;">
+                        <span>What are my responsibilities as a conservator?</span>
+                        <i class="fas fa-chevron-down" style="color: var(--accent-gold); transition: transform 0.3s;"></i>
+                    </button>
+                    <div class="faq-answer" style="max-height: 0; overflow: hidden; transition: max-height 0.3s ease;">
+                        <div style="padding: 0 30px 25px 30px; color: var(--text-light); line-height: 1.8;">
+                            As a conservator, you're responsible for managing the conservatee's finances, ensuring their medical care, arranging for housing, and protecting their assets. You must file annual accountings with the court and always act in the conservatee's best interests. We provide ongoing support to help you fulfill these duties properly.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item" style="background: white; margin-bottom: 15px; border-radius: 10px; overflow: hidden; box-shadow: 0 2px 10px rgba(0,0,0,0.05);">
+                    <button class="faq-question" onclick="toggleFAQ(this)" style="width: 100%; text-align: left; padding: 25px 30px; background: white; border: none; cursor: pointer; display: flex; justify-content: space-between; align-items: center; font-size: 18px; font-weight: 600; color: var(--primary-blue); transition: all 0.3s;">
+                        <span>Can a conservatorship be contested or terminated?</span>
+                        <i class="fas fa-chevron-down" style="color: var(--accent-gold); transition: transform 0.3s;"></i>
+                    </button>
+                    <div class="faq-answer" style="max-height: 0; overflow: hidden; transition: max-height 0.3s ease;">
+                        <div style="padding: 0 30px 25px 30px; color: var(--text-light); line-height: 1.8;">
+                            Yes, family members or the conservatee can contest the conservatorship during the court process. Once established, a conservatorship can be terminated if the conservatee regains capacity or passes away. The court oversees all conservatorships to ensure they remain necessary and in the conservatee's best interests.
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
     <!-- Form Section -->
-    <section class="form-section" id="form">
-        <div class="container">
-            <h2 style="text-align: center; font-family: 'Playfair Display', serif; font-size: 42px; color: var(--primary-blue); margin-bottom: 40px;">
+    <section style="background: url('images/conservatorship-background.jpg') center/cover no-repeat; padding: 80px 0; position: relative;" id="form">
+        <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(30, 58, 95, 0.4); z-index: 1;"></div>
+
+        <div class="container" style="position: relative; z-index: 2;">
+            <h2 style="text-align: center; font-family: 'Playfair Display', serif; font-size: 42px; color: white; margin-bottom: 40px; text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">
                 Find Out If a Conservatorship is Right for You
             </h2>
-            
-            <div class="form-container">
+
+            <div style="max-width: 700px; margin: 0 auto; background: rgba(255, 255, 255, 0.1); padding: 40px; border-radius: 20px; backdrop-filter: blur(8px); border: 1px solid rgba(255, 255, 255, 0.3); box-shadow: 0 10px 40px rgba(0,0,0,0.3);">
                 <form action="https://getform.io/f/YOUR-FORM-ID" method="POST">
                     <div class="form-group">
                         <label>Do you have a loved one who is unable to manage their own finances and/or daily care?</label>
@@ -1115,6 +1387,28 @@
     <!-- Footer -->
     <footer>
         <div class="container">
+            <!-- Google Reviews Badge -->
+            <div style="text-align: center; margin-bottom: 30px; padding-bottom: 30px; border-bottom: 1px solid rgba(255, 255, 255, 0.2);">
+                <div style="display: inline-block; background: rgba(255, 255, 255, 0.1); padding: 20px 40px; border-radius: 15px; backdrop-filter: blur(10px);">
+                    <div style="color: var(--accent-gold); font-size: 16px; font-weight: 600; margin-bottom: 10px;">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div style="color: white; font-size: 18px; font-weight: 600; margin-bottom: 5px;">
+                        4.8 Rating on Google
+                    </div>
+                    <div style="color: rgba(255, 255, 255, 0.8); font-size: 14px;">
+                        Based on 100+ verified reviews
+                    </div>
+                    <a href="https://www.google.com/search?q=Law+Offices+of+Rozsa+Gyene" target="_blank" style="display: inline-block; margin-top: 15px; color: var(--accent-gold); text-decoration: none; font-weight: 600; transition: all 0.3s;">
+                        Read Our Reviews <i class="fas fa-external-link-alt" style="font-size: 12px;"></i>
+                    </a>
+                </div>
+            </div>
+
             <h3 style="margin-bottom: 20px;">CONTACT US</h3>
             <div class="footer-contact">
                 <a href="tel:8182916217"><i class="fas fa-phone"></i> (818) 291-6217</a>
@@ -1153,11 +1447,32 @@
         document.addEventListener('click', function(e) {
             const navMenu = document.getElementById('navMenu');
             const mobileToggle = document.querySelector('.mobile-toggle');
-            
+
             if (!navMenu.contains(e.target) && !mobileToggle.contains(e.target)) {
                 navMenu.classList.remove('active');
             }
         });
+
+        // FAQ Accordion Toggle
+        function toggleFAQ(button) {
+            const answer = button.nextElementSibling;
+            const icon = button.querySelector('i');
+            const isOpen = answer.style.maxHeight && answer.style.maxHeight !== '0px';
+
+            // Close all other FAQs
+            document.querySelectorAll('.faq-answer').forEach(item => {
+                item.style.maxHeight = '0';
+            });
+            document.querySelectorAll('.faq-question i').forEach(item => {
+                item.style.transform = 'rotate(0deg)';
+            });
+
+            // Toggle current FAQ
+            if (!isOpen) {
+                answer.style.maxHeight = answer.scrollHeight + 'px';
+                icon.style.transform = 'rotate(180deg)';
+            }
+        }
     </script>
 </body>
 </html>
