@@ -1189,8 +1189,15 @@
 
         /* Mobile Styles */
         @media (max-width: 992px) {
+            .top-bar {
+                position: relative !important;
+                z-index: 1 !important;
+            }
+
             header {
-                top: 40px !important;
+                position: relative !important;
+                top: 0 !important;
+                z-index: 100 !important;
             }
 
             .mobile-toggle {
