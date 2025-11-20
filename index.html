@@ -2135,9 +2135,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         </header>
         <div class="hero-slider">
             <div class="hero-slide active" style="background-image: url('media/hero/family-generations.webp');"></div>
-            <div class="hero-slide" style="background-image: url('media/hero/happy-family.webp');"></div>
-            <div class="hero-slide" style="background-image: url('media/hero/young-family.webp');"></div>
-            <div class="hero-slide" style="background-image: url('media/hero/estate-planning.webp');"></div>
+            <div class="hero-slide" data-bg="media/hero/happy-family.webp"></div>
+            <div class="hero-slide" data-bg="media/hero/young-family.webp"></div>
+            <div class="hero-slide" data-bg="media/hero/estate-planning.webp"></div>
         </div>
         <div class="hero-overlay"></div>
 
@@ -2766,7 +2766,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             faqItem.classList.toggle('active');
         }
 
-        // Hero Slider Auto-scroll
+        // Hero Slider Auto-scroll with lazy loading
         let currentSlide = 0;
         const slides = document.querySelectorAll('.hero-slide');
         const totalSlides = slides.length;
@@ -2774,7 +2774,21 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         function nextSlide() {
             slides[currentSlide].classList.remove('active');
             currentSlide = (currentSlide + 1) % totalSlides;
-            slides[currentSlide].classList.add('active');
+
+            // Lazy load background image if not already loaded
+            const nextSlideEl = slides[currentSlide];
+            if (nextSlideEl.dataset.bg && !nextSlideEl.style.backgroundImage) {
+                nextSlideEl.style.backgroundImage = `url('${nextSlideEl.dataset.bg}')`;
+            }
+
+            nextSlideEl.classList.add('active');
+
+            // Preload next slide image
+            const preloadIndex = (currentSlide + 1) % totalSlides;
+            const preloadSlide = slides[preloadIndex];
+            if (preloadSlide.dataset.bg && !preloadSlide.style.backgroundImage) {
+                preloadSlide.style.backgroundImage = `url('${preloadSlide.dataset.bg}')`;
+            }
         }
 
         // Auto-advance every 5 seconds
@@ -2851,6 +2865,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     </div>
 
     <script>
+        // Defer chat widget initialization until page is fully loaded
+        window.addEventListener('load', function() {
         let chatMessages = [];
         let isFirstMessage = true;
 
@@ -2993,6 +3009,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 closeTranscriptModal();
             }
         }
+        }); // End of window.load event listener
     </script>
 
     <!-- Sticky Mobile Call Button -->
