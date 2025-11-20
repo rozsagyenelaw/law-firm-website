@@ -1686,6 +1686,40 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             .consultation-text h2 {
                 font-size: 32px;
             }
+
+            /* Sticky Mobile Call Button */
+            .mobile-call-button {
+                display: block !important;
+                position: fixed;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                background: #c9a961;
+                color: white;
+                padding: 18px;
+                text-align: center;
+                text-decoration: none;
+                font-weight: 700;
+                font-size: 18px;
+                z-index: 9999;
+                box-shadow: 0 -4px 12px rgba(0,0,0,0.15);
+                animation: pulse 2s infinite;
+            }
+
+            .mobile-call-button i {
+                margin-right: 10px;
+                font-size: 20px;
+            }
+
+            @keyframes pulse {
+                0%, 100% { transform: scale(1); }
+                50% { transform: scale(1.02); }
+            }
+        }
+
+        /* Hide mobile button on desktop */
+        .mobile-call-button {
+            display: none;
         }
 
         /* Chat Widget Styles */
@@ -2960,6 +2994,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             }
         }
     </script>
+
+    <!-- Sticky Mobile Call Button -->
+    <a href="tel:8182916217" class="mobile-call-button">
+        <i class="fas fa-phone-alt"></i> CALL NOW - FREE CONSULTATION
+    </a>
 </body>
 </html>
 
