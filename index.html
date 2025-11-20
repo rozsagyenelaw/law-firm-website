@@ -2477,7 +2477,7 @@
             
             <div class="faq-container">
                 <div class="faq-item">
-                    <div class="faq-question" onclick="toggleFAQ(this)">
+                    <div class="faq-question" onclick="toggleFAQ(this)" role="button" aria-label="Expand answer: Do I need a trust or is a will sufficient?" tabindex="0">
                         <h3>Do I need a trust or is a will sufficient?</h3>
                         <i class="fas fa-chevron-down faq-icon"></i>
                     </div>
@@ -2487,7 +2487,7 @@
                 </div>
                 
                 <div class="faq-item">
-                    <div class="faq-question" onclick="toggleFAQ(this)">
+                    <div class="faq-question" onclick="toggleFAQ(this)" role="button" aria-label="Expand answer: How much does estate planning cost?" tabindex="0">
                         <h3>How much does estate planning cost?</h3>
                         <i class="fas fa-chevron-down faq-icon"></i>
                     </div>
@@ -2497,7 +2497,7 @@
                 </div>
                 
                 <div class="faq-item">
-                    <div class="faq-question" onclick="toggleFAQ(this)">
+                    <div class="faq-question" onclick="toggleFAQ(this)" role="button" aria-label="Expand answer: When should I update my estate plan?" tabindex="0">
                         <h3>When should I update my estate plan?</h3>
                         <i class="fas fa-chevron-down faq-icon"></i>
                     </div>
@@ -2507,7 +2507,7 @@
                 </div>
                 
                 <div class="faq-item">
-                    <div class="faq-question" onclick="toggleFAQ(this)">
+                    <div class="faq-question" onclick="toggleFAQ(this)" role="button" aria-label="Expand answer: What happens if I die without an estate plan?" tabindex="0">
                         <h3>What happens if I die without an estate plan?</h3>
                         <i class="fas fa-chevron-down faq-icon"></i>
                     </div>
@@ -2790,7 +2790,7 @@
                 <i class="fas fa-comment-dots"></i>
                 <span>Ask About Estate Planning</span>
             </div>
-            <button class="chat-minimize" onclick="toggleChat()">
+            <button class="chat-minimize" onclick="toggleChat()" aria-label="Minimize chat window">
                 <i class="fas fa-minus"></i>
             </button>
         </div>
@@ -2808,14 +2808,14 @@
             </button>
             <div class="chat-input-container">
                 <input type="text" id="chatInput" placeholder="Type your question..." onkeypress="if(event.key === 'Enter') sendMessage()">
-                <button onclick="sendMessage()">
+                <button onclick="sendMessage()" aria-label="Send message">
                     <i class="fas fa-paper-plane"></i>
                 </button>
             </div>
         </div>
     </div>
 
-    <button class="chat-toggle" onclick="toggleChat()" id="chatToggle">
+    <button class="chat-toggle" onclick="toggleChat()" id="chatToggle" aria-label="Open chat window">
         <i class="fas fa-comments"></i>
         <span class="chat-badge">Chat with us!</span>
     </button>
@@ -2825,7 +2825,7 @@
         <div class="transcript-modal-content">
             <div class="transcript-modal-header">
                 <h3>Email Chat Transcript</h3>
-                <button class="transcript-modal-close" onclick="closeTranscriptModal()">&times;</button>
+                <button class="transcript-modal-close" onclick="closeTranscriptModal()" aria-label="Close transcript modal">&times;</button>
             </div>
             <div class="transcript-modal-body">
                 <p style="margin-bottom: 20px; color: var(--text-light);">Get a copy of this conversation sent to your email. We'll also reach out to schedule your free consultation!</p>
