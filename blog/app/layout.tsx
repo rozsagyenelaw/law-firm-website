@@ -74,7 +74,7 @@ export default function RootLayout({
         {/* Main Navigation */}
         <nav className="bg-transparent py-5">
           <div className="container-custom flex justify-between items-center">
-            <a href="../index.html" className="flex items-center gap-3 text-white no-print">
+            <a href="https://www.livingtrust-attorneys.com" className="flex items-center gap-3 text-white no-print">
               <div className="flex flex-col">
                 <span className="font-playfair text-xl font-bold text-shadow-md">
                   Law Offices of Rozsa Gyene
@@ -85,38 +85,14 @@ export default function RootLayout({
 
             <div className="flex items-center gap-4 no-print">
               <a
-                href="../index.html"
+                href="https://www.livingtrust-attorneys.com"
                 className="text-white hover:text-accent-gold transition-colors font-medium"
               >
                 Home
               </a>
               <a
-                href="../about.html"
-                className="text-white hover:text-accent-gold transition-colors font-medium"
-              >
-                About
-              </a>
-              <a
-                href="../living-trusts.html"
-                className="text-white hover:text-accent-gold transition-colors font-medium"
-              >
-                Estate Planning
-              </a>
-              <a
-                href="../probate.html"
-                className="text-white hover:text-accent-gold transition-colors font-medium"
-              >
-                Probate
-              </a>
-              <a
-                href="../conservatorship.html"
-                className="text-white hover:text-accent-gold transition-colors font-medium"
-              >
-                Conservatorship
-              </a>
-              <a
                 href="/"
-                className="text-white hover:text-accent-gold transition-colors font-medium"
+                className="text-accent-gold font-semibold"
               >
                 Blog
               </a>
@@ -164,10 +140,10 @@ export default function RootLayout({
               <div>
                 <h4 className="font-semibold text-lg mb-4 text-accent-gold">Practice Areas</h4>
                 <ul className="space-y-2 text-white/80">
-                  <li><a href="../living-trusts.html" className="hover:text-accent-gold transition-colors">Living Trusts</a></li>
-                  <li><a href="../probate.html" className="hover:text-accent-gold transition-colors">Probate</a></li>
-                  <li><a href="../trust-administration.html" className="hover:text-accent-gold transition-colors">Trust Administration</a></li>
-                  <li><a href="../conservatorship.html" className="hover:text-accent-gold transition-colors">Conservatorship</a></li>
+                  <li><a href="https://www.livingtrust-attorneys.com/living-trusts.html" className="hover:text-accent-gold transition-colors">Living Trusts</a></li>
+                  <li><a href="https://www.livingtrust-attorneys.com/probate.html" className="hover:text-accent-gold transition-colors">Probate</a></li>
+                  <li><a href="https://www.livingtrust-attorneys.com/trust-administration.html" className="hover:text-accent-gold transition-colors">Trust Administration</a></li>
+                  <li><a href="https://www.livingtrust-attorneys.com/conservatorship.html" className="hover:text-accent-gold transition-colors">Conservatorship</a></li>
                 </ul>
               </div>
             </div>

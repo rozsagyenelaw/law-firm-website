@@ -32,7 +32,7 @@ export default function AuthorBio() {
               (818) 291-6217
             </a>
             <a
-              href="../about.html"
+              href="https://www.livingtrust-attorneys.com/about.html"
               className="inline-flex items-center gap-2 bg-white/10 text-white px-6 py-2 rounded-full hover:bg-white/20 transition-colors font-semibold border border-white/30"
             >
               Learn More About Rozsa
