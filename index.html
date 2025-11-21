@@ -2851,8 +2851,7 @@
     </div>
 
     <script>
-        // Defer chat widget initialization until page is fully loaded
-        window.addEventListener('load', function() {
+        // Chat widget functions - must be in global scope for onclick handlers
         let chatMessages = [];
         let isFirstMessage = true;
 
@@ -2995,7 +2994,6 @@
                 closeTranscriptModal();
             }
         }
-        }); // End of window.load event listener
     </script>
 
     <!-- Sticky Mobile Call Button -->
