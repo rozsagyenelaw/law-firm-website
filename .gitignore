@@ -13,3 +13,6 @@ blog-source/node_modules/
 blog/.next/
 blog/out/
 blog/node_modules/
+
+# Blog static output for Netlify
+blog-static/

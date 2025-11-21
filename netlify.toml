@@ -1,7 +1,17 @@
 [build]
-  command = "cd blog-source && npm install && npm run build && cd .. && cp -r blog-source/out blog"
+  command = "cd blog && npm install && npm run build && cd .. && rm -rf blog-static && cp -r blog/out blog-static"
   functions = "netlify/functions"
   publish = "."
+
+[[redirects]]
+  from = "/blog"
+  to = "/blog-static/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/blog/*"
+  to = "/blog-static/:splat"
+  status = 200
 
 [functions]
   node_bundler = "esbuild"
@@ -9,4 +19,9 @@
 [[redirects]]
   from = "/api/chat"
   to = "/.netlify/functions/chat"
+  status = 200
+
+[[redirects]]
+  from = "/blog/*"
+  to = "/blog/:splat"
   status = 200
