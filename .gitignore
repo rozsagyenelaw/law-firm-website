@@ -16,3 +16,4 @@ blog/node_modules/
 
 # Blog static output for Netlify
 blog-static/
+blog-deploy/

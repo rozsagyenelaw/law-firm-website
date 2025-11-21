@@ -1,16 +1,16 @@
 [build]
-  command = "cd blog && npm install && npm run build && cd .. && rm -rf blog-static && cp -r blog/out blog-static"
+  command = "cd blog && npm install && npm run build && cd .. && rm -rf blog-deploy && cp -r blog/out/* blog-deploy"
   functions = "netlify/functions"
   publish = "."
 
 [[redirects]]
-  from = "/blog"
-  to = "/blog-static/index.html"
+  from = "/blog/*"
+  to = "/blog-deploy/:splat"
   status = 200
 
 [[redirects]]
-  from = "/blog/*"
-  to = "/blog-static/:splat"
+  from = "/blog"
+  to = "/blog-deploy/index.html"
   status = 200
 
 [functions]
