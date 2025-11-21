@@ -1,4 +1,5 @@
 [build]
+  command = "cd blog-source && npm install && npm run build && cd .. && cp -r blog-source/out blog"
   functions = "netlify/functions"
   publish = "."
 

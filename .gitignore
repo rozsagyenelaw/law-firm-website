@@ -1,3 +1,15 @@
 
 # Local Netlify folder
 .netlify
+
+# Dependencies
+node_modules/
+package-lock.json
+
+# Blog Next.js build
+blog-source/.next/
+blog-source/out/
+blog-source/node_modules/
+blog/.next/
+blog/out/
+blog/node_modules/
