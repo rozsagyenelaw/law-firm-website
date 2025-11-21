@@ -68,14 +68,14 @@ export async function getPostBySlug(slug: string): Promise<Post | null> {
       author: data.author || {
         name: 'Rozsa Gyene',
         title: 'Estate Planning Attorney',
-        image: '/images/author/rozsa-gyene.jpg',
+        image: '/blog/images/author/rozsa-gyene.jpg',
         bio: 'Attorney Rozsa Gyene has over 25 years of experience in estate planning, trust litigation, and probate law, serving families throughout Los Angeles County.',
       },
       category: data.category,
       tags: data.tags || [],
       excerpt: data.excerpt,
       featured: data.featured || false,
-      coverImage: data.coverImage || '/images/blog/default-cover.jpg',
+      coverImage: data.coverImage ? `/blog${data.coverImage}` : '/blog/images/blog/default-cover.jpg',
       content: contentHtml,
       readingTime: calculateReadingTime(content),
     }
