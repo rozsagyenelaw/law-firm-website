@@ -1673,7 +1673,7 @@
 
             /* Sticky Mobile Call Button */
             .mobile-call-button {
-                display: block !important;
+                display: flex !important;
                 position: fixed;
                 bottom: 0;
                 left: 0;
@@ -1688,6 +1688,10 @@
                 z-index: 9999;
                 box-shadow: 0 -4px 12px rgba(0,0,0,0.15);
                 animation: pulse 2s infinite;
+                /* ACCESSIBILITY FIX: Minimum touch target height */
+                min-height: 48px;
+                align-items: center;
+                justify-content: center;
             }
 
             .mobile-call-button i {
@@ -1876,6 +1880,9 @@
             border: none;
             width: 60px;
             height: 60px;
+            /* ACCESSIBILITY FIX: Ensure minimum touch target size */
+            min-width: 48px;
+            min-height: 48px;
             border-radius: 50%;
             cursor: pointer;
             box-shadow: 0 5px 20px rgba(30, 58, 95, 0.4);
