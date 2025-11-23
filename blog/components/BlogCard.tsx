@@ -20,15 +20,15 @@ export default function BlogCard({ post, featured = false }: BlogCardProps) {
       <Link href={`/${post.slug}`} className="block">
         <GlassCard variant="hover" className="overflow-hidden">
           <div className="grid md:grid-cols-2 gap-8 items-center">
-            <div className="relative h-80 w-full rounded-lg overflow-hidden bg-gradient-to-br from-primary-blue to-accent-gold">
+            <div className="relative h-80 w-full rounded-lg overflow-hidden bg-gray-900">
               {post.coverImage ? (
                 <>
                   <img
                     src={post.coverImage}
                     alt={post.title}
-                    className="w-full h-full object-cover opacity-60 mix-blend-overlay"
+                    className="w-full h-full object-cover"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
                 </>
               ) : (
                 <div className="absolute inset-0 flex items-center justify-center">
@@ -78,15 +78,15 @@ export default function BlogCard({ post, featured = false }: BlogCardProps) {
   return (
     <Link href={`/${post.slug}`} className="block h-full">
       <GlassCard variant="hover" className="h-full flex flex-col">
-        <div className="relative h-48 w-full rounded-lg overflow-hidden mb-6 bg-gradient-to-br from-primary-blue to-accent-gold">
+        <div className="relative h-48 w-full rounded-lg overflow-hidden mb-6 bg-gray-900">
           {post.coverImage ? (
             <>
               <img
                 src={post.coverImage}
                 alt={post.title}
-                className="w-full h-full object-cover opacity-60 mix-blend-overlay"
+                className="w-full h-full object-cover"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
+              <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
             </>
           ) : (
             <div className="absolute inset-0 flex items-center justify-center">
