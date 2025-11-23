@@ -308,10 +308,10 @@
 
         .hero-content-card {
             background: rgba(255, 255, 255, 0.15);
-            padding: 50px 40px;
+            padding: 40px 35px;
             border-radius: 20px;
             max-width: 900px;
-            margin: 170px auto 0;
+            margin: 120px auto 0;
             backdrop-filter: blur(20px);
             border: 1px solid rgba(255, 255, 255, 0.3);
             box-shadow: 0 10px 40px rgba(0,0,0,0.3);
@@ -433,48 +433,85 @@
         .pricing-grid {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
-            gap: 25px;
-            margin: 30px 0;
+            gap: 30px;
+            margin: 50px 0;
         }
 
         .pricing-card {
             background: white;
-            padding: 30px;
-            border-radius: 12px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
-            text-align: center;
-            border: 2px solid transparent;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+            overflow: hidden;
             transition: all 0.3s;
+            position: relative;
         }
 
         .pricing-card:hover {
-            border-color: var(--accent-gold);
-            transform: translateY(-5px);
-            box-shadow: 0 8px 25px rgba(0,0,0,0.12);
+            transform: translateY(-8px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
         }
 
-        .pricing-card .price {
-            font-size: 48px;
-            color: var(--accent-gold);
-            font-weight: bold;
-            margin: 20px 0;
+        .pricing-card.featured {
+            border: 3px solid var(--accent-gold);
+            transform: scale(1.02);
         }
 
-        .pricing-card h4 {
-            color: var(--primary-blue);
-            font-size: 24px;
-            margin-bottom: 15px;
+        .pricing-card.featured:hover {
+            transform: scale(1.02) translateY(-8px);
+        }
+
+        .popular-badge {
+            background: var(--accent-gold);
+            color: white;
+            padding: 8px 20px;
+            font-size: 12px;
             font-weight: 700;
+            letter-spacing: 1px;
+            position: absolute;
+            top: -15px;
+            left: 50%;
+            transform: translateX(-50%);
+            border-radius: 20px;
+            z-index: 10;
+        }
+
+        .pricing-header {
+            background: var(--primary-blue);
+            color: white;
+            padding: 30px 25px;
+            text-align: center;
+        }
+
+        .pricing-header h4 {
+            font-size: 22px;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        .pricing-header .price {
+            font-size: 52px;
+            font-weight: bold;
+            color: white;
+        }
+
+        .pricing-header .subtitle {
+            font-size: 14px;
+            opacity: 0.9;
+            margin-top: 5px;
+        }
+
+        .pricing-body {
+            padding: 30px 25px;
         }
 
         .pricing-card ul {
             text-align: left;
-            margin: 20px 0;
+            margin: 0;
             list-style: none;
         }
 
         .pricing-card ul li {
-            padding: 8px 0;
+            padding: 10px 0;
             color: var(--text-dark);
             font-size: 15px;
         }
@@ -1106,44 +1143,67 @@
 
             <div class="pricing-grid">
                 <div class="pricing-card">
-                    <h4>Simple Living Trust</h4>
-                    <div class="price">$575</div>
-                    <ul>
-                        <li>Single person revocable living trust</li>
-                        <li>Pour-over will</li>
-                        <li>Durable power of attorney</li>
-                        <li>Advance healthcare directive</li>
-                        <li>HIPAA authorization</li>
-                        <li>Trust funding guidance</li>
-                    </ul>
+                    <div class="pricing-header">
+                        <h4>Single Living Trust</h4>
+                        <div class="price">$575</div>
+                        <div class="subtitle">Complete Package - Single Person</div>
+                    </div>
+                    <div class="pricing-body">
+                        <ul>
+                            <li>Living Trust Document</li>
+                            <li>Certificate of Trust</li>
+                            <li>Pour Over Will</li>
+                            <li>Personal Property Assignment</li>
+                            <li>Personal Property Memorandum</li>
+                            <li>Durable Power of Attorney</li>
+                            <li>Advance Health Care Directive</li>
+                            <li>HIPAA Authorization</li>
+                            <li>Funeral Instructions</li>
+                            <li>Trust Transfer Deed & PCOR</li>
+                            <li>Free Consultation</li>
+                        </ul>
+                    </div>
                 </div>
 
-                <div class="pricing-card" style="border-color: var(--accent-gold);">
-                    <h4>Family Trust Package</h4>
-                    <div class="price">$775</div>
-                    <ul>
-                        <li>Joint revocable living trust for couples</li>
-                        <li>Pour-over wills for both spouses</li>
-                        <li>Durable powers of attorney</li>
-                        <li>Advance healthcare directives</li>
-                        <li>HIPAA authorizations</li>
-                        <li>Guardian nominations for minor children</li>
-                        <li>Trust funding assistance</li>
-                    </ul>
+                <div class="pricing-card featured">
+                    <div class="popular-badge">MOST POPULAR</div>
+                    <div class="pricing-header">
+                        <h4>Joint Living Trust</h4>
+                        <div class="price">$675</div>
+                        <div class="subtitle">Complete Package - Married Couples</div>
+                    </div>
+                    <div class="pricing-body">
+                        <ul>
+                            <li>Joint Living Trust Document</li>
+                            <li>Certificate of Trust</li>
+                            <li>Pour Over Wills (Both Spouses)</li>
+                            <li>Personal Property Assignment</li>
+                            <li>Personal Property Memorandum</li>
+                            <li>Durable Powers of Attorney (Both)</li>
+                            <li>Advance Health Care Directives (Both)</li>
+                            <li>HIPAA Authorizations (Both)</li>
+                            <li>Funeral Instructions</li>
+                            <li>Trust Transfer Deed & PCOR</li>
+                            <li>Free Consultation</li>
+                        </ul>
+                    </div>
                 </div>
 
                 <div class="pricing-card">
-                    <h4>Comprehensive Plan</h4>
-                    <div class="price">$1,200+</div>
-                    <ul>
-                        <li>All Family Trust Package items</li>
-                        <li>Complex asset protection strategies</li>
-                        <li>Tax planning and minimization</li>
-                        <li>Special needs trust provisions</li>
-                        <li>Business succession planning</li>
-                        <li>Charitable giving strategies</li>
-                        <li>Ongoing support and updates</li>
-                    </ul>
+                    <div class="pricing-header">
+                        <h4>Complete Package</h4>
+                        <div class="price">$1,200+</div>
+                        <div class="subtitle">Comprehensive Protection</div>
+                    </div>
+                    <div class="pricing-body">
+                        <ul>
+                            <li>Everything in Joint Trust</li>
+                            <li>Asset Protection Strategies</li>
+                            <li>Tax Planning</li>
+                            <li>Special Needs Provisions</li>
+                            <li>Ongoing Support</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
 
