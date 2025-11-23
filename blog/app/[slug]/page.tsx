@@ -184,7 +184,7 @@ export default async function BlogPostPage({ params }: PageProps) {
             '@type': 'Article',
             headline: post.title,
             description: post.excerpt,
-            image: post.featuredImage || 'https://www.livingtrust-attorneys.com/images/blog-default.jpg',
+            image: 'https://www.livingtrust-attorneys.com/images/blog-default.jpg',
             articleSection: post.category,
             keywords: post.tags.join(', '),
             wordCount: post.content.replace(/<[^>]*>/g, '').split(/\s+/).length,
