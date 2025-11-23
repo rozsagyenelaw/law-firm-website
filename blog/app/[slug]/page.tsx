@@ -184,14 +184,20 @@ export default async function BlogPostPage({ params }: PageProps) {
             '@type': 'Article',
             headline: post.title,
             description: post.excerpt,
+            image: post.featuredImage || 'https://www.livingtrust-attorneys.com/images/blog-default.jpg',
+            articleSection: post.category,
+            keywords: post.tags.join(', '),
+            wordCount: post.content.replace(/<[^>]*>/g, '').split(/\s+/).length,
             author: {
               '@type': 'Person',
               name: post.author.name,
               jobTitle: post.author.title,
+              url: 'https://www.livingtrust-attorneys.com/about',
             },
             publisher: {
               '@type': 'Organization',
               name: 'Law Offices of Rozsa Gyene',
+              url: 'https://www.livingtrust-attorneys.com',
               logo: {
                 '@type': 'ImageObject',
                 url: 'https://www.livingtrust-attorneys.com/images/logo.png',
@@ -203,6 +209,8 @@ export default async function BlogPostPage({ params }: PageProps) {
               '@type': 'WebPage',
               '@id': `https://www.livingtrust-attorneys.com/blog/${post.slug}`,
             },
+            inLanguage: 'en-US',
+            isAccessibleForFree: true,
           }),
         }}
       />
