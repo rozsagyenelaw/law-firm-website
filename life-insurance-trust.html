@@ -229,6 +229,28 @@
             box-shadow: 0 5px 15px rgba(30, 58, 95, 0.2);
         }
 
+        /* Phone CTA Button in Nav */
+        .nav-phone-cta {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            background: var(--accent-gold);
+            color: white;
+            padding: 8px 16px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 14px;
+            transition: all 0.3s;
+            margin-left: auto;
+            margin-right: 20px;
+        }
+
+        .nav-phone-cta:hover {
+            background: #b8982f;
+            transform: translateY(-2px);
+        }
+
         /* Mobile Menu Toggle */
         .mobile-toggle {
             display: none;
@@ -997,6 +1019,11 @@
                 display: block;
                 text-align: center;
             }
+
+            .nav-phone-cta {
+                display: none;
+            }
+
         }
 
         @media (max-width: 768px) {
@@ -1058,6 +1085,10 @@
                             <span class="firm-name">LAW OFFICES OF ROZSA GYENE</span>
                             <span class="tagline">Estate Planning & Probate Specialists Since 2001</span>
                         </div>
+                    </a>
+
+                    <a href="tel:8182916217" class="nav-phone-cta" onclick="trackPhoneClick()">
+                        <i class="fas fa-phone"></i> (818) 291-6217
                     </a>
 
                     <button class="mobile-toggle" onclick="toggleMenu()">
