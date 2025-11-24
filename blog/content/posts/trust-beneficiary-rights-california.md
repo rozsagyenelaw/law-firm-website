@@ -12,7 +12,7 @@ category: "Trust Administration"
 tags: ["trust beneficiary rights", "California trust law", "beneficiary rights", "trust administration", "trustee duties", "Probate Code 16060", "Glendale attorney"]
 excerpt: "Trust beneficiaries have legal rights in California: information, accounting, timely distribution, fair treatment. A Glendale trust attorney explains your rights and how to enforce them when trustees don't cooperate."
 featured: false
-coverImage: "/images/blog/trust-beneficiary-rights.jpg"
+coverImage: "/images/blog/trustee-warning-signs.jpg"
 metaDescription: "Trust beneficiary rights California: Right to information, accounting, distribution, fair treatment. What to do if trustee won't cooperate. Glendale attorney. Free consultation."
 ---
 

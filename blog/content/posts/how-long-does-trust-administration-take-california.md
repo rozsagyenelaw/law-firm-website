@@ -12,7 +12,7 @@ category: "Trust Administration"
 tags: ["trust administration", "trust administration timeline", "California trust law", "successor trustee", "trust administration timeline California", "Glendale attorney"]
 excerpt: "Trust administration in California takes 3-12 months on average, much faster than probate. A Glendale trust attorney explains the complete timeline, what affects duration, and how to expedite the process."
 featured: false
-coverImage: "/images/blog/trust-administration-timeline.jpg"
+coverImage: "/images/blog/choosing-successor-trustee.jpg"
 metaDescription: "How long does trust administration take in California? 3-12 months average. Glendale trust attorney explains complete timeline, phases, what causes delays. Free consultation."
 ---
 

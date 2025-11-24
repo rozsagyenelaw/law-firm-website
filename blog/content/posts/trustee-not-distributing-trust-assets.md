@@ -12,7 +12,7 @@ category: "Trust Administration"
 tags: ["trust litigation", "trustee not distributing", "beneficiary rights", "trust administration", "California trust law", "trustee removal", "Glendale attorney"]
 excerpt: "Trustee won't distribute your inheritance? A Glendale trust litigation attorney explains warning signs, your legal rights, step-by-step actions to take, and how to force distribution through court."
 featured: false
-coverImage: "/images/blog/trustee-not-distributing.jpg"
+coverImage: "/images/blog/trustee-theft.jpg"
 metaDescription: "Trustee not distributing trust assets California? Learn warning signs, beneficiary rights, legal options. Force distribution through court. Glendale attorney. Free consultation."
 ---
 

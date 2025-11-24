@@ -12,7 +12,7 @@ category: "Trust Administration"
 tags: ["trust administration", "probate", "California probate", "trust vs probate", "trust administration vs probate California", "estate planning", "Glendale attorney"]
 excerpt: "Trust administration vs probate in California: Learn the key differences in cost, time, privacy, and control. A Glendale attorney explains which is better for your family."
 featured: false
-coverImage: "/images/blog/trust-administration-vs-probate.jpg"
+coverImage: "/images/blog/avoid-probate.jpg"
 metaDescription: "Trust administration vs probate California: Complete comparison of costs, timeline, privacy. Glendale attorney explains differences. Save $30K-$80K. Free consultation."
 ---
 

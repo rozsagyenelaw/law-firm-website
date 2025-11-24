@@ -12,7 +12,7 @@ category: "Trust Administration"
 tags: ["trust administration", "trust administration cost", "trust administration fees California", "attorney fees", "successor trustee", "Glendale attorney"]
 excerpt: "Trust administration in California costs $3,000-$15,000 typical, far less than probate. A Glendale attorney breaks down all costs: attorney fees, taxes, appraisals, and how to minimize expenses."
 featured: false
-coverImage: "/images/blog/trust-administration-costs.jpg"
+coverImage: "/images/blog/living-trust-cost.jpg"
 metaDescription: "How much does trust administration cost in California? $3K-$15K typical vs $25K-$100K+ for probate. Complete fee breakdown. Glendale attorney. Free consultation."
 ---
 

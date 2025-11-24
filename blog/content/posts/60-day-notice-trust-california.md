@@ -12,7 +12,7 @@ category: "Trust Administration"
 tags: ["trust administration", "60 day notice", "California trust law", "successor trustee", "trust notification requirements", "Probate Code 16061.7", "Glendale attorney"]
 excerpt: "California trustees must send 60-day notice to beneficiaries and heirs. A Glendale trust attorney explains who receives notice, what to include, the 120-day contest period, and consequences of missing the deadline."
 featured: false
-coverImage: "/images/blog/trust-60-day-notice.jpg"
+coverImage: "/images/blog/trust-amendment-update.jpg"
 metaDescription: "60-day notice requirement California trusts: Who gets notice, what to include, deadline consequences. Probate Code §16061.7 explained. Glendale attorney. Free consultation."
 ---
 
