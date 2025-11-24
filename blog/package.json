@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev -p 3001",
-    "build": "next build",
+    "build": "next build && npm run postbuild",
+    "postbuild": "rm -rf out/images/blog && mkdir -p out/images/blog && for img in public/images/blog/*.jpg; do cp \"$img\" out/images/blog/; done",
     "start": "next start",
     "export": "next build"
   },
