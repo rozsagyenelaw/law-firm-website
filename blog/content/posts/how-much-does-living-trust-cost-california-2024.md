@@ -1,7 +1,7 @@
 ---
 title: "How Much Does a Living Trust Cost in California in 2024?"
 slug: "how-much-does-living-trust-cost-california-2024"
-publishDate: "2024-11-23"
+publishDate: "2025-11-23"
 updatedDate: ""
 author:
   name: "Rozsa Gyene"

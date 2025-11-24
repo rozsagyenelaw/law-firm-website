@@ -1,7 +1,7 @@
 ---
 title: "Living Trust Funding: Complete Guide for California Homeowners"
 slug: "living-trust-funding-guide-california-homeowners"
-publishDate: "2024-11-23"
+publishDate: "2025-11-23"
 updatedDate: ""
 author:
   name: "Rozsa Gyene"

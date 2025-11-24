@@ -1,7 +1,7 @@
 ---
 title: "Do I Need a Living Trust If I Own a House in California?"
 slug: "do-i-need-living-trust-if-i-own-house"
-publishDate: "2024-11-23"
+publishDate: "2025-11-23"
 updatedDate: ""
 author:
   name: "Rozsa Gyene"

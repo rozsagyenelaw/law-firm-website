@@ -1,7 +1,7 @@
 ---
 title: "What Happens to Your House When You Die Without a Trust in California?"
 slug: "what-happens-house-die-without-trust-california"
-publishDate: "2024-11-23"
+publishDate: "2025-11-23"
 updatedDate: ""
 author:
   name: "Rozsa Gyene"
