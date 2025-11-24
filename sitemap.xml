@@ -158,16 +158,74 @@
     <priority>0.8</priority>
   </url>
 
-  <!-- Blog Posts -->
+  <!-- Blog Posts - Trust Administration (High Priority) -->
   <url>
-    <loc>https://livingtrust-attorneys.com/blog/trust-vs-will-glendale-attorney-explains</loc>
+    <loc>https://livingtrust-attorneys.com/blog/how-long-does-trust-administration-take-california</loc>
+    <lastmod>2025-01-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://livingtrust-attorneys.com/blog/trust-administration-vs-probate-california</loc>
+    <lastmod>2025-01-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://livingtrust-attorneys.com/blog/how-much-does-trust-administration-cost</loc>
+    <lastmod>2025-01-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://livingtrust-attorneys.com/blog/60-day-notice-trust-california</loc>
+    <lastmod>2025-01-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://livingtrust-attorneys.com/blog/trust-beneficiary-rights-california</loc>
+    <lastmod>2025-01-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://livingtrust-attorneys.com/blog/trustee-not-distributing-trust-assets</loc>
+    <lastmod>2025-02-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://livingtrust-attorneys.com/blog/how-to-choose-successor-trustee-california</loc>
+    <lastmod>2025-01-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://livingtrust-attorneys.com/blog/executor-duties-california</loc>
+    <lastmod>2025-01-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Blog Posts - Trust Litigation -->
+  <url>
+    <loc>https://livingtrust-attorneys.com/blog/10-warning-signs-trustee-stealing</loc>
     <lastmod>2025-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
+  <!-- Blog Posts - Estate Planning -->
   <url>
-    <loc>https://livingtrust-attorneys.com/blog/trust-litigation-warning-signs</loc>
+    <loc>https://livingtrust-attorneys.com/blog/trust-vs-will-glendale-attorney-explains</loc>
     <lastmod>2025-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -181,14 +239,28 @@
   </url>
 
   <url>
-    <loc>https://livingtrust-attorneys.com/blog/avoid-probate-california</loc>
+    <loc>https://livingtrust-attorneys.com/blog/do-i-need-living-trust-if-i-own-house</loc>
     <lastmod>2025-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://livingtrust-attorneys.com/blog/conservatorship-california-guide</loc>
+    <loc>https://livingtrust-attorneys.com/blog/how-much-does-living-trust-cost-california-2024</loc>
+    <lastmod>2025-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://livingtrust-attorneys.com/blog/living-trust-funding-guide-california-homeowners</loc>
+    <lastmod>2025-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://livingtrust-attorneys.com/blog/when-to-update-living-trust-california</loc>
     <lastmod>2025-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -196,6 +268,100 @@
 
   <url>
     <loc>https://livingtrust-attorneys.com/blog/estate-planning-mistakes</loc>
+    <lastmod>2025-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Blog Posts - Probate -->
+  <url>
+    <loc>https://livingtrust-attorneys.com/blog/avoid-probate-california</loc>
+    <lastmod>2025-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://livingtrust-attorneys.com/blog/how-long-does-probate-take-california</loc>
+    <lastmod>2025-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://livingtrust-attorneys.com/blog/how-much-does-probate-cost-california</loc>
+    <lastmod>2025-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://livingtrust-attorneys.com/blog/file-probate-los-angeles-county</loc>
+    <lastmod>2025-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://livingtrust-attorneys.com/blog/california-small-estate-affidavit</loc>
+    <lastmod>2025-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://livingtrust-attorneys.com/blog/letters-testamentary-california</loc>
+    <lastmod>2025-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://livingtrust-attorneys.com/blog/selling-house-probate-california</loc>
+    <lastmod>2025-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://livingtrust-attorneys.com/blog/contest-will-california</loc>
+    <lastmod>2025-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://livingtrust-attorneys.com/blog/spousal-property-petition-california</loc>
+    <lastmod>2025-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Blog Posts - Inheritance & Estate -->
+  <url>
+    <loc>https://livingtrust-attorneys.com/blog/california-inheritance-laws-without-will</loc>
+    <lastmod>2025-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://livingtrust-attorneys.com/blog/died-without-will-california</loc>
+    <lastmod>2025-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://livingtrust-attorneys.com/blog/what-happens-house-die-without-trust-california</loc>
+    <lastmod>2025-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Blog Posts - Conservatorship -->
+  <url>
+    <loc>https://livingtrust-attorneys.com/blog/conservatorship-california-guide</loc>
     <lastmod>2025-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
