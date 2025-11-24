@@ -328,6 +328,152 @@
     }
     </script>
 
+    <!-- BreadcrumbList Schema Markup -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://livingtrust-attorneys.com/"
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Probate Services",
+                "item": "https://livingtrust-attorneys.com/probate.html"
+            }
+        ]
+    }
+    </script>
+
+    <!-- LocalBusiness and Attorney Schema Markup -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": ["Attorney", "LegalService"],
+        "name": "Rozsa Law - Probate & Estate Planning Attorneys",
+        "image": "https://livingtrust-attorneys.com/images/rozsa-gyene.jpg",
+        "url": "https://livingtrust-attorneys.com/probate.html",
+        "telephone": "+1-818-291-6217",
+        "email": "rozsa@rozsalaw.com",
+        "priceRange": "$$",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "144 N Glendale Ave, Suite 250",
+            "addressLocality": "Glendale",
+            "addressRegion": "CA",
+            "postalCode": "91206",
+            "addressCountry": "US"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 34.1478,
+            "longitude": -118.2551
+        },
+        "areaServed": [
+            {
+                "@type": "City",
+                "name": "Los Angeles"
+            },
+            {
+                "@type": "City",
+                "name": "Glendale"
+            },
+            {
+                "@type": "City",
+                "name": "Burbank"
+            },
+            {
+                "@type": "City",
+                "name": "Pasadena"
+            }
+        ],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Probate Legal Services",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Probate Administration",
+                        "description": "Complete probate administration services in Los Angeles County including executor guidance, court filings, and estate distribution."
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Executor Services",
+                        "description": "Legal assistance for executors including obtaining letters testamentary, fulfilling fiduciary duties, and estate accounting."
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Will Contest & Probate Litigation",
+                        "description": "Representation in will contests, undue influence claims, executor misconduct cases, and beneficiary rights disputes."
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Small Estate Affidavit",
+                        "description": "Simplified probate procedures for estates under $184,500 using California small estate affidavit process."
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Intestate Succession",
+                        "description": "Legal guidance when someone dies without a will in California, including administrator appointment and asset distribution."
+                    }
+                }
+            ]
+        },
+        "openingHoursSpecification": {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday"
+            ],
+            "opens": "09:00",
+            "closes": "17:00"
+        },
+        "sameAs": [
+            "https://apps.calbar.ca.gov/attorney/Licensee/Detail/208356"
+        ],
+        "founder": {
+            "@type": "Person",
+            "name": "Rozsa Gyene",
+            "jobTitle": "Estate Planning & Probate Attorney",
+            "description": "California State Bar #208356, specializing in estate planning, probate administration, trust litigation, and conservatorship matters in Los Angeles County."
+        },
+        "knowsAbout": [
+            "Probate Administration",
+            "Executor Duties California",
+            "Letters Testamentary",
+            "Will Contest",
+            "Intestate Succession",
+            "Small Estate Affidavit",
+            "Probate Litigation",
+            "Beneficiary Rights",
+            "Estate Distribution",
+            "Los Angeles County Probate Court"
+        ]
+    }
+    </script>
+
     <!-- Performance: Preconnect to external domains -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -1514,14 +1660,29 @@
                 </div>
             </nav>
         </header>
+
+        <!-- Breadcrumb Navigation -->
+        <div class="container" style="padding-top: 20px;">
+            <nav aria-label="Breadcrumb" style="margin-bottom: -40px;">
+                <ol style="display: flex; list-style: none; padding: 0; margin: 0; font-size: 14px; color: var(--text-light);">
+                    <li style="display: flex; align-items: center;">
+                        <a href="/" style="color: var(--accent-gold); text-decoration: none;">Home</a>
+                        <i class="fas fa-chevron-right" style="margin: 0 10px; font-size: 10px; color: var(--text-light);"></i>
+                    </li>
+                    <li style="color: var(--text-dark);">Probate Services</li>
+                </ol>
+            </nav>
+        </div>
+
         <div class="container">
             <div class="hero-content-card">
                 <h1>Los Angeles County Probate Attorney | Executor Help & Will Contests</h1>
                 <p class="hero-tagline">We make the probate process easy, every step of the way.</p>
                 <p class="hero-description">
-                    When a loved one dies, those left behind are often left to not only cope with the loss of a loved one,
-                    but also to administer their loved one's estate. If the estate's assets are not held by a trust,
-                    the assets may need to be administered through the "Probate" process.
+                    When a loved one dies without a trust in California, those left behind must navigate the probate process at Los Angeles County probate court.
+                    Whether you're an executor needing letters testamentary, dealing with intestate succession when someone died without a will,
+                    or facing disputes over executor misconduct or undue influence, we provide comprehensive guidance for every situation.
+                    From filing a small estate affidavit to selling a house in probate, we make the process easy every step of the way.
                 </p>
                 <a href="https://portal.livingtrust-attorneys.com/book" class="btn-primary">Book an Appointment</a>
                 <p style="margin-top: 30px; font-size: 20px;">Call Now for a Free Legal Consultation:</p>
@@ -1632,7 +1793,7 @@
                     </div>
                 </div>
                 <div style="border-radius: 10px; overflow: hidden; box-shadow: 0 15px 40px rgba(0,0,0,0.1);">
-                    <img src="images/probate-legal-guidance.jpg" alt="Professional probate legal guidance and document handling" loading="lazy" style="width: 100%; height: auto; display: block;">
+                    <img src="images/probate-legal-guidance.jpg" alt="Los Angeles County probate attorney providing legal guidance for executors and administrators in California" loading="lazy" style="width: 100%; height: auto; display: block;">
                 </div>
             </div>
         </div>
@@ -1669,27 +1830,27 @@
                     <div class="services-grid">
                         <div class="service-item">
                             <i class="fas fa-check"></i>
-                            <span>Filing all court documents</span>
+                            <span>Filing petition for probate and California probate forms</span>
                         </div>
                         <div class="service-item">
                             <i class="fas fa-check"></i>
-                            <span>Inventory & appraisal of assets</span>
+                            <span>Obtaining letters testamentary for executors</span>
                         </div>
                         <div class="service-item">
                             <i class="fas fa-check"></i>
-                            <span>Paying debts and taxes</span>
+                            <span>Publishing notice to creditors and paying debts</span>
                         </div>
                         <div class="service-item">
                             <i class="fas fa-check"></i>
-                            <span>Selling real estate</span>
+                            <span>Selling house in probate California</span>
                         </div>
                         <div class="service-item">
                             <i class="fas fa-check"></i>
-                            <span>Distributing assets to heirs</span>
+                            <span>Transferring house and car title after death</span>
                         </div>
                         <div class="service-item">
                             <i class="fas fa-check"></i>
-                            <span>Final accounting to court</span>
+                            <span>Bank account deceased person handling</span>
                         </div>
                     </div>
                 </div>
@@ -1702,6 +1863,21 @@
                     <li>Creditor claims must be handled properly</li>
                     <li>One mistake can cost thousands</li>
                 </ul>
+            </div>
+
+            <div style="max-width: 900px; margin: 50px auto 0; padding: 30px; background: #f8f9fa; border-radius: 15px; border-left: 4px solid var(--accent-gold);">
+                <h3 style="color: var(--primary-blue); margin-bottom: 15px;">Expert Guidance for Every Probate Situation in Los Angeles County</h3>
+                <p style="line-height: 1.8; color: var(--text-dark); margin-bottom: 15px;">
+                    Whether you need to contest a will in California due to undue influence, handle executor duties and responsibilities,
+                    or determine if you qualify for a small estate affidavit (California small estate limit 2024 is $184,500), we provide
+                    expert legal representation. Our attorneys regularly appear at Los Angeles County probate court and know exactly how to
+                    file probate in Los Angeles County efficiently.
+                </p>
+                <p style="line-height: 1.8; color: var(--text-dark);">
+                    From removing an executor who is not distributing the estate to understanding beneficiary rights California,
+                    transferring car titles after death, and navigating intestate succession when someone died without a will in California,
+                    we handle every aspect of probate administration with skill and compassion.
+                </p>
             </div>
         </div>
     </section>
@@ -1766,7 +1942,7 @@
                 <a href="blog/how-long-does-probate-take-california" style="text-decoration: none; color: inherit;">
                     <div style="background: white; border-radius: 15px; overflow: hidden; box-shadow: 0 5px 20px rgba(0,0,0,0.1); transition: all 0.3s; height: 100%;" onmouseover="this.style.transform='translateY(-10px)'; this.style.boxShadow='0 15px 40px rgba(0,0,0,0.2)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 5px 20px rgba(0,0,0,0.1)'">
                         <div style="height: 200px; overflow: hidden;">
-                            <img src="images/probate-legal-guidance.jpg" alt="California Probate Timeline" style="width: 100%; height: 100%; object-fit: cover;">
+                            <img src="images/probate-legal-guidance.jpg" alt="How long does probate take in California - 9-18 month timeline explained" style="width: 100%; height: 100%; object-fit: cover;">
                         </div>
                         <div style="padding: 25px;">
                             <div style="display: inline-block; background: #c9a961; color: white; padding: 5px 12px; border-radius: 20px; font-size: 12px; font-weight: 600; margin-bottom: 15px;">
@@ -1789,7 +1965,7 @@
                 <a href="blog/how-much-does-probate-cost-california" style="text-decoration: none; color: inherit;">
                     <div style="background: white; border-radius: 15px; overflow: hidden; box-shadow: 0 5px 20px rgba(0,0,0,0.1); transition: all 0.3s; height: 100%;" onmouseover="this.style.transform='translateY(-10px)'; this.style.boxShadow='0 15px 40px rgba(0,0,0,0.2)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 5px 20px rgba(0,0,0,0.1)'">
                         <div style="height: 200px; overflow: hidden;">
-                            <img src="images/consultation-meeting.jpg" alt="California Probate Costs" style="width: 100%; height: 100%; object-fit: cover;">
+                            <img src="images/consultation-meeting.jpg" alt="California probate costs and attorney fees statutory schedule breakdown" style="width: 100%; height: 100%; object-fit: cover;">
                         </div>
                         <div style="padding: 25px;">
                             <div style="display: inline-block; background: #c9a961; color: white; padding: 5px 12px; border-radius: 20px; font-size: 12px; font-weight: 600; margin-bottom: 15px;">
@@ -1812,7 +1988,7 @@
                 <a href="blog/avoid-probate-california" style="text-decoration: none; color: inherit;">
                     <div style="background: white; border-radius: 15px; overflow: hidden; box-shadow: 0 5px 20px rgba(0,0,0,0.1); transition: all 0.3s; height: 100%;" onmouseover="this.style.transform='translateY(-10px)'; this.style.boxShadow='0 15px 40px rgba(0,0,0,0.2)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 5px 20px rgba(0,0,0,0.1)'">
                         <div style="height: 200px; overflow: hidden;">
-                            <img src="images/estate-planning-consultation.jpg" alt="Avoid Probate California" style="width: 100%; height: 100%; object-fit: cover;">
+                            <img src="images/estate-planning-consultation.jpg" alt="Seven strategies to avoid probate in California with living trusts" style="width: 100%; height: 100%; object-fit: cover;">
                         </div>
                         <div style="padding: 25px;">
                             <div style="display: inline-block; background: #c9a961; color: white; padding: 5px 12px; border-radius: 20px; font-size: 12px; font-weight: 600; margin-bottom: 15px;">
@@ -1835,7 +2011,7 @@
                 <a href="blog/executor-duties-california" style="text-decoration: none; color: inherit;">
                     <div style="background: white; border-radius: 15px; overflow: hidden; box-shadow: 0 5px 20px rgba(0,0,0,0.1); transition: all 0.3s; height: 100%;" onmouseover="this.style.transform='translateY(-10px)'; this.style.boxShadow='0 15px 40px rgba(0,0,0,0.2)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 5px 20px rgba(0,0,0,0.1)'">
                         <div style="height: 200px; overflow: hidden;">
-                            <img src="images/professional-consultation.jpg" alt="Executor Duties California" style="width: 100%; height: 100%; object-fit: cover;">
+                            <img src="images/professional-consultation.jpg" alt="Executor duties and responsibilities in California - complete checklist" style="width: 100%; height: 100%; object-fit: cover;">
                         </div>
                         <div style="padding: 25px;">
                             <div style="display: inline-block; background: #c9a961; color: white; padding: 5px 12px; border-radius: 20px; font-size: 12px; font-weight: 600; margin-bottom: 15px;">
@@ -1858,7 +2034,7 @@
                 <a href="blog/california-small-estate-affidavit" style="text-decoration: none; color: inherit;">
                     <div style="background: white; border-radius: 15px; overflow: hidden; box-shadow: 0 5px 20px rgba(0,0,0,0.1); transition: all 0.3s; height: 100%;" onmouseover="this.style.transform='translateY(-10px)'; this.style.boxShadow='0 15px 40px rgba(0,0,0,0.2)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 5px 20px rgba(0,0,0,0.1)'">
                         <div style="height: 200px; overflow: hidden;">
-                            <img src="images/ilit-legal-documents.jpg" alt="Small Estate Affidavit California" style="width: 100%; height: 100%; object-fit: cover;">
+                            <img src="images/ilit-legal-documents.jpg" alt="California small estate affidavit $184,500 limit avoid full probate" style="width: 100%; height: 100%; object-fit: cover;">
                         </div>
                         <div style="padding: 25px;">
                             <div style="display: inline-block; background: #c9a961; color: white; padding: 5px 12px; border-radius: 20px; font-size: 12px; font-weight: 600; margin-bottom: 15px;">
@@ -1881,7 +2057,7 @@
                 <a href="blog/died-without-will-california" style="text-decoration: none; color: inherit;">
                     <div style="background: white; border-radius: 15px; overflow: hidden; box-shadow: 0 5px 20px rgba(0,0,0,0.1); transition: all 0.3s; height: 100%;" onmouseover="this.style.transform='translateY(-10px)'; this.style.boxShadow='0 15px 40px rgba(0,0,0,0.2)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 5px 20px rgba(0,0,0,0.1)'">
                         <div style="height: 200px; overflow: hidden;">
-                            <img src="images/family-generations.jpg" alt="Died Without Will California" style="width: 100%; height: 100%; object-fit: cover;">
+                            <img src="images/family-generations.jpg" alt="Died without a will in California - intestate succession who inherits" style="width: 100%; height: 100%; object-fit: cover;">
                         </div>
                         <div style="padding: 25px;">
                             <div style="display: inline-block; background: #c9a961; color: white; padding: 5px 12px; border-radius: 20px; font-size: 12px; font-weight: 600; margin-bottom: 15px;">
@@ -1904,7 +2080,7 @@
                 <a href="blog/file-probate-los-angeles-county" style="text-decoration: none; color: inherit;">
                     <div style="background: white; border-radius: 15px; overflow: hidden; box-shadow: 0 5px 20px rgba(0,0,0,0.1); transition: all 0.3s; height: 100%;" onmouseover="this.style.transform='translateY(-10px)'; this.style.boxShadow='0 15px 40px rgba(0,0,0,0.2)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 5px 20px rgba(0,0,0,0.1)'">
                         <div style="height: 200px; overflow: hidden;">
-                            <img src="images/trust-amendment-signing.jpg" alt="File Probate Los Angeles" style="width: 100%; height: 100%; object-fit: cover;">
+                            <img src="images/trust-amendment-signing.jpg" alt="How to file probate in Los Angeles County at Stanley Mosk Courthouse" style="width: 100%; height: 100%; object-fit: cover;">
                         </div>
                         <div style="padding: 25px;">
                             <div style="display: inline-block; background: #c9a961; color: white; padding: 5px 12px; border-radius: 20px; font-size: 12px; font-weight: 600; margin-bottom: 15px;">
@@ -1927,7 +2103,7 @@
                 <a href="blog/letters-testamentary-california" style="text-decoration: none; color: inherit;">
                     <div style="background: white; border-radius: 15px; overflow: hidden; box-shadow: 0 5px 20px rgba(0,0,0,0.1); transition: all 0.3s; height: 100%;" onmouseover="this.style.transform='translateY(-10px)'; this.style.boxShadow='0 15px 40px rgba(0,0,0,0.2)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 5px 20px rgba(0,0,0,0.1)'">
                         <div style="height: 200px; overflow: hidden;">
-                            <img src="images/trustee-responsibilities.jpg" alt="Letters Testamentary California" style="width: 100%; height: 100%; object-fit: cover;">
+                            <img src="images/trustee-responsibilities.jpg" alt="Getting letters testamentary in California for executor authority" style="width: 100%; height: 100%; object-fit: cover;">
                         </div>
                         <div style="padding: 25px;">
                             <div style="display: inline-block; background: #c9a961; color: white; padding: 5px 12px; border-radius: 20px; font-size: 12px; font-weight: 600; margin-bottom: 15px;">
@@ -1950,7 +2126,7 @@
                 <a href="blog/selling-house-probate-california" style="text-decoration: none; color: inherit;">
                     <div style="background: white; border-radius: 15px; overflow: hidden; box-shadow: 0 5px 20px rgba(0,0,0,0.1); transition: all 0.3s; height: 100%;" onmouseover="this.style.transform='translateY(-10px)'; this.style.boxShadow='0 15px 40px rgba(0,0,0,0.2)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 5px 20px rgba(0,0,0,0.1)'">
                         <div style="height: 200px; overflow: hidden;">
-                            <img src="images/happy-family-home.jpg" alt="Selling House Probate California" style="width: 100%; height: 100%; object-fit: cover;">
+                            <img src="images/happy-family-home.jpg" alt="Selling a house in probate California real estate transfer process" style="width: 100%; height: 100%; object-fit: cover;">
                         </div>
                         <div style="padding: 25px;">
                             <div style="display: inline-block; background: #c9a961; color: white; padding: 5px 12px; border-radius: 20px; font-size: 12px; font-weight: 600; margin-bottom: 15px;">
@@ -1973,7 +2149,7 @@
                 <a href="blog/contest-will-california" style="text-decoration: none; color: inherit;">
                     <div style="background: white; border-radius: 15px; overflow: hidden; box-shadow: 0 5px 20px rgba(0,0,0,0.1); transition: all 0.3s; height: 100%;" onmouseover="this.style.transform='translateY(-10px)'; this.style.boxShadow='0 15px 40px rgba(0,0,0,0.2)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 5px 20px rgba(0,0,0,0.1)'">
                         <div style="height: 200px; overflow: hidden;">
-                            <img src="images/professional-amendment-services.jpg" alt="Contest Will California" style="width: 100%; height: 100%; object-fit: cover;">
+                            <img src="images/professional-amendment-services.jpg" alt="Contest a will in California - undue influence and executor misconduct" style="width: 100%; height: 100%; object-fit: cover;">
                         </div>
                         <div style="padding: 25px;">
                             <div style="display: inline-block; background: #c9a961; color: white; padding: 5px 12px; border-radius: 20px; font-size: 12px; font-weight: 600; margin-bottom: 15px;">
@@ -1996,7 +2172,7 @@
                 <a href="blog/spousal-property-petition-california" style="text-decoration: none; color: inherit;">
                     <div style="background: white; border-radius: 15px; overflow: hidden; box-shadow: 0 5px 20px rgba(0,0,0,0.1); transition: all 0.3s; height: 100%;" onmouseover="this.style.transform='translateY(-10px)'; this.style.boxShadow='0 15px 40px rgba(0,0,0,0.2)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 5px 20px rgba(0,0,0,0.1)'">
                         <div style="height: 200px; overflow: hidden;">
-                            <img src="images/senior-couple-consultation.jpg" alt="Spousal Property Petition California" style="width: 100%; height: 100%; object-fit: cover;">
+                            <img src="images/senior-couple-consultation.jpg" alt="Spousal property petition California Form DE-221 transfer assets" style="width: 100%; height: 100%; object-fit: cover;">
                         </div>
                         <div style="padding: 25px;">
                             <div style="display: inline-block; background: #c9a961; color: white; padding: 5px 12px; border-radius: 20px; font-size: 12px; font-weight: 600; margin-bottom: 15px;">
