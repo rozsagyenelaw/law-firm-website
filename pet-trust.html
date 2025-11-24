@@ -118,6 +118,7 @@
             color: white;
             padding: 10px 0;
             font-size: 14px;
+            display: none;
         }
 
         .top-bar .container {
@@ -153,25 +154,28 @@
             align-items: center;
             text-decoration: none;
             color: white;
-            margin-top: 19px;
+            margin-top: 5px;
         }
 
         .logo-text {
             display: flex;
-            flex-direction: column;
+            flex-direction: row;
+            align-items: center;
+            gap: 10px;
         }
 
         .logo-text .firm-name {
             font-family: 'Playfair Display', serif;
-            font-size: 24px;
+            font-size: 16px;
             font-weight: 700;
             color: white;
         }
 
         .logo-text .tagline {
-            font-size: 12px;
-            color: rgba(255, 255, 255, 0.9);
-            margin-top: 2px;
+            font-size: 11px;
+            color: rgba(255, 255, 255, 0.85);
+            border-left: 1px solid rgba(255, 255, 255, 0.4);
+            padding-left: 10px;
         }
 
         /* Navigation Menu */
@@ -230,6 +234,8 @@
             transform: translateY(-10px);
             transition: all 0.3s;
             border-top: 3px solid var(--accent-gold);
+            max-height: 400px;
+            overflow-y: auto;
         }
 
         .nav-item:hover .dropdown {
@@ -313,7 +319,7 @@
 
         /* Hero Section */
         .hero {
-            background: url('images/pet-trust-hero.webp') center/cover no-repeat;
+            background: url('images/happy-family-home.webp') center/cover no-repeat;
             color: white;
             padding: 0;
             text-align: center;
@@ -343,19 +349,19 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            padding: 200px 20px 120px;
+            padding: 140px 20px 80px;
         }
 
         .hero-content-card {
-            background: rgba(255, 255, 255, 0.08);
-            backdrop-filter: blur(15px);
-            -webkit-backdrop-filter: blur(15px);
+            background: rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
             border-radius: 20px;
             padding: 30px 28px;
             max-width: 800px;
             margin: 0 auto;
-            border: 1px solid rgba(255, 255, 255, 0.2);
-            box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            box-shadow: 0 8px 32px rgba(0,0,0,0.1);
             text-align: center;
         }
 
@@ -939,7 +945,7 @@
         </div>
 
         <!-- Main Navigation -->
-        <header style="position: absolute; top: 30px; left: 0; width: 100%; z-index: 100;">
+        <header style="position: absolute; top: 0px; left: 0; width: 100%; z-index: 100;">
             <nav>
                 <div class="container">
                     <a href="index.html" class="logo">
@@ -1005,6 +1011,14 @@
                             <div class="dropdown">
                                 <a href="guardianship.html" class="dropdown-item">Guardianship Services</a>
                                 <a href="guardianship-questionnaire.html" class="dropdown-item">Guardianship Form</a>
+                            </div>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#" class="nav-link has-dropdown">Learn</a>
+                            <div class="dropdown">
+                                <a href="/blog-deploy/index.html" class="dropdown-item">Blog</a>
+                                <a href="#faq" class="dropdown-item">Estate Planning FAQ</a>
                             </div>
                         </li>
 
