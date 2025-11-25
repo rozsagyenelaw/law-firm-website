@@ -472,6 +472,20 @@ Removing a trustee is a serious step that requires careful consideration and str
 
 While trustee removal can be contentious and expensive, sometimes it's the only way to protect your inheritance and ensure proper trust administration.
 
+## Related Articles
+
+**Learn more about trustee problems and remedies:**
+
+- **[Common Trust Administration Mistakes California](/common-trust-administration-mistakes-california)** - Mistakes that justify trustee removal including mismanagement, breach of duty, and conflicts of interest.
+
+- **[When Trustees Fail to Communicate California](/when-trustees-fail-to-communicate-california)** - Failure to communicate is a common ground for removal and how to compel trustee accountability.
+
+- **[Trustee Compensation and Taxes California](/trustee-compensation-taxes-california)** - Excessive compensation is a frequent removal ground and how reasonable fees are determined.
+
+- **[Trust Litigation vs Probate Litigation California](/trust-litigation-vs-probate-litigation-california)** - Where to file trustee removal petitions and procedural differences from other trust disputes.
+
+- **[Trust Mediation and Settlement California](/trust-mediation-settlement-california)** - Alternatives to removal including mediation, trustee resignation with negotiated release, and co-trustee appointments.
+
 ## Need Help Removing a Trustee?
 
 If you're dealing with a trustee who is breaching their duties or failing to administer a trust properly, our experienced trust litigation attorneys can help evaluate your case and guide you through the removal process.

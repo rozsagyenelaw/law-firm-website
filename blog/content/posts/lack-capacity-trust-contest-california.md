@@ -420,6 +420,20 @@ Weak capacity case - MCI alone usually insufficient. Need more evidence of impai
 - Irrational or suspicious trust provisions
 - Strong expert testimony
 
+## Related Articles
+
+**Learn more about trust litigation:**
+
+- **[Trust Contest California: Grounds and Process](/trust-contest-california-grounds-process)** - Complete guide to all grounds for contesting a trust including capacity, undue influence, and fraud.
+
+- **[Undue Influence in California Trusts](/undue-influence-california-trusts-proving-case)** - Often alleged together with capacity challenges - learn how to prove undue influence.
+
+- **[No-Contest Clauses in California Trusts](/no-contest-clauses-california-trusts)** - Ensure your capacity challenge has probable cause to avoid triggering disinheritance.
+
+- **[Trust Mediation and Settlement California](/trust-mediation-settlement-california)** - Settlement options when medical evidence is mixed or trial outcome uncertain.
+
+- **[Trust Administration IRS Audit](/trust-administration-irs-audit-what-to-expect)** - Tax issues trustees may face during administration.
+
 ## Need Help With a Capacity Challenge?
 
 If you believe a trust was created or modified when the settlor lacked mental capacity, our experienced trust litigation attorneys can evaluate your medical evidence and advise on the strength of your case.

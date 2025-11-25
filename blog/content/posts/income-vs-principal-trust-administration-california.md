@@ -538,6 +538,20 @@ The distinction between income and principal is fundamental to trust administrat
 
 Proper income and principal accounting protects both the trustee from liability and ensures all beneficiaries receive their fair share.
 
+## Related Articles
+
+**Learn more about trust accounting and taxes:**
+
+- **[Form 1041 Trust Tax Return Guide](/form-1041-trust-administration-guide-california)** - How income vs. principal allocation affects trust tax returns, DNI calculations, and Schedule K-1 preparation.
+
+- **[Capital Gains Tax on Trust Property Sales](/capital-gains-tax-selling-trust-property-california)** - Whether capital gains are allocated to income or principal beneficiaries and tax implications for distributions.
+
+- **[Trustee Compensation and Taxes](/trustee-compensation-taxes-california)** - How trustee fees are allocated between income and principal, and impact on beneficiary distributions.
+
+- **[Trust Administration IRS Audit](/trust-administration-irs-audit-what-to-expect)** - Common IRS audit issues with income vs. principal allocations and documentation requirements.
+
+- **[Common Trust Administration Mistakes](/common-trust-administration-mistakes-california)** - Avoid improper income/principal allocations that lead to beneficiary disputes and trustee liability.
+
 ## Need Help With Trust Accounting?
 
 If you're dealing with income vs. principal allocation issues in California trust administration, our experienced attorneys can help ensure proper accounting and fair treatment of all beneficiaries.

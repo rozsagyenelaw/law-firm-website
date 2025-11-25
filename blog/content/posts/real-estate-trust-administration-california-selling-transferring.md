@@ -551,6 +551,20 @@ Handling real estate during trust administration requires careful attention to l
 
 Real estate transactions are often the most valuable and complex aspect of trust administration. Taking time to handle them correctly protects you from liability and ensures beneficiaries receive their full inheritance.
 
+## Related Articles
+
+**Learn more about trust property and tax issues:**
+
+- **[Capital Gains Tax on Trust Property Sales California](/capital-gains-tax-selling-trust-property-california)** - Stepped-up basis rules, capital gains calculation, tax minimization strategies, and reporting requirements for real estate sales.
+
+- **[Form 1041 Trust Tax Return Guide](/form-1041-trust-administration-guide-california)** - How to report real estate sales on trust tax returns and distributable net income considerations.
+
+- **[Income vs. Principal Trust Administration](/income-vs-principal-trust-administration-california)** - How real estate sales proceeds, rental income, and expenses are allocated between beneficiaries.
+
+- **[Common Trust Administration Mistakes California](/common-trust-administration-mistakes-california)** - Avoid errors in real estate transactions including selling without authority and improper tax basis calculations.
+
+- **[Trust Administration for Business Owners California](/trust-administration-business-owners-california)** - When trust holds business real estate, special considerations for commercial property and business use.
+
 ## Need Help With Trust Real Estate?
 
 If you're a trustee dealing with real estate in a California trust, our experienced trust administration attorneys can guide you through the process, review your authority, and ensure you're fulfilling your fiduciary duties.

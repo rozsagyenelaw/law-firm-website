@@ -455,6 +455,20 @@ Capital gains tax on trust property sales can be minimized or eliminated through
 
 The stepped-up basis rule is one of the most valuable tax benefits in estate planning - but only if you use it correctly.
 
+## Related Articles
+
+**Learn more about trust property and tax issues:**
+
+- **[Form 1041 Trust Tax Return Guide California](/form-1041-trust-administration-guide-california)** - Complete guide to filing trust income tax returns, reporting capital gains, distributable net income, and trustee tax obligations.
+
+- **[Real Estate in Trust Administration California](/real-estate-trust-administration-california-selling-transferring)** - Process for selling or transferring trust real estate, market value determination, and distribution to beneficiaries.
+
+- **[Income vs. Principal Trust Administration](/income-vs-principal-trust-administration-california)** - How to allocate capital gains between income and principal beneficiaries under California trust accounting rules.
+
+- **[Trust Administration IRS Audit](/trust-administration-irs-audit-what-to-expect)** - What triggers audits of trust property sales, documentation needed, and how to respond to IRS inquiries.
+
+- **[Common Trust Administration Mistakes California](/common-trust-administration-mistakes-california)** - Avoid costly errors including improper tax basis calculations and capital gains reporting mistakes.
+
 ## Need Help With Trust Property Sales and Taxes?
 
 If you're administering a trust and facing capital gains tax issues on property sales, our attorneys work with tax professionals to minimize your tax liability and ensure proper reporting.

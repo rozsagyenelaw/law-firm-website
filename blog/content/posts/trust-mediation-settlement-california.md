@@ -529,6 +529,20 @@ Trust mediation and settlement offer significant advantages over trial: cost sav
 
 While settlement isn't always appropriate, it should always be seriously considered in trust disputes.
 
+## Related Articles
+
+**Learn more about trust litigation and settlement:**
+
+- **[Trust Contest California: Grounds and Process](/trust-contest-california-grounds-process)** - Understand trust contest grounds, standing, statute of limitations, and when settlement makes sense vs. going to trial.
+
+- **[Undue Influence in California Trusts](/undue-influence-california-trusts-proving-case)** - Evaluate evidence strength for undue influence claims to determine settlement range and negotiation strategy.
+
+- **[Lack of Capacity Trust Contest California](/lack-capacity-trust-contest-california)** - Assess medical evidence and capacity challenges to make informed settlement decisions.
+
+- **[No-Contest Clauses in California Trusts](/no-contest-clauses-california-trusts)** - How no-contest clauses affect settlement negotiations and probable cause considerations.
+
+- **[Trust Litigation vs Probate Litigation California](/trust-litigation-vs-probate-litigation-california)** - Compare litigation approaches to determine best settlement timing and venue strategy.
+
 ## Need Help With Trust Mediation?
 
 Our experienced trust litigation attorneys handle both mediation and trial. We can help you evaluate settlement options and negotiate effectively to protect your interests.

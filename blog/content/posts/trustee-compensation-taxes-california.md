@@ -455,6 +455,20 @@ Trustee compensation is legal, appropriate, and in most cases advisable. Underst
 
 Taking reasonable compensation for your work as trustee is not only legal—it's often the right thing to do for tax efficiency and family dynamics.
 
+## Related Articles
+
+**Learn more about trustee compensation and trust taxes:**
+
+- **[Form 1041 Trust Tax Return Guide](/form-1041-trust-administration-guide-california)** - How to report trustee compensation on Form 1041, deductibility of trustee fees, and impact on trust income.
+
+- **[Income vs. Principal Trust Administration](/income-vs-principal-trust-administration-california)** - How trustee fees are allocated between income and principal under California law and impact on beneficiaries.
+
+- **[Trust Administration IRS Audit](/trust-administration-irs-audit-what-to-expect)** - How IRS examines trustee compensation during audits and documentation needed to justify reasonable fees.
+
+- **[Common Trust Administration Mistakes](/common-trust-administration-mistakes-california)** - Avoid excessive trustee compensation disputes and improper fee structures that lead to beneficiary complaints.
+
+- **[Trustee Removal California: Process and Grounds](/trustee-removal-california-process-grounds)** - How excessive compensation can be grounds for trustee removal and when beneficiaries can challenge fees.
+
 ## Need Help With Trustee Compensation Issues?
 
 If you have questions about trustee compensation, fee disputes, or tax treatment of trustee fees, our experienced trust administration attorneys can help.

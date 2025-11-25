@@ -477,6 +477,20 @@ When a trustee fails to communicate, it's more than frustrating—it's a violati
 
 Trust administration requires communication. Trustees who won't communicate aren't fulfilling their legal duties—and you have every right to hold them accountable.
 
+## Related Articles
+
+**Learn more about trustee duties and beneficiary rights:**
+
+- **[Common Trust Administration Mistakes California](/common-trust-administration-mistakes-california)** - Failure to communicate is one of the most common trustee mistakes leading to removal and surcharge.
+
+- **[Trustee Removal California: Process and Grounds](/trustee-removal-california-process-grounds)** - When lack of communication justifies trustee removal and how to petition the court.
+
+- **[Trust Contest California: Grounds and Process](/trust-contest-california-grounds-process)** - If trustee concealed trust terms or failed to provide notice, you may have grounds to contest the trust itself.
+
+- **[Undue Influence in California Trusts](/undue-influence-california-trusts-proving-case)** - Trustee isolation of settlor and failure to communicate with family may indicate undue influence.
+
+- **[Trust Mediation and Settlement California](/trust-mediation-settlement-california)** - Resolving communication disputes through mediation before escalating to litigation.
+
 ## Need Help With an Unresponsive Trustee?
 
 If you're dealing with a trustee who won't communicate or provide information, our experienced trust litigation attorneys can help enforce your rights. We represent beneficiaries throughout California in trust disputes and petitions to compel trustee compliance.

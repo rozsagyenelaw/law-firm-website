@@ -420,6 +420,20 @@ While trust and probate litigation share many similarities (grounds, burden of p
 
 If you're considering contesting either a will or trust, consult an experienced litigation attorney to determine the best strategy for your situation.
 
+## Related Articles
+
+**Learn more about trust and probate litigation:**
+
+- **[Trust Contest California: Grounds and Process](/trust-contest-california-grounds-process)** - Complete overview of trust contest grounds including lack of capacity, undue influence, fraud, standing requirements, and litigation process.
+
+- **[Undue Influence in California Trusts](/undue-influence-california-trusts-proving-case)** - Deep dive into proving undue influence with vulnerability factors, evidence strategies, and the four-element test.
+
+- **[Lack of Capacity Trust Contest California](/lack-capacity-trust-contest-california)** - Medical evidence requirements, dementia standards, expert testimony, and proving mental incapacity.
+
+- **[Trust Mediation and Settlement California](/trust-mediation-settlement-california)** - When to settle vs. litigate, mediation process, settlement structures, and negotiation strategies for both trust and probate disputes.
+
+- **[No-Contest Clauses in California Trusts](/no-contest-clauses-california-trusts)** - Understand probable cause exceptions and how to contest without triggering disinheritance.
+
 ## Need Help With Estate Litigation?
 
 Whether you're facing trust litigation or probate litigation, our experienced attorneys handle both types of estate contests throughout California. We can evaluate your case and advise on the best approach.

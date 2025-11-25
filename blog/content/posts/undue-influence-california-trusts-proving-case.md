@@ -474,6 +474,20 @@ Proving undue influence in California requires demonstrating that the settlor wa
 
 If you suspect a loved one was unduly influenced, consult an experienced trust litigation attorney immediately to evaluate your case.
 
+## Related Articles
+
+**Learn more about trust litigation:**
+
+- **[Trust Contest California: Grounds and Process](/trust-contest-california-grounds-process)** - Complete overview of all grounds for contesting a trust, standing requirements, statute of limitations, and the litigation process.
+
+- **[Lack of Capacity Trust Contest California](/lack-capacity-trust-contest-california)** - Medical evidence requirements, capacity standards, and expert testimony for proving mental incapacity.
+
+- **[No-Contest Clauses in California Trusts](/no-contest-clauses-california-trusts)** - How to contest without triggering disinheritance using the probable cause exception.
+
+- **[Trust Mediation and Settlement California](/trust-mediation-settlement-california)** - Settlement strategies, mediation process, and when to settle vs. litigate your undue influence claim.
+
+- **[Common Trust Administration Mistakes](/common-trust-administration-mistakes-california)** - Trustee mistakes that may indicate undue influence or mismanagement.
+
 ## Need Help Proving Undue Influence?
 
 If you believe a trust was procured through undue influence, our experienced trust litigation attorneys can investigate your case, gather evidence, and fight for your rightful inheritance.

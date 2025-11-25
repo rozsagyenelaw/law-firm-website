@@ -560,6 +560,20 @@ Form 1041 is complex, but understanding the basics helps trustees fulfill their 
 
 Proper tax planning during trust administration can save thousands in taxes and protect trustees from potential liability for underpayment or errors.
 
+## Related Articles
+
+**Learn more about trust tax issues:**
+
+- **[Capital Gains Tax on Trust Property Sales California](/capital-gains-tax-selling-trust-property-california)** - Understand stepped-up basis, cost basis calculation, tax minimization strategies, and reporting requirements when selling trust property.
+
+- **[Income vs. Principal in Trust Administration](/income-vs-principal-trust-administration-california)** - Learn how to properly allocate receipts and expenses between income and principal beneficiaries for accurate tax reporting.
+
+- **[Trust Administration IRS Audit: What to Expect](/trust-administration-irs-audit-what-to-expect)** - Prepare for potential IRS audits of trust tax returns with documentation strategies and response procedures.
+
+- **[Trustee Compensation and Taxes California](/trustee-compensation-taxes-california)** - Tax treatment of trustee fees, self-employment tax considerations, and proper reporting on Form 1041 and personal returns.
+
+- **[Generation-Skipping Transfer Tax California](/generation-skipping-transfer-tax-california)** - GST tax implications for trusts with grandchildren or skip person beneficiaries, exemption allocation, and Form 709 filing.
+
 ## Need Help With Trust Tax Returns?
 
 If you're administering a trust in California and need guidance on Form 1041 or other tax issues, our experienced trust administration attorneys can help. We work with CPAs to ensure proper tax compliance and minimize tax liability.

@@ -471,6 +471,20 @@ GST tax is complex but manageable with proper planning and exemption allocation.
 
 Proper GST planning is essential for trustees administering trusts with skip person beneficiaries.
 
+## Related Articles
+
+**Learn more about complex trust tax issues:**
+
+- **[Form 1041 Trust Tax Return Guide](/form-1041-trust-administration-guide-california)** - How GST tax interacts with trust income tax returns and reporting requirements for skip person distributions.
+
+- **[Trust Administration IRS Audit](/trust-administration-irs-audit-what-to-expect)** - IRS examination of GST exemption allocations, Form 709 filings, and common GST tax compliance issues.
+
+- **[Income vs. Principal Trust Administration](/income-vs-principal-trust-administration-california)** - How distributions to skip persons affect income and principal allocations in multi-generational trusts.
+
+- **[Common Trust Administration Mistakes](/common-trust-administration-mistakes-california)** - Avoid costly GST exemption allocation errors and late filing penalties for Form 709.
+
+- **[Trust Administration for Business Owners](/trust-administration-business-owners-california)** - GST planning for family business succession and dynasty trust structures.
+
 ## Need Help With GST Tax Issues?
 
 If you're dealing with GST tax in California trust administration, our attorneys work with tax specialists to minimize tax liability and ensure proper exemption allocation and compliance.

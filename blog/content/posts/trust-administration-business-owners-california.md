@@ -644,6 +644,20 @@ Administering business interests in a trust requires specialized knowledge about
 
 Business interests require more time, expertise, and professional help than most trust assets, but proper administration preserves value and protects beneficiaries' inheritance.
 
+## Related Articles
+
+**Learn more about complex trust assets:**
+
+- **[Form 1041 Trust Tax Return Guide](/form-1041-trust-administration-guide-california)** - How to report business income, K-1s from pass-through entities, and distributable net income with business assets.
+
+- **[Capital Gains Tax on Trust Property Sales](/capital-gains-tax-selling-trust-property-california)** - Tax implications of selling business interests, valuation for basis purposes, and minimizing capital gains.
+
+- **[Income vs. Principal Trust Administration](/income-vs-principal-trust-administration-california)** - Allocating business income, retained earnings, and sale proceeds between income and remainder beneficiaries.
+
+- **[Generation-Skipping Transfer Tax California](/generation-skipping-transfer-tax-california)** - GST planning for multi-generational family businesses and dynasty trusts holding business interests.
+
+- **[Real Estate in Trust Administration California](/real-estate-trust-administration-california-selling-transferring)** - When business owns real estate, coordinating property transfers with business succession planning.
+
 ## Need Help With Business Interests in a Trust?
 
 If you're administering a trust that holds business interests, our experienced trust administration attorneys can help you navigate the complexities of business valuation, buy-sell agreements, and transfer to beneficiaries.

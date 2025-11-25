@@ -468,6 +468,20 @@ IRS trust audits are stressful but manageable with proper preparation and respon
 
 Prevention is best - file accurate returns with professional help and maintain detailed records.
 
+## Related Articles
+
+**Learn more about trust tax compliance:**
+
+- **[Form 1041 Trust Tax Return Guide California](/form-1041-trust-administration-guide-california)** - Proper filing procedures, common errors that trigger audits, and documentation requirements for trust income tax returns.
+
+- **[Capital Gains Tax on Trust Property Sales](/capital-gains-tax-selling-trust-property-california)** - Proper reporting of property sales, cost basis documentation, and avoiding audit triggers for capital gains.
+
+- **[Income vs. Principal Trust Administration](/income-vs-principal-trust-administration-california)** - Proper allocation documentation that withstands IRS scrutiny during trust audits.
+
+- **[Trustee Compensation and Taxes](/trustee-compensation-taxes-california)** - How to document and report trustee fees to avoid IRS audit issues and excessive compensation challenges.
+
+- **[Common Trust Administration Mistakes](/common-trust-administration-mistakes-california)** - Avoid costly tax reporting errors that increase audit risk and lead to penalties.
+
 ## Need Help With an IRS Trust Audit?
 
 If your trust is being audited by the IRS, our attorneys work with tax professionals to represent trustees and protect against excessive assessments and penalties.

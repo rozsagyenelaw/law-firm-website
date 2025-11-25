@@ -646,6 +646,20 @@ Contesting a trust in California is serious litigation requiring strong evidence
 
 If you suspect a trust is invalid, consult an experienced trust litigation attorney immediately to evaluate your options.
 
+## Related Articles
+
+**Learn more about trust litigation:**
+
+- **[Undue Influence in California Trusts: How to Prove Your Case](/undue-influence-california-trusts-proving-case)** - Deep dive into proving undue influence with the four-element test, vulnerability factors, and evidence strategies.
+
+- **[Lack of Capacity Trust Contest California](/lack-capacity-trust-contest-california)** - Complete guide to capacity challenges including medical evidence, dementia standards, and expert testimony requirements.
+
+- **[No-Contest Clauses in California Trusts](/no-contest-clauses-california-trusts)** - Understand how no-contest clauses work, the probable cause exception, and how to contest without triggering disinheritance.
+
+- **[Trust Mediation and Settlement California](/trust-mediation-settlement-california)** - Learn when to settle vs. litigate, mediation process, settlement structures, and negotiation strategies.
+
+- **[Trust Litigation vs Probate Litigation California](/trust-litigation-vs-probate-litigation-california)** - Compare trust and probate contests including venue, timing, and procedural differences.
+
 ## Need Help Contesting a Trust?
 
 If you believe a trust was procured through undue influence, fraud, or lack of capacity, our experienced trust litigation attorneys can evaluate your case and advise on your options.
