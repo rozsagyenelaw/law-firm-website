@@ -1,5 +1,5 @@
 ---
-title: "How Much Does Trust Administration Cost in California? Complete Fee Guide"
+title: "How Much Does Trust Administration Cost in California?"
 slug: "how-much-does-trust-administration-cost"
 publishDate: "2025-01-29"
 updatedDate: ""

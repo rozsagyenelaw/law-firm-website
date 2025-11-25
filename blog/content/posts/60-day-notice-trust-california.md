@@ -1,5 +1,5 @@
 ---
-title: "60-Day Notice Requirement for California Trusts: What Trustees Must Know"
+title: "60-Day Notice Requirement for California Trusts (2025)"
 slug: "60-day-notice-trust-california"
 publishDate: "2025-01-30"
 updatedDate: ""
