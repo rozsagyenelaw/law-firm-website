@@ -213,8 +213,10 @@ export async function searchPosts(query: string): Promise<PostMetadata[]> {
 // Get all categories
 export async function getAllCategories(): Promise<string[]> {
   const allPosts = await getAllPosts()
-  const categories = allPosts.map(post => post.category)
-  return Array.from(new Set(categories))
+  const categories = allPosts
+    .map(post => post.category)
+    .filter(category => category && category.trim() !== '') // Filter out empty/whitespace categories
+  return Array.from(new Set(categories)).sort() // Sort alphabetically
 }
 
 // Generate table of contents from HTML content
