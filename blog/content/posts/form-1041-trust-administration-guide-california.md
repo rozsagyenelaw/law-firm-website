@@ -5,6 +5,7 @@ excerpt: "Comprehensive guide to filing Form 1041 for California trusts. Learn l
 author: "Rozsa Gyne"
 tags: ["Form 1041", "trust taxation", "fiduciary income tax", "California trust administration"]
 coverImage: "/images/blog/trust-amendment-update.jpg"
+metaDescription: "File Form 1041 for California trusts: line-by-line instructions, deductions, Schedule K-1, estimated payments, minimize fiduciary income tax. Complete filing guide."
 ---
 
 # Trust Administration Form 1041 Guide California: Complete Filing Instructions

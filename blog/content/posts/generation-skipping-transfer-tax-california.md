@@ -5,6 +5,7 @@ excerpt: "Complete guide to GST tax in California trust administration. Learn ex
 author: "Rozsa Gyne"
 tags: ["GST tax", "generation-skipping tax", "dynasty trust", "Form 709"]
 coverImage: "/images/blog/trust-funding.jpg"
+metaDescription: "GST tax in California trusts: $13.61M exemption, allocation strategies, Form 709 filing, dynasty trusts. Minimize generation-skipping transfer tax liability."
 ---
 
 # Generation-Skipping Transfer Tax in Trust Administration California

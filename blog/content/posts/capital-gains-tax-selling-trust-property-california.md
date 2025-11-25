@@ -5,6 +5,7 @@ excerpt: "Complete guide to capital gains tax on trust property sales in Califor
 author: "Rozsa Gyne"
 tags: ["capital gains tax", "trust property sale", "stepped-up basis", "California trust tax"]
 coverImage: "/images/blog/homeowner-living-trust.jpg"
+metaDescription: "Capital gains tax selling California trust property: stepped-up basis eliminates tax, calculate gains, reporting requirements. Minimize tax on trust property sales."
 ---
 
 # Capital Gains Tax When Selling Trust Property California: Complete Tax Guide

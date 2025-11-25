@@ -5,6 +5,7 @@ excerpt: "Complete guide to trust mediation and settlement in California. Learn 
 author: "Rozsa Gyne"
 tags: ["trust mediation", "trust settlement", "alternative dispute resolution", "trust litigation"]
 coverImage: "/images/blog/consultation-meeting.jpg"
+metaDescription: "Trust mediation California: save $100K-$350K vs trial, settle 70-80% of disputes. Mediation process, settlement structures, negotiation strategies. Attorney guide."
 ---
 
 # Trust Mediation and Settlement California: Resolving Disputes Without Trial

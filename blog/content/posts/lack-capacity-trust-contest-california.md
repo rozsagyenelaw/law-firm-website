@@ -5,6 +5,7 @@ excerpt: "Complete guide to contesting a trust based on lack of capacity in Cali
 author: "Rozsa Gyne"
 tags: ["lack of capacity", "mental capacity", "trust contest", "dementia", "Alzheimer's"]
 coverImage: "/images/blog/avoid-probate.jpg"
+metaDescription: "Prove lack of capacity in California trust contests: medical evidence requirements, dementia/Alzheimer's standards, expert testimony. Contest trust for incapacity."
 ---
 
 # Lack of Capacity Trust Contest California: Proving Mental Incapacity

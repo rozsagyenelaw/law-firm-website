@@ -5,6 +5,7 @@ excerpt: "Complete guide to IRS audits of trust tax returns. Learn common audit 
 author: "Rozsa Gyne"
 tags: ["IRS audit", "trust tax audit", "Form 1041 audit", "trust administration"]
 coverImage: "/images/blog/estate-planning-mistakes.jpg"
+metaDescription: "IRS audit of trust Form 1041? Learn common triggers, documentation requirements, what IRS examines, audit process. Prepare for trust tax audit successfully."
 ---
 
 # Trust Administration IRS Audit: What to Expect and How to Prepare

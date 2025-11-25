@@ -5,6 +5,7 @@ excerpt: "Discover the most common trust administration mistakes that can lead t
 author: "Rozsa Gyne"
 tags: ["trust administration", "trustee mistakes", "California trusts", "fiduciary duty"]
 coverImage: "/images/blog/trustee-warning-signs.jpg"
+metaDescription: "Avoid common trust administration mistakes in California: notice failures, commingling assets, tax errors, self-dealing. Prevent legal liability and penalties."
 ---
 
 # Common Trust Administration Mistakes in California (And How to Avoid Them)

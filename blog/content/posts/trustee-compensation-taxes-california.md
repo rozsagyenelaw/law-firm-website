@@ -5,6 +5,7 @@ excerpt: "Complete guide to trustee compensation in California. Learn statutory 
 author: "Rozsa Gyne"
 tags: ["trustee compensation", "trustee fees", "California Probate Code", "trustee taxation"]
 coverImage: "/images/blog/consultation-meeting.jpg"
+metaDescription: "California trustee fees explained: statutory rates (1% on first $1M), tax treatment, Form 1099 requirements, reasonable compensation standards. Complete guide."
 ---
 
 # Trustee Compensation and Taxes in California: Complete Fee Guide

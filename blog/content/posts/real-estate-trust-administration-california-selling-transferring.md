@@ -5,6 +5,7 @@ excerpt: "Complete guide to handling real estate during California trust adminis
 author: "Rozsa Gyne"
 tags: ["trust real estate", "selling trust property", "trust administration", "California property law"]
 coverImage: "/images/blog/die-without-trust.jpg"
+metaDescription: "Selling or transferring real estate in California trust: trustee authority, appraisals, capital gains tax, title transfer. Complete property administration guide."
 ---
 
 # Real Estate in Trust Administration: Selling or Transferring Property in California

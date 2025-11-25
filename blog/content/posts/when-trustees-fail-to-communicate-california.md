@@ -5,6 +5,7 @@ excerpt: "Trustee won't return calls or provide information? Learn your legal op
 author: "Rozsa Gyne"
 tags: ["trustee communication", "beneficiary rights", "trust litigation", "California trusts"]
 coverImage: "/images/blog/choosing-successor-trustee.jpg"
+metaDescription: "Trustee won't communicate? California law requires trustees to keep beneficiaries informed. Learn legal remedies, court petitions, and how to compel accountability."
 ---
 
 # When Trustees Fail to Communicate: Your Legal Options in California

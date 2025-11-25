@@ -5,6 +5,7 @@ excerpt: "Complete guide to contesting a trust in California. Learn legal ground
 author: "Rozsa Gyne"
 tags: ["trust contest", "challenge trust", "California trust litigation", "trust validity"]
 coverImage: "/images/blog/california-inheritance-laws.jpg"
+metaDescription: "Contest a trust in California: legal grounds (undue influence, capacity, fraud), 120-day deadline, standing requirements, court process. Attorney litigation guide."
 ---
 
 # Trust Contest California: Grounds and Process for Challenging a Trust

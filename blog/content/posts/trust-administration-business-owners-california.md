@@ -5,6 +5,7 @@ excerpt: "Complete guide to administering trusts that hold business interests. L
 author: "Rozsa Gyne"
 tags: ["business trust administration", "business valuation", "California business law", "LLC in trust"]
 coverImage: "/images/blog/living-trust-cost.jpg"
+metaDescription: "Trust holds business interests? Learn valuation, operating agreements, buy-sell provisions, tax issues, transferring ownership. California business trust administration."
 ---
 
 # Trust Administration for Business Owners: Handling Business Interests in California

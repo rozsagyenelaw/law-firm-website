@@ -5,6 +5,7 @@ excerpt: "Complete comparison of trust litigation vs probate litigation in Calif
 author: "Rozsa Gyne"
 tags: ["trust litigation", "probate litigation", "will contest", "California estate litigation"]
 coverImage: "/images/blog/trust-vs-will-california.jpg"
+metaDescription: "Trust vs probate litigation California: venue differences, 120-day vs 4-month deadlines, privacy vs public record. Which is easier to contest? Attorney comparison."
 ---
 
 # Trust Litigation vs Probate Litigation California: Key Differences
