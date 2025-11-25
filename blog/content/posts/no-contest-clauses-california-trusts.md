@@ -4,7 +4,7 @@ date: "2025-03-04"
 excerpt: "Complete guide to no-contest clauses in California trusts. Learn enforceability standards, the probable cause exception, strategic considerations, and how to contest without triggering disinheritance."
 author: "Rozsa Gyne"
 tags: ["no-contest clause", "in terrorem clause", "trust contest", "California Probate Code"]
-image: "/images/blog/trust-amendment-update.jpg"
+coverImage: "/images/blog/trust-amendment-update.jpg"
 ---
 
 # No-Contest Clauses in California Trusts: Enforceability and Strategy

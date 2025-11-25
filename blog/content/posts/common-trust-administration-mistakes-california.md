@@ -4,7 +4,7 @@ date: "2025-02-15"
 excerpt: "Discover the most common trust administration mistakes that can lead to legal liability, tax penalties, and beneficiary disputes - and learn how to avoid them."
 author: "Rozsa Gyne"
 tags: ["trust administration", "trustee mistakes", "California trusts", "fiduciary duty"]
-image: "/images/blog/trustee-warning-signs.jpg"
+coverImage: "/images/blog/trustee-warning-signs.jpg"
 ---
 
 # Common Trust Administration Mistakes in California (And How to Avoid Them)

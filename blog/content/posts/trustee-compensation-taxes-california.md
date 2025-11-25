@@ -4,7 +4,7 @@ date: "2025-02-25"
 excerpt: "Complete guide to trustee compensation in California. Learn statutory fees, reasonable compensation standards, how trustee fees are taxed, Form 1099 requirements, and payment best practices."
 author: "Rozsa Gyne"
 tags: ["trustee compensation", "trustee fees", "California Probate Code", "trustee taxation"]
-image: "/images/blog/consultation-meeting.jpg"
+coverImage: "/images/blog/consultation-meeting.jpg"
 ---
 
 # Trustee Compensation and Taxes in California: Complete Fee Guide

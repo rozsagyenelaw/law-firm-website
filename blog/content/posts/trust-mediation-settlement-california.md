@@ -4,7 +4,7 @@ date: "2025-03-03"
 excerpt: "Complete guide to trust mediation and settlement in California. Learn mediation benefits, the process, settlement structures, when to settle vs. litigate, and how to negotiate effectively."
 author: "Rozsa Gyne"
 tags: ["trust mediation", "trust settlement", "alternative dispute resolution", "trust litigation"]
-image: "/images/blog/consultation-meeting.jpg"
+coverImage: "/images/blog/consultation-meeting.jpg"
 ---
 
 # Trust Mediation and Settlement California: Resolving Disputes Without Trial

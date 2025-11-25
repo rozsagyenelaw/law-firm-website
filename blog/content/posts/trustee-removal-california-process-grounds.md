@@ -4,7 +4,7 @@ date: "2025-02-18"
 excerpt: "Learn when and how to remove a trustee in California. Understand legal grounds, the court process, costs, and alternatives to protect your inheritance from trustee misconduct."
 author: "Rozsa Gyne"
 tags: ["trustee removal", "trust litigation", "California Probate Code", "beneficiary rights"]
-image: "/images/blog/trustee-theft.jpg"
+coverImage: "/images/blog/trustee-theft.jpg"
 ---
 
 # Trustee Removal in California: Legal Process and Grounds for Removal

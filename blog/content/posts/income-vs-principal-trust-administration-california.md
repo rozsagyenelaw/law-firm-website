@@ -4,7 +4,7 @@ date: "2025-02-22"
 excerpt: "Master the critical distinction between trust income and principal. Learn allocation rules for receipts, expenses, capital gains, rental property, and how it affects beneficiary distributions."
 author: "Rozsa Gyne"
 tags: ["trust accounting", "income vs principal", "California trust law", "beneficiary rights"]
-image: "/images/blog/living-trust-cost.jpg"
+coverImage: "/images/blog/living-trust-cost.jpg"
 ---
 
 # Income vs Principal in Trust Administration California: Complete Allocation Guide
