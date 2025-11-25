@@ -692,6 +692,20 @@ _____________________________________________________________________
 
 _____________________________________________________________________
 
+## Related Articles
+
+**Learn more about trust administration:**
+
+- **[Common Trust Administration Mistakes California](/common-trust-administration-mistakes-california)** - Avoid costly errors during trust administration including missing deadlines, improper distributions, and tax mistakes.
+
+- **[Form 1041 Trust Tax Return Guide](/form-1041-trust-administration-guide-california)** - Complete guide to filing trust income tax returns, reporting requirements, and trustee tax obligations.
+
+- **[How to Distribute Trust Assets California](/how-to-distribute-trust-assets-california)** - Step-by-step process for distributing assets to beneficiaries including real estate, investments, and personal property.
+
+- **[Trustee Removal California: Process and Grounds](/trustee-removal-california-process-grounds)** - When beneficiaries can remove a trustee for failure to follow proper administration procedures.
+
+- **[Trust Administration IRS Audit](/trust-administration-irs-audit-what-to-expect)** - How improper administration and tax reporting trigger IRS audits and how to avoid them.
+
 ## Need Help?
 
 The Law Offices of Rozsa Gyene guides trustees through every step of California trust administration.

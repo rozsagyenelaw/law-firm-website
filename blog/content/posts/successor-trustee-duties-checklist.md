@@ -404,6 +404,20 @@ This comprehensive checklist will guide you through every step of trust administ
 - Estate may owe estate taxes
 - Tax situation is complex
 
+## Related Articles
+
+**Learn more about successor trustee duties:**
+
+- **[Common Trust Administration Mistakes California](/common-trust-administration-mistakes-california)** - Top mistakes new successor trustees make and how to avoid liability and beneficiary disputes.
+
+- **[60-Day Notice to Trust Beneficiaries California](/60-day-notice-trust-california)** - One of your first duties as successor trustee is sending proper notice to all beneficiaries.
+
+- **[Form 1041 Trust Tax Return Guide](/form-1041-trust-administration-guide-california)** - Understanding your tax filing obligations and deadlines as successor trustee.
+
+- **[When Trustees Fail to Communicate California](/when-trustees-fail-to-communicate-california)** - Communication requirements with beneficiaries and consequences of failing to keep beneficiaries informed.
+
+- **[Trustee Removal California](/trustee-removal-california-process-grounds)** - When failure to fulfill duties leads to removal and how to protect yourself from removal petitions.
+
 ## Need Help?
 
 The Law Offices of Rozsa Gyene guides successor trustees through every step of California trust administration. We help you meet deadlines, fulfill your duties, and avoid costly mistakes.

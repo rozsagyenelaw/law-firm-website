@@ -342,6 +342,20 @@ Trust tax returns are complex. Consider professional help if:
 
 **Who pays:** Professional fees are paid from trust assets, not your personal funds.
 
+## Related Articles
+
+**Learn more about trust tax obligations:**
+
+- **[Form 1041 Trust Tax Return Guide California](/form-1041-trust-administration-guide-california)** - Comprehensive guide to Form 1041 filing requirements, schedules, K-1s, and trustee tax responsibilities.
+
+- **[Capital Gains Tax on Trust Property Sales](/capital-gains-tax-selling-trust-property-california)** - How to report property sales, stepped-up basis calculations, and capital gains tax minimization.
+
+- **[Income vs. Principal Trust Administration](/income-vs-principal-trust-administration-california)** - How income and principal allocations affect trust tax returns and beneficiary distributions.
+
+- **[Trust Administration IRS Audit](/trust-administration-irs-audit-what-to-expect)** - What triggers IRS audits of trust returns and how to respond with proper documentation.
+
+- **[Common Trust Administration Mistakes](/common-trust-administration-mistakes-california)** - Tax filing errors that lead to penalties, interest, and beneficiary disputes.
+
 ## Need Help With Trust Taxes?
 
 Trust administration involves multiple tax deadlines and complex decisions. The Law Offices of Rozsa Gyene works with trusted CPAs to ensure your tax obligations are handled properly.

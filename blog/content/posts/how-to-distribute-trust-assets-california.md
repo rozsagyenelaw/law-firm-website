@@ -435,6 +435,20 @@ Keep all records for at least 5-7 years:
 
 **Disposing of "worthless" items:** Let beneficiaries decide what has value to them.
 
+## Related Articles
+
+**Learn more about trust asset distribution:**
+
+- **[Real Estate in Trust Administration California](/real-estate-trust-administration-california-selling-transferring)** - Selling or transferring real estate to beneficiaries, deed preparation, and market value determination.
+
+- **[Capital Gains Tax on Trust Property Sales](/capital-gains-tax-selling-trust-property-california)** - Tax implications of selling trust property before distribution and stepped-up basis benefits.
+
+- **[Income vs. Principal Trust Administration](/income-vs-principal-trust-administration-california)** - How to allocate receipts and expenses between income and remainder beneficiaries before final distribution.
+
+- **[Common Trust Administration Mistakes](/common-trust-administration-mistakes-california)** - Distribution mistakes that lead to beneficiary disputes and trustee liability.
+
+- **[Trustee Not Distributing Trust Assets](/trustee-not-distributing-trust-assets)** - Beneficiary rights when trustee delays or refuses to make proper distributions.
+
 ## Need Help With Distribution?
 
 The Law Offices of Rozsa Gyene helps trustees navigate the distribution process—preparing deeds, coordinating transfers, and ensuring proper documentation.

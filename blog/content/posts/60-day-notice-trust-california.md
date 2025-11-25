@@ -257,6 +257,20 @@ Recipients may request copies of trust terms affecting their interest. Provide t
 
 Calculate when the contest period expires for each recipient. Don't make final distributions until all periods have run.
 
+## Related Articles
+
+**Learn more about trust notice and beneficiary rights:**
+
+- **[Trust Contest California: Grounds and Process](/trust-contest-california-grounds-process)** - Why proper 60-day notice is critical and the 120-day statute of limitations for trust contests.
+
+- **[No-Contest Clauses in California Trusts](/no-contest-clauses-california-trusts)** - How improper notice affects no-contest clauses and beneficiary rights to challenge the trust.
+
+- **[Common Trust Administration Mistakes](/common-trust-administration-mistakes-california)** - Failure to send proper notice is one of the most common and serious trustee mistakes.
+
+- **[When Trustees Fail to Communicate California](/when-trustees-fail-to-communicate-california)** - Legal duties to communicate with beneficiaries beyond the initial 60-day notice.
+
+- **[Trustee Removal California](/trustee-removal-california-process-grounds)** - How failure to provide proper notice can be grounds for trustee removal.
+
 ## Need Help With Trust Notice Requirements?
 
 The 60-day notice is one of the first and most important steps in trust administration. Getting it right protects you as trustee and moves the administration forward.
