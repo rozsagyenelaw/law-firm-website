@@ -7,6 +7,10 @@ import remarkGfm from 'remark-gfm'
 
 const postsDirectory = path.join(process.cwd(), 'content/posts')
 
+// Cache for post metadata to avoid re-reading files during build
+let metadataCache: PostMetadata[] | null = null
+let fullPostsCache: Map<string, Post> = new Map()
+
 export interface Post {
   slug: string
   title: string
@@ -47,8 +51,44 @@ export function getAllPostSlugs(): string[] {
     .map(fileName => fileName.replace(/\.mdx?$/, ''))
 }
 
-// Get post by slug
+// Get post metadata only (faster, no content processing)
+function getPostMetadataBySlug(slug: string): PostMetadata | null {
+  try {
+    const fullPath = path.join(postsDirectory, `${slug}.md`)
+    const fileContents = fs.readFileSync(fullPath, 'utf8')
+    const { data, content } = matter(fileContents)
+
+    return {
+      slug,
+      title: data.title,
+      publishDate: data.publishDate,
+      updatedDate: data.updatedDate,
+      author: data.author || {
+        name: 'Rozsa Gyene',
+        title: 'Estate Planning Attorney',
+        image: '/blog/images/author/rozsa-gyene.jpg',
+        bio: 'Attorney Rozsa Gyene has over 25 years of experience in estate planning, trust litigation, and probate law, serving families throughout Los Angeles County.',
+      },
+      category: data.category,
+      tags: data.tags || [],
+      excerpt: data.excerpt,
+      featured: data.featured || false,
+      coverImage: data.coverImage ? `/blog${data.coverImage}` : '/blog/images/blog/default-cover.jpg',
+      readingTime: calculateReadingTime(content),
+    }
+  } catch (error) {
+    console.error(`Error reading post metadata ${slug}:`, error)
+    return null
+  }
+}
+
+// Get post by slug with full content
 export async function getPostBySlug(slug: string): Promise<Post | null> {
+  // Check cache first
+  if (fullPostsCache.has(slug)) {
+    return fullPostsCache.get(slug)!
+  }
+
   try {
     const fullPath = path.join(postsDirectory, `${slug}.md`)
     const fileContents = fs.readFileSync(fullPath, 'utf8')
@@ -60,7 +100,7 @@ export async function getPostBySlug(slug: string): Promise<Post | null> {
       .process(content)
     const contentHtml = processedContent.toString()
 
-    return {
+    const post: Post = {
       slug,
       title: data.title,
       publishDate: data.publishDate,
@@ -79,27 +119,32 @@ export async function getPostBySlug(slug: string): Promise<Post | null> {
       content: contentHtml,
       readingTime: calculateReadingTime(content),
     }
+
+    // Cache the result
+    fullPostsCache.set(slug, post)
+    return post
   } catch (error) {
     console.error(`Error reading post ${slug}:`, error)
     return null
   }
 }
 
-// Get all posts with metadata
+// Get all posts with metadata (cached for performance)
 export async function getAllPosts(): Promise<PostMetadata[]> {
-  const slugs = getAllPostSlugs()
-  const posts = await Promise.all(
-    slugs.map(async slug => {
-      const post = await getPostBySlug(slug)
-      if (!post) return null
-      const { content, ...metadata } = post
-      return metadata
-    })
-  )
+  // Return cached metadata if available
+  if (metadataCache !== null) {
+    return metadataCache
+  }
 
-  return posts
+  const slugs = getAllPostSlugs()
+  const posts = slugs
+    .map(slug => getPostMetadataBySlug(slug))
     .filter((post): post is PostMetadata => post !== null)
     .sort((a, b) => (new Date(b.publishDate).getTime() - new Date(a.publishDate).getTime()))
+
+  // Cache the results
+  metadataCache = posts
+  return posts
 }
 
 // Get posts by category
