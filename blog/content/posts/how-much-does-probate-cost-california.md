@@ -563,6 +563,20 @@ Even for modest estates, the savings are substantial and the benefits extend bey
 - Control over distributions
 - Asset protection for beneficiaries
 
+## Related Articles
+
+**Learn more about California probate:**
+
+- **[How Long Does Probate Take in California?](/blog/how-long-does-probate-take-california/)** - Complete timeline breakdown from filing to final distribution, including what delays probate.
+
+- **[California Executor Duties & Responsibilities](/blog/executor-duties-california/)** - What executors do and how executor fees are calculated in California probate.
+
+- **[How to Avoid Probate in California](/blog/avoid-probate-california/)** - 7 strategies to avoid probate costs entirely and save your family $20,000-$100,000+.
+
+- **[California Small Estate Affidavit](/blog/california-small-estate-affidavit/)** - Skip probate entirely for estates under $184,500 using this simple procedure.
+
+- **[Trust Administration vs. Probate California](/blog/trust-administration-vs-probate-california/)** - Side-by-side cost comparison showing how trusts save $30,000-$80,000+.
+
 ## Get Help Understanding Your Probate Costs
 
 Whether you're currently facing probate and need help understanding what you'll pay, or you want to explore options to avoid probate for your own estate, I'm here to provide clear answers and experienced guidance.

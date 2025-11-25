@@ -635,6 +635,20 @@ If will leaves separate property to you, Spousal Property Petition still works. 
 
 For some assets with small value, maybe. But for real property and significant assets, court order is necessary and provides legal protection.
 
+## Related Articles
+
+**California probate alternatives for spouses:**
+
+- **[How to Avoid Probate in California](/blog/avoid-probate-california/)** - Spousal Property Petition is one of 7 probate avoidance strategies.
+
+- **[How Much Does Probate Cost in California?](/blog/how-much-does-probate-cost-california/)** - Save $20,000-$50,000+ using Spousal Petition vs. full probate.
+
+- **[How Long Does Probate Take in California?](/blog/how-long-does-probate-take-california/)** - Compare 30-60 day Spousal Petition to 12-18 month probate.
+
+- **[California Small Estate Affidavit](/blog/california-small-estate-affidavit/)** - Another simplified procedure for small estates.
+
+- **[Died Without Will California](/blog/died-without-will-california/)** - Spousal Property Petition works even without a will.
+
 ## Get Help with Spousal Property Petition
 
 While simpler than full probate, Spousal Property Petitions still involve legal complexities, property characterization issues, and court procedures. Professional guidance ensures the process goes smoothly and property is transferred correctly.

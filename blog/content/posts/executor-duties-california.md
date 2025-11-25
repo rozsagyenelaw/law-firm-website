@@ -845,6 +845,20 @@ Being executor is not mandatory. You can decline if:
 
 **No shame in declining:** Better to decline than to serve poorly.
 
+## Related Articles
+
+**Essential resources for California executors:**
+
+- **[How Long Does Probate Take in California?](/blog/how-long-does-probate-take-california/)** - Understand the complete probate timeline you'll manage as executor.
+
+- **[How Much Does Probate Cost in California?](/blog/how-much-does-probate-cost-california/)** - Statutory fees including executor compensation and total probate expenses.
+
+- **[Letters Testamentary California](/blog/letters-testamentary-california/)** - How to obtain the legal authority you need to act as executor.
+
+- **[How to File Probate in Los Angeles County](/blog/file-probate-los-angeles-county/)** - Step-by-step guide to initiating the probate process.
+
+- **[How to Sell a House in Probate California](/blog/selling-house-probate-california/)** - One of your most important duties if the estate includes real property.
+
 ## Get Professional Help with Executor Duties
 
 Being an executor involves complex legal responsibilities, significant time commitment, and potential personal liability. You don't have to navigate this alone.

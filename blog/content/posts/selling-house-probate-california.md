@@ -700,6 +700,20 @@ When you don't have IAEA authority or sale price is below 90% of appraised value
 
 **Most estates:** No estate tax liability
 
+## Related Articles
+
+**Essential guides for California probate:**
+
+- **[California Executor Duties & Responsibilities](/blog/executor-duties-california/)** - Complete checklist of your fiduciary duties including property sales.
+
+- **[Letters Testamentary California](/blog/letters-testamentary-california/)** - Legal authority required before you can sell probate property.
+
+- **[How Long Does Probate Take in California?](/blog/how-long-does-probate-take-california/)** - How property sales fit into the probate timeline.
+
+- **[How to File Probate in Los Angeles County](/blog/file-probate-los-angeles-county/)** - Must complete this before selling estate property.
+
+- **[How Much Does Probate Cost in California?](/blog/how-much-does-probate-cost-california/)** - Property sales affect estate costs and executor fees.
+
 ## Get Professional Help Selling Probate Property
 
 Selling real estate during probate involves complex legal requirements, fiduciary duties, and procedures that vary based on your authority and situation. Professional guidance ensures the sale proceeds smoothly, you fulfill your duties properly, and you avoid personal liability.

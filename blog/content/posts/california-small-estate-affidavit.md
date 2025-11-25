@@ -619,6 +619,20 @@ Even if your estate qualifies for small estate affidavit procedures, there are s
 
 Formal probate costs more and takes longer, but provides court supervision, creditor protection, and defense against future challenges.
 
+## Related Articles
+
+**Learn more about California probate alternatives:**
+
+- **[How Much Does Probate Cost in California?](/blog/how-much-does-probate-cost-california/)** - See what you're avoiding by using small estate affidavit ($20,000-$100,000+ savings).
+
+- **[How Long Does Probate Take in California?](/blog/how-long-does-probate-take-california/)** - Compare 40-day small estate timeline to 12-18 month formal probate.
+
+- **[How to Avoid Probate in California](/blog/avoid-probate-california/)** - 7 strategies including small estate procedures and living trusts.
+
+- **[Spousal Property Petition California](/blog/spousal-property-petition-california/)** - Another simplified procedure for surviving spouses.
+
+- **[Died Without Will California](/blog/died-without-will-california/)** - Small estate affidavit works for intestate estates too.
+
 ## Get Help with Small Estate Affidavit
 
 While California's small estate procedures are designed to be accessible without extensive legal help, a brief consultation with an experienced attorney can save you from costly mistakes and ensure you're using the right procedure for your situation.

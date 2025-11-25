@@ -669,6 +669,20 @@ LA County enforces bond requirements unless specifically waived:
 - Legal research resources
 - Librarians can help locate resources
 
+## Related Articles
+
+**Essential guides for Los Angeles County probate:**
+
+- **[Letters Testamentary California](/blog/letters-testamentary-california/)** - What you receive after successful filing and court hearing.
+
+- **[California Executor Duties & Responsibilities](/blog/executor-duties-california/)** - What comes after filing: your complete duties checklist.
+
+- **[How Long Does Probate Take in California?](/blog/how-long-does-probate-take-california/)** - Complete timeline after you file the petition.
+
+- **[How Much Does Probate Cost in California?](/blog/how-much-does-probate-cost-california/)** - Filing fees and total costs for LA County probate.
+
+- **[Died Without Will California](/blog/died-without-will-california/)** - Filing probate when decedent had no will (intestate).
+
 ## Get Professional Help Filing Los Angeles County Probate
 
 Filing probate in Los Angeles County involves complex forms, strict procedures, and county-specific requirements. Having experienced guidance ensures your petition is accepted on first filing and moves through the process efficiently.

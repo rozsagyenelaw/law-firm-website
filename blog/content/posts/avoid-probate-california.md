@@ -345,6 +345,20 @@ I strongly discourage DIY probate avoidance planning. The litigation to fix prob
 
 Most families complete the process in 4-6 weeks.
 
+## Related Articles
+
+**Learn more about California probate:**
+
+- **[How Much Does Probate Cost in California?](/blog/how-much-does-probate-cost-california/)** - Detailed breakdown of what you're avoiding ($20,000-$100,000+ in fees).
+
+- **[How Long Does Probate Take in California?](/blog/how-long-does-probate-take-california/)** - See the 12-18 month timeline you'll skip by avoiding probate.
+
+- **[Trust Administration vs. Probate California](/blog/trust-administration-vs-probate-california/)** - Side-by-side comparison of living trust benefits vs. probate.
+
+- **[California Small Estate Affidavit](/blog/california-small-estate-affidavit/)** - Alternative for estates under $184,500.
+
+- **[Spousal Property Petition California](/blog/spousal-property-petition-california/)** - Simplified probate alternative for surviving spouses.
+
 ## Schedule Your Free Consultation
 
 Avoiding probate isn't just about saving money—it's about protecting your family during one of life's most difficult times.

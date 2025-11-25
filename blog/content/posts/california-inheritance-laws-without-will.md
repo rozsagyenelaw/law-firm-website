@@ -535,6 +535,20 @@ For most people, the answer is no.
 - Family litigation: $50,000-$500,000+
 - Unintended distributions: Priceless family heirlooms going to wrong people
 
+## Related Articles
+
+**Understanding California intestate succession:**
+
+- **[Died Without Will California](/blog/died-without-will-california/)** - Complete guide to the intestate succession process and probate.
+
+- **[How to Avoid Probate in California](/blog/avoid-probate-california/)** - 7 strategies to prevent intestacy problems with proper planning.
+
+- **[Spousal Property Petition California](/blog/spousal-property-petition-california/)** - Simplified procedure for surviving spouse inheritance.
+
+- **[How Much Does Probate Cost in California?](/blog/how-much-does-probate-cost-california/)** - Intestate probate costs $20,000-$100,000+.
+
+- **[California Executor Duties & Responsibilities](/blog/executor-duties-california/)** - Administrator duties in intestate estates.
+
 ## Schedule Your Estate Planning Consultation
 
 Don't leave your family's future to California's intestate succession laws. Take control with a proper estate plan that reflects your wishes and protects your loved ones.

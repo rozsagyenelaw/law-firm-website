@@ -669,6 +669,20 @@ Some options:
 - Probate attorney working on contingency (rare)
 - Self-help resources (risky but available)
 
+## Related Articles
+
+**Essential guides for intestate succession:**
+
+- **[California Inheritance Laws Without Will](/blog/california-inheritance-laws-without-will/)** - Comprehensive guide to who inherits in every family situation.
+
+- **[California Executor Duties & Responsibilities](/blog/executor-duties-california/)** - Administrator duties when handling intestate estates.
+
+- **[How to File Probate in Los Angeles County](/blog/file-probate-los-angeles-county/)** - Filing probate without a will (intestate administration).
+
+- **[How to Avoid Probate in California](/blog/avoid-probate-california/)** - Prevent intestacy problems with proper estate planning.
+
+- **[Spousal Property Petition California](/blog/spousal-property-petition-california/)** - Surviving spouse rights even without a will.
+
 ## Get Help with Intestate Succession
 
 Whether you're dealing with a family member who died without a will, or you want to create an estate plan to avoid intestate succession for your own family, experienced legal guidance makes the process much smoother.

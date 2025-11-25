@@ -668,6 +668,20 @@ Brother tells father (falsely) that daughter has stolen from him. Father disinhe
 - Testator clearly wanted distribution
 - Settlement negotiations refused
 
+## Related Articles
+
+**California will contest and probate litigation:**
+
+- **[Trust Litigation vs Probate Litigation California](/blog/trust-litigation-vs-probate-litigation-california/)** - Key differences in contesting trusts vs. wills.
+
+- **[How Long Does Probate Take in California?](/blog/how-long-does-probate-take-california/)** - Will contests extend probate timeline significantly.
+
+- **[California Executor Duties & Responsibilities](/blog/executor-duties-california/)** - How executors handle will contest challenges.
+
+- **[Died Without Will California](/blog/died-without-will-california/)** - What happens if will is invalidated (intestate succession).
+
+- **[How to File Probate in Los Angeles County](/blog/file-probate-los-angeles-county/)** - Where to file will contest objections.
+
 ## Get Expert Help with Will Contests
 
 Will contests are complex, expensive, and emotionally draining. Whether you're considering challenging a will or defending against a contest, experienced legal guidance is essential.

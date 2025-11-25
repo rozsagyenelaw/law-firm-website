@@ -582,6 +582,20 @@ Not automatically, but they can request copies from the court. As executor, you 
 
 This is complicated. Some providers accept Letters, others require specific court orders. California Revised Uniform Fiduciary Access to Digital Assets Act provides framework, but implementation varies.
 
+## Related Articles
+
+**Essential California probate guides:**
+
+- **[California Executor Duties & Responsibilities](/blog/executor-duties-california/)** - Complete checklist of what you'll do with your Letters Testamentary.
+
+- **[How to File Probate in Los Angeles County](/blog/file-probate-los-angeles-county/)** - Step-by-step guide to obtaining Letters Testamentary.
+
+- **[How to Sell a House in Probate California](/blog/selling-house-probate-california/)** - Using Letters Testamentary to sell estate real property.
+
+- **[How Long Does Probate Take in California?](/blog/how-long-does-probate-take-california/)** - When you'll receive Letters in the probate timeline.
+
+- **[How Much Does Probate Cost in California?](/blog/how-much-does-probate-cost-california/)** - Costs involved in obtaining and using Letters Testamentary.
+
 ## Getting Help with Letters Testamentary
 
 While the concept of Letters Testamentary is straightforward, obtaining them requires navigating the entire probate petition process—which involves complex forms, strict procedures, and court hearings.

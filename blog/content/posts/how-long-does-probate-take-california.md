@@ -560,6 +560,20 @@ The most effective way to speed up probate is to avoid it entirely through prope
 
 Even if you're currently in probate, understanding the timeline helps you set realistic expectations and identify areas where you can minimize delays.
 
+## Related Articles
+
+**Learn more about California probate:**
+
+- **[How Much Does Probate Cost in California?](/blog/how-much-does-probate-cost-california/)** - Complete breakdown of statutory fees, court costs, and total expenses for probate in California.
+
+- **[California Executor Duties & Responsibilities](/blog/executor-duties-california/)** - Complete checklist of executor duties from filing through final distribution.
+
+- **[How to File Probate in Los Angeles County](/blog/file-probate-los-angeles-county/)** - Step-by-step guide to filing probate at Stanley Mosk Courthouse.
+
+- **[How to Avoid Probate in California](/blog/avoid-probate-california/)** - 7 proven strategies to avoid the 12-18 month probate process and save your family thousands.
+
+- **[How to Sell a House in Probate California](/blog/selling-house-probate-california/)** - Complete guide to selling real estate during probate, including court confirmation and IAEA authority.
+
 ## Need Help with California Probate?
 
 If you're facing California probate and want experienced guidance through the process, or if you'd like to explore options to avoid probate for your own estate, I'm here to help.
