@@ -12,7 +12,7 @@
   <!-- Service Pages -->
   <url>
     <loc>https://livingtrust-attorneys.com/living-trusts</loc>
-    <lastmod>2025-01-15</lastmod>
+    <lastmod>2025-11-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -40,28 +40,28 @@
 
   <url>
     <loc>https://livingtrust-attorneys.com/conservatorship</loc>
-    <lastmod>2025-01-15</lastmod>
+    <lastmod>2025-11-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
     <loc>https://livingtrust-attorneys.com/guardianship</loc>
-    <lastmod>2025-01-15</lastmod>
+    <lastmod>2025-11-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
     <loc>https://livingtrust-attorneys.com/asset-protection</loc>
-    <lastmod>2025-01-15</lastmod>
+    <lastmod>2025-11-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
     <loc>https://livingtrust-attorneys.com/special-needs-trust</loc>
-    <lastmod>2025-01-15</lastmod>
+    <lastmod>2025-11-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -394,6 +394,20 @@
   <url>
     <loc>https://livingtrust-attorneys.com/blog/executor-duties-california</loc>
     <lastmod>2025-01-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://livingtrust-attorneys.com/blog/common-trust-administration-mistakes-california</loc>
+    <lastmod>2025-02-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://livingtrust-attorneys.com/blog/capital-gains-tax-selling-trust-property-california</loc>
+    <lastmod>2025-02-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
