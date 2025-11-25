@@ -25,6 +25,7 @@ export interface Post {
   category: string
   tags: string[]
   excerpt: string
+  metaDescription?: string
   featured: boolean
   coverImage: string
   content: string
@@ -72,6 +73,7 @@ function getPostMetadataBySlug(slug: string): PostMetadata | null {
       category: data.category,
       tags: data.tags || [],
       excerpt: data.excerpt,
+      metaDescription: data.metaDescription,
       featured: data.featured || false,
       coverImage: data.coverImage ? `/blog${data.coverImage}` : '/blog/images/blog/default-cover.jpg',
       readingTime: calculateReadingTime(content),
@@ -114,6 +116,7 @@ export async function getPostBySlug(slug: string): Promise<Post | null> {
       category: data.category,
       tags: data.tags || [],
       excerpt: data.excerpt,
+      metaDescription: data.metaDescription,
       featured: data.featured || false,
       coverImage: data.coverImage ? `/blog${data.coverImage}` : '/blog/images/blog/default-cover.jpg',
       content: contentHtml,

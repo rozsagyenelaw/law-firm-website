@@ -27,14 +27,16 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     }
   }
 
+  const description = post.metaDescription || post.excerpt
+
   return {
     title: post.title,
-    description: post.excerpt,
+    description: description,
     keywords: [...post.tags, post.category, 'estate planning', 'Rozsa Gyene', 'Glendale attorney'],
     authors: [{ name: post.author.name }],
     openGraph: {
       title: post.title,
-      description: post.excerpt,
+      description: description,
       type: 'article',
       publishedTime: post.publishDate,
       modifiedTime: post.updatedDate,
