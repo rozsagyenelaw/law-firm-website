@@ -4,7 +4,7 @@ date: "2025-02-24"
 excerpt: "Complete guide to IRS audits of trust tax returns. Learn common audit triggers, what the IRS examines, documentation requirements, and how to navigate the audit process successfully."
 author: "Rozsa Gyne"
 tags: ["IRS audit", "trust tax audit", "Form 1041 audit", "trust administration"]
-image: "/images/blog/trustee-warning-signs.jpg"
+image: "/images/blog/estate-planning-mistakes.jpg"
 ---
 
 # Trust Administration IRS Audit: What to Expect and How to Prepare

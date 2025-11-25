@@ -4,7 +4,7 @@ date: "2025-02-17"
 excerpt: "Trustee won't return calls or provide information? Learn your legal options when trustees fail their duty to keep beneficiaries reasonably informed about trust administration."
 author: "Rozsa Gyne"
 tags: ["trustee communication", "beneficiary rights", "trust litigation", "California trusts"]
-image: "/images/blog/trustee-warning-signs.jpg"
+image: "/images/blog/choosing-successor-trustee.jpg"
 ---
 
 # When Trustees Fail to Communicate: Your Legal Options in California

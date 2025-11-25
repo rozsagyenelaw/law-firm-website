@@ -4,7 +4,7 @@ date: "2025-02-27"
 excerpt: "Complete guide to contesting a trust in California. Learn legal grounds, standing requirements, statute of limitations, court process, and what evidence you need to successfully challenge a trust."
 author: "Rozsa Gyne"
 tags: ["trust contest", "challenge trust", "California trust litigation", "trust validity"]
-image: "/images/blog/trustee-warning-signs.jpg"
+image: "/images/blog/california-inheritance-laws.jpg"
 ---
 
 # Trust Contest California: Grounds and Process for Challenging a Trust
