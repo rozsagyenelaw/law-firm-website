@@ -12,7 +12,7 @@ category: "Probate"
 tags: ["petition for probate", "California probate", "Form DE-111", "probate process", "executor appointment", "Glendale attorney"]
 excerpt: "Complete guide to filing Petition for Probate in California: Form DE-111 instructions, required documents, filing process, hearing procedures, and getting letters testamentary issued."
 featured: false
-coverImage: "/images/blog/petition-probate.jpg"
+coverImage: "/images/blog/file-probate.jpg"
 metaDescription: "California Petition for Probate guide: Form DE-111 instructions, filing requirements, court hearing, IAEA authority, getting appointed executor. Step-by-step."
 ---
 

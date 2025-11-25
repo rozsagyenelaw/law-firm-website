@@ -12,7 +12,7 @@ category: "Probate"
 tags: ["removing executor", "California probate", "executor misconduct", "beneficiary rights", "probate litigation", "Glendale attorney"]
 excerpt: "How to remove an executor in California: valid grounds for removal, petition process, evidence needed, who becomes successor executor, and protecting estate assets during removal proceedings."
 featured: false
-coverImage: "/images/blog/removing-executor.jpg"
+coverImage: "/images/blog/executor-duties.jpg"
 metaDescription: "Removing executor California: grounds for removal, petition process, evidence requirements, costs, timeline. Protect your inheritance from executor misconduct."
 ---
 

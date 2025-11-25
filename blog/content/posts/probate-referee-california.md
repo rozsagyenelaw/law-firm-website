@@ -12,7 +12,7 @@ category: "Probate"
 tags: ["probate referee", "California probate", "estate valuation", "inventory and appraisal", "probate process", "Glendale attorney"]
 excerpt: "Complete guide to California probate referees: what they do, why they're required, how they're appointed, what they appraise, fees (0.1%), timeline, and how appraisals affect probate."
 featured: false
-coverImage: "/images/blog/probate-referee.jpg"
+coverImage: "/images/blog/probate-court.jpg"
 metaDescription: "Probate referee California: court-appointed appraiser, 0.1% fee, inventory and appraisal requirements, what property they value. Complete executor guide."
 ---
 

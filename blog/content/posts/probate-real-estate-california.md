@@ -12,7 +12,7 @@ category: "Probate"
 tags: ["probate real estate", "California probate", "selling probate property", "executor duties", "real estate", "Glendale attorney"]
 excerpt: "Complete guide to probate real estate in California: managing property during probate, selling estate real estate, court confirmation, maintaining property, and distributing real property to beneficiaries."
 featured: false
-coverImage: "/images/blog/probate-real-estate.jpg"
+coverImage: "/images/blog/selling-probate-house.jpg"
 metaDescription: "Probate real estate California guide: selling estate property, court confirmation, maintenance duties, property taxes, transferring title. Complete executor handbook."
 ---
 

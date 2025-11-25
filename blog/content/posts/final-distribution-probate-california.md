@@ -12,7 +12,7 @@ category: "Probate"
 tags: ["final distribution", "California probate", "closing estate", "executor discharge", "final accounting", "Glendale attorney"]
 excerpt: "Complete guide to final distribution in California probate: final accounting requirements, petition for distribution, distribution hearing, transferring assets to beneficiaries, and closing the estate."
 featured: false
-coverImage: "/images/blog/final-distribution.jpg"
+coverImage: "/images/blog/probate-court.jpg"
 metaDescription: "California probate final distribution: final accounting, petition for distribution, hearing, transferring assets, executor discharge. Complete guide to closing estate."
 ---
 

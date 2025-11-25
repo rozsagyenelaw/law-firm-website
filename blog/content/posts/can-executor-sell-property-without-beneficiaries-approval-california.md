@@ -12,7 +12,7 @@ category: "Probate"
 tags: ["executor authority", "selling probate property", "California probate", "IAEA", "beneficiary rights", "Glendale attorney"]
 excerpt: "Can California executors sell estate property without beneficiaries' approval? Learn about IAEA authority, court confirmation requirements, when beneficiary consent is needed, and executor powers."
 featured: false
-coverImage: "/images/blog/executor-sell-property.jpg"
+coverImage: "/images/blog/executor-duties.jpg"
 metaDescription: "Can executor sell property without beneficiaries approval California? IAEA authority, court confirmation, beneficiary rights explained. Complete executor guide."
 ---
 

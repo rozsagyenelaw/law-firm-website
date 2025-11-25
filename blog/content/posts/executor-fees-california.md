@@ -12,7 +12,7 @@ category: "Probate"
 tags: ["executor fees", "California probate", "executor compensation", "statutory fees", "probate costs", "Glendale attorney"]
 excerpt: "Complete guide to California executor fees: statutory fee schedule, how much executors get paid, when fees can be waived, extraordinary compensation, and tax implications."
 featured: false
-coverImage: "/images/blog/executor-compensation.jpg"
+coverImage: "/images/blog/executor-duties.jpg"
 metaDescription: "California executor fees explained: statutory compensation schedule, how much executors earn, when to waive fees, extraordinary fees, tax implications. Complete guide."
 ---
 

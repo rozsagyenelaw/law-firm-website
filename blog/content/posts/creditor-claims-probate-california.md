@@ -12,7 +12,7 @@ category: "Probate"
 tags: ["creditor claims", "California probate", "executor duties", "probate debts", "estate administration", "Glendale attorney"]
 excerpt: "Complete guide to creditor claims in California probate: 4-month claim period, priority of debts, how executors review and pay claims, what happens when claims exceed assets, and protecting yourself from liability."
 featured: false
-coverImage: "/images/blog/creditor-claims.jpg"
+coverImage: "/images/blog/probate-court.jpg"
 metaDescription: "California probate creditor claims guide: 4-month deadline, priority rules, executor duties, rejecting invalid claims, insolvent estates. Protect yourself."
 ---
 

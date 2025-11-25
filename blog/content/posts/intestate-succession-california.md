@@ -12,7 +12,7 @@ category: "Probate"
 tags: ["intestate succession", "California probate", "inheritance laws", "died without will", "estate planning", "Glendale attorney"]
 excerpt: "Complete guide to California intestate succession laws: who inherits, priority order, spousal rights, community property rules, and how intestate succession works when someone dies without a will."
 featured: false
-coverImage: "/images/blog/intestate-succession.jpg"
+coverImage: "/images/blog/california-inheritance-laws.jpg"
 metaDescription: "California intestate succession explained: who inherits without a will, priority order, spousal share, children's rights. Probate attorney guide. Complete rules."
 ---
 

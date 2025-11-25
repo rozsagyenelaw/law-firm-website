@@ -12,7 +12,7 @@ category: "Probate"
 tags: ["probate assets", "California probate", "probate process", "estate planning", "avoid probate", "Glendale attorney"]
 excerpt: "Which assets go through probate in California? Complete guide to probate vs. non-probate assets, including real estate, bank accounts, retirement accounts, and strategies to avoid probate."
 featured: false
-coverImage: "/images/blog/probate-assets.jpg"
+coverImage: "/images/blog/probate-court.jpg"
 metaDescription: "What assets go through probate California? Learn which assets require probate, which pass outside probate, and how to avoid the 12-18 month process. Complete guide."
 ---
 
