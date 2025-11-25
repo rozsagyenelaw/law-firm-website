@@ -6,10 +6,6 @@ Allow: /
 
 # Disallow specific paths
 Disallow: /client-portal
-Disallow: /questionnaires
-Disallow: /estate-planning-questionnaire
-Disallow: /conservatorship-questionnaire
-Disallow: /probate-intake-form
 Disallow: /*thank-you*
 
 # Sitemap location
