@@ -6,6 +6,28 @@
     <meta name="description" content="Asset protection attorney in Glendale CA. Shield your wealth from lawsuits, creditors, and liability using trusts, LLCs, and legal strategies. Protect real estate, business assets, and personal wealth. Call (818) 696-4605.">
     <title>Asset Protection Attorney Glendale CA | Wealth Protection</title>
 
+    <!-- Breadcrumb Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://livingtrust-attorneys.com/"
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Asset Protection",
+                "item": "https://livingtrust-attorneys.com/asset-protection"
+            }
+        ]
+    }
+    </script>
+
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600;700&display=swap&display=swap" rel="stylesheet">
     
@@ -810,6 +832,66 @@
                 order: -1;
             }
         }
+
+        /* Breadcrumbs */
+        .breadcrumbs {
+            background: #f8f9fa;
+            padding: 15px 0;
+            border-bottom: 1px solid #dee2e6;
+        }
+
+        .breadcrumbs-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .breadcrumb-list {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 8px;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            font-size: 14px;
+        }
+
+        .breadcrumb-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .breadcrumb-item a {
+            color: var(--primary-blue);
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .breadcrumb-item a:hover {
+            color: var(--accent-gold);
+            text-decoration: underline;
+        }
+
+        .breadcrumb-item.active {
+            color: var(--text-light);
+        }
+
+        .breadcrumb-separator {
+            color: var(--text-light);
+            user-select: none;
+        }
+
+        @media (max-width: 768px) {
+            .breadcrumbs {
+                padding: 12px 0;
+            }
+
+            .breadcrumb-list {
+                font-size: 13px;
+            }
+        }
     </style>
 </head>
 <body>
@@ -931,6 +1013,23 @@
             </div>
         </div>
     </section>
+
+    <!-- Breadcrumbs -->
+    <nav class="breadcrumbs" aria-label="Breadcrumb">
+        <div class="breadcrumbs-container">
+            <ol class="breadcrumb-list">
+                <li class="breadcrumb-item">
+                    <a href="index.html">
+                        <i class="fas fa-home"></i> Home
+                    </a>
+                </li>
+                <li class="breadcrumb-separator" aria-hidden="true">/</li>
+                <li class="breadcrumb-item active" aria-current="page">
+                    Asset Protection
+                </li>
+            </ol>
+        </div>
+    </nav>
 
     <!-- Main Content - Scrolls over hero -->
     <div class="main-content">
