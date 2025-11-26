@@ -87,6 +87,76 @@
     }
     </script>
 
+    <!-- Breadcrumb Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://livingtrust-attorneys.com/"
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Locations",
+                "item": "https://livingtrust-attorneys.com/#locations"
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Glendale",
+                "item": "https://livingtrust-attorneys.com/locations/glendale"
+            }
+        ]
+    }
+    </script>
+
+    <!-- FAQ Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "How much does a living trust cost in Glendale?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Our Glendale living trust attorney offers transparent, flat-fee pricing: $575 for individuals and $675 for married couples. This includes your complete living trust package with all essential estate planning documents—revocable living trust, pour-over will, durable power of attorney, advance healthcare directive, HIPAA authorization, and trust certification. There are no hidden fees or surprise costs."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Do I need a living trust if I live in Glendale?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "If you own real estate in Glendale or have assets exceeding $184,500 (California's probate threshold), a living trust is highly recommended. Given that the median home value in Glendale exceeds $900,000, most Glendale homeowners will benefit significantly from a living trust."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What's the difference between a will and a living trust?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "A will must go through probate court—a lengthy, expensive, and public process. A living trust allows your assets to pass directly to your beneficiaries without probate court involvement. This means faster distribution (weeks instead of 12-18 months), lower costs (no probate fees), and complete privacy (no public court records)."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Can I create a living trust online or do I need a Glendale attorney?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "While online trust services exist, they cannot provide the personalized advice and customization that a Glendale living trust attorney offers. Estate planning involves complex legal and tax issues that generic forms cannot address. Mistakes in trust creation or funding can render the trust ineffective."
+                }
+            }
+        ]
+    }
+    </script>
+
     <style>
         * {
             margin: 0;
@@ -364,6 +434,66 @@
                 gap: 8px;
             }
         }
+
+        /* Breadcrumbs */
+        .breadcrumbs {
+            background: #f8f9fa;
+            padding: 15px 0;
+            border-bottom: 1px solid #dee2e6;
+        }
+
+        .breadcrumbs-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .breadcrumb-list {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 8px;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            font-size: 14px;
+        }
+
+        .breadcrumb-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .breadcrumb-item a {
+            color: var(--primary-blue);
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .breadcrumb-item a:hover {
+            color: var(--accent-gold);
+            text-decoration: underline;
+        }
+
+        .breadcrumb-item.active {
+            color: var(--text-light);
+        }
+
+        .breadcrumb-separator {
+            color: var(--text-light);
+            user-select: none;
+        }
+
+        @media (max-width: 768px) {
+            .breadcrumbs {
+                padding: 12px 0;
+            }
+
+            .breadcrumb-list {
+                font-size: 13px;
+            }
+        }
     </style>
 </head>
 <body>
@@ -433,6 +563,27 @@
             </div>
         </div>
     </section>
+
+    <!-- Breadcrumbs -->
+    <nav class="breadcrumbs" aria-label="Breadcrumb">
+        <div class="breadcrumbs-container">
+            <ol class="breadcrumb-list">
+                <li class="breadcrumb-item">
+                    <a href="../index.html">
+                        <i class="fas fa-home"></i> Home
+                    </a>
+                </li>
+                <li class="breadcrumb-separator" aria-hidden="true">/</li>
+                <li class="breadcrumb-item">
+                    <a href="../index.html#locations">Locations</a>
+                </li>
+                <li class="breadcrumb-separator" aria-hidden="true">/</li>
+                <li class="breadcrumb-item active" aria-current="page">
+                    Glendale
+                </li>
+            </ol>
+        </div>
+    </nav>
 
     <section>
         <div class="container">
