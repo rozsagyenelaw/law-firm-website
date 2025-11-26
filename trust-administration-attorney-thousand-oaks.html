@@ -885,6 +885,72 @@
         .mobile-call-button {
             display: none;
         }
+
+        /* Breadcrumbs */
+        .breadcrumbs {
+            background: #f8f9fa;
+            padding: 15px 0;
+            border-bottom: 1px solid #dee2e6;
+        }
+
+        .breadcrumbs-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .breadcrumb-list {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            gap: 8px;
+        }
+
+        .breadcrumb-item {
+            display: inline-flex;
+            align-items: center;
+            font-size: 14px;
+            color: var(--text-light);
+        }
+
+        .breadcrumb-item a {
+            color: var(--primary-blue);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .breadcrumb-item a:hover {
+            color: var(--accent-gold);
+            text-decoration: underline;
+        }
+
+        .breadcrumb-item.active {
+            color: var(--text-light);
+            font-weight: 500;
+        }
+
+        .breadcrumb-item i {
+            margin-right: 5px;
+        }
+
+        .breadcrumb-separator {
+            color: #6c757d;
+            user-select: none;
+        }
+
+        @media (max-width: 768px) {
+            .breadcrumbs {
+                padding: 12px 0;
+            }
+
+            .breadcrumb-item {
+                font-size: 13px;
+            }
+        }
+
     </style>
 </head>
 <body>
@@ -1003,6 +1069,28 @@
             </div>
         </div>
     </section>
+
+    <!-- Breadcrumbs -->
+    <nav class="breadcrumbs" aria-label="Breadcrumb">
+        <div class="breadcrumbs-container">
+            <ol class="breadcrumb-list">
+                <li class="breadcrumb-item">
+                    <a href="index.html">
+                        <i class="fas fa-home"></i> Home
+                    </a>
+                </li>
+                <li class="breadcrumb-separator" aria-hidden="true">/</li>
+                <li class="breadcrumb-item">
+                    <a href="trust-administration.html">Trust Administration Attorney</a>
+                </li>
+                <li class="breadcrumb-separator" aria-hidden="true">/</li>
+                <li class="breadcrumb-item active" aria-current="page">
+                    Thousand Oaks
+                </li>
+            </ol>
+        </div>
+    </nav>
+
 
     <!-- What is Trust Administration Section -->
     <section class="content-section">
