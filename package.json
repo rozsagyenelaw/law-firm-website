@@ -2,9 +2,20 @@
   "name": "law-office-lead-scoring",
   "version": "1.0.0",
   "description": "Lead scoring and email alerts for law office",
+  "scripts": {
+    "add-related": "node build-scripts/add-related-services.js",
+    "enhance-meta": "node build-scripts/enhance-meta-descriptions.js",
+    "add-content": "node build-scripts/add-content-sections.js",
+    "probate-powerup": "node build-scripts/probate-powerup.js",
+    "minify": "node build-scripts/minify.js",
+    "build": "npm run add-related && npm run enhance-meta && npm run add-content && npm run probate-powerup && npm run minify"
+  },
   "dependencies": {
     "node-fetch": "^2.6.7",
     "googleapis": "^118.0.0",
     "openai": "^4.20.0"
+  },
+  "devDependencies": {
+    "html-minifier-terser": "^7.2.0"
   }
 }

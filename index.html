@@ -11,6 +11,22 @@
     <meta name="keywords" content="cheap living trust, affordable living trust, cheap living trust attorney, cheap living trust lawyer, cheap living trust attorneys, cheap living trust lawyers, cheap living trust Glendale, affordable living trust attorney in glendale, cheap living trust lawyer Glendale, affordable living trust Glendale, affordable living trust attorney Glendale, low cost living trust, inexpensive living trust, living trust $575">
     <link rel="canonical" href="https://livingtrust-attorneys.com/">
 
+    <!-- BreadcrumbList Schema Markup -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://livingtrust-attorneys.com/"
+            }
+        ]
+    }
+    </script>
+
     <!-- FAQPage Schema Markup -->
     <script type="application/ld+json">
     {
@@ -229,6 +245,28 @@
           'eventLabel': 'Schedule Consultation Button'
         });
       }
+
+      // Core Web Vitals Monitoring
+      function sendWebVitalsToAnalytics(metric) {
+        gtag('event', metric.name, {
+          event_category: 'Web Vitals',
+          value: Math.round(metric.name === 'CLS' ? metric.value * 1000 : metric.value),
+          event_label: metric.id,
+          non_interaction: true
+        });
+      }
+    </script>
+
+    <!-- Web Vitals Library -->
+    <script type="module">
+      import {onCLS, onFID, onLCP, onFCP, onTTFB, onINP} from 'https://unpkg.com/web-vitals@3/dist/web-vitals.js?module';
+
+      onCLS(sendWebVitalsToAnalytics);
+      onFID(sendWebVitalsToAnalytics);
+      onLCP(sendWebVitalsToAnalytics);
+      onFCP(sendWebVitalsToAnalytics);
+      onTTFB(sendWebVitalsToAnalytics);
+      onINP(sendWebVitalsToAnalytics);
     </script>
 
     <!-- PERFORMANCE FIX: Preconnect to external domains -->
@@ -2366,7 +2404,17 @@
         </header>
         <div class="hero-slider">
             <div class="hero-slide active" style="background-image: url('media/hero/family-generations.webp');">
-                <img src="media/hero/family-generations.webp" alt="Happy family planning their estate" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;opacity:0;pointer-events:none;" fetchpriority="high">
+                <img src="media/hero/family-generations.webp"
+                     srcset="media/hero/family-generations.webp 1920w,
+                             media/hero/family-generations.webp 1200w,
+                             media/hero/family-generations.webp 768w,
+                             media/hero/family-generations.webp 480w"
+                     sizes="100vw"
+                     alt="Happy family planning their estate"
+                     style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;opacity:0;pointer-events:none;"
+                     fetchpriority="high"
+                     width="1920"
+                     height="1080">
             </div>
             <div class="hero-slide" data-bg="media/hero/happy-family.webp"></div>
             <div class="hero-slide" data-bg="media/hero/young-family.webp"></div>
@@ -2427,8 +2475,21 @@
         <div class="container">
             <div class="consultation-content">
                 <div class="consultation-image">
-                    <!-- PERFORMANCE FIX: Added loading="lazy" and optimized dimensions -->
-                    <img src="images/consultation-meeting.jpg" alt="Estate Planning Consultation at Law Offices of Rozsa Gyene" loading="lazy" width="600" height="400">
+                    <!-- PERFORMANCE FIX: Added loading="lazy" and responsive images -->
+                    <picture>
+                        <source
+                            srcset="images/consultation-meeting.webp"
+                            type="image/webp">
+                        <img src="images/consultation-meeting.jpg"
+                             srcset="images/consultation-meeting.jpg 600w,
+                                     images/consultation-meeting.jpg 480w,
+                                     images/consultation-meeting.jpg 320w"
+                             sizes="(min-width: 768px) 50vw, 100vw"
+                             alt="Estate Planning Consultation at Law Offices of Rozsa Gyene"
+                             loading="lazy"
+                             width="600"
+                             height="400">
+                    </picture>
                 </div>
                 <div class="consultation-text">
                     <h2>Experience You Can Trust</h2>
@@ -2481,7 +2542,7 @@
                         <i class="fas fa-award"></i>
                     </div>
                     <h3>25+ Years Experience</h3>
-                    <p>Decades of expertise in California estate planning and probate law</p>
+                    <p>Decades of expertise in California <a href="living-trusts.html" style="color: var(--primary-blue); text-decoration: underline;">estate planning</a> and <a href="probate.html" style="color: var(--primary-blue); text-decoration: underline;">probate law</a></p>
                 </div>
 
                 <div class="feature-item">
@@ -2497,7 +2558,7 @@
                         <i class="fas fa-shield-alt"></i>
                     </div>
                     <h3>Asset Protection</h3>
-                    <p>Strategic planning to protect your wealth from taxes and creditors</p>
+                    <p>Strategic <a href="asset-protection.html" style="color: var(--primary-blue); text-decoration: underline;">asset protection planning</a> to protect your wealth from taxes and creditors</p>
                 </div>
 
                 <div class="feature-item">
@@ -2505,7 +2566,7 @@
                         <i class="fas fa-handshake"></i>
                     </div>
                     <h3>Compassionate Guidance</h3>
-                    <p>We understand the emotional aspects of estate planning</p>
+                    <p>We understand the emotional aspects of estate planning, including <a href="conservatorship.html" style="color: var(--primary-blue); text-decoration: underline;">conservatorship</a> matters</p>
                 </div>
             </div>
         </div>
@@ -2605,7 +2666,7 @@
                         <i class="fas fa-file-contract"></i>
                     </div>
                     <h3>Living Trusts</h3>
-                    <p>Avoid probate and protect your assets with a comprehensive living trust tailored to your family's needs. Keep your affairs private and ensure smooth asset transfer.</p>
+                    <p>Avoid probate and protect your assets with a comprehensive living trust tailored to your family's needs. Keep your affairs private and ensure smooth asset transfer. We also handle <a href="trust-administration.html" style="color: var(--primary-blue);">trust administration</a> after a loved one passes.</p>
                     <a href="living-trusts.html">Learn More →</a>
                 </div>
 
@@ -2614,7 +2675,7 @@
                         <i class="fas fa-balance-scale"></i>
                     </div>
                     <h3>Probate Services</h3>
-                    <p>Expert guidance through the California probate process, making a difficult time easier for your family. We handle all court filings and estate administration.</p>
+                    <p>Expert guidance through the California probate process, making a difficult time easier for your family. We handle all court filings and estate administration. Serving <a href="probate-attorney-glendale.html" style="color: var(--primary-blue);">Glendale</a>, <a href="probate-attorney-burbank.html" style="color: var(--primary-blue);">Burbank</a>, and <a href="probate-attorney-pasadena.html" style="color: var(--primary-blue);">Pasadena</a>.</p>
                     <a href="probate.html">Learn More →</a>
                 </div>
 
@@ -2641,7 +2702,7 @@
                         <i class="fas fa-heart"></i>
                     </div>
                     <h3>Special Needs Trusts</h3>
-                    <p>Preserve government benefits while providing supplemental support for loved ones with disabilities. Protect their quality of life.</p>
+                    <p>Preserve government benefits while providing supplemental support for loved ones with disabilities. Protect their quality of life. We also offer <a href="medi-cal-planning.html" style="color: var(--primary-blue);">Medi-Cal planning</a> services.</p>
                     <a href="special-needs-trust.html">Learn More →</a>
                 </div>
 
@@ -2650,7 +2711,7 @@
                         <i class="fas fa-shield-alt"></i>
                     </div>
                     <h3>Asset Protection</h3>
-                    <p>Safeguard your wealth from lawsuits, creditors, and unforeseen risks with strategic planning and protective trust structures.</p>
+                    <p>Safeguard your wealth from lawsuits, creditors, and unforeseen risks with strategic planning and protective trust structures. Includes <a href="life-insurance-trust.html" style="color: var(--primary-blue);">life insurance trusts</a> and <a href="business-succession-planning.html" style="color: var(--primary-blue);">business succession planning</a>.</p>
                     <a href="asset-protection.html">Learn More →</a>
                 </div>
             </div>

@@ -1,5 +1,5 @@
 [build]
-  command = "cd blog && npm install && npm run build && mkdir -p out/images/blog && cp ../public/images/blog/*.jpg out/images/blog/ && cd .. && rm -rf blog-deploy && mkdir -p blog-deploy && cp -r blog/out/* blog-deploy"
+  command = "npm install && npm run build && cd blog && npm install && npm run build && mkdir -p out/images/blog && cp ../public/images/blog/*.jpg out/images/blog/ && cd .. && rm -rf blog-deploy && mkdir -p blog-deploy && cp -r blog/out/* blog-deploy"
   functions = "netlify/functions"
   publish = "."
 
@@ -46,3 +46,18 @@
   from = "/api/chat"
   to = "/.netlify/functions/chat"
   status = 200
+
+# Clean URLs - Remove .html extensions (SEO friendly)
+[[redirects]]
+  from = "/*"
+  to = "/:splat.html"
+  status = 200
+  force = false
+  conditions = {Accept = "text/html"}
+
+# Redirect old .html URLs to clean URLs
+[[redirects]]
+  from = "/*.html"
+  to = "/:splat"
+  status = 301
+  force = true
