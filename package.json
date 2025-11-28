@@ -11,8 +11,9 @@
     "build": "npm run add-related && npm run enhance-meta && npm run add-content && npm run probate-powerup && npm run minify"
   },
   "dependencies": {
-    "node-fetch": "^2.6.7",
     "googleapis": "^118.0.0",
+    "jsdom": "^27.2.0",
+    "node-fetch": "^2.6.7",
     "openai": "^4.20.0"
   },
   "devDependencies": {
