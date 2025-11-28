@@ -7,6 +7,7 @@ import CategoryFilter from '@/components/CategoryFilter'
 import Pagination from '@/components/Pagination'
 import GlassCard from '@/components/GlassCard'
 import NewsletterSignup from '@/components/NewsletterSignup'
+import AuthorBio from '@/components/AuthorBio'
 import { PostMetadata } from '@/lib/posts'
 
 const POSTS_PER_PAGE = 9
@@ -86,6 +87,13 @@ export default function BlogListingClient({
               />
             </div>
           )}
+        </div>
+      </section>
+
+      {/* Author Bio */}
+      <section className="section-padding pt-0">
+        <div className="container-custom">
+          <AuthorBio />
         </div>
       </section>
 
