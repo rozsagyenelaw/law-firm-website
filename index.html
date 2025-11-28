@@ -453,12 +453,14 @@
         }
 
         .top-bar a {
-            color: var(--accent-gold);
+            color: #f4d47c; /* ACCESSIBILITY: Light gold for 4.5:1+ contrast on dark blue */
             text-decoration: none;
             font-weight: 600;
             /* ACCESSIBILITY FIX: Better touch targets */
-            display: inline-block;
-            padding: 4px 0;
+            display: inline-flex;
+            align-items: center;
+            padding: 8px 4px;
+            min-height: 44px; /* WCAG minimum touch target */
         }
 
         /* Main Navigation */
@@ -765,7 +767,7 @@
         }
 
         .btn-primary {
-            background: var(--accent-gold-light);
+            background: var(--accent-gold); /* ACCESSIBILITY: Darker gold (#9a7b3c) has 4.5:1+ contrast with white */
             color: white;
             padding: 15px 40px;
             border-radius: 50px;
@@ -1970,7 +1972,7 @@
                 bottom: 0;
                 left: 0;
                 right: 0;
-                background: var(--accent-gold-light);
+                background: var(--accent-gold); /* ACCESSIBILITY: Darker gold for 4.5:1+ contrast */
                 color: white;
                 padding: 18px;
                 text-align: center;
