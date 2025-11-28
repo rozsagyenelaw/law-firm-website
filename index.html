@@ -392,6 +392,18 @@
     <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"></noscript>
     
     <style>
+        /* PERFORMANCE: Ensure text remains visible during webfont load */
+        @font-face {
+            font-family: 'Inter-fallback';
+            font-display: swap;
+            src: local('Arial'), local('Helvetica');
+        }
+        @font-face {
+            font-family: 'Playfair-fallback';
+            font-display: swap;
+            src: local('Georgia'), local('Times New Roman');
+        }
+
         * {
             margin: 0;
             padding: 0;
