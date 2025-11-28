@@ -16,7 +16,7 @@ export default function AuthorBio() {
       }}>
         <strong style={{ color: '#1e3a5f' }}>Written by Rozsa Gyene, Esq.</strong><br />
         California State Bar #208356 | 25+ Years Probate & Estate Experience<br />
-        <em style={{ color: '#6c757d' }}>Last Updated: January 28, 2025</em>
+        <em style={{ color: '#6c757d' }}>Last Updated: November 28, 2025</em>
       </p>
     </div>
   )
