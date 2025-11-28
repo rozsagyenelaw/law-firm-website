@@ -416,8 +416,9 @@
 
         :root {
             --primary-blue: #1e3a5f;
-            --accent-gold: #9a7b3c; /* ACCESSIBILITY FIX: Darkened from #c9a961 for better contrast ratio (4.5:1 on white) */
+            --accent-gold: #8a6a2f; /* ACCESSIBILITY: Darker gold for 4.5:1+ contrast on light backgrounds */
             --accent-gold-light: #c9a961; /* Original lighter gold for backgrounds */
+            --accent-gold-dark: #6b5424; /* ACCESSIBILITY: Very dark gold for maximum contrast */
             --text-dark: #2c3e50;
             --text-light: #4a4a4a; /* ACCESSIBILITY FIX: Further darkened from #555555 for better contrast (7:1 ratio) */
             --background: #ffffff;
@@ -767,7 +768,7 @@
         }
 
         .btn-primary {
-            background: var(--accent-gold); /* ACCESSIBILITY: Darker gold (#9a7b3c) has 4.5:1+ contrast with white */
+            background: var(--accent-gold); /* ACCESSIBILITY: Darker gold (#8a6a2f) has 4.5:1+ contrast with white */
             color: white;
             padding: 15px 40px;
             border-radius: 50px;
