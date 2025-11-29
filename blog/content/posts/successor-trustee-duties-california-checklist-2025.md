@@ -1,11 +1,16 @@
 ---
 title: "Successor Trustee Duties California 2025: Complete Checklist & Step-by-Step Guide"
-date: "2025-01-15"
-author: "Rozsa Gyene"
+publishDate: "2025-11-15"
+author:
+  name: "Rozsa Gyene"
+  title: "Estate Planning & Trust Administration Attorney"
+  image: "/images/rozsa-gyene.jpg"
+  bio: "Rozsa Gyene (State Bar No. 208356) is a California attorney specializing in estate planning, trust litigation, probate, and conservatorship matters in Glendale and throughout Los Angeles County."
 category: "Trust Administration"
 excerpt: "Complete successor trustee duties checklist for California. Step-by-step guide to trust administration after death including 60-day notice, accounting, distributions, tax returns, and avoiding personal liability."
 tags: ["successor trustee duties California", "successor trustee checklist", "what does successor trustee do", "trust administration checklist", "60-day notice California", "successor trustee help"]
 featured: false
+coverImage: "/images/blog/family-estate-planning.png"
 ---
 
 # Successor Trustee Duties California: Complete Checklist (2025)

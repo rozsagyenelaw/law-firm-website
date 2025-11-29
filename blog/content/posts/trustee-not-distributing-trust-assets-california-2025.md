@@ -1,11 +1,16 @@
 ---
 title: "Trustee Not Distributing Trust Assets California 2025: Your Legal Rights & Remedies"
-date: "2025-01-15"
-author: "Rozsa Gyene"
+publishDate: "2025-11-15"
+author:
+  name: "Rozsa Gyene"
+  title: "Estate Planning & Trust Administration Attorney"
+  image: "/images/rozsa-gyene.jpg"
+  bio: "Rozsa Gyene (State Bar No. 208356) is a California attorney specializing in estate planning, trust litigation, probate, and conservatorship matters in Glendale and throughout Los Angeles County."
 category: "Trust Administration"
 excerpt: "What to do when a California trustee refuses to distribute trust assets. Learn beneficiary rights, how to compel distribution, demand accounting, remove trustee, and enforce your inheritance rights under California law."
 tags: ["trustee not distributing trust", "trustee not communicating California", "beneficiary rights California", "demand trust accounting", "remove trustee California", "trustee breach of fiduciary duty"]
 featured: false
+coverImage: "/images/blog/elderly-couple-planning.png"
 ---
 
 # Trustee Not Distributing Trust Assets California: What Can You Do?

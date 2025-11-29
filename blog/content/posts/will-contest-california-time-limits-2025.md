@@ -1,11 +1,16 @@
 ---
 title: "How Long Do You Have to Contest a Will in California? Time Limits & Deadlines 2025"
-date: "2025-01-15"
-author: "Rozsa Gyene"
+publishDate: "2025-11-15"
+author:
+  name: "Rozsa Gyene"
+  title: "Estate Planning & Probate Attorney"
+  image: "/images/rozsa-gyene.jpg"
+  bio: "Rozsa Gyene (State Bar No. 208356) is a California attorney specializing in estate planning, trust litigation, probate, and conservatorship matters in Glendale and throughout Los Angeles County."
 category: "Probate"
 excerpt: "Critical deadlines for contesting a will in California. Learn the 120-day rule, grounds for will contests, undue influence, lack of capacity, and how to protect your rights before time runs out."
 tags: ["will contest California", "how long to contest will", "will contest time limit", "contest will California", "undue influence", "grounds to contest will"]
 featured: false
+coverImage: "/images/blog/probate-law-scales.png"
 ---
 
 # How Long Do You Have to Contest a Will in California? Critical Time Limits (2025)

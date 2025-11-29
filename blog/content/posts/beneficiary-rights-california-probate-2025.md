@@ -1,11 +1,16 @@
 ---
 title: "Beneficiary Rights in California Probate 2025: Complete Guide to Protecting Your Inheritance"
-date: "2025-01-15"
-author: "Rozsa Gyene"
+publishDate: "2025-11-15"
+author:
+  name: "Rozsa Gyene"
+  title: "Estate Planning & Probate Attorney"
+  image: "/images/rozsa-gyene.jpg"
+  bio: "Rozsa Gyene (State Bar No. 208356) is a California attorney specializing in estate planning, trust litigation, probate, and conservatorship matters in Glendale and throughout Los Angeles County."
 category: "Probate"
 excerpt: "Comprehensive guide to California beneficiary rights in probate. Learn how to demand accounting, contest will, remove executor, and protect your inheritance. Know your legal rights under California Probate Code."
 tags: ["beneficiary rights California", "probate beneficiary rights", "demand accounting", "executor not communicating", "beneficiary inheritance timeline"]
 featured: false
+coverImage: "/images/blog/attorney-consultation.png"
 ---
 
 # Beneficiary Rights in California Probate: Your Complete Legal Guide (2025)

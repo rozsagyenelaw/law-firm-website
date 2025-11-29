@@ -1,11 +1,16 @@
 ---
 title: "Selling House in Probate California 2025: Complete Guide to Probate Real Estate Sales"
-date: "2025-01-15"
-author: "Rozsa Gyene"
+publishDate: "2025-11-15"
+author:
+  name: "Rozsa Gyene"
+  title: "Estate Planning & Probate Attorney"
+  image: "/images/rozsa-gyene.jpg"
+  bio: "Rozsa Gyene (State Bar No. 208356) is a California attorney specializing in estate planning, trust litigation, probate, and conservatorship matters in Glendale and throughout Los Angeles County."
 category: "Probate"
 excerpt: "Complete guide to selling a house during probate in California. Learn about court approval, IAEA authority, probate sale procedures, timelines, commissions, and how to maximize sale price in 2025."
 tags: ["selling house in probate", "probate real estate", "probate sale California", "can you sell house during probate", "probate property sale"]
 featured: false
+coverImage: "/images/blog/probate-law-gavel.png"
 ---
 
 # Selling a House in Probate California 2025: The Complete Guide
