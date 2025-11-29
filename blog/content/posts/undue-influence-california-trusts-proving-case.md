@@ -2,7 +2,11 @@
 title: "Undue Influence in California Trusts: How to Prove Your Case"
 publishDate: "2025-10-28"
 excerpt: "Comprehensive guide to proving undue influence in California trust contests. Learn the legal elements, vulnerability factors, evidence needed, presumptions, and how to build a winning case."
-author: "Rozsa Gyne"
+author:
+  name: "Rozsa Gyene"
+  title: "Estate Planning & Trust Administration Attorney"
+  image: "/images/rozsa-gyene.jpg"
+  bio: "Rozsa Gyene (State Bar No. 208356) is a California attorney specializing in estate planning, trust litigation, probate, and conservatorship matters in Glendale and throughout Los Angeles County."
 tags: ["undue influence", "trust contest", "elder abuse", "California trust litigation"]
 coverImage: "/images/blog/conservatorship-guide.jpg"
 metaDescription: "Prove undue influence in California trust contests: 4 legal elements, vulnerability factors, evidence requirements, presumptions. Attorney guide to winning your case."

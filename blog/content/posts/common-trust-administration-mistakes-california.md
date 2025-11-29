@@ -2,7 +2,11 @@
 title: "Common Trust Administration Mistakes in California (And How to Avoid Them)"
 publishDate: "2025-10-15"
 excerpt: "Discover the most common trust administration mistakes that can lead to legal liability, tax penalties, and beneficiary disputes - and learn how to avoid them."
-author: "Rozsa Gyne"
+author:
+  name: "Rozsa Gyene"
+  title: "Estate Planning & Trust Administration Attorney"
+  image: "/images/rozsa-gyene.jpg"
+  bio: "Rozsa Gyene (State Bar No. 208356) is a California attorney specializing in estate planning, trust litigation, probate, and conservatorship matters in Glendale and throughout Los Angeles County."
 tags: ["trust administration", "trustee mistakes", "California trusts", "fiduciary duty"]
 coverImage: "/images/blog/trustee-warning-signs.jpg"
 metaDescription: "Avoid common trust administration mistakes in California: notice failures, commingling assets, tax errors, self-dealing. Prevent legal liability and penalties."

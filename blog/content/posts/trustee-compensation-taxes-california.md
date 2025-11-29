@@ -1,8 +1,12 @@
 ---
 title: "Trustee Compensation and Taxes in California: Complete Fee Guide"
-date: "2025-02-25"
+publishDate: "2025-10-25"
 excerpt: "Complete guide to trustee compensation in California. Learn statutory fees, reasonable compensation standards, how trustee fees are taxed, Form 1099 requirements, and payment best practices."
-author: "Rozsa Gyne"
+author:
+  name: "Rozsa Gyene"
+  title: "Estate Planning & Trust Administration Attorney"
+  image: "/images/rozsa-gyene.jpg"
+  bio: "Rozsa Gyene (State Bar No. 208356) is a California attorney specializing in estate planning, trust litigation, probate, and conservatorship matters in Glendale and throughout Los Angeles County."
 tags: ["trustee compensation", "trustee fees", "California Probate Code", "trustee taxation"]
 coverImage: "/images/blog/consultation-meeting.jpg"
 metaDescription: "California trustee fees explained: statutory rates (1% on first $1M), tax treatment, Form 1099 requirements, reasonable compensation standards. Complete guide."

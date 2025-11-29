@@ -1,8 +1,12 @@
 ---
 title: "Trustee Removal in California: Legal Process and Grounds for Removal"
-date: "2025-02-18"
+publishDate: "2025-10-18"
 excerpt: "Learn when and how to remove a trustee in California. Understand legal grounds, the court process, costs, and alternatives to protect your inheritance from trustee misconduct."
-author: "Rozsa Gyne"
+author:
+  name: "Rozsa Gyene"
+  title: "Estate Planning & Trust Administration Attorney"
+  image: "/images/rozsa-gyene.jpg"
+  bio: "Rozsa Gyene (State Bar No. 208356) is a California attorney specializing in estate planning, trust litigation, probate, and conservatorship matters in Glendale and throughout Los Angeles County."
 tags: ["trustee removal", "trust litigation", "California Probate Code", "beneficiary rights"]
 coverImage: "/images/blog/trustee-theft.jpg"
 metaDescription: "Remove a trustee in California: legal grounds, court petition process, costs, and alternatives. Protect your inheritance from trustee misconduct. Attorney guide."

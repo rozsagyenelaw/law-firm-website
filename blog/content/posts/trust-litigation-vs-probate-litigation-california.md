@@ -1,8 +1,12 @@
 ---
 title: "Trust Litigation vs Probate Litigation California: Key Differences"
-date: "2025-03-02"
+publishDate: "2025-11-02"
 excerpt: "Complete comparison of trust litigation vs probate litigation in California. Learn venue differences, procedural distinctions, which is harder to contest, and strategic considerations for each."
-author: "Rozsa Gyne"
+author:
+  name: "Rozsa Gyene"
+  title: "Estate Planning & Trust Administration Attorney"
+  image: "/images/rozsa-gyene.jpg"
+  bio: "Rozsa Gyene (State Bar No. 208356) is a California attorney specializing in estate planning, trust litigation, probate, and conservatorship matters in Glendale and throughout Los Angeles County."
 tags: ["trust litigation", "probate litigation", "will contest", "California estate litigation"]
 coverImage: "/images/blog/trust-vs-will-california.jpg"
 metaDescription: "Trust vs probate litigation California: venue differences, 120-day vs 4-month deadlines, privacy vs public record. Which is easier to contest? Attorney comparison."

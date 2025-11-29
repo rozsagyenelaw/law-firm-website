@@ -2,7 +2,11 @@
 title: "Trust Administration Form 1041 Guide California: Complete Filing Instructions"
 publishDate: "2025-10-21"
 excerpt: "Comprehensive guide to filing Form 1041 for California trusts. Learn line-by-line instructions, deductions, K-1 schedules, estimated payments, and how to minimize fiduciary income tax."
-author: "Rozsa Gyne"
+author:
+  name: "Rozsa Gyene"
+  title: "Estate Planning & Trust Administration Attorney"
+  image: "/images/rozsa-gyene.jpg"
+  bio: "Rozsa Gyene (State Bar No. 208356) is a California attorney specializing in estate planning, trust litigation, probate, and conservatorship matters in Glendale and throughout Los Angeles County."
 tags: ["Form 1041", "trust taxation", "fiduciary income tax", "California trust administration"]
 coverImage: "/images/blog/trust-amendment-update.jpg"
 metaDescription: "File Form 1041 for California trusts: line-by-line instructions, deductions, Schedule K-1, estimated payments, minimize fiduciary income tax. Complete filing guide."

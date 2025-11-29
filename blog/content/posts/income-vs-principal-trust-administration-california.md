@@ -2,7 +2,11 @@
 title: "Income vs Principal in Trust Administration California: Complete Allocation Guide"
 publishDate: "2025-10-22"
 excerpt: "Master the critical distinction between trust income and principal. Learn allocation rules for receipts, expenses, capital gains, rental property, and how it affects beneficiary distributions."
-author: "Rozsa Gyne"
+author:
+  name: "Rozsa Gyene"
+  title: "Estate Planning & Trust Administration Attorney"
+  image: "/images/rozsa-gyene.jpg"
+  bio: "Rozsa Gyene (State Bar No. 208356) is a California attorney specializing in estate planning, trust litigation, probate, and conservatorship matters in Glendale and throughout Los Angeles County."
 tags: ["trust accounting", "income vs principal", "California trust law", "beneficiary rights"]
 coverImage: "/images/blog/living-trust-cost.jpg"
 metaDescription: "Trust income vs principal California: allocation rules for receipts, expenses, capital gains, rental property. How it affects beneficiary distributions. Complete guide."

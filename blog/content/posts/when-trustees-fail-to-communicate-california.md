@@ -2,7 +2,11 @@
 title: "When Trustees Fail to Communicate: Your Legal Options in California"
 publishDate: "2025-10-17"
 excerpt: "Trustee won't return calls or provide information? Learn your legal options when trustees fail their duty to keep beneficiaries reasonably informed about trust administration."
-author: "Rozsa Gyne"
+author:
+  name: "Rozsa Gyene"
+  title: "Estate Planning & Trust Administration Attorney"
+  image: "/images/rozsa-gyene.jpg"
+  bio: "Rozsa Gyene (State Bar No. 208356) is a California attorney specializing in estate planning, trust litigation, probate, and conservatorship matters in Glendale and throughout Los Angeles County."
 tags: ["trustee communication", "beneficiary rights", "trust litigation", "California trusts"]
 coverImage: "/images/blog/choosing-successor-trustee.jpg"
 metaDescription: "Trustee won't communicate? California law requires trustees to keep beneficiaries informed. Learn legal remedies, court petitions, and how to compel accountability."

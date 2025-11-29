@@ -2,7 +2,11 @@
 title: "Trust Administration IRS Audit: What to Expect and How to Prepare"
 publishDate: "2025-10-24"
 excerpt: "Complete guide to IRS audits of trust tax returns. Learn common audit triggers, what the IRS examines, documentation requirements, and how to navigate the audit process successfully."
-author: "Rozsa Gyne"
+author:
+  name: "Rozsa Gyene"
+  title: "Estate Planning & Trust Administration Attorney"
+  image: "/images/rozsa-gyene.jpg"
+  bio: "Rozsa Gyene (State Bar No. 208356) is a California attorney specializing in estate planning, trust litigation, probate, and conservatorship matters in Glendale and throughout Los Angeles County."
 tags: ["IRS audit", "trust tax audit", "Form 1041 audit", "trust administration"]
 coverImage: "/images/blog/estate-planning-mistakes.jpg"
 metaDescription: "IRS audit of trust Form 1041? Learn common triggers, documentation requirements, what IRS examines, audit process. Prepare for trust tax audit successfully."

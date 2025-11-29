@@ -2,7 +2,11 @@
 title: "Trust Administration for Business Owners: Handling Business Interests in California"
 publishDate: "2025-10-20"
 excerpt: "Complete guide to administering trusts that hold business interests. Learn about valuation, operating agreements, buy-sell provisions, tax issues, and transferring business ownership to beneficiaries."
-author: "Rozsa Gyne"
+author:
+  name: "Rozsa Gyene"
+  title: "Estate Planning & Trust Administration Attorney"
+  image: "/images/rozsa-gyene.jpg"
+  bio: "Rozsa Gyene (State Bar No. 208356) is a California attorney specializing in estate planning, trust litigation, probate, and conservatorship matters in Glendale and throughout Los Angeles County."
 tags: ["business trust administration", "business valuation", "California business law", "LLC in trust"]
 coverImage: "/images/blog/living-trust-cost.jpg"
 metaDescription: "Trust holds business interests? Learn valuation, operating agreements, buy-sell provisions, tax issues, transferring ownership. California business trust administration."

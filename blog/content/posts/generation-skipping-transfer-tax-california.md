@@ -2,7 +2,11 @@
 title: "Generation-Skipping Transfer Tax in Trust Administration California"
 publishDate: "2025-10-26"
 excerpt: "Complete guide to GST tax in California trust administration. Learn exemptions, allocation strategies, Form 709 filing, dynasty trusts, and how to minimize generation-skipping transfer tax."
-author: "Rozsa Gyne"
+author:
+  name: "Rozsa Gyene"
+  title: "Estate Planning & Trust Administration Attorney"
+  image: "/images/rozsa-gyene.jpg"
+  bio: "Rozsa Gyene (State Bar No. 208356) is a California attorney specializing in estate planning, trust litigation, probate, and conservatorship matters in Glendale and throughout Los Angeles County."
 tags: ["GST tax", "generation-skipping tax", "dynasty trust", "Form 709"]
 coverImage: "/images/blog/trust-funding.jpg"
 metaDescription: "GST tax in California trusts: $13.61M exemption, allocation strategies, Form 709 filing, dynasty trusts. Minimize generation-skipping transfer tax liability."

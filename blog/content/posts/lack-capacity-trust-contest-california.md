@@ -2,7 +2,11 @@
 title: "Lack of Capacity Trust Contest California: Proving Mental Incapacity"
 publishDate: "2025-11-01"
 excerpt: "Complete guide to contesting a trust based on lack of capacity in California. Learn capacity standards, medical evidence requirements, dementia and Alzheimer's considerations, and how to prove incapacity."
-author: "Rozsa Gyne"
+author:
+  name: "Rozsa Gyene"
+  title: "Estate Planning & Trust Administration Attorney"
+  image: "/images/rozsa-gyene.jpg"
+  bio: "Rozsa Gyene (State Bar No. 208356) is a California attorney specializing in estate planning, trust litigation, probate, and conservatorship matters in Glendale and throughout Los Angeles County."
 tags: ["lack of capacity", "mental capacity", "trust contest", "dementia", "Alzheimer's"]
 coverImage: "/images/blog/avoid-probate.jpg"
 metaDescription: "Prove lack of capacity in California trust contests: medical evidence requirements, dementia/Alzheimer's standards, expert testimony. Contest trust for incapacity."

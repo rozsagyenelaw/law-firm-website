@@ -2,7 +2,11 @@
 title: "Real Estate in Trust Administration: Selling or Transferring Property in California"
 publishDate: "2025-10-19"
 excerpt: "Complete guide to handling real estate during California trust administration. Learn about selling trust property, transferring to beneficiaries, appraisals, tax implications, and trustee authority."
-author: "Rozsa Gyne"
+author:
+  name: "Rozsa Gyene"
+  title: "Estate Planning & Trust Administration Attorney"
+  image: "/images/rozsa-gyene.jpg"
+  bio: "Rozsa Gyene (State Bar No. 208356) is a California attorney specializing in estate planning, trust litigation, probate, and conservatorship matters in Glendale and throughout Los Angeles County."
 tags: ["trust real estate", "selling trust property", "trust administration", "California property law"]
 coverImage: "/images/blog/die-without-trust.jpg"
 metaDescription: "Selling or transferring real estate in California trust: trustee authority, appraisals, capital gains tax, title transfer. Complete property administration guide."

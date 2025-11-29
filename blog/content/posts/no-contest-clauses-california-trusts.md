@@ -2,7 +2,11 @@
 title: "No-Contest Clauses in California Trusts: Enforceability and Strategy"
 publishDate: "2025-11-04"
 excerpt: "Complete guide to no-contest clauses in California trusts. Learn enforceability standards, the probable cause exception, strategic considerations, and how to contest without triggering disinheritance."
-author: "Rozsa Gyne"
+author:
+  name: "Rozsa Gyene"
+  title: "Estate Planning & Trust Administration Attorney"
+  image: "/images/rozsa-gyene.jpg"
+  bio: "Rozsa Gyene (State Bar No. 208356) is a California attorney specializing in estate planning, trust litigation, probate, and conservatorship matters in Glendale and throughout Los Angeles County."
 tags: ["no-contest clause", "in terrorem clause", "trust contest", "California Probate Code"]
 coverImage: "/images/blog/trust-amendment-update.jpg"
 metaDescription: "No-contest clauses in California trusts: enforceability rules, probable cause exception to avoid disinheritance. How to contest trust without losing inheritance."

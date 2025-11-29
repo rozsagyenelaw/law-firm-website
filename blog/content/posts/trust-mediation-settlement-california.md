@@ -1,8 +1,12 @@
 ---
 title: "Trust Mediation and Settlement California: Resolving Disputes Without Trial"
-date: "2025-03-03"
+publishDate: "2025-11-03"
 excerpt: "Complete guide to trust mediation and settlement in California. Learn mediation benefits, the process, settlement structures, when to settle vs. litigate, and how to negotiate effectively."
-author: "Rozsa Gyne"
+author:
+  name: "Rozsa Gyene"
+  title: "Estate Planning & Trust Administration Attorney"
+  image: "/images/rozsa-gyene.jpg"
+  bio: "Rozsa Gyene (State Bar No. 208356) is a California attorney specializing in estate planning, trust litigation, probate, and conservatorship matters in Glendale and throughout Los Angeles County."
 tags: ["trust mediation", "trust settlement", "alternative dispute resolution", "trust litigation"]
 coverImage: "/images/blog/consultation-meeting.jpg"
 metaDescription: "Trust mediation California: save $100K-$350K vs trial, settle 70-80% of disputes. Mediation process, settlement structures, negotiation strategies. Attorney guide."

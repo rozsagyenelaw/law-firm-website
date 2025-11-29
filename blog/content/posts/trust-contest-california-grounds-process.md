@@ -1,8 +1,12 @@
 ---
 title: "Trust Contest California: Grounds and Process for Challenging a Trust"
-date: "2025-02-27"
+publishDate: "2025-10-27"
 excerpt: "Complete guide to contesting a trust in California. Learn legal grounds, standing requirements, statute of limitations, court process, and what evidence you need to successfully challenge a trust."
-author: "Rozsa Gyne"
+author:
+  name: "Rozsa Gyene"
+  title: "Estate Planning & Trust Administration Attorney"
+  image: "/images/rozsa-gyene.jpg"
+  bio: "Rozsa Gyene (State Bar No. 208356) is a California attorney specializing in estate planning, trust litigation, probate, and conservatorship matters in Glendale and throughout Los Angeles County."
 tags: ["trust contest", "challenge trust", "California trust litigation", "trust validity"]
 coverImage: "/images/blog/california-inheritance-laws.jpg"
 metaDescription: "Contest a trust in California: legal grounds (undue influence, capacity, fraud), 120-day deadline, standing requirements, court process. Attorney litigation guide."
