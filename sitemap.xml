@@ -136,16 +136,33 @@
     <priority>0.9</priority>
   </url>
 
+  <!-- Redirected to /locations/glendale -->
+  <!-- estate-planning-attorney-glendale now 301 redirects -->
+
   <url>
-    <loc>https://livingtrust-attorneys.com/estate-planning-attorney-glendale</loc>
-    <lastmod>2025-01-15</lastmod>
+    <loc>https://livingtrust-attorneys.com/probate-attorney-glendale</loc>
+    <lastmod>2025-11-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://livingtrust-attorneys.com/probate-attorney-glendale</loc>
-    <lastmod>2025-01-15</lastmod>
+    <loc>https://livingtrust-attorneys.com/conservatorship-attorney-glendale</loc>
+    <lastmod>2025-11-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://livingtrust-attorneys.com/guardianship-attorney-glendale</loc>
+    <lastmod>2025-11-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://livingtrust-attorneys.com/trust-litigation-attorney-glendale</loc>
+    <lastmod>2025-11-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -806,9 +823,9 @@
   <!-- Location Pages -->
   <url>
     <loc>https://livingtrust-attorneys.com/locations/glendale</loc>
-    <lastmod>2025-01-15</lastmod>
+    <lastmod>2025-11-29</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.9</priority>
   </url>
 
   <url>
