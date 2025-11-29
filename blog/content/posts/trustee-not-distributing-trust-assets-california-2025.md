@@ -14,6 +14,8 @@ featured: false
 
 If a California trustee is not distributing trust assets when required, you have powerful legal rights to enforce distribution. This comprehensive guide explains what to do when trustees refuse to distribute, won't communicate, or breach their fiduciary duties.
 
+![Trustee not distributing trust assets - beneficiary rights](/images/blog/elderly-couple-planning.png)
+
 ## How Long Does a Trustee Have to Distribute Assets in California?
 
 **There's no single deadline**, but trustees must distribute assets **within a reasonable time** after the trustor's death. What's "reasonable" depends on estate complexity:

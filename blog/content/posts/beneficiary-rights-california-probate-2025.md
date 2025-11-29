@@ -14,6 +14,8 @@ If you're named as a beneficiary in a California will or trust, you have signifi
 
 This comprehensive guide explains your rights as a California probate beneficiary, how to enforce them, and what to do if the executor isn't fulfilling their obligations.
 
+![California probate law and beneficiary rights](/images/blog/attorney-consultation.png)
+
 ## What Rights Do Beneficiaries Have in California Probate?
 
 Under California Probate Code, beneficiaries have these fundamental rights:

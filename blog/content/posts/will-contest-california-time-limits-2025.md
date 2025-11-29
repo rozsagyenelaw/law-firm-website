@@ -16,6 +16,8 @@ This is one of the strictest deadlines in California law. Miss it, and an invali
 
 This guide explains California will contest time limits, grounds for contesting, the contest process, and how to protect your rights before time runs out.
 
+![Contesting a will in California - time limits and deadlines](/images/blog/probate-law-scales.png)
+
 ## California Will Contest Deadline: The 120-Day Rule
 
 Under California Probate Code Section 8226:

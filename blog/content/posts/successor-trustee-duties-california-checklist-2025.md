@@ -16,6 +16,8 @@ Being a successor trustee in California comes with serious legal responsibilitie
 
 Whether you're handling a simple family trust or complex estate, this guide gives you the roadmap to fulfill your duties properly and avoid personal liability.
 
+![Successor trustee duties and responsibilities in California](/images/blog/family-estate-planning.png)
+
 ## What Is a Successor Trustee in California?
 
 A **successor trustee** is the person (or institution) named in a trust document to take over management when the original trustee dies or becomes incapacitated.

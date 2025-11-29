@@ -14,6 +14,8 @@ When someone dies and their California home must go through probate, one of the 
 
 This comprehensive guide covers everything you need to know about selling probate real estate in California in 2025, including court requirements, timelines, costs, and strategies to maximize your sale price.
 
+![Selling house during probate in California](/images/blog/probate-law-gavel.png)
+
 ## Can You Sell a House During Probate in California?
 
 **Yes, executors can sell estate property during probate**, but they must follow specific California Probate Code procedures. The sale method depends on whether the executor has Independent Administration of Estates Act (IAEA) authority.
