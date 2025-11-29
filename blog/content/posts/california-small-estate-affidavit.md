@@ -1,7 +1,7 @@
 ---
 title: "California Small Estate Affidavit: Skip Probate for Estates Under $184,500"
 slug: "california-small-estate-affidavit"
-publishDate: "2025-01-23"
+publishDate: "2025-10-23"
 updatedDate: ""
 author:
   name: "Rozsa Gyene"

@@ -1,7 +1,7 @@
 ---
 title: "Probate Real Estate California: Complete Guide to Handling Property"
 slug: "probate-real-estate-california"
-publishDate: "2025-01-25"
+publishDate: "2025-10-25"
 updatedDate: ""
 author:
   name: "Rozsa Gyene"

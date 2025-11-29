@@ -1,7 +1,7 @@
 ---
 title: "Spousal Property Petition in California | Form DE-221 Guide"
 slug: "spousal-property-petition-california"
-publishDate: "2025-01-23"
+publishDate: "2025-10-23"
 updatedDate: ""
 author:
   name: "Rozsa Gyene"

@@ -1,7 +1,7 @@
 ---
 title: "How to Contest a Will in California | Grounds, Process & Timeline"
 slug: "contest-will-california"
-publishDate: "2025-01-23"
+publishDate: "2025-10-23"
 updatedDate: ""
 author:
   name: "Rozsa Gyene"

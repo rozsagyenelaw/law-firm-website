@@ -1,7 +1,7 @@
 ---
 title: "Living Trust vs. Will in California: Which Is Right for Your Family?"
 slug: "living-trust-vs-will-california"
-publishDate: "2025-01-15"
+publishDate: "2025-10-15"
 updatedDate: ""
 author:
   name: "Rozsa Gyene"

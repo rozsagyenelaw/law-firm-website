@@ -1,7 +1,7 @@
 ---
 title: "California Inheritance Laws: Who Gets What When You Die Without a Will or Trust?"
 slug: "california-inheritance-laws-without-will"
-publishDate: "2025-01-22"
+publishDate: "2025-10-22"
 updatedDate: ""
 author:
   name: "Rozsa Gyene"

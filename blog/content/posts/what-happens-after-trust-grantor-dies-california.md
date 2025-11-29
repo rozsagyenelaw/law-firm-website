@@ -1,7 +1,7 @@
 ---
 title: "What Happens After the Trust Grantor Dies in California?"
 slug: "what-happens-after-trust-grantor-dies-california"
-publishDate: "2025-02-09"
+publishDate: "2025-11-09"
 updatedDate: ""
 author:
   name: "Rozsa Gyene"

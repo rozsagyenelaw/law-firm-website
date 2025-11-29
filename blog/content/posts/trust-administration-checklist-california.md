@@ -1,7 +1,7 @@
 ---
 title: "Trust Administration Checklist California: The Complete Guide"
 slug: "trust-administration-checklist-california"
-publishDate: "2025-02-08"
+publishDate: "2025-11-08"
 updatedDate: ""
 author:
   name: "Rozsa Gyene"

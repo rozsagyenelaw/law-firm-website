@@ -1,7 +1,7 @@
 ---
 title: "Final Distribution in California Probate: Complete Guide to Closing Estate"
 slug: "final-distribution-probate-california"
-publishDate: "2025-01-25"
+publishDate: "2025-10-25"
 updatedDate: ""
 author:
   name: "Rozsa Gyene"

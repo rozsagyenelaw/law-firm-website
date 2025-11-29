@@ -1,7 +1,7 @@
 ---
 title: "Petition for Probate California: Complete Guide to Form DE-111"
 slug: "petition-for-probate-california"
-publishDate: "2025-01-25"
+publishDate: "2025-10-25"
 updatedDate: ""
 author:
   name: "Rozsa Gyene"

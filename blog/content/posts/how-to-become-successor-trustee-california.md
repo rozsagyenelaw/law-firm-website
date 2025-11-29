@@ -1,7 +1,7 @@
 ---
 title: "How to Become a Successor Trustee in California"
 slug: "how-to-become-successor-trustee-california"
-publishDate: "2025-02-07"
+publishDate: "2025-11-07"
 updatedDate: ""
 author:
   name: "Rozsa Gyene"

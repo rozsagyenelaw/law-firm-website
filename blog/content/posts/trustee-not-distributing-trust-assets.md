@@ -1,7 +1,7 @@
 ---
 title: "What to Do When a Trustee Won't Distribute Trust Assets in California"
 slug: "trustee-not-distributing-trust-assets"
-publishDate: "2025-02-01"
+publishDate: "2025-11-01"
 updatedDate: ""
 author:
   name: "Rozsa Gyene"

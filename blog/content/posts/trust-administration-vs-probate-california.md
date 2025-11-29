@@ -1,7 +1,7 @@
 ---
 title: "Trust Administration vs. Probate in California: Key Differences 2025"
 slug: "trust-administration-vs-probate-california"
-publishDate: "2025-01-28"
+publishDate: "2025-10-28"
 updatedDate: ""
 author:
   name: "Rozsa Gyene"

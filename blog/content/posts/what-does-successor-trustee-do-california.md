@@ -1,7 +1,7 @@
 ---
 title: "What Does a Successor Trustee Do in California? Complete Guide"
 slug: "what-does-successor-trustee-do-california"
-publishDate: "2025-02-02"
+publishDate: "2025-11-02"
 updatedDate: ""
 author:
   name: "Rozsa Gyene"

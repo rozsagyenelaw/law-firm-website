@@ -1,7 +1,7 @@
 ---
 title: "How to Sell a House in Probate in California | Complete Guide"
 slug: "selling-house-probate-california"
-publishDate: "2025-01-23"
+publishDate: "2025-10-23"
 updatedDate: ""
 author:
   name: "Rozsa Gyene"

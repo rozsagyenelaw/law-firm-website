@@ -1,7 +1,7 @@
 ---
 title: "Intestate Succession California: Who Inherits When There's No Will?"
 slug: "intestate-succession-california"
-publishDate: "2025-01-25"
+publishDate: "2025-10-25"
 updatedDate: ""
 author:
   name: "Rozsa Gyene"

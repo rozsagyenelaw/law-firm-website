@@ -1,7 +1,7 @@
 ---
 title: "First Steps for a Successor Trustee in California"
 slug: "first-steps-successor-trustee-california"
-publishDate: "2025-02-04"
+publishDate: "2025-11-04"
 updatedDate: ""
 author:
   name: "Rozsa Gyene"

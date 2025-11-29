@@ -1,7 +1,7 @@
 ---
 title: "Executor Duties & Responsibilities in California | Complete Checklist"
 slug: "executor-duties-california"
-publishDate: "2025-01-23"
+publishDate: "2025-10-23"
 updatedDate: ""
 author:
   name: "Rozsa Gyene"

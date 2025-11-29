@@ -1,7 +1,7 @@
 ---
 title: "How Much Does Trust Administration Cost in California?"
 slug: "how-much-does-trust-administration-cost"
-publishDate: "2025-01-29"
+publishDate: "2025-10-29"
 updatedDate: ""
 author:
   name: "Rozsa Gyene"

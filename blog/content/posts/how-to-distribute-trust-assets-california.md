@@ -1,7 +1,7 @@
 ---
 title: "How to Distribute Trust Assets in California: A Practical Guide"
 slug: "how-to-distribute-trust-assets-california"
-publishDate: "2025-02-12"
+publishDate: "2025-11-12"
 updatedDate: ""
 author:
   name: "Rozsa Gyene"

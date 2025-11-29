@@ -1,7 +1,7 @@
 ---
 title: "When Should You Update Your Living Trust in California? 11 Life Events That Require Trust Amendments"
 slug: "when-to-update-living-trust-california"
-publishDate: "2025-01-20"
+publishDate: "2025-10-20"
 updatedDate: ""
 author:
   name: "Rozsa Gyene"

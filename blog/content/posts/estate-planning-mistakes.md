@@ -1,7 +1,7 @@
 ---
 title: "7 Estate Planning Mistakes That Could Cost Your Family Thousands"
 slug: "estate-planning-mistakes"
-publishDate: "2025-01-18"
+publishDate: "2025-10-18"
 updatedDate: ""
 author:
   name: "Rozsa Gyene"

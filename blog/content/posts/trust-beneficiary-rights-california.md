@@ -1,7 +1,7 @@
 ---
 title: "Trust Beneficiary Rights in California: What You're Entitled To"
 slug: "trust-beneficiary-rights-california"
-publishDate: "2025-01-31"
+publishDate: "2025-10-31"
 updatedDate: ""
 author:
   name: "Rozsa Gyene"

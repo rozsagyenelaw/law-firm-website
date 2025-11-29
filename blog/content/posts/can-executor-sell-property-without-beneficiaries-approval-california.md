@@ -1,7 +1,7 @@
 ---
 title: "Can Executor Sell Property Without Beneficiaries Approval in California?"
 slug: "can-executor-sell-property-without-beneficiaries-approval-california"
-publishDate: "2025-01-25"
+publishDate: "2025-10-25"
 updatedDate: ""
 author:
   name: "Rozsa Gyene"

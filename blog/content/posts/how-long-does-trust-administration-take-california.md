@@ -1,7 +1,7 @@
 ---
 title: "How Long Does Trust Administration Take in California?"
 slug: "how-long-does-trust-administration-take-california"
-publishDate: "2025-01-27"
+publishDate: "2025-10-27"
 updatedDate: ""
 author:
   name: "Rozsa Gyene"

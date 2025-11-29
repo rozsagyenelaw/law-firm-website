@@ -1,7 +1,7 @@
 ---
 title: "Successor Trustee Mistakes to Avoid in California"
 slug: "successor-trustee-mistakes-to-avoid-california"
-publishDate: "2025-02-06"
+publishDate: "2025-11-06"
 updatedDate: ""
 author:
   name: "Rozsa Gyene"

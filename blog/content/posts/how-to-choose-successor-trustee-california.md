@@ -1,7 +1,7 @@
 ---
 title: "How to Choose the Right Successor Trustee for Your California Living Trust: 12 Critical Factors"
 slug: "how-to-choose-successor-trustee-california"
-publishDate: "2025-01-25"
+publishDate: "2025-10-25"
 updatedDate: ""
 author:
   name: "Rozsa Gyene"

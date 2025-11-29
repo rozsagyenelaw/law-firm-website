@@ -1,7 +1,7 @@
 ---
 title: "How to Avoid Probate in California: 7 Proven Strategies"
 slug: "avoid-probate-california"
-publishDate: "2025-01-16"
+publishDate: "2025-10-16"
 updatedDate: ""
 author:
   name: "Rozsa Gyene"

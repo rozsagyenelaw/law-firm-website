@@ -1,7 +1,7 @@
 ---
 title: "Can a Successor Trustee Also Be a Beneficiary in California?"
 slug: "can-successor-trustee-be-beneficiary-california"
-publishDate: "2025-02-05"
+publishDate: "2025-11-05"
 updatedDate: ""
 author:
   name: "Rozsa Gyene"

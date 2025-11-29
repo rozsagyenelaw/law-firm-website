@@ -1,7 +1,7 @@
 ---
 title: "How Much Does Probate Cost in California? | 2025 Fee Schedule"
 slug: "how-much-does-probate-cost-california"
-publishDate: "2025-01-23"
+publishDate: "2025-10-23"
 updatedDate: ""
 author:
   name: "Rozsa Gyene"

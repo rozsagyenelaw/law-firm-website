@@ -1,7 +1,7 @@
 ---
 title: "Probate Referee California: What They Do & Why You Need One"
 slug: "probate-referee-california"
-publishDate: "2025-01-25"
+publishDate: "2025-10-25"
 updatedDate: ""
 author:
   name: "Rozsa Gyene"

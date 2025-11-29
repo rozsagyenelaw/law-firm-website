@@ -1,7 +1,7 @@
 ---
 title: "Removing an Executor in California: Grounds, Process & Your Rights"
 slug: "removing-executor-california"
-publishDate: "2025-01-25"
+publishDate: "2025-10-25"
 updatedDate: ""
 author:
   name: "Rozsa Gyene"

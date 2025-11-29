@@ -1,7 +1,7 @@
 ---
 title: "The Trust Administration Process in California: A Complete Overview"
 slug: "trust-administration-process-california"
-publishDate: "2025-02-10"
+publishDate: "2025-11-10"
 updatedDate: ""
 author:
   name: "Rozsa Gyene"

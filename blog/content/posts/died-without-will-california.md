@@ -1,7 +1,7 @@
 ---
 title: "What Happens When Someone Dies Without a Will in California?"
 slug: "died-without-will-california"
-publishDate: "2025-01-23"
+publishDate: "2025-10-23"
 updatedDate: ""
 author:
   name: "Rozsa Gyene"

@@ -1,7 +1,7 @@
 ---
 title: "How to File Probate in Los Angeles County | Step-by-Step Guide"
 slug: "file-probate-los-angeles-county"
-publishDate: "2025-01-23"
+publishDate: "2025-10-23"
 updatedDate: ""
 author:
   name: "Rozsa Gyene"

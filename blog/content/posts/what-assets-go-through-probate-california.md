@@ -1,7 +1,7 @@
 ---
 title: "What Assets Go Through Probate in California? Complete Guide 2025"
 slug: "what-assets-go-through-probate-california"
-publishDate: "2025-01-25"
+publishDate: "2025-10-25"
 updatedDate: ""
 author:
   name: "Rozsa Gyene"

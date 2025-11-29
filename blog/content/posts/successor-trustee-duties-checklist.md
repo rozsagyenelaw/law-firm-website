@@ -1,7 +1,7 @@
 ---
 title: "Successor Trustee Duties Checklist: Complete California Guide"
 slug: "successor-trustee-duties-checklist"
-publishDate: "2025-02-03"
+publishDate: "2025-11-03"
 updatedDate: ""
 author:
   name: "Rozsa Gyene"

@@ -1,7 +1,7 @@
 ---
 title: "California Conservatorship: A Complete Guide for Families"
 slug: "conservatorship-california-guide"
-publishDate: "2025-01-17"
+publishDate: "2025-10-17"
 updatedDate: ""
 author:
   name: "Rozsa Gyene"

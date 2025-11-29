@@ -1,7 +1,7 @@
 ---
 title: "Trust Administration Tax Returns in California: What You Need to File"
 slug: "trust-administration-tax-returns-california"
-publishDate: "2025-02-11"
+publishDate: "2025-11-11"
 updatedDate: ""
 author:
   name: "Rozsa Gyene"

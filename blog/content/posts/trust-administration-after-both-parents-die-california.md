@@ -1,7 +1,7 @@
 ---
 title: "Trust Administration After Both Parents Die in California"
 slug: "trust-administration-after-both-parents-die-california"
-publishDate: "2025-02-13"
+publishDate: "2025-11-13"
 updatedDate: ""
 author:
   name: "Rozsa Gyene"
