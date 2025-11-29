@@ -1,6 +1,6 @@
 ---
 title: "Lack of Capacity Trust Contest California: Proving Mental Incapacity"
-date: "2025-03-01"
+publishDate: "2025-11-01"
 excerpt: "Complete guide to contesting a trust based on lack of capacity in California. Learn capacity standards, medical evidence requirements, dementia and Alzheimer's considerations, and how to prove incapacity."
 author: "Rozsa Gyne"
 tags: ["lack of capacity", "mental capacity", "trust contest", "dementia", "Alzheimer's"]

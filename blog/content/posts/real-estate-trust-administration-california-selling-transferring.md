@@ -1,6 +1,6 @@
 ---
 title: "Real Estate in Trust Administration: Selling or Transferring Property in California"
-date: "2025-02-19"
+publishDate: "2025-10-19"
 excerpt: "Complete guide to handling real estate during California trust administration. Learn about selling trust property, transferring to beneficiaries, appraisals, tax implications, and trustee authority."
 author: "Rozsa Gyne"
 tags: ["trust real estate", "selling trust property", "trust administration", "California property law"]

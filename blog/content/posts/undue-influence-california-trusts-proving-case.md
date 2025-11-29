@@ -1,6 +1,6 @@
 ---
 title: "Undue Influence in California Trusts: How to Prove Your Case"
-date: "2025-02-28"
+publishDate: "2025-10-28"
 excerpt: "Comprehensive guide to proving undue influence in California trust contests. Learn the legal elements, vulnerability factors, evidence needed, presumptions, and how to build a winning case."
 author: "Rozsa Gyne"
 tags: ["undue influence", "trust contest", "elder abuse", "California trust litigation"]
