@@ -1,0 +1,5 @@
+# SEO 301 Redirects for Keyword Cannibalization Fix
+# Redirect estate-planning-attorney-glendale to main Glendale location page
+
+Redirect 301 /estate-planning-attorney-glendale.html https://livingtrust-attorneys.com/locations/glendale.html
+Redirect 301 /estate-planning-attorney-glendale https://livingtrust-attorneys.com/locations/glendale.html
