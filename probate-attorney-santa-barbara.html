@@ -642,40 +642,118 @@
     </script>
 </head>
 <body>
-    <!-- Header -->
-    <header>
+    <!-- Top Bar -->
+    <div class="top-bar">
         <div class="container">
-            <div class="header-content">
-                <div class="logo">
-                    <h1>Law Offices of Rozsa Gyene</h1>
-                    <p>Santa Barbara Probate Attorney</p>
-                </div>
-                <div class="contact-info">
-                    <div class="phone">
-                        <i class="fas fa-phone-alt"></i>
-                        <a href="tel:818-291-6217" style="color: white;">818-291-6217</a>
-                    </div>
-                    <a href="tel:818-291-6217" class="cta-button">Free Consultation</a>
-                </div>
+            <div>
+                <i class="fas fa-certificate"></i> Licensed California Attorney - Bar #208356
+            </div>
+            <div>
+                <i class="fas fa-phone"></i> Free Consultation: <a href="tel:8182916217" onclick="trackPhoneClick()">(818) 291-6217</a>
             </div>
         </div>
-    </header>
-
-    <!-- Navigation -->
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="living-trusts.html">Living Trusts</a></li>
-            <li><a href="estate-planning.html">Estate Planning</a></li>
-            <li><a href="probate-attorney-glendale.html">Probate</a></li>
-            <li><a href="trust-administration.html">Trust Administration</a></li>
-            <li><a href="trust-litigation.html">Trust Litigation</a></li>
-            <li><a href="conservatorship.html">Conservatorship</a></li>
-        </ul>
-    </nav>
+    </div>
 
     <!-- Hero Section -->
     <section class="hero">
+        <!-- Main Navigation Inside Hero -->
+        <header>
+            <nav>
+                <div class="container">
+                    <a href="index.html" class="logo">
+                        <div class="logo-text">
+                            <span class="firm-name">LAW OFFICES OF ROZSA GYENE</span>
+                            <span class="tagline">Estate Planning & Probate Specialists Since 2001</span>
+                        </div>
+                    </a>
+
+                    <a href="tel:8182916217" class="nav-phone-cta" onclick="trackPhoneClick()">
+                        <i class="fas fa-phone"></i> (818) 291-6217
+                    </a>
+
+                    <!-- ACCESSIBILITY FIX: Added aria-label to mobile toggle button -->
+                    <button class="mobile-toggle" onclick="toggleMenu()" aria-label="Open navigation menu">
+                        <i class="fas fa-bars"></i>
+                    </button>
+
+                    <ul class="nav-menu" id="navMenu">
+                        <li class="nav-item-close">
+                            <!-- ACCESSIBILITY FIX: Added aria-label to close menu button -->
+                            <button class="close-menu" onclick="toggleMenu()" aria-label="Close navigation menu">
+                                <i class="fas fa-times"></i>
+                            </button>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="about.html" class="nav-link">About</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#" class="nav-link has-dropdown">Estate Planning</a>
+                            <div class="dropdown">
+                                <a href="estate-planning-attorney-glendale.html" class="dropdown-item">Estate Planning Attorney Glendale</a>
+                                <a href="living-trusts.html" class="dropdown-item">Living Trusts</a>
+                                <a href="wills.html" class="dropdown-item">Wills & Last Testament</a>
+                                <a href="power-of-attorney.html" class="dropdown-item">Power of Attorney</a>
+                                <a href="trust-administration.html" class="dropdown-item">Trust Administration</a>
+                                <a href="trust-administration-questionnaire.html" class="dropdown-item">Trust Administration Questionnaire</a>
+                                <a href="trust-amendment.html" class="dropdown-item">Trust Amendments</a>
+                                <a href="special-needs-trust.html" class="dropdown-item">Special Needs Trusts</a>
+                                <a href="life-insurance-trust.html" class="dropdown-item">Life Insurance Trusts</a>
+                                <a href="asset-protection.html" class="dropdown-item">Asset Protection</a>
+                                <a href="medi-cal-planning.html" class="dropdown-item">Medi-Cal Planning</a>
+                                <a href="pet-trust.html" class="dropdown-item">Pet Trusts</a>
+                                <a href="lgbtq-estate-planning.html" class="dropdown-item">LGBTQ+ Estate Planning</a>
+                                <a href="digital-asset-planning.html" class="dropdown-item">Digital Asset Planning</a>
+                                <a href="business-succession-planning.html" class="dropdown-item">Business Succession</a>
+                                <a href="ira-trust-planning.html" class="dropdown-item">IRA & Retirement Trusts</a>
+                                <a href="estate-planning-questionnaire.html" class="dropdown-item">Estate Planning Form</a>
+                                <a href="prenuptial-agreement.html" class="dropdown-item">Prenuptial Agreement Form</a>
+                            </div>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#" class="nav-link has-dropdown">Probate</a>
+                            <div class="dropdown">
+                                <a href="probate-attorney-glendale.html" class="dropdown-item">Probate Attorney Glendale</a>
+                                <a href="probate.html" class="dropdown-item">Probate Services</a>
+                                <a href="probate-intake-form.html" class="dropdown-item">Probate Intake Form</a>
+                            </div>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#" class="nav-link has-dropdown">Conservatorship</a>
+                            <div class="dropdown">
+                                <a href="conservatorship.html" class="dropdown-item">Conservatorship Services</a>
+                                <a href="conservatorship-questionnaire.html" class="dropdown-item">Conservatorship Form</a>
+                            </div>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#" class="nav-link has-dropdown">Guardianship</a>
+                            <div class="dropdown">
+                                <a href="guardianship.html" class="dropdown-item">Guardianship Services</a>
+                                <a href="guardianship-questionnaire.html" class="dropdown-item">Guardianship Form</a>
+                            </div>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="/blog/" class="nav-link">Learn</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="https://portal.livingtrust-attorneys.com/" class="btn-client-portal" target="_blank" rel="noopener">Client Portal</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="https://portal.livingtrust-attorneys.com/book" class="btn-book">Book Now</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
         <div class="container">
             <h1>Santa Barbara Probate Attorney</h1>
             <p>Expert Probate Administration & Estate Administration in Santa Barbara County Superior Court</p>
@@ -978,42 +1056,103 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-section">
-                    <h3>Law Offices of Rozsa Gyene</h3>
-                    <p>Santa Barbara Probate Attorney</p>
-                    <p><i class="fas fa-phone"></i> <a href="tel:818-291-6217">818-291-6217</a></p>
+                    <h3>About Our Firm</h3>
+                    <p>Law Offices of Rozsa Gyene has been serving Southern California families with dedication and expertise since 2001. We specialize in estate planning, probate, and protective proceedings.</p>
+                    <div class="footer-cta-box">
+                        <h4>Ready to Get Started?</h4>
+                        <p>Schedule your free consultation today</p>
+                        <a href="https://portal.livingtrust-attorneys.com/book" class="btn-primary">Book Consultation</a>
+                    </div>
                 </div>
 
                 <div class="footer-section">
                     <h3>Practice Areas</h3>
                     <ul>
-                        <li><a href="living-trusts.html">Living Trusts</a></li>
-                        <li><a href="estate-planning.html">Estate Planning</a></li>
-                        <li><a href="probate-attorney-glendale.html">Probate</a></li>
-                        <li><a href="trust-administration.html">Trust Administration</a></li>
-                        <li><a href="trust-litigation.html">Trust Litigation</a></li>
-                        <li><a href="conservatorship.html">Conservatorship</a></li>
+                        <li><a href="living-trusts.html"><i class="fas fa-chevron-right"></i> Living Trusts</a></li>
+                        <li><a href="probate.html"><i class="fas fa-chevron-right"></i> Probate</a></li>
+                        <li><a href="conservatorship.html"><i class="fas fa-chevron-right"></i> Conservatorship</a></li>
+                        <li><a href="guardianship.html"><i class="fas fa-chevron-right"></i> Guardianship</a></li>
+                        <li><a href="special-needs-trust.html"><i class="fas fa-chevron-right"></i> Special Needs Trusts</a></li>
+                        <li><a href="asset-protection.html"><i class="fas fa-chevron-right"></i> Asset Protection</a></li>
                     </ul>
                 </div>
 
                 <div class="footer-section">
-                    <h3>Service Areas</h3>
+                    <h3>Trust Administration</h3>
                     <ul>
-                        <li><a href="locations/santa-barbara.html">Santa Barbara</a></li>
-                        <li><a href="locations/montecito.html">Montecito</a></li>
-                        <li><a href="locations/goleta.html">Goleta</a></li>
-                        <li><a href="locations/hope-ranch.html">Hope Ranch</a></li>
-                        <li><a href="locations/carpinteria.html">Carpinteria</a></li>
-                        <li><a href="locations/santa-ynez.html">Santa Ynez Valley</a></li>
-                        <li><a href="locations/santa-barbara-county.html">Santa Barbara County</a></li>
+                        <li><a href="trust-administration.html"><i class="fas fa-chevron-right"></i> Trust Administration</a></li>
+                        <li><a href="trust-administration-attorney-glendale.html"><i class="fas fa-map-marker-alt"></i> Glendale</a></li>
+                        <li><a href="trust-administration-attorney-burbank.html"><i class="fas fa-map-marker-alt"></i> Burbank</a></li>
+                        <li><a href="trust-administration-attorney-pasadena.html"><i class="fas fa-map-marker-alt"></i> Pasadena</a></li>
+                        <li><a href="trust-administration-attorney-los-angeles.html"><i class="fas fa-map-marker-alt"></i> Los Angeles</a></li>
+                        <li><a href="trust-administration-attorney-santa-clarita.html"><i class="fas fa-map-marker-alt"></i> Santa Clarita</a></li>
+                        <li><a href="trust-administration-attorney-arcadia.html"><i class="fas fa-map-marker-alt"></i> Arcadia</a></li>
+                        <li><a href="trust-administration-attorney-long-beach.html"><i class="fas fa-map-marker-alt"></i> Long Beach</a></li>
+                        <li><a href="trust-administration-attorney-van-nuys.html"><i class="fas fa-map-marker-alt"></i> Van Nuys</a></li>
+                        <li><a href="trust-administration-attorney-torrance.html"><i class="fas fa-map-marker-alt"></i> Torrance</a></li>
+                        <li><a href="trust-administration-attorney-alhambra.html"><i class="fas fa-map-marker-alt"></i> Alhambra</a></li>
+                        <li><a href="trust-administration-attorney-whittier.html"><i class="fas fa-map-marker-alt"></i> Whittier</a></li>
+                        <li><a href="trust-administration-attorney-downey.html"><i class="fas fa-map-marker-alt"></i> Downey</a></li>
+                        <li><a href="trust-administration-attorney-west-covina.html"><i class="fas fa-map-marker-alt"></i> West Covina</a></li>
+                        <li><a href="trust-administration-attorney-thousand-oaks.html"><i class="fas fa-map-marker-alt"></i> Thousand Oaks</a></li>
                     </ul>
                 </div>
 
                 <div class="footer-section">
                     <h3>Resources</h3>
                     <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="tel:818-291-6217">Free Consultation</a></li>
+                        <li><a href="estate-planning-questionnaire.html"><i class="fas fa-file-alt"></i> Estate Planning Form</a></li>
+                        <li><a href="probate-intake-form.html"><i class="fas fa-file-alt"></i> Probate Intake Form</a></li>
+                        <li><a href="conservatorship-questionnaire.html"><i class="fas fa-file-alt"></i> Conservatorship Form</a></li>
+                        <li><a href="guardianship-questionnaire.html"><i class="fas fa-file-alt"></i> Guardianship Form</a></li>
+                        <li><a href="https://portal.livingtrust-attorneys.com/" target="_blank"><i class="fas fa-sign-in-alt"></i> Client Portal</a></li>
+                        <li><a href="https://livingtrustcalifornia.com" target="_blank"><i class="fas fa-laptop"></i> Online Living Trust</a></li>
                     </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Contact Us</h3>
+                    <div class="footer-contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>450 N Brand Blvd. Suite 600<br>Glendale, CA 91203</div>
+                    </div>
+                    <div class="footer-contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div><a href="tel:8182916217" onclick="trackPhoneClick()">(818) 291-6217</a></div>
+                    </div>
+                    <div class="footer-contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div><a href="mailto:rozsagyenelaw@yahoo.com">rozsagyenelaw@yahoo.com</a></div>
+                    </div>
+                    <div class="footer-contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div>Mon-Fri: 9:00 AM - 5:00 PM<br>Sat: By Appointment<br>Sun: Closed</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-section">
+                <h3>Service Areas</h3>
+                <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 8px 15px; max-width: 900px; margin: 0 auto; font-size: 13px;">
+                    <a href="locations/glendale.html" style="color: white !important; text-decoration: none; transition: color 0.3s; white-space: nowrap;" onmouseover="this.style.color='#c9a961'" onmouseout="this.style.color='white'">📍 Glendale</a>
+                    <a href="locations/burbank.html" style="color: white !important; text-decoration: none; transition: color 0.3s; white-space: nowrap;" onmouseover="this.style.color='#c9a961'" onmouseout="this.style.color='white'">📍 Burbank</a>
+                    <a href="locations/pasadena.html" style="color: white !important; text-decoration: none; transition: color 0.3s; white-space: nowrap;" onmouseover="this.style.color='#c9a961'" onmouseout="this.style.color='white'">📍 Pasadena</a>
+                    <a href="locations/los-angeles.html" style="color: white !important; text-decoration: none; transition: color 0.3s; white-space: nowrap;" onmouseover="this.style.color='#c9a961'" onmouseout="this.style.color='white'">📍 Los Angeles</a>
+                    <a href="locations/santa-clarita.html" style="color: white !important; text-decoration: none; transition: color 0.3s; white-space: nowrap;" onmouseover="this.style.color='#c9a961'" onmouseout="this.style.color='white'">📍 Santa Clarita</a>
+                    <a href="locations/arcadia.html" style="color: white !important; text-decoration: none; transition: color 0.3s; white-space: nowrap;" onmouseover="this.style.color='#c9a961'" onmouseout="this.style.color='white'">📍 Arcadia</a>
+                    <a href="trust-administration-attorney-long-beach.html" style="color: white !important; text-decoration: none; transition: color 0.3s; white-space: nowrap;" onmouseover="this.style.color='#c9a961'" onmouseout="this.style.color='white'">📍 Long Beach</a>
+                    <a href="trust-administration-attorney-torrance.html" style="color: white !important; text-decoration: none; transition: color 0.3s; white-space: nowrap;" onmouseover="this.style.color='#c9a961'" onmouseout="this.style.color='white'">📍 Torrance</a>
+                    <a href="trust-administration-attorney-alhambra.html" style="color: white !important; text-decoration: none; transition: color 0.3s; white-space: nowrap;" onmouseover="this.style.color='#c9a961'" onmouseout="this.style.color='white'">📍 Alhambra</a>
+                    <a href="trust-administration-attorney-whittier.html" style="color: white !important; text-decoration: none; transition: color 0.3s; white-space: nowrap;" onmouseover="this.style.color='#c9a961'" onmouseout="this.style.color='white'">📍 Whittier</a>
+                    <a href="trust-administration-attorney-downey.html" style="color: white !important; text-decoration: none; transition: color 0.3s; white-space: nowrap;" onmouseover="this.style.color='#c9a961'" onmouseout="this.style.color='white'">📍 Downey</a>
+                    <a href="trust-administration-attorney-west-covina.html" style="color: white !important; text-decoration: none; transition: color 0.3s; white-space: nowrap;" onmouseover="this.style.color='#c9a961'" onmouseout="this.style.color='white'">📍 West Covina</a>
+                    <a href="locations/santa-barbara.html" style="color: white !important; text-decoration: none; transition: color 0.3s; white-space: nowrap;" onmouseover="this.style.color='#c9a961'" onmouseout="this.style.color='white'">📍 Santa Barbara</a>
+                    <a href="locations/montecito.html" style="color: white !important; text-decoration: none; transition: color 0.3s; white-space: nowrap;" onmouseover="this.style.color='#c9a961'" onmouseout="this.style.color='white'">📍 Montecito</a>
+                    <a href="locations/goleta.html" style="color: white !important; text-decoration: none; transition: color 0.3s; white-space: nowrap;" onmouseover="this.style.color='#c9a961'" onmouseout="this.style.color='white'">📍 Goleta</a>
+                    <a href="locations/hope-ranch.html" style="color: white !important; text-decoration: none; transition: color 0.3s; white-space: nowrap;" onmouseover="this.style.color='#c9a961'" onmouseout="this.style.color='white'">📍 Hope Ranch</a>
+                    <a href="locations/carpinteria.html" style="color: white !important; text-decoration: none; transition: color 0.3s; white-space: nowrap;" onmouseover="this.style.color='#c9a961'" onmouseout="this.style.color='white'">📍 Carpinteria</a>
+                    <a href="locations/santa-ynez.html" style="color: white !important; text-decoration: none; transition: color 0.3s; white-space: nowrap;" onmouseover="this.style.color='#c9a961'" onmouseout="this.style.color='white'">📍 Santa Ynez Valley</a>
+                    <a href="locations/santa-barbara-county.html" style="color: white !important; text-decoration: none; transition: color 0.3s; white-space: nowrap;" onmouseover="this.style.color='#c9a961'" onmouseout="this.style.color='white'">📍 Santa Barbara County</a>
                 </div>
             </div>
 
@@ -1024,18 +1163,55 @@
     </footer>
 
     <script>
+        // Mobile menu toggle
+        function toggleMenu() {
+            const navMenu = document.getElementById('navMenu');
+            navMenu.classList.toggle('active');
+        }
+
+        // Mobile dropdown toggle
+        document.querySelectorAll('.nav-item').forEach(item => {
+            item.addEventListener('click', function(e) {
+                if (window.innerWidth <= 992) {
+                    if (e.target.classList.contains('has-dropdown')) {
+                        e.preventDefault();
+                        this.classList.toggle('active');
+                    }
+                }
+            });
+        });
+
+        // Close mobile menu when clicking outside
+        document.addEventListener('click', function(e) {
+            const navMenu = document.getElementById('navMenu');
+            const mobileToggle = document.querySelector('.mobile-toggle');
+
+            if (!navMenu.contains(e.target) && !mobileToggle.contains(e.target)) {
+                navMenu.classList.remove('active');
+            }
+        });
+
+        // FAQ Toggle
         function toggleFAQ(element) {
             const faqItem = element.parentElement;
             const isActive = faqItem.classList.contains('active');
 
-            // Close all FAQ items
             document.querySelectorAll('.faq-item').forEach(item => {
                 item.classList.remove('active');
             });
 
-            // Open clicked item if it wasn't active
             if (!isActive) {
                 faqItem.classList.add('active');
+            }
+        }
+
+        // Phone click tracking
+        function trackPhoneClick() {
+            if (typeof gtag !== 'undefined') {
+                gtag('event', 'phone_click', {
+                    'event_category': 'engagement',
+                    'event_label': 'phone_number'
+                });
             }
         }
     </script>
