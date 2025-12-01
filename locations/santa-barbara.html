@@ -183,60 +183,85 @@
             overflow-x: hidden;
         }
 
-        /* Navigation */
-        .navbar {
-            background: var(--primary-blue);
-            padding: 15px 0;
-            position: fixed;
-            width: 100%;
-            top: 0;
-            z-index: 1000;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-        }
-
         .container {
             max-width: 1200px;
             margin: 0 auto;
             padding: 0 20px;
         }
 
-        .nav-container {
+        /* Top Bar */
+        .top-bar {
+            background: var(--primary-blue);
+            color: white;
+            padding: 10px 0;
+            font-size: 14px;
+        }
+
+        .top-bar .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .top-bar a {
+            color: var(--accent-gold);
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        /* Header */
+        header {
+            background: white;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        nav {
+            padding: 15px 0;
+        }
+
+        nav .container {
             display: flex;
             justify-content: space-between;
             align-items: center;
         }
 
         .logo {
-            font-family: 'Playfair Display', serif;
-            font-size: 24px;
-            color: white;
-            text-decoration: none;
-            font-weight: 700;
-        }
-
-        .nav-links {
             display: flex;
-            gap: 30px;
-            list-style: none;
-        }
-
-        .nav-links a {
-            color: white;
+            align-items: center;
             text-decoration: none;
-            transition: color 0.3s;
         }
 
-        .nav-links a:hover {
-            color: var(--accent-gold);
+        .firm-name {
+            font-family: 'Playfair Display', serif;
+            font-size: 18px;
+            font-weight: 700;
+            color: var(--primary-blue);
+        }
+
+        .cta-button {
+            background: var(--accent-gold);
+            color: white;
+            padding: 12px 30px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s;
+        }
+
+        .cta-button:hover {
+            background: #b8982f;
+            transform: translateY(-2px);
         }
 
         /* Hero Section */
         .hero {
-            background: linear-gradient(rgba(30, 58, 95, 0.85), rgba(30, 58, 95, 0.85)), url('../images/about-hero.webp') center/cover;
+            background: linear-gradient(135deg, var(--primary-blue) 0%, #2c4a6f 100%);
             color: white;
-            padding: 180px 0 100px;
+            padding: 80px 0 60px;
             text-align: center;
-            margin-top: 60px;
         }
 
         .hero h1 {
@@ -246,38 +271,17 @@
             line-height: 1.2;
         }
 
-        .hero p {
+        .hero .subtitle {
             font-size: 20px;
             margin-bottom: 30px;
-            opacity: 0.95;
+            color: rgba(255,255,255,0.9);
         }
 
-        .cta-button {
-            display: inline-block;
-            background: var(--accent-gold);
-            color: white;
-            padding: 15px 40px;
-            border-radius: 50px;
-            text-decoration: none;
-            font-weight: 600;
-            transition: all 0.3s;
-            margin: 10px;
-        }
-
-        .cta-button:hover {
-            background: #b8982f;
-            transform: translateY(-2px);
-            box-shadow: 0 5px 15px rgba(201, 169, 97, 0.3);
-        }
-
-        .cta-secondary {
-            background: transparent;
-            border: 2px solid white;
-        }
-
-        .cta-secondary:hover {
-            background: white;
-            color: var(--primary-blue);
+        .hero .cta-buttons {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
         }
 
         /* Trust Badges */
@@ -510,10 +514,6 @@
                 font-size: 32px;
             }
 
-            .hero p {
-                font-size: 16px;
-            }
-
             h2 {
                 font-size: 28px;
             }
@@ -522,8 +522,20 @@
                 font-size: 20px;
             }
 
-            .nav-links {
-                display: none;
+            .hero .cta-buttons {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .cta-button {
+                width: 100%;
+                max-width: 300px;
+                text-align: center;
+            }
+
+            .top-bar .container {
+                flex-direction: column;
+                gap: 8px;
             }
 
             .badges-grid {
@@ -565,31 +577,49 @@
     </style>
 </head>
 <body>
-    <!-- Navigation -->
-    <nav class="navbar">
+    <!-- Top Bar -->
+    <div class="top-bar">
         <div class="container">
-            <div class="nav-container">
-                <a href="../index.html" class="logo">Law Offices of Rozsa Gyene</a>
-                <ul class="nav-links">
-                    <li><a href="../index.html">Home</a></li>
-                    <li><a href="../about.html">About</a></li>
-                    <li><a href="tel:8182916217">Call (818) 291-6217</a></li>
-                </ul>
+            <div>
+                <i class="fas fa-phone"></i>
+                <a href="tel:8182916217">(818) 291-6217</a>
+            </div>
+            <div>
+                <i class="fas fa-envelope"></i>
+                <a href="mailto:rozsagyenelaw@yahoo.com">rozsagyenelaw@yahoo.com</a>
             </div>
         </div>
-    </nav>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="container">
+                <a href="../index.html" class="logo">
+                    <span class="firm-name">Law Offices of Rozsa Gyene</span>
+                </a>
+                <a href="tel:8182916217" class="cta-button">
+                    <i class="fas fa-phone"></i> Call Now
+                </a>
+            </div>
+        </nav>
+    </header>
 
     <!-- Hero Section -->
-    <section class="hero">
+    <div class="hero">
         <div class="container">
-            <h1>Living Trust & Estate Planning Attorney Serving Santa Barbara, California</h1>
-            <p>Comprehensive Estate Planning, Probate, and Trust Litigation Services for Santa Barbara County Residents</p>
-            <div>
-                <a href="tel:8182916217" class="cta-button">Call (818) 291-6217</a>
-                <a href="#contact" class="cta-button cta-secondary">Free Consultation</a>
+            <h1>Santa Barbara Probate Attorney</h1>
+            <p class="subtitle">Expert Probate, Administration & Estate Administration in Santa Barbara County</p>
+            <div class="cta-buttons">
+                <a href="tel:8182916217" class="cta-button">
+                    <i class="fas fa-phone"></i> Free Consultation: (818) 291-6217
+                </a>
+                <a href="mailto:rozsagyenelaw@yahoo.com" class="cta-button">
+                    <i class="fas fa-envelope"></i> Email Us
+                </a>
             </div>
         </div>
-    </section>
+    </div>
 
     <!-- Trust Badges -->
     <section class="trust-badges">
