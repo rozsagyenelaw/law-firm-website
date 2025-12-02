@@ -2426,9 +2426,58 @@
             }
         }
 
+        /* Skip Navigation Link - WCAG AA Compliance */
+        .skip-to-content {
+            position: absolute;
+            top: -40px;
+            left: 0;
+            background: var(--primary-blue);
+            color: white;
+            padding: 8px 16px;
+            text-decoration: none;
+            z-index: 10000;
+            font-weight: 600;
+            border-radius: 0 0 4px 0;
+        }
+
+        .skip-to-content:focus {
+            top: 0;
+            outline: 3px solid var(--accent-gold);
+            outline-offset: 2px;
+        }
+
+        /* Focus Visible Styles - Enhanced Keyboard Navigation */
+        a:focus-visible,
+        button:focus-visible {
+            outline: 3px solid var(--accent-gold);
+            outline-offset: 2px;
+        }
+
+        /* High Contrast Focus for Dropdowns */
+        .dropdown-item:focus-visible {
+            background: var(--accent-gold);
+            color: var(--primary-blue);
+            outline: 2px solid var(--primary-blue);
+        }
+
+        /* Screen Reader Only Text - WCAG 2.4.4 */
+        .sr-only {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            white-space: nowrap;
+            border-width: 0;
+        }
     </style>
 </head>
 <body>
+    <!-- Skip Navigation for Keyboard Users - WCAG 2.4.1 -->
+    <a href="#main-content" class="skip-to-content">Skip to main content</a>
+
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N2PW6VX7"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -2443,13 +2492,13 @@
                     <i class="fas fa-certificate"></i> <a href="https://apps.calbar.ca.gov/attorney/Licensee/Detail/208356" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit;">Licensed California Attorney - Bar #208356</a>
                 </div>
                 <div>
-                    <i class="fas fa-phone"></i> Free Consultation: <a href="tel:8182916217">(818) 291-6217</a>
+                    <i class="fas fa-phone" aria-hidden="true"></i> Free Consultation: <a href="tel:8182916217" aria-label="Call Law Offices of Rozsa Gyene at 818-291-6217">(818) 291-6217</a>
                 </div>
             </div>
         </div>
 
         <!-- Main Navigation Inside Hero -->
-        <header>
+        <header role="banner">
             <nav>
                 <div class="container">
                     <a href="index.html" class="logo">
@@ -2460,16 +2509,16 @@
                     </a>
 
                     <a href="tel:8182916217" class="nav-phone-cta" onclick="trackPhoneClick()">
-                        <i class="fas fa-phone"></i> (818) 291-6217
+                        <i class="fas fa-phone" aria-hidden="true"></i> (818) 291-6217
                     </a>
 
-                    <button class="mobile-toggle" onclick="toggleMenu()">
-                        <i class="fas fa-bars"></i>
+                    <button class="mobile-toggle" onclick="toggleMenu()" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="navMenu">
+                        <i class="fas fa-bars" aria-hidden="true"></i>
                     </button>
 
                     <ul class="nav-menu" id="navMenu">
-                        <button class="close-menu" onclick="toggleMenu()">
-                            <i class="fas fa-times"></i>
+                        <button class="close-menu" onclick="toggleMenu()" aria-label="Close navigation menu">
+                            <i class="fas fa-times" aria-hidden="true"></i>
                         </button>
 
                         <li class="nav-item">
@@ -2480,8 +2529,8 @@
                         </li>
 
                         <li class="nav-item">
-                            <a href="#" class="nav-link has-dropdown">Estate Planning</a>
-                            <div class="dropdown">
+                            <a href="#" class="nav-link has-dropdown" aria-haspopup="true" aria-expanded="false">Estate Planning</a>
+                            <div class="dropdown" role="menu" aria-label="Estate Planning submenu">
                                 <a href="estate-planning-attorney-glendale.html" class="dropdown-item">Estate Planning Attorney Glendale</a>
                                 <a href="living-trusts.html" class="dropdown-item">Living Trusts</a>
                                 <a href="wills.html" class="dropdown-item">Wills & Last Testament</a>
@@ -2504,8 +2553,8 @@
                         </li>
 
                         <li class="nav-item">
-                            <a href="#" class="nav-link has-dropdown">Probate</a>
-                            <div class="dropdown">
+                            <a href="#" class="nav-link has-dropdown" aria-haspopup="true" aria-expanded="false">Probate</a>
+                            <div class="dropdown" role="menu" aria-label="Estate Planning submenu">
                                 <a href="probate.html" class="dropdown-item">Probate Services</a>
                                 <a href="probate-attorney-glendale.html" class="dropdown-item">Probate Attorney Glendale</a>
                                 <a href="probate-intake-form.html" class="dropdown-item">Probate Intake Form</a>
@@ -2513,16 +2562,16 @@
                         </li>
 
                         <li class="nav-item">
-                            <a href="#" class="nav-link has-dropdown">Conservatorship</a>
-                            <div class="dropdown">
+                            <a href="#" class="nav-link has-dropdown" aria-haspopup="true" aria-expanded="false">Conservatorship</a>
+                            <div class="dropdown" role="menu" aria-label="Estate Planning submenu">
                                 <a href="conservatorship.html" class="dropdown-item">Conservatorship Services</a>
                                 <a href="conservatorship-questionnaire.html" class="dropdown-item">Conservatorship Form</a>
                             </div>
                         </li>
 
                         <li class="nav-item">
-                            <a href="#" class="nav-link has-dropdown">Guardianship</a>
-                            <div class="dropdown">
+                            <a href="#" class="nav-link has-dropdown" aria-haspopup="true" aria-expanded="false">Guardianship</a>
+                            <div class="dropdown" role="menu" aria-label="Estate Planning submenu">
                                 <a href="guardianship.html" class="dropdown-item">Guardianship Services</a>
                                 <a href="guardianship-questionnaire.html" class="dropdown-item">Guardianship Form</a>
                             </div>
@@ -2563,7 +2612,7 @@
             <ol class="breadcrumb-list">
                 <li class="breadcrumb-item">
                     <a href="index.html">
-                        <i class="fas fa-home"></i> Home
+                        <i class="fas fa-home" aria-hidden="true"></i> Home
                     </a>
                 </li>
                 <li class="breadcrumb-separator" aria-hidden="true">/</li>
@@ -2576,7 +2625,7 @@
 
 
     <!-- Main Content Wrapper - Scrolls over hero -->
-    <div class="main-content">
+    <main id="main-content" role="main" class="main-content">
 
     <!-- Trust Badges Section -->
     <section style="padding: 50px 0; background: white;">
@@ -2837,7 +2886,7 @@
 
                 <div class="responsibility-card">
                     <div class="responsibility-icon">
-                        <i class="fas fa-home"></i>
+                        <i class="fas fa-home" aria-hidden="true"></i>
                     </div>
                     <h3>Asset Management</h3>
                     <p>Protect and maintain trust property, collect income, pay expenses, and invest assets prudently.</p>
@@ -3254,7 +3303,7 @@
                 </p>
                 <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
                     <a href="tel:8182916217" class="btn-primary" style="display: inline-flex; align-items: center; gap: 8px;">
-                        <i class="fas fa-phone"></i> Call (818) 291-6217
+                        <i class="fas fa-phone" aria-hidden="true"></i> Call (818) 291-6217
                     </a>
                     <a href="/trust-administration-questionnaire.html" class="btn-secondary" style="background: white; color: var(--primary-blue); border: 2px solid var(--primary-blue); display: inline-flex; align-items: center; gap: 8px;">
                         <i class="fas fa-file-alt"></i> Start Questionnaire
@@ -3392,7 +3441,7 @@
                 </p>
                 <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
                     <a href="tel:8182916217" class="btn-primary" style="display: inline-flex; align-items: center; gap: 8px;">
-                        <i class="fas fa-phone"></i> Call (818) 291-6217
+                        <i class="fas fa-phone" aria-hidden="true"></i> Call (818) 291-6217
                     </a>
                     <a href="/trust-administration-questionnaire.html" class="btn-secondary" style="background: white; color: var(--primary-blue); border: 2px solid white; display: inline-flex; align-items: center; gap: 8px;">
                         <i class="fas fa-file-alt"></i> Start Questionnaire
@@ -3622,7 +3671,7 @@
     </section>
 
     <!-- Footer -->
-    <footer>
+    <footer role="contentinfo">
         <div class="container">
             <div class="footer-content">
                 <div class="footer-section">
@@ -3656,8 +3705,8 @@
                     <h3>Contact Information</h3>
                     <p>450 N Brand Blvd. Suite 600<br>
                     Glendale, CA 91203</p>
-                    <p><a href="tel:8182916217">(818) 291-6217</a></p>
-                    <p><a href="mailto:rozsagyenelaw@yahoo.com">rozsagyenelaw@yahoo.com</a></p>
+                    <p><a href="tel:8182916217" aria-label="Call Law Offices of Rozsa Gyene at 818-291-6217">(818) 291-6217</a></p>
+                    <p><a href="mailto:rozsagyenelaw@yahoo.com" aria-label="Email Law Offices of Rozsa Gyene at rozsagyenelaw@yahoo.com">rozsagyenelaw@yahoo.com</a></p>
                 </div>
 
                 <div class="footer-section">

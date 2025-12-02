@@ -393,9 +393,58 @@
                 font-size: 13px;
             }
         }
+        /* Skip Navigation Link - WCAG AA Compliance */
+        .skip-to-content {
+            position: absolute;
+            top: -40px;
+            left: 0;
+            background: var(--primary-blue);
+            color: white;
+            padding: 8px 16px;
+            text-decoration: none;
+            z-index: 10000;
+            font-weight: 600;
+            border-radius: 0 0 4px 0;
+        }
+
+        .skip-to-content:focus {
+            top: 0;
+            outline: 3px solid var(--accent-gold);
+            outline-offset: 2px;
+        }
+
+        /* Focus Visible Styles - Enhanced Keyboard Navigation */
+        a:focus-visible,
+        button:focus-visible {
+            outline: 3px solid var(--accent-gold);
+            outline-offset: 2px;
+        }
+
+        /* High Contrast Focus for Dropdowns */
+        .dropdown-item:focus-visible {
+            background: var(--accent-gold);
+            color: var(--primary-blue);
+            outline: 2px solid var(--primary-blue);
+        }
+
+        /* Screen Reader Only Text - WCAG 2.4.4 */
+        .sr-only {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            white-space: nowrap;
+            border-width: 0;
+        }
     </style>
 </head>
 <body>
+    <!-- Skip Navigation for Keyboard Users - WCAG 2.4.1 -->
+    <a href="#main-content" class="skip-to-content">Skip to main content</a>
+
     <!-- Breadcrumbs -->
     <nav class="breadcrumbs" aria-label="Breadcrumb">
         <div class="breadcrumbs-container">

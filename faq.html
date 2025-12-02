@@ -303,15 +303,64 @@
                 font-size: 18px;
             }
         }
+        /* Skip Navigation Link - WCAG AA Compliance */
+        .skip-to-content {
+            position: absolute;
+            top: -40px;
+            left: 0;
+            background: var(--primary-blue);
+            color: white;
+            padding: 8px 16px;
+            text-decoration: none;
+            z-index: 10000;
+            font-weight: 600;
+            border-radius: 0 0 4px 0;
+        }
+
+        .skip-to-content:focus {
+            top: 0;
+            outline: 3px solid var(--accent-gold);
+            outline-offset: 2px;
+        }
+
+        /* Focus Visible Styles - Enhanced Keyboard Navigation */
+        a:focus-visible,
+        button:focus-visible {
+            outline: 3px solid var(--accent-gold);
+            outline-offset: 2px;
+        }
+
+        /* High Contrast Focus for Dropdowns */
+        .dropdown-item:focus-visible {
+            background: var(--accent-gold);
+            color: var(--primary-blue);
+            outline: 2px solid var(--primary-blue);
+        }
+
+        /* Screen Reader Only Text - WCAG 2.4.4 */
+        .sr-only {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            white-space: nowrap;
+            border-width: 0;
+        }
     </style>
 </head>
 <body>
+    <!-- Skip Navigation for Keyboard Users - WCAG 2.4.1 -->
+    <a href="#main-content" class="skip-to-content">Skip to main content</a>
+
     <!-- Top Bar -->
     <div class="top-bar">
         <div class="container">
             <div>
-                <a href="tel:8182916217"><i class="fas fa-phone"></i> (818) 291-6217</a>
-                <a href="mailto:rozsagyenelaw@yahoo.com"><i class="fas fa-envelope"></i> rozsagyenelaw@yahoo.com</a>
+                <a href="tel:8182916217" aria-label="Call Law Offices of Rozsa Gyene at 818-291-6217"><i class="fas fa-phone" aria-hidden="true"></i> (818) 291-6217</a>
+                <a href="mailto:rozsagyenelaw@yahoo.com" aria-label="Email Law Offices of Rozsa Gyene at rozsagyenelaw@yahoo.com"><i class="fas fa-envelope" aria-hidden="true"></i> rozsagyenelaw@yahoo.com</a>
             </div>
             <div>
                 <a href="https://portal.livingtrust-attorneys.com/book">Book Consultation</a>
@@ -320,7 +369,7 @@
     </div>
 
     <!-- Header -->
-    <header>
+    <header role="banner">
         <div class="container">
             <nav>
                 <div class="logo">Law Offices of Rozsa Gyene</div>
@@ -897,7 +946,7 @@
     </section>
 
     <!-- Footer -->
-    <footer>
+    <footer role="contentinfo">
         <div class="container">
             <div class="footer-content">
                 <div class="footer-section">
@@ -919,8 +968,8 @@
                 <div class="footer-section">
                     <h3>Contact Us</h3>
                     <p><i class="fas fa-map-marker-alt"></i> 450 N Brand Blvd. Suite 600<br>Glendale, CA 91203</p>
-                    <p><i class="fas fa-phone"></i> <a href="tel:8182916217">(818) 291-6217</a></p>
-                    <p><i class="fas fa-envelope"></i> <a href="mailto:rozsagyenelaw@yahoo.com">rozsagyenelaw@yahoo.com</a></p>
+                    <p><i class="fas fa-phone" aria-hidden="true"></i> <a href="tel:8182916217" aria-label="Call Law Offices of Rozsa Gyene at 818-291-6217">(818) 291-6217</a></p>
+                    <p><i class="fas fa-envelope" aria-hidden="true"></i> <a href="mailto:rozsagyenelaw@yahoo.com" aria-label="Email Law Offices of Rozsa Gyene at rozsagyenelaw@yahoo.com">rozsagyenelaw@yahoo.com</a></p>
                 </div>
             </div>
 

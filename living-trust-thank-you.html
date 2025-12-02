@@ -290,9 +290,58 @@
                 text-align: center;
             }
         }
+        /* Skip Navigation Link - WCAG AA Compliance */
+        .skip-to-content {
+            position: absolute;
+            top: -40px;
+            left: 0;
+            background: var(--primary-blue);
+            color: white;
+            padding: 8px 16px;
+            text-decoration: none;
+            z-index: 10000;
+            font-weight: 600;
+            border-radius: 0 0 4px 0;
+        }
+
+        .skip-to-content:focus {
+            top: 0;
+            outline: 3px solid var(--accent-gold);
+            outline-offset: 2px;
+        }
+
+        /* Focus Visible Styles - Enhanced Keyboard Navigation */
+        a:focus-visible,
+        button:focus-visible {
+            outline: 3px solid var(--accent-gold);
+            outline-offset: 2px;
+        }
+
+        /* High Contrast Focus for Dropdowns */
+        .dropdown-item:focus-visible {
+            background: var(--accent-gold);
+            color: var(--primary-blue);
+            outline: 2px solid var(--primary-blue);
+        }
+
+        /* Screen Reader Only Text - WCAG 2.4.4 */
+        .sr-only {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            white-space: nowrap;
+            border-width: 0;
+        }
     </style>
 </head>
 <body>
+    <!-- Skip Navigation for Keyboard Users - WCAG 2.4.1 -->
+    <a href="#main-content" class="skip-to-content">Skip to main content</a>
+
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N2PW6VX7"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -362,7 +411,7 @@
             <div class="contact-info">
                 <h3>Need Immediate Assistance?</h3>
                 <p>Call us directly at</p>
-                <p><a href="tel:8182916217"><i class="fas fa-phone"></i> (818) 291-6217</a></p>
+                <p><a href="tel:8182916217" aria-label="Call Law Offices of Rozsa Gyene at 818-291-6217"><i class="fas fa-phone" aria-hidden="true"></i> (818) 291-6217</a></p>
                 <p>Monday - Friday: 9:00 AM - 5:00 PM</p>
             </div>
         </div>
