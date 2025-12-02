@@ -65,6 +65,7 @@
             }
         ]
     }
+    </script>
 
     <!-- LocalBusiness Schema -->
     <script type="application/ld+json">
@@ -143,10 +144,40 @@
             "priceCurrency": "USD"
           }
         ]
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "127",
+        "bestRating": "5",
+        "worstRating": "1"
       }
     }
     </script>
 
+    <!-- Service Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Special Needs Trust Planning",
+      "name": "Special Needs Trust Attorney Services",
+      "description": "Comprehensive special needs trust planning to protect disabled beneficiaries while preserving eligibility for government benefits including SSI and Medi-Cal.",
+      "provider": {
+        "@type": "Attorney",
+        "name": "Law Offices of Rozsa Gyene"
+      },
+      "areaServed": {
+        "@type": "State",
+        "name": "California"
+      },
+      "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/InStock",
+        "priceCurrency": "USD",
+        "price": "575"
+      }
+    }
     </script>
 
     <!-- Breadcrumb Schema -->
