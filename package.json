@@ -8,7 +8,10 @@
     "add-content": "node build-scripts/add-content-sections.js",
     "probate-powerup": "node build-scripts/probate-powerup.js",
     "minify": "node build-scripts/minify.js",
-    "build": "npm run add-related && npm run enhance-meta && npm run add-content && npm run probate-powerup && npm run minify"
+    "build": "npm run add-related && npm run enhance-meta && npm run add-content && npm run probate-powerup && npm run minify",
+    "indexnow": "node indexnow-submit.js",
+    "indexnow:auto": "node indexnow-auto.js",
+    "indexnow:all": "node indexnow-auto.js --all"
   },
   "dependencies": {
     "googleapis": "^118.0.0",
