@@ -1053,6 +1053,67 @@
                 font-size: 13px;
             }
         }
+
+        /* Trust Badges Section */
+        .trust-badges {
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            padding: 40px 0;
+            border-bottom: 3px solid var(--accent-gold);
+        }
+
+        .trust-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 30px;
+            text-align: center;
+        }
+
+        .trust-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+            transition: transform 0.3s;
+        }
+
+        .trust-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .trust-item strong {
+            font-size: 16px;
+            color: var(--primary-blue);
+            margin-bottom: 5px;
+            display: block;
+        }
+
+        .trust-item span {
+            font-size: 14px;
+            color: var(--text-light);
+        }
+
+        @media (max-width: 768px) {
+            .trust-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 15px;
+            }
+
+            .trust-item {
+                padding: 15px;
+            }
+
+            .trust-item strong {
+                font-size: 14px;
+            }
+
+            .trust-item span {
+                font-size: 12px;
+            }
+        }
     </style>
 </head>
 <body>
@@ -1184,6 +1245,44 @@
             </div>
         </div>
     </section>
+
+    <!-- Trust Badges Section -->
+    <div class="trust-badges">
+        <div class="container">
+            <div class="trust-grid">
+                <div class="trust-item">
+                    <i class="fas fa-award" style="font-size: 36px; color: var(--accent-gold); margin-bottom: 10px;"></i>
+                    <strong>25+ Years Experience</strong>
+                    <span>Serving California Since 2001</span>
+                </div>
+                <div class="trust-item">
+                    <i class="fas fa-certificate" style="font-size: 36px; color: var(--accent-gold); margin-bottom: 10px;"></i>
+                    <strong>Licensed Attorney</strong>
+                    <span>California Bar #208356</span>
+                </div>
+                <div class="trust-item">
+                    <i class="fas fa-dollar-sign" style="font-size: 36px; color: var(--accent-gold); margin-bottom: 10px;"></i>
+                    <strong>Affordable Pricing</strong>
+                    <span>Living Trusts From $575</span>
+                </div>
+                <div class="trust-item">
+                    <i class="fas fa-comments" style="font-size: 36px; color: var(--accent-gold); margin-bottom: 10px;"></i>
+                    <strong>Free Consultation</strong>
+                    <span>No Obligation Case Review</span>
+                </div>
+                <div class="trust-item">
+                    <i class="fas fa-clock" style="font-size: 36px; color: var(--accent-gold); margin-bottom: 10px;"></i>
+                    <strong>Same-Day Response</strong>
+                    <span>Quick Turnaround Times</span>
+                </div>
+                <div class="trust-item">
+                    <i class="fas fa-star" style="font-size: 36px; color: var(--accent-gold); margin-bottom: 10px;"></i>
+                    <strong>4.8 Star Rating</strong>
+                    <span>42+ Client Reviews</span>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Main Content -->
     <div class="main-content">
