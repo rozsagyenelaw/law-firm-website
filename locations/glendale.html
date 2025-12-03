@@ -29,8 +29,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://cdnjs.cloudflare.com">
 
-    <!-- Preload hero images -->
-    <link rel="preload" as="image" href="../media/hero/family-generations.webp" fetchpriority="high">
+    <!-- Preload hero image -->
+    <link rel="preload" as="image" href="../media/hero/happy-clients.jpg" fetchpriority="high">
 
     <!-- Google Fonts -->
     <link rel="preload" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
@@ -1159,11 +1159,9 @@
             </nav>
         </header>
 
-        <!-- Hero Slider -->
+        <!-- Hero Background -->
         <div class="hero-slider">
-            <div class="hero-slide active" style="background-image: url('../media/hero/family-generations.webp');"></div>
-            <div class="hero-slide" style="background-image: url('../media/hero/estate-planning.webp');"></div>
-            <div class="hero-slide" style="background-image: url('../media/hero/glendale-downtown.webp');"></div>
+            <div class="hero-slide active" style="background-image: url('../media/hero/happy-clients.jpg');"></div>
         </div>
         <div class="hero-overlay"></div>
 
@@ -1805,20 +1803,6 @@
             // Add your analytics tracking code here if needed
             console.log('Phone click tracked');
         }
-
-        // Hero slider functionality
-        let currentSlide = 0;
-        const slides = document.querySelectorAll('.hero-slide');
-        const totalSlides = slides.length;
-
-        function nextSlide() {
-            slides[currentSlide].classList.remove('active');
-            currentSlide = (currentSlide + 1) % totalSlides;
-            slides[currentSlide].classList.add('active');
-        }
-
-        // Auto-advance slides every 5 seconds
-        setInterval(nextSlide, 5000);
     </script>
 </body>
 </html>
