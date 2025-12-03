@@ -29,6 +29,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://cdnjs.cloudflare.com">
 
+    <!-- Preload hero images -->
+    <link rel="preload" as="image" href="../media/hero/family-generations.webp" fetchpriority="high">
+
     <!-- Google Fonts -->
     <link rel="preload" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <noscript><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet"></noscript>
@@ -329,6 +332,11 @@
             color: white;
             padding: 10px 0;
             font-size: 14px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 101;
         }
 
         .top-bar .container {
@@ -345,10 +353,12 @@
 
         /* Header */
         header {
-            background: white;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-            position: sticky;
-            top: 0;
+            background: transparent;
+            box-shadow: none;
+            position: absolute;
+            top: 44px;
+            left: 0;
+            width: 100%;
             z-index: 100;
         }
 
@@ -366,13 +376,26 @@
             display: flex;
             align-items: center;
             text-decoration: none;
+            color: white;
+        }
+
+        .logo-text {
+            display: flex;
+            flex-direction: column;
         }
 
         .firm-name {
             font-family: 'Playfair Display', serif;
             font-size: 18px;
             font-weight: 700;
-            color: var(--primary-blue);
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+
+        .tagline {
+            font-size: 12px;
+            color: rgba(255,255,255,0.9);
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
         }
 
         .cta-button {
@@ -390,25 +413,96 @@
             transform: translateY(-2px);
         }
 
-        /* Hero Section */
+        /* Hero Section with Slider */
         .hero {
-            background: linear-gradient(135deg, var(--primary-blue) 0%, #2c4a6f 100%);
+            position: sticky;
+            top: 0;
+            height: 100vh;
+            min-height: 600px;
+            overflow: hidden;
             color: white;
-            padding: 80px 0 60px;
+            z-index: 1;
+        }
+
+        .hero-slider {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+        }
+
+        .hero-slide {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-size: cover;
+            background-position: center;
+            opacity: 0;
+            transition: opacity 1.5s ease-in-out;
+        }
+
+        .hero-slide.active {
+            opacity: 1;
+        }
+
+        .hero-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.5);
+            z-index: 2;
+        }
+
+        .hero-content-wrapper {
+            position: absolute;
+            bottom: 80px;
+            left: 0;
+            right: 0;
+            z-index: 3;
+            text-align: center;
+            width: 100%;
+        }
+
+        .hero-content-card {
+            background: rgba(255,255,255,0.08);
+            backdrop-filter: blur(15px);
+            border-radius: 20px;
+            padding: 40px 35px;
+            max-width: 900px;
+            margin: 0 auto;
+            border: 1px solid rgba(255,255,255,0.2);
+            box-shadow: 0 10px 40px rgba(0,0,0,0.3);
             text-align: center;
         }
 
         .hero h1 {
             font-family: 'Playfair Display', serif;
-            font-size: 48px;
+            font-size: 56px;
             margin-bottom: 20px;
             line-height: 1.2;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
         }
 
         .hero .subtitle {
-            font-size: 20px;
-            margin-bottom: 30px;
-            color: rgba(255,255,255,0.9);
+            font-size: 24px;
+            margin-bottom: 20px;
+            color: var(--accent-gold);
+            text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
+        }
+
+        .hero .hero-description {
+            font-size: 18px;
+            max-width: 800px;
+            margin: 0 auto 30px;
+            line-height: 1.8;
+            opacity: 0.95;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
         }
 
         .hero .cta-buttons {
@@ -416,6 +510,49 @@
             gap: 20px;
             justify-content: center;
             flex-wrap: wrap;
+        }
+
+        .btn-primary {
+            background: var(--accent-gold);
+            color: white;
+            padding: 15px 40px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 18px;
+            transition: all 0.3s;
+            display: inline-block;
+        }
+
+        .btn-primary:hover {
+            background: #b8982f;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(201,169,97,0.3);
+        }
+
+        .btn-secondary {
+            background: transparent;
+            color: white;
+            padding: 15px 40px;
+            border-radius: 50px;
+            border: 2px solid white;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 18px;
+            transition: all 0.3s;
+            display: inline-block;
+        }
+
+        .btn-secondary:hover {
+            background: white;
+            color: var(--primary-blue);
+        }
+
+        /* Main Content - Scrolls over hero */
+        .main-content {
+            position: relative;
+            z-index: 10;
+            background: white;
         }
 
         /* Content Sections */
@@ -504,10 +641,22 @@
 
         /* Footer */
         footer {
-            background: var(--primary-blue);
+            background: linear-gradient(135deg, #2a5298 0%, #1e3a5f 50%, #152b47 100%);
             color: white;
             padding: 40px 0 20px;
             text-align: center;
+            border-top: 4px solid var(--accent-gold);
+            position: relative;
+        }
+
+        footer::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 4px;
+            background: linear-gradient(90deg, var(--accent-gold) 0%, rgba(201,169,97,0.3) 100%);
         }
 
         footer a {
@@ -547,8 +696,20 @@
         }
 
         @media (max-width: 768px) {
+            .hero-content-wrapper {
+                bottom: 40px;
+            }
+
             .hero h1 {
-                font-size: 32px;
+                font-size: 36px;
+            }
+
+            .hero .subtitle {
+                font-size: 18px;
+            }
+
+            .hero-content-card {
+                padding: 30px 20px;
             }
 
             h2 {
@@ -560,7 +721,7 @@
                 align-items: center;
             }
 
-            .cta-button {
+            .cta-button, .btn-primary, .btn-secondary {
                 width: 100%;
                 max-width: 300px;
                 text-align: center;
@@ -634,51 +795,69 @@
     </style>
 </head>
 <body>
-    <!-- Top Bar -->
-    <div class="top-bar">
-        <div class="container">
-            <div>
-                <i class="fas fa-phone"></i>
-                <a href="tel:8182916217">(818) 291-6217</a>
-            </div>
-            <div>
-                <i class="fas fa-envelope"></i>
-                <a href="mailto:rozsagyenelaw@yahoo.com">rozsagyenelaw@yahoo.com</a>
-            </div>
-        </div>
-    </div>
-
-    <!-- Header -->
-    <header>
-        <nav>
+    <!-- Hero Section with Slider -->
+    <section class="hero">
+        <!-- Top Bar -->
+        <div class="top-bar">
             <div class="container">
-                <a href="../index.html" class="logo">
-                    <span class="firm-name">Law Offices of Rozsa Gyene</span>
-                </a>
-                <a href="tel:8182916217" class="cta-button">
-                    <i class="fas fa-phone"></i> Call Now
-                </a>
-            </div>
-        </nav>
-    </header>
-
-    <!-- Hero Section -->
-    <div class="hero">
-        <div class="container">
-            <h1>Estate Planning Attorney Glendale CA | From $575</h1>
-            <p class="subtitle">Glendale Trusts and Estate Planning Attorney | Wills Attorney Glendale CA | 25+ Years Experience | 450 N Brand Blvd</p>
-            <div class="cta-buttons">
-                <a href="tel:8182916217" class="cta-button">
-                    <i class="fas fa-phone"></i> Free Consultation: (818) 291-6217
-                </a>
-                <a href="mailto:rozsagyenelaw@yahoo.com" class="cta-button">
-                    <i class="fas fa-envelope"></i> Email Us
-                </a>
+                <div>
+                    <i class="fas fa-phone"></i>
+                    <a href="tel:8182916217">(818) 291-6217</a>
+                </div>
+                <div>
+                    <i class="fas fa-envelope"></i>
+                    <a href="mailto:rozsagyenelaw@yahoo.com">rozsagyenelaw@yahoo.com</a>
+                </div>
             </div>
         </div>
-    </div>
+
+        <!-- Header -->
+        <header>
+            <nav>
+                <div class="container">
+                    <a href="../index.html" class="logo">
+                        <div class="logo-text">
+                            <span class="firm-name">Law Offices of Rozsa Gyene</span>
+                            <span class="tagline">Estate Planning & Trust Specialists Since 1999</span>
+                        </div>
+                    </a>
+                    <a href="tel:8182916217" class="cta-button">
+                        <i class="fas fa-phone"></i> Call Now
+                    </a>
+                </div>
+            </nav>
+        </header>
+
+        <!-- Hero Slider -->
+        <div class="hero-slider">
+            <div class="hero-slide active" style="background-image: url('../media/hero/family-generations.webp');"></div>
+            <div class="hero-slide" style="background-image: url('../media/hero/estate-planning.webp');"></div>
+            <div class="hero-slide" style="background-image: url('../media/hero/glendale-downtown.webp');"></div>
+        </div>
+        <div class="hero-overlay"></div>
+
+        <!-- Hero Content -->
+        <div class="hero-content-wrapper">
+            <div class="container">
+                <div class="hero-content-card">
+                    <h1>Estate Planning Attorney Glendale CA | From $575</h1>
+                    <p class="subtitle">Glendale Trusts and Estate Planning Attorney | Wills Attorney Glendale CA</p>
+                    <p class="hero-description">Serving Glendale families for 25+ years at 450 N Brand Blvd, Suite 600. Protect your family's future with comprehensive estate planning from experienced California attorneys.</p>
+                    <div class="cta-buttons">
+                        <a href="tel:8182916217" class="btn-primary">
+                            <i class="fas fa-phone"></i> Free Consultation: (818) 291-6217
+                        </a>
+                        <a href="mailto:rozsagyenelaw@yahoo.com" class="btn-secondary">
+                            <i class="fas fa-envelope"></i> Email Us
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- Main Content -->
+    <div class="main-content">
     <section>
         <div class="container">
             <h2>Glendale Estate Planning Lawyer | Glendale California Estate Planning Lawyers</h2>
@@ -1281,5 +1460,23 @@
             </p>
         </div>
     </footer>
+    </div><!-- End main-content -->
+
+    <!-- Hero Slider Script -->
+    <script>
+        // Hero slider functionality
+        let currentSlide = 0;
+        const slides = document.querySelectorAll('.hero-slide');
+        const totalSlides = slides.length;
+
+        function nextSlide() {
+            slides[currentSlide].classList.remove('active');
+            currentSlide = (currentSlide + 1) % totalSlides;
+            slides[currentSlide].classList.add('active');
+        }
+
+        // Auto-advance slides every 5 seconds
+        setInterval(nextSlide, 5000);
+    </script>
 </body>
 </html>
