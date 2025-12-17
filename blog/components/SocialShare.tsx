@@ -8,7 +8,7 @@ interface SocialShareProps {
 }
 
 export default function SocialShare({ title, slug }: SocialShareProps) {
-  const url = `https://www.livingtrust-attorneys.com/blog/${slug}`
+  const url = `https://livingtrust-attorneys.com/blog/${slug}`
   const encodedUrl = encodeURIComponent(url)
   const encodedTitle = encodeURIComponent(title)
 
