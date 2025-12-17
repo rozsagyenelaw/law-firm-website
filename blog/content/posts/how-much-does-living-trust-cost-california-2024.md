@@ -1,5 +1,5 @@
 ---
-title: "How Much Does a Living Trust Cost in California in 2024?"
+title: "How Much Does a Living Trust Cost in California? [2025 Pricing Guide]"
 slug: "how-much-does-living-trust-cost-california-2024"
 publishDate: "2025-11-23"
 updatedDate: ""
@@ -18,11 +18,11 @@ metaDescription: "Living trust cost in California explained. Transparent pricing
 
 If you've been researching living trusts in California, you've probably noticed something frustrating: most attorneys won't tell you what they charge until you schedule a consultation. You'll see vague phrases like "affordable estate planning" or "competitive rates," but no actual numbers.
 
-As a Glendale estate planning attorney who believes in transparent pricing, I'm going to break down exactly what living trusts cost in California in 2024—including what you should expect to pay, what factors affect pricing, hidden fees to watch out for, and why the upfront investment saves your family tens of thousands of dollars in probate costs.
+As a Glendale estate planning attorney who believes in transparent pricing, I'm going to break down exactly what living trusts cost in California—including what you should expect to pay, what factors affect pricing, hidden fees to watch out for, and why the upfront investment saves your family tens of thousands of dollars in probate costs.
 
 ## The Short Answer: What Should You Expect to Pay?
 
-For most California families, a complete living trust package in 2024 costs between $1,500 and $5,000, depending on complexity and location. Here's the typical breakdown:
+For most California families, a complete living trust package costs between $1,500 and $5,000, depending on complexity and location. Here's the typical breakdown:
 
 **Low-End Pricing: $1,500-$2,500**
 - Simple estates
