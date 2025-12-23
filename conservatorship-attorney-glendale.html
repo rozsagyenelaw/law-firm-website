@@ -135,12 +135,19 @@
         .header-cta { display: flex; align-items: center; gap: 20px; }
         .header-phone { color: var(--accent-gold); text-decoration: none; font-weight: 600; font-size: 18px; }
         .header-phone i { margin-right: 8px; }
-        .nav-menu { display: flex; list-style: none; gap: 5px; }
-        .nav-link { color: #fff; text-decoration: none; padding: 10px 15px; font-weight: 500; transition: color 0.3s; }
+        .nav-menu { display: flex; list-style: none; gap: 0; align-items: center; }
+        .nav-item { position: relative; }
+        .nav-link { display: block; padding: 10px 15px; color: #fff; text-decoration: none; font-weight: 500; transition: all 0.3s; }
         .nav-link:hover { color: var(--accent-gold); }
+        .dropdown { position: absolute; top: 100%; left: 0; min-width: 250px; background: #fff; box-shadow: 0 5px 20px rgba(0,0,0,0.15); border-radius: 8px; opacity: 0; visibility: hidden; transform: translateY(-10px); transition: all 0.3s; border-top: 3px solid var(--accent-gold); max-height: 400px; overflow-y: auto; z-index: 1000; }
+        .nav-item:hover .dropdown { opacity: 1; visibility: visible; transform: translateY(0); }
+        .dropdown-item { display: block; padding: 12px 20px; color: var(--text-dark); text-decoration: none; transition: all 0.3s; border-bottom: 1px solid #f0f0f0; font-size: 15px; }
+        .dropdown-item:hover { background: #f8f9fa; color: var(--accent-gold); padding-left: 25px; }
+        .dropdown-item:last-child { border-bottom: none; }
+        .mobile-menu-btn { display: none; background: none; border: none; color: #fff; font-size: 24px; cursor: pointer; }
 
         /* Hero */
-        .hero { background: linear-gradient(rgba(30,58,95,0.9), rgba(30,58,95,0.9)), url('images/senior-couple-beach-sunset.webp') center/cover; color: #fff; padding: 100px 0 80px; text-align: center; }
+        .hero { background: linear-gradient(rgba(30,58,95,0.9), rgba(30,58,95,0.9)), url('images/senior-couple-beach-sunset.webp') center/cover no-repeat; color: #fff; padding: 100px 0 80px; text-align: center; position: sticky; top: 0; min-height: 100vh; z-index: 0; }
         .hero h1 { font-family: 'Playfair Display', serif; font-size: 46px; margin-bottom: 20px; line-height: 1.2; }
         .hero-tagline { font-size: 22px; color: var(--accent-gold); margin-bottom: 20px; }
         .hero-description { font-size: 18px; max-width: 850px; margin: 0 auto 30px; line-height: 1.7; }
@@ -148,21 +155,21 @@
         .btn-primary:hover { background: #b8982f; transform: translateY(-2px); box-shadow: 0 5px 20px rgba(201,169,97,0.4); }
         .phone-large { display: block; font-size: 30px; color: var(--accent-gold); font-weight: 700; text-decoration: none; margin-top: 25px; }
 
-        /* Breadcrumbs */
-        .breadcrumbs { background: #f8f9fa; padding: 15px 0; border-bottom: 1px solid #dee2e6; }
-        .breadcrumb-list { display: flex; flex-wrap: wrap; list-style: none; gap: 8px; align-items: center; }
-        .breadcrumb-item a { color: var(--primary-blue); text-decoration: none; }
-        .breadcrumb-item a:hover { color: var(--accent-gold); }
-        .breadcrumb-separator { color: #6c757d; }
+        /* Trust Badges */
+        .trust-badges { background: #fff; padding: 25px 0; border-bottom: 1px solid #eee; position: relative; z-index: 5; }
+        .badges-container { display: flex; justify-content: center; align-items: center; flex-wrap: wrap; gap: 40px; }
+        .badge-item { display: flex; align-items: center; gap: 12px; color: var(--text-dark); }
+        .badge-item i { font-size: 24px; color: var(--accent-gold); }
+        .badge-item span { font-weight: 600; font-size: 15px; }
 
         /* Content Sections */
-        .content-section { padding: 70px 0; }
+        .content-section { padding: 70px 0; position: relative; z-index: 5; background: #fff; }
         .content-section h2 { font-family: 'Playfair Display', serif; font-size: 34px; color: var(--primary-blue); margin-bottom: 25px; }
         .content-section h3 { font-size: 24px; color: var(--primary-blue); margin-top: 35px; margin-bottom: 15px; font-weight: 600; }
         .content-section p { line-height: 1.8; margin-bottom: 20px; max-width: 900px; }
         .content-section ul { margin: 20px 0 20px 25px; }
         .content-section li { margin-bottom: 12px; line-height: 1.7; }
-        .alt-bg { background: var(--section-bg); }
+        .alt-bg { background: var(--section-bg); position: relative; z-index: 5; }
 
         /* Services Grid */
         .services-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 25px; margin: 35px 0; }
@@ -194,19 +201,30 @@
         .faq-item p { color: var(--text-dark); font-size: 16px; margin: 0; line-height: 1.8; }
 
         /* CTA */
-        .cta { background: linear-gradient(135deg, var(--primary-blue) 0%, #1a2f45 100%); color: #fff; padding: 60px 0; text-align: center; }
+        .cta { background: linear-gradient(135deg, var(--primary-blue) 0%, #1a2f45 100%); color: #fff; padding: 60px 0; text-align: center; position: relative; z-index: 5; }
         .cta h2 { font-family: 'Playfair Display', serif; font-size: 32px; margin-bottom: 15px; }
         .cta p { font-size: 18px; margin-bottom: 25px; opacity: 0.9; }
         .cta .phone-cta { color: var(--accent-gold); font-size: 28px; font-weight: 700; text-decoration: none; display: block; margin-bottom: 20px; }
         .cta .phone-cta:hover { color: #fff; }
 
         /* Footer */
-        footer { background: linear-gradient(135deg, #2a5298 0%, #1e3a5f 50%, #152b47 100%); color: #fff; padding: 50px 0 25px; }
-        .footer-content { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 35px; margin-bottom: 35px; }
+        footer { background: linear-gradient(135deg, #2a5298 0%, #1e3a5f 50%, #152b47 100%); color: #fff; padding: 50px 0 25px; position: relative; z-index: 5; }
+        .footer-content { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 35px; margin-bottom: 35px; }
         .footer-section h3 { color: var(--accent-gold); font-size: 18px; margin-bottom: 20px; font-family: 'Playfair Display', serif; }
-        .footer-section a { color: #fff; text-decoration: none; display: block; padding: 6px 0; opacity: 0.9; transition: all 0.3s; }
-        .footer-section a:hover { color: var(--accent-gold); opacity: 1; padding-left: 5px; }
-        .footer-section p { opacity: 0.9; line-height: 1.7; }
+        .footer-section p { opacity: 0.9; line-height: 1.7; font-size: 15px; }
+        .footer-section ul { list-style: none; padding: 0; margin: 0; }
+        .footer-section ul li { margin-bottom: 10px; }
+        .footer-section ul li a { color: #fff; text-decoration: none; opacity: 0.9; transition: all 0.3s; display: flex; align-items: center; gap: 8px; font-size: 15px; }
+        .footer-section ul li a:hover { color: var(--accent-gold); opacity: 1; }
+        .footer-section ul li a i { color: var(--accent-gold); font-size: 12px; }
+        .footer-cta-box { background: rgba(255,255,255,0.1); padding: 20px; border-radius: 10px; margin-top: 20px; }
+        .footer-cta-box h4 { color: #fff; font-size: 16px; margin-bottom: 10px; }
+        .footer-cta-box p { font-size: 14px; margin-bottom: 15px; }
+        .footer-cta-box .btn-primary { padding: 12px 25px; font-size: 14px; }
+        .footer-contact-item { display: flex; align-items: flex-start; gap: 12px; margin-bottom: 15px; }
+        .footer-contact-item i { color: var(--accent-gold); margin-top: 4px; }
+        .footer-contact-item a { color: #fff; text-decoration: none; opacity: 0.9; }
+        .footer-contact-item a:hover { color: var(--accent-gold); }
         .footer-bottom { text-align: center; padding-top: 25px; border-top: 1px solid rgba(255,255,255,0.1); font-size: 14px; opacity: 0.8; }
 
         /* Mobile */
@@ -214,15 +232,23 @@
         .mobile-call-button i { margin-right: 10px; }
         @media (max-width: 768px) {
             .hero h1 { font-size: 32px; }
-            .hero { padding: 70px 0 60px; }
+            .hero { padding: 70px 0 60px; position: relative; min-height: auto; }
             .content-section { padding: 50px 0; }
             .mobile-call-button { display: block; }
             .top-bar .container { justify-content: center; text-align: center; }
             .header-cta { display: none; }
-            .nav-menu { display: none; }
+            .mobile-menu-btn { display: block; }
+            .nav-menu { display: none; position: absolute; top: 100%; left: 0; right: 0; background: var(--primary-blue); flex-direction: column; padding: 20px; }
+            .nav-menu.active { display: flex; }
+            .nav-item { width: 100%; }
+            .dropdown { position: static; opacity: 1; visibility: visible; transform: none; box-shadow: none; border-radius: 0; border-top: none; background: rgba(255,255,255,0.1); max-height: none; }
+            .dropdown-item { color: #fff; border-bottom-color: rgba(255,255,255,0.1); }
+            .dropdown-item:hover { background: rgba(255,255,255,0.1); color: var(--accent-gold); }
             .services-grid { grid-template-columns: 1fr; }
             .process-step { padding-left: 70px; }
             .process-step::before { left: 15px; width: 35px; height: 35px; font-size: 16px; }
+            .badges-container { gap: 20px; }
+            .badge-item span { font-size: 13px; }
         }
     </style>
 </head>
@@ -237,17 +263,55 @@
     <header>
         <div class="container">
             <a href="index.html" class="logo">LAW OFFICES OF ROZSA GYENE</a>
-            <div class="header-cta">
-                <nav>
-                    <ul class="nav-menu">
-                        <li><a href="index.html" class="nav-link">Home</a></li>
-                        <li><a href="living-trusts.html" class="nav-link">Living Trusts</a></li>
-                        <li><a href="conservatorship.html" class="nav-link">Conservatorship</a></li>
-                        <li><a href="locations/glendale.html" class="nav-link">Glendale</a></li>
-                    </ul>
-                </nav>
-                <a href="tel:8182916217" class="header-phone"><i class="fas fa-phone"></i> (818) 291-6217</a>
-            </div>
+            <button class="mobile-menu-btn" onclick="toggleMenu()"><i class="fas fa-bars"></i></button>
+            <nav>
+                <ul class="nav-menu" id="navMenu">
+                    <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item">
+                        <a href="living-trusts.html" class="nav-link">Estate Planning <i class="fas fa-chevron-down" style="font-size: 12px; margin-left: 5px;"></i></a>
+                        <div class="dropdown">
+                            <a href="living-trusts.html" class="dropdown-item">Living Trusts</a>
+                            <a href="wills.html" class="dropdown-item">Wills</a>
+                            <a href="power-of-attorney.html" class="dropdown-item">Power of Attorney</a>
+                            <a href="healthcare-directive.html" class="dropdown-item">Healthcare Directive</a>
+                            <a href="special-needs-trust.html" class="dropdown-item">Special Needs Trust</a>
+                            <a href="estate-planning-questionnaire.html" class="dropdown-item">Estate Planning Form</a>
+                            <a href="trust-litigation-attorney-glendale.html" class="dropdown-item">Trust Litigation Attorney</a>
+                            <a href="conservatorship-attorney-glendale.html" class="dropdown-item">Conservatorship Attorney</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="probate.html" class="nav-link">Probate <i class="fas fa-chevron-down" style="font-size: 12px; margin-left: 5px;"></i></a>
+                        <div class="dropdown">
+                            <a href="probate.html" class="dropdown-item">Probate Overview</a>
+                            <a href="probate-attorney-glendale.html" class="dropdown-item">Probate Attorney Glendale</a>
+                            <a href="trust-administration.html" class="dropdown-item">Trust Administration</a>
+                            <a href="probate-intake-form.html" class="dropdown-item">Probate Intake Form</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="conservatorship.html" class="nav-link">Protective <i class="fas fa-chevron-down" style="font-size: 12px; margin-left: 5px;"></i></a>
+                        <div class="dropdown">
+                            <a href="conservatorship.html" class="dropdown-item">Conservatorship</a>
+                            <a href="guardianship.html" class="dropdown-item">Guardianship</a>
+                            <a href="conservatorship-questionnaire.html" class="dropdown-item">Conservatorship Form</a>
+                            <a href="guardianship-questionnaire.html" class="dropdown-item">Guardianship Form</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="locations/glendale.html" class="nav-link">Locations <i class="fas fa-chevron-down" style="font-size: 12px; margin-left: 5px;"></i></a>
+                        <div class="dropdown">
+                            <a href="locations/glendale.html" class="dropdown-item">Glendale</a>
+                            <a href="locations/burbank.html" class="dropdown-item">Burbank</a>
+                            <a href="locations/pasadena.html" class="dropdown-item">Pasadena</a>
+                            <a href="locations/los-angeles.html" class="dropdown-item">Los Angeles</a>
+                            <a href="locations/san-fernando-valley.html" class="dropdown-item">San Fernando Valley</a>
+                        </div>
+                    </li>
+                    <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                </ul>
+            </nav>
+            <a href="tel:8182916217" class="header-phone"><i class="fas fa-phone"></i> (818) 291-6217</a>
         </div>
     </header>
 
@@ -261,17 +325,32 @@
         </div>
     </section>
 
-    <nav class="breadcrumbs">
+    <section class="trust-badges">
         <div class="container">
-            <ol class="breadcrumb-list">
-                <li class="breadcrumb-item"><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
-                <li class="breadcrumb-separator">/</li>
-                <li class="breadcrumb-item"><a href="conservatorship.html">Conservatorship</a></li>
-                <li class="breadcrumb-separator">/</li>
-                <li class="breadcrumb-item active">Glendale</li>
-            </ol>
+            <div class="badges-container">
+                <div class="badge-item">
+                    <i class="fas fa-certificate"></i>
+                    <span>California State Bar Certified</span>
+                </div>
+                <div class="badge-item">
+                    <i class="fas fa-star"></i>
+                    <span>5-Star Google Reviews</span>
+                </div>
+                <div class="badge-item">
+                    <i class="fas fa-clock"></i>
+                    <span>25+ Years Experience</span>
+                </div>
+                <div class="badge-item">
+                    <i class="fas fa-handshake"></i>
+                    <span>Free Consultations</span>
+                </div>
+                <div class="badge-item">
+                    <i class="fas fa-phone"></i>
+                    <span>Same-Day Response</span>
+                </div>
+            </div>
         </div>
-    </nav>
+    </section>
 
     <section class="content-section">
         <div class="container">
@@ -447,40 +526,80 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-section">
-                    <h3>Contact Us</h3>
-                    <p>450 N Brand Blvd, Suite 600<br>Glendale, CA 91203</p>
-                    <p><a href="tel:8182916217">(818) 291-6217</a></p>
-                    <p><a href="mailto:rozsagyenelaw@yahoo.com">rozsagyenelaw@yahoo.com</a></p>
-                    <p style="margin-top: 15px;">Mon-Fri: 9:00 AM - 5:00 PM<br>Sat: By Appointment</p>
+                    <h3>About Our Firm</h3>
+                    <p>Law Offices of Rozsa Gyene has been serving Southern California families with dedication and expertise since 2001. We specialize in estate planning, probate, and protective proceedings.</p>
+                    <div class="footer-cta-box">
+                        <h4>Ready to Get Started?</h4>
+                        <p>Schedule your free consultation today</p>
+                        <a href="https://portal.livingtrust-attorneys.com/book" class="btn-primary">Book Consultation</a>
+                    </div>
                 </div>
                 <div class="footer-section">
-                    <h3>Conservatorship Services</h3>
-                    <a href="conservatorship.html"><i class="fas fa-chevron-right"></i> Conservatorship Overview</a>
-                    <a href="guardianship.html"><i class="fas fa-chevron-right"></i> Guardianship</a>
-                    <a href="conservatorship-questionnaire.html"><i class="fas fa-chevron-right"></i> Conservatorship Form</a>
-                    <a href="living-trusts.html"><i class="fas fa-chevron-right"></i> Living Trusts</a>
-                    <a href="power-of-attorney.html"><i class="fas fa-chevron-right"></i> Power of Attorney</a>
+                    <h3>Practice Areas</h3>
+                    <ul>
+                        <li><a href="living-trusts.html"><i class="fas fa-chevron-right"></i> Living Trusts</a></li>
+                        <li><a href="probate.html"><i class="fas fa-chevron-right"></i> Probate</a></li>
+                        <li><a href="conservatorship.html"><i class="fas fa-chevron-right"></i> Conservatorship</a></li>
+                        <li><a href="guardianship.html"><i class="fas fa-chevron-right"></i> Guardianship</a></li>
+                        <li><a href="special-needs-trust.html"><i class="fas fa-chevron-right"></i> Special Needs Trusts</a></li>
+                        <li><a href="asset-protection.html"><i class="fas fa-chevron-right"></i> Asset Protection</a></li>
+                    </ul>
                 </div>
                 <div class="footer-section">
-                    <h3>Locations</h3>
-                    <a href="locations/glendale.html"><i class="fas fa-map-marker-alt"></i> Glendale</a>
-                    <a href="locations/burbank.html"><i class="fas fa-map-marker-alt"></i> Burbank</a>
-                    <a href="locations/pasadena.html"><i class="fas fa-map-marker-alt"></i> Pasadena</a>
-                    <a href="locations/los-angeles.html"><i class="fas fa-map-marker-alt"></i> Los Angeles</a>
+                    <h3>Trust Administration</h3>
+                    <ul>
+                        <li><a href="trust-administration.html"><i class="fas fa-chevron-right"></i> Trust Administration</a></li>
+                        <li><a href="trust-administration-attorney-glendale.html"><i class="fas fa-map-marker-alt"></i> Glendale</a></li>
+                        <li><a href="trust-administration-attorney-burbank.html"><i class="fas fa-map-marker-alt"></i> Burbank</a></li>
+                        <li><a href="trust-administration-attorney-pasadena.html"><i class="fas fa-map-marker-alt"></i> Pasadena</a></li>
+                        <li><a href="trust-administration-attorney-los-angeles.html"><i class="fas fa-map-marker-alt"></i> Los Angeles</a></li>
+                        <li><a href="trust-administration-attorney-santa-clarita.html"><i class="fas fa-map-marker-alt"></i> Santa Clarita</a></li>
+                    </ul>
                 </div>
                 <div class="footer-section">
                     <h3>Resources</h3>
-                    <a href="conservatorship-questionnaire.html"><i class="fas fa-file-alt"></i> Conservatorship Form</a>
-                    <a href="guardianship-questionnaire.html"><i class="fas fa-file-alt"></i> Guardianship Form</a>
-                    <a href="https://portal.livingtrust-attorneys.com/" target="_blank"><i class="fas fa-sign-in-alt"></i> Client Portal</a>
+                    <ul>
+                        <li><a href="estate-planning-questionnaire.html"><i class="fas fa-file-alt"></i> Estate Planning Form</a></li>
+                        <li><a href="probate-intake-form.html"><i class="fas fa-file-alt"></i> Probate Intake Form</a></li>
+                        <li><a href="conservatorship-questionnaire.html"><i class="fas fa-file-alt"></i> Conservatorship Form</a></li>
+                        <li><a href="guardianship-questionnaire.html"><i class="fas fa-file-alt"></i> Guardianship Form</a></li>
+                        <li><a href="https://portal.livingtrust-attorneys.com/" target="_blank"><i class="fas fa-sign-in-alt"></i> Client Portal</a></li>
+                        <li><a href="https://livingtrustcalifornia.com" target="_blank"><i class="fas fa-laptop"></i> Online Living Trust</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Us</h3>
+                    <div class="footer-contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>450 N Brand Blvd. Suite 600<br>Glendale, CA 91203</div>
+                    </div>
+                    <div class="footer-contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div><a href="tel:8182916217">(818) 291-6217</a></div>
+                    </div>
+                    <div class="footer-contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div><a href="mailto:rozsagyenelaw@yahoo.com">rozsagyenelaw@yahoo.com</a></div>
+                    </div>
+                    <div class="footer-contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div>Mon-Fri: 9:00 AM - 5:00 PM<br>Sat: By Appointment<br>Sun: Closed</div>
+                    </div>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2025 Law Offices of Rozsa Gyene. All rights reserved. | <a href="https://apps.calbar.ca.gov/attorney/Licensee/Detail/208356" target="_blank" style="color: var(--accent-gold);">California State Bar #208356</a></p>
+                <p>&copy; 2025 Law Offices of Rozsa Gyene. All rights reserved. | <a href="https://apps.calbar.ca.gov/attorney/Licensee/Detail/208356" target="_blank" rel="noopener noreferrer" style="color: var(--accent-gold);">California State Bar #208356</a></p>
             </div>
         </div>
     </footer>
 
     <a href="tel:8182916217" class="mobile-call-button"><i class="fas fa-phone-alt"></i> CALL NOW - FREE CONSULTATION</a>
+
+    <script>
+        function toggleMenu() {
+            const navMenu = document.getElementById('navMenu');
+            navMenu.classList.toggle('active');
+        }
+    </script>
 </body>
 </html>
