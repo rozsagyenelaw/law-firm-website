@@ -219,13 +219,22 @@
         .cta .phone-cta:hover { color: #fff; }
 
         /* Footer */
-        footer { background: linear-gradient(135deg, #2a5298 0%, #1e3a5f 50%, #152b47 100%); color: #fff; padding: 50px 0 25px; position: relative; z-index: 5; }
-        .footer-content { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 35px; margin-bottom: 35px; }
-        .footer-section h3 { color: var(--accent-gold); font-size: 18px; margin-bottom: 20px; font-family: 'Playfair Display', serif; }
-        .footer-section a { color: #fff; text-decoration: none; display: block; padding: 6px 0; opacity: 0.9; transition: all 0.3s; }
-        .footer-section a:hover { color: var(--accent-gold); opacity: 1; padding-left: 5px; }
-        .footer-section p { opacity: 0.9; line-height: 1.7; }
-        .footer-bottom { text-align: center; padding-top: 25px; border-top: 1px solid rgba(255,255,255,0.1); font-size: 14px; opacity: 0.8; }
+        footer { background: linear-gradient(135deg, #2a5298 0%, #1e3a5f 50%, #152b47 100%); color: #fff; padding: 60px 0 30px; position: relative; z-index: 5; border-top: 4px solid var(--accent-gold); }
+        .footer-content { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 30px; margin-bottom: 40px; }
+        .footer-section h3 { color: var(--accent-gold); font-size: 20px; margin-bottom: 25px; font-family: 'Playfair Display', serif; font-weight: 600; }
+        .footer-section p { margin-bottom: 15px; line-height: 1.8; opacity: 0.9; }
+        .footer-section ul { list-style: none; }
+        .footer-section li { margin-bottom: 12px; }
+        .footer-section a { color: #fff; text-decoration: none; transition: all 0.3s; display: inline-flex; align-items: center; gap: 8px; padding: 4px 0; opacity: 0.9; }
+        .footer-section a:hover { color: var(--accent-gold); transform: translateX(5px); opacity: 1; }
+        .footer-section a i { font-size: 12px; color: var(--accent-gold); }
+        .footer-cta-box { background: rgba(201,169,97,0.15); padding: 25px; border-radius: 10px; border: 1px solid rgba(201,169,97,0.3); margin-top: 20px; }
+        .footer-cta-box h4 { color: var(--accent-gold); margin-bottom: 15px; font-size: 18px; }
+        .footer-cta-box p { margin-bottom: 15px; font-size: 14px; }
+        .footer-cta-box .btn-primary { width: 100%; text-align: center; padding: 12px 20px; font-size: 14px; }
+        .footer-contact-item { display: flex; align-items: center; gap: 12px; margin-bottom: 15px; }
+        .footer-contact-item i { color: var(--accent-gold); font-size: 18px; width: 24px; }
+        .footer-bottom { text-align: center; padding-top: 30px; border-top: 1px solid rgba(255,255,255,0.1); font-size: 14px; color: rgba(255,255,255,0.8); }
 
         /* Mobile */
         .mobile-call-button { display: none; position: fixed; bottom: 0; left: 0; right: 0; background: var(--accent-gold); color: #fff; padding: 18px; text-align: center; text-decoration: none; font-weight: 700; font-size: 18px; z-index: 9999; box-shadow: 0 -4px 15px rgba(0,0,0,0.2); }
@@ -490,40 +499,73 @@
         </div>
     </section>
 
-    <footer>
+    <footer role="contentinfo">
         <div class="container">
             <div class="footer-content">
                 <div class="footer-section">
-                    <h3>Contact Us</h3>
-                    <p>450 N Brand Blvd, Suite 600<br>Glendale, CA 91203</p>
-                    <p><a href="tel:8182916217">(818) 291-6217</a></p>
-                    <p><a href="mailto:rozsagyenelaw@yahoo.com">rozsagyenelaw@yahoo.com</a></p>
-                    <p style="margin-top: 15px;">Mon-Fri: 9:00 AM - 5:00 PM<br>Sat: By Appointment</p>
+                    <h3>About Our Firm</h3>
+                    <p>Law Offices of Rozsa Gyene has been serving Southern California families with dedication and expertise since 2001. We specialize in estate planning, probate, and protective proceedings.</p>
+                    <div class="footer-cta-box">
+                        <h4>Ready to Get Started?</h4>
+                        <p>Schedule your free consultation today</p>
+                        <a href="https://portal.livingtrust-attorneys.com/book" class="btn-primary">Book Consultation</a>
+                    </div>
                 </div>
                 <div class="footer-section">
-                    <h3>Trust & Estate Services</h3>
-                    <a href="living-trusts.html"><i class="fas fa-chevron-right"></i> Living Trusts</a>
-                    <a href="trust-administration.html"><i class="fas fa-chevron-right"></i> Trust Administration</a>
-                    <a href="probate.html"><i class="fas fa-chevron-right"></i> Probate Services</a>
-                    <a href="probate-attorney-glendale.html"><i class="fas fa-chevron-right"></i> Probate Attorney Glendale</a>
-                    <a href="wills.html"><i class="fas fa-chevron-right"></i> Wills</a>
+                    <h3>Practice Areas</h3>
+                    <ul>
+                        <li><a href="living-trusts.html"><i class="fas fa-chevron-right"></i> Living Trusts</a></li>
+                        <li><a href="probate.html"><i class="fas fa-chevron-right"></i> Probate</a></li>
+                        <li><a href="conservatorship.html"><i class="fas fa-chevron-right"></i> Conservatorship</a></li>
+                        <li><a href="guardianship.html"><i class="fas fa-chevron-right"></i> Guardianship</a></li>
+                        <li><a href="special-needs-trust.html"><i class="fas fa-chevron-right"></i> Special Needs Trusts</a></li>
+                        <li><a href="asset-protection.html"><i class="fas fa-chevron-right"></i> Asset Protection</a></li>
+                    </ul>
                 </div>
                 <div class="footer-section">
-                    <h3>Locations</h3>
-                    <a href="locations/glendale.html"><i class="fas fa-map-marker-alt"></i> Glendale</a>
-                    <a href="locations/burbank.html"><i class="fas fa-map-marker-alt"></i> Burbank</a>
-                    <a href="locations/pasadena.html"><i class="fas fa-map-marker-alt"></i> Pasadena</a>
-                    <a href="locations/los-angeles.html"><i class="fas fa-map-marker-alt"></i> Los Angeles</a>
+                    <h3>Trust Administration</h3>
+                    <ul>
+                        <li><a href="trust-administration.html"><i class="fas fa-chevron-right"></i> Trust Administration</a></li>
+                        <li><a href="trust-administration-attorney-glendale.html"><i class="fas fa-map-marker-alt"></i> Glendale</a></li>
+                        <li><a href="trust-administration-attorney-burbank.html"><i class="fas fa-map-marker-alt"></i> Burbank</a></li>
+                        <li><a href="trust-administration-attorney-pasadena.html"><i class="fas fa-map-marker-alt"></i> Pasadena</a></li>
+                        <li><a href="trust-administration-attorney-los-angeles.html"><i class="fas fa-map-marker-alt"></i> Los Angeles</a></li>
+                        <li><a href="trust-administration-attorney-santa-clarita.html"><i class="fas fa-map-marker-alt"></i> Santa Clarita</a></li>
+                    </ul>
                 </div>
                 <div class="footer-section">
                     <h3>Resources</h3>
-                    <a href="estate-planning-questionnaire.html"><i class="fas fa-file-alt"></i> Estate Planning Form</a>
-                    <a href="probate-intake-form.html"><i class="fas fa-file-alt"></i> Probate Intake Form</a>
-                    <a href="https://portal.livingtrust-attorneys.com/" target="_blank"><i class="fas fa-sign-in-alt"></i> Client Portal</a>
+                    <ul>
+                        <li><a href="estate-planning-questionnaire.html"><i class="fas fa-file-alt"></i> Estate Planning Form</a></li>
+                        <li><a href="probate-intake-form.html"><i class="fas fa-file-alt"></i> Probate Intake Form</a></li>
+                        <li><a href="conservatorship-questionnaire.html"><i class="fas fa-file-alt"></i> Conservatorship Form</a></li>
+                        <li><a href="guardianship-questionnaire.html"><i class="fas fa-file-alt"></i> Guardianship Form</a></li>
+                        <li><a href="https://portal.livingtrust-attorneys.com/" target="_blank"><i class="fas fa-sign-in-alt"></i> Client Portal</a></li>
+                        <li><a href="https://livingtrustcalifornia.com" target="_blank"><i class="fas fa-laptop"></i> Online Living Trust</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Us</h3>
+                    <div class="footer-contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>450 N Brand Blvd. Suite 600<br>Glendale, CA 91203</div>
+                    </div>
+                    <div class="footer-contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div><a href="tel:8182916217">(818) 291-6217</a></div>
+                    </div>
+                    <div class="footer-contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div><a href="mailto:rozsagyenelaw@yahoo.com">rozsagyenelaw@yahoo.com</a></div>
+                    </div>
+                    <div class="footer-contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div>Mon-Fri: 9:00 AM - 5:00 PM<br>Sat: By Appointment<br>Sun: Closed</div>
+                    </div>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2025 Law Offices of Rozsa Gyene. All rights reserved. | <a href="https://apps.calbar.ca.gov/attorney/Licensee/Detail/208356" target="_blank" style="color: var(--accent-gold);">California State Bar #208356</a></p>
+                <p>&copy; 2025 Law Offices of Rozsa Gyene. All rights reserved. | <a href="https://apps.calbar.ca.gov/attorney/Licensee/Detail/208356" target="_blank" rel="noopener noreferrer" style="color: var(--accent-gold);">California State Bar #208356</a></p>
             </div>
         </div>
     </footer>
