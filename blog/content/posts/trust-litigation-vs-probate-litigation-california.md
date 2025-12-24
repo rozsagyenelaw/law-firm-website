@@ -439,6 +439,28 @@ If you're considering contesting either a will or trust, consult an experienced 
 
 - **[No-Contest Clauses in California Trusts](/no-contest-clauses-california-trusts)** - Understand probable cause exceptions and how to contest without triggering disinheritance.
 
+## Frequently Asked Questions
+
+### Is it easier to contest a trust or a will in California?
+
+Neither is inherently easier—both require clear and convincing evidence and have similar legal grounds. However, trust contests may offer more time if the trustee failed to send proper notice (the 120-day deadline might never start), while will contests have a strict 120-day deadline from admission to probate. Trust contests also allow venue selection, which can be strategically advantageous, whereas probate must occur in the county where the decedent resided.
+
+### Can I contest both a trust and a will at the same time?
+
+Yes, and it's often necessary. Many estate plans include a pour-over will that leaves assets to a trust. If you believe both documents are invalid, you may need to contest both to achieve your goal—invalidating the trust might send assets to the will beneficiaries, while invalidating the will might trigger intestacy. Your attorney can help coordinate strategy for contesting both documents if needed.
+
+### Why do more trust disputes settle than probate disputes?
+
+Trust litigation has a 70-80% settlement rate compared to 60-70% for probate contests. Trust disputes settle more often because mediation is frequently court-ordered, parties have greater privacy incentives (avoiding public proceedings), family dynamics favor compromise, and the private nature of trust administration means both sides have more uncertainty about the strength of evidence, making settlement more attractive than trial risk.
+
+### If I contest a trust and win, what happens to the assets?
+
+If the trust is declared invalid, what happens depends on whether there was a prior valid trust or will. If a prior trust exists, it's reinstated and assets distribute according to its terms. If only a will exists, assets go through probate and distribute per the will. If neither exists or both are invalid, California intestacy laws determine distribution (typically to spouse and children, or closest relatives).
+
+### Does trust litigation become public like probate litigation?
+
+Not initially. Trust administration is private until someone files a court petition. Once you file a petition to contest a trust, that court proceeding becomes public record, similar to probate litigation. However, the underlying trust document and administration details only become public if filed with the court as evidence. Probate, in contrast, is public from the start—the will and all estate information are filed and accessible immediately.
+
 ## Need Help With Estate Litigation?
 
 Whether you're facing trust litigation or probate litigation, our experienced attorneys handle both types of estate contests throughout California. We can evaluate your case and advise on the best approach.

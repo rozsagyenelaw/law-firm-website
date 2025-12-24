@@ -493,6 +493,28 @@ If you suspect a loved one was unduly influenced, consult an experienced trust l
 
 - **[Common Trust Administration Mistakes](/common-trust-administration-mistakes-california)** - Trustee mistakes that may indicate undue influence or mismanagement.
 
+## Frequently Asked Questions
+
+### What is the difference between influence and undue influence?
+
+Influence is normal persuasion that respects free will, such as family members discussing estate plans or expressing preferences. Undue influence is excessive persuasion that overcomes free will through manipulation, pressure, isolation, or exploitation of vulnerability. The key difference is whether the settlor retained the ability to make independent decisions or was coerced into actions against their true wishes.
+
+### How do you prove undue influence in a California trust?
+
+You must prove four elements by clear and convincing evidence: the victim was vulnerable, the influencer had apparent authority over the victim, the influencer actively participated in procuring the trust, and the result is inequitable. Evidence includes medical records showing vulnerability, witness testimony about isolation and control, suspicious circumstances surrounding trust execution, and comparison to prior estate plans showing unnatural changes.
+
+### What is the presumption of undue influence in California?
+
+If you prove the beneficiary had a confidential relationship with the settlor, actively participated in procuring the trust, and received an undue benefit, the burden shifts to the beneficiary to prove there was no undue influence. This presumption makes your case significantly easier because the defendant must disprove undue influence rather than you having to prove it.
+
+### Can you challenge a trust based on undue influence years later?
+
+Yes, you generally have four years from discovering the undue influence to file a trust contest under California Probate Code Section 16460. However, you only have 120 days from receiving the formal 16061.7 notice to contest the trust's validity. Act quickly because evidence becomes stale, witnesses forget details, and delay weakens your case.
+
+### What evidence is most important in undue influence cases?
+
+The most compelling evidence includes medical records showing cognitive decline or vulnerability, testimony from family and friends about isolation and personality changes, suspicious circumstances around trust execution, communications between the influencer and settlor, financial records showing control or transfers, and prior estate planning documents showing a different intent. A detailed timeline correlating vulnerability, isolation, and trust changes is particularly powerful.
+
 ## Need Help Proving Undue Influence?
 
 If you believe a trust was procured through undue influence, our experienced trust litigation attorneys can investigate your case, gather evidence, and fight for your rightful inheritance.

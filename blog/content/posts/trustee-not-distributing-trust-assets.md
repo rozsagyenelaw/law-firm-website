@@ -277,6 +277,30 @@ An attorney consultation costs a few hundred dollars but can prevent costly mist
 
 Trustees who won't distribute are breaching their duties. California law gives beneficiaries tools to force action—but you have to use them.
 
+## Frequently Asked Questions
+
+### What is a reasonable time for trust distribution in California?
+
+Most trusts should be distributed within 6-12 months for simple estates. Complex trusts involving real estate sales, business valuations, or tax issues may take 12-18 months. Delays beyond two years typically require extraordinary circumstances to justify. The key is whether the trustee is making reasonable progress or simply stalling without legitimate reasons.
+
+### Can a trustee withhold distribution indefinitely?
+
+No. Even if the trust gives the trustee discretionary authority, they cannot simply refuse to act indefinitely. Trustees must exercise discretion reasonably and within a reasonable timeframe. Unreasonable delay constitutes breach of fiduciary duty and grounds for removal, regardless of discretionary language in the trust.
+
+### What are my rights if the trustee won't communicate?
+
+California Probate Code Section 16060 requires trustees to keep beneficiaries reasonably informed. You have the right to demand accountings, trust documents, and status updates. If the trustee ignores your requests, you can petition the court to compel communication, order accounting, and potentially remove the trustee for failure to perform duties.
+
+### How do I remove a trustee who won't distribute?
+
+File a petition for trustee removal under Probate Code Section 15642 citing breach of fiduciary duty, unreasonable delay, and failure to distribute. Present evidence of your demands, the trustee's failures, and harm to the trust. The court can remove the trustee and appoint a successor who will properly complete distribution. You may also recover attorney fees from the trust.
+
+### Will I have to pay attorney fees to enforce distribution?
+
+Most trust litigation attorneys offer free initial consultations. If you prevail in forcing distribution or removing the trustee, the court typically orders the trust or the trustee personally to pay your reasonable attorney fees. Many attorneys work on hybrid fee arrangements, making it financially feasible to enforce your rights even without upfront funds.
+
+## Get Legal Help
+
 The Law Offices of Rozsa Gyene represents trust beneficiaries throughout Los Angeles County. We've helped clients recover inheritances from uncooperative trustees and hold them accountable.
 
 **Call (818) 291-6217** for a consultation, or visit our [contact page](/estate-planning-questionnaire.html).

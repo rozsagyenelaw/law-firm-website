@@ -557,6 +557,28 @@ Proper income and principal accounting protects both the trustee from liability 
 
 - **[Common Trust Administration Mistakes](/common-trust-administration-mistakes-california)** - Avoid improper income/principal allocations that lead to beneficiary disputes and trustee liability.
 
+## Frequently Asked Questions
+
+### What is the difference between trust income and principal?
+
+Principal is the trust's core assets, including property received from the settlor, proceeds from asset sales, and capital gains. Income is what those assets produce, such as interest, dividends, rental income, and royalties. This distinction matters because many trusts have different beneficiaries entitled to income versus principal, and California law requires trustees to allocate receipts and expenses correctly between the two.
+
+### Are capital gains allocated to income or principal?
+
+Capital gains are allocated to principal, not income. When a trust sells an asset for more than its cost basis, the gain increases the principal and benefits remainder beneficiaries, not income beneficiaries. For example, if a trust sells stock for a $40,000 profit, that entire gain goes to principal. The trust document may provide otherwise, but the statutory default allocates capital gains to principal.
+
+### How should trustee fees be allocated between income and principal?
+
+Trustee compensation is typically allocated 50% to income and 50% to principal, as trustee services benefit both income and remainder beneficiaries. Alternatively, fees can be allocated based on the time spent on income-related versus principal-related matters. The trust document may specify a different allocation method, which would control over the statutory default.
+
+### What is a unitrust and when should it be used?
+
+A unitrust pays the income beneficiary a fixed percentage of the trust's fair market value each year, typically 3-5%, regardless of whether the trust earns traditional income or capital gains. This eliminates the need to distinguish between income and principal and allows the trustee to invest for total return. California law permits unitrust conversions under Probate Code section 16336.4, and they are particularly useful when traditional income/principal allocations create unfairness or investment constraints.
+
+### Can a trustee allocate capital gains to income if the income beneficiary is suffering?
+
+Yes, under California's power to adjust rule in Probate Code section 16336.4. If the trustee invests for total return and traditional income allocation would be unfair to beneficiaries, the trustee may adjust between income and principal. For example, if growth stocks produce minimal dividends, the trustee can allocate some capital gains to income to provide fair returns to the income beneficiary, as long as the adjustment is reasonable and the trust doesn't prohibit it.
+
 ## Need Help With Trust Accounting?
 
 If you're dealing with income vs. principal allocation issues in California trust administration, our experienced attorneys can help ensure proper accounting and fair treatment of all beneficiaries.

@@ -427,6 +427,28 @@ By avoiding these common mistakes, you'll fulfill your duties properly, protect 
 
 - **[Income vs. Principal Trust Administration](/income-vs-principal-trust-administration-california)** - Avoid costly allocation errors between income and remainder beneficiaries.
 
+## Frequently Asked Questions
+
+### What is the most common mistake trustees make in California?
+
+Missing the 60-day beneficiary notification deadline. California Probate Code §16061.7 requires trustees to notify beneficiaries and heirs within 60 days of becoming trustee. Missing this prevents the 120-day contest period from starting and exposes trustees to personal liability.
+
+### Can a trustee be held personally liable for mistakes?
+
+Yes. Trustees who breach their fiduciary duties can be "surcharged" by the court, meaning they must personally repay any losses caused by their mistakes. This can include investment losses, tax penalties, unnecessary expenses, and damages from self-dealing.
+
+### What happens if I commingled trust assets with personal assets?
+
+Commingling is a serious breach of fiduciary duty. You must immediately separate the assets and maintain detailed records showing all transactions. You may need to file an amended accounting. If beneficiaries suffered losses, you could be liable for damages plus interest.
+
+### How long does trust administration take in California?
+
+Simple trust administrations take 4-8 weeks after gathering all information. More typical cases take 6-12 months. Complex estates with tax issues, property sales, or disputes can take 1-2+ years. Rushing leads to mistakes; take the time needed to do it correctly.
+
+### Should I hire an attorney for trust administration?
+
+Yes, for most trusts. Attorney fees are paid from the trust, not your pocket. The cost is typically far less than the consequences of making mistakes—tax penalties, personal liability, beneficiary lawsuits, or removal as trustee. Get professional help from the start.
+
 ## Need Help With Trust Administration?
 
 If you're serving as trustee in California, our experienced trust administration attorneys can help you navigate the process correctly from the start. Contact us for a consultation to discuss your responsibilities and avoid costly mistakes.

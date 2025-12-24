@@ -439,6 +439,28 @@ Weak capacity case - MCI alone usually insufficient. Need more evidence of impai
 
 - **[Trust Administration IRS Audit](/trust-administration-irs-audit-what-to-expect)** - Tax issues trustees may face during administration.
 
+## Frequently Asked Questions
+
+### What is the legal standard for testamentary capacity in California?
+
+California requires that the settlor understand the nature of creating a trust, understand and recall their property, remember their family relationships and affected parties, and comprehend the practical effect of the trust provisions. All four elements are required, and failure of any one means the settlor lacked capacity. Capacity is assessed at the exact moment the trust was executed, not generally over time.
+
+### Can someone with dementia or Alzheimer's create a valid trust?
+
+It depends on the stage and severity of the condition at the time the trust was executed. Early-stage dementia may not prevent someone from having testamentary capacity, while middle to late-stage dementia typically does. The key is whether the person could understand the four elements of capacity at the specific moment of execution. Medical records showing cognitive scores, doctor's notes, and progression timeline are critical evidence.
+
+### What is a lucid interval and how does it affect capacity challenges?
+
+A lucid interval is a temporary period of mental clarity during which a person who is generally incapacitated has sufficient capacity to execute legal documents. Even if someone has advanced dementia, a trust executed during a lucid interval is valid. However, the burden is on the proponent to prove a lucid interval existed at the exact time of execution, typically through attorney testimony, witness statements, and the rationality of the trust provisions.
+
+### What evidence is needed to prove lack of capacity?
+
+The strongest evidence includes medical records showing dementia or Alzheimer's diagnosis, cognitive test scores like MMSE or MoCA showing impairment, doctor's notes describing cognitive decline, brain imaging showing atrophy, and medications affecting cognition. Lay witness testimony from family and caregivers about specific examples of confusion is also valuable. Expert testimony from a forensic psychiatrist or neuropsychologist reviewing all evidence is typically essential to winning a capacity challenge.
+
+### How much does it cost to contest a trust based on lack of capacity?
+
+A complete capacity challenge typically costs between $100,000 and $300,000 or more, including attorney fees of $75,000 to $200,000 through trial and expert costs of $20,000 to $50,000 for forensic psychiatrists and neuropsychologists. The high costs make a thorough cost-benefit analysis essential before filing. Consider what you stand to gain versus what you'll lose if unsuccessful, and ensure you have strong medical evidence supporting probable cause.
+
 ## Need Help With a Capacity Challenge?
 
 If you believe a trust was created or modified when the settlor lacked mental capacity, our experienced trust litigation attorneys can evaluate your medical evidence and advise on the strength of your case.

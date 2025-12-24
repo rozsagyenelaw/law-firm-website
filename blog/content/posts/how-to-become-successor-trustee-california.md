@@ -261,6 +261,28 @@ Your role differs depending on why you're serving:
 - **Distributions:** To named beneficiaries
 - **Duration:** Until administration is complete (typically 6-12 months)
 
+## Frequently Asked Questions
+
+### Do I need to go to court to become a successor trustee in California?
+
+No. Unlike becoming an executor of a will, which requires court appointment, becoming a successor trustee is automatic and requires no court involvement. Your authority begins immediately when the triggering event occurs, either the trustor's death or incapacity. You simply need to obtain the trust document, get a death certificate or physician's certification of incapacity, prepare a trustee certification, and notify financial institutions. This is one of the main advantages of a trust over probate. Court involvement is only needed in special circumstances like disputes about who should serve or if someone petitions to remove you.
+
+### How do I prove I'm the successor trustee to banks and other institutions?
+
+You prove your authority using a trustee certification, also called a certification of trust. This one-page document includes the trust name and date, your name as current trustee, confirmation that the trust is valid and hasn't been revoked, your powers as trustee, and how title should be taken. You'll also need a certified death certificate if the prior trustee died. Most financial institutions will accept the certification without requiring the full trust document, which keeps the trust terms private. Get multiple notarized copies of the certification since you'll need to provide it to every institution holding trust assets.
+
+### Can I decline to serve as successor trustee after being named?
+
+Yes. Being named successor trustee is not mandatory and you can decline by notifying beneficiaries in writing that you're declining to serve. However, you must not take any actions as trustee, because once you begin acting in the role, you've generally accepted the position. At that point, you cannot simply walk away and must either continue serving or petition the court to resign and appoint a replacement. If you decline, the next named successor trustee in the trust document takes over. Common reasons to decline include not having time, living far away, conflicts with beneficiaries, or health issues.
+
+### What's the difference between serving as trustee during incapacity versus after death?
+
+The trustee's role and responsibilities differ significantly. During the trustor's incapacity, you manage assets for the trustor's benefit, paying for their care and maintaining their lifestyle, with distributions made to or for the trustor and possibly their spouse, continuing until the trustor dies or regains capacity. After death, your role is to wind up the trust and distribute to beneficiaries according to the trust terms, with distributions going to the named beneficiaries rather than the trustor, typically completing within 6-12 months. The powers are similar but the goals and beneficiaries are different.
+
+### What happens if I can't find the trust document?
+
+If you cannot locate the original trust document, check with the attorney who prepared it, as many attorneys keep copies in their files. Also check safe deposit boxes, the trustor's home files, and ask family members if they have copies. You need the original trust and all amendments to properly administer the trust. If the original cannot be found, you may need to use a copy, but this can create complications since financial institutions and courts prefer originals. In some cases, you may need to petition the court to establish the trust terms if no original exists and there are disputes about the provisions.
+
 ## Need Help Getting Started?
 
 The Law Offices of Rozsa Gyene helps new successor trustees understand their role and get started properly. We'll review your trust, explain your duties, and guide you through administration.

@@ -361,6 +361,28 @@ Trust administration follows a logical progression:
 
 Each phase builds on the previous one. Trying to skip steps or rush the process creates problems.
 
+## Frequently Asked Questions
+
+### How is trust administration different from probate in California?
+
+Trust administration happens outside the court system, making it faster, cheaper, and completely private. While probate typically takes 12-18 months and costs $25,000-$100,000 with court supervision at every step, trust administration usually takes 3-12 months and costs $3,000-$15,000 with no court involvement. The trustee has authority to act immediately upon the settlor's death without waiting for court appointment. All proceedings remain private rather than becoming public record. However, trustees still have fiduciary duties and must follow California trust law, just without ongoing court oversight.
+
+### When can I start distributing assets to beneficiaries?
+
+You cannot distribute assets until several conditions are met. First, the 120-day contest period following the required beneficiary notices must expire. All legitimate debts and expenses must be paid or reserved for. Required tax returns must be filed or sufficient funds set aside for taxes. All assets must be properly inventoried and valued. The trust must have sufficient liquidity for any remaining expenses. Distributing too early can make you personally liable if claims arise later or if the trust lacks funds to pay taxes. Most distributions occur 5-8 months after death at the earliest.
+
+### Do I need to hire an attorney for trust administration?
+
+California law doesn't require attorney involvement, but most trust administrations benefit from professional guidance. Attorneys ensure legal requirements like the 60-day beneficiary notice are met, prepare complex documents like trustee's deeds for real property, coordinate with CPAs on tax planning and filing, and protect trustees from personal liability. Consider handling it yourself only if the trust is extremely simple with no real estate, has only one or two cooperative beneficiaries, everyone agrees on distributions, and you have relevant experience. Attorney fees are paid from trust assets, not your personal funds.
+
+### What is the 120-day contest period and why does it matter?
+
+After you send the required notices to beneficiaries and heirs, California law gives them 120 days to contest the trust's validity. During this period, they can challenge the trust based on lack of capacity, undue influence, fraud, or other grounds. You cannot safely make final distributions until this period expires because a successful contest could change who receives what. The contest period only begins running after you properly send the 60-day notices. If you never send the notices, the contest period never starts, and the trust can be challenged indefinitely.
+
+### What happens if beneficiaries disagree during trust administration?
+
+Beneficiary disputes complicate and extend the administration process. Common conflicts involve disagreements over property valuations, distribution timing, specific property allocation, or trustee decisions. First, try to resolve disputes through open communication and sharing information. Consider formal mediation with a neutral third party if direct communication fails. If disputes involve questions of trust interpretation, you may need to petition the court for instructions. Serious conflicts alleging trustee misconduct may require litigation. Document all communications and decisions carefully to protect yourself. Disputes can extend administration by 6-18 months and significantly increase costs.
+
 ## Need Guidance?
 
 The Law Offices of Rozsa Gyene guides trustees through every phase of California trust administration. We help you understand the process, meet your deadlines, and fulfill your duties properly.

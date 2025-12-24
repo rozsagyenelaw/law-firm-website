@@ -663,6 +663,28 @@ Business interests require more time, expertise, and professional help than most
 
 - **[Real Estate in Trust Administration California](/real-estate-trust-administration-california-selling-transferring)** - When business owns real estate, coordinating property transfers with business succession planning.
 
+## Frequently Asked Questions
+
+### Can I continue operating the business while administering the trust?
+
+Whether you can continue business operations depends on the trust document and the business's operating agreement. California law grants trustees broad authority to operate businesses under Probate Code Section 16249, but the trust document may impose restrictions or require liquidation within a specific timeframe. Additionally, the operating agreement or shareholder agreement may restrict who can manage the business or trigger mandatory buy-sell provisions upon the owner's death. Review both documents carefully before making operational decisions.
+
+### How do I determine the value of a business held in a trust?
+
+Business valuation requires hiring a qualified appraiser with credentials such as ASA, CVA, or ABV designation. They'll use one or more methods: asset-based valuation for asset-heavy businesses, income-based valuation using discounted cash flow for profitable ongoing businesses, or market-based valuation using comparable companies. For minority interests or private companies, expect significant valuation discounts of 20-40% for minority interest and 20-35% for lack of marketability. Professional valuations typically cost between $5,000-$50,000 depending on complexity.
+
+### What happens if the trust owns S-corporation stock?
+
+S-corporations have strict ownership requirements that continue after death. After the settlor dies, the trust must qualify as either a Qualified Subchapter S Trust (QSST) or an Electing Small Business Trust (ESBT) to avoid losing the S-election. You must file the appropriate election with the IRS within 2 months and 16 days of the death. Missing this deadline causes the corporation to lose its S-election status and triggers double taxation as a C-corporation, which can create massive tax liability.
+
+### Does a buy-sell agreement automatically transfer ownership when someone dies?
+
+Not automatically, but death typically triggers the buy-sell provisions. Most buy-sell agreements require either the business entity or co-owners to purchase the deceased owner's interest, but you must initiate the process. Start by notifying all parties, providing required documentation, initiating the valuation process specified in the agreement, and negotiating the closing timeline and payment method. If other parties refuse to comply with the agreement terms, you may need to send a formal demand letter or file a lawsuit for specific performance.
+
+### Can I sell the business instead of transferring it to beneficiaries?
+
+Your authority to sell depends on the trust document's provisions. Some trusts require distribution of the business to specific beneficiaries, while others give the trustee discretion to sell and distribute proceeds. Selling may be the better option when beneficiaries want cash rather than business ownership, the business was dependent on the deceased's personal skills, no qualified family member can take over, or liquidation provides better value than forced transfer. Always review the trust terms and consult with beneficiaries before making major decisions about business disposition.
+
 ## Need Help With Business Interests in a Trust?
 
 If you're administering a trust that holds business interests, our experienced trust administration attorneys can help you navigate the complexities of business valuation, buy-sell agreements, and transfer to beneficiaries.

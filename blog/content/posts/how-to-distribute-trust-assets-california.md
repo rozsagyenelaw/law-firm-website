@@ -449,6 +449,28 @@ Keep all records for at least 5-7 years:
 
 - **[Trustee Not Distributing Trust Assets](/trustee-not-distributing-trust-assets)** - Beneficiary rights when trustee delays or refuses to make proper distributions.
 
+## Frequently Asked Questions
+
+### How do I transfer trust real estate to a beneficiary in California?
+
+To transfer real estate to a beneficiary, prepare a trustee's deed that includes the legal description of the property, trust name and date, your name as trustee, the beneficiary's name, and your notarized signature. Complete the Preliminary Change of Ownership Report and record the deed with the County Recorder's office where the property is located. Recording fees are approximately $25-$75 plus $3 per page. After recording, provide the beneficiary with a copy of the recorded deed, title insurance if available, property tax information, and relevant disclosures. The entire process typically takes 2-4 weeks.
+
+### Should I distribute trust investments in-kind or sell them first?
+
+Both options are valid. Distributing investments in-kind means transferring the actual stocks, bonds, or mutual funds to the beneficiary's account with no immediate tax consequences, preserving the stepped-up basis. This works well when beneficiaries want to keep the investments. Selling first and distributing cash may trigger capital gains tax if sold above stepped-up basis, but makes it easier to divide assets equally among multiple beneficiaries and lets them reinvest as they choose. Consider the trust terms, beneficiary preferences, tax implications, and whether equal division is required when making this decision.
+
+### How long should I wait before distributing trust assets to beneficiaries?
+
+Wait until the 120-day contest period expires after sending proper notice to beneficiaries and heirs. This period is when beneficiaries can challenge the trust validity. Distributing before the contest period ends is risky because if someone successfully contests the trust, you as trustee may be personally liable for recovering assets from beneficiaries. Also ensure all debts are paid, taxes are handled or funds reserved, the trust terms are clear, and you've reserved sufficient funds for final administration expenses and unexpected claims before making final distributions.
+
+### What do I do with personal property that has sentimental but little monetary value?
+
+Personal property often creates more conflict than valuable assets due to emotional attachments. If the trust specifies who gets specific items, follow those terms exactly. If the trust says to divide equally or is silent, let beneficiaries take turns selecting items using a fair method like drawing numbers for selection order. Always inventory everything with photographs, communicate early to ask what beneficiaries want, document who received what, and get receipts signed. Remember that a few hundred dollars in technical unfairness isn't worth destroying family relationships over items with primarily sentimental value.
+
+### Do I need to provide beneficiaries with tax basis information for inherited assets?
+
+Yes. Providing date-of-death values and stepped-up basis information is critical. Beneficiaries need this information when they eventually sell the assets to correctly calculate their capital gains tax. Create a statement showing each investment or asset, the number of shares or units, the date-of-death value, and the cost basis per share or unit. For real estate, provide the date-of-death appraisal or assessed value. This documentation protects beneficiaries from overpaying taxes later and protects you from claims that you failed to provide necessary information for their tax reporting.
+
 ## Need Help With Distribution?
 
 The Law Offices of Rozsa Gyene helps trustees navigate the distribution process—preparing deeds, coordinating transfers, and ensuring proper documentation.

@@ -228,6 +228,28 @@ Yes. Co-beneficiaries can petition the court to remove you if you breach your fi
 
 Yes. Professional guidance protects you as trustee AND ensures you properly receive your beneficiary share. The attorney fee comes from the trust, not your inheritance.
 
+## Frequently Asked Questions
+
+### Can the same person be both trustee and beneficiary in California?
+
+Yes, it's completely legal and very common. Many parents name their adult child as both successor trustee and beneficiary. However, the trustee-beneficiary must still fulfill all fiduciary duties and treat all beneficiaries fairly, including themselves.
+
+### What are the conflicts of interest when trustee is also a beneficiary?
+
+Common conflicts include: valuing assets for division (temptation to undervalue what you receive), deciding when to sell property (personal preferences vs. trust duties), setting your own compensation, and exercising discretionary distribution powers. Document everything and get independent appraisals.
+
+### Can a trustee-beneficiary pay themselves trustee fees?
+
+Yes, but the compensation must be reasonable. Document time spent on trustee duties. Consider what a professional trustee would charge. Getting other beneficiaries' consent reduces conflict. Many family trustees waive fees to avoid resentment since they'll receive their beneficiary share anyway.
+
+### Can co-beneficiaries remove me as trustee?
+
+Yes, co-beneficiaries can petition the court to remove you if you breach fiduciary duties. However, simply being a beneficiary is NOT grounds for removal. If you follow your duties, document decisions, communicate transparently, and act in good faith, removal petitions typically fail.
+
+### Should I decline being trustee if I'm also a beneficiary?
+
+Consider declining if you have significant conflicts with co-beneficiaries, the trust involves complex discretionary decisions, family relationships are strained, or the responsibility feels overwhelming. You remain a beneficiary even if you decline the trustee role.
+
 ## Get Professional Guidance
 
 Serving as both successor trustee and beneficiary requires careful attention to your dual roles. The Law Offices of Rozsa Gyene helps trustee-beneficiaries navigate this balance—protecting you while ensuring proper administration.

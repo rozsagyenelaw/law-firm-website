@@ -229,6 +229,28 @@ If you've just become successor trustee:
 6. Secure and inventory assets right away
 7. Open a trust bank account (you'll need an EIN from the IRS)
 
+## Frequently Asked Questions
+
+### How long does it take to settle a trust as successor trustee in California?
+
+Most trust administrations take 12 to 18 months to complete, though simple trusts with few assets and cooperative beneficiaries can be settled in 6 to 9 months. Complex trusts involving real estate sales, business interests, or family disputes may take 2 to 3 years or longer. The timeline depends on the 120-day contest period, tax filing requirements, asset liquidation needs, and beneficiary cooperation.
+
+### Can a successor trustee be held personally liable for mistakes?
+
+Yes, successor trustees can be held personally liable for losses caused by their breach of fiduciary duty. This includes improper investments, self-dealing, failure to pay taxes, or distributions made contrary to trust terms. However, trustees who act in good faith, seek professional guidance when needed, and follow the trust document carefully are generally protected. Many trustees obtain professional liability insurance and hire attorneys to minimize personal risk.
+
+### How much does a successor trustee get paid in California?
+
+Successor trustees are entitled to reasonable compensation for their time and effort. If the trust document specifies compensation, follow those terms. If silent, California law allows reasonable fees based on the time spent, complexity of administration, trustee skill, and local custom. Professional trustees typically charge 0.5% to 1.5% of trust assets annually plus transaction fees. Family members often waive compensation but have every legal right to accept it.
+
+### What happens if a successor trustee refuses to serve?
+
+If you're named as successor trustee but don't want to serve, you can decline by signing a written renunciation. The next successor trustee named in the trust document then takes over. If no successor is available or willing to serve, beneficiaries can petition the probate court to appoint a professional trustee or other suitable person. You're not legally obligated to serve just because you were named.
+
+### Do I need a lawyer to be a successor trustee in California?
+
+While not legally required, hiring an attorney is strongly recommended for all but the simplest trusts. An experienced trust administration attorney helps you comply with California law, avoid costly mistakes, meet tax filing deadlines, properly notify beneficiaries, and protect yourself from personal liability. Attorney fees are paid from trust assets, not your personal funds, making professional guidance both accessible and prudent.
+
 ## Need Guidance?
 
 Being a successor trustee is a significant responsibility. The Law Offices of Rozsa Gyene guides trustees through California trust administration—helping you fulfill your duties, avoid mistakes, and protect yourself from liability.

@@ -384,6 +384,28 @@ A: No. Only statutory fees unless court approves extraordinary compensation.
 - Loss of compensation
 - Payment of beneficiaries' attorney fees
 
+## Frequently Asked Questions
+
+### How long does an executor have to distribute inheritance in California?
+
+California probate typically takes 9-18 months minimum due to the 4-month creditor period and administrative requirements. Complex estates can take 2-4+ years. Executors must distribute within a reasonable timeframe after all debts are paid and court approval is obtained. Unreasonable delays are prohibited.
+
+### Can a beneficiary demand an accounting from the executor in California?
+
+Yes, absolutely. Under Probate Code Section 10950, any beneficiary can demand an accounting at any time. The executor must respond within 60 days with a detailed accounting of all transactions, income, expenses, and distributions. Refusal is grounds for removal.
+
+### What can I do if the executor is not communicating with me?
+
+Send a formal written demand via certified mail citing Probate Code 10950. Request specific information with a 30-day deadline. Review the public court file at the courthouse. If the executor still doesn't respond, hire an attorney to petition the court to compel communication or remove the executor.
+
+### Can an executor ignore a beneficiary in California?
+
+No. Executors owe fiduciary duties to ALL beneficiaries including duties of loyalty, care, and communication. Ignoring a beneficiary violates these duties and can result in removal, personal liability (surcharge), denial of compensation, and payment of the beneficiary's attorney fees.
+
+### How long do I have to contest a will in California?
+
+You must contest a will before it's admitted to probate OR within 120 days after admission under Probate Code 8226. Missing this deadline severely limits your ability to challenge the will. Act quickly if you have concerns about validity.
+
 ## Get Legal Help Protecting Your Rights
 
 Beneficiaries facing unresponsive or uncooperative executors should act quickly. Evidence disappears, assets get wasted, and deadlines pass.

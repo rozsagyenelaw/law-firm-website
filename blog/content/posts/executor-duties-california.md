@@ -859,6 +859,28 @@ Being executor is not mandatory. You can decline if:
 
 - **[How to Sell a House in Probate California](/blog/selling-house-probate-california/)** - One of your most important duties if the estate includes real property.
 
+## Frequently Asked Questions
+
+### How long does it take to complete executor duties in California?
+
+The typical California probate process takes 15 to 18 months from filing the petition through final distribution. This timeline includes the initial hearing (6-8 weeks after filing), the 4-month creditor claim period, preparation of inventory and appraisals, payment of debts, and final accounting and distribution. Complex estates with litigation, business interests, or real estate sales can take 2 to 3 years or longer. Estates with independent administration authority generally move faster than those requiring court approval for every action.
+
+### Can I decline to serve as executor if I'm named in the will?
+
+Yes, you can absolutely decline to serve as executor. Being named in a will does not obligate you to accept the role. Simply file a declination with the court before your formal appointment. The court will then appoint the alternate executor named in the will, or if none exists, will appoint an administrator. There is no shame in declining if you don't have the time, live far away, have health issues, face family conflicts, or simply don't feel capable of handling the responsibilities. It's better to decline than to serve poorly.
+
+### How much does an executor get paid in California?
+
+California law provides statutory executor compensation based on the gross value of the estate. The fees are 4% of the first $100,000, 3% of the next $100,000, 2% of the next $800,000, 1% of the next $9 million, and 0.5% above that. For a $1 million estate, statutory fees are $23,000. However, executor fees are taxable income to you, while inheritances are tax-free. If you're also a beneficiary, you should usually waive executor fees because the tax burden typically outweighs the benefit.
+
+### What happens if I make a mistake as executor?
+
+Executors can be held personally liable for breaches of fiduciary duty, including self-dealing, negligence, improper distributions, or failing to pay taxes. If you distribute assets before paying all debts, pay debts out of priority order, or commingle estate funds with personal funds, beneficiaries or creditors can sue you for damages. The best protection is to hire an experienced probate attorney, get court approval for questionable actions, document all decisions thoroughly, communicate regularly with beneficiaries, and never rush important decisions.
+
+### Do I need a lawyer to serve as executor in California?
+
+While not legally required, hiring a probate attorney is highly advisable, especially for estates over $250,000. California probate is complex and technical, mistakes can result in personal liability, the court will reject incomplete filings, and attorneys protect you from beneficiary disputes. Attorney fees are paid from the estate, not your personal funds, and are based on the same statutory schedule as executor fees. Professional guidance typically expedites the process and prevents costly errors that can far exceed the attorney fees.
+
 ## Get Professional Help with Executor Duties
 
 Being an executor involves complex legal responsibilities, significant time commitment, and potential personal liability. You don't have to navigate this alone.

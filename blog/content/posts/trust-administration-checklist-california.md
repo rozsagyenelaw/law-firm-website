@@ -706,6 +706,28 @@ _____________________________________________________________________
 
 - **[Trust Administration IRS Audit](/trust-administration-irs-audit-what-to-expect)** - How improper administration and tax reporting trigger IRS audits and how to avoid them.
 
+## Frequently Asked Questions
+
+### Do I need an attorney to complete trust administration in California?
+
+California law does not require you to hire an attorney for trust administration. However, most trustees benefit from professional guidance, especially for tasks like preparing legal notices, handling real estate transfers, navigating tax obligations, and protecting against personal liability. Simple trusts with minimal assets, no real estate, cooperative beneficiaries, and straightforward distributions may be manageable without an attorney. For most trust administrations, attorney fees paid from trust assets are a worthwhile investment to ensure compliance and avoid costly mistakes.
+
+### How long does trust administration take in California?
+
+The timeline varies based on complexity. Simple trusts with one or two beneficiaries, no real estate, and no disputes typically take 3-6 months. Moderate trusts with multiple beneficiaries, real estate to sell, and some tax complexity usually take 6-12 months. Complex trusts involving many beneficiaries, multiple properties, business interests, or disputes can take 12-18 months or longer. The mandatory 120-day contest period after sending beneficiary notices establishes a minimum timeline, and you cannot distribute assets until this period expires.
+
+### What is the 60-day notice requirement for California trusts?
+
+California Probate Code Section 16061.7 requires trustees to send written notice to all beneficiaries and legal heirs within 60 days of the settlor's death or the date you become trustee. The notice must include the trust name and creation date, settlor's name and death date, your contact information, a statement that the trust is now irrevocable, the beneficiaries' right to request a copy of the trust, and notice of the 120-day contest period. Send all notices via certified mail with return receipt to prove compliance.
+
+### Can beneficiaries remove a trustee during trust administration?
+
+Yes, beneficiaries can petition the court to remove a trustee under Probate Code Section 15642 if there are valid grounds. Common grounds include breach of trust duties, mismanagement of assets, failure to communicate with beneficiaries, conflict of interest, or failure to follow trust terms. However, simply disagreeing with the trustee's decisions or wanting a different family member to serve is not sufficient. The beneficiaries must prove that removal is necessary to protect trust assets or beneficiary interests. Courts prefer to keep the settlor's chosen trustee unless there is clear evidence of wrongdoing.
+
+### What happens if I miss the 60-day beneficiary notice deadline?
+
+Missing the 60-day notice deadline has serious consequences. The 120-day contest period never starts running, which means beneficiaries can contest the trust indefinitely. This keeps the trust in limbo and prevents you from making final distributions. The best approach if you missed the deadline is to send the notices immediately, even if late, and document the date sent. While this doesn't cure the late filing, it starts the contest period from the late notice date. Consult an attorney to assess potential liability and strategies for moving forward.
+
 ## Need Help?
 
 The Law Offices of Rozsa Gyene guides trustees through every step of California trust administration.

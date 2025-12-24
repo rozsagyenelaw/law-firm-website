@@ -301,6 +301,28 @@ Mistakes can result in:
 
 The good news: Most mistakes are avoidable with proper guidance.
 
+## Frequently Asked Questions
+
+### What is the most common mistake successor trustees make in California?
+
+The most common and serious mistake is failing to send the required 60-day notice to beneficiaries and heirs under California Probate Code Section 16061.7. When you miss this deadline, the 120-day trust contest period never starts, meaning beneficiaries can challenge the trust indefinitely. This mistake creates significant personal liability risk, can lead to your removal as trustee, and leaves the trust administration stuck in limbo. The notice must be sent within 60 days of the trustor's death or within 60 days of accepting your role as trustee, by certified mail, to all beneficiaries and legal heirs.
+
+### Can I use trust money for personal expenses as successor trustee?
+
+No, using trust assets for personal benefit is self-dealing and a serious breach of your fiduciary duty. You cannot live in trust property rent-free, drive trust vehicles, borrow from trust funds, or use trust money for personal expenses. Even if a transaction seems fair, self-dealing is prohibited under California law. If you engage in self-dealing, you can be removed as trustee, forced to return any profits or benefits, personally surcharged for damages to the trust, and required to pay beneficiaries' attorney fees. Keep trust and personal finances completely separate at all times.
+
+### What happens if I distribute trust assets too early?
+
+Distributing assets before completing required steps creates serious personal liability. If you distribute before the 120-day contest period expires, before paying all debts and taxes, or without reserving funds for potential claims, you become personally liable for any shortfall. For example, if you distribute $200,000 to beneficiaries and then $80,000 in medical bills and taxes come due, you'll have to recover funds from beneficiaries or pay the difference yourself. Always wait until debts are paid, taxes are filed, and the contest period has expired before making distributions.
+
+### How can I protect myself from beneficiary lawsuits as successor trustee?
+
+Protect yourself by documenting everything meticulously (keep all receipts, statements, and correspondence), sending the required 60-day notice on time, keeping beneficiaries reasonably informed with regular updates, maintaining separate trust bank accounts and never commingling funds, treating all beneficiaries impartially unless the trust requires unequal treatment, obtaining professional help from attorneys and CPAs, getting beneficiary receipts and releases before final distributions, and following the trust terms exactly as written. The best protection is hiring an attorney to guide you through the administration process - professional fees are much less than defending a lawsuit.
+
+### Should I hire an attorney even for a simple trust?
+
+Yes, even simple trusts benefit from attorney guidance. While legally not required, 90% of trustees who handle administration themselves make costly mistakes. An experienced trust administration attorney helps you send proper 60-day notices, prepare correct accountings, file tax returns on time, avoid personal liability for mistakes, communicate properly with beneficiaries, and make legally compliant distributions. Attorney fees (typically 1-3% of estate value) are paid from trust assets and are far less expensive than fixing mistakes, paying surcharges, or defending against beneficiary lawsuits. Consider it protection insurance for your role as trustee.
+
 ## Protect Yourself
 
 The Law Offices of Rozsa Gyene helps successor trustees avoid these costly mistakes. We guide you through California trust administration step by step, ensuring you fulfill your duties properly.

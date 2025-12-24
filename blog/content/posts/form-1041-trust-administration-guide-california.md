@@ -579,6 +579,28 @@ Proper tax planning during trust administration can save thousands in taxes and 
 
 - **[Generation-Skipping Transfer Tax California](/generation-skipping-transfer-tax-california)** - GST tax implications for trusts with grandchildren or skip person beneficiaries, exemption allocation, and Form 709 filing.
 
+## Frequently Asked Questions
+
+### When does a trust need to file Form 1041?
+
+A trust must file Form 1041 if it has gross income of $600 or more during the tax year, has any taxable income regardless of amount, or has a nonresident alien beneficiary. This threshold is much lower than individual returns, so most trusts require filing. Revocable trusts become subject to Form 1041 filing after the settlor's death when they become irrevocable. Grantor trusts where the settlor is still alive generally do not file Form 1041 as income is reported on the settlor's personal Form 1040 instead.
+
+### What is the income distribution deduction and why is it important?
+
+The income distribution deduction, reported on Line 15 of Form 1041, allows the trust to deduct income that was distributed to beneficiaries during the year. This shifts the tax burden from the trust, which reaches the highest 37% tax bracket at only $15,200 of income, to the beneficiaries who report the income on their personal returns and typically pay at lower rates. The deduction cannot exceed the trust's Distributable Net Income. This is the single most important tax planning tool for minimizing overall tax liability during trust administration.
+
+### What is the deadline for filing Form 1041?
+
+Form 1041 for calendar year trusts is due April 15 of the following year. You can request an automatic 5.5-month extension by filing Form 7004 by April 15, which extends the deadline to September 30. However, any tax owed is still due by April 15 to avoid interest and penalties. The extension only applies to filing the return, not to paying the tax. Schedule K-1s must be provided to beneficiaries by the same deadline as the return, whether that's April 15 or the extended September 30 date.
+
+### Can I prepare Form 1041 myself or do I need a CPA?
+
+While legally you can prepare Form 1041 yourself, it's not recommended for trusts with income over $50,000, complex investments like partnerships or rental property, multiple beneficiaries, capital gains from property sales, or passive activity losses. The calculation of Distributable Net Income, proper allocation to beneficiaries via Schedule K-1, and coordination with California Form 541 are complex. CPA fees typically range from $800 to $5,000 depending on complexity and are fully deductible as trust administration expenses. Professional preparation prevents costly errors and often identifies tax-saving strategies that exceed the preparation fees.
+
+### What happens if the trust distributes income to beneficiaries?
+
+When a trust distributes income to beneficiaries, the trust claims an income distribution deduction on Line 15 of Form 1041, reducing or eliminating the trust's taxable income. The beneficiaries then receive Schedule K-1 forms showing their share of the distributed income, which they report on their personal Form 1040 returns. The character of the income (interest, dividends, capital gains) passes through to the beneficiaries. This arrangement usually results in overall tax savings because beneficiaries are typically in lower tax brackets than the trust's compressed rate schedule.
+
 ## Need Help With Trust Tax Returns?
 
 If you're administering a trust in California and need guidance on Form 1041 or other tax issues, our experienced trust administration attorneys can help. We work with CPAs to ensure proper tax compliance and minimize tax liability.

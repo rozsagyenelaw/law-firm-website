@@ -272,6 +272,28 @@ Consider legal help if:
 - You want to contest the trust
 - You need help understanding your rights
 
+## Frequently Asked Questions
+
+### Can a trustee refuse to give me a copy of the trust?
+
+No. Under California Probate Code 16061, you have the right to request trust provisions that affect your interest, and the trustee must provide them. While the trustee can redact portions that don't relate to your inheritance, they cannot refuse your request entirely. If a trustee refuses, you can petition the court to compel disclosure.
+
+### How long can a trustee delay distributing my inheritance?
+
+There is no fixed deadline, but trustees must distribute within a reasonable time after the 120-day contest period expires, debts and taxes are paid, and they know what's available for distribution. Several months may be justified for complex estates, but delays of years without good reason likely constitute a breach of fiduciary duty. You can petition the court to compel distribution if delays are unreasonable.
+
+### What can I do if the trustee won't communicate with me?
+
+Start by putting your requests in writing via email with read receipt or certified mail. Be specific about what you need and set a reasonable deadline (30-60 days). If the trustee still doesn't respond, consult with an attorney about sending a formal demand letter or filing a court petition. Trustees have a legal duty to keep beneficiaries reasonably informed, and failure to communicate is a breach of that duty.
+
+### Can I sue the trustee for mismanaging trust assets?
+
+Yes. If the trustee breaches their fiduciary duties through mismanagement, self-dealing, or failing to follow trust terms, you can petition the court for remedies including: ordering the trustee to comply with their duties, requiring an accounting, removing the trustee, and surcharging the trustee (requiring them to personally repay losses caused by their misconduct). You should consult with a trust litigation attorney to evaluate your case.
+
+### Does the 120-day contest deadline apply to all beneficiary rights?
+
+No. The 120-day deadline only applies to contesting the validity of the trust itself (challenging it based on lack of capacity, undue influence, fraud, etc.). Your other rights as a beneficiary—to receive accountings, request information, compel distributions, or challenge trustee misconduct—are not subject to this 120-day deadline and can be enforced throughout the administration.
+
 ## Protect Your Inheritance
 
 Understanding your rights as a trust beneficiary helps you ensure proper administration. If something seems wrong, don't wait—delays can make problems harder to fix.

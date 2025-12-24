@@ -572,6 +572,28 @@ A: Yes, if you breach fiduciary duties. They must petition court and show cause 
 - Close trust account
 - Retain records (7 years)
 
+## Frequently Asked Questions
+
+### How much does a successor trustee get paid in California?
+
+As successor trustee, you're entitled to reasonable compensation under California Probate Code Section 15681, even if you're a family member. Typical rates are 1-1.5% of the estate value or $50-150 per hour for individual trustees, while corporate trustees typically charge 1-2% of estate value annually. Factors affecting reasonableness include time spent, estate complexity, skill required, results achieved, and customary fees in the community. Document your time even if you choose not to charge, as this helps defend against beneficiary challenges to your compensation.
+
+### What happens if I miss the 60-day notice deadline in California?
+
+Missing the 60-day notice deadline under California Probate Code Section 16061.7 is the most common and serious mistake successor trustees make. If you fail to send the required notice within 60 days of death or accepting your role as trustee, the 120-day trust contest period never starts, meaning beneficiaries can challenge the trust indefinitely. This also exposes you to personal liability for breach of fiduciary duty, potential removal as trustee, and beneficiary lawsuits. Courts take this requirement very seriously, so always send the notice by certified mail immediately and keep proof of mailing.
+
+### Do I need a lawyer to administer a trust in California?
+
+While not legally required, hiring an attorney is practically essential for trust administration. Statistics show that 90% of trustees who handle administration themselves make costly mistakes, including missing the 60-day notice requirement, failing to obtain proper valuations, not maintaining adequate records, making improper distributions, and missing tax filing deadlines. An attorney typically costs 1-3% of the estate value, which is significantly less than defending against a beneficiary lawsuit or paying surcharges for mistakes. Professional guidance protects you from personal liability while ensuring all legal requirements are met.
+
+### How long does trust administration take after death in California?
+
+Trust administration timelines vary by complexity. A simple trust with only liquid assets and no disputes typically takes 6-9 months. An average trust with real estate, stocks, and standard assets takes 9-18 months. Complex trusts involving business interests, disputes, or significant tax issues can take 18-36 months. The minimum timeline is approximately 6 months due to the required creditor claim period and tax filing requirements. Factors affecting the timeline include estate complexity, whether real estate needs to be sold, beneficiary disputes, tax issues, illiquid assets, and any court involvement.
+
+### Can I resign as successor trustee if it's too overwhelming?
+
+Yes, you can resign as successor trustee if the job is too overwhelming, you have conflicts with beneficiaries, lack time, have health issues, or are moving away. The proper resignation process involves reviewing the trust for resignation provisions, sending written notice to all beneficiaries (30-60 days advance notice), preparing an accounting through your resignation date, identifying the next successor trustee per the trust terms, transferring all records and assets to the new trustee, and filing resignation with the court if required. However, you cannot resign to avoid liability for past breaches, escape accounting requirements, or abandon duties midstream without proper transition.
+
 ## Get Professional Help - Successor Trustee Attorney
 
 Serving as successor trustee is serious responsibility. California law holds you to high fiduciary standards, and mistakes can lead to personal liability.

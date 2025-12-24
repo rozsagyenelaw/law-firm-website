@@ -570,6 +570,28 @@ Real estate transactions are often the most valuable and complex aspect of trust
 
 - **[Trust Administration for Business Owners California](/trust-administration-business-owners-california)** - When trust holds business real estate, special considerations for commercial property and business use.
 
+## Frequently Asked Questions
+
+### Do I need to get an appraisal when selling trust property?
+
+Yes, you should always obtain a professional appraisal for trust real estate. You need it to establish the date-of-death value for tax purposes, determine capital gains if the property is sold, protect yourself from beneficiary claims that you sold below fair market value, and ensure fair distributions among beneficiaries. A licensed California real estate appraiser should conduct the appraisal, and it's a legitimate trust expense paid from trust assets.
+
+### Should I sell trust real estate or distribute it to beneficiaries?
+
+The decision depends on several factors including whether the trust directs distribution, if you need cash to pay debts or taxes, whether beneficiaries want the property, market conditions, and tax implications. Selling provides clean division and immediate cash but involves transaction costs and potential capital gains. Distributing allows beneficiaries to decide when to sell and keeps the appreciating asset but can be harder to divide fairly and may create disputes.
+
+### What are the tax implications of selling trust property versus distributing it?
+
+When you sell, capital gains are calculated as sale price minus stepped-up basis minus selling costs, with the stepped-up basis being the property's fair market value on the date of death. If you distribute instead, beneficiaries receive the property with the stepped-up basis and pay capital gains only on appreciation after the settlor's death. For California property transfers to beneficiaries, parent-child exclusions under Proposition 19 may apply to avoid property tax reassessment, but only for primary residences up to certain value limits.
+
+### Can I sell trust property if there's a mortgage on it?
+
+Yes, but you need to understand due-on-sale clauses and federal protections. The Garn-St. Germain Act provides exceptions for transfers to trusts and transfers to beneficiaries who are relatives of the deceased borrower. You should notify the lender, provide a death certificate, and confirm the loan will continue. Options include having a beneficiary assume the mortgage, the trust continuing payments until sale, refinancing in the beneficiary's name, or selling and paying off the loan from proceeds.
+
+### How long does it take to sell trust real estate in California?
+
+A straightforward trust real estate sale typically takes 6 to 9 months from start to finish. This includes obtaining an appraisal in months 1-2, deciding to sell in months 2-3, preparing the property in months 3-4, listing in month 4, accepting an offer in months 4-5, closing escrow in months 5-6, and distributing proceeds in months 6-7. The timeline can be longer if the market is slow, the property needs major repairs, title issues arise, beneficiaries dispute the distribution, or the property is commercial or unique.
+
 ## Need Help With Trust Real Estate?
 
 If you're a trustee dealing with real estate in a California trust, our experienced trust administration attorneys can guide you through the process, review your authority, and ensure you're fulfilling your fiduciary duties.

@@ -356,6 +356,28 @@ Trust tax returns are complex. Consider professional help if:
 
 - **[Common Trust Administration Mistakes](/common-trust-administration-mistakes-california)** - Tax filing errors that lead to penalties, interest, and beneficiary disputes.
 
+## Frequently Asked Questions
+
+### What is the difference between the deceased's final tax return and the trust tax return?
+
+The deceased's final Form 1040/540 covers income earned from January 1 through the date of death, while the trust's Form 1041/541 covers income earned by trust assets after the date of death. For example, if someone dies on July 15, their final 1040 reports January 1 through July 15 income using their Social Security number, and the trust's 1041 reports July 16 through December 31 income using the trust's EIN. The same investment account might generate income reported on both returns, divided by the date of death. Both returns are due April 15 of the following year.
+
+### Do I need to get a tax ID number for the trust?
+
+Yes, you must obtain an Employer Identification Number (EIN) for the trust after the settlor dies. Do not continue using the deceased's Social Security number for trust transactions. You need the EIN to open trust bank accounts, file trust tax returns, report income to the IRS, and provide to financial institutions. Apply online at IRS.gov using the EIN Assistant, which takes about 10 minutes and provides the number immediately. Alternatively, submit Form SS-4 by mail (4-6 weeks) or fax (1 week). Apply shortly after death since you'll need it to conduct trust business.
+
+### What is stepped-up basis and why does it matter?
+
+Stepped-up basis means inherited assets receive a new cost basis equal to their fair market value at the date of death, eliminating capital gains on appreciation during the deceased's lifetime. For example, if your mother bought stock for $10,000 that's worth $100,000 at death, the basis steps up to $100,000. If you sell it immediately for $100,000, there's no taxable gain. Without the step-up, selling would create a $90,000 gain taxed at approximately $20,000. Document date-of-death values with appraisals and statements because this documentation is essential for reporting future sales.
+
+### Why do trusts pay such high income taxes?
+
+Trusts reach the highest federal tax bracket of 37% at just $15,200 of taxable income, compared to $578,125 for single individuals. This compressed tax structure means trusts pay very high rates on even modest income. However, trustees can usually avoid these high rates by distributing income to beneficiaries before year-end. Distributions are deducted from trust income, and beneficiaries report the income on their personal returns, typically at lower rates. Strategic distribution timing can save thousands in taxes annually.
+
+### Do I need to file an estate tax return if the estate is under the exemption amount?
+
+Not usually, but there are situations where filing makes sense even with no tax owed. The 2024 federal exemption is $13.61 million, and most estates fall below this threshold. However, if the deceased was married, filing Form 706 within 9 months allows you to make a portability election, transferring any unused exemption to the surviving spouse. This could allow the surviving spouse to shield up to $27.22 million from estate tax instead of just $13.61 million. California has no state estate tax, so only federal Form 706 considerations apply.
+
 ## Need Help With Trust Taxes?
 
 Trust administration involves multiple tax deadlines and complex decisions. The Law Offices of Rozsa Gyene works with trusted CPAs to ensure your tax obligations are handled properly.

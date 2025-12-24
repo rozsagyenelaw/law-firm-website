@@ -714,6 +714,28 @@ When you don't have IAEA authority or sale price is below 90% of appraised value
 
 - **[How Much Does Probate Cost in California?](/blog/how-much-does-probate-cost-california/)** - Property sales affect estate costs and executor fees.
 
+## Frequently Asked Questions
+
+### Can I sell probate property without court approval in California?
+
+Yes, if you have Independent Administration of Estates Act (IAEA) authority and the sale price is at least 90% of the professionally appraised value. Most experienced probate attorneys request IAEA authority in the initial Petition for Probate. With this authority, you can sell the property just like a regular home sale without court confirmation or an overbidding procedure. This is the preferred method because it's faster, less expensive, and provides more certainty to buyers.
+
+### How long does it take to sell a house in probate in California?
+
+With IAEA authority, the sale timeline is similar to a regular home sale - typically 4-5 months from the date of death to close of escrow. Without IAEA authority, the court confirmation process adds 6-10 weeks, making the total timeline 6-7 months. The timeline includes obtaining Letters Testamentary (1-2 months), marketing the property (1-2 months), providing the required 15-day notice to beneficiaries, and completing the escrow process (30-45 days).
+
+### What is the overbidding procedure in California probate sales?
+
+The overbidding procedure occurs when a probate sale requires court confirmation. At the confirmation hearing, other buyers can submit higher bids following specific minimum overbid requirements set by California Probate Code Section 10311. For example, on an $800,000 offer, the minimum overbid would be $841,000 ($3,500 plus 5% of the amount over $50,000). Subsequent bids must increase by at least $1,000 each. This public auction-style process can result in the original buyer being outbid, which is why many buyers prefer IAEA sales where overbidding is not possible.
+
+### Do I need a professional appraisal to sell probate property?
+
+Yes, you need a professional appraisal from a licensed real estate appraiser (not just a real estate agent's opinion) to sell probate property in California. This is required by California Probate Code Section 10309. The appraisal determines whether your sale price meets the 90% threshold needed to avoid court confirmation when you have IAEA authority. You'll need both this professional appraisal (for the sale) and the probate referee appraisal (for the Inventory and Appraisal filed with the court). The professional appraisal typically costs $400-700 and should be obtained before accepting an offer.
+
+### Can I live in the probate property while selling it?
+
+As executor, you cannot live in the probate property rent-free as this would be self-dealing and a breach of your fiduciary duty. If you need to live in the property temporarily during probate, you should pay fair market rent to the estate and document this arrangement carefully. Any personal use of estate property for your own benefit without proper compensation can result in personal liability, removal as executor, and beneficiary challenges. Always act in the estate's and beneficiaries' best interests, not your own.
+
 ## Get Professional Help Selling Probate Property
 
 Selling real estate during probate involves complex legal requirements, fiduciary duties, and procedures that vary based on your authority and situation. Professional guidance ensures the sale proceeds smoothly, you fulfill your duties properly, and you avoid personal liability.

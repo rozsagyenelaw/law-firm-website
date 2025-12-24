@@ -490,6 +490,28 @@ Proper GST planning is essential for trustees administering trusts with skip per
 
 - **[Trust Administration for Business Owners](/trust-administration-business-owners-california)** - GST planning for family business succession and dynasty trust structures.
 
+## Frequently Asked Questions
+
+### Does California have its own generation-skipping transfer tax?
+
+No. California does not impose a state-level GST tax. Only the federal GST tax applies at a rate of 40%. This simplifies compliance for California trustees since you only need to track federal exemptions and file federal Form 709, without worrying about separate state reporting or taxation. However, you still must comply with all federal GST requirements including exemption allocation and proper filing deadlines.
+
+### What happens if I forget to allocate GST exemption when creating a trust?
+
+If you fail to allocate GST exemption when creating a trust for grandchildren or more remote descendants, the trust will face a 40% GST tax on all distributions to skip persons. You can still allocate exemption later by filing Form 709, but it will be based on the trust's current value rather than the original funding amount. This wastes exemption if the trust has appreciated significantly. The IRS does have automatic allocation rules that may apply to certain transfers, but relying on these without proper planning can lead to inefficient use of your exemption.
+
+### How is GST tax different from estate tax?
+
+Estate tax applies when assets transfer from a deceased person to anyone, while GST tax specifically targets transfers that skip a generation. The two taxes can stack on top of each other. For example, if a grandfather leaves $10 million directly to his grandson, it faces both estate tax of up to 40% and an additional GST tax of 40%, resulting in a combined effective tax rate that can exceed 60%. Both taxes share the same exemption amount of $13.61 million per person in 2024, but the exemptions must be allocated separately.
+
+### Can I avoid GST tax by making direct payments for my grandchildren's education?
+
+Yes. When you pay tuition directly to an educational institution for your grandchildren, the payment is exempt from both gift tax and GST tax, regardless of amount. This unlimited exclusion doesn't use any of your $13.61 million GST exemption. However, the payment must go directly to the school, not to the grandchild or their parents for reimbursement. The same rule applies to medical expenses paid directly to healthcare providers. Room and board, books, and supplies don't qualify for this exclusion.
+
+### What is a dynasty trust and how does it relate to GST tax?
+
+A dynasty trust is a long-term trust designed to benefit multiple generations of your family. In California, trusts can last up to 90 years under the Rule Against Perpetuities, while some states allow perpetual trusts. The key GST planning strategy is to allocate your full GST exemption when you create the dynasty trust. If you allocate $13 million in exemption to a dynasty trust at creation, all future growth and all distributions to grandchildren, great-grandchildren, and beyond are completely protected from GST tax. This makes dynasty trusts an extremely powerful wealth preservation tool when combined with proper GST exemption allocation.
+
 ## Need Help With GST Tax Issues?
 
 If you're dealing with GST tax in California trust administration, our attorneys work with tax specialists to minimize tax liability and ensure proper exemption allocation and compliance.

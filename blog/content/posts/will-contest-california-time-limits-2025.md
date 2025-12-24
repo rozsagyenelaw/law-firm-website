@@ -427,6 +427,28 @@ Testator threatened or coerced into signing.
 9. **Consider settlement early**
 10. **Don't delay - deadlines are STRICT**
 
+## Frequently Asked Questions
+
+### What happens if I miss the 120-day deadline to contest a will in California?
+
+If you miss the 120-day deadline, you generally lose the right to contest the will forever, and it stands as valid even if procured by fraud or undue influence. Courts strictly enforce this deadline and rarely allow late contests except in extraordinary circumstances such as later-discovered fraud you couldn't have known about, forgery discovered after the deadline, or if you lacked mental capacity during the contest period. Don't count on exceptions—act immediately if you suspect a will is invalid.
+
+### Can you contest a will before someone dies in California?
+
+No, you cannot contest a will before the testator dies in California. A will has no legal effect until death, and the person can change or revoke it at any time while alive. However, if you suspect undue influence or lack of capacity while the person is still living, you should document evidence, consult an attorney, and be prepared to act immediately after death. For living trusts, different rules apply and contests may be possible during the trustor's lifetime in certain circumstances.
+
+### What is the most common reason to contest a will in California?
+
+Undue influence is the most common ground for will contests in California because it's often easier to prove than lack of capacity and carries a favorable legal presumption. Classic cases involve an elderly person dependent on one caregiver or family member who isolates them from others, controls their finances and healthcare, and procures a new will disinheriting natural heirs. When the beneficiary had a confidential relationship and participated in will preparation, the burden shifts to them to prove no undue influence occurred.
+
+### How much does it cost to contest a will in California?
+
+Will contest costs typically range from $10,000 to $50,000 for simple cases, $50,000 to $200,000 for complex or high-value estates, and over $200,000 if the case goes to appeal. Additional costs include expert witness fees for medical, handwriting, and financial experts ranging from $3,000 to $20,000 each, plus court costs and deposition expenses. If you lose, you usually pay your own fees and may be ordered to pay opponent's fees if the contest was frivolous. If you win, you may recover fees from the estate or from wrongdoers.
+
+### Do all will contests go to trial in California?
+
+No, most will contests settle before trial because litigation is expensive, outcomes are uncertain, and families want resolution while estate assets deplete. Los Angeles County courts typically require mediation before trial, where a neutral mediator helps parties negotiate settlement. Typical settlements involve the contestant receiving a percentage of the estate while other beneficiaries keep the remainder, with everyone saving substantial legal fees and reaching confidential agreements that preserve family relationships.
+
 ## Free Consultation - Will Contest Attorney
 
 If you're considering contesting a will or defending against a contest, time is critical. California's 120-day deadline is unforgiving.

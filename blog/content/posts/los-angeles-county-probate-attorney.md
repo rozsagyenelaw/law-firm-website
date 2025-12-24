@@ -224,6 +224,28 @@ During your free consultation, we'll:
 
 **Call (818) 291-6217 or [schedule online](https://portal.livingtrust-attorneys.com/book) to get started.**
 
+## Frequently Asked Questions
+
+### How much does a probate attorney cost in Los Angeles County?
+
+California law sets statutory fees for probate attorneys based on the estate's gross value. For a $500,000 estate, the statutory attorney fee is $13,000. For a $1,000,000 estate, it's $23,000. These fees are paid from the estate, not out of your pocket, and are calculated on a sliding scale set by California Probate Code. The fee structure ensures transparency with no surprise costs.
+
+### Do I really need a probate attorney or can I do it myself?
+
+While you can legally represent yourself in California probate, the process is complex with strict deadlines, detailed court filings, and significant personal liability risks. I've seen executors face rejected filings causing six-month delays, miss critical deadlines resulting in court sanctions, and become personally liable for tens of thousands of dollars for honest mistakes. Most executors find that hiring an attorney provides peace of mind and protects them from costly errors.
+
+### How long does probate take in Los Angeles County?
+
+Most Los Angeles County probate cases take 12 to 18 months from start to finish at Stanley Mosk Courthouse. Complex estates with litigation, tax issues, or real estate sales can take 2 to 3 years or longer. The timeline includes filing the petition, court hearings, creditor notification periods, inventory and appraisal preparation, asset management, and final accounting and distribution.
+
+### What happens if there is no will?
+
+I handle both testate cases with a will and intestate cases without a will. When there's no will, California's intestate succession laws determine who inherits based on family relationships. The probate process is similar, but the court appoints an administrator rather than an executor. The administrator has the same duties and responsibilities as an executor would have.
+
+### Can you take over a probate case that's already been filed?
+
+Yes, I can take over probate cases that are already in progress if you're having difficulties with the process or your current attorney. I've helped many clients get probate cases back on track after filing errors, missed deadlines, or lack of communication. Contact me to discuss your situation and how I can help move your case forward efficiently.
+
 ## Why Wait? Get the Help You Need Today
 
 Probate doesn't get easier the longer you wait. Court deadlines don't pause for grief. The sooner you get professional help, the sooner you can complete the process and move forward.

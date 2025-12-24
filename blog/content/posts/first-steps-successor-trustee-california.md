@@ -307,6 +307,28 @@ Being a successor trustee is a big responsibility, but thousands of people do it
 - Document everything
 - Get professional help when needed
 
+## Frequently Asked Questions
+
+### What is the 60-day notice requirement for successor trustees?
+
+California Probate Code Section 16061.7 requires you to send a written notice to all trust beneficiaries and legal heirs within 60 days of the trustor's death or of you becoming trustee. This notice must include the trust name, your contact information, notification that the trust is now irrevocable, the beneficiaries' right to request a copy of the trust terms, and information about the 120-day period to contest the trust. You must send this notice by certified mail with return receipt requested to maintain proof of compliance. Missing this deadline extends the time beneficiaries have to contest the trust.
+
+### How soon can I distribute assets to beneficiaries as successor trustee?
+
+You should wait at least 120 days after sending the required notice to beneficiaries before making distributions. This waiting period allows time for potential trust contests. Additionally, you must ensure all debts and taxes are paid first before distributing to beneficiaries. Premature distributions can make you personally liable if debts or taxes remain unpaid. For specific bequests of personal property, you may distribute after the 120-day period if the trust has sufficient assets to cover all obligations. Always consult with an attorney before making distributions to protect yourself from liability.
+
+### Do I need an attorney if I'm a successor trustee?
+
+While not legally required, hiring an estate planning attorney is highly recommended unless the trust is extremely simple with only cash and one beneficiary. An attorney ensures you meet critical deadlines, prepares required legal notices correctly, handles real estate transfers, advises on tax obligations, and most importantly, protects you from personal liability for mistakes. Attorney fees are paid from trust assets, not your personal funds, so the cost doesn't come out of your pocket. Professional guidance typically prevents costly errors that far exceed the attorney fees.
+
+### Can I be paid for serving as successor trustee?
+
+Yes, California law allows trustees to receive reasonable compensation for their services. The trust document may specify the compensation amount or method for calculating it. If the trust is silent, you're entitled to reasonable compensation based on factors like the time spent, complexity of duties, skills required, and customary fees in the area. Typical trustee fees range from 0.5% to 1.5% of the trust's annual value. However, if you're also a beneficiary, you should consider that trustee fees are taxable income while inheritances are tax-free, so waiving fees may be more advantageous.
+
+### What happens if I commingle trust funds with my personal accounts?
+
+Commingling trust funds with personal funds is a serious breach of your fiduciary duty and can result in personal liability, removal as trustee, and potential legal action from beneficiaries. You must keep trust property completely separate from your personal property at all times. Open a separate bank account titled in the trust's name and use it exclusively for all trust income and expenses. Never mix trust money with your own, and never borrow from the trust even temporarily. Maintaining separate accounts protects both you and the beneficiaries.
+
 ## Need Guidance?
 
 The Law Offices of Rozsa Gyene helps new successor trustees get started right. We'll make sure you meet deadlines, avoid pitfalls, and fulfill your duties properly.

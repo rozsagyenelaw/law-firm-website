@@ -271,6 +271,28 @@ Calculate when the contest period expires for each recipient. Don't make final d
 
 - **[Trustee Removal California](/trustee-removal-california-process-grounds)** - How failure to provide proper notice can be grounds for trustee removal.
 
+## Frequently Asked Questions
+
+### What happens if I miss the 60-day notice deadline in California?
+
+If you miss the 60-day deadline, the 120-day contest period never starts running. This means beneficiaries and heirs can potentially contest the trust indefinitely. You may also face personal liability, removal as trustee, and surcharge for any damages caused by the delay. Send the notice as soon as possible even if late.
+
+### Who must receive the 60-day trust notice in California?
+
+You must send notice to all trust beneficiaries (primary, contingent, and remainder), all legal heirs who would inherit under California intestate succession laws (even if they receive nothing under the trust), and beneficiaries of any prior versions of the trust if it was amended.
+
+### Can I make distributions before the 120-day contest period expires?
+
+Most trustees wait until the 120-day period expires before making final distributions. You may make preliminary distributions if the estate clearly has sufficient assets, but you should reserve funds for potential contests. Making full distributions before 120 days creates risk if someone contests the trust.
+
+### What must be included in a California trust notification?
+
+The notice must include: the settlor's identity, trust name and date, statement that trust is irrevocable, trustee contact information, attorney contact information (if any), beneficiary's right to receive trust terms, the 120-day contest deadline, and the settlor's date of death.
+
+### How do I send the 60-day notice properly?
+
+California allows personal delivery or first-class mail to the recipient's last known address. Use certified mail with return receipt to prove delivery. Keep copies of all notices sent, along with proof of mailing. If an address is unknown, document your reasonable efforts to locate the person.
+
 ## Need Help With Trust Notice Requirements?
 
 The 60-day notice is one of the first and most important steps in trust administration. Getting it right protects you as trustee and moves the administration forward.

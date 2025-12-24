@@ -298,6 +298,28 @@ Prompt administration saves money.
 - Tax issues
 - Beneficiaries include minors or disabled persons
 
+## Frequently Asked Questions
+
+### How much does trust administration cost compared to probate in California?
+
+Trust administration typically costs $3,000-$15,000 in professional fees, while probate costs are set by statute and much higher. For a $1 million estate, probate fees are approximately $46,000 for the attorney and executor combined, compared to around $10,000 for trust administration. This represents a savings of about 75-85%. For a $500,000 estate, probate costs about $26,000 versus $6,000 for trust administration. The larger the estate, the greater the dollar savings from having a trust instead of going through probate.
+
+### Do I have to pay trust administration costs out of my own pocket as trustee?
+
+No. Legitimate trust administration expenses are paid from trust assets, not from the trustee's personal funds. This includes attorney fees, accountant fees, recording costs, appraisals, and other necessary expenses. All costs should flow through the trust account. The expenses reduce the amount available for distribution to beneficiaries, but all beneficiaries share the cost proportionally. The only exception is if you as trustee caused unnecessary expenses through mismanagement, in which case those costs might be your personal responsibility.
+
+### What are reasonable trustee fees in California?
+
+If the trust document doesn't specify compensation, California law allows the trustee to charge reasonable fees. Family member trustees often waive compensation entirely, especially when they're also beneficiaries. Professional trustees typically charge 0.5% to 1.5% of trust assets annually. For example, on a $1 million trust, professional trustee fees might range from $5,000 to $15,000 per year. Hourly rates for trustees can range from $50 to $150 per hour depending on complexity. The trust document controls, so always check what it says about trustee compensation first.
+
+### Are trust administration attorney fees negotiable in California?
+
+Yes. Unlike probate, which has statutory attorney fees set by law, trust administration attorney fees are fully negotiable. Fees vary based on trust complexity, assets involved, number of beneficiaries, geographic location, and attorney experience. Many attorneys offer flat fee arrangements for straightforward trust administrations, providing cost certainty. Typical flat fees range from $5,000 to $10,000 for standard administrations. For complex situations involving disputes or litigation, attorneys typically charge hourly rates of $300 to $500 per hour. Always ask for a clear fee estimate upfront.
+
+### How can I minimize trust administration costs?
+
+The best ways to reduce costs are to stay organized, communicate clearly with beneficiaries, and use professionals strategically. Have all trust documents, account statements, and beneficiary information ready before meeting with attorneys. Keep beneficiaries informed throughout the process to prevent disputes that drive up costs significantly. Handle basic paperwork yourself but use attorneys for legal advice and deed preparation, and CPAs for tax returns. Ask about flat fee arrangements for predictability. Most importantly, don't delay—prompt administration saves money by avoiding additional tax returns, property maintenance expenses, and interest charges on debts.
+
 ## Get a Cost Estimate
 
 The Law Offices of Rozsa Gyene provides clear, upfront fee estimates for trust administration. We'll review your situation and explain exactly what to expect.

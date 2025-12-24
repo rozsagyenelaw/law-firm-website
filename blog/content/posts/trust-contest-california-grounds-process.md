@@ -665,6 +665,28 @@ If you suspect a trust is invalid, consult an experienced trust litigation attor
 
 - **[Trust Litigation vs Probate Litigation California](/trust-litigation-vs-probate-litigation-california)** - Compare trust and probate contests including venue, timing, and procedural differences.
 
+## Frequently Asked Questions
+
+### What is the most common reason trusts are successfully contested in California?
+
+Lack of mental capacity and undue influence are the two most common grounds for successful trust contests. Capacity challenges work best when supported by medical records showing dementia or Alzheimer's at the time the trust was created or amended. Undue influence cases succeed when there's evidence of isolation, a confidential relationship, active participation in trust preparation, and disproportionate benefit to the influencer.
+
+### How much does it cost to contest a trust in California?
+
+Trust contests typically cost $50,000 to $200,000 through trial, with complex cases reaching $200,000 to $500,000 or more. Initial retainers range from $10,000 to $50,000. Additional costs include expert witness fees ($10,000-$50,000+), depositions ($2,000-$10,000), and mediation fees ($3,000-$10,000). Most attorneys charge hourly rates of $400-$700, though some accept contingency arrangements for strong cases.
+
+### Can I contest a trust after the 120-day deadline has passed?
+
+It depends. If you never received proper notice from the trustee, the 120-day deadline may not have started. California law provides a 4-year statute of limitations from the settlor's death if no proper notice was given. Additionally, if fraud was concealed and only discovered later, you may have grounds to contest beyond the deadline under the discovery rule. However, strict deadlines apply once proper notice is received.
+
+### Will I lose my inheritance if I contest the trust and lose?
+
+Not necessarily. While many trusts contain no-contest clauses that disinherit contestants, California law (Probate Code 21311) only enforces these clauses if the contest was brought without probable cause. If you have reasonable grounds to contest based on evidence, you can challenge the trust without triggering the no-contest clause—even if you ultimately lose. Consult an attorney before contesting to assess whether you have probable cause.
+
+### What evidence do I need to successfully contest a trust?
+
+The evidence needed depends on your grounds. For lack of capacity: medical records, doctor testimony, witness statements about confusion or memory loss. For undue influence: evidence of isolation, financial control, timeline of relationship changes, witnesses to manipulation. For fraud: witnesses to false statements, contradictory documents, timeline of events. You need clear and convincing evidence—a higher standard than typical civil cases—so strong documentation and credible witnesses are essential.
+
 ## Need Help Contesting a Trust?
 
 If you believe a trust was procured through undue influence, fraud, or lack of capacity, our experienced trust litigation attorneys can evaluate your case and advise on your options.

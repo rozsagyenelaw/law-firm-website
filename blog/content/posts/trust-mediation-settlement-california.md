@@ -548,6 +548,28 @@ While settlement isn't always appropriate, it should always be seriously conside
 
 - **[Trust Litigation vs Probate Litigation California](/trust-litigation-vs-probate-litigation-california)** - Compare litigation approaches to determine best settlement timing and venue strategy.
 
+## Frequently Asked Questions
+
+### When is the best time to mediate a trust dispute?
+
+The optimal time for mediation is typically after discovery is completed but before trial preparation begins—usually 12-18 months into litigation. At this point, both sides have enough information about the evidence and case strengths to negotiate realistically, but haven't incurred the massive costs of expert witnesses and trial preparation. However, mediation can succeed earlier for simpler disputes where the facts are clear and both parties want to avoid litigation costs.
+
+### What happens if mediation fails and we can't reach a settlement?
+
+If mediation doesn't result in settlement, the litigation continues toward trial. You're not bound by any positions taken during mediation, as the process is confidential. Many cases that don't settle at first mediation eventually settle later—sometimes through a second mediation attempt, direct negotiations between attorneys, or on the courthouse steps before trial as the reality of trial costs and risks becomes clearer.
+
+### How much can I realistically save by settling instead of going to trial?
+
+Settlement typically saves $100,000 to $350,000 compared to trial. Mediation and settlement costs usually total $65,000-$140,000, while taking a case through trial costs $200,000-$500,000 or more. Beyond direct cost savings, settlement saves years of time (receive your inheritance 1-3 years sooner), emotional stress, and often preserves some family relationships. The certainty of settlement outcome versus trial risk is also valuable.
+
+### Can the mediator force us to settle or make a decision for us?
+
+No. The mediator is a neutral facilitator who helps parties communicate and explore settlement options, but has no power to force a settlement or make binding decisions. That's arbitration, not mediation. In mediation, all settlement decisions are voluntary—you control the outcome. The mediator can reality-test your positions and suggest creative solutions, but you're free to reject any settlement proposal and proceed to trial if you choose.
+
+### Should I accept a settlement offer that's less than I think I deserve?
+
+Consider the offer against realistic trial outcomes, not ideal hopes. Calculate your expected value at trial by weighing best-case and worst-case scenarios against their probabilities, then subtract litigation costs and time value. If the settlement falls within your reasonable range and avoids trial risks, it may be wise even if less than you hoped for. Consult your attorney about the strength of your evidence, trial risks, and whether the offer is reasonable given the circumstances.
+
 ## Need Help With Trust Mediation?
 
 Our experienced trust litigation attorneys handle both mediation and trial. We can help you evaluate settlement options and negotiate effectively to protect your interests.

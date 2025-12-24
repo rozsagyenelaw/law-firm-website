@@ -257,6 +257,28 @@ Even complex trust administrations usually finish faster than simple probates.
 
 **Address problems proactively:** Don't let issues fester—deal with them immediately.
 
+## Frequently Asked Questions
+
+### Why does trust administration take 120 days minimum in California?
+
+California law gives beneficiaries and heirs 120 days to contest the trust after receiving proper notice. This contest period doesn't start until the successor trustee sends the required statutory notice within 60 days of the trustor's death. Most trustees wait until this 120-day period expires before making final distributions to avoid the risk of having to recover assets if someone successfully challenges the trust. While preliminary distributions are legally possible, the contest period is the main reason trust administration rarely completes in less than four months.
+
+### Can I distribute trust assets before the 120-day contest period ends?
+
+Yes, you can make preliminary distributions before the contest period expires, but it carries risk. If someone successfully contests the trust after you've distributed assets, you as trustee may be personally liable for recovering those assets from beneficiaries. Most experienced trustees wait until the full 120-day period passes before making final distributions. However, early distribution may make sense if beneficiaries have urgent financial needs, a trust contest is extremely unlikely, you reserve sufficient funds for potential claims, and all beneficiaries consent to the early distribution.
+
+### How long does trust administration take if the trust owns real estate that must be sold?
+
+Selling trust real estate typically adds 3-5 months to the administration timeline. Preparing the home for sale takes 2-4 weeks, the listing period until an accepted offer is 4-12 weeks, and escrow to closing is another 4-6 weeks. For a trust requiring real estate sales, expect the total administration to take 6-12 months or longer. If the real estate is simply being transferred to a beneficiary rather than sold, the process is much faster and only adds 2-4 weeks for deed preparation and recording.
+
+### What happens if beneficiaries are fighting during trust administration?
+
+Family disputes can significantly extend trust administration beyond the typical 3-12 month timeframe. Disagreements over asset values, whether to sell property, accusations against the trustee, or outright litigation can delay administration for a year or more. The best approach is to communicate transparently with all beneficiaries from the start, address concerns promptly, keep detailed records of all decisions and transactions, and consider professional mediation if disputes arise. If litigation becomes necessary, administration can take 18-24 months or longer to complete.
+
+### Is trust administration always faster than probate in California?
+
+Yes, trust administration is almost always faster than probate. Even complex trust administrations typically finish in 6-12 months, while simple probates take 12-18 months minimum. Trust administration starts immediately without waiting for court hearings, doesn't require court approval for routine decisions, has fewer procedural requirements, and allows the trustee to manage assets without court oversight. The only exception might be an extremely simple probate combined with a very complex trust involving litigation, but this is rare. The time savings is one of the primary benefits of having a living trust.
+
 ## Need Help With Trust Administration?
 
 The Law Offices of Rozsa Gyene guides successor trustees through California trust administration—helping you meet deadlines, avoid mistakes, and distribute assets efficiently.

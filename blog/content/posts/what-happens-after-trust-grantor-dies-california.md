@@ -372,6 +372,28 @@ Store securely and tell beneficiaries where records are located.
 | Months 4-6 | File tax returns, prepare for distribution |
 | Months 6-12 | Distribute assets, close trust |
 
+## Frequently Asked Questions
+
+### What happens to a revocable trust when the grantor dies?
+
+When the grantor dies, a revocable living trust automatically becomes irrevocable, meaning its terms can no longer be changed or amended. The successor trustee immediately assumes authority to manage and distribute trust assets according to the trust document. Trust administration begins, which includes notifying beneficiaries within 60 days, inventorying assets, paying debts and taxes, and ultimately distributing inheritances to beneficiaries after the 120-day contest period expires.
+
+### How long does it take to distribute assets from a trust after death in California?
+
+Most California trusts are fully administered and assets distributed within 12 to 18 months after the grantor's death. However, the successor trustee cannot make final distributions until after the 120-day contest period expires following required beneficiary notices, all debts are paid, and tax returns are filed. Simple trusts with liquid assets and no complications may distribute sooner, while complex estates with real property or business interests may take 2 years or longer.
+
+### Do beneficiaries have to pay taxes on trust distributions in California?
+
+Beneficiaries generally don't pay income tax on principal distributions from a trust because they receive assets with a stepped-up basis to fair market value as of the grantor's date of death. However, beneficiaries must pay income tax on any earnings the trust generates after the grantor's death, which are reported on K-1 forms issued by the trustee. California has no inheritance tax or estate tax, though federal estate tax applies to estates exceeding $13.61 million.
+
+### Can trust assets be distributed before the 120-day contest period ends?
+
+While the successor trustee has authority to manage trust assets and pay necessary expenses during the 120-day contest period, making final distributions to beneficiaries before this period expires is risky. If someone successfully contests the trust after you've distributed assets, you may be personally liable to recover them. Most experienced trustees wait until the contest period passes before making final distributions, though preliminary or partial distributions may be appropriate in certain circumstances.
+
+### What happens if there's no successor trustee named in the trust?
+
+If no successor trustee is named, is willing to serve, or is able to serve, the trust doesn't fail. Beneficiaries can petition the probate court to appoint a successor trustee. The court will consider qualified individuals or professional trustees who can properly administer the trust. The court's goal is to ensure the trust is administered according to the grantor's wishes while protecting beneficiary interests.
+
 ## You Don't Have to Do This Alone
 
 Trust administration after losing someone you love is overwhelming. You're grieving AND handling complex legal responsibilities.

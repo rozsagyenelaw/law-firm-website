@@ -418,6 +418,28 @@ This comprehensive checklist will guide you through every step of trust administ
 
 - **[Trustee Removal California](/trustee-removal-california-process-grounds)** - When failure to fulfill duties leads to removal and how to protect yourself from removal petitions.
 
+## Frequently Asked Questions
+
+### What is the first thing I should do as successor trustee in California?
+
+The first priority is locating the original trust document and all amendments, then obtaining 10-15 certified death certificates. Within the first two weeks, you should also secure all trust property (including changing locks if necessary), review the trust thoroughly to understand your duties and the distribution provisions, and contact key parties including an estate planning attorney. Do not distribute any assets yet. These immediate steps establish your foundation for proper trust administration and help you avoid costly mistakes later.
+
+### What is the 60-day notice requirement for California trustees?
+
+California Probate Code Section 16061.7 requires successor trustees to send written notice to all trust beneficiaries and legal heirs within 60 days of the trustor's death or within 60 days of accepting your role as trustee. The notice must include the trust name and date, your name and contact information as trustee, a statement that the trust is now irrevocable, notification of the right to receive a copy of the trust terms, and information about the 120-day deadline to contest the trust. Send this notice via certified mail and keep copies of all notices and mailing receipts.
+
+### Can I be removed as successor trustee?
+
+Yes, beneficiaries can petition the court to remove you as successor trustee if you breach your fiduciary duties. Common grounds for removal include failure to provide accountings when requested, self-dealing or conflicts of interest, mismanagement of trust assets, failure to communicate with beneficiaries, unreasonable delays in administration, commingling trust funds with personal funds, or favoring one beneficiary over others. To protect yourself from removal, document everything, communicate regularly with beneficiaries, treat all beneficiaries impartially, and consider hiring an attorney to guide you through the administration process.
+
+### How do I distribute trust assets to beneficiaries?
+
+Before distributing trust assets, you must wait until the 120-day contest period expires, confirm all debts and taxes are paid, and ensure you've maintained sufficient reserves for unknown claims. Review the trust's distribution provisions carefully to understand who gets what and whether any conditions apply. You can distribute assets in-kind (transferring actual property like houses or stocks), as cash (selling assets and distributing proceeds), or a combination. Always obtain signed receipts from beneficiaries acknowledging what they received, and prepare releases protecting you from future liability before making final distributions.
+
+### What tax returns do I need to file as successor trustee?
+
+As successor trustee, you're responsible for filing several tax returns. File the deceased's final federal income tax return (Form 1040) and California return (Form 540) for January 1 through the date of death, due April 15 of the following year. You must also file trust income tax returns (Form 1041 federal and Form 541 California) annually if the trust has $600 or more in income or any taxable income. If the estate exceeds $13.61 million (2024), you'll need to file a federal estate tax return (Form 706) within 9 months of death. Consider hiring a CPA to handle these filings and ensure you don't miss important tax elections.
+
 ## Need Help?
 
 The Law Offices of Rozsa Gyene guides successor trustees through every step of California trust administration. We help you meet deadlines, fulfill your duties, and avoid costly mistakes.

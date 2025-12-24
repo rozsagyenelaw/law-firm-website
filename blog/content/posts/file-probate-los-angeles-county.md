@@ -683,6 +683,28 @@ LA County enforces bond requirements unless specifically waived:
 
 - **[Died Without Will California](/blog/died-without-will-california/)** - Filing probate when decedent had no will (intestate).
 
+## Frequently Asked Questions
+
+### How much does it cost to file probate in Los Angeles County?
+
+The initial filing fee ranges from $435 to $935 depending on the estate's gross value. Estates under $250,000 pay $435, while estates over $2 million pay $935. Additionally, you'll need death certificates ($20 each, order 10-15), newspaper publication ($200-600), and probate referee fees (0.1% of appraised assets). The total court costs and fees typically range from $1,500 to $3,000 before attorney fees. Statutory attorney and executor fees are calculated separately based on estate value, adding significantly more to the total cost.
+
+### Do I have to file probate at Stanley Mosk Courthouse downtown?
+
+Yes, all Los Angeles County probate cases must be filed at Stanley Mosk Courthouse at 111 North Hill Street in downtown Los Angeles, regardless of where the deceased lived within the county. This includes decedents who lived in Glendale, Burbank, Pasadena, Santa Monica, Long Beach, Torrance, or any other LA County city. You cannot file at your local courthouse. The probate division is located in Room 113, and all hearings take place at this courthouse, though they may be in different courtrooms on the 9th floor.
+
+### Can I file probate in Los Angeles County without an attorney?
+
+Legally, yes, you can represent yourself in probate. However, it's not advisable for estates over $250,000. Los Angeles County has strict local rules beyond state requirements, high risk of errors leading to delays and continuances, and specific judges' preferences you need to know. Mistakes can result in personal liability and extended timelines. Since attorney fees are paid from the estate at statutory rates and professional guidance typically prevents costly delays, most executors find the investment worthwhile and protective.
+
+### How long does it take from filing to getting Letters Testamentary?
+
+From the date you file your petition to receiving Letters Testamentary typically takes 6 to 10 weeks in Los Angeles County. After filing, the court schedules a hearing approximately 6-8 weeks out. You must provide proper notice to heirs and beneficiaries at least 15 days before the hearing and publish notice in a newspaper for three consecutive weeks. If the judge grants your petition at the hearing, you'll receive Letters Testamentary the same day or within 1-2 business days.
+
+### What happens if I make a mistake on my probate petition?
+
+If your petition contains errors or omissions, the court clerk may reject it at filing, or the judge may continue the hearing and give you time to correct the problems. Common issues include incomplete information, incorrect estate valuation, insufficient notice to heirs, missing proof of publication, or failure to request independent administration authority. Each continuance delays the process by 6-8 weeks. Working with an experienced probate attorney ensures your petition is complete and correct on the first filing, avoiding delays and additional costs.
+
 ## Get Professional Help Filing Los Angeles County Probate
 
 Filing probate in Los Angeles County involves complex forms, strict procedures, and county-specific requirements. Having experienced guidance ensures your petition is accepted on first filing and moves through the process efficiently.

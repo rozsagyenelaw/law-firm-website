@@ -496,6 +496,28 @@ Trust administration requires communication. Trustees who won't communicate aren
 
 - **[Trust Mediation and Settlement California](/trust-mediation-settlement-california)** - Resolving communication disputes through mediation before escalating to litigation.
 
+## Frequently Asked Questions
+
+### How long should a trustee take to respond to beneficiary requests?
+
+California law doesn't specify exact response timeframes, but courts expect trustees to respond within reasonable periods. Simple questions should receive responses within 7 to 14 days, complex requests within 30 to 60 days, and formal accounting requests within 60 days. If a trustee consistently takes longer than these timeframes or ignores requests entirely, they're likely breaching their duty to keep beneficiaries reasonably informed under Probate Code Section 16060.
+
+### Can I remove a trustee for not communicating in California?
+
+Yes, persistent failure to communicate with beneficiaries is grounds for trustee removal under California Probate Code Section 15642. Beneficiaries can petition the probate court to remove a trustee who fails to respond to reasonable requests, refuses to provide accountings, or otherwise breaches the duty to keep beneficiaries informed. The court considers the pattern of non-communication, harm to the trust, and whether the trustee's conduct substantially impairs trust administration.
+
+### What information is a trustee required to provide to beneficiaries?
+
+California trustees must provide beneficiaries with notice within 60 days of becoming trustee, copies of the trust document upon request, annual accountings showing all transactions, responses to reasonable information requests, and updates about significant trust matters. Beneficiaries are entitled to know about trust assets, income and expenses, distributions made, and the timeline for completing administration. Trustees cannot refuse to provide this information without valid legal justification.
+
+### Who pays attorney fees when a beneficiary sues a trustee for failing to communicate?
+
+In California trust litigation, courts can order attorney fees paid from trust assets when beneficiaries successfully compel trustee compliance. If the court finds the trustee clearly breached their duty to communicate and the beneficiary made reasonable efforts to resolve the issue informally, the prevailing beneficiary can often recover their attorney fees. This means beneficiaries may not have to pay out-of-pocket costs to enforce their legal rights against an unresponsive trustee.
+
+### How do I know if lack of communication means the trustee is hiding something?
+
+Warning signs that communication failure may mask serious problems include the trustee avoiding all contact for months, providing only vague or evasive responses, large sums unaccounted for, trust assets diminishing, years passing with no distributions, or the trustee transferring trust assets to themselves. If lack of communication is combined with any of these red flags, consult a trust litigation attorney immediately to investigate potential mismanagement, self-dealing, or theft.
+
 ## Need Help With an Unresponsive Trustee?
 
 If you're dealing with a trustee who won't communicate or provide information, our experienced trust litigation attorneys can help enforce your rights. We represent beneficiaries throughout California in trust disputes and petitions to compel trustee compliance.

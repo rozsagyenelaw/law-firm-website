@@ -682,6 +682,28 @@ Brother tells father (falsely) that daughter has stolen from him. Father disinhe
 
 - **[How to File Probate in Los Angeles County](/blog/file-probate-los-angeles-county/)** - Where to file will contest objections.
 
+## Frequently Asked Questions
+
+### How long do I have to contest a will in California?
+
+You have 120 days from the date the will is admitted to probate to file a will contest. You can also object before admission. Missing this deadline severely limits your options. If you have concerns about a will, consult an attorney immediately—don't wait.
+
+### What are valid grounds to contest a will in California?
+
+Valid grounds include: lack of testamentary capacity (the person didn't understand what they were signing), undue influence (someone improperly pressured them), fraud (deception about the will's contents), forgery, improper execution (missing witnesses or signatures), and revocation by a later will.
+
+### How much does it cost to contest a will in California?
+
+Will contests typically cost $15,000-$50,000 for straightforward cases and can exceed $100,000 for complex litigation. Costs include attorney fees, expert witnesses, court fees, and depositions. Most attorneys require a retainer and bill hourly, though some take cases on contingency.
+
+### What are the chances of winning a will contest?
+
+Most will contests settle before trial—estimates suggest 70-80% end in negotiated settlements. Cases with strong evidence of incapacity or undue influence have better success rates. However, contesting a will with weak evidence often fails and can be expensive.
+
+### Can I contest a will if I was disinherited?
+
+You need "standing" to contest. If you were named in a prior will, or would inherit under intestate succession laws (as a spouse, child, or other heir), you likely have standing. Simply being upset about being left out isn't enough—you need valid legal grounds.
+
 ## Get Expert Help with Will Contests
 
 Will contests are complex, expensive, and emotionally draining. Whether you're considering challenging a will or defending against a contest, experienced legal guidance is essential.

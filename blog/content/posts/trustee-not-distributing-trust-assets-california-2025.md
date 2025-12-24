@@ -550,6 +550,28 @@ If a California trustee is not distributing trust assets, not communicating, or 
 
 **Don't wait** - trustees sometimes dissipate assets, and your rights may have time limits.
 
+## Frequently Asked Questions
+
+### How long does a trustee have to distribute assets after death in California?
+
+California law requires trustees to distribute trust assets within a reasonable time, typically 12-18 months for most trusts. Simple trusts with liquid assets should distribute within 6-12 months, while complex trusts with business interests or tax issues may take 18-36 months. Delays beyond two years without valid justification constitute breach of fiduciary duty and grounds for court intervention.
+
+### What can I do if the trustee won't respond to my requests?
+
+Send a formal written demand via certified mail requesting distribution, accounting, and trust documents. Give the trustee 30 days to respond. If they continue to ignore you, hire a trust litigation attorney to send a formal demand letter. If the trustee still refuses to communicate, petition the probate court to compel accounting, compel distribution, and potentially remove the trustee for breach of the duty to keep beneficiaries informed.
+
+### Can a trustee refuse to distribute if beneficiaries disagree?
+
+No. The trustee must follow the trust document terms regardless of beneficiary disagreements. If the trust requires distribution, the trustee cannot refuse simply because beneficiaries are arguing among themselves. The trustee's duty is to administer according to the trust, not to poll beneficiaries or wait for consensus. Refusal based on beneficiary disputes is breach of fiduciary duty.
+
+### Do I need a lawyer to force a trustee to distribute assets?
+
+While you can file petitions yourself, hiring a trust litigation attorney is highly recommended. Attorneys know how to compel distribution through court orders, recover your attorney fees from the trust or trustee, and increase pressure on non-compliant trustees. Most cases settle quickly after attorney involvement when trustees realize they face removal and personal liability for continued delays.
+
+### How much does it cost to sue a trustee for not distributing?
+
+Trust litigation attorney fees typically range from $5,000-$15,000 for simple petitions to compel distribution, and $15,000-$100,000 for contested removal proceedings. However, if you prevail, the court often orders the trust or the trustee personally to pay your attorney fees. Many trust litigation attorneys offer free consultations and hybrid fee arrangements to make enforcement accessible.
+
 ## Get Legal Help - Trust Distribution Attorney
 
 Our Los Angeles County trust administration and litigation attorney helps beneficiaries enforce their rights when trustees:

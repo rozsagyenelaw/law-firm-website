@@ -474,6 +474,28 @@ Taking reasonable compensation for your work as trustee is not only legal—it's
 
 - **[Trustee Removal California: Process and Grounds](/trustee-removal-california-process-grounds)** - How excessive compensation can be grounds for trustee removal and when beneficiaries can challenge fees.
 
+## Frequently Asked Questions
+
+### How much can a trustee charge in California?
+
+California Probate Code Section 15681 provides statutory fees of 1% annually on the first $1 million of trust assets and 0.5% on the next $9 million. However, if the trust document specifies compensation, those terms control. Professional trustees typically charge 1-2% annually, while family trustees may take lower fees or waive compensation entirely. Reasonable compensation also depends on complexity, time spent, and services provided.
+
+### Are trustee fees taxable income in California?
+
+Yes, trustee fees are taxable ordinary income reported on your personal tax return. Professional trustees must also pay self-employment tax at 15.3% on fees received. Family trustees who serve occasionally typically do not pay self-employment tax but must still report fees as ordinary income. The trust can deduct the fees paid, which shifts tax burden from the high-tax trust to the potentially lower-bracket trustee.
+
+### Do I need to issue a 1099 for trustee compensation?
+
+The trust must issue Form 1099-NEC to non-family trustees if total fees are $600 or more in a year and the trustee provides services in their trade or business. Family member trustees serving in a personal capacity generally do not require a 1099. Corporate trustees file their own returns and handle their own tax reporting. The form must be filed by January 31st using the trust's EIN as payer.
+
+### Can a trustee pay themselves without beneficiary approval?
+
+Yes, trustees can take compensation authorized by the trust document or statutory fees without beneficiary approval. However, trustees must account for all compensation taken in their accountings to beneficiaries. Taking excessive or unreasonable fees can be challenged by beneficiaries and may constitute breach of fiduciary duty. Best practice is to communicate compensation decisions transparently and keep detailed records justifying the amount taken.
+
+### What happens if a trustee takes excessive compensation?
+
+Beneficiaries can petition the court to surcharge the trustee for excessive compensation, requiring them to repay the excess from personal funds. The court may also remove the trustee for breach of fiduciary duty. To avoid disputes, trustees should stay within statutory limits or clearly document why higher fees are reasonable based on extraordinary services, complexity, time spent, and results achieved.
+
 ## Need Help With Trustee Compensation Issues?
 
 If you have questions about trustee compensation, fee disputes, or tax treatment of trustee fees, our experienced trust administration attorneys can help.

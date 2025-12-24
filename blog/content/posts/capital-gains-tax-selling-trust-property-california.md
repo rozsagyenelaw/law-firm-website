@@ -474,6 +474,28 @@ The stepped-up basis rule is one of the most valuable tax benefits in estate pla
 
 - **[Common Trust Administration Mistakes California](/common-trust-administration-mistakes-california)** - Avoid costly errors including improper tax basis calculations and capital gains reporting mistakes.
 
+## Frequently Asked Questions
+
+### Do you pay capital gains tax when selling inherited property from a trust?
+
+Usually very little or none. Property inherited through a trust receives a "stepped-up basis" to fair market value at the date of death. If you sell soon after, your gain is only the appreciation since death, not since the original purchase. This can eliminate tens of thousands in taxes.
+
+### What is stepped-up basis for trust property in California?
+
+Stepped-up basis means the tax basis of inherited property resets to fair market value at the date of death. If parents bought a house for $200,000 and it's worth $1,200,000 at death, the new basis is $1,200,000. Selling for $1,250,000 creates only $50,000 in taxable gain instead of over $1 million.
+
+### How do you calculate capital gains on a trust property sale?
+
+Capital gain equals the sale price minus the stepped-up basis minus selling costs. Get an appraisal as of the date of death to establish basis. Deduct real estate commissions, title fees, and closing costs. Report on Form 1041 for the trust or on beneficiary K-1s if distributed.
+
+### Does California tax capital gains on trust property differently?
+
+Yes. California taxes capital gains as ordinary income at rates up to 13.3%, one of the highest in the nation. There's no reduced rate for long-term gains like federal tax. Combined federal and state rates can exceed 35% on undistributed trust gains.
+
+### Should the trustee sell property before or after distribution to beneficiaries?
+
+Often it's better to distribute property to beneficiaries and let them sell, especially if they have lower tax rates. The trust's 37% federal rate kicks in at only $14,450 of income, while individuals don't hit 37% until $578,125. Consult a tax professional for your specific situation.
+
 ## Need Help With Trust Property Sales and Taxes?
 
 If you're administering a trust and facing capital gains tax issues on property sales, our attorneys work with tax professionals to minimize your tax liability and ensure proper reporting.

@@ -487,6 +487,28 @@ Prevention is best - file accurate returns with professional help and maintain d
 
 - **[Common Trust Administration Mistakes](/common-trust-administration-mistakes-california)** - Avoid costly tax reporting errors that increase audit risk and lead to penalties.
 
+## Frequently Asked Questions
+
+### What are the most common reasons trust tax returns get audited?
+
+The IRS typically audits trust returns when computers detect income discrepancies between reported amounts and 1099 forms from banks and brokers, excessive deductions compared to income or industry norms, large charitable contributions over $5,000 without proper appraisals, or related party transactions between the trust and trustees or beneficiaries. Trusts with income exceeding $200,000 face audit rates of 2-4%, significantly higher than the overall trust audit rate of 0.5-1%. If the related estate tax return Form 706 was audited, the IRS often examines connected Form 1041 trust returns for consistency.
+
+### How long does a trust tax audit typically take?
+
+The timeline depends on the audit type. Correspondence audits, which are the most common, usually resolve within 3-6 months through mail exchanges without in-person meetings. Office audits requiring a meeting at the IRS office typically conclude within 2-4 months from the initial notice. Field audits, reserved for high-value or complex trusts, can last 6-18 months and involve multiple meetings. The total process from initial notice to final resolution averages 6-12 months for most trust audits, though appeals or disputes can extend this significantly.
+
+### Can I represent myself during a trust tax audit or do I need a professional?
+
+You can legally represent yourself during a trust tax audit, but hiring professional representation is usually wise. CPAs, enrolled agents, and tax attorneys can represent you before the IRS, which means you don't have to meet with IRS agents directly. They understand tax law complexities, know how to negotiate with the IRS effectively, and can present your case more persuasively. Professional representation typically results in better outcomes and significantly reduces stress. The representative's fees are deductible as trust administration expenses.
+
+### What records should I keep to prepare for a potential audit?
+
+Maintain comprehensive documentation for at least 7 years. Keep all 1099 forms, K-1s, bank statements, and investment statements proving income amounts. Save receipts, invoices, and cancelled checks supporting deductions like trustee fees and administration expenses. Document distribution records with beneficiary receipts and calculations. Maintain appraisals and valuations establishing date-of-death values for stepped-up basis. Keep the complete trust document with all amendments, and retain copies of all filed tax returns. Organize records in labeled binders by category and year to present professionally if audited.
+
+### What happens if the IRS proposes additional tax owed after an audit?
+
+When the IRS proposes adjustments, they send a report showing additional tax, interest, and possible penalties, giving you 30 days to respond. You have three options: agree by signing the form and paying the additional tax, partially agree by accepting some adjustments while disputing others, or disagree and request an appeals conference for independent review. If you disagree with the appeals decision, you can petition U.S. Tax Court for formal litigation. About 85% of cases settle at the appeals level without going to court. Interest accrues from the original due date and cannot be waived, though penalties may be reduced or eliminated with reasonable cause.
+
 ## Need Help With an IRS Trust Audit?
 
 If your trust is being audited by the IRS, our attorneys work with tax professionals to represent trustees and protect against excessive assessments and penalties.

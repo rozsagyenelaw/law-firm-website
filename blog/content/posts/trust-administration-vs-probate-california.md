@@ -266,6 +266,28 @@ For most California families—especially homeowners—trust administration is c
 
 **The catch:** You must create the trust AND fund it properly during your lifetime. The upfront cost ($2,000-$5,000) pays for itself many times over.
 
+## Frequently Asked Questions
+
+### Can I avoid probate if I only have a will?
+
+No. A will does not avoid probate—it actually ensures probate will occur. Wills only take effect after death through the probate process. To avoid probate, you need a properly funded living trust that holds your assets during your lifetime and transfers them to beneficiaries after death without court involvement.
+
+### How much does it cost to set up a trust to avoid probate?
+
+Creating a living trust in California typically costs between $2,000 and $5,000 for professional preparation and funding. While this seems expensive, it pays for itself many times over by avoiding probate costs of $30,000 to $80,000 or more for typical estates. The upfront investment saves your family significant money and time later.
+
+### What happens if some assets were left out of my trust?
+
+Assets not transferred to your trust go through probate unless they qualify for simplified procedures. California allows estates under $184,500 to use simplified transfer methods, but this is still a form of probate. This is why proper trust funding is critical—every asset should be titled in the trust's name or have beneficiary designations to avoid probate entirely.
+
+### Is trust administration completely private or can anyone access the trust?
+
+Trust administration is private—the trust document is not filed with any court and does not become public record. Only entitled parties can access trust information: current beneficiaries, trustees, and heirs who receive the legally required 60-day notice. Unlike probate where anyone can go to the courthouse and see your will, assets, and beneficiaries, trust administration keeps your family's financial affairs confidential.
+
+### Do I need an attorney for trust administration or can the trustee do it alone?
+
+While trustees can legally administer trusts without an attorney, most benefit from professional guidance. Trust administration involves tax filings, creditor notices, asset valuations, accounting requirements, and distribution timing—mistakes can lead to personal liability. Attorney fees for trust administration ($3,000-$10,000) are far less than probate costs and help ensure the trustee fulfills all legal duties properly.
+
 ## Already Facing Probate or Trust Administration?
 
 Whether you're a successor trustee needing guidance or an executor navigating probate court, the Law Offices of Rozsa Gyene can help.

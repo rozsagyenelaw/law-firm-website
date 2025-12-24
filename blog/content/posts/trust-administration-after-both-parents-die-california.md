@@ -319,6 +319,28 @@ Administering your parents' trust is, in a way, a final act of love. You're hono
 
 It's hard work during an already difficult time. But completing this process properly honors everything your parents built and planned for.
 
+## Frequently Asked Questions
+
+### What happens to a joint trust when both parents die in California?
+
+When both parents die, their joint trust becomes fully irrevocable, meaning no one can change the trust terms anymore. All trust assets are now subject to distribution to the ultimate beneficiaries, typically children and grandchildren. The successor trustee (often one of the adult children) takes over management and begins the formal trust administration process, which includes notifying beneficiaries, inventorying assets, paying debts and taxes, and distributing assets according to the trust terms. This full administration process typically wasn't necessary after the first parent died because the surviving parent continued managing the trust.
+
+### How long does trust administration take after both parents pass away?
+
+Trust administration after both parents die typically takes 6-18 months, depending on the estate's complexity. A simple trust with only liquid assets and no disputes may be completed in 6-9 months. An average trust with real estate, investments, and standard assets usually takes 9-18 months. Complex situations involving business interests, beneficiary disputes, or significant tax issues can take 18-36 months. The minimum timeline is approximately 6 months due to the required 120-day creditor claim period, tax filing deadlines, and time needed to properly inventory and value assets.
+
+### Do I need court approval to distribute my parents' trust assets?
+
+No, unlike probate, trust administration in California generally does not require court approval for distributions. As successor trustee, you have authority to distribute assets according to the trust terms without going to court. However, you must follow proper procedures including waiting for the 120-day contest period to expire after sending the required 60-day notice to beneficiaries, paying all debts and taxes before distributing, and maintaining adequate reserves for unknown claims. If disputes arise or you're uncertain about distribution provisions, you can petition the court for instructions to protect yourself from liability.
+
+### What if my parents' trust wasn't fully funded?
+
+If your parents didn't transfer all their assets into the trust (unfunded or partially funded trust), assets outside the trust may require different procedures to transfer to beneficiaries. Bank accounts or investment accounts with small balances may qualify for simplified small estate procedures. Larger assets outside the trust may require formal probate, which is more time-consuming and expensive. Assets with beneficiary designations (like life insurance or retirement accounts) pass directly to named beneficiaries outside the trust. Review all asset titles carefully and consult with an attorney to determine what procedures are needed for assets not held in the trust.
+
+### Can I create sub-trusts for my siblings after my parents die?
+
+If your parents' trust requires it, you must create sub-trusts for beneficiaries after both parents die. Common sub-trusts include children's trusts (holding a beneficiary's share until they reach a specified age), special needs trusts (for disabled beneficiaries who receive government benefits), grandchildren's trusts, or generation-skipping trusts. Review the trust document carefully to determine if sub-trusts are required. If so, you'll need to establish separate accounts, obtain separate tax ID numbers for each sub-trust, manage investments for each trust, and provide ongoing accountings. Creating and managing sub-trusts adds complexity, so consult an attorney for guidance.
+
 ## Get Professional Help
 
 You don't have to navigate this alone. The Law Offices of Rozsa Gyene helps families through trust administration after the loss of their parents—with compassion, expertise, and attention to detail.

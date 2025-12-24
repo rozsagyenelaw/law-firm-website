@@ -435,6 +435,28 @@ If you're considering contesting a trust with a no-contest clause, consult an ex
 
 - **[Trust Litigation vs Probate Litigation California](/trust-litigation-vs-probate-litigation-california)** - Compare trust and probate contests to determine best strategic approach for your situation.
 
+## Frequently Asked Questions
+
+### What is a no-contest clause in a trust?
+
+A no-contest clause, also called an in terrorem clause, is a trust provision that disinherits any beneficiary who contests the trust or challenges trustee actions. The purpose is to discourage frivolous litigation and preserve the estate for intended beneficiaries. However, California law significantly limits enforcement, making these clauses enforceable only if the contest is brought without probable cause.
+
+### Can I be disinherited for asking questions about the trust?
+
+No. California law protects information requests from triggering no-contest clauses. You can request a copy of the trust, ask for an accounting, ask questions about trust administration, and request beneficiary information without risk of forfeiture. These activities are specifically protected and cannot be penalized under a no-contest clause.
+
+### What does probable cause mean in the context of no-contest clauses?
+
+Probable cause exists if, at the time of filing your contest, the facts known to you would cause a reasonable person to believe there is a reasonable likelihood of success. It's an objective standard based on what a reasonable person would think, not whether you actually win the case. If you have medical records showing dementia, evidence of undue influence, or other compelling evidence supporting your challenge, you likely have probable cause.
+
+### Should I contest a trust if there's a no-contest clause?
+
+It depends on whether you have probable cause and what you stand to lose versus gain. Conduct a cost-benefit analysis considering what you're left in the current trust, what you would receive if the trust is invalidated, the strength of your evidence, and attorney assessment of probable cause. If you have strong medical evidence, witness testimony, and legal advice supporting probable cause, the no-contest clause won't be enforced against you even if you ultimately lose the contest.
+
+### Can a trustee removal petition trigger a no-contest clause?
+
+Generally no. California law provides that petitions to remove a trustee do not trigger no-contest clauses, even if the trustee is also a beneficiary. This is based on public policy recognizing the need to hold trustees accountable. However, an exception exists if the removal petition is actually a disguised challenge to the trust's validity itself rather than a genuine concern about trustee misconduct.
+
 ## Need Help With No-Contest Clause Issues?
 
 Our experienced trust litigation attorneys can evaluate whether you have probable cause to contest a trust and advise on strategies to minimize forfeiture risk while protecting your inheritance rights.

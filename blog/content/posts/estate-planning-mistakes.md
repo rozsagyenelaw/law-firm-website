@@ -1043,6 +1043,28 @@ Keep organized records of:
 - Location of important items
 - Contact information for advisors
 
+## Frequently Asked Questions
+
+### How much does an estate plan cost in California?
+
+A comprehensive estate plan with a living trust typically costs between $2,500 and $5,000, depending on the complexity of your assets and family situation. This includes the trust document, pour-over will, durable power of attorney, advance health care directive, and HIPAA authorization. While this may seem expensive, it can save your family $40,000 to $100,000+ in probate costs and prevent family disputes. The investment pays for itself many times over.
+
+### Can I update my own estate plan or do I need an attorney?
+
+While you can technically amend your trust yourself, it's risky and not recommended. Improperly drafted amendments can create contradictions, ambiguities, or legal invalidity that lead to costly litigation. Attorney fees for updates typically range from $500 to $2,000 depending on complexity. Considering that DIY mistakes in this article cost families tens or hundreds of thousands of dollars, professional guidance is worth the investment. An attorney ensures your amendments are properly executed, legally valid, and coordinate with the rest of your plan.
+
+### What happens if I never fund my living trust?
+
+An unfunded trust is essentially worthless. Your assets will go through probate exactly as if you had no estate plan at all, costing your family $30,000 to $80,000+ in probate fees and 12-18 months of delays. Funding means transferring ownership of your assets from your individual name to the trust's name. For real estate, this requires recording new deeds. For bank and investment accounts, it means retitling accounts in the trust's name. Your estate planning attorney should help you complete the funding process.
+
+### Do I need to update my estate plan after Proposition 19?
+
+If your estate plan was created before February 2021 and you own California real estate that you want your children to inherit with your property tax basis, you absolutely need to review and likely update your plan. Prop 19 dramatically changed the parent-child exclusion rules. Your children can now only keep your low property tax basis if they use the inherited home as their primary residence, and the exclusion is limited to $1 million in assessed value. If your plan doesn't address these new rules, your children could face property tax increases of $8,000 or more annually.
+
+### How often should I review and update my estate plan?
+
+You should review your estate plan with an attorney every 3 to 5 years as a routine matter. Additionally, you should update immediately after major life events such as marriage, divorce, birth or adoption of children, death of a beneficiary or trustee, significant changes in assets, moving to a different state, or changes in tax laws. Even if nothing has changed in your life, laws do change, and outdated plans can fail to work as intended. Set a calendar reminder for every 3 years to schedule a review with your attorney.
+
 ## Schedule Your Free Estate Planning Review
 
 Don't let these costly mistakes happen to your family. Whether you need to create your first estate plan, review an existing one, or fix problems you've discovered, professional guidance can save your family tens or hundreds of thousands of dollars.

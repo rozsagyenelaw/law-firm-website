@@ -491,6 +491,28 @@ While trustee removal can be contentious and expensive, sometimes it's the only 
 
 - **[Trust Mediation and Settlement California](/trust-mediation-settlement-california)** - Alternatives to removal including mediation, trustee resignation with negotiated release, and co-trustee appointments.
 
+## Frequently Asked Questions
+
+### What are valid grounds to remove a trustee in California?
+
+California Probate Code Section 15642 allows removal for breach of trust, lack of cooperation with co-trustees, unfitness or unwillingness to serve, persistent failure to administer, and when removal serves the trust's best interests. Common grounds include self-dealing, theft, refusing to account, failing to distribute, mismanagement of assets, and hostility that impairs administration.
+
+### How long does it take to remove a trustee in California?
+
+The removal process typically takes 3-9 months from filing the petition to final order. Initial hearings are usually scheduled 4-6 weeks after filing. Simple uncontested removals may resolve in 2-3 months, while contested cases with discovery and trial can take 6-12 months or longer. Emergency petitions can be heard faster if assets are being wasted.
+
+### How much does it cost to remove a trustee?
+
+Attorney fees for uncontested trustee removal typically range from $5,000-$15,000, while contested removals cost $15,000-$100,000 or more depending on complexity. Court filing fees are approximately $435-$450. If you prevail, the court often orders the trust or the removed trustee personally to pay your attorney fees, especially when removal was warranted by trustee misconduct.
+
+### Can a trustee be removed without cause?
+
+Generally no, unless the trust document specifically allows removal without cause. Courts require grounds under Probate Code Section 15642 such as breach of trust, unfitness, or best interests of the trust. However, some trusts give beneficiaries or trust protectors the power to remove and replace trustees without needing to prove cause or go to court.
+
+### What happens to a trustee after they are removed?
+
+The removed trustee must provide a complete accounting, transfer all trust assets to the successor trustee, deliver all records and documents, and cooperate with the transition. The court may also surcharge the removed trustee for losses caused by their breaches, order repayment of excessive fees, and require payment of beneficiaries' attorney fees. In cases of theft or fraud, criminal prosecution may follow.
+
 ## Need Help Removing a Trustee?
 
 If you're dealing with a trustee who is breaching their duties or failing to administer a trust properly, our experienced trust litigation attorneys can help evaluate your case and guide you through the removal process.
