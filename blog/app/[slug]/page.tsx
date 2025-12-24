@@ -180,7 +180,7 @@ export default async function BlogPostPage({ params }: PageProps) {
         </div>
       </section>
 
-      {/* JSON-LD Schema */}
+      {/* JSON-LD Article Schema */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -219,6 +219,27 @@ export default async function BlogPostPage({ params }: PageProps) {
           }),
         }}
       />
+
+      {/* JSON-LD FAQPage Schema (if post has FAQs) */}
+      {post.faqs && post.faqs.length > 0 && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              '@context': 'https://schema.org',
+              '@type': 'FAQPage',
+              mainEntity: post.faqs.map((faq) => ({
+                '@type': 'Question',
+                name: faq.question,
+                acceptedAnswer: {
+                  '@type': 'Answer',
+                  text: faq.answer,
+                },
+              })),
+            }),
+          }}
+        />
+      )}
     </div>
   )
 }

@@ -11,6 +11,11 @@ const postsDirectory = path.join(process.cwd(), 'content/posts')
 let metadataCache: PostMetadata[] | null = null
 let fullPostsCache: Map<string, Post> = new Map()
 
+export interface FAQ {
+  question: string
+  answer: string
+}
+
 export interface Post {
   slug: string
   title: string
@@ -30,15 +35,53 @@ export interface Post {
   coverImage: string
   content: string
   readingTime: number
+  faqs: FAQ[]
 }
 
-export interface PostMetadata extends Omit<Post, 'content'> {}
+export interface PostMetadata extends Omit<Post, 'content' | 'faqs'> {}
 
 // Calculate reading time (average 200 words per minute)
 function calculateReadingTime(content: string): number {
   const wordsPerMinute = 200
   const wordCount = content.trim().split(/\s+/).length
   return Math.ceil(wordCount / wordsPerMinute)
+}
+
+// Extract FAQs from markdown content
+function extractFAQs(markdownContent: string): FAQ[] {
+  const faqs: FAQ[] = []
+
+  // Find FAQ section (look for "Frequently Asked Questions" or "FAQ" heading)
+  const faqSectionMatch = markdownContent.match(/##\s*(?:Frequently Asked Questions|FAQ)[^\n]*\n([\s\S]*?)(?=\n##\s[^#]|\n---|\*\*About the Author\*\*|$)/i)
+
+  if (!faqSectionMatch) {
+    return faqs
+  }
+
+  const faqSection = faqSectionMatch[1]
+
+  // Extract Q&A pairs (### Question followed by answer paragraph)
+  const qaPattern = /###\s*([^\n]+)\n\n([\s\S]*?)(?=\n###\s|\n##\s|$)/g
+  let match
+
+  while ((match = qaPattern.exec(faqSection)) !== null) {
+    const question = match[1].trim()
+    // Clean up the answer - remove markdown formatting, keep first paragraph
+    let answer = match[2].trim()
+    // Get first paragraph only (before double newline)
+    answer = answer.split('\n\n')[0]
+    // Remove markdown links and keep text
+    answer = answer.replace(/\[([^\]]+)\]\([^)]+\)/g, '$1')
+    // Remove bold/italic
+    answer = answer.replace(/\*\*([^*]+)\*\*/g, '$1')
+    answer = answer.replace(/\*([^*]+)\*/g, '$1')
+
+    if (question && answer) {
+      faqs.push({ question, answer })
+    }
+  }
+
+  return faqs
 }
 
 // Get all post slugs
@@ -121,6 +164,7 @@ export async function getPostBySlug(slug: string): Promise<Post | null> {
       coverImage: data.coverImage ? `/blog${data.coverImage}` : '/blog/images/blog/default-cover.jpg',
       content: contentHtml,
       readingTime: calculateReadingTime(content),
+      faqs: extractFAQs(content),
     }
 
     // Cache the result
