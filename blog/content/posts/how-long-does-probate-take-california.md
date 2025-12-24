@@ -16,7 +16,7 @@ coverImage: "/images/blog/probate-timeline.jpg"
 metaDescription: "How long does California probate take? Expert timeline breakdown from a Glendale probate attorney. Learn what affects duration and how to speed up the process."
 ---
 
-One of the first questions families ask when a loved one passes away is: "How long will probate take?" As a Glendale probate attorney who has guided hundreds of families through the California probate process, I understand why this matters. Your family needs access to funds, wants to sell real estate, and deserves closure during an already difficult time.
+One of the first questions families ask when a loved one passes away is: "How long will probate take?" As a [Glendale probate attorney](/locations/glendale.html) who has guided hundreds of families through the California probate process, I understand why this matters. Your family needs access to funds, wants to sell real estate, and deserves closure during an already difficult time.
 
 The honest answer? California probate typically takes 9 to 18 months for straightforward cases, but can stretch to 2 years or longer for complex estates. The timeline depends on numerous factors—some within your control, others dictated by court schedules and mandatory waiting periods.
 

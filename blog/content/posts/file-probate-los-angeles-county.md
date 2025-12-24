@@ -16,7 +16,7 @@ coverImage: "/images/blog/file-probate.jpg"
 metaDescription: "How to file probate in Los Angeles County: Stanley Mosk Courthouse procedures, required forms, fees, and step-by-step process. Expert guide from Glendale attorney."
 ---
 
-Filing probate in Los Angeles County can feel overwhelming, especially when you're grieving and have never navigated the court system before. As a Glendale probate attorney who regularly files cases at Stanley Mosk Courthouse, I understand how confusing the process can seem.
+Filing probate in Los Angeles County can feel overwhelming, especially when you're grieving and have never navigated the court system before. As a [Glendale probate attorney](/locations/glendale.html) who regularly files cases at Stanley Mosk Courthouse, I understand how confusing the process can seem.
 
 The good news? While Los Angeles County probate has its quirks and local rules, once you understand the step-by-step process, filing becomes manageable. This comprehensive guide walks you through every step of filing probate in Los Angeles County, from gathering documents through your first court hearing.
 
@@ -31,9 +31,9 @@ The good news? While Los Angeles County probate has its quirks and local rules, 
 **Important:** All Los Angeles County probate cases, regardless of where the deceased lived within the county, are filed at Stanley Mosk Courthouse in downtown Los Angeles.
 
 **This includes decedents who lived in:**
-- Glendale
-- Burbank
-- Pasadena
+- [Glendale](/locations/glendale.html)
+- [Burbank](/locations/burbank.html)
+- [Pasadena](/locations/pasadena.html)
 - Santa Monica
 - Long Beach
 - Torrance

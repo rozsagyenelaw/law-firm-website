@@ -18,7 +18,7 @@ metaDescription: "Living trust cost in California explained. Transparent pricing
 
 If you've been researching living trusts in California, you've probably noticed something frustrating: most attorneys won't tell you what they charge until you schedule a consultation. You'll see vague phrases like "affordable estate planning" or "competitive rates," but no actual numbers.
 
-As a Glendale estate planning attorney who believes in transparent pricing, I'm going to break down exactly what living trusts cost in California—including what you should expect to pay, what factors affect pricing, hidden fees to watch out for, and why the upfront investment saves your family tens of thousands of dollars in probate costs.
+As a [Glendale estate planning attorney](/locations/glendale.html) who believes in transparent pricing, I'm going to break down exactly what living trusts cost in California—including what you should expect to pay, what factors affect pricing, hidden fees to watch out for, and why the upfront investment saves your family tens of thousands of dollars in probate costs.
 
 ## The Short Answer: What Should You Expect to Pay?
 

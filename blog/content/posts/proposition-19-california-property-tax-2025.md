@@ -18,7 +18,7 @@ metaDescription: "Comprehensive guide to California's Proposition 19 and 2025 up
 
 If you own a home in California and plan to leave it to your children, there's a critical change in property tax law that could cost your family thousands—or even tens of thousands—of dollars every year. Since February 2021, Proposition 19 has fundamentally transformed how inherited property is taxed, and the 2025 updates have raised the stakes even higher.
 
-As a Glendale estate planning attorney who has helped hundreds of California families navigate these changes, I've seen firsthand how unprepared families get blindsided by property tax reassessments they never expected. The difference between proper planning and no planning can mean the difference between your children keeping the family home or being forced to sell it.
+As a [Glendale estate planning attorney](/locations/glendale.html) who has helped hundreds of California families navigate these changes, I've seen firsthand how unprepared families get blindsided by property tax reassessments they never expected. The difference between proper planning and no planning can mean the difference between your children keeping the family home or being forced to sell it.
 
 In this comprehensive guide, I'll explain exactly what changed, how the 2025 updates affect your family, and—most importantly—what strategies you can use to protect your property's low tax base for your children.
 
@@ -70,7 +70,7 @@ Let me walk you through exactly how Proposition 19 affects inherited property wi
 
 ### Example 1: Child Moves Into the Home (Best Case)
 
-**Facts:** Parents purchased a Glendale home in 1985. Current assessed value (factored base year value): $300,000. Current market value: $900,000. Child inherits after parents pass away in 2025.
+**Facts:** Parents purchased a [Glendale](/locations/glendale.html) home in 1985. Current assessed value (factored base year value): $300,000. Current market value: $900,000. Child inherits after parents pass away in 2025.
 
 **Analysis:** The market value ($900,000) is less than the assessed value ($300,000) + exclusion amount ($1,044,586) = $1,344,586. Since $900,000 < $1,344,586, the child qualifies for the full exclusion—IF they move in within one year and claim the homeowners' exemption.
 
@@ -78,7 +78,7 @@ Let me walk you through exactly how Proposition 19 affects inherited property wi
 
 ### Example 2: High-Value Home (Partial Exclusion)
 
-**Facts:** Parents purchased a Pasadena home in 1980. Current assessed value: $200,000. Current market value: $2,000,000. Child inherits in 2025.
+**Facts:** Parents purchased a [Pasadena](/locations/pasadena.html) home in 1980. Current assessed value: $200,000. Current market value: $2,000,000. Child inherits in 2025.
 
 **Analysis:** The market value ($2,000,000) exceeds the assessed value ($200,000) + exclusion amount ($1,044,586) = $1,244,586. The excess amount is $2,000,000 - $1,244,586 = $755,414.
 

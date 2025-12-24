@@ -16,7 +16,7 @@ coverImage: "/images/blog/avoid-probate.jpg"
 metaDescription: "Avoid California probate with these 7 proven strategies. Expert guidance from Glendale probate attorney. Save your family time and money. Free consultation."
 ---
 
-If you're reading this, you've probably heard horror stories about California probate: the endless court hearings, astronomical fees, and family waiting months or years to receive their inheritance. As a Glendale probate attorney who has guided families through hundreds of probate cases, I can confirm these stories are often true—California has one of the most expensive and time-consuming probate systems in the United States.
+If you're reading this, you've probably heard horror stories about California probate: the endless court hearings, astronomical fees, and family waiting months or years to receive their inheritance. As a [Glendale probate attorney](/locations/glendale.html) who has guided families through hundreds of probate cases, I can confirm these stories are often true—California has one of the most expensive and time-consuming probate systems in the United States.
 
 The good news? Probate is almost entirely avoidable with proper planning. In this comprehensive guide, I'll walk you through seven proven strategies to keep your assets out of probate court, save your family tens of thousands of dollars, and ensure a smooth transfer of your estate.
 
@@ -47,7 +47,7 @@ California Probate Code Section 10810 sets statutory fees based on the gross val
 - Accounting fees: $1,000-$5,000
 - Additional attorney fees for extraordinary services
 
-**Real-world example:** A Pasadena client inherited her mother's home valued at $925,000. Between statutory fees, court costs, and additional expenses, the total probate cost was $54,000—money that could have gone to the family instead of the court system.
+**Real-world example:** A [Pasadena](/locations/pasadena.html) client inherited her mother's home valued at $925,000. Between statutory fees, court costs, and additional expenses, the total probate cost was $54,000—money that could have gone to the family instead of the court system.
 
 ### The California Probate Timeline
 

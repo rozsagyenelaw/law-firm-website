@@ -16,7 +16,7 @@ coverImage: "/images/blog/homeowner-living-trust.jpg"
 metaDescription: "Do I need a living trust if I own a house in California? Expert guidance from Glendale attorney. Real estate probate costs, alternatives, case studies. Free consultation."
 ---
 
-You've worked hard to buy your home in California. Whether it's a modest condo in Glendale or a sprawling house in Pasadena, your home represents your largest asset and your family's security. Now you're wondering: do I actually need a living trust?
+You've worked hard to buy your home in California. Whether it's a modest condo in [Glendale](/locations/glendale.html) or a sprawling house in [Pasadena](/locations/pasadena.html), your home represents your largest asset and your family's security. Now you're wondering: do I actually need a living trust?
 
 As a Glendale estate planning attorney who works extensively with California homeowners, I'm going to give you a direct answer: if you own real estate in California, you almost certainly need a living trust. But the "almost" is important—there are specific situations where you might not.
 
@@ -80,7 +80,7 @@ Now let's dive into the specific scenarios.
 **Why you need a trust:**
 At current California median home prices, probate costs will significantly exceed trust creation costs. For a $750,000 home, you're looking at $36,000 in minimum probate fees.
 
-**Real client example:** A Burbank client owned a home worth $685,000. She initially resisted creating a trust ("I'll just leave a will"). When I showed her that probate would cost approximately $33,600 while our trust package was $675, she immediately moved forward. Her daughter later thanked me, saying the trust made settling the estate "incredibly simple" after her mother's passing.
+**Real client example:** A [Burbank](/locations/burbank.html) client owned a home worth $685,000. She initially resisted creating a trust ("I'll just leave a will"). When I showed her that probate would cost approximately $33,600 while our trust package was $675, she immediately moved forward. Her daughter later thanked me, saying the trust made settling the estate "incredibly simple" after her mother's passing.
 
 ### Scenario 2: You Own Multiple Properties
 

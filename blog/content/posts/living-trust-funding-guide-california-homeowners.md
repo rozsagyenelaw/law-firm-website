@@ -39,7 +39,7 @@ Creating a trust is like buying a safe to protect your valuables. Funding the tr
 
 If your house is still in your personal name when you die—even if you have a beautifully drafted living trust—that house must go through probate. The trust doesn't protect it because the trust doesn't own it.
 
-**Real example:** A Pasadena client created a trust in 2015 to avoid probate. The attorney prepared the deed transferring her $825,000 home into the trust. But she never signed the deed or recorded it. When she died in 2023, her family discovered the house was still in her personal name. Result: Full probate, $41,000 in fees, 16 months of court proceedings—exactly what the trust was supposed to prevent.
+**Real example:** A [Pasadena](/locations/pasadena.html) client created a trust in 2015 to avoid probate. The attorney prepared the deed transferring her $825,000 home into the trust. But she never signed the deed or recorded it. When she died in 2023, her family discovered the house was still in her personal name. Result: Full probate, $41,000 in fees, 16 months of court proceedings—exactly what the trust was supposed to prevent.
 
 ### What Funding Actually Accomplishes
 
@@ -335,7 +335,7 @@ Name beneficiaries on beneficiary designation forms:
 This is the most common and most devastating mistake. Families spend thousands on trust creation but never transfer assets. Result: Probate happens anyway.
 
 **Real case:**
-A Burbank family came to me after their father died. He had a beautiful, professionally drafted trust created in 2018. When we investigated, NOTHING had been funded—not the house, not the bank accounts, not the investments. Everything was still in his personal name. The family faced full probate on an $1.1 million estate. Cost: $54,000 in fees and 18 months of court proceedings.
+A [Burbank](/locations/burbank.html) family came to me after their father died. He had a beautiful, professionally drafted trust created in 2018. When we investigated, NOTHING had been funded—not the house, not the bank accounts, not the investments. Everything was still in his personal name. The family faced full probate on an $1.1 million estate. Cost: $54,000 in fees and 18 months of court proceedings.
 
 **How to avoid:**
 - Don't leave the attorney's office without a clear funding plan

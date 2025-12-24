@@ -358,7 +358,7 @@ Let me share real situations I've handled to illustrate how intestacy creates pr
 ### Case Study 1: The Blended Family Disaster
 
 **Situation:**
-Mark, 65, remarried after his first wife died. He had two adult children from his first marriage. He and his second wife, Lisa, owned a $1.2 million Burbank home (community property) and he had $400,000 in separate property investments. Mark kept meaning to create a trust but never did. He died suddenly of a heart attack.
+Mark, 65, remarried after his first wife died. He had two adult children from his first marriage. He and his second wife, Lisa, owned a $1.2 million [Burbank](/locations/burbank.html) home (community property) and he had $400,000 in separate property investments. Mark kept meaning to create a trust but never did. He died suddenly of a heart attack.
 
 **Intestate Distribution:**
 - Lisa: $600,000 (her community property half) + $600,000 (Mark's community property half) + $200,000 (half his separate property) = $1,400,000

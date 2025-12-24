@@ -18,7 +18,7 @@ metaDescription: "Living Trust vs Will in California explained by Glendale attor
 
 If you own a home in California, you've probably heard conflicting advice about estate planning. Your neighbor swears by their living trust. Your colleague says a simple will is enough. A family member warns you about probate nightmares. So which is actually right for your family?
 
-As a Glendale estate planning attorney who has both prepared hundreds of estate plans and represented families through California's probate process, I can tell you the answer depends entirely on your specific situation. While living trusts benefit most California homeowners, they're not necessary for everyone—and understanding the difference is critical.
+As a [Glendale estate planning attorney](/locations/glendale.html) who has both prepared hundreds of estate plans and represented families through California's probate process, I can tell you the answer depends entirely on your specific situation. While living trusts benefit most California homeowners, they're not necessary for everyone—and understanding the difference is critical.
 
 In this comprehensive guide, I'll walk you through everything you need to know about living trusts versus wills in California, including real costs, actual timelines, and how to make the best decision for your family.
 
@@ -216,7 +216,7 @@ Based on my experience as both an estate planning attorney and trust litigation 
 
 ### 1. You Own California Real Estate
 
-This is the #1 reason. California probate is particularly expensive and time-consuming for real estate. If you own a home in Glendale, Burbank, Pasadena, or anywhere in California, a trust will save your family significant time, money, and stress.
+This is the #1 reason. California probate is particularly expensive and time-consuming for real estate. If you own a home in [Glendale](/locations/glendale.html), [Burbank](/locations/burbank.html), [Pasadena](/locations/pasadena.html), or anywhere in California, a trust will save your family significant time, money, and stress.
 
 With median home prices in Los Angeles County exceeding $750,000, most homeowners have estates large enough that probate costs justify the upfront trust investment many times over.
 

@@ -40,7 +40,7 @@ When someone dies without an estate plan in California, they die "intestate," an
 
 ### Real-World Example: The Pasadena House
 
-Maria, a 68-year-old Pasadena widow, kept saying she'd "get around to" creating a trust. She owned a home worth $925,000, had $180,000 in bank accounts, and a brokerage account with $250,000. Total estate: $1,355,000.
+Maria, a 68-year-old [Pasadena](/locations/pasadena.html) widow, kept saying she'd "get around to" creating a trust. She owned a home worth $925,000, had $180,000 in bank accounts, and a brokerage account with $250,000. Total estate: $1,355,000.
 
 When she died unexpectedly from a stroke, her two adult children faced:
 
@@ -220,7 +220,7 @@ Think of a trust as a basket. You can have the most beautifully crafted basket i
 
 ### Real-World Example: The Burbank Trust Nobody Used
 
-Thomas paid an attorney $4,000 for a comprehensive estate plan with living trust in 2015. The attorney explained funding, provided instructions, and even prepared the deed for his Burbank home.
+Thomas paid an attorney $4,000 for a comprehensive estate plan with living trust in 2015. The attorney explained funding, provided instructions, and even prepared the deed for his [Burbank](/locations/burbank.html) home.
 
 Thomas signed the trust documents. He meant to sign the deed and take it to the county recorder, but he was busy. "I'll do it next week," he told himself.
 

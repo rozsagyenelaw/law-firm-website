@@ -16,7 +16,7 @@ coverImage: "/images/blog/executor-duties.jpg"
 metaDescription: "California executor duties explained: complete checklist, timeline, responsibilities, and compensation. Expert guidance from Glendale probate attorney."
 ---
 
-Being named executor of someone's estate is both an honor and a significant responsibility. As a Glendale probate attorney who has guided hundreds of executors through California probate, I understand how overwhelming the role can feel, especially when you're grieving the loss of someone you cared about.
+Being named executor of someone's estate is both an honor and a significant responsibility. As a [Glendale probate attorney](/locations/glendale.html) who has guided hundreds of executors through California probate, I understand how overwhelming the role can feel, especially when you're grieving the loss of someone you cared about.
 
 The good news? California Probate Code provides clear guidelines for executor duties, and with proper guidance, you can fulfill your responsibilities efficiently and avoid personal liability.
 

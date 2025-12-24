@@ -68,7 +68,7 @@ Your death doesn't pause your house's expenses:
 
 **The problem:** Without legal authority, family members may struggle to access your bank accounts to pay these expenses. They're often forced to pay out-of-pocket, hoping to be reimbursed later from the estate.
 
-**Case example:** A Burbank family came to me three months after their father died. He had no trust, and they couldn't access his bank accounts. They'd already paid $8,500 out-of-pocket for mortgage payments, taxes, and maintenance. It took another four months before the court appointed an administrator who could reimburse them.
+**Case example:** A [Burbank](/locations/burbank.html) family came to me three months after their father died. He had no trust, and they couldn't access his bank accounts. They'd already paid $8,500 out-of-pocket for mortgage payments, taxes, and maintenance. It took another four months before the court appointed an administrator who could reimburse them.
 
 ## Step 2: Determining Who Inherits—California Intestate Succession Laws
 
@@ -93,7 +93,7 @@ If your house is separate property (owned before marriage, inherited, or gifted 
 
 **Shocking reality:** Most married people assume their spouse automatically inherits everything. That's only true in some circumstances. In many cases, your spouse must share the house with your children or parents.
 
-**Real case:** A Pasadena widow was devastated to learn she inherited only half of the family home. Her husband's two adult children from his first marriage inherited the other half. The children wanted to sell immediately; she wanted to stay in the home where she'd lived for 15 years. The resulting dispute cost the family $45,000 in legal fees and destroyed family relationships.
+**Real case:** A [Pasadena](/locations/pasadena.html) widow was devastated to learn she inherited only half of the family home. Her husband's two adult children from his first marriage inherited the other half. The children wanted to sell immediately; she wanted to stay in the home where she'd lived for 15 years. The resulting dispute cost the family $45,000 in legal fees and destroyed family relationships.
 
 ### If You're Single, Divorced, or Widowed
 

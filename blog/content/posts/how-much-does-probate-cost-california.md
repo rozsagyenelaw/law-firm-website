@@ -16,7 +16,7 @@ coverImage: "/images/blog/probate-costs.jpg"
 metaDescription: "Complete breakdown of California probate costs including statutory fees, court costs, and hidden expenses. 2025 fee schedule from Glendale probate attorney."
 ---
 
-"How much will probate cost?" This is the question I hear most frequently from families who have just lost a loved one. As a Glendale probate attorney, I understand why cost is a primary concern—California has one of the most expensive probate systems in the United States, and the fees can be shocking to families who are unprepared.
+"How much will probate cost?" This is the question I hear most frequently from families who have just lost a loved one. As a [Glendale probate attorney](/locations/glendale.html), I understand why cost is a primary concern—California has one of the most expensive probate systems in the United States, and the fees can be shocking to families who are unprepared.
 
 The honest answer depends on your estate's total value, but here's what you need to know upfront: **California probate typically costs between 4% and 8% of the total gross estate value**, with a $1 million estate averaging $46,000 in total costs before extraordinary fees.
 

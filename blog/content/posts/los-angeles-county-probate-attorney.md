@@ -100,7 +100,7 @@ When you hire me, I take the legal burden off your shoulders. You don't have to 
 
 ### Local Glendale Office, County-Wide Service
 
-My office is conveniently located at 450 N Brand Blvd in Glendale, but I serve clients throughout Los Angeles County. Whether your loved one lived in Pasadena, Burbank, Los Angeles, Santa Clarita, or anywhere else in the county, I can help.
+My office is conveniently located at 450 N Brand Blvd in Glendale, but I serve clients throughout Los Angeles County. Whether your loved one lived in [Pasadena](/locations/pasadena.html), [Burbank](/locations/burbank.html), Los Angeles, Santa Clarita, or anywhere else in the county, I can help.
 
 ### Compassionate, Personal Service
 

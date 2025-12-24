@@ -20,7 +20,7 @@ metaDescription: "California probate costs 4-7% of estate value and takes 12-18 
 
 If you're reading this, you're likely in one of two situations: You've just lost a loved one and discovered their estate must go through California probate, or you're trying to plan ahead so your family doesn't face the same fate. Either way, understanding California's probate process—and how to avoid it—is essential for protecting your family's financial future.
 
-As a Glendale probate and estate planning attorney with over 25 years of experience, I've guided hundreds of families through California's probate system. I've also seen the heartbreak when families discover that a simple $575 living trust could have saved them $30,000+ in fees and over a year of court proceedings.
+As a [Glendale probate and estate planning attorney](/locations/glendale.html) with over 25 years of experience, I've guided hundreds of families through California's probate system. I've also seen the heartbreak when families discover that a simple $575 living trust could have saved them $30,000+ in fees and over a year of court proceedings.
 
 This comprehensive guide covers everything you need to know about California probate in 2025: what it is, how much it costs, how long it takes, the step-by-step process, and—most importantly—how to avoid it altogether.
 
