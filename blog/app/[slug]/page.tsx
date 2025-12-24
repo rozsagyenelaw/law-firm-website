@@ -34,6 +34,9 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     description: description,
     keywords: [...post.tags, post.category, 'estate planning', 'Rozsa Gyene', 'Glendale attorney'],
     authors: [{ name: post.author.name }],
+    alternates: {
+      canonical: `https://livingtrust-attorneys.com/blog/${params.slug}`,
+    },
     openGraph: {
       title: post.title,
       description: description,

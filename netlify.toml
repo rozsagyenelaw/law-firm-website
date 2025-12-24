@@ -45,14 +45,28 @@
   to = "/blog/10-warning-signs-trustee-stealing"
   status = 301
 
+# Blog static assets (pass through without .html)
 [[redirects]]
-  from = "/blog/*"
-  to = "/blog-deploy/:splat"
+  from = "/blog/_next/*"
+  to = "/blog-deploy/_next/:splat"
   status = 200
 
+# Blog images
+[[redirects]]
+  from = "/blog/images/*"
+  to = "/blog-deploy/images/:splat"
+  status = 200
+
+# Blog index
 [[redirects]]
   from = "/blog"
   to = "/blog-deploy/index.html"
+  status = 200
+
+# Blog articles (add .html)
+[[redirects]]
+  from = "/blog/*"
+  to = "/blog-deploy/:splat.html"
   status = 200
 
 [functions]
