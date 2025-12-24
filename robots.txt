@@ -7,6 +7,8 @@ Allow: /
 # Disallow specific paths
 Disallow: /client-portal
 Disallow: /*thank-you*
+Disallow: /_next/
+Disallow: /*.woff2$
 
 # Sitemap location
 Sitemap: https://livingtrust-attorneys.com/sitemap.xml
