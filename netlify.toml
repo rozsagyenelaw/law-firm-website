@@ -63,17 +63,68 @@
   to = "/.netlify/functions/chat"
   status = 200
 
-# Clean URLs - Remove .html extensions (SEO friendly)
+# Redirect clean URLs to .html versions (canonical URLs have .html)
+# This handles /locations/montecito → /locations/montecito.html
 [[redirects]]
-  from = "/*"
-  to = "/:splat.html"
-  status = 200
+  from = "/locations/*"
+  to = "/locations/:splat.html"
+  status = 301
   force = false
   conditions = {Accept = "text/html"}
 
-# Redirect old .html URLs to clean URLs
+# Redirect root clean URLs to .html versions
 [[redirects]]
-  from = "/*.html"
-  to = "/:splat"
+  from = "/about"
+  to = "/about.html"
   status = 301
-  force = true
+
+[[redirects]]
+  from = "/probate"
+  to = "/probate.html"
+  status = 301
+
+[[redirects]]
+  from = "/living-trusts"
+  to = "/living-trusts.html"
+  status = 301
+
+[[redirects]]
+  from = "/conservatorship"
+  to = "/conservatorship.html"
+  status = 301
+
+[[redirects]]
+  from = "/guardianship"
+  to = "/guardianship.html"
+  status = 301
+
+[[redirects]]
+  from = "/wills"
+  to = "/wills.html"
+  status = 301
+
+[[redirects]]
+  from = "/trust-administration"
+  to = "/trust-administration.html"
+  status = 301
+
+[[redirects]]
+  from = "/power-of-attorney"
+  to = "/power-of-attorney.html"
+  status = 301
+
+[[redirects]]
+  from = "/special-needs-trust"
+  to = "/special-needs-trust.html"
+  status = 301
+
+[[redirects]]
+  from = "/asset-protection"
+  to = "/asset-protection.html"
+  status = 301
+
+# Redirect /index.html to / (homepage)
+[[redirects]]
+  from = "/index.html"
+  to = "/"
+  status = 301
