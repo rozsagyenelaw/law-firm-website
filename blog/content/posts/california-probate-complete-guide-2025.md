@@ -38,7 +38,7 @@ The probate process serves several important functions: validating the deceased 
 
 **Testate (With a Will):** If the deceased person had a valid will, they died "testate." The will names an executor to manage the estate and specifies who receives which assets. The probate court validates the will and supervises the executor's actions.
 
-**Intestate (Without a Will):** If the deceased person had no valid will, they died "intestate." California's intestate succession laws (Probate Code Sections 6400-6414) determine who inherits. The court appoints an administrator (rather than executor) to manage the estate. Assets pass to the closest living relatives in a specific order: surviving spouse, children, parents, siblings, and so on.
+**Intestate (Without a Will):** If the deceased person had no valid will, they died "intestate." [California's intestate succession laws](/blog/california-inheritance-laws-without-will) (Probate Code Sections 6400-6414) determine who inherits. The court appoints an administrator (rather than executor) to manage the estate. Assets pass to the closest living relatives in a specific order: surviving spouse, children, parents, siblings, and so on.
 
 **Critical Point:** Having a will does NOT avoid probate. A will must go through probate to be validated and executed. Only a properly funded living trust avoids probate entirely.
 
@@ -232,11 +232,11 @@ Being named as executor (or appointed as administrator) is a significant respons
 - Comply with all court orders and deadlines
 - Distribute assets according to the will or intestate law
 
-**Personal Liability Warning:** Executors and administrators can be held personally liable for mistakes that harm the estate or beneficiaries. This is why many personal representatives hire a probate attorney to guide them through the process.
+**Personal Liability Warning:** Executors and administrators can be held personally liable for mistakes that harm the estate or beneficiaries. This is why many personal representatives hire a probate attorney to guide them through the process. Learn more about [executor authority to sell property](/blog/can-executor-sell-property-without-beneficiaries-approval-california) and [beneficiary rights in California probate](/blog/beneficiary-rights-california-probate-2025).
 
 ## What Happens If Someone Dies Without a Will in California?
 
-When someone dies without a valid will ("intestate"), California's intestate succession laws determine who inherits. These laws are found in Probate Code Sections 6400-6414.
+When someone dies without a valid will ("intestate"), [California's intestate succession laws](/blog/california-inheritance-laws-without-will) determine who inherits. These laws are found in Probate Code Sections 6400-6414.
 
 ### California Intestate Succession Order
 
@@ -307,7 +307,7 @@ Certain assets allow you to name a beneficiary who receives the asset directly u
 
 ### Strategy 6: Small Estate Procedures
 
-For estates under the threshold ($208,850 for personal property as of April 2025, or primary residence under $750,000), California offers simplified procedures that avoid full probate. However, these still require legal filings and have limitations.
+For estates under the threshold ($208,850 for personal property as of April 2025, or primary residence under $750,000), California offers simplified procedures that avoid full probate. Learn more about the [California small estate affidavit](/blog/california-small-estate-affidavit) process. However, these still require legal filings and have limitations.
 
 ### Strategy 7: Spousal Property Petition
 
@@ -401,6 +401,16 @@ Rozsa Gyene (State Bar No. 208356) is a California estate planning and probate a
 **Office Location:** 450 N Brand Blvd, Suite 600, Glendale, CA 91203
 
 **Phone:** (818) 291-6217
+
+---
+
+## Related Articles
+
+- [California Inheritance Laws: Who Gets What When You Die Without a Will](/blog/california-inheritance-laws-without-will)
+- [California Small Estate Affidavit: Skip Probate for Estates Under $184,500](/blog/california-small-estate-affidavit)
+- [Beneficiary Rights in California Probate 2025](/blog/beneficiary-rights-california-probate-2025)
+- [Can Executor Sell Property Without Beneficiaries Approval in California?](/blog/can-executor-sell-property-without-beneficiaries-approval-california)
+- [Glendale Probate Attorney: How I Help Families Through California Probate](/blog/glendale-probate-attorney)
 
 ---
 

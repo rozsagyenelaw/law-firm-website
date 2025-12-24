@@ -718,7 +718,7 @@ The timeline varies based on complexity. Simple trusts with one or two beneficia
 
 ### What is the 60-day notice requirement for California trusts?
 
-California Probate Code Section 16061.7 requires trustees to send written notice to all beneficiaries and legal heirs within 60 days of the settlor's death or the date you become trustee. The notice must include the trust name and creation date, settlor's name and death date, your contact information, a statement that the trust is now irrevocable, the beneficiaries' right to request a copy of the trust, and notice of the 120-day contest period. Send all notices via certified mail with return receipt to prove compliance.
+California Probate Code Section 16061.7 requires trustees to send written notice to all beneficiaries and legal heirs within 60 days of the settlor's death or the date you become trustee. See our complete guide to [60-day notice requirements](/blog/60-day-notice-trust-california). The notice must include the trust name and creation date, settlor's name and death date, your contact information, a statement that the trust is now irrevocable, the beneficiaries' right to request a copy of the trust, and notice of the 120-day contest period. Send all notices via certified mail with return receipt to prove compliance.
 
 ### Can beneficiaries remove a trustee during trust administration?
 
@@ -735,6 +735,15 @@ The Law Offices of Rozsa Gyene guides trustees through every step of California 
 **Call (818) 291-6217** or visit our [contact page](/estate-planning-questionnaire.html).
 
 Serving Glendale, Burbank, Pasadena, and all of Los Angeles County.
+
+---
+
+## Related Articles
+
+- [60-Day Notice to Beneficiaries California: Complete Trust Guide](/blog/60-day-notice-trust-california)
+- [How Much Does a Living Trust Cost in California?](/blog/how-much-does-living-trust-cost-california-2024)
+- [How to Avoid Probate in California: 7 Proven Strategies](/blog/avoid-probate-california)
+- [California Probate Complete Guide 2025](/blog/california-probate-complete-guide-2025)
 
 ---
 

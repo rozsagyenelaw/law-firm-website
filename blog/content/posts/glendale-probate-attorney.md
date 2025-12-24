@@ -18,7 +18,7 @@ metaDescription: "Glendale probate attorney Rozsa Gyene helps families navigate 
 
 **LOOKING FOR A GLENDALE PROBATE ATTORNEY?** I'm Rozsa Gyene, a California probate attorney with 25+ years of experience serving Glendale, Burbank, Pasadena, and Los Angeles County. I handle every aspect of probate — from filing the petition to final distribution — so you can focus on your family. Call (818) 291-6217 for a free consultation.
 
-When a Glendale resident passes away, their family often faces an overwhelming legal process. California probate involves court filings, strict deadlines, creditor notifications, and complex paperwork that can take 12-18 months to complete.
+When a Glendale resident passes away, their family often faces an overwhelming legal process. [California probate](/blog/california-probate-complete-guide-2025) involves court filings, strict deadlines, creditor notifications, and complex paperwork that can take 12-18 months to complete.
 
 As a Glendale probate attorney with over 25 years of experience, I've guided hundreds of local families through this difficult process. My office is right here in Glendale at 450 N Brand Blvd, and I understand the unique needs of our community.
 
@@ -319,6 +319,16 @@ Rozsa Gyene (State Bar No. 208356) is a Glendale probate attorney serving famili
 **Phone:** (818) 291-6217
 
 **Serving:** Glendale, Burbank, Pasadena, La Cañada Flintridge, La Crescenta, Montrose, and all Los Angeles County
+
+---
+
+## Related Articles
+
+- [California Probate Complete Guide 2025: Costs, Timeline, and Process](/blog/california-probate-complete-guide-2025)
+- [California Inheritance Laws: Who Gets What Without a Will](/blog/california-inheritance-laws-without-will)
+- [California Small Estate Affidavit: Skip Probate for Smaller Estates](/blog/california-small-estate-affidavit)
+- [Beneficiary Rights in California Probate 2025](/blog/beneficiary-rights-california-probate-2025)
+- [Can Executor Sell Property Without Beneficiaries Approval?](/blog/can-executor-sell-property-without-beneficiaries-approval-california)
 
 ---
 

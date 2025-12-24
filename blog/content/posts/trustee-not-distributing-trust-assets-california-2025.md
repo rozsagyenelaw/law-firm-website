@@ -602,4 +602,14 @@ Don't let a trustee wrongfully withhold your inheritance. Call today to discuss 
 
 ---
 
+## Related Articles
+
+- [10 Warning Signs a Trustee is Stealing from the Trust](/blog/10-warning-signs-trustee-stealing)
+- [Trustee Removal California: Process and Grounds](/blog/trustee-removal-california-process-grounds)
+- [When Trustees Fail to Communicate California](/blog/when-trustees-fail-to-communicate-california)
+- [Trust Beneficiary Rights California](/blog/trust-beneficiary-rights-california)
+- [Trust Administration Checklist California](/blog/trust-administration-checklist-california)
+
+---
+
 *Attorney Rozsa Gyene (CA State Bar #208356) has litigated hundreds of trust disputes in Los Angeles County. This guide reflects California law as of January 2025.*

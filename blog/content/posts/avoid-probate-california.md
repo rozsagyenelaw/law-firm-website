@@ -347,17 +347,17 @@ Most families complete the process in 4-6 weeks.
 
 ## Related Articles
 
-**Learn more about California probate:**
+**Learn more about California probate and living trusts:**
 
-- **[How Much Does Probate Cost in California?](/blog/how-much-does-probate-cost-california/)** - Detailed breakdown of what you're avoiding ($20,000-$100,000+ in fees).
+- **[How Much Does a Living Trust Cost in California?](/blog/how-much-does-living-trust-cost-california-2024)** - Complete pricing guide for creating a living trust.
 
-- **[How Long Does Probate Take in California?](/blog/how-long-does-probate-take-california/)** - See the 12-18 month timeline you'll skip by avoiding probate.
+- **[Trust Administration Checklist California](/blog/trust-administration-checklist-california)** - What happens after you create a trust.
 
-- **[Trust Administration vs. Probate California](/blog/trust-administration-vs-probate-california/)** - Side-by-side comparison of living trust benefits vs. probate.
+- **[60-Day Notice to Beneficiaries California](/blog/60-day-notice-trust-california)** - Key trust administration requirement.
 
-- **[California Small Estate Affidavit](/blog/california-small-estate-affidavit/)** - Alternative for estates under $184,500.
+- **[California Probate Complete Guide 2025](/blog/california-probate-complete-guide-2025)** - Understand what you're avoiding with a living trust.
 
-- **[Spousal Property Petition California](/blog/spousal-property-petition-california/)** - Simplified probate alternative for surviving spouses.
+- **[California Small Estate Affidavit](/blog/california-small-estate-affidavit)** - Alternative for estates under $184,500.
 
 ## Schedule Your Free Consultation
 

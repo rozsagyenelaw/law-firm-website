@@ -305,4 +305,15 @@ Serving Glendale, Burbank, Pasadena, and all of Los Angeles County.
 
 ---
 
+## Related Articles
+
+- [Trust Administration Checklist California: The Complete Guide](/blog/trust-administration-checklist-california)
+- [How Much Does a Living Trust Cost in California?](/blog/how-much-does-living-trust-cost-california-2024)
+- [How to Avoid Probate in California: 7 Proven Strategies](/blog/avoid-probate-california)
+- [California Probate Complete Guide 2025](/blog/california-probate-complete-guide-2025)
+
+---
+
 *This article provides general information about California trust notice requirements. Every trust is different. Consult an attorney to ensure compliance with your specific situation.*
+
+For the complete list of all trustee tasks, see our [Trust Administration Checklist California](/blog/trust-administration-checklist-california).

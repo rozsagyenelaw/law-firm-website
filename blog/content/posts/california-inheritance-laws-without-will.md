@@ -20,7 +20,7 @@ What happens to your house, your bank accounts, your car, and everything else yo
 
 Most people assume "it all goes to my spouse" or "my kids will split it equally." In reality, California's intestate succession laws are far more complex—and they probably don't distribute your property the way you'd want.
 
-As a Glendale probate attorney who regularly guides families through intestate estates, I've seen the confusion, conflict, and costly surprises that result when someone dies without proper estate planning. Parents inadvertently disinherit children. Spouses receive less than expected. Estranged relatives inherit. Assets freeze for months or years.
+As a [Glendale probate attorney](/blog/glendale-probate-attorney) who regularly guides families through intestate estates, I've seen the confusion, conflict, and costly surprises that result when someone dies without proper estate planning. Parents inadvertently disinherit children. Spouses receive less than expected. Estranged relatives inherit. Assets freeze for months or years.
 
 In this comprehensive guide, I'll explain exactly who inherits your property under California law when you die without a will or trust, how community property affects inheritance, what the probate process looks like, and why California's default inheritance rules probably don't match your wishes.
 
@@ -609,6 +609,16 @@ Generally no. However, people can challenge:
 **About the Author**
 
 Rozsa Gyene (State Bar No. 208356) is a California probate and estate planning attorney serving Glendale, Burbank, Pasadena, and throughout Los Angeles County. With extensive experience guiding families through both intestate probate proceedings and contested estate litigation, Rozsa helps clients create estate plans that actually protect their families and avoid California's costly default inheritance rules.
+
+---
+
+## Related Articles
+
+- [California Probate Complete Guide 2025: Costs, Timeline, and Process](/blog/california-probate-complete-guide-2025)
+- [California Small Estate Affidavit: Skip Probate for Estates Under $184,500](/blog/california-small-estate-affidavit)
+- [Beneficiary Rights in California Probate 2025](/blog/beneficiary-rights-california-probate-2025)
+- [Can Executor Sell Property Without Beneficiaries Approval in California?](/blog/can-executor-sell-property-without-beneficiaries-approval-california)
+- [Glendale Probate Attorney: How I Help Families Through Probate](/blog/glendale-probate-attorney)
 
 ---
 

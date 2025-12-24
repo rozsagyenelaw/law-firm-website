@@ -15,7 +15,7 @@ coverImage: "/images/blog/attorney-consultation.png"
 
 # Beneficiary Rights in California Probate: Your Complete Legal Guide (2025)
 
-If you're named as a beneficiary in a California will or trust, you have significant legal rights during the probate process. Unfortunately, many beneficiaries don't know what rights they have - and some executors take advantage of this.
+If you're named as a beneficiary in a California will or trust, you have significant legal rights during the [probate process](/blog/california-probate-complete-guide-2025). Unfortunately, many beneficiaries don't know what rights they have - and some executors take advantage of this.
 
 This comprehensive guide explains your rights as a California probate beneficiary, how to enforce them, and what to do if the executor isn't fulfilling their obligations.
 
@@ -421,6 +421,16 @@ Our Los Angeles County probate attorney helps beneficiaries:
 **Free consultation**: (818) 291-6217
 
 We've helped hundreds of beneficiaries enforce their rights and receive their rightful inheritance. Don't let an executor take advantage - know your rights and protect yourself.
+
+---
+
+## Related Articles
+
+- [California Probate Complete Guide 2025: Costs, Timeline, and Process](/blog/california-probate-complete-guide-2025)
+- [Can Executor Sell Property Without Beneficiaries Approval in California?](/blog/can-executor-sell-property-without-beneficiaries-approval-california)
+- [California Inheritance Laws: Who Gets What Without a Will](/blog/california-inheritance-laws-without-will)
+- [California Small Estate Affidavit: Skip Probate for Smaller Estates](/blog/california-small-estate-affidavit)
+- [Glendale Probate Attorney: How I Help Families Through Probate](/blog/glendale-probate-attorney)
 
 ---
 

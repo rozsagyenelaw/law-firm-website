@@ -524,4 +524,14 @@ If you're dealing with a trustee who won't communicate or provide information, o
 
 Contact us for a consultation to discuss your options.
 
+## Related Articles
+
+- [10 Warning Signs a Trustee is Stealing from the Trust](/blog/10-warning-signs-trustee-stealing)
+- [Trustee Removal California: Process and Grounds](/blog/trustee-removal-california-process-grounds)
+- [Trustee Not Distributing Trust Assets California](/blog/trustee-not-distributing-trust-assets-california-2025)
+- [Trust Beneficiary Rights California](/blog/trust-beneficiary-rights-california)
+- [60-Day Notice Trust California](/blog/60-day-notice-trust-california)
+
+---
+
 *This article is for informational purposes only and does not constitute legal advice. Trust litigation can be complex and fact-specific. Consult with a qualified California trust attorney about your specific circumstances.*

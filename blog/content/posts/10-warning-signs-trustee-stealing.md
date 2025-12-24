@@ -31,7 +31,7 @@ Before we dive into the warning signs, it's important to understand what trustee
 - Invest trust assets prudently
 - Maintain accurate records
 
-When a trustee violates these duties, beneficiaries have legal recourse. Let's look at the warning signs that suggest a trustee may be breaching their fiduciary duty.
+When a trustee violates these duties, beneficiaries have legal recourse—including [trustee removal](/blog/trustee-removal-california-process-grounds). Let's look at the warning signs that suggest a trustee may be breaching their fiduciary duty.
 
 ## Warning Sign #1: The Trustee Refuses to Provide Accountings
 
@@ -41,7 +41,7 @@ When a trustee violates these duties, beneficiaries have legal recourse. Let's l
 
 **Real-world example:** In a recent case I handled, the trustee claimed he was "too busy" to prepare accountings for three consecutive years. When we finally obtained the accounting through a court petition, we discovered the trustee had transferred over $200,000 in trust assets to his personal accounts.
 
-**What to do:** Send a written demand for an accounting via certified mail. If the trustee doesn't respond within 60 days, consult with a trust litigation attorney about filing a petition to compel an accounting.
+**What to do:** Send a written demand for an accounting via certified mail. If the trustee doesn't respond within 60 days, consult with a trust litigation attorney about filing a petition to compel an accounting. Learn more about [when trustees fail to communicate](/blog/when-trustees-fail-to-communicate-california).
 
 ## Warning Sign #2: Suspicious or Unexplained Transactions
 
@@ -264,6 +264,16 @@ Time is critical. Contact the Law Offices of Rozsa Gyene today at **(818) 291-62
 **About the Author**
 
 Rozsa Gyene is a California attorney (State Bar No. 208356) specializing in estate planning, trust litigation, probate, and conservatorship matters. With offices in Glendale, Rozsa serves families throughout Los Angeles County, including Burbank, Pasadena, La Cañada Flintridge, and surrounding communities. She combines deep legal expertise with a practical, client-centered approach to help beneficiaries protect their inheritance from trustee misconduct.
+
+---
+
+## Related Articles
+
+- [Trustee Removal California: Process and Grounds](/blog/trustee-removal-california-process-grounds)
+- [Trustee Not Distributing Trust Assets California](/blog/trustee-not-distributing-trust-assets-california-2025)
+- [When Trustees Fail to Communicate California](/blog/when-trustees-fail-to-communicate-california)
+- [Trust Contest California: Grounds and Process](/blog/trust-contest-california-grounds-process)
+- [Trust Beneficiary Rights California](/blog/trust-beneficiary-rights-california)
 
 ---
 

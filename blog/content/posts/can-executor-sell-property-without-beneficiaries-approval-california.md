@@ -20,7 +20,7 @@ metaDescription: "Can executor sell property without beneficiaries approval Cali
 
 As a Glendale probate attorney, this is one of the most common questions I hear from executors. The answer depends entirely on what type of authority the executor has been granted by the court and whether the will contains specific provisions about selling property.
 
-Understanding executor authority to sell property is critical—selling without proper authority can result in the sale being voided, personal liability for the executor, and serious family conflict.
+Understanding executor authority to sell property is critical—selling without proper authority can result in the sale being voided, personal liability for the executor, and serious family conflict. [Beneficiaries have rights](/blog/beneficiary-rights-california-probate-2025) to object to improper sales.
 
 This comprehensive guide explains when California executors can sell property without beneficiaries' approval, the difference between full authority (IAEA) and limited authority, court confirmation requirements, when beneficiary consent is needed, and best practices to avoid disputes.
 
@@ -530,17 +530,19 @@ Yes, anyone can bid at confirmation hearing, including beneficiaries.
 
 ## Related Articles
 
-**Learn more about executor authority and property sales:**
+**Learn more about executor authority and probate:**
 
-- **[How to Sell a House in Probate California](/blog/selling-house-probate-california/)** - Complete guide to probate property sales process.
+- **[California Probate Complete Guide 2025](/blog/california-probate-complete-guide-2025)** - Complete overview of California probate costs, timeline, and process.
 
-- **[California Executor Duties & Responsibilities](/blog/executor-duties-california/)** - Full scope of executor powers and obligations.
+- **[Beneficiary Rights in California Probate 2025](/blog/beneficiary-rights-california-probate-2025)** - What beneficiaries can do when they disagree with executor decisions.
 
-- **[Probate Real Estate California](/blog/probate-real-estate-california/)** - Managing and selling estate real property.
+- **[California Inheritance Laws Without a Will](/blog/california-inheritance-laws-without-will)** - Who inherits when there's no will.
 
-- **[Letters Testamentary California](/blog/letters-testamentary-california/)** - Authority document needed to sell property.
+- **[California Small Estate Affidavit](/blog/california-small-estate-affidavit)** - Skip probate entirely for smaller estates.
 
-- **[Removing Executor California](/blog/removing-executor-california/)** - What happens when executor exceeds authority.
+- **[Glendale Probate Attorney](/blog/glendale-probate-attorney)** - Local help with executor authority questions.
+
+- **[Selling House in Probate California](/blog/selling-house-probate-california)** - Complete guide to probate property sales process.
 
 ## Get Help With Executor Authority Questions
 

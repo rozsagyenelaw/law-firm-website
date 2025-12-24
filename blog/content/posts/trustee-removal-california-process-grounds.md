@@ -519,4 +519,14 @@ If you're dealing with a trustee who is breaching their duties or failing to adm
 
 Contact us for a consultation to discuss whether trustee removal is appropriate in your situation.
 
+## Related Articles
+
+- [10 Warning Signs a Trustee is Stealing from the Trust](/blog/10-warning-signs-trustee-stealing)
+- [Trustee Not Distributing Trust Assets California](/blog/trustee-not-distributing-trust-assets-california-2025)
+- [When Trustees Fail to Communicate California](/blog/when-trustees-fail-to-communicate-california)
+- [Trust Beneficiary Rights California](/blog/trust-beneficiary-rights-california)
+- [Trust Contest California: Grounds and Process](/blog/trust-contest-california-grounds-process)
+
+---
+
 *This article is for informational purposes only and does not constitute legal advice. Trustee removal proceedings are complex and highly fact-dependent. Consult with a qualified California trust litigation attorney about your specific circumstances.*

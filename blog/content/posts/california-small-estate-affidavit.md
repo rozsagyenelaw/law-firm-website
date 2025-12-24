@@ -18,7 +18,7 @@ metaDescription: "California small estate affidavit explained: Skip probate for 
 
 If you've inherited a modest estate in California and are dreading the expense and delays of formal probate, I have good news: you may be able to collect assets quickly and inexpensively using California's small estate affidavit procedure.
 
-As a Glendale probate attorney, I regularly help families navigate California's small estate procedures—a streamlined alternative to formal probate that saves thousands of dollars and months of time for qualifying estates.
+As a [Glendale probate attorney](/blog/glendale-probate-attorney), I regularly help families navigate California's small estate procedures—a streamlined alternative to [formal probate](/blog/california-probate-complete-guide-2025) that saves thousands of dollars and months of time for qualifying estates.
 
 In this comprehensive guide, I'll explain how California's small estate affidavit works, who qualifies, what forms you need, the step-by-step process, and important limitations you should understand.
 
@@ -623,15 +623,17 @@ Formal probate costs more and takes longer, but provides court supervision, cred
 
 **Learn more about California probate alternatives:**
 
-- **[How Much Does Probate Cost in California?](/blog/how-much-does-probate-cost-california/)** - See what you're avoiding by using small estate affidavit ($20,000-$100,000+ savings).
+- **[California Probate Complete Guide 2025](/blog/california-probate-complete-guide-2025)** - When you need to know if small estate procedures apply to your situation.
 
-- **[How Long Does Probate Take in California?](/blog/how-long-does-probate-take-california/)** - Compare 40-day small estate timeline to 12-18 month formal probate.
+- **[California Inheritance Laws Without a Will](/blog/california-inheritance-laws-without-will)** - Small estate affidavit works for intestate estates too.
 
-- **[How to Avoid Probate in California](/blog/avoid-probate-california/)** - 7 strategies including small estate procedures and living trusts.
+- **[Beneficiary Rights in California Probate 2025](/blog/beneficiary-rights-california-probate-2025)** - Know your rights as an heir using small estate procedures.
 
-- **[Spousal Property Petition California](/blog/spousal-property-petition-california/)** - Another simplified procedure for surviving spouses.
+- **[Can Executor Sell Property Without Beneficiaries Approval?](/blog/can-executor-sell-property-without-beneficiaries-approval-california)** - Understanding authority in estate administration.
 
-- **[Died Without Will California](/blog/died-without-will-california/)** - Small estate affidavit works for intestate estates too.
+- **[Glendale Probate Attorney](/blog/glendale-probate-attorney)** - Local help with small estate procedures in Los Angeles County.
+
+- **[How to Avoid Probate in California](/blog/avoid-probate-california)** - 7 strategies including small estate procedures and living trusts.
 
 ## Get Help with Small Estate Affidavit
 
