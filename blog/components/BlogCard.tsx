@@ -85,6 +85,7 @@ export default function BlogCard({ post, featured = false }: BlogCardProps) {
                 src={post.coverImage}
                 alt={post.title}
                 className="w-full h-full object-cover"
+                loading="lazy"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
             </>
