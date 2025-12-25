@@ -1,0 +1,695 @@
+3:I[4707,[],""]
+5:I[6423,[],""]
+4:["slug","selling-house-probate-california","d"]
+0:["XNl8EPT-Q30wSTcV-gnhM",[[["",{"children":[["slug","selling-house-probate-california","d"],{"children":["__PAGE__?{\"slug\":\"selling-house-probate-california\"}",{}]}]},"$undefined","$undefined",true],["",{"children":[["slug","selling-house-probate-california","d"],{"children":["__PAGE__",{},[["$L1","$L2",null],null],null]},[null,["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","$4","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]],null]},[[[["$","link","0",{"rel":"stylesheet","href":"/blog/_next/static/css/76af30a148da119e.css","precedence":"next","crossOrigin":"$undefined"}]],["$","html",null,{"lang":"en","className":"__variable_fbaf84 __variable_774662","children":[["$","head",null,{"children":[["$","link",null,{"rel":"icon","href":"/favicon.ico"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}]]}],["$","body",null,{"className":"bg-gradient-blue min-h-screen","children":[["$","div",null,{"className":"bg-primary-blue text-white py-2.5 text-sm","children":["$","div",null,{"className":"container-custom flex justify-between items-center","children":[["$","div",null,{"className":"flex items-center gap-6","children":["$","span",null,{"children":"Over 25 Years Serving Los Angeles County"}]}],["$","a",null,{"href":"tel:8182916217","className":"text-accent-gold font-semibold hover:underline","children":"(818) 291-6217"}]]}]}],["$","nav",null,{"className":"bg-transparent py-5","children":["$","div",null,{"className":"container-custom flex justify-between items-center","children":[["$","a",null,{"href":"https://livingtrust-attorneys.com","className":"flex items-center gap-3 text-white no-print","children":["$","div",null,{"className":"flex flex-col","children":[["$","span",null,{"className":"font-playfair text-xl font-bold text-shadow-md","children":"Law Offices of Rozsa Gyene"}],["$","span",null,{"className":"text-sm text-accent-gold","children":"Estate Planning & Trust Law Blog"}]]}]}],["$","div",null,{"className":"flex items-center gap-4 no-print","children":[["$","a",null,{"href":"https://livingtrust-attorneys.com","className":"text-white hover:text-accent-gold transition-colors font-medium","children":"Home"}],["$","a",null,{"href":"/","className":"text-accent-gold font-semibold","children":"Blog"}],["$","a",null,{"href":"https://portal.livingtrust-attorneys.com/book","className":"btn-primary text-base py-3 px-6","target":"_blank","rel":"noopener noreferrer","children":"Free Consultation"}]]}]]}]}],["$","main",null,{"className":"min-h-screen","children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[]}]}],["$","footer",null,{"className":"bg-primary-blue text-white mt-20 no-print","children":["$","div",null,{"className":"container-custom py-12","children":[["$","div",null,{"className":"grid md:grid-cols-3 gap-8","children":[["$","div",null,{"children":[["$","h3",null,{"className":"font-playfair text-2xl mb-4","children":"Law Offices of Rozsa Gyene"}],["$","p",null,{"className":"text-white/80 mb-4","children":"Over 25 years of experience serving Los Angeles County families with comprehensive estate planning and trust services."}]]}],["$","div",null,{"children":[["$","h4",null,{"className":"font-semibold text-lg mb-4 text-accent-gold","children":"Contact"}],["$","div",null,{"className":"space-y-2 text-white/80","children":[["$","p",null,{"children":"450 N Brand Blvd Ste 600"}],["$","p",null,{"children":"Glendale, CA 91203"}],["$","p",null,{"className":"mt-4","children":["$","a",null,{"href":"tel:8182916217","className":"text-accent-gold hover:underline","children":"(818) 291-6217"}]}]]}]]}],["$","div",null,{"children":[["$","h4",null,{"className":"font-semibold text-lg mb-4 text-accent-gold","children":"Practice Areas"}],["$","ul",null,{"className":"space-y-2 text-white/80","children":[["$","li",null,{"children":["$","a",null,{"href":"https://livingtrust-attorneys.com/living-trusts.html","className":"hover:text-accent-gold transition-colors","children":"Living Trusts"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://livingtrust-attorneys.com/probate.html","className":"hover:text-accent-gold transition-colors","children":"Probate"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://livingtrust-attorneys.com/trust-administration.html","className":"hover:text-accent-gold transition-colors","children":"Trust Administration"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://livingtrust-attorneys.com/conservatorship.html","className":"hover:text-accent-gold transition-colors","children":"Conservatorship"}]}]]}]]}]]}],["$","div",null,{"className":"border-t border-white/10 mt-8 pt-8 text-center text-white/70 text-sm","children":["$","p",null,{"children":["© ",2025," Law Offices of Rozsa Gyene. All rights reserved."]}]}]]}]}]]}]]}]],null],null],["$L6",null]]]]
+8:I[2578,["972","static/chunks/972-6296c3e7f99d3665.js","42","static/chunks/app/%5Bslug%5D/page-27e08b5d2052b651.js"],"default"]
+9:I[2972,["972","static/chunks/972-6296c3e7f99d3665.js","42","static/chunks/app/%5Bslug%5D/page-27e08b5d2052b651.js"],""]
+7:T7e50,<p>Selling real estate during probate is one of the most common tasks executors face—and one of the most confusing. As a Glendale probate attorney who has guided hundreds of estate sales, I understand the stress executors feel when they need to sell property but aren't sure about the legal requirements, court approval process, or timeline.</p>
+<p>The good news? California provides clear procedures for selling probate property, and with proper guidance, you can navigate the process successfully. The key is understanding whether you need court confirmation and, if so, how to obtain it efficiently.</p>
+<p>In this comprehensive guide, I'll walk you through everything you need to know about selling a house in California probate, including the court confirmation process, Independent Administration options, step-by-step procedures, timeline expectations, and common pitfalls to avoid.</p>
+<h2>Why Selling Probate Real Estate Is Different</h2>
+<p>When you sell real estate during probate, you're not selling your own property—you're selling estate property under court supervision.</p>
+<p><strong>Key differences from regular home sales:</strong></p>
+<p><strong>Court oversight:</strong></p>
+<ul>
+<li>May require court approval before sale</li>
+<li>Court may need to confirm sale price</li>
+<li>Public overbidding procedure possible</li>
+<li>Additional paperwork and delays</li>
+</ul>
+<p><strong>Authority limitations:</strong></p>
+<ul>
+<li>Executor must follow will provisions</li>
+<li>Cannot self-deal (buy property yourself)</li>
+<li>Must act in beneficiaries' best interests</li>
+<li>Subject to fiduciary duty rules</li>
+</ul>
+<p><strong>Disclosure requirements:</strong></p>
+<ul>
+<li>Full disclosure to beneficiaries</li>
+<li>Notice requirements</li>
+<li>Accounting for all proceeds</li>
+</ul>
+<p><strong>Timeline constraints:</strong></p>
+<ul>
+<li>Can't sell until Letters Testamentary issued</li>
+<li>Notice periods add weeks</li>
+<li>Court hearing schedules affect timing</li>
+<li>Probate timeline already 12-18 months</li>
+</ul>
+<p><strong>The good news:</strong> Proper planning and using Independent Administration authority can eliminate most court oversight and make the sale nearly as simple as a regular home sale.</p>
+<h2>Two Pathways for Selling Probate Property</h2>
+<p>California offers two distinct procedures for selling real estate during probate. Which one applies depends on whether you have Independent Administration authority.</p>
+<h3>Pathway #1: Sale with Independent Administration (IAEA Authority)</h3>
+<p><strong>Independent Administration of Estates Act (IAEA)</strong>
+<strong>California Probate Code Sections 10500-10592</strong></p>
+<p><strong>Process:</strong> Sell property without court confirmation, just like a regular home sale</p>
+<p><strong>Requirements:</strong></p>
+<ul>
+<li>Executor requested IAEA authority in initial petition</li>
+<li>Court granted full authority</li>
+<li>Sale price is at least 90% of appraised value</li>
+<li>No beneficiary objects</li>
+</ul>
+<p><strong>Timeline:</strong> Same as regular home sale (30-45 days)</p>
+<p><strong>Advantages:</strong></p>
+<ul>
+<li>No court hearing required</li>
+<li>No overbidding procedure</li>
+<li>Faster closing</li>
+<li>Less expensive</li>
+<li>More flexibility</li>
+</ul>
+<p><strong>This is the preferred method.</strong> Most experienced probate attorneys request IAEA authority in the initial Petition for Probate.</p>
+<h3>Pathway #2: Sale with Court Confirmation (Traditional Probate Sale)</h3>
+<p><strong>California Probate Code Sections 10300-10381</strong></p>
+<p><strong>Process:</strong> Sell property subject to court approval and overbidding procedure</p>
+<p><strong>When required:</strong></p>
+<ul>
+<li>Executor doesn't have IAEA authority</li>
+<li>Sale price is less than 90% of appraised value</li>
+<li>Will specifically requires court confirmation</li>
+<li>Beneficiary objects to sale</li>
+</ul>
+<p><strong>Timeline:</strong> Adds 6-10 weeks to sale process</p>
+<p><strong>Disadvantages:</strong></p>
+<ul>
+<li>Court hearing required</li>
+<li>Public overbidding possible (buyers can outbid at hearing)</li>
+<li>More expensive</li>
+<li>Less certainty</li>
+<li>Many buyers avoid probate sales</li>
+</ul>
+<p>Let me explain both processes in detail.</p>
+<h2>Selling with Independent Administration (IAEA): Step-by-Step</h2>
+<p>This is the simpler, faster method when you have IAEA authority.</p>
+<h3>Step 1: Obtain Letters Testamentary with IAEA Authority</h3>
+<p><strong>First requirement:</strong> You must have Letters Testamentary granted with Independent Administration authority.</p>
+<p><strong>How to get IAEA authority:</strong></p>
+<ul>
+<li>Check box on Petition for Probate (Form DE-111) requesting "full authority"</li>
+<li>Court grants authority at initial hearing</li>
+<li>Letters will state "with full authority under IAEA"</li>
+</ul>
+<p><strong>If you didn't request IAEA:</strong> You can petition to add it later, but this requires additional hearing and delays.</p>
+<h3>Step 2: Obtain Professional Appraisal</h3>
+<p><strong>Requirement:</strong> California Probate Code Section 10309</p>
+<p><strong>Why required:</strong> Sale price must be at least 90% of appraised value to avoid court confirmation.</p>
+<p><strong>Who appraises:</strong></p>
+<ul>
+<li>Licensed real estate appraiser (not agent)</li>
+<li>Must be independent (not your listing agent)</li>
+<li>Should be local to property</li>
+</ul>
+<p><strong>Cost:</strong> $400-$700 typically</p>
+<p><strong>Timing:</strong> Before accepting offer</p>
+<p><strong>Validity:</strong> Appraisal should be recent (within 6 months)</p>
+<p><strong>What appraiser provides:</strong></p>
+<ul>
+<li>Written appraisal report</li>
+<li>Fair market value estimate</li>
+<li>Comparable sales analysis</li>
+<li>Property condition assessment</li>
+</ul>
+<p><strong>Important:</strong> This is separate from the probate referee appraisal for Inventory and Appraisal. You need both.</p>
+<h3>Step 3: Hire Real Estate Agent</h3>
+<p><strong>Recommendation:</strong> Hire agent experienced with probate sales</p>
+<p><strong>Agent should understand:</strong></p>
+<ul>
+<li>IAEA procedures</li>
+<li>Disclosure requirements</li>
+<li>Timeline constraints</li>
+<li>Title issues common in estates</li>
+</ul>
+<p><strong>Commission:</strong> Standard 5-6% negotiable</p>
+<p><strong>Listing agreement:</strong></p>
+<ul>
+<li>Executor signs as "Executor of the Estate of [Deceased Name]"</li>
+<li>Not in personal capacity</li>
+</ul>
+<p><strong>Marketing:</strong></p>
+<ul>
+<li>Agent can market property normally</li>
+<li>Should disclose probate sale in listing</li>
+<li>Some buyers hesitate at probate sales, so strong marketing important</li>
+</ul>
+<h3>Step 4: Prepare Property for Sale</h3>
+<p><strong>Executor responsibilities:</strong></p>
+<ul>
+<li>Maintain property in good condition</li>
+<li>Make necessary repairs</li>
+<li>Keep insurance current</li>
+<li>Maintain utilities</li>
+<li>Handle any tenant issues</li>
+</ul>
+<p><strong>Authority:</strong> With IAEA, you can authorize repairs and improvements without court approval (use reasonable judgment)</p>
+<p><strong>Funding:</strong> Pay from estate funds</p>
+<p><strong>Consideration:</strong> Balance cost of improvements against sale price increase</p>
+<h3>Step 5: Receive and Evaluate Offers</h3>
+<p><strong>Process:</strong></p>
+<ul>
+<li>Agent brings offers</li>
+<li>Executor reviews with agent</li>
+<li>Consider:
+<ul>
+<li>Offer price vs. appraised value</li>
+<li>Buyer qualifications</li>
+<li>Contingencies</li>
+<li>Closing timeline</li>
+<li>Terms and conditions</li>
+</ul>
+</li>
+</ul>
+<p><strong>Critical rule:</strong> Offer must be at least 90% of appraised value</p>
+<p><strong>Example:</strong></p>
+<ul>
+<li>Appraised value: $800,000</li>
+<li>Minimum acceptable offer: $720,000 (90%)</li>
+<li>If offer is $719,000: Must use court confirmation procedure</li>
+</ul>
+<p><strong>Best practice:</strong> Accept offers at or above appraised value when possible</p>
+<h3>Step 6: Provide Notice to Beneficiaries</h3>
+<p><strong>Requirement:</strong> California Probate Code Section 10580</p>
+<p><strong>Must provide:</strong> Notice of Proposed Action (Form DE-165)</p>
+<p><strong>Timing:</strong> At least 15 days before accepting offer</p>
+<p><strong>Send to:</strong></p>
+<ul>
+<li>All beneficiaries named in will</li>
+<li>All heirs at law</li>
+<li>Anyone who requested special notice</li>
+</ul>
+<p><strong>Content:</strong></p>
+<ul>
+<li>Description of proposed sale</li>
+<li>Sale price and terms</li>
+<li>Statement of beneficiary's right to object</li>
+<li>15-day period to object</li>
+</ul>
+<p><strong>How to send:</strong> Certified mail, return receipt requested</p>
+<p><strong>What happens:</strong></p>
+<ul>
+<li>If no one objects: Proceed with sale</li>
+<li>If beneficiary objects: May need court approval</li>
+</ul>
+<p><strong>Waiver option:</strong> Beneficiaries can waive notice and consent to sale</p>
+<h3>Step 7: Accept Offer and Open Escrow</h3>
+<p><strong>After 15-day notice period expires:</strong></p>
+<ul>
+<li>Execute purchase agreement</li>
+<li>Sign as "Executor of the Estate of [Name]"</li>
+<li>Open escrow with title company</li>
+</ul>
+<p><strong>Provide to escrow/title company:</strong></p>
+<ul>
+<li>Copy of Letters Testamentary</li>
+<li>Death certificate</li>
+<li>Copy of will</li>
+<li>Probate referee appraisal</li>
+<li>Professional appraisal</li>
+<li>Copy of Notice to Beneficiaries</li>
+</ul>
+<p><strong>Title considerations:</strong></p>
+<ul>
+<li>Property titled in decedent's name</li>
+<li>Executor has authority to convey via Letters</li>
+<li>Title policy will insure transfer</li>
+</ul>
+<h3>Step 8: Complete Sale</h3>
+<p><strong>Standard escrow process:</strong></p>
+<ul>
+<li>Buyer performs inspections</li>
+<li>Buyer obtains financing</li>
+<li>Title work completed</li>
+<li>Executor signs deed</li>
+<li>Escrow closes</li>
+</ul>
+<p><strong>Executor signs:</strong></p>
+<ul>
+<li>Grant deed conveying property</li>
+<li>Any required disclosures</li>
+<li>Settlement statement</li>
+</ul>
+<p><strong>Signature format:</strong> "[Your Name], Executor of the Estate of [Decedent Name]"</p>
+<p><strong>Closing timeline:</strong> Typically 30-45 days from acceptance</p>
+<p><strong>Proceeds:</strong></p>
+<ul>
+<li>Go directly into estate bank account</li>
+<li>Never into executor's personal account</li>
+<li>Account for in estate accounting</li>
+</ul>
+<h3>Step 9: Report Sale in Estate Accounting</h3>
+<p><strong>Requirement:</strong> Document sale in formal estate accounting</p>
+<p><strong>Include:</strong></p>
+<ul>
+<li>Sale price</li>
+<li>Costs of sale (commission, closing costs)</li>
+<li>Net proceeds</li>
+<li>Disposition of proceeds</li>
+</ul>
+<p><strong>Timeline:</strong> Include in final accounting filed with court</p>
+<p><strong>No immediate court report required:</strong> Unlike court confirmation sales, IAEA sales don't require immediate court reporting (but include in final accounting)</p>
+<h2>Selling with Court Confirmation: Step-by-Step</h2>
+<p>When you don't have IAEA authority or sale price is below 90% of appraised value, you must use the court confirmation procedure.</p>
+<h3>Step 1: List and Market Property</h3>
+<p><strong>Same as IAEA:</strong> Hire agent, prepare property, market for sale</p>
+<p><strong>Disclosure:</strong> Must disclose that sale is subject to court confirmation</p>
+<p><strong>Challenge:</strong> Many buyers avoid probate sales due to uncertainty and overbidding risk</p>
+<h3>Step 2: Accept Offer</h3>
+<p><strong>Process:</strong></p>
+<ul>
+<li>Receive offer</li>
+<li>Negotiate terms</li>
+<li>Accept offer "subject to court confirmation"</li>
+</ul>
+<p><strong>Important language:</strong> Purchase agreement must include:</p>
+<ul>
+<li>"Sale subject to probate court confirmation"</li>
+<li>Acknowledgment that other bids may be made at court hearing</li>
+<li>Buyer's right to increase bid at hearing</li>
+</ul>
+<p><strong>Standard form:</strong> Many agents use specialized probate sale agreements</p>
+<h3>Step 3: Prepare Petition for Sale</h3>
+<p><strong>Form:</strong> Petition for Order Confirming Sale of Real Property (no specific Judicial Council form, use DE-270 as attachment)</p>
+<p><strong>Must include:</strong></p>
+<ul>
+<li>Description of property</li>
+<li>Proposed sale price and terms</li>
+<li>Buyer information</li>
+<li>Commission agreement</li>
+<li>Terms of sale</li>
+<li>Reason for sale (pay debts, distribute estate, etc.)</li>
+<li>Statement that sale is in estate's best interest</li>
+</ul>
+<p><strong>Attach:</strong></p>
+<ul>
+<li>Copy of purchase agreement</li>
+<li>Probate referee appraisal</li>
+<li>Professional appraisal (if obtained)</li>
+<li>Listing agreement</li>
+<li>Title report</li>
+</ul>
+<p><strong>Filing fee:</strong> $435</p>
+<h3>Step 4: File Petition with Court</h3>
+<p><strong>Where:</strong> Same probate court handling estate</p>
+<p><strong>Timeline:</strong> Court schedules hearing 4-6 weeks out</p>
+<p><strong>Notice requirements:</strong></p>
+<ul>
+<li>15 days notice to all interested parties</li>
+<li>Publication in newspaper (15 days before hearing)</li>
+<li>Posting on property (if required by local rules)</li>
+</ul>
+<h3>Step 5: Publish Notice</h3>
+<p><strong>Must publish:</strong> Notice of Hearing on Petition to Confirm Sale</p>
+<p><strong>Where:</strong> Newspaper of general circulation</p>
+<p><strong>Content:</strong></p>
+<ul>
+<li>Property address</li>
+<li>Sale price</li>
+<li>Hearing date, time, location</li>
+<li>Information about overbidding procedure</li>
+</ul>
+<p><strong>Purpose:</strong> Alerts potential buyers who might want to overbid</p>
+<h3>Step 6: Attend Confirmation Hearing</h3>
+<p><strong>When:</strong> 4-6 weeks after filing petition</p>
+<p><strong>Who attends:</strong></p>
+<ul>
+<li>Executor</li>
+<li>Executor's attorney</li>
+<li>Original buyer (recommended)</li>
+<li>Any overbidders</li>
+<li>Real estate agent</li>
+</ul>
+<p><strong>What happens:</strong></p>
+<p><strong>Opening:</strong></p>
+<ul>
+<li>Judge confirms proper notice provided</li>
+<li>Reviews petition and supporting documents</li>
+</ul>
+<p><strong>Overbidding procedure:</strong></p>
+<ul>
+<li>If anyone wants to overbid, they make offer</li>
+<li>Must meet minimum overbid requirements</li>
+<li>Bidding proceeds like auction</li>
+<li>Highest bidder wins</li>
+</ul>
+<p><strong>Confirmation:</strong></p>
+<ul>
+<li>Judge confirms sale to highest bidder</li>
+<li>Signs order confirming sale</li>
+<li>Buyer has time to complete purchase</li>
+</ul>
+<h3>Understanding the Overbidding Procedure</h3>
+<p><strong>California Probate Code Section 10311</strong></p>
+<p><strong>Minimum overbid requirements:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Original Offer</th>
+<th>Minimum Overbid</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Under $10,000</td>
+<td>10% more</td>
+</tr>
+<tr>
+<td>$10,000 - $19,999</td>
+<td>$1,000 + 10% of excess over $10,000</td>
+</tr>
+<tr>
+<td>$20,000 - $49,999</td>
+<td>$2,000 + 5% of excess over $20,000</td>
+</tr>
+<tr>
+<td>$50,000 and over</td>
+<td>$3,500 + 5% of excess over $50,000</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Example:</strong></p>
+<ul>
+<li>Original offer: $800,000</li>
+<li>Minimum overbid: $3,500 + 5% of $750,000 = $41,000</li>
+<li>First overbid must be: $841,000</li>
+</ul>
+<p><strong>Subsequent bids:</strong></p>
+<ul>
+<li>Must increase by at least $1,000 each</li>
+</ul>
+<p><strong>The risk:</strong> Original buyer can be outbid at hearing</p>
+<p><strong>Buyer protection:</strong> Original buyer can increase their bid to remain highest bidder</p>
+<p><strong>Deposit:</strong> Overbidders must have certified check for 10% of bid</p>
+<h3>Step 7: Complete Sale After Confirmation</h3>
+<p><strong>After court confirms sale:</strong></p>
+<ul>
+<li>Order becomes final (usually 10 days)</li>
+<li>Buyer completes purchase</li>
+<li>Executor signs deed</li>
+<li>Escrow closes</li>
+</ul>
+<p><strong>Proceeds:</strong> Same as IAEA sales—into estate account</p>
+<p><strong>Timeline:</strong> Original buyer usually has 30 days after confirmation to close</p>
+<p><strong>If buyer doesn't close:</strong> Can sell to backup bidder or re-list property</p>
+<h2>Comparing the Two Methods</h2>
+<table>
+<thead>
+<tr>
+<th>Aspect</th>
+<th>IAEA Sale</th>
+<th>Court Confirmation Sale</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Court approval</strong></td>
+<td>Not required</td>
+<td>Required</td>
+</tr>
+<tr>
+<td><strong>Overbidding</strong></td>
+<td>No</td>
+<td>Yes (public auction)</td>
+</tr>
+<tr>
+<td><strong>Timeline</strong></td>
+<td>30-45 days</td>
+<td>10-16 weeks</td>
+</tr>
+<tr>
+<td><strong>Costs</strong></td>
+<td>Standard commission</td>
+<td>Commission + court fees</td>
+</tr>
+<tr>
+<td><strong>Buyer certainty</strong></td>
+<td>High</td>
+<td>Low (risk of being outbid)</td>
+</tr>
+<tr>
+<td><strong>Buyer pool</strong></td>
+<td>Normal</td>
+<td>Smaller (many avoid probate sales)</td>
+</tr>
+<tr>
+<td><strong>Price achieved</strong></td>
+<td>Market price</td>
+<td>May get higher price via overbidding</td>
+</tr>
+<tr>
+<td><strong>Complexity</strong></td>
+<td>Simple</td>
+<td>Complex</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Winner:</strong> IAEA sales are almost always preferable.</p>
+<h2>Special Situations in Probate Property Sales</h2>
+<h3>Situation #1: Selling Below 90% of Appraised Value</h3>
+<p><strong>Issue:</strong> Even with IAEA, sale below 90% requires court confirmation</p>
+<p><strong>Common causes:</strong></p>
+<ul>
+<li>Declining market</li>
+<li>Property condition issues</li>
+<li>Motivated sale to avoid carrying costs</li>
+</ul>
+<p><strong>Options:</strong></p>
+<ol>
+<li><strong>Negotiate higher price</strong> to reach 90% threshold</li>
+<li><strong>Obtain new appraisal</strong> if property value has declined</li>
+<li><strong>Proceed with court confirmation</strong></li>
+</ol>
+<p><strong>Strategic consideration:</strong> Sometimes court confirmation is worthwhile if property has been sitting on market</p>
+<h3>Situation #2: Multiple Properties</h3>
+<p><strong>If estate has several properties:</strong></p>
+<ul>
+<li>Can sell simultaneously</li>
+<li>Each sale requires separate process</li>
+<li>Coordinate with agent and attorney</li>
+<li>Manage overlapping timelines</li>
+</ul>
+<p><strong>Consideration:</strong> Selling in stages may provide better prices than liquidating all at once</p>
+<h3>Situation #3: Property with Tenants</h3>
+<p><strong>Additional complications:</strong></p>
+<ul>
+<li>Tenant rights</li>
+<li>Lease terms</li>
+<li>Security deposits</li>
+<li>Disclosure requirements</li>
+</ul>
+<p><strong>Options:</strong></p>
+<ul>
+<li>Sell with tenant in place (investor buyer)</li>
+<li>Wait for lease to expire</li>
+<li>Negotiate tenant buyout</li>
+<li>Sell subject to lease terms</li>
+</ul>
+<h3>Situation #4: Out-of-State Property</h3>
+<p><strong>Challenge:</strong> California probate doesn't give authority over property in other states</p>
+<p><strong>Solution:</strong> Ancillary probate in property's state</p>
+<p><strong>Process:</strong></p>
+<ul>
+<li>File separate probate case in that state</li>
+<li>Comply with that state's sale procedures</li>
+<li>Coordinate with attorney in that state</li>
+</ul>
+<p><strong>Cost:</strong> Essentially running two probates</p>
+<h3>Situation #5: Reverse Mortgage on Property</h3>
+<p><strong>Complication:</strong> Loan becomes due on death</p>
+<p><strong>Timeline pressure:</strong> Lender may start foreclosure</p>
+<p><strong>Options:</strong></p>
+<ul>
+<li>Pay off reverse mortgage from estate funds</li>
+<li>Refinance into new loan</li>
+<li>Sell quickly before foreclosure</li>
+<li>Deed in lieu of foreclosure (if no equity)</li>
+</ul>
+<p><strong>Important:</strong> Act quickly—reverse mortgage lenders move fast</p>
+<h3>Situation #6: Property in Poor Condition</h3>
+<p><strong>Challenges:</strong></p>
+<ul>
+<li>May not appraise well</li>
+<li>Buyers request repairs</li>
+<li>May need substantial work</li>
+</ul>
+<p><strong>Options:</strong></p>
+<ol>
+<li><strong>Sell as-is</strong> (probably below appraised value, requiring court confirmation)</li>
+<li><strong>Make essential repairs</strong> (if estate has funds)</li>
+<li><strong>Sell to investor</strong> (often pays cash, closes quickly)</li>
+</ol>
+<p><strong>Fiduciary consideration:</strong> Balance cost of repairs against increased sale price</p>
+<h3>Situation #7: Highly Appreciated Property</h3>
+<p><strong>Tax consideration:</strong> Capital gains tax on appreciation since original purchase</p>
+<p><strong>Estate benefits:</strong></p>
+<ul>
+<li>Estate gets "step-up in basis" to value at death</li>
+<li>Eliminates capital gains tax on appreciation before death</li>
+</ul>
+<p><strong>Example:</strong></p>
+<ul>
+<li>Original purchase price: $200,000</li>
+<li>Value at death: $800,000</li>
+<li>Sale price: $850,000</li>
+<li>Capital gain subject to tax: Only $50,000 (not $650,000)</li>
+</ul>
+<p><strong>Strategy:</strong> Can be advantageous to sell during probate for this reason</p>
+<h2>Timeline for Probate Property Sale</h2>
+<h3>IAEA Sale Timeline</h3>
+<p><strong>Month 1-2:</strong> Obtain Letters Testamentary
+<strong>Month 2:</strong> List property
+<strong>Month 2-3:</strong> Market property, receive offers
+<strong>Month 3:</strong> Accept offer, provide 15-day notice to beneficiaries
+<strong>Month 3-4:</strong> Complete sale (30-45 day escrow)
+<strong>Total:</strong> 4-5 months from death to close</p>
+<h3>Court Confirmation Sale Timeline</h3>
+<p><strong>Month 1-2:</strong> Obtain Letters Testamentary
+<strong>Month 2:</strong> List property
+<strong>Month 2-3:</strong> Market property, receive offers
+<strong>Month 3:</strong> Accept offer, file petition for confirmation
+<strong>Month 4:</strong> Hearing scheduled
+<strong>Month 5:</strong> Confirmation hearing, order entered
+<strong>Month 5-6:</strong> Complete sale
+<strong>Total:</strong> 6-7 months from death to close</p>
+<p><strong>Add to overall probate timeline:</strong> These sales happen during the 12-18 month probate process.</p>
+<h2>Costs of Selling Probate Property</h2>
+<p><strong>Real estate commission:</strong></p>
+<ul>
+<li>Typically 5-6% of sale price (negotiable)</li>
+<li>Split between listing and buyer's agents</li>
+<li>Paid from sale proceeds</li>
+</ul>
+<p><strong>Example for $800,000 sale:</strong></p>
+<ul>
+<li>5% commission = $40,000</li>
+</ul>
+<p><strong>Professional appraisal:</strong></p>
+<ul>
+<li>$400-$700</li>
+</ul>
+<p><strong>Probate referee appraisal:</strong></p>
+<ul>
+<li>0.1% of appraised value ($800 for $800,000 property)</li>
+</ul>
+<p><strong>Court confirmation costs (if applicable):</strong></p>
+<ul>
+<li>Filing fee: $435</li>
+<li>Publication costs: $300-$500</li>
+<li>Additional attorney fees: $2,000-$5,000</li>
+</ul>
+<p><strong>Title and escrow fees:</strong></p>
+<ul>
+<li>Title insurance</li>
+<li>Escrow fees</li>
+<li>Recording fees</li>
+<li>Transfer taxes</li>
+<li><strong>Total typically:</strong> 1-2% of sale price</li>
+</ul>
+<p><strong>Property maintenance during probate:</strong></p>
+<ul>
+<li>Mortgage payments</li>
+<li>Property taxes</li>
+<li>Insurance</li>
+<li>Utilities</li>
+<li>Repairs and maintenance</li>
+<li>HOA dues</li>
+</ul>
+<p><strong>For $800,000 property over 12 months:</strong></p>
+<ul>
+<li>Carrying costs could be $15,000-$30,000</li>
+</ul>
+<p><strong>Total costs for IAEA sale:</strong> $50,000-$70,000
+<strong>Total costs for court confirmation sale:</strong> $55,000-$80,000</p>
+<h2>Common Mistakes When Selling Probate Property</h2>
+<h3>Mistake #1: Selling Before Getting Letters Testamentary</h3>
+<p><strong>Error:</strong> Listing property before appointed as executor</p>
+<p><strong>Result:</strong> Cannot legally sell; must disclose to buyers; delays</p>
+<p><strong>Prevention:</strong> Wait until Letters issued</p>
+<h3>Mistake #2: Accepting Offer Below 90% Without Court Confirmation</h3>
+<p><strong>Error:</strong> Closing sale below appraised value with IAEA authority</p>
+<p><strong>Result:</strong> Sale is voidable; personal liability</p>
+<p><strong>Prevention:</strong> Always compare offer to appraised value</p>
+<h3>Mistake #3: Not Giving Proper Notice to Beneficiaries</h3>
+<p><strong>Error:</strong> Failing to provide 15-day Notice of Proposed Action</p>
+<p><strong>Result:</strong> Beneficiaries can challenge sale; potential litigation</p>
+<p><strong>Prevention:</strong> Always provide proper notice and wait full 15 days</p>
+<h3>Mistake #4: Self-Dealing</h3>
+<p><strong>Error:</strong> Executor buys property themselves (or through entity they control)</p>
+<p><strong>Result:</strong> Breach of fiduciary duty; sale voidable; personal liability</p>
+<p><strong>Prevention:</strong> Never buy estate property yourself</p>
+<h3>Mistake #5: Poor Property Maintenance</h3>
+<p><strong>Error:</strong> Letting property deteriorate during probate</p>
+<p><strong>Result:</strong> Lower sale price; potential liability</p>
+<p><strong>Prevention:</strong> Maintain property well; keep insurance current</p>
+<h3>Mistake #6: Accepting First Offer Too Quickly</h3>
+<p><strong>Error:</strong> Accepting low offer without proper marketing</p>
+<p><strong>Result:</strong> Breach of fiduciary duty to maximize estate value</p>
+<p><strong>Prevention:</strong> Market properly; wait for multiple offers if possible</p>
+<h3>Mistake #7: Depositing Proceeds in Personal Account</h3>
+<p><strong>Error:</strong> Putting sale proceeds in executor's personal bank account</p>
+<p><strong>Result:</strong> Commingling funds; breach of duty; accounting nightmare</p>
+<p><strong>Prevention:</strong> All proceeds into estate bank account only</p>
+<h2>Tax Considerations When Selling Probate Property</h2>
+<h3>Capital Gains Tax</h3>
+<p><strong>Step-up in basis:</strong> Property basis "steps up" to fair market value on date of death</p>
+<p><strong>Example:</strong></p>
+<ul>
+<li>Original purchase: $300,000 (1990)</li>
+<li>Value at death: $900,000 (2024)</li>
+<li>New basis: $900,000</li>
+<li>Sale price: $920,000</li>
+<li>Capital gain: Only $20,000</li>
+</ul>
+<p><strong>Tax rate:</strong> Long-term capital gains rate (held over 1 year)</p>
+<p><strong>Who pays:</strong> Estate (on estate tax return)</p>
+<h3>Property Taxes</h3>
+<p><strong>Reassessment:</strong> California Proposition 19 may trigger property tax reassessment</p>
+<p><strong>When:</strong> When property transfers to beneficiaries</p>
+<p><strong>Exception:</strong> Parent-child exclusion (limited as of February 2021)</p>
+<p><strong>Strategy:</strong> Consider this when timing sale</p>
+<h3>Estate Tax</h3>
+<p><strong>Federal estate tax:</strong> Only on estates over $13.61 million (2024)</p>
+<p><strong>California:</strong> No state estate tax</p>
+<p><strong>Most estates:</strong> No estate tax liability</p>
+<h2>Related Articles</h2>
+<p><strong>Essential guides for California probate:</strong></p>
+<ul>
+<li>
+<p><strong><a href="/blog/executor-duties-california/">California Executor Duties &#x26; Responsibilities</a></strong> - Complete checklist of your fiduciary duties including property sales.</p>
+</li>
+<li>
+<p><strong><a href="/blog/letters-testamentary-california/">Letters Testamentary California</a></strong> - Legal authority required before you can sell probate property.</p>
+</li>
+<li>
+<p><strong><a href="/blog/how-long-does-probate-take-california/">How Long Does Probate Take in California?</a></strong> - How property sales fit into the probate timeline.</p>
+</li>
+<li>
+<p><strong><a href="/blog/file-probate-los-angeles-county/">How to File Probate in Los Angeles County</a></strong> - Must complete this before selling estate property.</p>
+</li>
+<li>
+<p><strong><a href="/blog/how-much-does-probate-cost-california/">How Much Does Probate Cost in California?</a></strong> - Property sales affect estate costs and executor fees.</p>
+</li>
+</ul>
+<h2>Frequently Asked Questions</h2>
+<h3>Can I sell probate property without court approval in California?</h3>
+<p>Yes, if you have Independent Administration of Estates Act (IAEA) authority and the sale price is at least 90% of the professionally appraised value. Most experienced probate attorneys request IAEA authority in the initial Petition for Probate. With this authority, you can sell the property just like a regular home sale without court confirmation or an overbidding procedure. This is the preferred method because it's faster, less expensive, and provides more certainty to buyers.</p>
+<h3>How long does it take to sell a house in probate in California?</h3>
+<p>With IAEA authority, the sale timeline is similar to a regular home sale - typically 4-5 months from the date of death to close of escrow. Without IAEA authority, the court confirmation process adds 6-10 weeks, making the total timeline 6-7 months. The timeline includes obtaining Letters Testamentary (1-2 months), marketing the property (1-2 months), providing the required 15-day notice to beneficiaries, and completing the escrow process (30-45 days).</p>
+<h3>What is the overbidding procedure in California probate sales?</h3>
+<p>The overbidding procedure occurs when a probate sale requires court confirmation. At the confirmation hearing, other buyers can submit higher bids following specific minimum overbid requirements set by California Probate Code Section 10311. For example, on an $800,000 offer, the minimum overbid would be $841,000 ($3,500 plus 5% of the amount over $50,000). Subsequent bids must increase by at least $1,000 each. This public auction-style process can result in the original buyer being outbid, which is why many buyers prefer IAEA sales where overbidding is not possible.</p>
+<h3>Do I need a professional appraisal to sell probate property?</h3>
+<p>Yes, you need a professional appraisal from a licensed real estate appraiser (not just a real estate agent's opinion) to sell probate property in California. This is required by California Probate Code Section 10309. The appraisal determines whether your sale price meets the 90% threshold needed to avoid court confirmation when you have IAEA authority. You'll need both this professional appraisal (for the sale) and the probate referee appraisal (for the Inventory and Appraisal filed with the court). The professional appraisal typically costs $400-700 and should be obtained before accepting an offer.</p>
+<h3>Can I live in the probate property while selling it?</h3>
+<p>As executor, you cannot live in the probate property rent-free as this would be self-dealing and a breach of your fiduciary duty. If you need to live in the property temporarily during probate, you should pay fair market rent to the estate and document this arrangement carefully. Any personal use of estate property for your own benefit without proper compensation can result in personal liability, removal as executor, and beneficiary challenges. Always act in the estate's and beneficiaries' best interests, not your own.</p>
+<h2>Get Professional Help Selling Probate Property</h2>
+<p>Selling real estate during probate involves complex legal requirements, fiduciary duties, and procedures that vary based on your authority and situation. Professional guidance ensures the sale proceeds smoothly, you fulfill your duties properly, and you avoid personal liability.</p>
+<p><strong>Call (818) 291-6217</strong> to schedule a consultation at my Glendale office, or complete our <a href="/probate-intake-form.html">probate questionnaire</a> to get started.</p>
+<p>As a California probate attorney serving Los Angeles County, I guide executors through probate property sales, help you obtain IAEA authority to simplify the process, coordinate with real estate agents, prepare all required court documents, and protect you from liability while maximizing value for beneficiaries.</p>
+<hr>
+<p><strong>About the Author</strong></p>
+<p>Rozsa Gyene (State Bar No. 208356) is a California estate planning and probate attorney serving Glendale, Burbank, Pasadena, and throughout Los Angeles County. With extensive experience in probate real estate transactions, Rozsa helps executors navigate property sales efficiently while fulfilling their fiduciary duties.</p>
+<hr>
+<p><em>Disclaimer: This article provides general information about selling real estate in California probate and should not be construed as legal advice. Every situation is unique. California laws and procedures change regularly, and this article reflects laws in effect as of January 2025. Consult with a qualified California probate attorney about your specific circumstances.</em></p>
+a:T4ec,{"@context":"https://schema.org","@type":"Article","headline":"How to Sell a House in Probate in California | Complete Guide","description":"How to sell a house in California probate: court confirmation process, IAEA authority, step-by-step guide, and timelines. Expert advice from Glendale attorney.","image":"https://livingtrust-attorneys.com/images/blog/selling-probate-house.jpg","articleSection":"Probate","keywords":"probate real estate, selling house in probate, California probate, IAEA, court confirmation, probate property sale","wordCount":3388,"author":{"@type":"Person","name":"Rozsa Gyene","jobTitle":"Estate Planning Attorney","credentials":"California State Bar #208356","url":"https://livingtrust-attorneys.com/about.html"},"publisher":{"@type":"LegalService","name":"Law Offices of Rozsa Gyene","url":"https://livingtrust-attorneys.com","telephone":"818-291-6217","address":{"@type":"PostalAddress","streetAddress":"450 N Brand Blvd, Suite 600","addressLocality":"Glendale","addressRegion":"CA","postalCode":"91203"}},"datePublished":"2025-10-23","dateModified":"2025-12-24","mainEntityOfPage":{"@type":"WebPage","@id":"https://livingtrust-attorneys.com/blog/selling-house-probate-california"},"inLanguage":"en-US","isAccessibleForFree":true}b:Td40,{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Can I sell probate property without court approval in California?","acceptedAnswer":{"@type":"Answer","text":"Yes, if you have Independent Administration of Estates Act (IAEA) authority and the sale price is at least 90% of the professionally appraised value. Most experienced probate attorneys request IAEA authority in the initial Petition for Probate. With this authority, you can sell the property just like a regular home sale without court confirmation or an overbidding procedure. This is the preferred method because it's faster, less expensive, and provides more certainty to buyers."}},{"@type":"Question","name":"How long does it take to sell a house in probate in California?","acceptedAnswer":{"@type":"Answer","text":"With IAEA authority, the sale timeline is similar to a regular home sale - typically 4-5 months from the date of death to close of escrow. Without IAEA authority, the court confirmation process adds 6-10 weeks, making the total timeline 6-7 months. The timeline includes obtaining Letters Testamentary (1-2 months), marketing the property (1-2 months), providing the required 15-day notice to beneficiaries, and completing the escrow process (30-45 days)."}},{"@type":"Question","name":"What is the overbidding procedure in California probate sales?","acceptedAnswer":{"@type":"Answer","text":"The overbidding procedure occurs when a probate sale requires court confirmation. At the confirmation hearing, other buyers can submit higher bids following specific minimum overbid requirements set by California Probate Code Section 10311. For example, on an $800,000 offer, the minimum overbid would be $841,000 ($3,500 plus 5% of the amount over $50,000). Subsequent bids must increase by at least $1,000 each. This public auction-style process can result in the original buyer being outbid, which is why many buyers prefer IAEA sales where overbidding is not possible."}},{"@type":"Question","name":"Do I need a professional appraisal to sell probate property?","acceptedAnswer":{"@type":"Answer","text":"Yes, you need a professional appraisal from a licensed real estate appraiser (not just a real estate agent's opinion) to sell probate property in California. This is required by California Probate Code Section 10309. The appraisal determines whether your sale price meets the 90% threshold needed to avoid court confirmation when you have IAEA authority. You'll need both this professional appraisal (for the sale) and the probate referee appraisal (for the Inventory and Appraisal filed with the court). The professional appraisal typically costs $400-700 and should be obtained before accepting an offer."}},{"@type":"Question","name":"Can I live in the probate property while selling it?","acceptedAnswer":{"@type":"Answer","text":"As executor, you cannot live in the probate property rent-free as this would be self-dealing and a breach of your fiduciary duty. If you need to live in the property temporarily during probate, you should pay fair market rent to the estate and document this arrangement carefully. Any personal use of estate property for your own benefit without proper compensation can result in personal liability, removal as executor, and beneficiary challenges. Always act in the estate's and beneficiaries' best interests, not your own."}}]}2:["$","div",null,{"className":"min-h-screen","children":[["$","div",null,{"className":"bg-primary-blue/20 py-4 no-print","children":["$","div",null,{"className":"container-custom","children":["$","nav",null,{"aria-label":"Breadcrumb","className":"flex items-center gap-2 text-sm text-white/70","children":[["$","a",null,{"href":"/","className":"hover:text-white transition-colors","children":"Home"}],["$","span",null,{"children":"/"}],["$","a",null,{"href":"/blog","className":"hover:text-white transition-colors","children":"Blog"}],["$","span",null,{"children":"/"}],["$","span",null,{"className":"text-white","children":"Probate"}]]}]}]}],["$","section",null,{"className":"section-padding bg-gradient-to-b from-transparent to-primary-blue/20","children":["$","div",null,{"className":"container-custom","children":["$","div",null,{"className":"max-w-4xl mx-auto text-center","children":[["$","div",null,{"className":"mb-6","children":["$","span",null,{"className":"inline-block bg-accent-gold text-white px-4 py-2 rounded-full text-sm font-semibold","children":"Probate"}]}],["$","h1",null,{"className":"font-playfair text-4xl md:text-5xl lg:text-6xl text-white mb-6 text-shadow-lg leading-tight","children":"How to Sell a House in Probate in California | Complete Guide"}],["$","div",null,{"className":"flex flex-wrap items-center justify-center gap-6 text-white/80 mb-8","children":[["$","span",null,{"className":"flex items-center gap-2","children":[["$","svg",null,{"className":"w-5 h-5","fill":"currentColor","viewBox":"0 0 20 20","children":["$","path",null,{"fillRule":"evenodd","d":"M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z","clipRule":"evenodd"}]}],"Rozsa Gyene"]}],["$","span",null,{"className":"flex items-center gap-2","children":[["$","svg",null,{"className":"w-5 h-5","fill":"currentColor","viewBox":"0 0 20 20","children":["$","path",null,{"fillRule":"evenodd","d":"M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z","clipRule":"evenodd"}]}],"October 23, 2025"]}],["$","span",null,{"className":"flex items-center gap-2","children":[["$","svg",null,{"className":"w-5 h-5","fill":"currentColor","viewBox":"0 0 20 20","children":["$","path",null,{"fillRule":"evenodd","d":"M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z","clipRule":"evenodd"}]}],19," min read"]}]]}],null]}]}]}],["$","section",null,{"className":"section-padding","children":["$","div",null,{"className":"container-custom","children":[["$","div",null,{"className":"grid lg:grid-cols-[1fr_300px] gap-8 mb-12","children":[["$","div",null,{"children":[["$","div",null,{"className":"\n      glass-card\n      p-8\n      mb-8\n    ","children":["$","div",null,{"className":"prose-blog","dangerouslySetInnerHTML":{"__html":"$7"}}]}],["$","div",null,{"className":"mb-8","children":["$","div",null,{"className":"\n      glass-card\n      p-4\n      \n    ","children":["$","div",null,{"className":"flex flex-wrap items-center gap-3","children":[["$","span",null,{"className":"text-white/70 font-semibold","children":"Tags:"}],[["$","span","probate real estate",{"className":"bg-white/10 text-white px-3 py-1 rounded-full text-sm border border-white/20","children":["#","probate real estate"]}],["$","span","selling house in probate",{"className":"bg-white/10 text-white px-3 py-1 rounded-full text-sm border border-white/20","children":["#","selling house in probate"]}],["$","span","California probate",{"className":"bg-white/10 text-white px-3 py-1 rounded-full text-sm border border-white/20","children":["#","California probate"]}],["$","span","IAEA",{"className":"bg-white/10 text-white px-3 py-1 rounded-full text-sm border border-white/20","children":["#","IAEA"]}],["$","span","court confirmation",{"className":"bg-white/10 text-white px-3 py-1 rounded-full text-sm border border-white/20","children":["#","court confirmation"]}],["$","span","probate property sale",{"className":"bg-white/10 text-white px-3 py-1 rounded-full text-sm border border-white/20","children":["#","probate property sale"]}]]]}]}]}],["$","div",null,{"className":"mb-8","children":["$","$L8",null,{"title":"How to Sell a House in Probate in California | Complete Guide","slug":"selling-house-probate-california"}]}],["$","div",null,{"style":{"margin":"20px auto","padding":"15px 20px","background":"linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%)","borderLeft":"4px solid #8a6a2f","borderRadius":"8px","maxWidth":"800px"},"children":["$","p",null,{"style":{"margin":0,"fontSize":"14px","color":"#2c3e50","lineHeight":1.6},"children":[["$","strong",null,{"style":{"color":"#1e3a5f"},"children":"Written by Rozsa Gyene, Esq."}],["$","br",null,{}],"California State Bar #208356 | 25+ Years Probate & Estate Experience",["$","br",null,{}],["$","em",null,{"style":{"color":"#6c757d"},"children":"Last Updated: November 28, 2025"}]]}]}]]}],["$","aside",null,{"className":"no-print","children":["$","aside",null,{"className":"no-print","children":["$","div",null,{"className":"\n      glass-card\n      p-8\n      sticky top-24\n    ","children":["$","div",null,{"className":"text-center","children":[["$","div",null,{"className":"text-4xl mb-4","children":"⚖️"}],["$","h3",null,{"className":"font-playfair text-2xl text-white mb-3","children":"Need Legal Guidance?"}],["$","p",null,{"className":"text-white/90 mb-6 leading-relaxed","children":"Schedule a free consultation with Attorney Rozsa Gyene to discuss your estate planning needs."}],["$","a",null,{"href":"tel:8182916217","className":"block w-full bg-accent-gold text-white py-3 px-6 rounded-full font-semibold hover:bg-[#b8982f] transition-all mb-3","children":"📞 (818) 291-6217"}],["$","a",null,{"href":"https://portal.livingtrust-attorneys.com/book","className":"block w-full bg-white/10 text-white py-3 px-6 rounded-full font-semibold hover:bg-white/20 transition-all border border-white/30","target":"_blank","rel":"noopener noreferrer","children":"Book Consultation"}],["$","div",null,{"className":"mt-6 pt-6 border-t border-white/10","children":[["$","p",null,{"className":"text-white/70 text-sm mb-2","children":["$","strong",null,{"className":"text-white","children":"Office Location:"}]}],["$","p",null,{"className":"text-white/70 text-sm","children":["450 N Brand Blvd Ste 600",["$","br",null,{}],"Glendale, CA 91203"]}]]}],["$","div",null,{"className":"mt-4 pt-4 border-t border-white/10","children":["$","div",null,{"className":"flex items-center justify-center gap-2 text-accent-gold text-sm","children":[["$","svg",null,{"className":"w-5 h-5","fill":"currentColor","viewBox":"0 0 20 20","children":["$","path",null,{"fillRule":"evenodd","d":"M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z","clipRule":"evenodd"}]}],["$","span",null,{"className":"font-semibold","children":"25+ Years Experience"}]]}]}]]}]}]}]}]]}],["$","section",null,{"className":"mt-16","children":[["$","h2",null,{"className":"font-playfair text-3xl text-white mb-8 text-center","children":"Related Articles"}],["$","div",null,{"className":"grid md:grid-cols-3 gap-6","children":[["$","$L9","probate-real-estate-sales-california-2025",{"href":"/probate-real-estate-sales-california-2025","className":"block","children":["$","div",null,{"className":"\n      glass-card-hover\n      p-8\n      h-full flex flex-col\n    ","children":[["$","div",null,{"className":"mb-3","children":["$","span",null,{"className":"inline-block bg-accent-gold/20 text-accent-gold px-3 py-1 rounded-full text-xs font-semibold border border-accent-gold/30","children":"Probate"}]}],["$","h3",null,{"className":"font-playfair text-xl text-white mb-3 leading-tight flex-1","children":"Selling House in Probate California 2025: Complete Guide to Probate Real Estate Sales"}],["$","div",null,{"className":"flex items-center justify-between text-sm text-white/60 pt-3 border-t border-white/10","children":[["$","span",null,{"children":"Nov 15, 2025"}],["$","span",null,{"children":[9," min"]}]]}]]}]}],["$","$L9","can-executor-sell-property-without-beneficiaries-approval-california",{"href":"/can-executor-sell-property-without-beneficiaries-approval-california","className":"block","children":["$","div",null,{"className":"\n      glass-card-hover\n      p-8\n      h-full flex flex-col\n    ","children":[["$","div",null,{"className":"mb-3","children":["$","span",null,{"className":"inline-block bg-accent-gold/20 text-accent-gold px-3 py-1 rounded-full text-xs font-semibold border border-accent-gold/30","children":"Probate"}]}],["$","h3",null,{"className":"font-playfair text-xl text-white mb-3 leading-tight flex-1","children":"Can Executor Sell Property Without Beneficiaries Approval in California?"}],["$","div",null,{"className":"flex items-center justify-between text-sm text-white/60 pt-3 border-t border-white/10","children":[["$","span",null,{"children":"Oct 25, 2025"}],["$","span",null,{"children":[13," min"]}]]}]]}]}],["$","$L9","probate-real-estate-california",{"href":"/probate-real-estate-california","className":"block","children":["$","div",null,{"className":"\n      glass-card-hover\n      p-8\n      h-full flex flex-col\n    ","children":[["$","div",null,{"className":"mb-3","children":["$","span",null,{"className":"inline-block bg-accent-gold/20 text-accent-gold px-3 py-1 rounded-full text-xs font-semibold border border-accent-gold/30","children":"Probate"}]}],["$","h3",null,{"className":"font-playfair text-xl text-white mb-3 leading-tight flex-1","children":"Probate Real Estate California: Complete Guide to Handling Property"}],["$","div",null,{"className":"flex items-center justify-between text-sm text-white/60 pt-3 border-t border-white/10","children":[["$","span",null,{"children":"Oct 25, 2025"}],["$","span",null,{"children":[13," min"]}]]}]]}]}]]}]]}]]}]}],["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"$a"}}],["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"$b"}}]]}]
+6:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"How to Sell a House in Probate in California | Complete Guide | Law Offices of Rozsa Gyene"}],["$","meta","3",{"name":"description","content":"How to sell a house in California probate: court confirmation process, IAEA authority, step-by-step guide, and timelines. Expert advice from Glendale attorney."}],["$","meta","4",{"name":"author","content":"Rozsa Gyene"}],["$","meta","5",{"name":"keywords","content":"probate real estate,selling house in probate,California probate,IAEA,court confirmation,probate property sale,Probate,estate planning,Rozsa Gyene,Glendale attorney"}],["$","link","6",{"rel":"canonical","href":"https://livingtrust-attorneys.com/blog/selling-house-probate-california"}],["$","meta","7",{"property":"og:title","content":"How to Sell a House in Probate in California | Complete Guide"}],["$","meta","8",{"property":"og:description","content":"How to sell a house in California probate: court confirmation process, IAEA authority, step-by-step guide, and timelines. Expert advice from Glendale attorney."}],["$","meta","9",{"property":"og:type","content":"article"}],["$","meta","10",{"property":"article:published_time","content":"2025-10-23"}],["$","meta","11",{"property":"article:author","content":"Rozsa Gyene"}],["$","meta","12",{"property":"article:tag","content":"probate real estate"}],["$","meta","13",{"property":"article:tag","content":"selling house in probate"}],["$","meta","14",{"property":"article:tag","content":"California probate"}],["$","meta","15",{"property":"article:tag","content":"IAEA"}],["$","meta","16",{"property":"article:tag","content":"court confirmation"}],["$","meta","17",{"property":"article:tag","content":"probate property sale"}],["$","meta","18",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","19",{"name":"twitter:title","content":"Estate Planning & Trust Law Blog"}],["$","meta","20",{"name":"twitter:description","content":"Expert legal insights from Rozsa Gyene"}],["$","meta","21",{"name":"next-size-adjust"}]]
+1:null

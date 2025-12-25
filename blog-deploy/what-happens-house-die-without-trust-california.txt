@@ -1,0 +1,469 @@
+3:I[4707,[],""]
+5:I[6423,[],""]
+4:["slug","what-happens-house-die-without-trust-california","d"]
+0:["XNl8EPT-Q30wSTcV-gnhM",[[["",{"children":[["slug","what-happens-house-die-without-trust-california","d"],{"children":["__PAGE__?{\"slug\":\"what-happens-house-die-without-trust-california\"}",{}]}]},"$undefined","$undefined",true],["",{"children":[["slug","what-happens-house-die-without-trust-california","d"],{"children":["__PAGE__",{},[["$L1","$L2",null],null],null]},[null,["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","$4","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]],null]},[[[["$","link","0",{"rel":"stylesheet","href":"/blog/_next/static/css/76af30a148da119e.css","precedence":"next","crossOrigin":"$undefined"}]],["$","html",null,{"lang":"en","className":"__variable_fbaf84 __variable_774662","children":[["$","head",null,{"children":[["$","link",null,{"rel":"icon","href":"/favicon.ico"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}]]}],["$","body",null,{"className":"bg-gradient-blue min-h-screen","children":[["$","div",null,{"className":"bg-primary-blue text-white py-2.5 text-sm","children":["$","div",null,{"className":"container-custom flex justify-between items-center","children":[["$","div",null,{"className":"flex items-center gap-6","children":["$","span",null,{"children":"Over 25 Years Serving Los Angeles County"}]}],["$","a",null,{"href":"tel:8182916217","className":"text-accent-gold font-semibold hover:underline","children":"(818) 291-6217"}]]}]}],["$","nav",null,{"className":"bg-transparent py-5","children":["$","div",null,{"className":"container-custom flex justify-between items-center","children":[["$","a",null,{"href":"https://livingtrust-attorneys.com","className":"flex items-center gap-3 text-white no-print","children":["$","div",null,{"className":"flex flex-col","children":[["$","span",null,{"className":"font-playfair text-xl font-bold text-shadow-md","children":"Law Offices of Rozsa Gyene"}],["$","span",null,{"className":"text-sm text-accent-gold","children":"Estate Planning & Trust Law Blog"}]]}]}],["$","div",null,{"className":"flex items-center gap-4 no-print","children":[["$","a",null,{"href":"https://livingtrust-attorneys.com","className":"text-white hover:text-accent-gold transition-colors font-medium","children":"Home"}],["$","a",null,{"href":"/","className":"text-accent-gold font-semibold","children":"Blog"}],["$","a",null,{"href":"https://portal.livingtrust-attorneys.com/book","className":"btn-primary text-base py-3 px-6","target":"_blank","rel":"noopener noreferrer","children":"Free Consultation"}]]}]]}]}],["$","main",null,{"className":"min-h-screen","children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[]}]}],["$","footer",null,{"className":"bg-primary-blue text-white mt-20 no-print","children":["$","div",null,{"className":"container-custom py-12","children":[["$","div",null,{"className":"grid md:grid-cols-3 gap-8","children":[["$","div",null,{"children":[["$","h3",null,{"className":"font-playfair text-2xl mb-4","children":"Law Offices of Rozsa Gyene"}],["$","p",null,{"className":"text-white/80 mb-4","children":"Over 25 years of experience serving Los Angeles County families with comprehensive estate planning and trust services."}]]}],["$","div",null,{"children":[["$","h4",null,{"className":"font-semibold text-lg mb-4 text-accent-gold","children":"Contact"}],["$","div",null,{"className":"space-y-2 text-white/80","children":[["$","p",null,{"children":"450 N Brand Blvd Ste 600"}],["$","p",null,{"children":"Glendale, CA 91203"}],["$","p",null,{"className":"mt-4","children":["$","a",null,{"href":"tel:8182916217","className":"text-accent-gold hover:underline","children":"(818) 291-6217"}]}]]}]]}],["$","div",null,{"children":[["$","h4",null,{"className":"font-semibold text-lg mb-4 text-accent-gold","children":"Practice Areas"}],["$","ul",null,{"className":"space-y-2 text-white/80","children":[["$","li",null,{"children":["$","a",null,{"href":"https://livingtrust-attorneys.com/living-trusts.html","className":"hover:text-accent-gold transition-colors","children":"Living Trusts"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://livingtrust-attorneys.com/probate.html","className":"hover:text-accent-gold transition-colors","children":"Probate"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://livingtrust-attorneys.com/trust-administration.html","className":"hover:text-accent-gold transition-colors","children":"Trust Administration"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://livingtrust-attorneys.com/conservatorship.html","className":"hover:text-accent-gold transition-colors","children":"Conservatorship"}]}]]}]]}]]}],["$","div",null,{"className":"border-t border-white/10 mt-8 pt-8 text-center text-white/70 text-sm","children":["$","p",null,{"children":["© ",2025," Law Offices of Rozsa Gyene. All rights reserved."]}]}]]}]}]]}]]}]],null],null],["$L6",null]]]]
+8:I[2578,["972","static/chunks/972-6296c3e7f99d3665.js","42","static/chunks/app/%5Bslug%5D/page-27e08b5d2052b651.js"],"default"]
+9:I[2972,["972","static/chunks/972-6296c3e7f99d3665.js","42","static/chunks/app/%5Bslug%5D/page-27e08b5d2052b651.js"],""]
+7:T659c,<p>The phone call always starts the same way: "My mother just passed away. She owned a house in California but didn't have a trust. What happens now?"</p>
+<p>As a Glendale probate attorney who guides families through this situation regularly, I can tell you exactly what happens—and it's not what most people expect. The process is longer, more expensive, more complicated, and more public than almost anyone imagines.</p>
+<p>In this comprehensive guide, I'll walk you through precisely what happens to your house when you die without a living trust in California, including the probate process, intestate succession laws, actual timelines, real costs, and case studies of families I've helped navigate this difficult situation.</p>
+<h2>The Short Answer: Your House Goes Through Probate</h2>
+<p>When you die owning California real estate without a living trust, your house must go through probate court—a public, court-supervised process that typically takes 12-18 months and costs $40,000+ for a home worth $850,000.</p>
+<p><strong>What this means for your family:</strong></p>
+<ul>
+<li>They can't access the house immediately</li>
+<li>They can't sell it without court permission</li>
+<li>They must pay ongoing expenses (mortgage, property tax, insurance, maintenance)</li>
+<li>Everything becomes public record</li>
+<li>The process costs tens of thousands of dollars</li>
+<li>Beneficiaries wait 12-18 months or longer before inheriting</li>
+</ul>
+<p>But the details matter enormously. Let's break down exactly what happens, step by step.</p>
+<h2>Step 1: The Immediate Aftermath—What Happens to Your House Right After You Die?</h2>
+<h3>Who Has Access?</h3>
+<p>In the immediate days and weeks after your death, your house enters a legal limbo:</p>
+<p><strong>Without a trust:</strong></p>
+<ul>
+<li>No one automatically has legal authority over the property</li>
+<li>Family members may access the house but have no legal right to sell, rent, or transfer it</li>
+<li>If someone lives there, they may continue living there temporarily</li>
+<li>All financial obligations continue (mortgage, taxes, insurance, utilities)</li>
+</ul>
+<p><strong>With a trust:</strong></p>
+<ul>
+<li>Your successor trustee immediately has full legal authority</li>
+<li>Can access, manage, sell, or transfer the property</li>
+<li>No court permission needed</li>
+<li>Can be completed in weeks instead of months</li>
+</ul>
+<h3>Ongoing Financial Obligations</h3>
+<p>Your death doesn't pause your house's expenses:</p>
+<p><strong>Expenses that continue:</strong></p>
+<ul>
+<li>Mortgage payments (if not paid, bank can foreclose)</li>
+<li>Property taxes (become a lien on the property)</li>
+<li>Homeowners insurance (if cancelled, property is at risk)</li>
+<li>HOA fees (unpaid fees become liens)</li>
+<li>Utilities (needed to maintain property)</li>
+<li>Maintenance and repairs</li>
+</ul>
+<p><strong>The problem:</strong> Without legal authority, family members may struggle to access your bank accounts to pay these expenses. They're often forced to pay out-of-pocket, hoping to be reimbursed later from the estate.</p>
+<p><strong>Case example:</strong> A <a href="/locations/burbank.html">Burbank</a> family came to me three months after their father died. He had no trust, and they couldn't access his bank accounts. They'd already paid $8,500 out-of-pocket for mortgage payments, taxes, and maintenance. It took another four months before the court appointed an administrator who could reimburse them.</p>
+<h2>Step 2: Determining Who Inherits—California Intestate Succession Laws</h2>
+<p>If you die without a trust (or a will), California's intestate succession laws determine who inherits your house. Most people are shocked to learn who actually inherits under these laws.</p>
+<h3>If You're Married or in a Registered Domestic Partnership</h3>
+<p><strong>Community Property:</strong>
+If your house is community property (bought during marriage with marital funds):</p>
+<ul>
+<li><strong>If you have children with your spouse:</strong> Spouse inherits 100%</li>
+<li><strong>If you have children from a previous relationship:</strong> Spouse inherits 50%, your children inherit 50%</li>
+</ul>
+<p><strong>Separate Property:</strong>
+If your house is separate property (owned before marriage, inherited, or gifted to you alone):</p>
+<ul>
+<li><strong>If you have no children, parents, siblings, or other relatives:</strong> Spouse inherits 100%</li>
+<li><strong>If you have one child:</strong> Spouse inherits 50%, child inherits 50%</li>
+<li><strong>If you have two or more children:</strong> Spouse inherits 33.33%, children split 66.67%</li>
+<li><strong>If you have no children but have parents:</strong> Spouse inherits 50%, parents inherit 50%</li>
+<li><strong>If you have no children or parents but have siblings:</strong> Spouse inherits 50%, siblings split 50%</li>
+</ul>
+<p><strong>Shocking reality:</strong> Most married people assume their spouse automatically inherits everything. That's only true in some circumstances. In many cases, your spouse must share the house with your children or parents.</p>
+<p><strong>Real case:</strong> A <a href="/locations/pasadena.html">Pasadena</a> widow was devastated to learn she inherited only half of the family home. Her husband's two adult children from his first marriage inherited the other half. The children wanted to sell immediately; she wanted to stay in the home where she'd lived for 15 years. The resulting dispute cost the family $45,000 in legal fees and destroyed family relationships.</p>
+<h3>If You're Single, Divorced, or Widowed</h3>
+<p>Your house passes in this order:</p>
+<ol>
+<li><strong>Your children</strong> (split equally)</li>
+<li><strong>Your parents</strong> (if no children)</li>
+<li><strong>Your siblings</strong> (if no children or parents)</li>
+<li><strong>Your grandparents</strong> (if no children, parents, or siblings)</li>
+<li><strong>Your aunts/uncles and their descendants</strong></li>
+<li><strong>Your spouse's next of kin</strong> (if previously married)</li>
+<li><strong>The State of California</strong> (if no relatives found)</li>
+</ol>
+<p><strong>Important:</strong> Children include legally adopted children but generally not stepchildren unless legally adopted.</p>
+<p><strong>Case example:</strong> A single Glendale man died without a trust or will, leaving a $725,000 condo. He had no children and his parents were deceased. He had three siblings—but he hadn't spoken to two of them in over a decade. All three siblings inherited equal shares. The two estranged siblings immediately demanded the property be sold. The process was painful for everyone involved.</p>
+<h3>Special Situations</h3>
+<p><strong>Unmarried Partners:</strong>
+California does not recognize common-law marriage. If you're unmarried (even if you've lived together for decades), your partner inherits nothing under intestate succession. The house goes to your children, parents, or other blood relatives.</p>
+<p><strong>Stepchildren:</strong>
+Stepchildren you never legally adopted inherit nothing, even if you raised them as your own.</p>
+<p><strong>Half-Siblings:</strong>
+Half-siblings (sharing one parent) have the same inheritance rights as full siblings.</p>
+<h2>Step 3: The California Probate Process for Real Estate</h2>
+<p>Now let's walk through what actually happens during probate—the court process your house must go through.</p>
+<h3>Month 1-2: Filing the Petition</h3>
+<p><strong>What happens:</strong></p>
+<ul>
+<li>Someone (usually a family member) hires a probate attorney</li>
+<li>Attorney prepares and files a "Petition for Probate"</li>
+<li>Court sets a hearing date (typically 6-8 weeks out)</li>
+<li>Legal notices must be published in a local newspaper</li>
+<li>Notice must be mailed to all heirs and beneficiaries</li>
+</ul>
+<p><strong>Costs so far:</strong></p>
+<ul>
+<li>Attorney retainer: $5,000-$10,000</li>
+<li>Court filing fees: $435-$500</li>
+<li>Publication costs: $300-$600</li>
+<li><strong>Total: $5,735-$11,100</strong></li>
+</ul>
+<p><strong>Timeline: 4-8 weeks</strong></p>
+<h3>Month 3-4: Initial Hearing and Appointment</h3>
+<p><strong>What happens:</strong></p>
+<ul>
+<li>Court hearing to appoint executor/administrator</li>
+<li>Judge reviews the petition</li>
+<li>Anyone can object (creditors, disinherited relatives, etc.)</li>
+<li>If approved, executor receives "Letters Testamentary" (legal authority)</li>
+<li>Executor posts bond (insurance policy protecting the estate)</li>
+</ul>
+<p><strong>Additional costs:</strong></p>
+<ul>
+<li>Bond premium: $500-$3,000 (based on estate value)</li>
+</ul>
+<p><strong>Timeline: 8-12 weeks total</strong></p>
+<p><strong>Important:</strong> Until this hearing, no one has legal authority to act on behalf of the estate. The house sits in limbo for 3-4 months.</p>
+<h3>Month 4-6: Notice to Creditors</h3>
+<p><strong>What happens:</strong></p>
+<ul>
+<li>Executor formally notifies all known creditors</li>
+<li>Publishes notice for unknown creditors</li>
+<li>Creditors have 4 months to file claims</li>
+<li>This period cannot be shortened</li>
+</ul>
+<p><strong>Why this matters for real estate:</strong>
+Any creditor claims, tax liens, or judgments against you become claims against the estate. The house can't be distributed until all valid claims are resolved.</p>
+<p><strong>Real example:</strong> A Glendale estate included a $895,000 house. The family didn't know the deceased had $45,000 in credit card debt and owed $12,000 in back taxes. These had to be paid from the estate before any distributions could be made.</p>
+<p><strong>Timeline: 16-24 weeks total</strong></p>
+<h3>Month 6-9: Inventory and Appraisal</h3>
+<p><strong>What happens:</strong></p>
+<ul>
+<li>Professional appraisal of the house required</li>
+<li>Complete inventory of all estate assets</li>
+<li>Inventory filed with the court</li>
+<li>Court-appointed probate referee reviews and confirms values</li>
+</ul>
+<p><strong>Costs:</strong></p>
+<ul>
+<li>Appraisal: $500-$1,000</li>
+<li>Probate referee fee: 0.1% of asset value (minimum $75)</li>
+</ul>
+<p><strong>For $850,000 house:</strong></p>
+<ul>
+<li>Appraisal: $600</li>
+<li>Referee fee: $850</li>
+<li><strong>Total: $1,450</strong></li>
+</ul>
+<p><strong>Timeline: 24-36 weeks total</strong></p>
+<h3>Month 9-12: Creditor Claims and Tax Returns</h3>
+<p><strong>What happens:</strong></p>
+<ul>
+<li>Review and pay (or contest) creditor claims</li>
+<li>File final income tax return for deceased</li>
+<li>File estate tax return if required</li>
+<li>Resolve any tax liabilities</li>
+</ul>
+<p><strong>Costs:</strong></p>
+<ul>
+<li>Accountant fees: $1,000-$5,000</li>
+<li>Additional attorney time for contested claims</li>
+</ul>
+<p><strong>Timeline: 36-48 weeks total</strong></p>
+<h3>Month 12-15: Petition for Final Distribution</h3>
+<p><strong>What happens:</strong></p>
+<ul>
+<li>Executor prepares final accounting of all estate transactions</li>
+<li>Files petition requesting court approval to distribute assets</li>
+<li>Notice to all beneficiaries</li>
+<li>Court sets hearing date</li>
+</ul>
+<p><strong>This petition must show:</strong></p>
+<ul>
+<li>All assets collected</li>
+<li>All bills and taxes paid</li>
+<li>All creditor claims resolved</li>
+<li>Proposed distribution to beneficiaries</li>
+<li>Request for executor and attorney fees</li>
+</ul>
+<p><strong>Timeline: 48-60 weeks total</strong></p>
+<h3>Month 15-18: Final Hearing and Distribution</h3>
+<p><strong>What happens:</strong></p>
+<ul>
+<li>Court hearing on final petition</li>
+<li>Beneficiaries can object to accounting or fees</li>
+<li>If approved, court issues order for distribution</li>
+<li>Property can finally be transferred to heirs</li>
+<li>Executor distributes assets</li>
+<li>Case closed</li>
+</ul>
+<p><strong>Final costs calculated and paid:</strong></p>
+<ul>
+<li>Statutory attorney fees</li>
+<li>Statutory executor fees</li>
+<li>All other costs</li>
+</ul>
+<p><strong>Timeline: 60-72 weeks total (12-18 months)</strong></p>
+<h2>The True Cost: What Your Family Actually Pays</h2>
+<p>Let's break down the actual costs using a typical California home.</p>
+<h3>Example: $850,000 House in Glendale</h3>
+<p><strong>Statutory Fees (Based on Gross Value):</strong></p>
+<p><strong>Attorney Fees:</strong></p>
+<ul>
+<li>4% of first $100,000 = $4,000</li>
+<li>3% of next $100,000 = $3,000</li>
+<li>2% of next $800,000 = $16,000</li>
+<li><strong>Total attorney fees: $19,000</strong></li>
+</ul>
+<p><strong>Executor Fees (Same calculation):</strong></p>
+<ul>
+<li><strong>Total executor fees: $19,000</strong></li>
+</ul>
+<p><strong>Other Costs:</strong></p>
+<ul>
+<li>Court filing fees: $500</li>
+<li>Publication costs: $400</li>
+<li>Appraisal: $600</li>
+<li>Probate referee: $850</li>
+<li>Bond premium: $1,500</li>
+<li>Accounting fees: $2,000</li>
+<li>Recording fees: $300</li>
+<li><strong>Subtotal other costs: $6,150</strong></li>
+</ul>
+<p><strong>TOTAL PROBATE COST: $44,150</strong></p>
+<p><strong>Important notes:</strong></p>
+<ul>
+<li>This is for a straightforward case with no disputes</li>
+<li>Attorney and executor fees are MINIMUM statutory amounts</li>
+<li>Additional attorney time (court hearings, complications) adds to costs</li>
+<li>If family members contest anything, costs skyrocket</li>
+</ul>
+<p><strong>Timeline: 12-18 months minimum</strong></p>
+<h3>Cost Comparison: With vs. Without a Trust</h3>
+<p><strong>Without Trust (Probate):</strong></p>
+<ul>
+<li>Total cost: $44,150</li>
+<li>Timeline: 12-18 months</li>
+<li>Privacy: Public record</li>
+<li>Family control: Minimal (court supervised)</li>
+</ul>
+<p><strong>With Trust:</strong></p>
+<ul>
+<li>Trust creation: $575-$675 (our pricing)</li>
+<li>Trust administration: $3,000-$5,000</li>
+<li>Total cost: $3,575-$5,675</li>
+<li>Timeline: 4-8 weeks</li>
+<li>Privacy: Complete</li>
+<li>Family control: Total (per your instructions)</li>
+</ul>
+<p><strong>Savings with trust: $38,000-$40,000 and 10-16 months</strong></p>
+<h2>What Happens If Family Members Disagree?</h2>
+<p>Probate becomes dramatically more expensive and time-consuming when family members fight. Common disputes include:</p>
+<h3>Disputes Over Inheritance Rights</h3>
+<p><strong>Example:</strong> Surviving spouse vs. children from first marriage arguing over who gets what share.</p>
+<p><strong>What happens:</strong></p>
+<ul>
+<li>Each side hires separate attorneys</li>
+<li>Multiple court hearings</li>
+<li>Potential trial</li>
+<li>Additional legal fees: $20,000-$100,000+</li>
+<li>Timeline: 2-3+ years</li>
+</ul>
+<h3>Disputes Over Whether to Sell</h3>
+<p><strong>Example:</strong> One heir wants to keep the house, others want to sell and split proceeds.</p>
+<p><strong>What happens:</strong></p>
+<ul>
+<li>Court petition for permission to sell</li>
+<li>Appraisals and market analysis</li>
+<li>Possible partition action</li>
+<li>Additional fees: $10,000-$30,000</li>
+<li>Timeline: Additional 6-12 months</li>
+</ul>
+<h3>Disputes Over Executor Actions</h3>
+<p><strong>Example:</strong> Heirs believe executor is mismanaging the property or taking excessive fees.</p>
+<p><strong>What happens:</strong></p>
+<ul>
+<li>Petition to remove executor</li>
+<li>Formal accounting demanded</li>
+<li>Possible surcharge action</li>
+<li>Additional fees: $15,000-$50,000+</li>
+<li>Timeline: Additional 6-18 months</li>
+</ul>
+<p><strong>Real case:</strong> A family came to me two years into a probate that should have taken 12 months. Three siblings were fighting over their mother's $1.2 million home. One wanted to keep it, two wanted to sell. The resulting litigation cost over $125,000 in combined legal fees—money that came out of the estate before anyone inherited anything.</p>
+<h2>Special Situations: Complications That Make Things Worse</h2>
+<h3>The House Has a Mortgage</h3>
+<p><strong>The problem:</strong></p>
+<ul>
+<li>Mortgage payments must continue during probate</li>
+<li>If payments stop, bank can foreclose</li>
+<li>Executor may not have access to estate funds for months</li>
+<li>Heirs often must pay out-of-pocket</li>
+</ul>
+<p><strong>What happens:</strong>
+Some lenders have "due on death" clauses allowing them to demand full payment when the owner dies. While federal law provides some protections for family members inheriting the property, it's still complicated.</p>
+<h3>The House Is Upside Down (Worth Less Than Mortgage)</h3>
+<p><strong>The problem:</strong>
+If the house is worth less than what's owed, heirs may not want it. But simply abandoning it isn't straightforward.</p>
+<p><strong>What happens:</strong></p>
+<ul>
+<li>Property may need to go through foreclosure</li>
+<li>Probate still required to handle other estate matters</li>
+<li>Potential tax consequences</li>
+</ul>
+<h3>Someone Is Living in the House</h3>
+<p><strong>Common situations:</strong></p>
+<ul>
+<li>Adult child lived with parent</li>
+<li>Unmarried partner resided there</li>
+<li>Tenant with lease</li>
+</ul>
+<p><strong>The problem:</strong></p>
+<ul>
+<li>They may have rights to continue living there</li>
+<li>Can complicate selling the property</li>
+<li>May require eviction proceedings</li>
+<li>Delays distribution to other heirs</li>
+</ul>
+<p><strong>Real case:</strong> A son had lived with his mother in her Burbank home for 15 years. When she died, her will left the house equally to all three of her children. The other two siblings wanted to sell immediately. The son refused to leave. The resulting dispute took 2.5 years to resolve and cost $68,000 in legal fees.</p>
+<h3>The House Is a Rental Property</h3>
+<p><strong>Additional complications:</strong></p>
+<ul>
+<li>Tenants' rights must be honored</li>
+<li>Rent collection during probate</li>
+<li>Maintenance and repairs</li>
+<li>Landlord obligations continue</li>
+<li>Potential liability issues</li>
+</ul>
+<h3>There Are Multiple Properties</h3>
+<p><strong>The problem:</strong>
+Each property must go through probate. If properties are in different California counties, separate probate proceedings may be required in each county.</p>
+<p><strong>If properties are in different states:</strong></p>
+<ul>
+<li>Separate probate ("ancillary probate") required in each state</li>
+<li>Multiple attorneys in multiple states</li>
+<li>Coordinating between different state laws</li>
+<li>Costs multiplied</li>
+</ul>
+<h2>Real Family Stories: What Actually Happened</h2>
+<h3>Case Study 1: The Widow Who Lost Her Home</h3>
+<p><strong>The Situation:</strong>
+Thomas died suddenly at 68, owning a $1.1 million home in Pasadena. He had a will (not a trust) leaving "everything to my wife Nancy." He had two adult children from his first marriage.</p>
+<p><strong>What Actually Happened:</strong></p>
+<ul>
+<li>The house was Thomas's separate property (owned before marriage to Nancy)</li>
+<li>Under California intestate succession, Nancy inherited only 1/3</li>
+<li>Thomas's two children inherited 2/3</li>
+<li>Children wanted to sell immediately to access their inheritance</li>
+<li>Nancy wanted to stay in the home where she'd lived for 12 years</li>
+</ul>
+<p><strong>The Result:</strong></p>
+<ul>
+<li>18 months of probate</li>
+<li>14 months of family litigation</li>
+<li>Nancy was forced to buy out the children's shares or sell</li>
+<li>She couldn't afford the buyout</li>
+<li>House sold, Nancy had to move</li>
+<li>Total legal fees and costs: $87,000</li>
+<li>Family relationships destroyed</li>
+</ul>
+<p><strong>What a trust would have done:</strong>
+Could have given Nancy a life estate (right to live in the home for life) while preserving children's inheritance after Nancy's death. Everyone protected, no conflict.</p>
+<h3>Case Study 2: The Estranged Siblings</h3>
+<p><strong>The Situation:</strong>
+Patricia died at 71, single, no children, owning a $725,000 Glendale condo. She had no will or trust. Her three siblings inherited equally, but she hadn't spoken to two of them in over 10 years.</p>
+<p><strong>What Actually Happened:</strong></p>
+<ul>
+<li>All three siblings had equal rights</li>
+<li>Patricia's close sister wanted to buy the condo</li>
+<li>The two estranged siblings wanted maximum sale price</li>
+<li>Disagreement over listing price, realtor, timing</li>
+<li>Probate took 22 months</li>
+<li>Condo sat vacant, losing value</li>
+<li>Family paid $14,500 in carrying costs</li>
+<li>Legal fees: $52,000</li>
+</ul>
+<p><strong>The Result:</strong>
+Patricia's estate lost over $65,000 that could have gone to her chosen beneficiaries.</p>
+<p><strong>What a trust would have done:</strong>
+Patricia could have left the condo to her close sister or specified exactly how it should be sold and proceeds divided.</p>
+<h3>Case Study 3: The Rushed Sale</h3>
+<p><strong>The Situation:</strong>
+Michael died owning an $890,000 Burbank home. No trust. His three children needed to split the proceeds to settle the estate.</p>
+<p><strong>What Actually Happened:</strong></p>
+<ul>
+<li>Probate required 14 months</li>
+<li>Children needed money, couldn't wait</li>
+<li>Executor got court permission for "probate sale"</li>
+<li>Probate sales require court confirmation, making them less attractive to buyers</li>
+<li>Limited marketing period</li>
+<li>Sold for $825,000 (7% below market value)</li>
+<li>Lost value: $65,000</li>
+</ul>
+<p><strong>Total Cost:</strong></p>
+<ul>
+<li>Probate fees: $41,000</li>
+<li>Below-market sale: $65,000</li>
+<li><strong>Total loss: $106,000</strong></li>
+</ul>
+<p><strong>What a trust would have done:</strong>
+Successor trustee could have sold the property at optimal time for full market value, with no court involvement or delays.</p>
+<h2>Frequently Asked Questions</h2>
+<h3>What if my house is in joint tenancy with my spouse?</h3>
+<p>Joint tenancy helps when the first spouse dies (property passes to survivor automatically), but provides no protection when the second spouse dies. That's when probate happens unless there's a trust.</p>
+<h3>Can my family avoid probate by just transferring the deed themselves?</h3>
+<p>No. That would be illegal. Only the probate court (or a trust) can authorize transfer of a deceased person's property.</p>
+<h3>What if my house is worth less than $184,500?</h3>
+<p>California allows simplified "small estate" procedures for estates under $184,500. However, very few California homes fall below this threshold.</p>
+<h3>How long does the house sit empty during probate?</h3>
+<p>The house isn't necessarily empty, but it can't be sold or transferred for 12-18 months. Family members may live there or maintain it, but they have no legal ownership until probate concludes.</p>
+<h3>Can creditors take my house?</h3>
+<p>Creditors can file claims against the estate. If there aren't sufficient other assets to pay debts, the house may need to be sold to satisfy creditor claims.</p>
+<h3>What happens to my mortgage when I die?</h3>
+<p>The mortgage doesn't disappear. Either the estate/heirs must continue payments, or the property may be sold to pay off the mortgage.</p>
+<h3>Will my family owe estate taxes?</h3>
+<p>California has no state estate tax. Federal estate tax only applies to estates exceeding $13.61 million (2024). However, property taxes under Proposition 19 may increase when property transfers to heirs (with limited parent-child exemptions).</p>
+<h2>The Bottom Line: Prevention Is Dramatically Cheaper Than Cure</h2>
+<p>The stories and numbers speak for themselves:</p>
+<p><strong>Without a trust:</strong></p>
+<ul>
+<li>Cost: $40,000-$50,000+ for typical California home</li>
+<li>Timeline: 12-18 months minimum</li>
+<li>Family stress: Enormous</li>
+<li>Privacy: None (all public record)</li>
+<li>Control: Minimal (court-supervised)</li>
+<li>Outcome: Often not what you would have wanted</li>
+</ul>
+<p><strong>With a trust:</strong></p>
+<ul>
+<li>Cost: $575-$675 (our pricing) or $2,500-$3,500 (typical California pricing)</li>
+<li>Timeline: 4-8 weeks</li>
+<li>Family stress: Minimal</li>
+<li>Privacy: Complete</li>
+<li>Control: Total (exactly per your wishes)</li>
+<li>Outcome: Exactly what you planned</li>
+</ul>
+<p><strong>The difference: $35,000-$45,000+ and 10-16 months of stress</strong></p>
+<h2>Take Action Now to Protect Your Home and Family</h2>
+<p>Every day you delay creating a living trust is another day your family remains vulnerable to this expensive, time-consuming process.</p>
+<p>You've worked hard to build equity in your home. Don't let the state take $40,000+ of that equity in probate fees when affordable planning can protect your family completely.</p>
+<p><strong>Schedule your free consultation today.</strong> During this no-obligation meeting, we'll:</p>
+<ul>
+<li>Review your property ownership and family situation</li>
+<li>Explain exactly how probate would affect your estate</li>
+<li>Show you how a living trust provides complete protection</li>
+<li>Provide transparent, upfront pricing</li>
+<li>Answer all your questions</li>
+<li>Get you started if you're ready to protect your family</li>
+</ul>
+<p><strong>Call (818) 291-6217</strong> or visit our <a href="/estate-planning-questionnaire.html">estate planning questionnaire</a> to schedule your consultation.</p>
+<p>Don't leave your family facing 18 months of probate and $40,000 in fees. Protect them now with proper planning.</p>
+<hr>
+<p><strong>About the Author</strong></p>
+<p>Rozsa Gyene (State Bar No. 208356) is a California estate planning and probate attorney serving Glendale, Burbank, Pasadena, and throughout Los Angeles County. With extensive experience both creating estate plans and guiding families through probate when proper planning wasn't in place, Rozsa provides clients with real-world understanding of what's at stake and how to protect their families.</p>
+<p><strong>Office Location:</strong>
+Glendale, California
+<strong>Phone:</strong> (818) 291-6217</p>
+<hr>
+<p><em>Disclaimer: This article provides general information about California probate and intestate succession and should not be construed as legal advice. Every family's situation is unique. California laws change regularly, and this article reflects laws in effect as of November 2024. Consult with a qualified California estate planning attorney about your specific circumstances.</em></p>
+a:T510,{"@context":"https://schema.org","@type":"Article","headline":"What Happens to Your House When You Die Without a Trust in California?","description":"What happens to your house if you die without a trust in California? Probate costs $40K+, takes 18 months. Glendale attorney explains intestate succession. Free consultation.","image":"https://livingtrust-attorneys.com/images/blog/die-without-trust.jpg","articleSection":"Probate","keywords":"intestate succession, California probate, die without trust, estate planning, real estate probate, inheritance laws","wordCount":3123,"author":{"@type":"Person","name":"Rozsa Gyene","jobTitle":"Estate Planning Attorney","credentials":"California State Bar #208356","url":"https://livingtrust-attorneys.com/about.html"},"publisher":{"@type":"LegalService","name":"Law Offices of Rozsa Gyene","url":"https://livingtrust-attorneys.com","telephone":"818-291-6217","address":{"@type":"PostalAddress","streetAddress":"450 N Brand Blvd, Suite 600","addressLocality":"Glendale","addressRegion":"CA","postalCode":"91203"}},"datePublished":"2025-11-23","dateModified":"2025-12-24","mainEntityOfPage":{"@type":"WebPage","@id":"https://livingtrust-attorneys.com/blog/what-happens-house-die-without-trust-california"},"inLanguage":"en-US","isAccessibleForFree":true}b:T839,{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What if my house is in joint tenancy with my spouse?","acceptedAnswer":{"@type":"Answer","text":"Joint tenancy helps when the first spouse dies (property passes to survivor automatically), but provides no protection when the second spouse dies. That's when probate happens unless there's a trust."}},{"@type":"Question","name":"Can my family avoid probate by just transferring the deed themselves?","acceptedAnswer":{"@type":"Answer","text":"No. That would be illegal. Only the probate court (or a trust) can authorize transfer of a deceased person's property."}},{"@type":"Question","name":"What if my house is worth less than $184,500?","acceptedAnswer":{"@type":"Answer","text":"California allows simplified \"small estate\" procedures for estates under $184,500. However, very few California homes fall below this threshold."}},{"@type":"Question","name":"How long does the house sit empty during probate?","acceptedAnswer":{"@type":"Answer","text":"The house isn't necessarily empty, but it can't be sold or transferred for 12-18 months. Family members may live there or maintain it, but they have no legal ownership until probate concludes."}},{"@type":"Question","name":"Can creditors take my house?","acceptedAnswer":{"@type":"Answer","text":"Creditors can file claims against the estate. If there aren't sufficient other assets to pay debts, the house may need to be sold to satisfy creditor claims."}},{"@type":"Question","name":"What happens to my mortgage when I die?","acceptedAnswer":{"@type":"Answer","text":"The mortgage doesn't disappear. Either the estate/heirs must continue payments, or the property may be sold to pay off the mortgage."}},{"@type":"Question","name":"Will my family owe estate taxes?","acceptedAnswer":{"@type":"Answer","text":"California has no state estate tax. Federal estate tax only applies to estates exceeding $13.61 million (2024). However, property taxes under Proposition 19 may increase when property transfers to heirs (with limited parent-child exemptions)."}}]}2:["$","div",null,{"className":"min-h-screen","children":[["$","div",null,{"className":"bg-primary-blue/20 py-4 no-print","children":["$","div",null,{"className":"container-custom","children":["$","nav",null,{"aria-label":"Breadcrumb","className":"flex items-center gap-2 text-sm text-white/70","children":[["$","a",null,{"href":"/","className":"hover:text-white transition-colors","children":"Home"}],["$","span",null,{"children":"/"}],["$","a",null,{"href":"/blog","className":"hover:text-white transition-colors","children":"Blog"}],["$","span",null,{"children":"/"}],["$","span",null,{"className":"text-white","children":"Probate"}]]}]}]}],["$","section",null,{"className":"section-padding bg-gradient-to-b from-transparent to-primary-blue/20","children":["$","div",null,{"className":"container-custom","children":["$","div",null,{"className":"max-w-4xl mx-auto text-center","children":[["$","div",null,{"className":"mb-6","children":["$","span",null,{"className":"inline-block bg-accent-gold text-white px-4 py-2 rounded-full text-sm font-semibold","children":"Probate"}]}],["$","h1",null,{"className":"font-playfair text-4xl md:text-5xl lg:text-6xl text-white mb-6 text-shadow-lg leading-tight","children":"What Happens to Your House When You Die Without a Trust in California?"}],["$","div",null,{"className":"flex flex-wrap items-center justify-center gap-6 text-white/80 mb-8","children":[["$","span",null,{"className":"flex items-center gap-2","children":[["$","svg",null,{"className":"w-5 h-5","fill":"currentColor","viewBox":"0 0 20 20","children":["$","path",null,{"fillRule":"evenodd","d":"M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z","clipRule":"evenodd"}]}],"Rozsa Gyene"]}],["$","span",null,{"className":"flex items-center gap-2","children":[["$","svg",null,{"className":"w-5 h-5","fill":"currentColor","viewBox":"0 0 20 20","children":["$","path",null,{"fillRule":"evenodd","d":"M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z","clipRule":"evenodd"}]}],"November 23, 2025"]}],["$","span",null,{"className":"flex items-center gap-2","children":[["$","svg",null,{"className":"w-5 h-5","fill":"currentColor","viewBox":"0 0 20 20","children":["$","path",null,{"fillRule":"evenodd","d":"M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z","clipRule":"evenodd"}]}],17," min read"]}]]}],null]}]}]}],["$","section",null,{"className":"section-padding","children":["$","div",null,{"className":"container-custom","children":[["$","div",null,{"className":"grid lg:grid-cols-[1fr_300px] gap-8 mb-12","children":[["$","div",null,{"children":[["$","div",null,{"className":"\n      glass-card\n      p-8\n      mb-8\n    ","children":["$","div",null,{"className":"prose-blog","dangerouslySetInnerHTML":{"__html":"$7"}}]}],["$","div",null,{"className":"mb-8","children":["$","div",null,{"className":"\n      glass-card\n      p-4\n      \n    ","children":["$","div",null,{"className":"flex flex-wrap items-center gap-3","children":[["$","span",null,{"className":"text-white/70 font-semibold","children":"Tags:"}],[["$","span","intestate succession",{"className":"bg-white/10 text-white px-3 py-1 rounded-full text-sm border border-white/20","children":["#","intestate succession"]}],["$","span","California probate",{"className":"bg-white/10 text-white px-3 py-1 rounded-full text-sm border border-white/20","children":["#","California probate"]}],["$","span","die without trust",{"className":"bg-white/10 text-white px-3 py-1 rounded-full text-sm border border-white/20","children":["#","die without trust"]}],["$","span","estate planning",{"className":"bg-white/10 text-white px-3 py-1 rounded-full text-sm border border-white/20","children":["#","estate planning"]}],["$","span","real estate probate",{"className":"bg-white/10 text-white px-3 py-1 rounded-full text-sm border border-white/20","children":["#","real estate probate"]}],["$","span","inheritance laws",{"className":"bg-white/10 text-white px-3 py-1 rounded-full text-sm border border-white/20","children":["#","inheritance laws"]}]]]}]}]}],["$","div",null,{"className":"mb-8","children":["$","$L8",null,{"title":"What Happens to Your House When You Die Without a Trust in California?","slug":"what-happens-house-die-without-trust-california"}]}],["$","div",null,{"style":{"margin":"20px auto","padding":"15px 20px","background":"linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%)","borderLeft":"4px solid #8a6a2f","borderRadius":"8px","maxWidth":"800px"},"children":["$","p",null,{"style":{"margin":0,"fontSize":"14px","color":"#2c3e50","lineHeight":1.6},"children":[["$","strong",null,{"style":{"color":"#1e3a5f"},"children":"Written by Rozsa Gyene, Esq."}],["$","br",null,{}],"California State Bar #208356 | 25+ Years Probate & Estate Experience",["$","br",null,{}],["$","em",null,{"style":{"color":"#6c757d"},"children":"Last Updated: November 28, 2025"}]]}]}]]}],["$","aside",null,{"className":"no-print","children":["$","aside",null,{"className":"no-print","children":["$","div",null,{"className":"\n      glass-card\n      p-8\n      sticky top-24\n    ","children":["$","div",null,{"className":"text-center","children":[["$","div",null,{"className":"text-4xl mb-4","children":"⚖️"}],["$","h3",null,{"className":"font-playfair text-2xl text-white mb-3","children":"Need Legal Guidance?"}],["$","p",null,{"className":"text-white/90 mb-6 leading-relaxed","children":"Schedule a free consultation with Attorney Rozsa Gyene to discuss your estate planning needs."}],["$","a",null,{"href":"tel:8182916217","className":"block w-full bg-accent-gold text-white py-3 px-6 rounded-full font-semibold hover:bg-[#b8982f] transition-all mb-3","children":"📞 (818) 291-6217"}],["$","a",null,{"href":"https://portal.livingtrust-attorneys.com/book","className":"block w-full bg-white/10 text-white py-3 px-6 rounded-full font-semibold hover:bg-white/20 transition-all border border-white/30","target":"_blank","rel":"noopener noreferrer","children":"Book Consultation"}],["$","div",null,{"className":"mt-6 pt-6 border-t border-white/10","children":[["$","p",null,{"className":"text-white/70 text-sm mb-2","children":["$","strong",null,{"className":"text-white","children":"Office Location:"}]}],["$","p",null,{"className":"text-white/70 text-sm","children":["450 N Brand Blvd Ste 600",["$","br",null,{}],"Glendale, CA 91203"]}]]}],["$","div",null,{"className":"mt-4 pt-4 border-t border-white/10","children":["$","div",null,{"className":"flex items-center justify-center gap-2 text-accent-gold text-sm","children":[["$","svg",null,{"className":"w-5 h-5","fill":"currentColor","viewBox":"0 0 20 20","children":["$","path",null,{"fillRule":"evenodd","d":"M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z","clipRule":"evenodd"}]}],["$","span",null,{"className":"font-semibold","children":"25+ Years Experience"}]]}]}]]}]}]}]}]]}],["$","section",null,{"className":"mt-16","children":[["$","h2",null,{"className":"font-playfair text-3xl text-white mb-8 text-center","children":"Related Articles"}],["$","div",null,{"className":"grid md:grid-cols-3 gap-6","children":[["$","$L9","intestate-succession-california",{"href":"/intestate-succession-california","className":"block","children":["$","div",null,{"className":"\n      glass-card-hover\n      p-8\n      h-full flex flex-col\n    ","children":[["$","div",null,{"className":"mb-3","children":["$","span",null,{"className":"inline-block bg-accent-gold/20 text-accent-gold px-3 py-1 rounded-full text-xs font-semibold border border-accent-gold/30","children":"Probate"}]}],["$","h3",null,{"className":"font-playfair text-xl text-white mb-3 leading-tight flex-1","children":"Intestate Succession California: Who Inherits When There's No Will?"}],["$","div",null,{"className":"flex items-center justify-between text-sm text-white/60 pt-3 border-t border-white/10","children":[["$","span",null,{"children":"Oct 25, 2025"}],["$","span",null,{"children":[13," min"]}]]}]]}]}],["$","$L9","died-without-will-california",{"href":"/died-without-will-california","className":"block","children":["$","div",null,{"className":"\n      glass-card-hover\n      p-8\n      h-full flex flex-col\n    ","children":[["$","div",null,{"className":"mb-3","children":["$","span",null,{"className":"inline-block bg-accent-gold/20 text-accent-gold px-3 py-1 rounded-full text-xs font-semibold border border-accent-gold/30","children":"Probate"}]}],["$","h3",null,{"className":"font-playfair text-xl text-white mb-3 leading-tight flex-1","children":"What Happens When Someone Dies Without a Will in California?"}],["$","div",null,{"className":"flex items-center justify-between text-sm text-white/60 pt-3 border-t border-white/10","children":[["$","span",null,{"children":"Oct 23, 2025"}],["$","span",null,{"children":[20," min"]}]]}]]}]}],["$","$L9","what-assets-go-through-probate-california",{"href":"/what-assets-go-through-probate-california","className":"block","children":["$","div",null,{"className":"\n      glass-card-hover\n      p-8\n      h-full flex flex-col\n    ","children":[["$","div",null,{"className":"mb-3","children":["$","span",null,{"className":"inline-block bg-accent-gold/20 text-accent-gold px-3 py-1 rounded-full text-xs font-semibold border border-accent-gold/30","children":"Probate"}]}],["$","h3",null,{"className":"font-playfair text-xl text-white mb-3 leading-tight flex-1","children":"What Assets Go Through Probate in California? Complete Guide 2025"}],["$","div",null,{"className":"flex items-center justify-between text-sm text-white/60 pt-3 border-t border-white/10","children":[["$","span",null,{"children":"Oct 25, 2025"}],["$","span",null,{"children":[14," min"]}]]}]]}]}]]}]]}]]}]}],["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"$a"}}],["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"$b"}}]]}]
+6:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"What Happens to Your House When You Die Without a Trust in California? | Law Offices of Rozsa Gyene"}],["$","meta","3",{"name":"description","content":"What happens to your house if you die without a trust in California? Probate costs $40K+, takes 18 months. Glendale attorney explains intestate succession. Free consultation."}],["$","meta","4",{"name":"author","content":"Rozsa Gyene"}],["$","meta","5",{"name":"keywords","content":"intestate succession,California probate,die without trust,estate planning,real estate probate,inheritance laws,Probate,estate planning,Rozsa Gyene,Glendale attorney"}],["$","link","6",{"rel":"canonical","href":"https://livingtrust-attorneys.com/blog/what-happens-house-die-without-trust-california"}],["$","meta","7",{"property":"og:title","content":"What Happens to Your House When You Die Without a Trust in California?"}],["$","meta","8",{"property":"og:description","content":"What happens to your house if you die without a trust in California? Probate costs $40K+, takes 18 months. Glendale attorney explains intestate succession. Free consultation."}],["$","meta","9",{"property":"og:type","content":"article"}],["$","meta","10",{"property":"article:published_time","content":"2025-11-23"}],["$","meta","11",{"property":"article:author","content":"Rozsa Gyene"}],["$","meta","12",{"property":"article:tag","content":"intestate succession"}],["$","meta","13",{"property":"article:tag","content":"California probate"}],["$","meta","14",{"property":"article:tag","content":"die without trust"}],["$","meta","15",{"property":"article:tag","content":"estate planning"}],["$","meta","16",{"property":"article:tag","content":"real estate probate"}],["$","meta","17",{"property":"article:tag","content":"inheritance laws"}],["$","meta","18",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","19",{"name":"twitter:title","content":"Estate Planning & Trust Law Blog"}],["$","meta","20",{"name":"twitter:description","content":"Expert legal insights from Rozsa Gyene"}],["$","meta","21",{"name":"next-size-adjust"}]]
+1:null

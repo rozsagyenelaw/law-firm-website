@@ -1,0 +1,743 @@
+3:I[4707,[],""]
+5:I[6423,[],""]
+4:["slug","trust-administration-checklist-california","d"]
+0:["XNl8EPT-Q30wSTcV-gnhM",[[["",{"children":[["slug","trust-administration-checklist-california","d"],{"children":["__PAGE__?{\"slug\":\"trust-administration-checklist-california\"}",{}]}]},"$undefined","$undefined",true],["",{"children":[["slug","trust-administration-checklist-california","d"],{"children":["__PAGE__",{},[["$L1","$L2",null],null],null]},[null,["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","$4","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]],null]},[[[["$","link","0",{"rel":"stylesheet","href":"/blog/_next/static/css/76af30a148da119e.css","precedence":"next","crossOrigin":"$undefined"}]],["$","html",null,{"lang":"en","className":"__variable_fbaf84 __variable_774662","children":[["$","head",null,{"children":[["$","link",null,{"rel":"icon","href":"/favicon.ico"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}]]}],["$","body",null,{"className":"bg-gradient-blue min-h-screen","children":[["$","div",null,{"className":"bg-primary-blue text-white py-2.5 text-sm","children":["$","div",null,{"className":"container-custom flex justify-between items-center","children":[["$","div",null,{"className":"flex items-center gap-6","children":["$","span",null,{"children":"Over 25 Years Serving Los Angeles County"}]}],["$","a",null,{"href":"tel:8182916217","className":"text-accent-gold font-semibold hover:underline","children":"(818) 291-6217"}]]}]}],["$","nav",null,{"className":"bg-transparent py-5","children":["$","div",null,{"className":"container-custom flex justify-between items-center","children":[["$","a",null,{"href":"https://livingtrust-attorneys.com","className":"flex items-center gap-3 text-white no-print","children":["$","div",null,{"className":"flex flex-col","children":[["$","span",null,{"className":"font-playfair text-xl font-bold text-shadow-md","children":"Law Offices of Rozsa Gyene"}],["$","span",null,{"className":"text-sm text-accent-gold","children":"Estate Planning & Trust Law Blog"}]]}]}],["$","div",null,{"className":"flex items-center gap-4 no-print","children":[["$","a",null,{"href":"https://livingtrust-attorneys.com","className":"text-white hover:text-accent-gold transition-colors font-medium","children":"Home"}],["$","a",null,{"href":"/","className":"text-accent-gold font-semibold","children":"Blog"}],["$","a",null,{"href":"https://portal.livingtrust-attorneys.com/book","className":"btn-primary text-base py-3 px-6","target":"_blank","rel":"noopener noreferrer","children":"Free Consultation"}]]}]]}]}],["$","main",null,{"className":"min-h-screen","children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[]}]}],["$","footer",null,{"className":"bg-primary-blue text-white mt-20 no-print","children":["$","div",null,{"className":"container-custom py-12","children":[["$","div",null,{"className":"grid md:grid-cols-3 gap-8","children":[["$","div",null,{"children":[["$","h3",null,{"className":"font-playfair text-2xl mb-4","children":"Law Offices of Rozsa Gyene"}],["$","p",null,{"className":"text-white/80 mb-4","children":"Over 25 years of experience serving Los Angeles County families with comprehensive estate planning and trust services."}]]}],["$","div",null,{"children":[["$","h4",null,{"className":"font-semibold text-lg mb-4 text-accent-gold","children":"Contact"}],["$","div",null,{"className":"space-y-2 text-white/80","children":[["$","p",null,{"children":"450 N Brand Blvd Ste 600"}],["$","p",null,{"children":"Glendale, CA 91203"}],["$","p",null,{"className":"mt-4","children":["$","a",null,{"href":"tel:8182916217","className":"text-accent-gold hover:underline","children":"(818) 291-6217"}]}]]}]]}],["$","div",null,{"children":[["$","h4",null,{"className":"font-semibold text-lg mb-4 text-accent-gold","children":"Practice Areas"}],["$","ul",null,{"className":"space-y-2 text-white/80","children":[["$","li",null,{"children":["$","a",null,{"href":"https://livingtrust-attorneys.com/living-trusts.html","className":"hover:text-accent-gold transition-colors","children":"Living Trusts"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://livingtrust-attorneys.com/probate.html","className":"hover:text-accent-gold transition-colors","children":"Probate"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://livingtrust-attorneys.com/trust-administration.html","className":"hover:text-accent-gold transition-colors","children":"Trust Administration"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://livingtrust-attorneys.com/conservatorship.html","className":"hover:text-accent-gold transition-colors","children":"Conservatorship"}]}]]}]]}]]}],["$","div",null,{"className":"border-t border-white/10 mt-8 pt-8 text-center text-white/70 text-sm","children":["$","p",null,{"children":["© ",2025," Law Offices of Rozsa Gyene. All rights reserved."]}]}]]}]}]]}]]}]],null],null],["$L6",null]]]]
+8:I[2578,["972","static/chunks/972-6296c3e7f99d3665.js","42","static/chunks/app/%5Bslug%5D/page-27e08b5d2052b651.js"],"default"]
+9:I[2972,["972","static/chunks/972-6296c3e7f99d3665.js","42","static/chunks/app/%5Bslug%5D/page-27e08b5d2052b651.js"],""]
+7:T598d,<p>This comprehensive checklist covers every step of California trust administration from start to finish. Print it, check off items as you complete them, and use it to ensure nothing falls through the cracks.</p>
+<h2>PHASE 1: IMMEDIATE ACTIONS (Days 1-7)</h2>
+<h3>Secure the Trust Document</h3>
+<p>☐ Locate original trust document</p>
+<p>☐ Locate all trust amendments</p>
+<p>☐ Locate any trust restatements</p>
+<p>☐ Make copies for your records</p>
+<p>☐ Store original in safe location</p>
+<h3>Obtain Death Certificates</h3>
+<p>☐ Order certified death certificates (10-15 copies minimum)</p>
+<p>☐ Sources: funeral home, county registrar, California CDPH</p>
+<p>☐ Keep track of how many you have remaining</p>
+<h3>Secure Trust Assets</h3>
+<p>☐ Secure residence (change locks if needed)</p>
+<p>☐ Set alarm system</p>
+<p>☐ Secure vehicles</p>
+<p>☐ Locate and secure valuables (jewelry, art, cash)</p>
+<p>☐ Collect mail daily</p>
+<p>☐ Secure important documents</p>
+<p>☐ Photograph condition of property and valuables</p>
+<h3>Emergency Notifications</h3>
+<p>☐ Notify home insurance company of death</p>
+<p>☐ Notify auto insurance company</p>
+<p>☐ Continue paying mortgage/rent</p>
+<p>☐ Continue paying utilities</p>
+<p>☐ Continue paying property taxes</p>
+<p>☐ Continue paying insurance premiums</p>
+<h2>PHASE 2: ESTABLISH AUTHORITY (Days 7-30)</h2>
+<h3>Confirm Your Role</h3>
+<p>☐ Read trust document thoroughly</p>
+<p>☐ Confirm you are the named successor trustee</p>
+<p>☐ Verify no conditions prevent you from serving</p>
+<p>☐ Decide whether to accept the trusteeship</p>
+<p>☐ Understand your powers and limitations</p>
+<h3>Obtain Tax ID Number</h3>
+<p>☐ Apply for trust EIN from IRS (IRS.gov or Form SS-4)</p>
+<p>☐ Record EIN for future use: ________________</p>
+<p>☐ Do NOT use deceased's Social Security number going forward</p>
+<h3>Prepare Authority Documents</h3>
+<p>☐ Prepare trustee certification/affidavit of trust</p>
+<p>☐ Have certification notarized</p>
+<p>☐ Make multiple copies of certification</p>
+<h3>Real Property Records</h3>
+<p>☐ Record Affidavit of Death of Trustee (for each property)</p>
+<p>☐ Attach certified death certificate</p>
+<p>☐ File with county recorder where property is located</p>
+<p>☐ Counties with trust property:</p>
+<ul>
+<li>☐ _______________________</li>
+<li>☐ _______________________</li>
+<li>☐ _______________________</li>
+</ul>
+<h3>Open Trust Bank Account</h3>
+<p>☐ Choose bank for trust administration</p>
+<p>☐ Open checking account in trust name</p>
+<p>☐ Account title: "[Trust Name], [Your Name], Trustee"</p>
+<p>☐ Obtain checks and debit card</p>
+<p>☐ Set up online banking</p>
+<h2>PHASE 3: REQUIRED NOTICES (Days 1-60)</h2>
+<h3>Statutory Notice to Beneficiaries and Heirs</h3>
+<p><strong>DEADLINE: 60 days from death or becoming trustee</strong></p>
+<p>☐ Identify ALL trust beneficiaries</p>
+<p>☐ Identify ALL legal heirs (even if not beneficiaries)</p>
+<p>☐ Obtain current addresses for all recipients</p>
+<p>☐ Prepare Probate Code §16061.7 notice including:</p>
+<ul>
+<li>☐ Trust name and date created</li>
+<li>☐ Settlor's name and date of death</li>
+<li>☐ Your name, address, and phone number</li>
+<li>☐ Attorney's name and contact (if applicable)</li>
+<li>☐ Statement that trust is now irrevocable</li>
+<li>☐ Right to receive copy of trust terms</li>
+<li>☐ 120-day contest period notice</li>
+</ul>
+<p>☐ Send notices via certified mail, return receipt requested</p>
+<p>☐ Keep copies of all notices sent</p>
+<p>☐ Keep all certified mail receipts</p>
+<p>☐ Record date each notice was mailed</p>
+<p><strong>Notices Sent:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Recipient</th>
+<th>Address</th>
+<th>Date Mailed</th>
+<th>Receipt #</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3>Other Notifications</h3>
+<p>☐ Notify known creditors (recommended)</p>
+<p>☐ Social Security Administration</p>
+<p>☐ Medicare/Medicaid</p>
+<p>☐ Pension plan administrators</p>
+<p>☐ Veterans Administration (if applicable)</p>
+<p>☐ Employer (if recently employed)</p>
+<h2>PHASE 4: ASSET INVENTORY (Days 14-60)</h2>
+<h3>Real Property</h3>
+<table>
+<thead>
+<tr>
+<th>Property Address</th>
+<th>Estimated Value</th>
+<th>Mortgage Balance</th>
+<th>Date of Death Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>☐ Obtain date-of-death appraisals for each property</p>
+<p>☐ Order preliminary title reports</p>
+<p>☐ Verify property is titled in trust name</p>
+<p>☐ Note any liens or encumbrances</p>
+<p>☐ Document rental income (if applicable)</p>
+<p>☐ Document property condition</p>
+<h3>Bank Accounts</h3>
+<table>
+<thead>
+<tr>
+<th>Institution</th>
+<th>Account Type</th>
+<th>Account #</th>
+<th>Date of Death Balance</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>☐ Notify each bank of death</p>
+<p>☐ Provide death certificate and trust certification</p>
+<p>☐ Retitle accounts to successor trustee</p>
+<p>☐ Transfer funds to trust administration account</p>
+<h3>Investment Accounts</h3>
+<table>
+<thead>
+<tr>
+<th>Institution</th>
+<th>Account Type</th>
+<th>Account #</th>
+<th>Date of Death Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>☐ Notify each institution of death</p>
+<p>☐ Obtain date-of-death valuations</p>
+<p>☐ Determine cost basis (for tax purposes)</p>
+<p>☐ Document stepped-up basis values</p>
+<h3>Retirement Accounts</h3>
+<table>
+<thead>
+<tr>
+<th>Institution</th>
+<th>Account Type</th>
+<th>Beneficiary</th>
+<th>Date of Death Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>☐ Determine named beneficiaries (trust or individuals?)</p>
+<p>☐ Notify custodians of death</p>
+<p>☐ Understand distribution options and deadlines</p>
+<p>☐ Coordinate with beneficiaries on distributions</p>
+<h3>Life Insurance</h3>
+<table>
+<thead>
+<tr>
+<th>Company</th>
+<th>Policy #</th>
+<th>Beneficiary</th>
+<th>Death Benefit</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>☐ File death claims with each company</p>
+<p>☐ Determine beneficiaries (trust or individuals?)</p>
+<p>☐ Track claim status</p>
+<h3>Vehicles</h3>
+<table>
+<thead>
+<tr>
+<th>Year/Make/Model</th>
+<th>VIN</th>
+<th>Title Location</th>
+<th>Estimated Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>☐ Locate titles</p>
+<p>☐ Determine if titled in trust</p>
+<p>☐ Obtain valuations (Kelley Blue Book)</p>
+<p>☐ Maintain insurance until transferred or sold</p>
+<h3>Business Interests</h3>
+<table>
+<thead>
+<tr>
+<th>Business Name</th>
+<th>Type</th>
+<th>Ownership %</th>
+<th>Estimated Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>☐ Obtain business valuations</p>
+<p>☐ Review operating agreements</p>
+<p>☐ Understand succession provisions</p>
+<p>☐ Coordinate with business partners</p>
+<h3>Personal Property</h3>
+<p>☐ Inventory valuable items (jewelry, art, antiques, collectibles)</p>
+<p>☐ Photograph items</p>
+<p>☐ Obtain appraisals for significant items</p>
+<p>☐ Document location of items</p>
+<p>☐ Secure valuable items</p>
+<h3>Digital Assets</h3>
+<p>☐ Email accounts</p>
+<p>☐ Social media accounts</p>
+<p>☐ Online banking</p>
+<p>☐ Cryptocurrency</p>
+<p>☐ Domain names/websites</p>
+<p>☐ Cloud storage</p>
+<h3>Other Assets</h3>
+<p>☐ Money owed to deceased</p>
+<p>☐ Pending tax refunds</p>
+<p>☐ Lawsuits/settlements</p>
+<p>☐ Royalties/residuals</p>
+<p>☐ Intellectual property</p>
+<p>☐ Safe deposit boxes</p>
+<h2>PHASE 5: LIABILITIES (Days 14-60)</h2>
+<h3>Document All Debts</h3>
+<table>
+<thead>
+<tr>
+<th>Creditor</th>
+<th>Type</th>
+<th>Amount Owed</th>
+<th>Due Date</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3>Categories of Debt</h3>
+<p>☐ Mortgages</p>
+<p>☐ Home equity loans/lines of credit</p>
+<p>☐ Credit cards</p>
+<p>☐ Personal loans</p>
+<p>☐ Auto loans</p>
+<p>☐ Medical bills</p>
+<p>☐ Funeral expenses</p>
+<p>☐ Outstanding taxes</p>
+<p>☐ Utility bills</p>
+<p>☐ Other: _______________</p>
+<h3>Debt Review</h3>
+<p>☐ Verify each debt is valid</p>
+<p>☐ Check for life insurance paying off debt</p>
+<p>☐ Determine secured vs. unsecured debts</p>
+<p>☐ Identify priority claims</p>
+<p>☐ Consider negotiating settlements</p>
+<h2>PHASE 6: ONGOING ADMINISTRATION (Months 1-6)</h2>
+<h3>Asset Management</h3>
+<p>☐ Collect all income (rent, dividends, interest)</p>
+<p>☐ Deposit income to trust account</p>
+<p>☐ Pay ongoing expenses from trust account</p>
+<p>☐ Maintain adequate insurance</p>
+<p>☐ Make necessary property repairs</p>
+<p>☐ Manage investments prudently</p>
+<p>☐ Keep all receipts</p>
+<h3>Record Keeping</h3>
+<p>☐ Maintain chronological transaction log</p>
+<p>☐ Keep all bank statements</p>
+<p>☐ Save all receipts and invoices</p>
+<p>☐ Document all decisions made</p>
+<p>☐ Keep copies of all correspondence</p>
+<p>☐ Organize files by category</p>
+<h3>Communication</h3>
+<p>☐ Provide regular updates to beneficiaries</p>
+<p>☐ Respond to beneficiary inquiries promptly</p>
+<p>☐ Document all communications</p>
+<p>☐ Send written updates quarterly (recommended)</p>
+<h2>PHASE 7: DEBTS AND TAXES (Months 2-6)</h2>
+<h3>Pay Valid Debts</h3>
+<p>☐ Pay funeral/burial expenses</p>
+<p>☐ Pay last illness medical bills</p>
+<p>☐ Pay secured debts (mortgage, car loans)</p>
+<p>☐ Pay priority unsecured debts</p>
+<p>☐ Pay remaining valid debts</p>
+<p>☐ Document all payments</p>
+<h3>Tax Returns Required</h3>
+<p><strong>Deceased's Final Income Tax Returns:</strong></p>
+<p>☐ Federal Form 1040 (due April 15 of following year)</p>
+<p>☐ California Form 540 (due April 15 of following year)</p>
+<p>☐ Gather all income documents (W-2s, 1099s, etc.)</p>
+<p>☐ Determine filing status</p>
+<p>☐ Claim all eligible deductions</p>
+<p><strong>Trust Income Tax Returns:</strong></p>
+<p>☐ Federal Form 1041 (due April 15 or 65 days after fiscal year)</p>
+<p>☐ California Form 541</p>
+<p>☐ Report all trust income</p>
+<p>☐ Deduct administration expenses</p>
+<p>☐ Issue K-1s to beneficiaries</p>
+<p><strong>Estate Tax Return (if applicable):</strong></p>
+<p>☐ Federal Form 706 (if estate exceeds $13.61 million)</p>
+<p>☐ Due 9 months from death (extension available)</p>
+<p>☐ Portability election (for married couples)</p>
+<h3>Tax Deadlines</h3>
+<table>
+<thead>
+<tr>
+<th>Return</th>
+<th>Due Date</th>
+<th>Filed Date</th>
+<th>Extension?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Final 1040</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Final 540</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Form 1041</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Form 541</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Form 706</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2>PHASE 8: PRE-DISTRIBUTION (Months 4-6)</h2>
+<h3>Confirm Contest Period Expired</h3>
+<p>☐ Calculate 120-day contest period expiration</p>
+<p>☐ Date notices were sent: _______________</p>
+<p>☐ Contest period expires: _______________</p>
+<p>☐ Confirm no trust contests filed</p>
+<h3>Verify Ready for Distribution</h3>
+<p>☐ All debts paid or reserved for</p>
+<p>☐ All taxes filed or reserved for</p>
+<p>☐ Sufficient funds for administration expenses</p>
+<p>☐ No pending claims or disputes</p>
+<p>☐ All assets valued and accounted for</p>
+<h3>Calculate Distributions</h3>
+<p>☐ Review trust distribution provisions</p>
+<p>☐ Calculate each beneficiary's share</p>
+<p>☐ Determine specific gifts</p>
+<p>☐ Calculate residuary distributions</p>
+<p>☐ Prepare distribution schedule</p>
+<h3>Prepare Distribution Documents</h3>
+<p>☐ Trustee's deeds for real property</p>
+<p>☐ Assignment documents for investments</p>
+<p>☐ Stock transfer documents</p>
+<p>☐ Vehicle title transfers</p>
+<p>☐ Personal property distribution list</p>
+<h2>PHASE 9: DISTRIBUTION (Months 5-12)</h2>
+<h3>Distribute Specific Gifts</h3>
+<p>☐ Distribute specific cash bequests</p>
+<p>☐ Transfer specific real property</p>
+<p>☐ Distribute specific personal property items</p>
+<p>☐ Transfer specific investment accounts</p>
+<h3>Distribute Residuary Estate</h3>
+<p>☐ Calculate residuary amounts</p>
+<p>☐ Transfer cash to beneficiaries</p>
+<p>☐ Transfer investment accounts</p>
+<p>☐ Record real property deeds</p>
+<p>☐ Transfer vehicles</p>
+<p>☐ Deliver personal property</p>
+<h3>Documentation</h3>
+<p>☐ Obtain signed receipts from ALL beneficiaries</p>
+<p>☐ Document what was distributed to whom</p>
+<p>☐ Document date of each distribution</p>
+<p>☐ Keep copies of all transfer documents</p>
+<p><strong>Distribution Log:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Beneficiary</th>
+<th>Asset</th>
+<th>Value</th>
+<th>Date</th>
+<th>Receipt Signed</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>☐</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>☐</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>☐</td>
+</tr>
+</tbody>
+</table>
+<h2>PHASE 10: SUB-TRUSTS (If Required)</h2>
+<p>☐ Determine if sub-trusts are required by trust document</p>
+<p><strong>Common sub-trusts:</strong></p>
+<ul>
+<li>☐ Trusts for minor children</li>
+<li>☐ Special needs trusts</li>
+<li>☐ Bypass/credit shelter trusts</li>
+<li>☐ Marital trusts (QTIP)</li>
+<li>☐ Generation-skipping trusts</li>
+</ul>
+<p>☐ Prepare sub-trust documentation</p>
+<p>☐ Obtain separate EIN for each sub-trust</p>
+<p>☐ Open separate accounts for each sub-trust</p>
+<p>☐ Fund sub-trusts appropriately</p>
+<p>☐ Prepare for ongoing administration</p>
+<h2>PHASE 11: FINAL ACCOUNTING (Final Month)</h2>
+<h3>Prepare Final Accounting</h3>
+<p>☐ List all assets at start of administration</p>
+<p>☐ List all income received</p>
+<p>☐ List all gains/losses</p>
+<p>☐ List all expenses paid</p>
+<p>☐ List all distributions made</p>
+<p>☐ List all assets remaining (should be zero or near zero)</p>
+<h3>Provide Accounting to Beneficiaries</h3>
+<p>☐ Send final accounting to all beneficiaries</p>
+<p>☐ Allow time for review and questions</p>
+<p>☐ Address any concerns</p>
+<p>☐ Obtain approval or acknowledgment if possible</p>
+<h3>Obtain Releases (Recommended)</h3>
+<p>☐ Prepare release and receipt forms</p>
+<p>☐ Have each beneficiary sign</p>
+<p>☐ Releases protect you from future claims</p>
+<h2>PHASE 12: CLOSE THE TRUST (Final Month)</h2>
+<h3>Final Tax Returns</h3>
+<p>☐ File final trust income tax return</p>
+<p>☐ Pay any final taxes due</p>
+<p>☐ Keep copies of all returns</p>
+<h3>Close Accounts</h3>
+<p>☐ Close trust bank account</p>
+<p>☐ Close investment accounts</p>
+<p>☐ Cancel insurance policies</p>
+<p>☐ Cancel subscriptions and services</p>
+<p>☐ Forward mail to your address</p>
+<h3>Record Retention</h3>
+<p>☐ Organize all records</p>
+<p>☐ Store records securely</p>
+<p>☐ Retain for at least 5 years (7 years recommended)</p>
+<p>☐ Inform beneficiaries where records are stored</p>
+<h3>Trust Termination</h3>
+<p>☐ Prepare trust termination letter/document (if required)</p>
+<p>☐ Document completion of administration</p>
+<p>☐ File any required court documents (rare)</p>
+<h2>KEY DEADLINES SUMMARY</h2>
+<table>
+<thead>
+<tr>
+<th>Deadline</th>
+<th>Task</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Immediately</td>
+<td>Secure assets</td>
+</tr>
+<tr>
+<td>7 days</td>
+<td>Begin notifications</td>
+</tr>
+<tr>
+<td>60 days</td>
+<td>Send statutory beneficiary notices</td>
+</tr>
+<tr>
+<td>120 days</td>
+<td>Contest period expires (after notice)</td>
+</tr>
+<tr>
+<td>4 months</td>
+<td>Complete asset inventory</td>
+</tr>
+<tr>
+<td>April 15</td>
+<td>Deceased's final income tax returns</td>
+</tr>
+<tr>
+<td>April 15</td>
+<td>Trust income tax returns</td>
+</tr>
+<tr>
+<td>9 months</td>
+<td>Estate tax return (if required)</td>
+</tr>
+<tr>
+<td>12 months</td>
+<td>Target completion (simple trusts)</td>
+</tr>
+<tr>
+<td>18 months</td>
+<td>Target completion (complex trusts)</td>
+</tr>
+</tbody>
+</table>
+<h2>PROFESSIONAL CONTACTS</h2>
+<table>
+<thead>
+<tr>
+<th>Role</th>
+<th>Name</th>
+<th>Phone</th>
+<th>Email</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Attorney</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>CPA</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Financial Advisor</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Real Estate Agent</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Appraiser</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2>NOTES</h2>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<h2>Related Articles</h2>
+<p><strong>Learn more about trust administration:</strong></p>
+<ul>
+<li>
+<p><strong><a href="/common-trust-administration-mistakes-california">Common Trust Administration Mistakes California</a></strong> - Avoid costly errors during trust administration including missing deadlines, improper distributions, and tax mistakes.</p>
+</li>
+<li>
+<p><strong><a href="/form-1041-trust-administration-guide-california">Form 1041 Trust Tax Return Guide</a></strong> - Complete guide to filing trust income tax returns, reporting requirements, and trustee tax obligations.</p>
+</li>
+<li>
+<p><strong><a href="/how-to-distribute-trust-assets-california">How to Distribute Trust Assets California</a></strong> - Step-by-step process for distributing assets to beneficiaries including real estate, investments, and personal property.</p>
+</li>
+<li>
+<p><strong><a href="/trustee-removal-california-process-grounds">Trustee Removal California: Process and Grounds</a></strong> - When beneficiaries can remove a trustee for failure to follow proper administration procedures.</p>
+</li>
+<li>
+<p><strong><a href="/trust-administration-irs-audit-what-to-expect">Trust Administration IRS Audit</a></strong> - How improper administration and tax reporting trigger IRS audits and how to avoid them.</p>
+</li>
+</ul>
+<h2>Frequently Asked Questions</h2>
+<h3>Do I need an attorney to complete trust administration in California?</h3>
+<p>California law does not require you to hire an attorney for trust administration. However, most trustees benefit from professional guidance, especially for tasks like preparing legal notices, handling real estate transfers, navigating tax obligations, and protecting against personal liability. Simple trusts with minimal assets, no real estate, cooperative beneficiaries, and straightforward distributions may be manageable without an attorney. For most trust administrations, attorney fees paid from trust assets are a worthwhile investment to ensure compliance and avoid costly mistakes.</p>
+<h3>How long does trust administration take in California?</h3>
+<p>The timeline varies based on complexity. Simple trusts with one or two beneficiaries, no real estate, and no disputes typically take 3-6 months. Moderate trusts with multiple beneficiaries, real estate to sell, and some tax complexity usually take 6-12 months. Complex trusts involving many beneficiaries, multiple properties, business interests, or disputes can take 12-18 months or longer. The mandatory 120-day contest period after sending beneficiary notices establishes a minimum timeline, and you cannot distribute assets until this period expires.</p>
+<h3>What is the 60-day notice requirement for California trusts?</h3>
+<p>California Probate Code Section 16061.7 requires trustees to send written notice to all beneficiaries and legal heirs within 60 days of the settlor's death or the date you become trustee. See our complete guide to <a href="/blog/60-day-notice-trust-california">60-day notice requirements</a>. The notice must include the trust name and creation date, settlor's name and death date, your contact information, a statement that the trust is now irrevocable, the beneficiaries' right to request a copy of the trust, and notice of the 120-day contest period. Send all notices via certified mail with return receipt to prove compliance.</p>
+<h3>Can beneficiaries remove a trustee during trust administration?</h3>
+<p>Yes, beneficiaries can petition the court to remove a trustee under Probate Code Section 15642 if there are valid grounds. Common grounds include breach of trust duties, mismanagement of assets, failure to communicate with beneficiaries, conflict of interest, or failure to follow trust terms. However, simply disagreeing with the trustee's decisions or wanting a different family member to serve is not sufficient. The beneficiaries must prove that removal is necessary to protect trust assets or beneficiary interests. Courts prefer to keep the settlor's chosen trustee unless there is clear evidence of wrongdoing.</p>
+<h3>What happens if I miss the 60-day beneficiary notice deadline?</h3>
+<p>Missing the 60-day notice deadline has serious consequences. The 120-day contest period never starts running, which means beneficiaries can contest the trust indefinitely. This keeps the trust in limbo and prevents you from making final distributions. The best approach if you missed the deadline is to send the notices immediately, even if late, and document the date sent. While this doesn't cure the late filing, it starts the contest period from the late notice date. Consult an attorney to assess potential liability and strategies for moving forward.</p>
+<h2>Need Help?</h2>
+<p>The Law Offices of Rozsa Gyene guides trustees through every step of California trust administration.</p>
+<p><strong>Call (818) 291-6217</strong> or visit our <a href="/estate-planning-questionnaire.html">contact page</a>.</p>
+<p>Serving Glendale, Burbank, Pasadena, and all of Los Angeles County.</p>
+<hr>
+<h2>Related Articles</h2>
+<ul>
+<li><a href="/blog/60-day-notice-trust-california">60-Day Notice to Beneficiaries California: Complete Trust Guide</a></li>
+<li><a href="/blog/how-much-does-living-trust-cost-california-2024">How Much Does a Living Trust Cost in California?</a></li>
+<li><a href="/blog/avoid-probate-california">How to Avoid Probate in California: 7 Proven Strategies</a></li>
+<li><a href="/blog/california-probate-complete-guide-2025">California Probate Complete Guide 2025</a></li>
+</ul>
+<hr>
+<p><em>This checklist provides general guidance for California trust administration. Every trust is different. Consult an attorney for advice specific to your situation.</em></p>
+a:T551,{"@context":"https://schema.org","@type":"Article","headline":"Trust Administration Checklist California: The Complete Guide","description":"Trust administration checklist California: Complete 12-phase guide with every task, deadline, and form. Print and check off items. Comprehensive trustee guide. Glendale attorney.","image":"https://livingtrust-attorneys.com/images/blog/choosing-successor-trustee.jpg","articleSection":"Trust Administration","keywords":"trust administration checklist, California trust administration, trust administration process, successor trustee checklist, trust administration guide, Glendale attorney","wordCount":2387,"author":{"@type":"Person","name":"Rozsa Gyene","jobTitle":"Estate Planning Attorney","credentials":"California State Bar #208356","url":"https://livingtrust-attorneys.com/about.html"},"publisher":{"@type":"LegalService","name":"Law Offices of Rozsa Gyene","url":"https://livingtrust-attorneys.com","telephone":"818-291-6217","address":{"@type":"PostalAddress","streetAddress":"450 N Brand Blvd, Suite 600","addressLocality":"Glendale","addressRegion":"CA","postalCode":"91203"}},"datePublished":"2025-11-08","dateModified":"2025-12-24","mainEntityOfPage":{"@type":"WebPage","@id":"https://livingtrust-attorneys.com/blog/trust-administration-checklist-california"},"inLanguage":"en-US","isAccessibleForFree":true}b:Te47,{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Do I need an attorney to complete trust administration in California?","acceptedAnswer":{"@type":"Answer","text":"California law does not require you to hire an attorney for trust administration. However, most trustees benefit from professional guidance, especially for tasks like preparing legal notices, handling real estate transfers, navigating tax obligations, and protecting against personal liability. Simple trusts with minimal assets, no real estate, cooperative beneficiaries, and straightforward distributions may be manageable without an attorney. For most trust administrations, attorney fees paid from trust assets are a worthwhile investment to ensure compliance and avoid costly mistakes."}},{"@type":"Question","name":"How long does trust administration take in California?","acceptedAnswer":{"@type":"Answer","text":"The timeline varies based on complexity. Simple trusts with one or two beneficiaries, no real estate, and no disputes typically take 3-6 months. Moderate trusts with multiple beneficiaries, real estate to sell, and some tax complexity usually take 6-12 months. Complex trusts involving many beneficiaries, multiple properties, business interests, or disputes can take 12-18 months or longer. The mandatory 120-day contest period after sending beneficiary notices establishes a minimum timeline, and you cannot distribute assets until this period expires."}},{"@type":"Question","name":"What is the 60-day notice requirement for California trusts?","acceptedAnswer":{"@type":"Answer","text":"California Probate Code Section 16061.7 requires trustees to send written notice to all beneficiaries and legal heirs within 60 days of the settlor's death or the date you become trustee. See our complete guide to 60-day notice requirements. The notice must include the trust name and creation date, settlor's name and death date, your contact information, a statement that the trust is now irrevocable, the beneficiaries' right to request a copy of the trust, and notice of the 120-day contest period. Send all notices via certified mail with return receipt to prove compliance."}},{"@type":"Question","name":"Can beneficiaries remove a trustee during trust administration?","acceptedAnswer":{"@type":"Answer","text":"Yes, beneficiaries can petition the court to remove a trustee under Probate Code Section 15642 if there are valid grounds. Common grounds include breach of trust duties, mismanagement of assets, failure to communicate with beneficiaries, conflict of interest, or failure to follow trust terms. However, simply disagreeing with the trustee's decisions or wanting a different family member to serve is not sufficient. The beneficiaries must prove that removal is necessary to protect trust assets or beneficiary interests. Courts prefer to keep the settlor's chosen trustee unless there is clear evidence of wrongdoing."}},{"@type":"Question","name":"What happens if I miss the 60-day beneficiary notice deadline?","acceptedAnswer":{"@type":"Answer","text":"Missing the 60-day notice deadline has serious consequences. The 120-day contest period never starts running, which means beneficiaries can contest the trust indefinitely. This keeps the trust in limbo and prevents you from making final distributions. The best approach if you missed the deadline is to send the notices immediately, even if late, and document the date sent. While this doesn't cure the late filing, it starts the contest period from the late notice date. Consult an attorney to assess potential liability and strategies for moving forward."}}]}2:["$","div",null,{"className":"min-h-screen","children":[["$","div",null,{"className":"bg-primary-blue/20 py-4 no-print","children":["$","div",null,{"className":"container-custom","children":["$","nav",null,{"aria-label":"Breadcrumb","className":"flex items-center gap-2 text-sm text-white/70","children":[["$","a",null,{"href":"/","className":"hover:text-white transition-colors","children":"Home"}],["$","span",null,{"children":"/"}],["$","a",null,{"href":"/blog","className":"hover:text-white transition-colors","children":"Blog"}],["$","span",null,{"children":"/"}],["$","span",null,{"className":"text-white","children":"Trust Administration"}]]}]}]}],["$","section",null,{"className":"section-padding bg-gradient-to-b from-transparent to-primary-blue/20","children":["$","div",null,{"className":"container-custom","children":["$","div",null,{"className":"max-w-4xl mx-auto text-center","children":[["$","div",null,{"className":"mb-6","children":["$","span",null,{"className":"inline-block bg-accent-gold text-white px-4 py-2 rounded-full text-sm font-semibold","children":"Trust Administration"}]}],["$","h1",null,{"className":"font-playfair text-4xl md:text-5xl lg:text-6xl text-white mb-6 text-shadow-lg leading-tight","children":"Trust Administration Checklist California: The Complete Guide"}],["$","div",null,{"className":"flex flex-wrap items-center justify-center gap-6 text-white/80 mb-8","children":[["$","span",null,{"className":"flex items-center gap-2","children":[["$","svg",null,{"className":"w-5 h-5","fill":"currentColor","viewBox":"0 0 20 20","children":["$","path",null,{"fillRule":"evenodd","d":"M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z","clipRule":"evenodd"}]}],"Rozsa Gyene"]}],["$","span",null,{"className":"flex items-center gap-2","children":[["$","svg",null,{"className":"w-5 h-5","fill":"currentColor","viewBox":"0 0 20 20","children":["$","path",null,{"fillRule":"evenodd","d":"M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z","clipRule":"evenodd"}]}],"November 8, 2025"]}],["$","span",null,{"className":"flex items-center gap-2","children":[["$","svg",null,{"className":"w-5 h-5","fill":"currentColor","viewBox":"0 0 20 20","children":["$","path",null,{"fillRule":"evenodd","d":"M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z","clipRule":"evenodd"}]}],14," min read"]}]]}],null]}]}]}],["$","section",null,{"className":"section-padding","children":["$","div",null,{"className":"container-custom","children":[["$","div",null,{"className":"grid lg:grid-cols-[1fr_300px] gap-8 mb-12","children":[["$","div",null,{"children":[["$","div",null,{"className":"\n      glass-card\n      p-8\n      mb-8\n    ","children":["$","div",null,{"className":"prose-blog","dangerouslySetInnerHTML":{"__html":"$7"}}]}],["$","div",null,{"className":"mb-8","children":["$","div",null,{"className":"\n      glass-card\n      p-4\n      \n    ","children":["$","div",null,{"className":"flex flex-wrap items-center gap-3","children":[["$","span",null,{"className":"text-white/70 font-semibold","children":"Tags:"}],[["$","span","trust administration checklist",{"className":"bg-white/10 text-white px-3 py-1 rounded-full text-sm border border-white/20","children":["#","trust administration checklist"]}],["$","span","California trust administration",{"className":"bg-white/10 text-white px-3 py-1 rounded-full text-sm border border-white/20","children":["#","California trust administration"]}],["$","span","trust administration process",{"className":"bg-white/10 text-white px-3 py-1 rounded-full text-sm border border-white/20","children":["#","trust administration process"]}],["$","span","successor trustee checklist",{"className":"bg-white/10 text-white px-3 py-1 rounded-full text-sm border border-white/20","children":["#","successor trustee checklist"]}],["$","span","trust administration guide",{"className":"bg-white/10 text-white px-3 py-1 rounded-full text-sm border border-white/20","children":["#","trust administration guide"]}],["$","span","Glendale attorney",{"className":"bg-white/10 text-white px-3 py-1 rounded-full text-sm border border-white/20","children":["#","Glendale attorney"]}]]]}]}]}],["$","div",null,{"className":"mb-8","children":["$","$L8",null,{"title":"Trust Administration Checklist California: The Complete Guide","slug":"trust-administration-checklist-california"}]}],["$","div",null,{"style":{"margin":"20px auto","padding":"15px 20px","background":"linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%)","borderLeft":"4px solid #8a6a2f","borderRadius":"8px","maxWidth":"800px"},"children":["$","p",null,{"style":{"margin":0,"fontSize":"14px","color":"#2c3e50","lineHeight":1.6},"children":[["$","strong",null,{"style":{"color":"#1e3a5f"},"children":"Written by Rozsa Gyene, Esq."}],["$","br",null,{}],"California State Bar #208356 | 25+ Years Probate & Estate Experience",["$","br",null,{}],["$","em",null,{"style":{"color":"#6c757d"},"children":"Last Updated: November 28, 2025"}]]}]}]]}],["$","aside",null,{"className":"no-print","children":["$","aside",null,{"className":"no-print","children":["$","div",null,{"className":"\n      glass-card\n      p-8\n      sticky top-24\n    ","children":["$","div",null,{"className":"text-center","children":[["$","div",null,{"className":"text-4xl mb-4","children":"⚖️"}],["$","h3",null,{"className":"font-playfair text-2xl text-white mb-3","children":"Need Legal Guidance?"}],["$","p",null,{"className":"text-white/90 mb-6 leading-relaxed","children":"Schedule a free consultation with Attorney Rozsa Gyene to discuss your estate planning needs."}],["$","a",null,{"href":"tel:8182916217","className":"block w-full bg-accent-gold text-white py-3 px-6 rounded-full font-semibold hover:bg-[#b8982f] transition-all mb-3","children":"📞 (818) 291-6217"}],["$","a",null,{"href":"https://portal.livingtrust-attorneys.com/book","className":"block w-full bg-white/10 text-white py-3 px-6 rounded-full font-semibold hover:bg-white/20 transition-all border border-white/30","target":"_blank","rel":"noopener noreferrer","children":"Book Consultation"}],["$","div",null,{"className":"mt-6 pt-6 border-t border-white/10","children":[["$","p",null,{"className":"text-white/70 text-sm mb-2","children":["$","strong",null,{"className":"text-white","children":"Office Location:"}]}],["$","p",null,{"className":"text-white/70 text-sm","children":["450 N Brand Blvd Ste 600",["$","br",null,{}],"Glendale, CA 91203"]}]]}],["$","div",null,{"className":"mt-4 pt-4 border-t border-white/10","children":["$","div",null,{"className":"flex items-center justify-center gap-2 text-accent-gold text-sm","children":[["$","svg",null,{"className":"w-5 h-5","fill":"currentColor","viewBox":"0 0 20 20","children":["$","path",null,{"fillRule":"evenodd","d":"M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z","clipRule":"evenodd"}]}],["$","span",null,{"className":"font-semibold","children":"25+ Years Experience"}]]}]}]]}]}]}]}]]}],["$","section",null,{"className":"mt-16","children":[["$","h2",null,{"className":"font-playfair text-3xl text-white mb-8 text-center","children":"Related Articles"}],["$","div",null,{"className":"grid md:grid-cols-3 gap-6","children":[["$","$L9","trust-administration-process-california",{"href":"/trust-administration-process-california","className":"block","children":["$","div",null,{"className":"\n      glass-card-hover\n      p-8\n      h-full flex flex-col\n    ","children":[["$","div",null,{"className":"mb-3","children":["$","span",null,{"className":"inline-block bg-accent-gold/20 text-accent-gold px-3 py-1 rounded-full text-xs font-semibold border border-accent-gold/30","children":"Trust Administration"}]}],["$","h3",null,{"className":"font-playfair text-xl text-white mb-3 leading-tight flex-1","children":"The Trust Administration Process in California: A Complete Overview"}],["$","div",null,{"className":"flex items-center justify-between text-sm text-white/60 pt-3 border-t border-white/10","children":[["$","span",null,{"children":"Nov 10, 2025"}],["$","span",null,{"children":[11," min"]}]]}]]}]}],["$","$L9","successor-trustee-duties-checklist",{"href":"/successor-trustee-duties-checklist","className":"block","children":["$","div",null,{"className":"\n      glass-card-hover\n      p-8\n      h-full flex flex-col\n    ","children":[["$","div",null,{"className":"mb-3","children":["$","span",null,{"className":"inline-block bg-accent-gold/20 text-accent-gold px-3 py-1 rounded-full text-xs font-semibold border border-accent-gold/30","children":"Trust Administration"}]}],["$","h3",null,{"className":"font-playfair text-xl text-white mb-3 leading-tight flex-1","children":"Successor Trustee Duties Checklist: Complete California Guide"}],["$","div",null,{"className":"flex items-center justify-between text-sm text-white/60 pt-3 border-t border-white/10","children":[["$","span",null,{"children":"Nov 3, 2025"}],["$","span",null,{"children":[10," min"]}]]}]]}]}],["$","$L9","successor-trustee-duties-california-checklist-2025",{"href":"/successor-trustee-duties-california-checklist-2025","className":"block","children":["$","div",null,{"className":"\n      glass-card-hover\n      p-8\n      h-full flex flex-col\n    ","children":[["$","div",null,{"className":"mb-3","children":["$","span",null,{"className":"inline-block bg-accent-gold/20 text-accent-gold px-3 py-1 rounded-full text-xs font-semibold border border-accent-gold/30","children":"Trust Administration"}]}],["$","h3",null,{"className":"font-playfair text-xl text-white mb-3 leading-tight flex-1","children":"Successor Trustee Duties California 2025: Complete Checklist & Step-by-Step Guide"}],["$","div",null,{"className":"flex items-center justify-between text-sm text-white/60 pt-3 border-t border-white/10","children":[["$","span",null,{"children":"Nov 15, 2025"}],["$","span",null,{"children":[18," min"]}]]}]]}]}]]}]]}]]}]}],["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"$a"}}],["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"$b"}}]]}]
+6:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"Trust Administration Checklist California: The Complete Guide | Law Offices of Rozsa Gyene"}],["$","meta","3",{"name":"description","content":"Trust administration checklist California: Complete 12-phase guide with every task, deadline, and form. Print and check off items. Comprehensive trustee guide. Glendale attorney."}],["$","meta","4",{"name":"author","content":"Rozsa Gyene"}],["$","meta","5",{"name":"keywords","content":"trust administration checklist,California trust administration,trust administration process,successor trustee checklist,trust administration guide,Glendale attorney,Trust Administration,estate planning,Rozsa Gyene,Glendale attorney"}],["$","link","6",{"rel":"canonical","href":"https://livingtrust-attorneys.com/blog/trust-administration-checklist-california"}],["$","meta","7",{"property":"og:title","content":"Trust Administration Checklist California: The Complete Guide"}],["$","meta","8",{"property":"og:description","content":"Trust administration checklist California: Complete 12-phase guide with every task, deadline, and form. Print and check off items. Comprehensive trustee guide. Glendale attorney."}],["$","meta","9",{"property":"og:type","content":"article"}],["$","meta","10",{"property":"article:published_time","content":"2025-11-08"}],["$","meta","11",{"property":"article:author","content":"Rozsa Gyene"}],["$","meta","12",{"property":"article:tag","content":"trust administration checklist"}],["$","meta","13",{"property":"article:tag","content":"California trust administration"}],["$","meta","14",{"property":"article:tag","content":"trust administration process"}],["$","meta","15",{"property":"article:tag","content":"successor trustee checklist"}],["$","meta","16",{"property":"article:tag","content":"trust administration guide"}],["$","meta","17",{"property":"article:tag","content":"Glendale attorney"}],["$","meta","18",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","19",{"name":"twitter:title","content":"Estate Planning & Trust Law Blog"}],["$","meta","20",{"name":"twitter:description","content":"Expert legal insights from Rozsa Gyene"}],["$","meta","21",{"name":"next-size-adjust"}]]
+1:null

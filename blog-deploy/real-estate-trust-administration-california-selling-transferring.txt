@@ -1,0 +1,628 @@
+3:I[4707,[],""]
+5:I[6423,[],""]
+4:["slug","real-estate-trust-administration-california-selling-transferring","d"]
+0:["XNl8EPT-Q30wSTcV-gnhM",[[["",{"children":[["slug","real-estate-trust-administration-california-selling-transferring","d"],{"children":["__PAGE__?{\"slug\":\"real-estate-trust-administration-california-selling-transferring\"}",{}]}]},"$undefined","$undefined",true],["",{"children":[["slug","real-estate-trust-administration-california-selling-transferring","d"],{"children":["__PAGE__",{},[["$L1","$L2",null],null],null]},[null,["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","$4","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]],null]},[[[["$","link","0",{"rel":"stylesheet","href":"/blog/_next/static/css/76af30a148da119e.css","precedence":"next","crossOrigin":"$undefined"}]],["$","html",null,{"lang":"en","className":"__variable_fbaf84 __variable_774662","children":[["$","head",null,{"children":[["$","link",null,{"rel":"icon","href":"/favicon.ico"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}]]}],["$","body",null,{"className":"bg-gradient-blue min-h-screen","children":[["$","div",null,{"className":"bg-primary-blue text-white py-2.5 text-sm","children":["$","div",null,{"className":"container-custom flex justify-between items-center","children":[["$","div",null,{"className":"flex items-center gap-6","children":["$","span",null,{"children":"Over 25 Years Serving Los Angeles County"}]}],["$","a",null,{"href":"tel:8182916217","className":"text-accent-gold font-semibold hover:underline","children":"(818) 291-6217"}]]}]}],["$","nav",null,{"className":"bg-transparent py-5","children":["$","div",null,{"className":"container-custom flex justify-between items-center","children":[["$","a",null,{"href":"https://livingtrust-attorneys.com","className":"flex items-center gap-3 text-white no-print","children":["$","div",null,{"className":"flex flex-col","children":[["$","span",null,{"className":"font-playfair text-xl font-bold text-shadow-md","children":"Law Offices of Rozsa Gyene"}],["$","span",null,{"className":"text-sm text-accent-gold","children":"Estate Planning & Trust Law Blog"}]]}]}],["$","div",null,{"className":"flex items-center gap-4 no-print","children":[["$","a",null,{"href":"https://livingtrust-attorneys.com","className":"text-white hover:text-accent-gold transition-colors font-medium","children":"Home"}],["$","a",null,{"href":"/","className":"text-accent-gold font-semibold","children":"Blog"}],["$","a",null,{"href":"https://portal.livingtrust-attorneys.com/book","className":"btn-primary text-base py-3 px-6","target":"_blank","rel":"noopener noreferrer","children":"Free Consultation"}]]}]]}]}],["$","main",null,{"className":"min-h-screen","children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[]}]}],["$","footer",null,{"className":"bg-primary-blue text-white mt-20 no-print","children":["$","div",null,{"className":"container-custom py-12","children":[["$","div",null,{"className":"grid md:grid-cols-3 gap-8","children":[["$","div",null,{"children":[["$","h3",null,{"className":"font-playfair text-2xl mb-4","children":"Law Offices of Rozsa Gyene"}],["$","p",null,{"className":"text-white/80 mb-4","children":"Over 25 years of experience serving Los Angeles County families with comprehensive estate planning and trust services."}]]}],["$","div",null,{"children":[["$","h4",null,{"className":"font-semibold text-lg mb-4 text-accent-gold","children":"Contact"}],["$","div",null,{"className":"space-y-2 text-white/80","children":[["$","p",null,{"children":"450 N Brand Blvd Ste 600"}],["$","p",null,{"children":"Glendale, CA 91203"}],["$","p",null,{"className":"mt-4","children":["$","a",null,{"href":"tel:8182916217","className":"text-accent-gold hover:underline","children":"(818) 291-6217"}]}]]}]]}],["$","div",null,{"children":[["$","h4",null,{"className":"font-semibold text-lg mb-4 text-accent-gold","children":"Practice Areas"}],["$","ul",null,{"className":"space-y-2 text-white/80","children":[["$","li",null,{"children":["$","a",null,{"href":"https://livingtrust-attorneys.com/living-trusts.html","className":"hover:text-accent-gold transition-colors","children":"Living Trusts"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://livingtrust-attorneys.com/probate.html","className":"hover:text-accent-gold transition-colors","children":"Probate"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://livingtrust-attorneys.com/trust-administration.html","className":"hover:text-accent-gold transition-colors","children":"Trust Administration"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://livingtrust-attorneys.com/conservatorship.html","className":"hover:text-accent-gold transition-colors","children":"Conservatorship"}]}]]}]]}]]}],["$","div",null,{"className":"border-t border-white/10 mt-8 pt-8 text-center text-white/70 text-sm","children":["$","p",null,{"children":["© ",2025," Law Offices of Rozsa Gyene. All rights reserved."]}]}]]}]}]]}]]}]],null],null],["$L6",null]]]]
+8:I[2578,["972","static/chunks/972-6296c3e7f99d3665.js","42","static/chunks/app/%5Bslug%5D/page-27e08b5d2052b651.js"],"default"]
+9:I[2972,["972","static/chunks/972-6296c3e7f99d3665.js","42","static/chunks/app/%5Bslug%5D/page-27e08b5d2052b651.js"],""]
+7:T64c0,<h1>Real Estate in Trust Administration: Selling or Transferring Property in California</h1>
+<p>Real estate is often the most valuable asset in a trust, and handling it correctly is critical to successful trust administration. Whether you need to sell property to pay expenses, distribute it to beneficiaries, or continue holding it, understanding the process, tax implications, and legal requirements is essential.</p>
+<p>This guide covers everything California trustees need to know about dealing with real estate during trust administration.</p>
+<h2>Understanding Trust-Held Real Estate</h2>
+<h3>How Property Gets Into a Trust</h3>
+<p>Real estate becomes trust property through:</p>
+<ol>
+<li><strong>Initial transfer</strong> - Settlor executed and recorded a deed transferring property into trust</li>
+<li><strong>Pour-over will</strong> - Property transferred to trust through probate</li>
+<li><strong>Beneficiary designation</strong> - Transfer-on-death deed naming the trust</li>
+</ol>
+<h3>Confirming Trust Ownership</h3>
+<p><strong>Before taking any action, verify ownership:</strong></p>
+<ol>
+<li><strong>Review recorded deed</strong> - Check county recorder's office</li>
+<li><strong>Confirm title vesting</strong> - Should show "[Trustee Name], Trustee of the [Trust Name]"</li>
+<li><strong>Get title report</strong> - Preliminary title report shows ownership and encumbrances</li>
+<li><strong>Check for mortgages</strong> - Review whether property has liens</li>
+</ol>
+<p><strong>Red flag:</strong> If property wasn't properly transferred to the trust, you may need to go through probate to gain authority over it.</p>
+<h2>Trustee Authority Over Real Estate</h2>
+<h3>Review the Trust Document</h3>
+<p>The trust document governs your authority to:</p>
+<p><strong>Sell property:</strong></p>
+<ul>
+<li>Can you sell without beneficiary consent?</li>
+<li>Are there specific directions about certain properties?</li>
+<li>Must you distribute property in-kind rather than sell?</li>
+<li>Are there timing restrictions?</li>
+</ul>
+<p><strong>Example restrictive language:</strong>
+"The family residence shall be offered first to my children before being sold to third parties."</p>
+<h3>California Statutory Authority</h3>
+<p>Even without specific trust provisions, California law generally grants trustees broad authority to manage trust property, including:</p>
+<ul>
+<li>Selling trust real estate (Probate Code §16220)</li>
+<li>Determining whether to sell or distribute in-kind</li>
+<li>Setting sale terms and price</li>
+<li>Hiring professionals (agents, appraisers)</li>
+<li>Making repairs and improvements</li>
+</ul>
+<h3>When You Need Beneficiary Consent</h3>
+<p><strong>You may need consent if:</strong></p>
+<ul>
+<li>Trust document specifically requires it</li>
+<li>You're selling property for less than fair market value</li>
+<li>There's a conflict of interest (you're buying the property)</li>
+<li>Trust is ambiguous about your authority</li>
+<li>Beneficiaries are entitled to specific property</li>
+</ul>
+<h3>When You Need Court Approval</h3>
+<p>Court approval may be required when:</p>
+<ul>
+<li>Trust document requires it</li>
+<li>You're selling to yourself or related party</li>
+<li>Beneficiaries object and you want protection</li>
+<li>You're uncertain about your authority</li>
+<li>Property sale is controversial</li>
+</ul>
+<h2>Step 1: Obtain a Professional Appraisal</h2>
+<h3>Why Appraisals Are Critical</h3>
+<p>You need a professional appraisal for:</p>
+<p><strong>Tax purposes:</strong></p>
+<ul>
+<li>Establishing date-of-death value (step-up in basis)</li>
+<li>Determining capital gains if property is sold</li>
+<li>Estate tax calculations (if applicable)</li>
+<li>Property tax reassessment considerations</li>
+</ul>
+<p><strong>Fiduciary protection:</strong></p>
+<ul>
+<li>Proving you sold for fair market value</li>
+<li>Defending against beneficiary claims</li>
+<li>Documenting your prudent administration</li>
+</ul>
+<p><strong>Distribution fairness:</strong></p>
+<ul>
+<li>Ensuring equal distributions among beneficiaries</li>
+<li>Establishing value if one beneficiary receives property</li>
+</ul>
+<h3>Appraisal Requirements</h3>
+<p><strong>Who should appraise:</strong></p>
+<ul>
+<li>Licensed California real estate appraiser</li>
+<li>Certified appraiser for high-value properties</li>
+<li>Someone without conflicts of interest</li>
+</ul>
+<p><strong>Date-of-death appraisal:</strong>
+Must establish property value as of the date the settlor died, not current value (unless you're selling).</p>
+<p><strong>Alternate valuation date:</strong>
+For estate tax purposes, you can elect to value property 6 months after death if it reduces estate tax.</p>
+<p><strong>What to include in appraisal:</strong></p>
+<ul>
+<li>Property description and characteristics</li>
+<li>Comparable sales analysis</li>
+<li>Highest and best use</li>
+<li>Market conditions on valuation date</li>
+<li>Photographs</li>
+<li>Appraiser's certification and signature</li>
+</ul>
+<h3>Cost</h3>
+<p>Typical appraisal costs:</p>
+<ul>
+<li>Single-family residence: $500-$800</li>
+<li>Larger properties: $800-$2,000</li>
+<li>Commercial properties: $2,000-$10,000+</li>
+</ul>
+<p><strong>These are legitimate trust expenses</strong> paid from trust assets.</p>
+<h2>Step 2: Decide - Sell or Distribute?</h2>
+<h3>Factors to Consider</h3>
+<table>
+<thead>
+<tr>
+<th>Factor</th>
+<th>Sell</th>
+<th>Distribute</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Trust directs distribution</td>
+<td>No</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Need cash for debts/taxes</td>
+<td>Yes</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Property is difficult to divide</td>
+<td>Yes</td>
+<td>No</td>
+</tr>
+<tr>
+<td>All beneficiaries want property</td>
+<td>No</td>
+<td>Maybe</td>
+</tr>
+<tr>
+<td>One beneficiary wants property</td>
+<td>Offer to that beneficiary</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Property needs major repairs</td>
+<td>Yes</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Market is favorable</td>
+<td>Yes</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Property generates income</td>
+<td>No</td>
+<td>Maybe</td>
+</tr>
+</tbody>
+</table>
+<h3>Tax Considerations</h3>
+<p><strong>Capital gains if you sell:</strong></p>
+<ul>
+<li>Basis = date-of-death value (stepped up from original purchase price)</li>
+<li>Gain = sale price minus basis minus selling costs</li>
+<li>Tax rate = 0%, 15%, or 20% (depending on income) plus 3.8% net investment income tax</li>
+</ul>
+<p><strong>Example:</strong></p>
+<ul>
+<li>Original purchase price: $200,000</li>
+<li>Date-of-death value: $800,000 (new basis)</li>
+<li>Sale price: $850,000</li>
+<li>Selling costs: $50,000</li>
+<li>Taxable gain: $850,000 - $800,000 - $50,000 = $0</li>
+</ul>
+<p><strong>If you distribute instead:</strong></p>
+<ul>
+<li>Beneficiaries receive property with stepped-up basis</li>
+<li>If they sell later, they pay capital gains on appreciation after death</li>
+<li>May be better if property will appreciate significantly</li>
+</ul>
+<h3>Pros and Cons of Each Option</h3>
+<p><strong>Selling:</strong></p>
+<ul>
+<li>Pros: Clean division, cash for distributions, no ongoing management</li>
+<li>Cons: Transaction costs, potential capital gains, loss of appreciating asset</li>
+</ul>
+<p><strong>Distributing:</strong></p>
+<ul>
+<li>Pros: Beneficiaries can decide when to sell, no selling costs now, keep appreciating asset</li>
+<li>Cons: Harder to divide fairly, may create beneficiary disputes, ongoing management</li>
+</ul>
+<h2>Selling Trust Real Estate</h2>
+<h3>Step 1: Prepare the Property</h3>
+<p><strong>Make necessary repairs:</strong></p>
+<ul>
+<li>Fix obvious problems (leaks, broken fixtures)</li>
+<li>Clean and declutter</li>
+<li>Consider staging</li>
+<li>Landscape improvements</li>
+</ul>
+<p><strong>Get inspections:</strong></p>
+<ul>
+<li>Pre-sale home inspection</li>
+<li>Identify issues before listing</li>
+<li>Make required disclosures</li>
+<li>Protect yourself from buyer complaints</li>
+</ul>
+<p><strong>Trustee's duty:</strong> You must act reasonably to maximize sale price, but you're not required to make major improvements unless trust directs it or it's clearly prudent.</p>
+<h3>Step 2: Hire a Real Estate Agent</h3>
+<p><strong>Selecting an agent:</strong></p>
+<ul>
+<li>Interview 2-3 agents</li>
+<li>Check experience with trust sales</li>
+<li>Compare commission rates (typically 5-6%)</li>
+<li>Review marketing plans</li>
+<li>Check references</li>
+</ul>
+<p><strong>Agent should provide:</strong></p>
+<ul>
+<li>Comparative market analysis (CMA)</li>
+<li>Marketing strategy</li>
+<li>Pricing recommendation</li>
+<li>Timeline estimate</li>
+</ul>
+<p><strong>Commission is a trust expense</strong> - paid from sale proceeds.</p>
+<h3>Step 3: List and Market</h3>
+<p><strong>Listing agreement:</strong>
+Signed by you as trustee, not in your individual capacity.</p>
+<p><strong>Signature line should read:</strong>
+"[Your Name], Trustee of the [Trust Name], dated [Date]"</p>
+<p><strong>Disclosures required in California:</strong></p>
+<ul>
+<li>Transfer Disclosure Statement (TDS)</li>
+<li>Natural Hazard Disclosure</li>
+<li>Lead-based paint (pre-1978 properties)</li>
+<li>Death on property (within 3 years)</li>
+<li>Preliminary title report</li>
+</ul>
+<p><strong>Trustee's duty:</strong> Make full and accurate disclosures. Failure to disclose known issues can result in personal liability.</p>
+<h3>Step 4: Review and Accept Offers</h3>
+<p><strong>Evaluating offers:</strong></p>
+<ul>
+<li>Price</li>
+<li>Contingencies (financing, inspection, appraisal)</li>
+<li>Closing timeline</li>
+<li>Buyer's qualification (pre-approval letter)</li>
+<li>Earnest money deposit</li>
+</ul>
+<p><strong>Multiple offers:</strong>
+If you receive multiple offers, document your decision-making:</p>
+<ul>
+<li>Why you selected a particular offer</li>
+<li>Consider price, terms, and likelihood of closing</li>
+<li>Protect yourself from beneficiary claims of favoritism</li>
+</ul>
+<p><strong>Countering offers:</strong>
+You can negotiate terms, but document your reasoning.</p>
+<h3>Step 5: Navigate Escrow</h3>
+<p><strong>Opening escrow:</strong>
+Choose a reputable title/escrow company.</p>
+<p><strong>During escrow:</strong></p>
+<ul>
+<li>Respond to requests promptly</li>
+<li>Approve inspection repairs (if agreed)</li>
+<li>Review preliminary title report</li>
+<li>Address title issues</li>
+<li>Obtain final beneficiary approval if required</li>
+</ul>
+<p><strong>Trust certification:</strong>
+Escrow will require a certification of trust showing:</p>
+<ul>
+<li>Trust existence</li>
+<li>Your authority as trustee</li>
+<li>Trust is still in effect</li>
+<li>Your power to sell property</li>
+</ul>
+<h3>Step 6: Close the Sale</h3>
+<p><strong>At closing you'll sign:</strong></p>
+<ul>
+<li>Grant deed transferring property to buyer</li>
+<li>Settlement statement (HUD-1 or ALTA)</li>
+<li>Affidavits and certifications</li>
+<li>Commission disbursement authorization</li>
+</ul>
+<p><strong>Proceeds:</strong>
+Sale proceeds go into the trust account, not your personal account.</p>
+<p><strong>Timeline:</strong>
+Typical escrow period is 30-45 days from acceptance.</p>
+<h2>Transferring Property to Beneficiaries</h2>
+<h3>In-Kind Distribution</h3>
+<p>If you're distributing property rather than selling:</p>
+<h3>Step 1: Determine Who Gets What</h3>
+<p><strong>If trust specifies:</strong>
+Follow trust instructions exactly.</p>
+<p><strong>If trust is silent:</strong></p>
+<ul>
+<li>Get beneficiary agreement on who receives property</li>
+<li>Consider equal value distributions</li>
+<li>Use appraisals to ensure fairness</li>
+<li>Document everything in writing</li>
+</ul>
+<p><strong>Disputes:</strong>
+If beneficiaries can't agree, you may need to:</p>
+<ul>
+<li>Seek court instructions</li>
+<li>Sell property and distribute cash</li>
+<li>Use mediation</li>
+</ul>
+<h3>Step 2: Obtain Consents</h3>
+<p><strong>Get written agreements from beneficiaries:</strong></p>
+<ul>
+<li>Acknowledging property value</li>
+<li>Agreeing to distribution plan</li>
+<li>Waiving claims about unfairness</li>
+<li>Releasing you from liability</li>
+</ul>
+<h3>Step 3: Prepare Distribution Deed</h3>
+<p><strong>Deed from trust to beneficiary:</strong></p>
+<p><strong>Vesting options:</strong></p>
+<ul>
+<li>Single beneficiary: "John Smith, an unmarried man"</li>
+<li>Multiple beneficiaries: "John Smith and Jane Smith as joint tenants" or "as tenants in common"</li>
+<li>Married beneficiary: Consider community property or separate property vesting</li>
+</ul>
+<p><strong>Deed must:</strong></p>
+<ul>
+<li>Be signed by you as trustee</li>
+<li>Reference the trust</li>
+<li>Include legal description</li>
+<li>Include assessor's parcel number (APN)</li>
+<li>Be notarized</li>
+</ul>
+<h3>Step 4: Address Tax Reporting</h3>
+<p><strong>Documentary transfer tax:</strong></p>
+<ul>
+<li>Generally exempt for trust-to-beneficiary transfers</li>
+<li>Complete exemption form</li>
+<li>Varies by county</li>
+</ul>
+<p><strong>Property tax reassessment:</strong></p>
+<ul>
+<li>Parent-to-child exclusion may apply (Prop 19)</li>
+<li>File claim for reassessment exclusion</li>
+<li>Deadline: File within 3 years or before property is transferred to third party</li>
+</ul>
+<p><strong>Form BOE-502-A (Claim for Reassessment Exclusion):</strong>
+Beneficiaries should file to potentially avoid property tax increase.</p>
+<h3>Step 5: Record the Deed</h3>
+<p><strong>Recording process:</strong></p>
+<ul>
+<li>File deed with county recorder</li>
+<li>Pay recording fees ($20-$50)</li>
+<li>Include preliminary change of ownership report</li>
+<li>Send copy to beneficiary</li>
+</ul>
+<h2>Special Situations</h2>
+<h3>Property with Mortgage</h3>
+<p><strong>Dealing with mortgaged property:</strong></p>
+<p><strong>Due-on-sale clause:</strong>
+Most mortgages have clauses allowing lender to demand full payment upon transfer. However, federal law (Garn-St. Germain Act) provides exceptions:</p>
+<p><strong>Exempt transfers:</strong></p>
+<ul>
+<li>Transfer to trust (no due-on-sale trigger)</li>
+<li>Transfer to beneficiary who is relative of deceased borrower</li>
+<li>Transfer resulting from borrower's death</li>
+</ul>
+<p><strong>Notify the lender:</strong></p>
+<ul>
+<li>Provide death certificate</li>
+<li>Confirm loan will continue</li>
+<li>Update insurance information</li>
+</ul>
+<p><strong>Options:</strong></p>
+<ol>
+<li>Beneficiary assumes mortgage</li>
+<li>Trust continues paying until property is sold</li>
+<li>Refinance in beneficiary's name</li>
+<li>Sell property and pay off loan</li>
+</ol>
+<h3>Rental Property</h3>
+<p><strong>Managing rental property during administration:</strong></p>
+<p><strong>Ongoing duties:</strong></p>
+<ul>
+<li>Collect rent</li>
+<li>Pay mortgage, taxes, insurance</li>
+<li>Maintain property</li>
+<li>Handle tenant issues</li>
+<li>Keep security deposits in trust account</li>
+</ul>
+<p><strong>Selling occupied property:</strong></p>
+<ul>
+<li>Review lease terms</li>
+<li>Consider tenant's rights</li>
+<li>May need to sell subject to existing lease</li>
+<li>Affects marketability and price</li>
+</ul>
+<p><strong>Distributing to beneficiaries:</strong></p>
+<ul>
+<li>Clarify who gets security deposits</li>
+<li>Transfer tenant leases</li>
+<li>Provide tenant contact information</li>
+</ul>
+<h3>Property in Multiple States</h3>
+<p><strong>Out-of-state property:</strong></p>
+<p><strong>Challenges:</strong></p>
+<ul>
+<li>Different state laws apply</li>
+<li>May need local counsel</li>
+<li>Different transfer requirements</li>
+<li>Ancillary probate may be necessary if property wasn't in trust</li>
+</ul>
+<p><strong>Solutions:</strong></p>
+<ul>
+<li>Hire local real estate attorney</li>
+<li>Use local title company</li>
+<li>Understand state-specific transfer rules</li>
+<li>Consider tax implications in both states</li>
+</ul>
+<h3>Vacation Home</h3>
+<p><strong>Emotional attachment:</strong></p>
+<p>Family vacation homes often create disputes:</p>
+<ul>
+<li>Multiple beneficiaries want it</li>
+<li>Disagreement on value</li>
+<li>Memories and sentiment involved</li>
+<li>Ongoing cost sharing issues</li>
+</ul>
+<p><strong>Options:</strong></p>
+<ol>
+<li><strong>Sell and divide proceeds</strong> - Cleanest option</li>
+<li><strong>Award to one beneficiary</strong> - Must equalize with other assets</li>
+<li><strong>Transfer to all beneficiaries as co-owners</strong> - Can create future problems</li>
+<li><strong>Create LLC to hold property</strong> - Structured co-ownership</li>
+</ol>
+<h2>Tax Implications Summary</h2>
+<h3>Capital Gains Tax</h3>
+<p><strong>Stepped-up basis:</strong></p>
+<ul>
+<li>Property basis = fair market value on date of death</li>
+<li>Gain = sale price - stepped-up basis - selling costs</li>
+<li>Reported on trust's Form 1041 or beneficiaries' Form 1040</li>
+</ul>
+<h3>Property Tax</h3>
+<p><strong>Prop 19 (effective Feb 2021):</strong></p>
+<ul>
+<li>Parent-child exclusion limited to primary residence + $1M value</li>
+<li>Base year value transfer rules changed</li>
+<li>File BOE-502-A for exclusion</li>
+<li>Must meet specific criteria</li>
+</ul>
+<h3>Estate Tax</h3>
+<p><strong>Federal estate tax:</strong></p>
+<ul>
+<li>Only applies if estate over $13.61 million (2024)</li>
+<li>Property included at fair market value</li>
+<li>Portability election may be available</li>
+</ul>
+<h3>Trust Income Tax</h3>
+<p><strong>Income during administration:</strong></p>
+<ul>
+<li>Rental income taxable to trust</li>
+<li>Report on Form 1041</li>
+<li>Consider distributing income to beneficiaries to reduce tax</li>
+</ul>
+<h2>Common Mistakes to Avoid</h2>
+<h3>1. Not Getting Appraisal</h3>
+<p>Without proper appraisal:</p>
+<ul>
+<li>Can't prove you sold for fair value</li>
+<li>Don't know correct tax basis</li>
+<li>Can't make equal distributions</li>
+<li>Vulnerable to beneficiary claims</li>
+</ul>
+<h3>2. Selling Too Quickly</h3>
+<p><strong>Rushing the sale can:</strong></p>
+<ul>
+<li>Result in below-market price</li>
+<li>Miss better market conditions</li>
+<li>Violate beneficiary rights</li>
+<li>Trigger avoidable taxes</li>
+</ul>
+<p><strong>Take time to:</strong></p>
+<ul>
+<li>Prepare property properly</li>
+<li>Market effectively</li>
+<li>Review multiple offers</li>
+</ul>
+<h3>3. Commingling Proceeds</h3>
+<p><strong>Never:</strong></p>
+<ul>
+<li>Deposit sale proceeds in personal account</li>
+<li>Mix with your personal funds</li>
+<li>Use proceeds for personal purposes</li>
+<li>"Borrow" from proceeds</li>
+</ul>
+<p><strong>Always:</strong></p>
+<ul>
+<li>Deposit into trust account</li>
+<li>Keep meticulous records</li>
+<li>Treat as trust property</li>
+</ul>
+<h3>4. Failing to Disclose</h3>
+<p><strong>Material facts you must disclose:</strong></p>
+<ul>
+<li>Known defects</li>
+<li>Deaths on property</li>
+<li>Neighborhood issues</li>
+<li>Title problems</li>
+<li>Environmental hazards</li>
+</ul>
+<p><strong>Failure to disclose = personal liability</strong></p>
+<h3>5. Not Documenting Decisions</h3>
+<p><strong>Document:</strong></p>
+<ul>
+<li>Why you chose to sell vs. distribute</li>
+<li>How you selected listing price</li>
+<li>Why you accepted particular offer</li>
+<li>How you determined fair distribution</li>
+<li>Beneficiary consents and agreements</li>
+</ul>
+<h2>Timeline for Real Estate Administration</h2>
+<p><strong>Typical timeline:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Task</th>
+<th>Timeframe</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Obtain appraisal</td>
+<td>Month 1-2</td>
+</tr>
+<tr>
+<td>Decide sell vs. distribute</td>
+<td>Month 2-3</td>
+</tr>
+<tr>
+<td>Prepare property</td>
+<td>Month 3-4</td>
+</tr>
+<tr>
+<td>List property</td>
+<td>Month 4</td>
+</tr>
+<tr>
+<td>Accept offer</td>
+<td>Month 4-5</td>
+</tr>
+<tr>
+<td>Close escrow</td>
+<td>Month 5-6</td>
+</tr>
+<tr>
+<td>Distribute proceeds</td>
+<td>Month 6-7</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Total: 6-9 months</strong> for straightforward sales</p>
+<p><strong>Longer if:</strong></p>
+<ul>
+<li>Market is slow</li>
+<li>Property needs major repairs</li>
+<li>Title issues arise</li>
+<li>Beneficiaries dispute distribution</li>
+<li>Property is commercial or unique</li>
+</ul>
+<h2>Conclusion</h2>
+<p>Handling real estate during trust administration requires careful attention to legal requirements, tax implications, and fiduciary duties. Whether you're selling property or distributing it to beneficiaries, document every decision, obtain professional appraisals, and prioritize transparency with beneficiaries.</p>
+<p><strong>Key takeaways:</strong></p>
+<ul>
+<li>Get professional date-of-death appraisal</li>
+<li>Review trust document for specific directions</li>
+<li>Consider tax implications of selling vs. distributing</li>
+<li>Use qualified professionals (agents, attorneys, appraisers)</li>
+<li>Make full disclosures</li>
+<li>Get beneficiary consents in writing</li>
+<li>Keep meticulous records</li>
+<li>Never commingle trust funds with personal funds</li>
+</ul>
+<p>Real estate transactions are often the most valuable and complex aspect of trust administration. Taking time to handle them correctly protects you from liability and ensures beneficiaries receive their full inheritance.</p>
+<h2>Related Articles</h2>
+<p><strong>Learn more about trust property and tax issues:</strong></p>
+<ul>
+<li>
+<p><strong><a href="/capital-gains-tax-selling-trust-property-california">Capital Gains Tax on Trust Property Sales California</a></strong> - Stepped-up basis rules, capital gains calculation, tax minimization strategies, and reporting requirements for real estate sales.</p>
+</li>
+<li>
+<p><strong><a href="/form-1041-trust-administration-guide-california">Form 1041 Trust Tax Return Guide</a></strong> - How to report real estate sales on trust tax returns and distributable net income considerations.</p>
+</li>
+<li>
+<p><strong><a href="/income-vs-principal-trust-administration-california">Income vs. Principal Trust Administration</a></strong> - How real estate sales proceeds, rental income, and expenses are allocated between beneficiaries.</p>
+</li>
+<li>
+<p><strong><a href="/common-trust-administration-mistakes-california">Common Trust Administration Mistakes California</a></strong> - Avoid errors in real estate transactions including selling without authority and improper tax basis calculations.</p>
+</li>
+<li>
+<p><strong><a href="/trust-administration-business-owners-california">Trust Administration for Business Owners California</a></strong> - When trust holds business real estate, special considerations for commercial property and business use.</p>
+</li>
+</ul>
+<h2>Frequently Asked Questions</h2>
+<h3>Do I need to get an appraisal when selling trust property?</h3>
+<p>Yes, you should always obtain a professional appraisal for trust real estate. You need it to establish the date-of-death value for tax purposes, determine capital gains if the property is sold, protect yourself from beneficiary claims that you sold below fair market value, and ensure fair distributions among beneficiaries. A licensed California real estate appraiser should conduct the appraisal, and it's a legitimate trust expense paid from trust assets.</p>
+<h3>Should I sell trust real estate or distribute it to beneficiaries?</h3>
+<p>The decision depends on several factors including whether the trust directs distribution, if you need cash to pay debts or taxes, whether beneficiaries want the property, market conditions, and tax implications. Selling provides clean division and immediate cash but involves transaction costs and potential capital gains. Distributing allows beneficiaries to decide when to sell and keeps the appreciating asset but can be harder to divide fairly and may create disputes.</p>
+<h3>What are the tax implications of selling trust property versus distributing it?</h3>
+<p>When you sell, capital gains are calculated as sale price minus stepped-up basis minus selling costs, with the stepped-up basis being the property's fair market value on the date of death. If you distribute instead, beneficiaries receive the property with the stepped-up basis and pay capital gains only on appreciation after the settlor's death. For California property transfers to beneficiaries, parent-child exclusions under Proposition 19 may apply to avoid property tax reassessment, but only for primary residences up to certain value limits.</p>
+<h3>Can I sell trust property if there's a mortgage on it?</h3>
+<p>Yes, but you need to understand due-on-sale clauses and federal protections. The Garn-St. Germain Act provides exceptions for transfers to trusts and transfers to beneficiaries who are relatives of the deceased borrower. You should notify the lender, provide a death certificate, and confirm the loan will continue. Options include having a beneficiary assume the mortgage, the trust continuing payments until sale, refinancing in the beneficiary's name, or selling and paying off the loan from proceeds.</p>
+<h3>How long does it take to sell trust real estate in California?</h3>
+<p>A straightforward trust real estate sale typically takes 6 to 9 months from start to finish. This includes obtaining an appraisal in months 1-2, deciding to sell in months 2-3, preparing the property in months 3-4, listing in month 4, accepting an offer in months 4-5, closing escrow in months 5-6, and distributing proceeds in months 6-7. The timeline can be longer if the market is slow, the property needs major repairs, title issues arise, beneficiaries dispute the distribution, or the property is commercial or unique.</p>
+<h2>Need Help With Trust Real Estate?</h2>
+<p>If you're a trustee dealing with real estate in a California trust, our experienced trust administration attorneys can guide you through the process, review your authority, and ensure you're fulfilling your fiduciary duties.</p>
+<p>Contact us for a consultation to discuss your trust property matters.</p>
+<p><em>This article is for informational purposes only and does not constitute legal or tax advice. Real estate in trust administration involves complex legal and tax issues. Consult with qualified legal and tax professionals about your specific situation.</em></p>
+a:T4ec,{"@context":"https://schema.org","@type":"Article","headline":"Real Estate in Trust Administration: Selling or Transferring Property in California","description":"Selling or transferring real estate in California trust: trustee authority, appraisals, capital gains tax, title transfer. Complete property administration guide.","image":"https://livingtrust-attorneys.com/images/blog/die-without-trust.jpg","keywords":"trust real estate, selling trust property, trust administration, California property law","wordCount":2734,"author":{"@type":"Person","name":"Rozsa Gyene","jobTitle":"Estate Planning Attorney","credentials":"California State Bar #208356","url":"https://livingtrust-attorneys.com/about.html"},"publisher":{"@type":"LegalService","name":"Law Offices of Rozsa Gyene","url":"https://livingtrust-attorneys.com","telephone":"818-291-6217","address":{"@type":"PostalAddress","streetAddress":"450 N Brand Blvd, Suite 600","addressLocality":"Glendale","addressRegion":"CA","postalCode":"91203"}},"datePublished":"2025-10-19","dateModified":"2025-12-24","mainEntityOfPage":{"@type":"WebPage","@id":"https://livingtrust-attorneys.com/blog/real-estate-trust-administration-california-selling-transferring"},"inLanguage":"en-US","isAccessibleForFree":true}b:Tccd,{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Do I need to get an appraisal when selling trust property?","acceptedAnswer":{"@type":"Answer","text":"Yes, you should always obtain a professional appraisal for trust real estate. You need it to establish the date-of-death value for tax purposes, determine capital gains if the property is sold, protect yourself from beneficiary claims that you sold below fair market value, and ensure fair distributions among beneficiaries. A licensed California real estate appraiser should conduct the appraisal, and it's a legitimate trust expense paid from trust assets."}},{"@type":"Question","name":"Should I sell trust real estate or distribute it to beneficiaries?","acceptedAnswer":{"@type":"Answer","text":"The decision depends on several factors including whether the trust directs distribution, if you need cash to pay debts or taxes, whether beneficiaries want the property, market conditions, and tax implications. Selling provides clean division and immediate cash but involves transaction costs and potential capital gains. Distributing allows beneficiaries to decide when to sell and keeps the appreciating asset but can be harder to divide fairly and may create disputes."}},{"@type":"Question","name":"What are the tax implications of selling trust property versus distributing it?","acceptedAnswer":{"@type":"Answer","text":"When you sell, capital gains are calculated as sale price minus stepped-up basis minus selling costs, with the stepped-up basis being the property's fair market value on the date of death. If you distribute instead, beneficiaries receive the property with the stepped-up basis and pay capital gains only on appreciation after the settlor's death. For California property transfers to beneficiaries, parent-child exclusions under Proposition 19 may apply to avoid property tax reassessment, but only for primary residences up to certain value limits."}},{"@type":"Question","name":"Can I sell trust property if there's a mortgage on it?","acceptedAnswer":{"@type":"Answer","text":"Yes, but you need to understand due-on-sale clauses and federal protections. The Garn-St. Germain Act provides exceptions for transfers to trusts and transfers to beneficiaries who are relatives of the deceased borrower. You should notify the lender, provide a death certificate, and confirm the loan will continue. Options include having a beneficiary assume the mortgage, the trust continuing payments until sale, refinancing in the beneficiary's name, or selling and paying off the loan from proceeds."}},{"@type":"Question","name":"How long does it take to sell trust real estate in California?","acceptedAnswer":{"@type":"Answer","text":"A straightforward trust real estate sale typically takes 6 to 9 months from start to finish. This includes obtaining an appraisal in months 1-2, deciding to sell in months 2-3, preparing the property in months 3-4, listing in month 4, accepting an offer in months 4-5, closing escrow in months 5-6, and distributing proceeds in months 6-7. The timeline can be longer if the market is slow, the property needs major repairs, title issues arise, beneficiaries dispute the distribution, or the property is commercial or unique."}}]}2:["$","div",null,{"className":"min-h-screen","children":[["$","div",null,{"className":"bg-primary-blue/20 py-4 no-print","children":["$","div",null,{"className":"container-custom","children":["$","nav",null,{"aria-label":"Breadcrumb","className":"flex items-center gap-2 text-sm text-white/70","children":[["$","a",null,{"href":"/","className":"hover:text-white transition-colors","children":"Home"}],["$","span",null,{"children":"/"}],["$","a",null,{"href":"/blog","className":"hover:text-white transition-colors","children":"Blog"}],["$","span",null,{"children":"/"}],["$","span",null,{"className":"text-white","children":"$undefined"}]]}]}]}],["$","section",null,{"className":"section-padding bg-gradient-to-b from-transparent to-primary-blue/20","children":["$","div",null,{"className":"container-custom","children":["$","div",null,{"className":"max-w-4xl mx-auto text-center","children":[["$","div",null,{"className":"mb-6","children":["$","span",null,{"className":"inline-block bg-accent-gold text-white px-4 py-2 rounded-full text-sm font-semibold","children":"$undefined"}]}],["$","h1",null,{"className":"font-playfair text-4xl md:text-5xl lg:text-6xl text-white mb-6 text-shadow-lg leading-tight","children":"Real Estate in Trust Administration: Selling or Transferring Property in California"}],["$","div",null,{"className":"flex flex-wrap items-center justify-center gap-6 text-white/80 mb-8","children":[["$","span",null,{"className":"flex items-center gap-2","children":[["$","svg",null,{"className":"w-5 h-5","fill":"currentColor","viewBox":"0 0 20 20","children":["$","path",null,{"fillRule":"evenodd","d":"M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z","clipRule":"evenodd"}]}],"Rozsa Gyene"]}],["$","span",null,{"className":"flex items-center gap-2","children":[["$","svg",null,{"className":"w-5 h-5","fill":"currentColor","viewBox":"0 0 20 20","children":["$","path",null,{"fillRule":"evenodd","d":"M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z","clipRule":"evenodd"}]}],"October 19, 2025"]}],["$","span",null,{"className":"flex items-center gap-2","children":[["$","svg",null,{"className":"w-5 h-5","fill":"currentColor","viewBox":"0 0 20 20","children":["$","path",null,{"fillRule":"evenodd","d":"M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z","clipRule":"evenodd"}]}],16," min read"]}]]}],null]}]}]}],["$","section",null,{"className":"section-padding","children":["$","div",null,{"className":"container-custom","children":[["$","div",null,{"className":"grid lg:grid-cols-[1fr_300px] gap-8 mb-12","children":[["$","div",null,{"children":[["$","div",null,{"className":"\n      glass-card\n      p-8\n      mb-8\n    ","children":["$","div",null,{"className":"prose-blog","dangerouslySetInnerHTML":{"__html":"$7"}}]}],["$","div",null,{"className":"mb-8","children":["$","div",null,{"className":"\n      glass-card\n      p-4\n      \n    ","children":["$","div",null,{"className":"flex flex-wrap items-center gap-3","children":[["$","span",null,{"className":"text-white/70 font-semibold","children":"Tags:"}],[["$","span","trust real estate",{"className":"bg-white/10 text-white px-3 py-1 rounded-full text-sm border border-white/20","children":["#","trust real estate"]}],["$","span","selling trust property",{"className":"bg-white/10 text-white px-3 py-1 rounded-full text-sm border border-white/20","children":["#","selling trust property"]}],["$","span","trust administration",{"className":"bg-white/10 text-white px-3 py-1 rounded-full text-sm border border-white/20","children":["#","trust administration"]}],["$","span","California property law",{"className":"bg-white/10 text-white px-3 py-1 rounded-full text-sm border border-white/20","children":["#","California property law"]}]]]}]}]}],["$","div",null,{"className":"mb-8","children":["$","$L8",null,{"title":"Real Estate in Trust Administration: Selling or Transferring Property in California","slug":"real-estate-trust-administration-california-selling-transferring"}]}],["$","div",null,{"style":{"margin":"20px auto","padding":"15px 20px","background":"linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%)","borderLeft":"4px solid #8a6a2f","borderRadius":"8px","maxWidth":"800px"},"children":["$","p",null,{"style":{"margin":0,"fontSize":"14px","color":"#2c3e50","lineHeight":1.6},"children":[["$","strong",null,{"style":{"color":"#1e3a5f"},"children":"Written by Rozsa Gyene, Esq."}],["$","br",null,{}],"California State Bar #208356 | 25+ Years Probate & Estate Experience",["$","br",null,{}],["$","em",null,{"style":{"color":"#6c757d"},"children":"Last Updated: November 28, 2025"}]]}]}]]}],["$","aside",null,{"className":"no-print","children":["$","aside",null,{"className":"no-print","children":["$","div",null,{"className":"\n      glass-card\n      p-8\n      sticky top-24\n    ","children":["$","div",null,{"className":"text-center","children":[["$","div",null,{"className":"text-4xl mb-4","children":"⚖️"}],["$","h3",null,{"className":"font-playfair text-2xl text-white mb-3","children":"Need Legal Guidance?"}],["$","p",null,{"className":"text-white/90 mb-6 leading-relaxed","children":"Schedule a free consultation with Attorney Rozsa Gyene to discuss your estate planning needs."}],["$","a",null,{"href":"tel:8182916217","className":"block w-full bg-accent-gold text-white py-3 px-6 rounded-full font-semibold hover:bg-[#b8982f] transition-all mb-3","children":"📞 (818) 291-6217"}],["$","a",null,{"href":"https://portal.livingtrust-attorneys.com/book","className":"block w-full bg-white/10 text-white py-3 px-6 rounded-full font-semibold hover:bg-white/20 transition-all border border-white/30","target":"_blank","rel":"noopener noreferrer","children":"Book Consultation"}],["$","div",null,{"className":"mt-6 pt-6 border-t border-white/10","children":[["$","p",null,{"className":"text-white/70 text-sm mb-2","children":["$","strong",null,{"className":"text-white","children":"Office Location:"}]}],["$","p",null,{"className":"text-white/70 text-sm","children":["450 N Brand Blvd Ste 600",["$","br",null,{}],"Glendale, CA 91203"]}]]}],["$","div",null,{"className":"mt-4 pt-4 border-t border-white/10","children":["$","div",null,{"className":"flex items-center justify-center gap-2 text-accent-gold text-sm","children":[["$","svg",null,{"className":"w-5 h-5","fill":"currentColor","viewBox":"0 0 20 20","children":["$","path",null,{"fillRule":"evenodd","d":"M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z","clipRule":"evenodd"}]}],["$","span",null,{"className":"font-semibold","children":"25+ Years Experience"}]]}]}]]}]}]}]}]]}],["$","section",null,{"className":"mt-16","children":[["$","h2",null,{"className":"font-playfair text-3xl text-white mb-8 text-center","children":"Related Articles"}],["$","div",null,{"className":"grid md:grid-cols-3 gap-6","children":[["$","$L9","trust-administration-irs-audit-what-to-expect",{"href":"/trust-administration-irs-audit-what-to-expect","className":"block","children":["$","div",null,{"className":"\n      glass-card-hover\n      p-8\n      h-full flex flex-col\n    ","children":[["$","div",null,{"className":"mb-3","children":["$","span",null,{"className":"inline-block bg-accent-gold/20 text-accent-gold px-3 py-1 rounded-full text-xs font-semibold border border-accent-gold/30","children":"$undefined"}]}],["$","h3",null,{"className":"font-playfair text-xl text-white mb-3 leading-tight flex-1","children":"Trust Administration IRS Audit: What to Expect and How to Prepare"}],["$","div",null,{"className":"flex items-center justify-between text-sm text-white/60 pt-3 border-t border-white/10","children":[["$","span",null,{"children":"Oct 24, 2025"}],["$","span",null,{"children":[12," min"]}]]}]]}]}],["$","$L9","common-trust-administration-mistakes-california",{"href":"/common-trust-administration-mistakes-california","className":"block","children":["$","div",null,{"className":"\n      glass-card-hover\n      p-8\n      h-full flex flex-col\n    ","children":[["$","div",null,{"className":"mb-3","children":["$","span",null,{"className":"inline-block bg-accent-gold/20 text-accent-gold px-3 py-1 rounded-full text-xs font-semibold border border-accent-gold/30","children":"$undefined"}]}],["$","h3",null,{"className":"font-playfair text-xl text-white mb-3 leading-tight flex-1","children":"Common Trust Administration Mistakes in California (And How to Avoid Them)"}],["$","div",null,{"className":"flex items-center justify-between text-sm text-white/60 pt-3 border-t border-white/10","children":[["$","span",null,{"children":"Oct 15, 2025"}],["$","span",null,{"children":[14," min"]}]]}]]}]}],["$","$L9","no-contest-clauses-california-trusts",{"href":"/no-contest-clauses-california-trusts","className":"block","children":["$","div",null,{"className":"\n      glass-card-hover\n      p-8\n      h-full flex flex-col\n    ","children":[["$","div",null,{"className":"mb-3","children":["$","span",null,{"className":"inline-block bg-accent-gold/20 text-accent-gold px-3 py-1 rounded-full text-xs font-semibold border border-accent-gold/30","children":"$undefined"}]}],["$","h3",null,{"className":"font-playfair text-xl text-white mb-3 leading-tight flex-1","children":"No-Contest Clauses in California Trusts: Enforceability and Strategy"}],["$","div",null,{"className":"flex items-center justify-between text-sm text-white/60 pt-3 border-t border-white/10","children":[["$","span",null,{"children":"Nov 4, 2025"}],["$","span",null,{"children":[12," min"]}]]}]]}]}]]}]]}]]}]}],["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"$a"}}],["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"$b"}}]]}]
+6:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"Real Estate in Trust Administration: Selling or Transferring Property in California | Law Offices of Rozsa Gyene"}],["$","meta","3",{"name":"description","content":"Selling or transferring real estate in California trust: trustee authority, appraisals, capital gains tax, title transfer. Complete property administration guide."}],["$","meta","4",{"name":"author","content":"Rozsa Gyene"}],["$","meta","5",{"name":"keywords","content":"trust real estate,selling trust property,trust administration,California property law,,estate planning,Rozsa Gyene,Glendale attorney"}],["$","link","6",{"rel":"canonical","href":"https://livingtrust-attorneys.com/blog/real-estate-trust-administration-california-selling-transferring"}],["$","meta","7",{"property":"og:title","content":"Real Estate in Trust Administration: Selling or Transferring Property in California"}],["$","meta","8",{"property":"og:description","content":"Selling or transferring real estate in California trust: trustee authority, appraisals, capital gains tax, title transfer. Complete property administration guide."}],["$","meta","9",{"property":"og:type","content":"article"}],["$","meta","10",{"property":"article:published_time","content":"2025-10-19"}],["$","meta","11",{"property":"article:author","content":"Rozsa Gyene"}],["$","meta","12",{"property":"article:tag","content":"trust real estate"}],["$","meta","13",{"property":"article:tag","content":"selling trust property"}],["$","meta","14",{"property":"article:tag","content":"trust administration"}],["$","meta","15",{"property":"article:tag","content":"California property law"}],["$","meta","16",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","17",{"name":"twitter:title","content":"Estate Planning & Trust Law Blog"}],["$","meta","18",{"name":"twitter:description","content":"Expert legal insights from Rozsa Gyene"}],["$","meta","19",{"name":"next-size-adjust"}]]
+1:null

@@ -1,0 +1,648 @@
+3:I[4707,[],""]
+5:I[6423,[],""]
+4:["slug","income-vs-principal-trust-administration-california","d"]
+0:["XNl8EPT-Q30wSTcV-gnhM",[[["",{"children":[["slug","income-vs-principal-trust-administration-california","d"],{"children":["__PAGE__?{\"slug\":\"income-vs-principal-trust-administration-california\"}",{}]}]},"$undefined","$undefined",true],["",{"children":[["slug","income-vs-principal-trust-administration-california","d"],{"children":["__PAGE__",{},[["$L1","$L2",null],null],null]},[null,["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","$4","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]],null]},[[[["$","link","0",{"rel":"stylesheet","href":"/blog/_next/static/css/76af30a148da119e.css","precedence":"next","crossOrigin":"$undefined"}]],["$","html",null,{"lang":"en","className":"__variable_fbaf84 __variable_774662","children":[["$","head",null,{"children":[["$","link",null,{"rel":"icon","href":"/favicon.ico"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}]]}],["$","body",null,{"className":"bg-gradient-blue min-h-screen","children":[["$","div",null,{"className":"bg-primary-blue text-white py-2.5 text-sm","children":["$","div",null,{"className":"container-custom flex justify-between items-center","children":[["$","div",null,{"className":"flex items-center gap-6","children":["$","span",null,{"children":"Over 25 Years Serving Los Angeles County"}]}],["$","a",null,{"href":"tel:8182916217","className":"text-accent-gold font-semibold hover:underline","children":"(818) 291-6217"}]]}]}],["$","nav",null,{"className":"bg-transparent py-5","children":["$","div",null,{"className":"container-custom flex justify-between items-center","children":[["$","a",null,{"href":"https://livingtrust-attorneys.com","className":"flex items-center gap-3 text-white no-print","children":["$","div",null,{"className":"flex flex-col","children":[["$","span",null,{"className":"font-playfair text-xl font-bold text-shadow-md","children":"Law Offices of Rozsa Gyene"}],["$","span",null,{"className":"text-sm text-accent-gold","children":"Estate Planning & Trust Law Blog"}]]}]}],["$","div",null,{"className":"flex items-center gap-4 no-print","children":[["$","a",null,{"href":"https://livingtrust-attorneys.com","className":"text-white hover:text-accent-gold transition-colors font-medium","children":"Home"}],["$","a",null,{"href":"/","className":"text-accent-gold font-semibold","children":"Blog"}],["$","a",null,{"href":"https://portal.livingtrust-attorneys.com/book","className":"btn-primary text-base py-3 px-6","target":"_blank","rel":"noopener noreferrer","children":"Free Consultation"}]]}]]}]}],["$","main",null,{"className":"min-h-screen","children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[]}]}],["$","footer",null,{"className":"bg-primary-blue text-white mt-20 no-print","children":["$","div",null,{"className":"container-custom py-12","children":[["$","div",null,{"className":"grid md:grid-cols-3 gap-8","children":[["$","div",null,{"children":[["$","h3",null,{"className":"font-playfair text-2xl mb-4","children":"Law Offices of Rozsa Gyene"}],["$","p",null,{"className":"text-white/80 mb-4","children":"Over 25 years of experience serving Los Angeles County families with comprehensive estate planning and trust services."}]]}],["$","div",null,{"children":[["$","h4",null,{"className":"font-semibold text-lg mb-4 text-accent-gold","children":"Contact"}],["$","div",null,{"className":"space-y-2 text-white/80","children":[["$","p",null,{"children":"450 N Brand Blvd Ste 600"}],["$","p",null,{"children":"Glendale, CA 91203"}],["$","p",null,{"className":"mt-4","children":["$","a",null,{"href":"tel:8182916217","className":"text-accent-gold hover:underline","children":"(818) 291-6217"}]}]]}]]}],["$","div",null,{"children":[["$","h4",null,{"className":"font-semibold text-lg mb-4 text-accent-gold","children":"Practice Areas"}],["$","ul",null,{"className":"space-y-2 text-white/80","children":[["$","li",null,{"children":["$","a",null,{"href":"https://livingtrust-attorneys.com/living-trusts.html","className":"hover:text-accent-gold transition-colors","children":"Living Trusts"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://livingtrust-attorneys.com/probate.html","className":"hover:text-accent-gold transition-colors","children":"Probate"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://livingtrust-attorneys.com/trust-administration.html","className":"hover:text-accent-gold transition-colors","children":"Trust Administration"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://livingtrust-attorneys.com/conservatorship.html","className":"hover:text-accent-gold transition-colors","children":"Conservatorship"}]}]]}]]}]]}],["$","div",null,{"className":"border-t border-white/10 mt-8 pt-8 text-center text-white/70 text-sm","children":["$","p",null,{"children":["© ",2025," Law Offices of Rozsa Gyene. All rights reserved."]}]}]]}]}]]}]]}]],null],null],["$L6",null]]]]
+8:I[2578,["972","static/chunks/972-6296c3e7f99d3665.js","42","static/chunks/app/%5Bslug%5D/page-27e08b5d2052b651.js"],"default"]
+9:I[2972,["972","static/chunks/972-6296c3e7f99d3665.js","42","static/chunks/app/%5Bslug%5D/page-27e08b5d2052b651.js"],""]
+7:T653d,<h1>Income vs Principal in Trust Administration California: Complete Allocation Guide</h1>
+<p>One of the most confusing aspects of trust administration is the distinction between "income" and "principal" (also called "corpus"). This distinction is critical because many trusts have different beneficiaries entitled to income versus principal, and California law provides specific rules for how receipts and expenses must be allocated.</p>
+<p>Getting this wrong can lead to beneficiary disputes, trustee liability, and improper distributions. This guide explains everything trustees need to know about income versus principal accounting.</p>
+<h2>Why the Distinction Matters</h2>
+<h3>Different Beneficiaries</h3>
+<p>Many trusts create separate interests:</p>
+<p><strong>Income Beneficiary:</strong>
+Person entitled to receive income during a specified period</p>
+<p><strong>Example:</strong> "My wife shall receive all income during her lifetime"</p>
+<p><strong>Remainder Beneficiary:</strong>
+Person entitled to principal when trust terminates</p>
+<p><strong>Example:</strong> "Upon my wife's death, distribute principal to my children"</p>
+<p><strong>These beneficiaries have conflicting interests:</strong></p>
+<ul>
+<li>Income beneficiary wants high income (dividends, interest)</li>
+<li>Remainder beneficiary wants growth (capital appreciation)</li>
+<li>Trustee must balance both interests fairly</li>
+</ul>
+<h3>Legal Requirements</h3>
+<p>California Probate Code requires trustees to:</p>
+<ul>
+<li><strong>Act impartially</strong> between income and remainder beneficiaries (§16003)</li>
+<li><strong>Follow allocation rules</strong> under the Principal and Income Act (§16320-16375)</li>
+<li><strong>Maintain accurate accounting</strong> showing income vs. principal</li>
+</ul>
+<p><strong>Breach of duty:</strong> Improperly favoring one beneficiary over another can result in surcharge and removal.</p>
+<h2>Basic Definitions</h2>
+<h3>Principal (Corpus)</h3>
+<p><strong>Principal includes:</strong></p>
+<ul>
+<li>Original trust assets</li>
+<li>Property received from the settlor</li>
+<li>Proceeds from principal assets (sale of trust property)</li>
+<li>Capital gains</li>
+<li>Insurance proceeds on principal property</li>
+<li>Amounts added to principal by trust terms</li>
+</ul>
+<p><strong>Think of principal as:</strong> The trust "body" - the core assets</p>
+<h3>Income</h3>
+<p><strong>Income includes:</strong></p>
+<ul>
+<li>Interest on bonds, savings accounts, notes</li>
+<li>Dividends from stocks and funds</li>
+<li>Rental income from real estate</li>
+<li>Royalties from intellectual property or natural resources</li>
+<li>Business income from trust-operated business</li>
+</ul>
+<p><strong>Think of income as:</strong> What the trust assets "produce" or "earn"</p>
+<h2>California Principal and Income Act</h2>
+<h3>Statutory Framework</h3>
+<p>California Probate Code §§16320-16375 adopted the Uniform Principal and Income Act (UPIA) with modifications.</p>
+<p><strong>Key principle:</strong> Allocations should be "fair and reasonable" to both income and remainder beneficiaries.</p>
+<p><strong>Trust document controls:</strong> Trust provisions override statutory defaults.</p>
+<h3>Trustee's Duty of Impartiality</h3>
+<p><strong>Probate Code §16003:</strong></p>
+<blockquote>
+<p>"If a trust has two or more beneficiaries, the trustee shall act impartially in investing, managing, and distributing the trust property, giving due regard to the beneficiaries' respective interests."</p>
+</blockquote>
+<p><strong>What this means:</strong></p>
+<ul>
+<li>Can't favor income beneficiary by choosing only high-dividend investments</li>
+<li>Can't favor remainder beneficiary by choosing only growth stocks</li>
+<li>Must maintain balanced, diversified portfolio</li>
+<li>Must allocate receipts and expenses correctly</li>
+</ul>
+<h2>Allocation of Receipts</h2>
+<h3>Interest Income → Income</h3>
+<p><strong>Always allocated to income:</strong></p>
+<ul>
+<li>Savings account interest</li>
+<li>Bond interest (corporate, treasury, municipal)</li>
+<li>Promissory note interest</li>
+<li>CD interest</li>
+<li>Accrued interest</li>
+</ul>
+<p><strong>Example:</strong>
+Trust holds $100,000 corporate bonds earning 5% interest = $5,000/year income to income beneficiary</p>
+<h3>Dividends → Usually Income</h3>
+<p><strong>Ordinary dividends:</strong>
+Cash dividends from stocks and mutual funds → Income</p>
+<p><strong>Stock dividends:</strong></p>
+<ul>
+<li>Same class as original shares → Principal</li>
+<li>Different class → Income</li>
+<li>Trust document may provide otherwise</li>
+</ul>
+<p><strong>Stock splits:</strong>
+Additional shares of same class → Principal (not income)</p>
+<p><strong>Example:</strong></p>
+<ul>
+<li>Trust owns 100 shares of XYZ Corp</li>
+<li>XYZ pays $2/share cash dividend = $200 income</li>
+<li>XYZ issues 2-for-1 stock split = Trust now has 200 shares (principal, no income)</li>
+<li>XYZ issues preferred stock dividend = Income</li>
+</ul>
+<h3>Capital Gains → Principal</h3>
+<p><strong>General rule:</strong> Capital gains are principal, not income</p>
+<p><strong>Why this matters:</strong></p>
+<ul>
+<li>Sale of stock for profit → Gain allocated to principal</li>
+<li>Remainder beneficiaries benefit, not income beneficiaries</li>
+<li>Exception: Trust document may allocate differently</li>
+</ul>
+<p><strong>Example:</strong></p>
+<ul>
+<li>Trust bought stock for $10,000</li>
+<li>Trust sells stock for $50,000</li>
+<li>$40,000 gain → Principal</li>
+<li>Income beneficiary gets $0 from this transaction</li>
+</ul>
+<h3>Rental Income → Mixed</h3>
+<p><strong>Rental receipts allocated:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Income or Principal</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Monthly rent</td>
+<td>Income</td>
+</tr>
+<tr>
+<td>Security deposits</td>
+<td>Principal (held, not distributed)</td>
+</tr>
+<tr>
+<td>Damage payments from tenant</td>
+<td>Principal</td>
+</tr>
+<tr>
+<td>Insurance proceeds (casualty)</td>
+<td>Principal</td>
+</tr>
+<tr>
+<td>Sale of rental property</td>
+<td>Principal</td>
+</tr>
+<tr>
+<td>Gain on sale</td>
+<td>Principal</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Expenses of rental property:</strong></p>
+<ul>
+<li>Ordinary maintenance → Income</li>
+<li>Capital improvements → Principal</li>
+<li>Property taxes → Income (usually)</li>
+<li>Insurance → Income (usually)</li>
+<li>Mortgage principal → Principal</li>
+<li>Mortgage interest → Income</li>
+</ul>
+<p><strong>Example:</strong>
+Trust owns rental house:</p>
+<ul>
+<li>Collects $2,000/month rent = $24,000/year income</li>
+<li>Pays $500/month mortgage (principal + interest)</li>
+<li>Mortgage interest portion → Charge to income</li>
+<li>Mortgage principal portion → Charge to principal</li>
+</ul>
+<h3>Business Income → Income</h3>
+<p>If trust operates a business:</p>
+<ul>
+<li>Net business income → Income</li>
+<li>Business assets themselves → Principal</li>
+<li>Depreciation → Charge to principal (usually)</li>
+</ul>
+<h3>Natural Resources → Mixed</h3>
+<p><strong>Oil, gas, minerals, timber:</strong></p>
+<p><strong>Uniform Principal and Income Act approach:</strong></p>
+<ul>
+<li>90% of net receipts → Principal</li>
+<li>10% of net receipts → Income</li>
+</ul>
+<p><strong>Or trust may provide:</strong></p>
+<ul>
+<li>Cost depletion allocation</li>
+<li>50/50 split</li>
+<li>Other arrangement</li>
+</ul>
+<p><strong>Why:</strong> Exhausting natural resource depletes principal, so most proceeds should rebuild principal.</p>
+<h3>Insurance Proceeds → Principal</h3>
+<p><strong>Property insurance:</strong></p>
+<ul>
+<li>Casualty loss reimbursement → Principal (replaces asset)</li>
+<li>Business interruption coverage → Income (replaces lost income)</li>
+</ul>
+<p><strong>Life insurance:</strong></p>
+<ul>
+<li>Death benefit → Principal</li>
+</ul>
+<h3>Trust Asset Sales → Principal</h3>
+<p><strong>When trust sells asset:</strong></p>
+<ul>
+<li>Sale proceeds → Principal</li>
+<li>Gain or loss → Adjust principal</li>
+<li>Income beneficiary receives nothing from sale</li>
+</ul>
+<h2>Allocation of Expenses</h2>
+<h3>Expenses Charged to Income</h3>
+<p><strong>Typical income expenses:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Expense Type</th>
+<th>Charged to Income</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Interest on loans</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Ordinary repairs &#x26; maintenance</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Property taxes (recurring)</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Insurance premiums (property)</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>HOA fees</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Utilities</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Property management fees</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Trustee fees (portion)</td>
+<td>Usually 50%</td>
+</tr>
+<tr>
+<td>Investment advisory fees</td>
+<td>Usually 50%</td>
+</tr>
+<tr>
+<td>Tax return preparation</td>
+<td>Usually 50%</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Rationale:</strong> These are costs of producing income, so income beneficiary should bear them.</p>
+<h3>Expenses Charged to Principal</h3>
+<p><strong>Typical principal expenses:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Expense Type</th>
+<th>Charged to Principal</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Capital improvements</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Major repairs (structural)</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Principal payments on loans</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Costs of selling property</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Estate and trust admin expenses</td>
+<td>Usually Yes</td>
+</tr>
+<tr>
+<td>Trustee fees (portion)</td>
+<td>Usually 50%</td>
+</tr>
+<tr>
+<td>Attorney fees (administration)</td>
+<td>Usually Yes</td>
+</tr>
+<tr>
+<td>Appraisal fees</td>
+<td>Usually Yes</td>
+</tr>
+<tr>
+<td>Extraordinary repairs</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Rationale:</strong> These preserve or enhance principal value, so remainder beneficiary should bear them.</p>
+<h3>Mixed Expenses</h3>
+<p><strong>Some expenses benefit both income and remainder beneficiaries:</strong></p>
+<p><strong>Trustee compensation:</strong></p>
+<ul>
+<li>Typically 50% charged to income, 50% to principal</li>
+<li>Or allocated based on time spent on income vs. principal matters</li>
+<li>Trust document may specify different allocation</li>
+</ul>
+<p><strong>Tax return preparation:</strong></p>
+<ul>
+<li>Income tax return (Form 1041) preparation → Split 50/50</li>
+<li>Estate tax return (Form 706) → Principal only</li>
+</ul>
+<p><strong>Attorney fees:</strong></p>
+<ul>
+<li>General administration → Principal</li>
+<li>Income tax advice → Income</li>
+<li>Defending beneficiary challenge → Both (proportionate)</li>
+</ul>
+<h2>Special Situations</h2>
+<h3>Unitrust Conversion</h3>
+<p><strong>Problem:</strong> Traditional income/principal distinction can create problems:</p>
+<ul>
+<li>Growth stocks produce little income (income beneficiary suffers)</li>
+<li>High-dividend stocks sacrifice growth (remainder beneficiary suffers)</li>
+<li>Trustee can't optimize portfolio</li>
+</ul>
+<p><strong>Solution: Unitrust</strong></p>
+<p><strong>What it is:</strong></p>
+<ul>
+<li>Trust pays income beneficiary fixed percentage of trust value each year (typically 3-5%)</li>
+<li>Calculated on fair market value (revalued annually)</li>
+<li>Eliminates need to distinguish income vs. principal</li>
+<li>Trustee can optimize total return</li>
+</ul>
+<p><strong>California law:</strong> Probate Code §16336.4 allows conversion to unitrust</p>
+<p><strong>Example:</strong></p>
+<ul>
+<li>Trust worth $1,000,000</li>
+<li>Unitrust percentage: 4%</li>
+<li>Income beneficiary receives $40,000/year</li>
+<li>Regardless of whether trust earns interest, dividends, or capital gains</li>
+</ul>
+<p><strong>Benefits:</strong></p>
+<ul>
+<li>Simplifies administration</li>
+<li>Allows total return investment strategy</li>
+<li>Provides predictable income</li>
+<li>Eliminates income/principal disputes</li>
+</ul>
+<h3>Power to Adjust</h3>
+<p><strong>California Probate Code §16336.4</strong> gives trustees power to adjust between income and principal if:</p>
+<p><strong>Requirements:</strong></p>
+<ol>
+<li>Trustee invests with total return strategy</li>
+<li>Traditional income allocation would be unfair to beneficiaries</li>
+<li>Adjustment is fair and reasonable</li>
+<li>Trust doesn't prohibit adjustment</li>
+</ol>
+<p><strong>Example:</strong></p>
+<ul>
+<li>Trust invests in growth stocks producing minimal dividends</li>
+<li>Income beneficiary would receive very little under traditional rules</li>
+<li>Trustee allocates some capital gains to income</li>
+<li>Creates fair result for both income and remainder beneficiaries</li>
+</ul>
+<p><strong>Limitations:</strong></p>
+<ul>
+<li>Cannot use if trust qualifies for estate tax marital deduction</li>
+<li>Cannot use if trust qualifies for gift tax annual exclusion</li>
+<li>Must consider tax consequences</li>
+<li>Must act impartially</li>
+</ul>
+<h2>Tax Implications</h2>
+<h3>Income Taxation</h3>
+<p><strong>Who pays tax on trust income:</strong></p>
+<p><strong>General rule:</strong> Trust pays tax unless income is distributed to beneficiaries</p>
+<p><strong>Distribution deduction:</strong></p>
+<ul>
+<li>Trust deducts distributed income (Form 1041, Line 15)</li>
+<li>Beneficiaries report on their Form 1040 (via Schedule K-1)</li>
+</ul>
+<p><strong>Character of income:</strong></p>
+<ul>
+<li>Interest remains interest</li>
+<li>Dividends remain dividends</li>
+<li>Capital gains remain capital gains (unless allocated to income by trust)</li>
+</ul>
+<h3>Distributable Net Income (DNI)</h3>
+<p><strong>DNI determines:</strong></p>
+<ul>
+<li>Maximum income distribution deduction for trust</li>
+<li>Amount and character of income to beneficiaries</li>
+</ul>
+<p><strong>Key rule:</strong> Capital gains usually NOT included in DNI</p>
+<p><strong>What this means:</strong></p>
+<ul>
+<li>Capital gains typically taxed to trust, not beneficiaries</li>
+<li>Even if capital gains allocated to "income" under trust accounting</li>
+<li>Exception: Trust document specifically requires distribution of capital gains</li>
+</ul>
+<p><strong>Example:</strong></p>
+<ul>
+<li>Trust has $20,000 dividends and interest</li>
+<li>Trust has $50,000 capital gain from stock sale</li>
+<li>DNI = $20,000 (gains excluded)</li>
+<li>If trust distributes $30,000 to income beneficiary:
+<ul>
+<li>Beneficiary reports only $20,000 income (limited by DNI)</li>
+<li>Trust pays tax on $50,000 capital gain</li>
+</ul>
+</li>
+</ul>
+<h3>Principal Distributions</h3>
+<p><strong>Tax treatment:</strong></p>
+<ul>
+<li>Distributions of principal NOT taxable to beneficiary</li>
+<li>Beneficiary receives principal tax-free</li>
+<li>Principal distributions don't generate distribution deduction</li>
+</ul>
+<p><strong>Why:</strong> Principal represents after-tax amounts (already taxed or received via step-up in basis)</p>
+<h2>Practical Examples</h2>
+<h3>Example 1: Simple Trust</h3>
+<p><strong>Facts:</strong></p>
+<ul>
+<li>Trust requires all income distributed to Wife during her life</li>
+<li>Remainder to Children at Wife's death</li>
+<li>Trust owns:
+<ul>
+<li>$500,000 stocks (paying dividends)</li>
+<li>$300,000 bonds (paying interest)</li>
+<li>Rental house</li>
+</ul>
+</li>
+</ul>
+<p><strong>Year 1 receipts:</strong></p>
+<ul>
+<li>Dividends: $15,000</li>
+<li>Interest: $12,000</li>
+<li>Rent: $24,000</li>
+<li>Total: $51,000</li>
+</ul>
+<p><strong>Year 1 expenses:</strong></p>
+<ul>
+<li>Trustee fee: $5,000</li>
+<li>Property taxes: $4,000</li>
+<li>Repairs/maintenance: $3,000</li>
+<li>Insurance: $2,000</li>
+</ul>
+<p><strong>Allocation:</strong></p>
+<p><strong>Income side:</strong></p>
+<ul>
+<li>Receipts: $51,000</li>
+<li>Expenses: $(14,000) [All charged to income]</li>
+<li><strong>Net income to Wife: $37,000</strong></li>
+</ul>
+<p><strong>Principal side:</strong></p>
+<ul>
+<li>No change (stocks, bonds, house remain)</li>
+</ul>
+<h3>Example 2: Capital Gain</h3>
+<p><strong>Continuing Example 1:</strong></p>
+<p><strong>Year 2:</strong>
+Trust sells stocks for $600,000 (basis $500,000)</p>
+<p><strong>Allocation:</strong></p>
+<ul>
+<li>Sale proceeds: $600,000 → Principal</li>
+<li>Capital gain: $100,000 → Principal</li>
+<li><strong>Wife receives: $0 from this sale</strong></li>
+<li><strong>Children benefit</strong> (remainder increased by $100,000)</li>
+</ul>
+<p><strong>Tax treatment:</strong></p>
+<ul>
+<li>Trust pays tax on $100,000 gain</li>
+<li>Wife doesn't report gain (wasn't distributed to income)</li>
+</ul>
+<h3>Example 3: Power to Adjust</h3>
+<p><strong>Facts:</strong></p>
+<ul>
+<li>Trust modernizes and invests in total return index funds</li>
+<li>Funds produce 2% dividends ($10,000) + 8% appreciation ($40,000)</li>
+<li>Income beneficiary entitled to "income"</li>
+<li>Under traditional rules, would receive only $10,000</li>
+</ul>
+<p><strong>Trustee uses power to adjust:</strong></p>
+<ul>
+<li>Determines fair return is 4% of trust value ($20,000)</li>
+<li>Allocates $10,000 additional from principal to income</li>
+<li>Income beneficiary receives $20,000</li>
+<li>Fair to both income and remainder beneficiaries</li>
+</ul>
+<h2>Best Practices for Trustees</h2>
+<h3>1. Review Trust Document First</h3>
+<p><strong>Trust document controls:</strong></p>
+<ul>
+<li>May define "income" differently than statute</li>
+<li>May require specific allocations</li>
+<li>May prohibit power to adjust</li>
+</ul>
+<p><strong>Don't assume statutory defaults apply</strong> - read the trust.</p>
+<h3>2. Maintain Separate Accounting</h3>
+<p><strong>Keep clear records:</strong></p>
+<ul>
+<li>Separate income account and principal account</li>
+<li>Or detailed ledger showing income vs. principal</li>
+<li>Document all receipts and how allocated</li>
+<li>Document all disbursements and how charged</li>
+</ul>
+<h3>3. Invest Impartially</h3>
+<p><strong>Balanced portfolio:</strong></p>
+<ul>
+<li>Some income-producing assets (bonds, dividend stocks)</li>
+<li>Some growth assets (growth stocks, real estate)</li>
+<li>Diversified across asset classes</li>
+<li>Consider total return approach</li>
+</ul>
+<p><strong>Avoid:</strong></p>
+<ul>
+<li>All growth stocks (unfair to income beneficiary)</li>
+<li>All high-dividend stocks (unfair to remainder beneficiary)</li>
+</ul>
+<h3>4. Allocate Consistently</h3>
+<p><strong>Pick allocation method and stick with it:</strong></p>
+<ul>
+<li>If charging 50% of trustee fees to income, do so consistently</li>
+<li>Don't cherry-pick allocations year-to-year</li>
+<li>Document rationale for allocation decisions</li>
+</ul>
+<h3>5. Communicate with Beneficiaries</h3>
+<p><strong>Explain allocations:</strong></p>
+<ul>
+<li>Provide accountings showing income vs. principal</li>
+<li>Explain why certain receipts allocated to principal</li>
+<li>Discuss investment strategy and how it balances interests</li>
+<li>Get beneficiary input when appropriate</li>
+</ul>
+<h3>6. Consider Unitrust Conversion</h3>
+<p><strong>If appropriate:</strong></p>
+<ul>
+<li>Simplifies administration</li>
+<li>Eliminates allocation disputes</li>
+<li>Allows optimal investment strategy</li>
+<li>Requires court approval or beneficiary consent in California</li>
+</ul>
+<h3>7. Get Professional Help</h3>
+<p><strong>Consult with:</strong></p>
+<ul>
+<li>Trust attorney for complex allocation questions</li>
+<li>CPA for tax implications</li>
+<li>Financial advisor for investment strategy</li>
+</ul>
+<h2>Beneficiary Rights</h2>
+<h3>If You're an Income Beneficiary</h3>
+<p><strong>You're entitled to:</strong></p>
+<ul>
+<li>All trust income (if trust requires distribution)</li>
+<li>Fair allocation of receipts to income</li>
+<li>Proper charging of expenses to income vs. principal</li>
+<li>Not bear expenses that benefit remainder beneficiaries</li>
+</ul>
+<p><strong>Red flags:</strong></p>
+<ul>
+<li>Trust invests only in growth stocks (produces no income)</li>
+<li>Trustee charges capital improvements to income</li>
+<li>You receive nothing despite trust earning income</li>
+</ul>
+<h3>If You're a Remainder Beneficiary</h3>
+<p><strong>You're entitled to:</strong></p>
+<ul>
+<li>Preservation of principal</li>
+<li>Not have principal depleted for income beneficiary</li>
+<li>Fair investment strategy that includes growth</li>
+<li>Proper allocation of capital gains to principal</li>
+</ul>
+<p><strong>Red flags:</strong></p>
+<ul>
+<li>Trust invests only in high-yield bonds (sacrifices growth)</li>
+<li>Principal depleted to make income distributions</li>
+<li>Capital gains improperly allocated to income</li>
+</ul>
+<h3>Challenging Trustee's Allocations</h3>
+<p><strong>If allocations are improper:</strong></p>
+<ol>
+<li>Request accounting showing income vs. principal</li>
+<li>Object to specific allocations in writing</li>
+<li>Request correction</li>
+<li>Petition court if trustee refuses</li>
+<li>Seek surcharge for losses caused by improper allocation</li>
+</ol>
+<h2>Conclusion</h2>
+<p>The distinction between income and principal is fundamental to trust administration, especially when there are different beneficiaries entitled to each. Trustees must:</p>
+<p><strong>Remember:</strong></p>
+<ul>
+<li>Allocate receipts correctly (interest/dividends vs. capital gains)</li>
+<li>Charge expenses appropriately (ordinary vs. capital)</li>
+<li>Act impartially between income and remainder beneficiaries</li>
+<li>Maintain clear, separate accounting</li>
+<li>Consider unitrust conversion if appropriate</li>
+<li>Seek professional guidance for complex situations</li>
+</ul>
+<p>Proper income and principal accounting protects both the trustee from liability and ensures all beneficiaries receive their fair share.</p>
+<h2>Related Articles</h2>
+<p><strong>Learn more about trust accounting and taxes:</strong></p>
+<ul>
+<li>
+<p><strong><a href="/form-1041-trust-administration-guide-california">Form 1041 Trust Tax Return Guide</a></strong> - How income vs. principal allocation affects trust tax returns, DNI calculations, and Schedule K-1 preparation.</p>
+</li>
+<li>
+<p><strong><a href="/capital-gains-tax-selling-trust-property-california">Capital Gains Tax on Trust Property Sales</a></strong> - Whether capital gains are allocated to income or principal beneficiaries and tax implications for distributions.</p>
+</li>
+<li>
+<p><strong><a href="/trustee-compensation-taxes-california">Trustee Compensation and Taxes</a></strong> - How trustee fees are allocated between income and principal, and impact on beneficiary distributions.</p>
+</li>
+<li>
+<p><strong><a href="/trust-administration-irs-audit-what-to-expect">Trust Administration IRS Audit</a></strong> - Common IRS audit issues with income vs. principal allocations and documentation requirements.</p>
+</li>
+<li>
+<p><strong><a href="/common-trust-administration-mistakes-california">Common Trust Administration Mistakes</a></strong> - Avoid improper income/principal allocations that lead to beneficiary disputes and trustee liability.</p>
+</li>
+</ul>
+<h2>Frequently Asked Questions</h2>
+<h3>What is the difference between trust income and principal?</h3>
+<p>Principal is the trust's core assets, including property received from the settlor, proceeds from asset sales, and capital gains. Income is what those assets produce, such as interest, dividends, rental income, and royalties. This distinction matters because many trusts have different beneficiaries entitled to income versus principal, and California law requires trustees to allocate receipts and expenses correctly between the two.</p>
+<h3>Are capital gains allocated to income or principal?</h3>
+<p>Capital gains are allocated to principal, not income. When a trust sells an asset for more than its cost basis, the gain increases the principal and benefits remainder beneficiaries, not income beneficiaries. For example, if a trust sells stock for a $40,000 profit, that entire gain goes to principal. The trust document may provide otherwise, but the statutory default allocates capital gains to principal.</p>
+<h3>How should trustee fees be allocated between income and principal?</h3>
+<p>Trustee compensation is typically allocated 50% to income and 50% to principal, as trustee services benefit both income and remainder beneficiaries. Alternatively, fees can be allocated based on the time spent on income-related versus principal-related matters. The trust document may specify a different allocation method, which would control over the statutory default.</p>
+<h3>What is a unitrust and when should it be used?</h3>
+<p>A unitrust pays the income beneficiary a fixed percentage of the trust's fair market value each year, typically 3-5%, regardless of whether the trust earns traditional income or capital gains. This eliminates the need to distinguish between income and principal and allows the trustee to invest for total return. California law permits unitrust conversions under Probate Code section 16336.4, and they are particularly useful when traditional income/principal allocations create unfairness or investment constraints.</p>
+<h3>Can a trustee allocate capital gains to income if the income beneficiary is suffering?</h3>
+<p>Yes, under California's power to adjust rule in Probate Code section 16336.4. If the trustee invests for total return and traditional income allocation would be unfair to beneficiaries, the trustee may adjust between income and principal. For example, if growth stocks produce minimal dividends, the trustee can allocate some capital gains to income to provide fair returns to the income beneficiary, as long as the adjustment is reasonable and the trust doesn't prohibit it.</p>
+<h2>Need Help With Trust Accounting?</h2>
+<p>If you're dealing with income vs. principal allocation issues in California trust administration, our experienced attorneys can help ensure proper accounting and fair treatment of all beneficiaries.</p>
+<p>Contact us for a consultation about your trust administration questions.</p>
+<p><em>This article is for informational purposes only and does not constitute legal or tax advice. Trust accounting rules are complex and fact-specific. Consult with qualified legal and tax professionals about your specific situation.</em></p>
+a:T4da,{"@context":"https://schema.org","@type":"Article","headline":"Income vs Principal in Trust Administration California: Complete Allocation Guide","description":"Trust income vs principal California: allocation rules for receipts, expenses, capital gains, rental property. How it affects beneficiary distributions. Complete guide.","image":"https://livingtrust-attorneys.com/images/blog/living-trust-cost.jpg","keywords":"trust accounting, income vs principal, California trust law, beneficiary rights","wordCount":2638,"author":{"@type":"Person","name":"Rozsa Gyene","jobTitle":"Estate Planning Attorney","credentials":"California State Bar #208356","url":"https://livingtrust-attorneys.com/about.html"},"publisher":{"@type":"LegalService","name":"Law Offices of Rozsa Gyene","url":"https://livingtrust-attorneys.com","telephone":"818-291-6217","address":{"@type":"PostalAddress","streetAddress":"450 N Brand Blvd, Suite 600","addressLocality":"Glendale","addressRegion":"CA","postalCode":"91203"}},"datePublished":"2025-10-22","dateModified":"2025-12-24","mainEntityOfPage":{"@type":"WebPage","@id":"https://livingtrust-attorneys.com/blog/income-vs-principal-trust-administration-california"},"inLanguage":"en-US","isAccessibleForFree":true}b:Tb92,{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is the difference between trust income and principal?","acceptedAnswer":{"@type":"Answer","text":"Principal is the trust's core assets, including property received from the settlor, proceeds from asset sales, and capital gains. Income is what those assets produce, such as interest, dividends, rental income, and royalties. This distinction matters because many trusts have different beneficiaries entitled to income versus principal, and California law requires trustees to allocate receipts and expenses correctly between the two."}},{"@type":"Question","name":"Are capital gains allocated to income or principal?","acceptedAnswer":{"@type":"Answer","text":"Capital gains are allocated to principal, not income. When a trust sells an asset for more than its cost basis, the gain increases the principal and benefits remainder beneficiaries, not income beneficiaries. For example, if a trust sells stock for a $40,000 profit, that entire gain goes to principal. The trust document may provide otherwise, but the statutory default allocates capital gains to principal."}},{"@type":"Question","name":"How should trustee fees be allocated between income and principal?","acceptedAnswer":{"@type":"Answer","text":"Trustee compensation is typically allocated 50% to income and 50% to principal, as trustee services benefit both income and remainder beneficiaries. Alternatively, fees can be allocated based on the time spent on income-related versus principal-related matters. The trust document may specify a different allocation method, which would control over the statutory default."}},{"@type":"Question","name":"What is a unitrust and when should it be used?","acceptedAnswer":{"@type":"Answer","text":"A unitrust pays the income beneficiary a fixed percentage of the trust's fair market value each year, typically 3-5%, regardless of whether the trust earns traditional income or capital gains. This eliminates the need to distinguish between income and principal and allows the trustee to invest for total return. California law permits unitrust conversions under Probate Code section 16336.4, and they are particularly useful when traditional income/principal allocations create unfairness or investment constraints."}},{"@type":"Question","name":"Can a trustee allocate capital gains to income if the income beneficiary is suffering?","acceptedAnswer":{"@type":"Answer","text":"Yes, under California's power to adjust rule in Probate Code section 16336.4. If the trustee invests for total return and traditional income allocation would be unfair to beneficiaries, the trustee may adjust between income and principal. For example, if growth stocks produce minimal dividends, the trustee can allocate some capital gains to income to provide fair returns to the income beneficiary, as long as the adjustment is reasonable and the trust doesn't prohibit it."}}]}2:["$","div",null,{"className":"min-h-screen","children":[["$","div",null,{"className":"bg-primary-blue/20 py-4 no-print","children":["$","div",null,{"className":"container-custom","children":["$","nav",null,{"aria-label":"Breadcrumb","className":"flex items-center gap-2 text-sm text-white/70","children":[["$","a",null,{"href":"/","className":"hover:text-white transition-colors","children":"Home"}],["$","span",null,{"children":"/"}],["$","a",null,{"href":"/blog","className":"hover:text-white transition-colors","children":"Blog"}],["$","span",null,{"children":"/"}],["$","span",null,{"className":"text-white","children":"$undefined"}]]}]}]}],["$","section",null,{"className":"section-padding bg-gradient-to-b from-transparent to-primary-blue/20","children":["$","div",null,{"className":"container-custom","children":["$","div",null,{"className":"max-w-4xl mx-auto text-center","children":[["$","div",null,{"className":"mb-6","children":["$","span",null,{"className":"inline-block bg-accent-gold text-white px-4 py-2 rounded-full text-sm font-semibold","children":"$undefined"}]}],["$","h1",null,{"className":"font-playfair text-4xl md:text-5xl lg:text-6xl text-white mb-6 text-shadow-lg leading-tight","children":"Income vs Principal in Trust Administration California: Complete Allocation Guide"}],["$","div",null,{"className":"flex flex-wrap items-center justify-center gap-6 text-white/80 mb-8","children":[["$","span",null,{"className":"flex items-center gap-2","children":[["$","svg",null,{"className":"w-5 h-5","fill":"currentColor","viewBox":"0 0 20 20","children":["$","path",null,{"fillRule":"evenodd","d":"M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z","clipRule":"evenodd"}]}],"Rozsa Gyene"]}],["$","span",null,{"className":"flex items-center gap-2","children":[["$","svg",null,{"className":"w-5 h-5","fill":"currentColor","viewBox":"0 0 20 20","children":["$","path",null,{"fillRule":"evenodd","d":"M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z","clipRule":"evenodd"}]}],"October 22, 2025"]}],["$","span",null,{"className":"flex items-center gap-2","children":[["$","svg",null,{"className":"w-5 h-5","fill":"currentColor","viewBox":"0 0 20 20","children":["$","path",null,{"fillRule":"evenodd","d":"M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z","clipRule":"evenodd"}]}],15," min read"]}]]}],null]}]}]}],["$","section",null,{"className":"section-padding","children":["$","div",null,{"className":"container-custom","children":[["$","div",null,{"className":"grid lg:grid-cols-[1fr_300px] gap-8 mb-12","children":[["$","div",null,{"children":[["$","div",null,{"className":"\n      glass-card\n      p-8\n      mb-8\n    ","children":["$","div",null,{"className":"prose-blog","dangerouslySetInnerHTML":{"__html":"$7"}}]}],["$","div",null,{"className":"mb-8","children":["$","div",null,{"className":"\n      glass-card\n      p-4\n      \n    ","children":["$","div",null,{"className":"flex flex-wrap items-center gap-3","children":[["$","span",null,{"className":"text-white/70 font-semibold","children":"Tags:"}],[["$","span","trust accounting",{"className":"bg-white/10 text-white px-3 py-1 rounded-full text-sm border border-white/20","children":["#","trust accounting"]}],["$","span","income vs principal",{"className":"bg-white/10 text-white px-3 py-1 rounded-full text-sm border border-white/20","children":["#","income vs principal"]}],["$","span","California trust law",{"className":"bg-white/10 text-white px-3 py-1 rounded-full text-sm border border-white/20","children":["#","California trust law"]}],["$","span","beneficiary rights",{"className":"bg-white/10 text-white px-3 py-1 rounded-full text-sm border border-white/20","children":["#","beneficiary rights"]}]]]}]}]}],["$","div",null,{"className":"mb-8","children":["$","$L8",null,{"title":"Income vs Principal in Trust Administration California: Complete Allocation Guide","slug":"income-vs-principal-trust-administration-california"}]}],["$","div",null,{"style":{"margin":"20px auto","padding":"15px 20px","background":"linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%)","borderLeft":"4px solid #8a6a2f","borderRadius":"8px","maxWidth":"800px"},"children":["$","p",null,{"style":{"margin":0,"fontSize":"14px","color":"#2c3e50","lineHeight":1.6},"children":[["$","strong",null,{"style":{"color":"#1e3a5f"},"children":"Written by Rozsa Gyene, Esq."}],["$","br",null,{}],"California State Bar #208356 | 25+ Years Probate & Estate Experience",["$","br",null,{}],["$","em",null,{"style":{"color":"#6c757d"},"children":"Last Updated: November 28, 2025"}]]}]}]]}],["$","aside",null,{"className":"no-print","children":["$","aside",null,{"className":"no-print","children":["$","div",null,{"className":"\n      glass-card\n      p-8\n      sticky top-24\n    ","children":["$","div",null,{"className":"text-center","children":[["$","div",null,{"className":"text-4xl mb-4","children":"⚖️"}],["$","h3",null,{"className":"font-playfair text-2xl text-white mb-3","children":"Need Legal Guidance?"}],["$","p",null,{"className":"text-white/90 mb-6 leading-relaxed","children":"Schedule a free consultation with Attorney Rozsa Gyene to discuss your estate planning needs."}],["$","a",null,{"href":"tel:8182916217","className":"block w-full bg-accent-gold text-white py-3 px-6 rounded-full font-semibold hover:bg-[#b8982f] transition-all mb-3","children":"📞 (818) 291-6217"}],["$","a",null,{"href":"https://portal.livingtrust-attorneys.com/book","className":"block w-full bg-white/10 text-white py-3 px-6 rounded-full font-semibold hover:bg-white/20 transition-all border border-white/30","target":"_blank","rel":"noopener noreferrer","children":"Book Consultation"}],["$","div",null,{"className":"mt-6 pt-6 border-t border-white/10","children":[["$","p",null,{"className":"text-white/70 text-sm mb-2","children":["$","strong",null,{"className":"text-white","children":"Office Location:"}]}],["$","p",null,{"className":"text-white/70 text-sm","children":["450 N Brand Blvd Ste 600",["$","br",null,{}],"Glendale, CA 91203"]}]]}],["$","div",null,{"className":"mt-4 pt-4 border-t border-white/10","children":["$","div",null,{"className":"flex items-center justify-center gap-2 text-accent-gold text-sm","children":[["$","svg",null,{"className":"w-5 h-5","fill":"currentColor","viewBox":"0 0 20 20","children":["$","path",null,{"fillRule":"evenodd","d":"M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z","clipRule":"evenodd"}]}],["$","span",null,{"className":"font-semibold","children":"25+ Years Experience"}]]}]}]]}]}]}]}]]}],["$","section",null,{"className":"mt-16","children":[["$","h2",null,{"className":"font-playfair text-3xl text-white mb-8 text-center","children":"Related Articles"}],["$","div",null,{"className":"grid md:grid-cols-3 gap-6","children":[["$","$L9","trustee-removal-california-process-grounds",{"href":"/trustee-removal-california-process-grounds","className":"block","children":["$","div",null,{"className":"\n      glass-card-hover\n      p-8\n      h-full flex flex-col\n    ","children":[["$","div",null,{"className":"mb-3","children":["$","span",null,{"className":"inline-block bg-accent-gold/20 text-accent-gold px-3 py-1 rounded-full text-xs font-semibold border border-accent-gold/30","children":"$undefined"}]}],["$","h3",null,{"className":"font-playfair text-xl text-white mb-3 leading-tight flex-1","children":"Trustee Removal in California: Legal Process and Grounds for Removal"}],["$","div",null,{"className":"flex items-center justify-between text-sm text-white/60 pt-3 border-t border-white/10","children":[["$","span",null,{"children":"Oct 18, 2025"}],["$","span",null,{"children":[14," min"]}]]}]]}]}],["$","$L9","when-trustees-fail-to-communicate-california",{"href":"/when-trustees-fail-to-communicate-california","className":"block","children":["$","div",null,{"className":"\n      glass-card-hover\n      p-8\n      h-full flex flex-col\n    ","children":[["$","div",null,{"className":"mb-3","children":["$","span",null,{"className":"inline-block bg-accent-gold/20 text-accent-gold px-3 py-1 rounded-full text-xs font-semibold border border-accent-gold/30","children":"$undefined"}]}],["$","h3",null,{"className":"font-playfair text-xl text-white mb-3 leading-tight flex-1","children":"When Trustees Fail to Communicate: Your Legal Options in California"}],["$","div",null,{"className":"flex items-center justify-between text-sm text-white/60 pt-3 border-t border-white/10","children":[["$","span",null,{"children":"Oct 17, 2025"}],["$","span",null,{"children":[15," min"]}]]}]]}]}],["$","$L9","no-contest-clauses-california-trusts",{"href":"/no-contest-clauses-california-trusts","className":"block","children":["$","div",null,{"className":"\n      glass-card-hover\n      p-8\n      h-full flex flex-col\n    ","children":[["$","div",null,{"className":"mb-3","children":["$","span",null,{"className":"inline-block bg-accent-gold/20 text-accent-gold px-3 py-1 rounded-full text-xs font-semibold border border-accent-gold/30","children":"$undefined"}]}],["$","h3",null,{"className":"font-playfair text-xl text-white mb-3 leading-tight flex-1","children":"No-Contest Clauses in California Trusts: Enforceability and Strategy"}],["$","div",null,{"className":"flex items-center justify-between text-sm text-white/60 pt-3 border-t border-white/10","children":[["$","span",null,{"children":"Nov 4, 2025"}],["$","span",null,{"children":[12," min"]}]]}]]}]}]]}]]}]]}]}],["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"$a"}}],["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"$b"}}]]}]
+6:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"Income vs Principal in Trust Administration California: Complete Allocation Guide | Law Offices of Rozsa Gyene"}],["$","meta","3",{"name":"description","content":"Trust income vs principal California: allocation rules for receipts, expenses, capital gains, rental property. How it affects beneficiary distributions. Complete guide."}],["$","meta","4",{"name":"author","content":"Rozsa Gyene"}],["$","meta","5",{"name":"keywords","content":"trust accounting,income vs principal,California trust law,beneficiary rights,,estate planning,Rozsa Gyene,Glendale attorney"}],["$","link","6",{"rel":"canonical","href":"https://livingtrust-attorneys.com/blog/income-vs-principal-trust-administration-california"}],["$","meta","7",{"property":"og:title","content":"Income vs Principal in Trust Administration California: Complete Allocation Guide"}],["$","meta","8",{"property":"og:description","content":"Trust income vs principal California: allocation rules for receipts, expenses, capital gains, rental property. How it affects beneficiary distributions. Complete guide."}],["$","meta","9",{"property":"og:type","content":"article"}],["$","meta","10",{"property":"article:published_time","content":"2025-10-22"}],["$","meta","11",{"property":"article:author","content":"Rozsa Gyene"}],["$","meta","12",{"property":"article:tag","content":"trust accounting"}],["$","meta","13",{"property":"article:tag","content":"income vs principal"}],["$","meta","14",{"property":"article:tag","content":"California trust law"}],["$","meta","15",{"property":"article:tag","content":"beneficiary rights"}],["$","meta","16",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","17",{"name":"twitter:title","content":"Estate Planning & Trust Law Blog"}],["$","meta","18",{"name":"twitter:description","content":"Expert legal insights from Rozsa Gyene"}],["$","meta","19",{"name":"next-size-adjust"}]]
+1:null

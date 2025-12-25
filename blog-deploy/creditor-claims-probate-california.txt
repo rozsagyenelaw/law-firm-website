@@ -1,0 +1,485 @@
+3:I[4707,[],""]
+5:I[6423,[],""]
+4:["slug","creditor-claims-probate-california","d"]
+0:["XNl8EPT-Q30wSTcV-gnhM",[[["",{"children":[["slug","creditor-claims-probate-california","d"],{"children":["__PAGE__?{\"slug\":\"creditor-claims-probate-california\"}",{}]}]},"$undefined","$undefined",true],["",{"children":[["slug","creditor-claims-probate-california","d"],{"children":["__PAGE__",{},[["$L1","$L2",null],null],null]},[null,["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","$4","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]],null]},[[[["$","link","0",{"rel":"stylesheet","href":"/blog/_next/static/css/76af30a148da119e.css","precedence":"next","crossOrigin":"$undefined"}]],["$","html",null,{"lang":"en","className":"__variable_fbaf84 __variable_774662","children":[["$","head",null,{"children":[["$","link",null,{"rel":"icon","href":"/favicon.ico"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}]]}],["$","body",null,{"className":"bg-gradient-blue min-h-screen","children":[["$","div",null,{"className":"bg-primary-blue text-white py-2.5 text-sm","children":["$","div",null,{"className":"container-custom flex justify-between items-center","children":[["$","div",null,{"className":"flex items-center gap-6","children":["$","span",null,{"children":"Over 25 Years Serving Los Angeles County"}]}],["$","a",null,{"href":"tel:8182916217","className":"text-accent-gold font-semibold hover:underline","children":"(818) 291-6217"}]]}]}],["$","nav",null,{"className":"bg-transparent py-5","children":["$","div",null,{"className":"container-custom flex justify-between items-center","children":[["$","a",null,{"href":"https://livingtrust-attorneys.com","className":"flex items-center gap-3 text-white no-print","children":["$","div",null,{"className":"flex flex-col","children":[["$","span",null,{"className":"font-playfair text-xl font-bold text-shadow-md","children":"Law Offices of Rozsa Gyene"}],["$","span",null,{"className":"text-sm text-accent-gold","children":"Estate Planning & Trust Law Blog"}]]}]}],["$","div",null,{"className":"flex items-center gap-4 no-print","children":[["$","a",null,{"href":"https://livingtrust-attorneys.com","className":"text-white hover:text-accent-gold transition-colors font-medium","children":"Home"}],["$","a",null,{"href":"/","className":"text-accent-gold font-semibold","children":"Blog"}],["$","a",null,{"href":"https://portal.livingtrust-attorneys.com/book","className":"btn-primary text-base py-3 px-6","target":"_blank","rel":"noopener noreferrer","children":"Free Consultation"}]]}]]}]}],["$","main",null,{"className":"min-h-screen","children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[]}]}],["$","footer",null,{"className":"bg-primary-blue text-white mt-20 no-print","children":["$","div",null,{"className":"container-custom py-12","children":[["$","div",null,{"className":"grid md:grid-cols-3 gap-8","children":[["$","div",null,{"children":[["$","h3",null,{"className":"font-playfair text-2xl mb-4","children":"Law Offices of Rozsa Gyene"}],["$","p",null,{"className":"text-white/80 mb-4","children":"Over 25 years of experience serving Los Angeles County families with comprehensive estate planning and trust services."}]]}],["$","div",null,{"children":[["$","h4",null,{"className":"font-semibold text-lg mb-4 text-accent-gold","children":"Contact"}],["$","div",null,{"className":"space-y-2 text-white/80","children":[["$","p",null,{"children":"450 N Brand Blvd Ste 600"}],["$","p",null,{"children":"Glendale, CA 91203"}],["$","p",null,{"className":"mt-4","children":["$","a",null,{"href":"tel:8182916217","className":"text-accent-gold hover:underline","children":"(818) 291-6217"}]}]]}]]}],["$","div",null,{"children":[["$","h4",null,{"className":"font-semibold text-lg mb-4 text-accent-gold","children":"Practice Areas"}],["$","ul",null,{"className":"space-y-2 text-white/80","children":[["$","li",null,{"children":["$","a",null,{"href":"https://livingtrust-attorneys.com/living-trusts.html","className":"hover:text-accent-gold transition-colors","children":"Living Trusts"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://livingtrust-attorneys.com/probate.html","className":"hover:text-accent-gold transition-colors","children":"Probate"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://livingtrust-attorneys.com/trust-administration.html","className":"hover:text-accent-gold transition-colors","children":"Trust Administration"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://livingtrust-attorneys.com/conservatorship.html","className":"hover:text-accent-gold transition-colors","children":"Conservatorship"}]}]]}]]}]]}],["$","div",null,{"className":"border-t border-white/10 mt-8 pt-8 text-center text-white/70 text-sm","children":["$","p",null,{"children":["© ",2025," Law Offices of Rozsa Gyene. All rights reserved."]}]}]]}]}]]}]]}]],null],null],["$L6",null]]]]
+8:I[2578,["972","static/chunks/972-6296c3e7f99d3665.js","42","static/chunks/app/%5Bslug%5D/page-27e08b5d2052b651.js"],"default"]
+9:I[2972,["972","static/chunks/972-6296c3e7f99d3665.js","42","static/chunks/app/%5Bslug%5D/page-27e08b5d2052b651.js"],""]
+7:T511d,<p>As executor of a California estate, one of your most important duties—and potential sources of personal liability—is properly handling creditor claims.</p>
+<p>California probate law creates a structured process for creditors to file claims against the estate, with strict timelines, priority rules, and procedures executors must follow. Mishandling creditor claims can result in personal liability for the executor.</p>
+<p>As a Glendale probate attorney who guides executors through this process, I've seen executors make costly mistakes: paying claims out of order, paying invalid claims, or failing to reject questionable claims.</p>
+<p>This comprehensive guide explains how the creditor claims process works in California probate, the 4-month creditor claim period, priority of debts, how to review and accept or reject claims, what to do when claims exceed assets, and how executors protect themselves from liability.</p>
+<h2>Overview of Creditor Claims in Probate</h2>
+<p><strong>California Probate Code Section 9000-9399</strong> governs creditor claims.</p>
+<h3>Why Creditor Claims Matter</h3>
+<p><strong>Debts don't die with the person.</strong></p>
+<p><strong>Estate must pay:</strong></p>
+<ul>
+<li>Credit card balances</li>
+<li>Medical bills</li>
+<li>Mortgages</li>
+<li>Personal loans</li>
+<li>Taxes</li>
+<li>Funeral expenses</li>
+<li>Final expenses</li>
+</ul>
+<p><strong>Before beneficiaries receive anything</strong>, legitimate debts must be paid.</p>
+<h3>Executor's Role</h3>
+<p><strong>Executor must:</strong></p>
+<ol>
+<li>Notify known and potential creditors</li>
+<li>Publish notice to creditors</li>
+<li>Receive and review claims</li>
+<li>Allow, reject, or compromise claims</li>
+<li>Pay allowed claims in proper priority order</li>
+<li>Protect estate from invalid claims</li>
+</ol>
+<p><strong>Executor's personal assets are NOT liable</strong> for estate debts—unless executor breaches fiduciary duty.</p>
+<h2>The 4-Month Creditor Claim Period</h2>
+<p><strong>California Probate Code Section 9100</strong></p>
+<h3>How the Creditor Claim Period Works</h3>
+<p><strong>Creditors have 4 months from</strong> the date letters are issued to file claims.</p>
+<p><strong>Timeline:</strong></p>
+<ol>
+<li><strong>Day 1:</strong> Letters testamentary/administration issued</li>
+<li><strong>Day 1-120:</strong> Executor publishes notice to creditors</li>
+<li><strong>Day 1-120:</strong> Executor sends notice to known creditors</li>
+<li><strong>Month 4 (Day 120):</strong> Creditor claim period ends</li>
+<li><strong>After Day 120:</strong> Late claims generally barred</li>
+</ol>
+<h3>Notice Requirements</h3>
+<p><strong>Executor must provide two types of notice:</strong></p>
+<p><strong>1. Published Notice (California Probate Code Section 9050)</strong></p>
+<ul>
+<li>Publish once a week for 3 consecutive weeks</li>
+<li>In newspaper of general circulation where probate filed</li>
+<li>Must state: "Creditors having claims against decedent must file them within 4 months"</li>
+</ul>
+<p><strong>2. Direct Notice to Known Creditors (Section 9050)</strong></p>
+<ul>
+<li>Mail notice to all reasonably ascertainable creditors</li>
+<li>Within 4 months of letters issued</li>
+<li>Creditor has 60 days from mailing OR 4 months from letters (whichever is later)</li>
+</ul>
+<h3>Extended Deadlines for Some Creditors</h3>
+<p><strong>Known creditors who receive direct notice:</strong></p>
+<p><strong>60 days from mailing</strong> OR <strong>4 months from letters</strong> (whichever is later)</p>
+<p><strong>Example:</strong></p>
+<ul>
+<li>Letters issued: January 1</li>
+<li>4-month deadline: May 1</li>
+<li>Notice mailed to creditor: April 1</li>
+<li>Creditor has until June 1 (60 days from April 1) to file claim</li>
+</ul>
+<h3>Late Claims</h3>
+<p><strong>After 4-month period expires:</strong></p>
+<ul>
+<li>Most claims are barred</li>
+<li>Exception: Certain government claims may have longer periods</li>
+<li>Exception: Claims creditor didn't reasonably know about</li>
+</ul>
+<p><strong>California Probate Code Section 9103:</strong> Courts have limited discretion to allow late claims in exceptional circumstances.</p>
+<h2>Types of Creditors and Claims</h2>
+<h3>Secured Creditors</h3>
+<p><strong>Hold security interest in specific property:</strong></p>
+<p><strong>Examples:</strong></p>
+<ul>
+<li>Mortgage lender (secured by house)</li>
+<li>Auto loan lender (secured by car)</li>
+<li>Lien holders</li>
+</ul>
+<p><strong>Rights:</strong></p>
+<ul>
+<li>Can foreclose on collateral if not paid</li>
+<li>Must still file claim in probate</li>
+<li>Priority to proceeds from their collateral</li>
+</ul>
+<h3>Unsecured Creditors</h3>
+<p><strong>No security interest in property:</strong></p>
+<p><strong>Examples:</strong></p>
+<ul>
+<li>Credit card companies</li>
+<li>Medical providers</li>
+<li>Personal loans without collateral</li>
+<li>Utility companies</li>
+<li>Service providers</li>
+</ul>
+<p><strong>Must file timely claim</strong> to be paid.</p>
+<h3>Priority Creditors</h3>
+<p><strong>Some debts have statutory priority</strong> over others:</p>
+<ol>
+<li>Funeral and last illness expenses</li>
+<li>Administration costs (attorney fees, executor fees, court costs)</li>
+<li>Federal taxes</li>
+<li>State taxes</li>
+<li>Secured debts (to extent of collateral)</li>
+<li>Judgments</li>
+<li>All other debts</li>
+</ol>
+<p><strong>California Probate Code Sections 11420-11421</strong></p>
+<h3>Government Claims</h3>
+<p><strong>Special rules for government entities:</strong></p>
+<p><strong>Federal government:</strong></p>
+<ul>
+<li>Not bound by 4-month limitation</li>
+<li>Can file claim anytime during probate</li>
+</ul>
+<p><strong>State and local governments:</strong></p>
+<ul>
+<li>Generally must file within 4 months</li>
+<li>Some exceptions for tax claims</li>
+</ul>
+<h2>How Creditors File Claims</h2>
+<h3>Required Form</h3>
+<p><strong>Creditor must use:</strong> Judicial Council Form DE-172 (Creditor's Claim)</p>
+<p><strong>Must include:</strong></p>
+<ul>
+<li>Creditor's name and address</li>
+<li>Amount claimed</li>
+<li>Basis of claim (what debt is for)</li>
+<li>Whether claim is secured or unsecured</li>
+<li>Supporting documentation</li>
+</ul>
+<h3>Where to File</h3>
+<p><strong>File with court clerk</strong> in county where probate is pending.</p>
+<p><strong>Serve copy on executor</strong> (or executor's attorney).</p>
+<h3>What Happens After Filing</h3>
+<p><strong>Executor has 4 options:</strong></p>
+<ol>
+<li><strong>Allow claim</strong> (approve it)</li>
+<li><strong>Reject claim</strong> (deny it)</li>
+<li><strong>Allow in part, reject in part</strong></li>
+<li><strong>Take no action</strong> (deemed allowed after 90 days)</li>
+</ol>
+<h2>How Executors Review Claims</h2>
+<h3>Step 1: Verify Claim Is Timely</h3>
+<p><strong>Check filing date against deadline.</strong></p>
+<p><strong>If late:</strong> Claim can be rejected on that basis alone.</p>
+<h3>Step 2: Verify Claim Is Properly Documented</h3>
+<p><strong>Proper claim must include:</strong></p>
+<ul>
+<li>Completed Form DE-172</li>
+<li>Proof of mailing to executor</li>
+<li>Supporting documentation (invoices, statements, contracts)</li>
+</ul>
+<p><strong>If deficient:</strong> Notify creditor of defects; creditor can cure within claim period.</p>
+<h3>Step 3: Investigate Validity of Claim</h3>
+<p><strong>Executor should:</strong></p>
+<ul>
+<li>Review decedent's records</li>
+<li>Verify debt was actually incurred</li>
+<li>Confirm amount is accurate</li>
+<li>Check if debt was already paid</li>
+<li>Determine if debt is enforceable</li>
+</ul>
+<p><strong>Common invalid claims:</strong></p>
+<ul>
+<li>Claims for amounts already paid</li>
+<li>Claims not actually owed by decedent</li>
+<li>Claims barred by statute of limitations</li>
+<li>Fraudulent claims</li>
+</ul>
+<h3>Step 4: Determine If Claim Is Secured or Unsecured</h3>
+<p><strong>Affects priority of payment.</strong></p>
+<p><strong>Secured claims:</strong></p>
+<ul>
+<li>Check if security interest is valid</li>
+<li>Verify lien was properly recorded</li>
+<li>Determine value of collateral</li>
+</ul>
+<h3>Step 5: Calculate Amount Owed</h3>
+<p><strong>For claims with interest:</strong></p>
+<ul>
+<li>Confirm interest rate is valid</li>
+<li>Calculate interest through date of payment</li>
+<li>Determine if pre-petition interest applies</li>
+</ul>
+<h3>Step 6: Make Decision</h3>
+<p><strong>Executor must decide:</strong></p>
+<ul>
+<li>Allow claim in full</li>
+<li>Allow claim in part</li>
+<li>Reject claim</li>
+<li>Negotiate compromise</li>
+</ul>
+<h2>Allowing Claims</h2>
+<p><strong>California Probate Code Section 9250</strong></p>
+<h3>When to Allow Claims</h3>
+<p><strong>Allow claim if:</strong></p>
+<ul>
+<li>Timely filed</li>
+<li>Properly documented</li>
+<li>Valid debt actually owed</li>
+<li>Amount is accurate</li>
+<li>Debt is enforceable</li>
+</ul>
+<h3>How to Allow Claims</h3>
+<p><strong>File with court:</strong> Allowance of Creditor's Claim (Form DE-174)</p>
+<p><strong>Effect:</strong> Claim becomes allowed claim against estate, must be paid according to priority rules.</p>
+<p><strong>Executor discretion:</strong> Can allow without court approval for most claims.</p>
+<h2>Rejecting Claims</h2>
+<p><strong>California Probate Code Section 9250</strong></p>
+<h3>When to Reject Claims</h3>
+<p><strong>Reject claim if:</strong></p>
+<ul>
+<li>Filed late</li>
+<li>Not properly documented</li>
+<li>Invalid debt</li>
+<li>Amount incorrect</li>
+<li>Debt not enforceable</li>
+<li>Claim fraudulent</li>
+<li>Statute of limitations expired</li>
+</ul>
+<h3>How to Reject Claims</h3>
+<p><strong>File with court:</strong> Rejection of Creditor's Claim (Form DE-174)</p>
+<p><strong>Serve creditor</strong> with copy of rejection.</p>
+<p><strong>Effect:</strong></p>
+<ul>
+<li>Creditor cannot be paid from estate</li>
+<li>Creditor can sue estate to establish claim (must file lawsuit within 90 days of rejection)</li>
+</ul>
+<h3>Creditor's Options After Rejection</h3>
+<p><strong>If claim rejected, creditor must:</strong></p>
+<p><strong>File lawsuit within 90 days</strong> of rejection notice OR claim is barred forever.</p>
+<p><strong>Lawsuit is against:</strong></p>
+<ul>
+<li>The estate (not executor personally)</li>
+<li>Determines if claim is valid</li>
+</ul>
+<p><strong>If creditor doesn't sue within 90 days:</strong> Claim is barred permanently.</p>
+<h2>What If You're Not Sure About a Claim?</h2>
+<h3>Option 1: Compromise</h3>
+<p><strong>California Probate Code Section 9600</strong></p>
+<p><strong>Executor can negotiate settlement:</strong></p>
+<ul>
+<li>Propose partial payment</li>
+<li>Creditor agrees to accept less</li>
+<li>File Compromise of Creditor's Claim with court</li>
+<li>Requires court approval</li>
+</ul>
+<p><strong>When useful:</strong></p>
+<ul>
+<li>Claim amount is disputed</li>
+<li>Validity is questionable</li>
+<li>Cost of litigation would be high</li>
+<li>Compromise serves estate interests</li>
+</ul>
+<h3>Option 2: Seek Court Instructions</h3>
+<p><strong>California Probate Code Section 9391</strong></p>
+<p><strong>Petition for court to:</strong></p>
+<ul>
+<li>Determine validity of claim</li>
+<li>Determine amount owed</li>
+<li>Give executor direction</li>
+</ul>
+<p><strong>Protects executor</strong> by getting court ruling before paying or rejecting.</p>
+<h3>Option 3: Allow Subject to Later Challenge</h3>
+<p><strong>Can allow claim provisionally</strong> while investigating further.</p>
+<p><strong>But:</strong> Once allowed, harder to undo.</p>
+<h2>Priority of Payment</h2>
+<p><strong>California Probate Code Section 11420</strong></p>
+<p>When estate has insufficient funds to pay all claims, California law sets payment priority:</p>
+<h3>Priority Order</h3>
+<p><strong>1. Funeral, last illness, and probate administration expenses</strong></p>
+<ul>
+<li>Funeral costs</li>
+<li>Final medical bills</li>
+<li>Probate attorney fees</li>
+<li>Executor fees</li>
+<li>Court costs</li>
+</ul>
+<p><strong>2. Federal taxes</strong></p>
+<p><strong>3. Expenses of family allowance</strong> (if granted)</p>
+<p><strong>4. Secured debts</strong> (to extent of collateral value)</p>
+<p><strong>5. State and local taxes</strong></p>
+<p><strong>6. Judgments against decedent</strong></p>
+<p><strong>7. All other debts</strong> (credit cards, personal loans, medical bills, etc.)</p>
+<p><strong>Within each class:</strong> Claims paid proportionally if insufficient funds.</p>
+<p><strong>Example:</strong>
+$20,000 available for Class 7 debts.</p>
+<ul>
+<li>Credit card #1 claim: $30,000</li>
+<li>Credit card #2 claim: $20,000</li>
+<li>Total claims: $50,000</li>
+</ul>
+<p>Each gets 40% of their claim:</p>
+<ul>
+<li>Credit card #1: $12,000</li>
+<li>Credit card #2: $8,000</li>
+</ul>
+<h2>Insolvent Estates</h2>
+<p><strong>Insolvent estate:</strong> Debts exceed assets.</p>
+<h3>What Happens</h3>
+<p><strong>Not all creditors will be paid in full.</strong></p>
+<p><strong>Executor must:</strong></p>
+<ol>
+<li>Pay claims in statutory priority order</li>
+<li>Within each priority class, pay proportionally</li>
+<li>Lower priority claims may receive nothing</li>
+</ol>
+<p><strong>Beneficiaries:</strong> Receive nothing (debts must be paid first).</p>
+<h3>Notice of Insolvency</h3>
+<p><strong>If estate appears insolvent:</strong></p>
+<p><strong>Executor should:</strong></p>
+<ul>
+<li>Inform creditors</li>
+<li>Consider petition for early distribution to certain creditors</li>
+<li>Get court approval for payment plan</li>
+<li>Ensure proper priority order</li>
+</ul>
+<h3>Executor Protection</h3>
+<p><strong>Not executor's fault estate is insolvent.</strong></p>
+<p><strong>Executor protected if:</strong></p>
+<ul>
+<li>Followed proper procedures</li>
+<li>Paid in correct priority order</li>
+<li>Didn't prefer one creditor over equal-priority creditor</li>
+</ul>
+<h2>Special Types of Claims</h2>
+<h3>Tax Claims</h3>
+<p><strong>Federal estate taxes:</strong></p>
+<ul>
+<li>Due 9 months after death</li>
+<li>Extensions available</li>
+<li>Penalty and interest if late</li>
+</ul>
+<p><strong>Income taxes:</strong></p>
+<ul>
+<li>Final return due</li>
+<li>Estate income tax returns</li>
+<li>Must file all required returns</li>
+</ul>
+<p><strong>Property taxes:</strong></p>
+<ul>
+<li>Continue to accrue</li>
+<li>Must be paid to avoid liens</li>
+</ul>
+<h3>Medical Bills</h3>
+<p><strong>Final illness expenses:</strong></p>
+<ul>
+<li>High priority (Class 1)</li>
+<li>Medi-Cal recovery claims (special rules)</li>
+</ul>
+<h3>Credit Card Debt</h3>
+<p><strong>Unsecured, Class 7 priority</strong></p>
+<p><strong>Not personally liable</strong> unless:</p>
+<ul>
+<li>You were joint account holder (not authorized user)</li>
+<li>You signed for debt</li>
+</ul>
+<h3>Mortgage Debt</h3>
+<p><strong>Secured by property</strong></p>
+<p><strong>Options:</strong></p>
+<ul>
+<li>Keep making payments (if estate can afford)</li>
+<li>Sell property and pay off mortgage</li>
+<li>Let beneficiary assume mortgage</li>
+<li>Let lender foreclose (if underwater)</li>
+</ul>
+<h3>Business Debts</h3>
+<p><strong>If decedent had business:</strong></p>
+<ul>
+<li>Separate claims for business debts</li>
+<li>May need to wind down business</li>
+<li>Notify business creditors</li>
+</ul>
+<h2>Executor Liability for Creditor Claims</h2>
+<h3>When Executor Is Personally Liable</h3>
+<p><strong>Executor can be personally liable if:</strong></p>
+<ol>
+<li>
+<p><strong>Pays claims out of priority order</strong></p>
+<ul>
+<li>Lower priority creditor paid before higher priority</li>
+<li>Higher priority creditor can sue executor personally</li>
+</ul>
+</li>
+<li>
+<p><strong>Pays invalid claim</strong></p>
+<ul>
+<li>Should have rejected claim</li>
+<li>Estate harmed by improper payment</li>
+</ul>
+</li>
+<li>
+<p><strong>Fails to notify known creditors</strong></p>
+<ul>
+<li>Creditor's claim is barred</li>
+<li>Creditor can sue executor personally</li>
+</ul>
+</li>
+<li>
+<p><strong>Distributes assets before paying claims</strong></p>
+<ul>
+<li>Creditors can pursue executor personally</li>
+<li>Or pursue beneficiaries who received distributions</li>
+</ul>
+</li>
+<li>
+<p><strong>Fails to properly investigate claims</strong></p>
+<ul>
+<li>Allows fraudulent claims</li>
+<li>Fails to reject invalid claims</li>
+</ul>
+</li>
+</ol>
+<h3>How Executors Protect Themselves</h3>
+<p><strong>Best practices:</strong></p>
+<ol>
+<li><strong>Keep detailed records</strong> of all claim reviews</li>
+<li><strong>Get attorney advice</strong> on questionable claims</li>
+<li><strong>File inventory promptly</strong> to start claim period</li>
+<li><strong>Send notices to all known creditors</strong></li>
+<li><strong>Don't distribute estate</strong> until claim period expires and claims are paid</li>
+<li><strong>Follow priority order strictly</strong></li>
+<li><strong>Reject questionable claims</strong> (let creditor sue if they want)</li>
+<li><strong>Get court approval</strong> for compromises</li>
+<li><strong>Consider probate bond</strong> (protects against errors)</li>
+</ol>
+<h2>Frequently Asked Questions</h2>
+<h3>What if I don't know about a debt until after the 4-month period?</h3>
+<p>Late claims can sometimes be filed, but generally claims are barred after the deadline. This protects estates from indefinite liability.</p>
+<h3>Can beneficiaries be liable for debts?</h3>
+<p>Generally no, unless they received property that should have been used to pay creditors. Even then, liability is limited to what they received.</p>
+<h3>What if estate can't pay all debts?</h3>
+<p>Estate is insolvent. Pay in priority order, proportionally within each class. Lower priority creditors may receive nothing.</p>
+<h3>Do I have to pay debts that are past the statute of limitations?</h3>
+<p>No. These debts are unenforceable. Reject any claim for time-barred debt.</p>
+<h3>What about joint debts?</h3>
+<p>If decedent was jointly liable, creditor can pursue co-debtor. Co-debtor may have claim against estate for contribution.</p>
+<h3>Should I pay funeral expenses before filing probate?</h3>
+<p>Yes, funeral expenses have highest priority and should be paid promptly. Keep receipts for reimbursement.</p>
+<h3>What if creditor threatens me personally?</h3>
+<p>Refer them to estate's attorney. You're generally not personally liable for estate debts.</p>
+<h3>Can I negotiate debt settlements?</h3>
+<p>Yes, with court approval. Compromises must serve estate's best interests.</p>
+<h2>Related Articles</h2>
+<p><strong>Essential guides for California executors:</strong></p>
+<ul>
+<li>
+<p><strong><a href="/blog/executor-duties-california/">California Executor Duties &#x26; Responsibilities</a></strong> - Complete checklist including creditor notification duties.</p>
+</li>
+<li>
+<p><strong><a href="/blog/how-long-does-probate-take-california/">How Long Does Probate Take in California?</a></strong> - 4-month creditor period is part of the timeline.</p>
+</li>
+<li>
+<p><strong><a href="/blog/how-much-does-probate-cost-california/">How Much Does Probate Cost in California?</a></strong> - Administration costs have first priority in payment.</p>
+</li>
+<li>
+<p><strong><a href="/blog/executor-fees-california/">Executor Fees California</a></strong> - Executor compensation paid from estate after creditor claims.</p>
+</li>
+<li>
+<p><strong><a href="/blog/letters-testamentary-california/">Letters Testamentary California</a></strong> - Authority needed to handle creditor claims.</p>
+</li>
+</ul>
+<h2>Get Professional Help with Creditor Claims</h2>
+<p>Handling creditor claims properly is critical to avoid personal liability as executor. One mistake in priority order or paying an invalid claim can result in personal financial responsibility.</p>
+<p><strong>Call (818) 291-6217</strong> to schedule a consultation at my Glendale office, or complete our <a href="/probate-intake-form.html">probate questionnaire</a> to discuss your probate administration.</p>
+<p>As a California probate attorney serving Los Angeles County, I guide executors through the entire creditor claims process, review questionable claims, handle rejections and compromises, ensure proper priority order, and protect executors from personal liability.</p>
+<hr>
+<p><strong>About the Author</strong></p>
+<p>Rozsa Gyene (State Bar No. 208356) is a California estate planning and probate attorney serving Glendale, Burbank, Pasadena, and throughout Los Angeles County. With extensive experience advising executors on creditor claims and protecting them from personal liability, Rozsa provides practical guidance on navigating California's complex creditor claims procedures.</p>
+<hr>
+<p><em>Disclaimer: This article provides general information about California probate creditor claims and should not be construed as legal advice. Every situation is unique. Creditor claims procedures and deadlines change, and this article reflects California law as of January 2025. Consult with a qualified California probate attorney about your specific circumstances.</em></p>
+a:T4e3,{"@context":"https://schema.org","@type":"Article","headline":"Creditor Claims in California Probate: Complete Guide for Executors","description":"California probate creditor claims guide: 4-month deadline, priority rules, executor duties, rejecting invalid claims, insolvent estates. Protect yourself.","image":"https://livingtrust-attorneys.com/images/blog/probate-court.jpg","articleSection":"Probate","keywords":"creditor claims, California probate, executor duties, probate debts, estate administration, Glendale attorney","wordCount":2156,"author":{"@type":"Person","name":"Rozsa Gyene","jobTitle":"Estate Planning Attorney","credentials":"California State Bar #208356","url":"https://livingtrust-attorneys.com/about.html"},"publisher":{"@type":"LegalService","name":"Law Offices of Rozsa Gyene","url":"https://livingtrust-attorneys.com","telephone":"818-291-6217","address":{"@type":"PostalAddress","streetAddress":"450 N Brand Blvd, Suite 600","addressLocality":"Glendale","addressRegion":"CA","postalCode":"91203"}},"datePublished":"2025-10-25","dateModified":"2025-12-24","mainEntityOfPage":{"@type":"WebPage","@id":"https://livingtrust-attorneys.com/blog/creditor-claims-probate-california"},"inLanguage":"en-US","isAccessibleForFree":true}b:T767,{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What if I don't know about a debt until after the 4-month period?","acceptedAnswer":{"@type":"Answer","text":"Late claims can sometimes be filed, but generally claims are barred after the deadline. This protects estates from indefinite liability."}},{"@type":"Question","name":"Can beneficiaries be liable for debts?","acceptedAnswer":{"@type":"Answer","text":"Generally no, unless they received property that should have been used to pay creditors. Even then, liability is limited to what they received."}},{"@type":"Question","name":"What if estate can't pay all debts?","acceptedAnswer":{"@type":"Answer","text":"Estate is insolvent. Pay in priority order, proportionally within each class. Lower priority creditors may receive nothing."}},{"@type":"Question","name":"Do I have to pay debts that are past the statute of limitations?","acceptedAnswer":{"@type":"Answer","text":"No. These debts are unenforceable. Reject any claim for time-barred debt."}},{"@type":"Question","name":"What about joint debts?","acceptedAnswer":{"@type":"Answer","text":"If decedent was jointly liable, creditor can pursue co-debtor. Co-debtor may have claim against estate for contribution."}},{"@type":"Question","name":"Should I pay funeral expenses before filing probate?","acceptedAnswer":{"@type":"Answer","text":"Yes, funeral expenses have highest priority and should be paid promptly. Keep receipts for reimbursement."}},{"@type":"Question","name":"What if creditor threatens me personally?","acceptedAnswer":{"@type":"Answer","text":"Refer them to estate's attorney. You're generally not personally liable for estate debts."}},{"@type":"Question","name":"Can I negotiate debt settlements?","acceptedAnswer":{"@type":"Answer","text":"Yes, with court approval. Compromises must serve estate's best interests."}}]}2:["$","div",null,{"className":"min-h-screen","children":[["$","div",null,{"className":"bg-primary-blue/20 py-4 no-print","children":["$","div",null,{"className":"container-custom","children":["$","nav",null,{"aria-label":"Breadcrumb","className":"flex items-center gap-2 text-sm text-white/70","children":[["$","a",null,{"href":"/","className":"hover:text-white transition-colors","children":"Home"}],["$","span",null,{"children":"/"}],["$","a",null,{"href":"/blog","className":"hover:text-white transition-colors","children":"Blog"}],["$","span",null,{"children":"/"}],["$","span",null,{"className":"text-white","children":"Probate"}]]}]}]}],["$","section",null,{"className":"section-padding bg-gradient-to-b from-transparent to-primary-blue/20","children":["$","div",null,{"className":"container-custom","children":["$","div",null,{"className":"max-w-4xl mx-auto text-center","children":[["$","div",null,{"className":"mb-6","children":["$","span",null,{"className":"inline-block bg-accent-gold text-white px-4 py-2 rounded-full text-sm font-semibold","children":"Probate"}]}],["$","h1",null,{"className":"font-playfair text-4xl md:text-5xl lg:text-6xl text-white mb-6 text-shadow-lg leading-tight","children":"Creditor Claims in California Probate: Complete Guide for Executors"}],["$","div",null,{"className":"flex flex-wrap items-center justify-center gap-6 text-white/80 mb-8","children":[["$","span",null,{"className":"flex items-center gap-2","children":[["$","svg",null,{"className":"w-5 h-5","fill":"currentColor","viewBox":"0 0 20 20","children":["$","path",null,{"fillRule":"evenodd","d":"M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z","clipRule":"evenodd"}]}],"Rozsa Gyene"]}],["$","span",null,{"className":"flex items-center gap-2","children":[["$","svg",null,{"className":"w-5 h-5","fill":"currentColor","viewBox":"0 0 20 20","children":["$","path",null,{"fillRule":"evenodd","d":"M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z","clipRule":"evenodd"}]}],"October 25, 2025"]}],["$","span",null,{"className":"flex items-center gap-2","children":[["$","svg",null,{"className":"w-5 h-5","fill":"currentColor","viewBox":"0 0 20 20","children":["$","path",null,{"fillRule":"evenodd","d":"M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z","clipRule":"evenodd"}]}],12," min read"]}]]}],null]}]}]}],["$","section",null,{"className":"section-padding","children":["$","div",null,{"className":"container-custom","children":[["$","div",null,{"className":"grid lg:grid-cols-[1fr_300px] gap-8 mb-12","children":[["$","div",null,{"children":[["$","div",null,{"className":"\n      glass-card\n      p-8\n      mb-8\n    ","children":["$","div",null,{"className":"prose-blog","dangerouslySetInnerHTML":{"__html":"$7"}}]}],["$","div",null,{"className":"mb-8","children":["$","div",null,{"className":"\n      glass-card\n      p-4\n      \n    ","children":["$","div",null,{"className":"flex flex-wrap items-center gap-3","children":[["$","span",null,{"className":"text-white/70 font-semibold","children":"Tags:"}],[["$","span","creditor claims",{"className":"bg-white/10 text-white px-3 py-1 rounded-full text-sm border border-white/20","children":["#","creditor claims"]}],["$","span","California probate",{"className":"bg-white/10 text-white px-3 py-1 rounded-full text-sm border border-white/20","children":["#","California probate"]}],["$","span","executor duties",{"className":"bg-white/10 text-white px-3 py-1 rounded-full text-sm border border-white/20","children":["#","executor duties"]}],["$","span","probate debts",{"className":"bg-white/10 text-white px-3 py-1 rounded-full text-sm border border-white/20","children":["#","probate debts"]}],["$","span","estate administration",{"className":"bg-white/10 text-white px-3 py-1 rounded-full text-sm border border-white/20","children":["#","estate administration"]}],["$","span","Glendale attorney",{"className":"bg-white/10 text-white px-3 py-1 rounded-full text-sm border border-white/20","children":["#","Glendale attorney"]}]]]}]}]}],["$","div",null,{"className":"mb-8","children":["$","$L8",null,{"title":"Creditor Claims in California Probate: Complete Guide for Executors","slug":"creditor-claims-probate-california"}]}],["$","div",null,{"style":{"margin":"20px auto","padding":"15px 20px","background":"linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%)","borderLeft":"4px solid #8a6a2f","borderRadius":"8px","maxWidth":"800px"},"children":["$","p",null,{"style":{"margin":0,"fontSize":"14px","color":"#2c3e50","lineHeight":1.6},"children":[["$","strong",null,{"style":{"color":"#1e3a5f"},"children":"Written by Rozsa Gyene, Esq."}],["$","br",null,{}],"California State Bar #208356 | 25+ Years Probate & Estate Experience",["$","br",null,{}],["$","em",null,{"style":{"color":"#6c757d"},"children":"Last Updated: November 28, 2025"}]]}]}]]}],["$","aside",null,{"className":"no-print","children":["$","aside",null,{"className":"no-print","children":["$","div",null,{"className":"\n      glass-card\n      p-8\n      sticky top-24\n    ","children":["$","div",null,{"className":"text-center","children":[["$","div",null,{"className":"text-4xl mb-4","children":"⚖️"}],["$","h3",null,{"className":"font-playfair text-2xl text-white mb-3","children":"Need Legal Guidance?"}],["$","p",null,{"className":"text-white/90 mb-6 leading-relaxed","children":"Schedule a free consultation with Attorney Rozsa Gyene to discuss your estate planning needs."}],["$","a",null,{"href":"tel:8182916217","className":"block w-full bg-accent-gold text-white py-3 px-6 rounded-full font-semibold hover:bg-[#b8982f] transition-all mb-3","children":"📞 (818) 291-6217"}],["$","a",null,{"href":"https://portal.livingtrust-attorneys.com/book","className":"block w-full bg-white/10 text-white py-3 px-6 rounded-full font-semibold hover:bg-white/20 transition-all border border-white/30","target":"_blank","rel":"noopener noreferrer","children":"Book Consultation"}],["$","div",null,{"className":"mt-6 pt-6 border-t border-white/10","children":[["$","p",null,{"className":"text-white/70 text-sm mb-2","children":["$","strong",null,{"className":"text-white","children":"Office Location:"}]}],["$","p",null,{"className":"text-white/70 text-sm","children":["450 N Brand Blvd Ste 600",["$","br",null,{}],"Glendale, CA 91203"]}]]}],["$","div",null,{"className":"mt-4 pt-4 border-t border-white/10","children":["$","div",null,{"className":"flex items-center justify-center gap-2 text-accent-gold text-sm","children":[["$","svg",null,{"className":"w-5 h-5","fill":"currentColor","viewBox":"0 0 20 20","children":["$","path",null,{"fillRule":"evenodd","d":"M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z","clipRule":"evenodd"}]}],["$","span",null,{"className":"font-semibold","children":"25+ Years Experience"}]]}]}]]}]}]}]}]]}],["$","section",null,{"className":"mt-16","children":[["$","h2",null,{"className":"font-playfair text-3xl text-white mb-8 text-center","children":"Related Articles"}],["$","div",null,{"className":"grid md:grid-cols-3 gap-6","children":[["$","$L9","probate-real-estate-california",{"href":"/probate-real-estate-california","className":"block","children":["$","div",null,{"className":"\n      glass-card-hover\n      p-8\n      h-full flex flex-col\n    ","children":[["$","div",null,{"className":"mb-3","children":["$","span",null,{"className":"inline-block bg-accent-gold/20 text-accent-gold px-3 py-1 rounded-full text-xs font-semibold border border-accent-gold/30","children":"Probate"}]}],["$","h3",null,{"className":"font-playfair text-xl text-white mb-3 leading-tight flex-1","children":"Probate Real Estate California: Complete Guide to Handling Property"}],["$","div",null,{"className":"flex items-center justify-between text-sm text-white/60 pt-3 border-t border-white/10","children":[["$","span",null,{"children":"Oct 25, 2025"}],["$","span",null,{"children":[13," min"]}]]}]]}]}],["$","$L9","executor-duties-california",{"href":"/executor-duties-california","className":"block","children":["$","div",null,{"className":"\n      glass-card-hover\n      p-8\n      h-full flex flex-col\n    ","children":[["$","div",null,{"className":"mb-3","children":["$","span",null,{"className":"inline-block bg-accent-gold/20 text-accent-gold px-3 py-1 rounded-full text-xs font-semibold border border-accent-gold/30","children":"Probate"}]}],["$","h3",null,{"className":"font-playfair text-xl text-white mb-3 leading-tight flex-1","children":"Executor Duties & Responsibilities in California | Complete Checklist"}],["$","div",null,{"className":"flex items-center justify-between text-sm text-white/60 pt-3 border-t border-white/10","children":[["$","span",null,{"children":"Oct 23, 2025"}],["$","span",null,{"children":[23," min"]}]]}]]}]}],["$","$L9","california-probate-complete-guide-2025",{"href":"/california-probate-complete-guide-2025","className":"block","children":["$","div",null,{"className":"\n      glass-card-hover\n      p-8\n      h-full flex flex-col\n    ","children":[["$","div",null,{"className":"mb-3","children":["$","span",null,{"className":"inline-block bg-accent-gold/20 text-accent-gold px-3 py-1 rounded-full text-xs font-semibold border border-accent-gold/30","children":"Probate"}]}],["$","h3",null,{"className":"font-playfair text-xl text-white mb-3 leading-tight flex-1","children":"California Probate Fees 2025 | Los Angeles Probate Cost Calculator"}],["$","div",null,{"className":"flex items-center justify-between text-sm text-white/60 pt-3 border-t border-white/10","children":[["$","span",null,{"children":"Jan 1, 2025"}],["$","span",null,{"children":[9," min"]}]]}]]}]}]]}]]}]]}]}],["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"$a"}}],["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"$b"}}]]}]
+6:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"Creditor Claims in California Probate: Complete Guide for Executors | Law Offices of Rozsa Gyene"}],["$","meta","3",{"name":"description","content":"California probate creditor claims guide: 4-month deadline, priority rules, executor duties, rejecting invalid claims, insolvent estates. Protect yourself."}],["$","meta","4",{"name":"author","content":"Rozsa Gyene"}],["$","meta","5",{"name":"keywords","content":"creditor claims,California probate,executor duties,probate debts,estate administration,Glendale attorney,Probate,estate planning,Rozsa Gyene,Glendale attorney"}],["$","link","6",{"rel":"canonical","href":"https://livingtrust-attorneys.com/blog/creditor-claims-probate-california"}],["$","meta","7",{"property":"og:title","content":"Creditor Claims in California Probate: Complete Guide for Executors"}],["$","meta","8",{"property":"og:description","content":"California probate creditor claims guide: 4-month deadline, priority rules, executor duties, rejecting invalid claims, insolvent estates. Protect yourself."}],["$","meta","9",{"property":"og:type","content":"article"}],["$","meta","10",{"property":"article:published_time","content":"2025-10-25"}],["$","meta","11",{"property":"article:author","content":"Rozsa Gyene"}],["$","meta","12",{"property":"article:tag","content":"creditor claims"}],["$","meta","13",{"property":"article:tag","content":"California probate"}],["$","meta","14",{"property":"article:tag","content":"executor duties"}],["$","meta","15",{"property":"article:tag","content":"probate debts"}],["$","meta","16",{"property":"article:tag","content":"estate administration"}],["$","meta","17",{"property":"article:tag","content":"Glendale attorney"}],["$","meta","18",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","19",{"name":"twitter:title","content":"Estate Planning & Trust Law Blog"}],["$","meta","20",{"name":"twitter:description","content":"Expert legal insights from Rozsa Gyene"}],["$","meta","21",{"name":"next-size-adjust"}]]
+1:null

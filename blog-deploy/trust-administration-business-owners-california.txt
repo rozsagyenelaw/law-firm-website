@@ -1,0 +1,740 @@
+3:I[4707,[],""]
+5:I[6423,[],""]
+4:["slug","trust-administration-business-owners-california","d"]
+0:["XNl8EPT-Q30wSTcV-gnhM",[[["",{"children":[["slug","trust-administration-business-owners-california","d"],{"children":["__PAGE__?{\"slug\":\"trust-administration-business-owners-california\"}",{}]}]},"$undefined","$undefined",true],["",{"children":[["slug","trust-administration-business-owners-california","d"],{"children":["__PAGE__",{},[["$L1","$L2",null],null],null]},[null,["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","$4","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]],null]},[[[["$","link","0",{"rel":"stylesheet","href":"/blog/_next/static/css/76af30a148da119e.css","precedence":"next","crossOrigin":"$undefined"}]],["$","html",null,{"lang":"en","className":"__variable_fbaf84 __variable_774662","children":[["$","head",null,{"children":[["$","link",null,{"rel":"icon","href":"/favicon.ico"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}]]}],["$","body",null,{"className":"bg-gradient-blue min-h-screen","children":[["$","div",null,{"className":"bg-primary-blue text-white py-2.5 text-sm","children":["$","div",null,{"className":"container-custom flex justify-between items-center","children":[["$","div",null,{"className":"flex items-center gap-6","children":["$","span",null,{"children":"Over 25 Years Serving Los Angeles County"}]}],["$","a",null,{"href":"tel:8182916217","className":"text-accent-gold font-semibold hover:underline","children":"(818) 291-6217"}]]}]}],["$","nav",null,{"className":"bg-transparent py-5","children":["$","div",null,{"className":"container-custom flex justify-between items-center","children":[["$","a",null,{"href":"https://livingtrust-attorneys.com","className":"flex items-center gap-3 text-white no-print","children":["$","div",null,{"className":"flex flex-col","children":[["$","span",null,{"className":"font-playfair text-xl font-bold text-shadow-md","children":"Law Offices of Rozsa Gyene"}],["$","span",null,{"className":"text-sm text-accent-gold","children":"Estate Planning & Trust Law Blog"}]]}]}],["$","div",null,{"className":"flex items-center gap-4 no-print","children":[["$","a",null,{"href":"https://livingtrust-attorneys.com","className":"text-white hover:text-accent-gold transition-colors font-medium","children":"Home"}],["$","a",null,{"href":"/","className":"text-accent-gold font-semibold","children":"Blog"}],["$","a",null,{"href":"https://portal.livingtrust-attorneys.com/book","className":"btn-primary text-base py-3 px-6","target":"_blank","rel":"noopener noreferrer","children":"Free Consultation"}]]}]]}]}],["$","main",null,{"className":"min-h-screen","children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[]}]}],["$","footer",null,{"className":"bg-primary-blue text-white mt-20 no-print","children":["$","div",null,{"className":"container-custom py-12","children":[["$","div",null,{"className":"grid md:grid-cols-3 gap-8","children":[["$","div",null,{"children":[["$","h3",null,{"className":"font-playfair text-2xl mb-4","children":"Law Offices of Rozsa Gyene"}],["$","p",null,{"className":"text-white/80 mb-4","children":"Over 25 years of experience serving Los Angeles County families with comprehensive estate planning and trust services."}]]}],["$","div",null,{"children":[["$","h4",null,{"className":"font-semibold text-lg mb-4 text-accent-gold","children":"Contact"}],["$","div",null,{"className":"space-y-2 text-white/80","children":[["$","p",null,{"children":"450 N Brand Blvd Ste 600"}],["$","p",null,{"children":"Glendale, CA 91203"}],["$","p",null,{"className":"mt-4","children":["$","a",null,{"href":"tel:8182916217","className":"text-accent-gold hover:underline","children":"(818) 291-6217"}]}]]}]]}],["$","div",null,{"children":[["$","h4",null,{"className":"font-semibold text-lg mb-4 text-accent-gold","children":"Practice Areas"}],["$","ul",null,{"className":"space-y-2 text-white/80","children":[["$","li",null,{"children":["$","a",null,{"href":"https://livingtrust-attorneys.com/living-trusts.html","className":"hover:text-accent-gold transition-colors","children":"Living Trusts"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://livingtrust-attorneys.com/probate.html","className":"hover:text-accent-gold transition-colors","children":"Probate"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://livingtrust-attorneys.com/trust-administration.html","className":"hover:text-accent-gold transition-colors","children":"Trust Administration"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://livingtrust-attorneys.com/conservatorship.html","className":"hover:text-accent-gold transition-colors","children":"Conservatorship"}]}]]}]]}]]}],["$","div",null,{"className":"border-t border-white/10 mt-8 pt-8 text-center text-white/70 text-sm","children":["$","p",null,{"children":["© ",2025," Law Offices of Rozsa Gyene. All rights reserved."]}]}]]}]}]]}]]}]],null],null],["$L6",null]]]]
+8:I[2578,["972","static/chunks/972-6296c3e7f99d3665.js","42","static/chunks/app/%5Bslug%5D/page-27e08b5d2052b651.js"],"default"]
+9:I[2972,["972","static/chunks/972-6296c3e7f99d3665.js","42","static/chunks/app/%5Bslug%5D/page-27e08b5d2052b651.js"],""]
+7:T706b,<h1>Trust Administration for Business Owners: Handling Business Interests in California</h1>
+<p>When a trust holds interests in a business—whether a sole proprietorship, partnership, LLC, or corporation—trust administration becomes significantly more complex. Business interests require specialized knowledge about valuation, operating agreements, buy-sell provisions, ongoing management, and tax implications.</p>
+<p>This guide helps trustees navigate the unique challenges of administering business interests held in California trusts.</p>
+<h2>Types of Business Interests in Trusts</h2>
+<h3>Sole Proprietorships</h3>
+<p><strong>What it is:</strong>
+Unincorporated business owned by individual, not a separate legal entity.</p>
+<p><strong>Trust administration challenges:</strong></p>
+<ul>
+<li>Business dies with owner (no continuing entity)</li>
+<li>Assets must be liquidated or transferred</li>
+<li>Ongoing operations difficult</li>
+<li>Personal liability concerns</li>
+<li>No formal valuation mechanism</li>
+</ul>
+<p><strong>Typical actions:</strong></p>
+<ul>
+<li>Close business and liquidate assets</li>
+<li>Sell business as going concern</li>
+<li>Transfer assets to beneficiary to continue operating</li>
+</ul>
+<h3>Partnerships (General and Limited)</h3>
+<p><strong>General Partnership:</strong></p>
+<ul>
+<li>Two or more owners sharing profits, losses, and management</li>
+<li>Partnership agreement governs transfer rights</li>
+<li>Partners have personal liability</li>
+</ul>
+<p><strong>Limited Partnership:</strong></p>
+<ul>
+<li>General partners (manage, liable)</li>
+<li>Limited partners (passive investors, limited liability)</li>
+<li>Trust typically holds limited partnership interest</li>
+</ul>
+<p><strong>Key issues:</strong></p>
+<ul>
+<li>Partnership agreement may restrict transfers</li>
+<li>May require partner consent for transfer</li>
+<li>Ongoing management decisions</li>
+<li>Valuation complexities</li>
+<li>Income distributions during administration</li>
+</ul>
+<h3>Limited Liability Companies (LLCs)</h3>
+<p><strong>Most common structure for family businesses</strong></p>
+<p><strong>Single-member LLC:</strong></p>
+<ul>
+<li>Trust owns 100% of LLC</li>
+<li>Easier to manage and transfer</li>
+<li>Operating agreement still governs</li>
+</ul>
+<p><strong>Multi-member LLC:</strong></p>
+<ul>
+<li>Trust owns percentage interest</li>
+<li>Other members may have rights</li>
+<li>Operating agreement controls transfer rights</li>
+<li>May have buy-sell provisions triggered by death</li>
+</ul>
+<p><strong>Key advantages:</strong></p>
+<ul>
+<li>Liability protection continues</li>
+<li>Business operations continue uninterrupted</li>
+<li>Separate legal entity</li>
+<li>Flexible management structure</li>
+</ul>
+<h3>Corporations (C-Corp and S-Corp)</h3>
+<p><strong>C-Corporation:</strong></p>
+<ul>
+<li>Separate taxpayer</li>
+<li>Double taxation (corporate + individual)</li>
+<li>Shares freely transferable (unless restricted)</li>
+<li>May have shareholder agreements</li>
+</ul>
+<p><strong>S-Corporation:</strong></p>
+<ul>
+<li>Pass-through taxation</li>
+<li>Stricter ownership requirements</li>
+<li>Trust must be eligible shareholder</li>
+<li>May lose S-election if improper trust type</li>
+</ul>
+<p><strong>Key issues:</strong></p>
+<ul>
+<li>Shareholder agreements may restrict transfers</li>
+<li>Buy-sell provisions often triggered by death</li>
+<li>Valuation for estate tax purposes</li>
+<li>Corporate formalities must continue</li>
+</ul>
+<h2>Step 1: Identify and Secure Business Interests</h2>
+<h3>Immediate Actions</h3>
+<p><strong>Within first week:</strong></p>
+<ol>
+<li>
+<p><strong>Locate all business documents:</strong></p>
+<ul>
+<li>Operating agreements / partnership agreements / bylaws</li>
+<li>Shareholder agreements / buy-sell agreements</li>
+<li>Tax returns (last 3 years)</li>
+<li>Financial statements</li>
+<li>Business bank account information</li>
+<li>Membership certificates or stock certificates</li>
+</ul>
+</li>
+<li>
+<p><strong>Notify business partners/co-owners:</strong></p>
+<ul>
+<li>Inform of settlor's death</li>
+<li>Confirm your authority as trustee</li>
+<li>Request copies of operating documents</li>
+<li>Discuss transition plan</li>
+</ul>
+</li>
+<li>
+<p><strong>Secure business assets:</strong></p>
+<ul>
+<li>Change locks if necessary</li>
+<li>Update bank signature cards</li>
+<li>Protect intellectual property</li>
+<li>Secure inventory and equipment</li>
+<li>Maintain insurance coverage</li>
+</ul>
+</li>
+<li>
+<p><strong>Review cash flow needs:</strong></p>
+<ul>
+<li>Immediate operating expenses</li>
+<li>Payroll obligations</li>
+<li>Accounts payable</li>
+<li>Loan payments</li>
+</ul>
+</li>
+</ol>
+<h3>Review Governing Documents</h3>
+<p><strong>Operating Agreement / Partnership Agreement:</strong></p>
+<p>Critical provisions to identify:</p>
+<table>
+<thead>
+<tr>
+<th>Provision</th>
+<th>What to Look For</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Transfer restrictions</td>
+<td>Can you transfer membership interest?</td>
+</tr>
+<tr>
+<td>Buy-sell triggers</td>
+<td>Is death a triggering event?</td>
+</tr>
+<tr>
+<td>Valuation method</td>
+<td>How is business valued?</td>
+</tr>
+<tr>
+<td>Right of first refusal</td>
+<td>Must you offer to other members first?</td>
+</tr>
+<tr>
+<td>Mandatory purchase</td>
+<td>Are other members required to buy?</td>
+</tr>
+<tr>
+<td>Payment terms</td>
+<td>Lump sum or installments?</td>
+</tr>
+<tr>
+<td>Management succession</td>
+<td>Who manages after death?</td>
+</tr>
+<tr>
+<td>Voting rights</td>
+<td>Does trust have voting rights?</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Shareholder Agreements:</strong></p>
+<p>Similar issues for corporations:</p>
+<ul>
+<li>Restrictions on stock transfer</li>
+<li>Buy-sell provisions</li>
+<li>Valuation formulas</li>
+<li>Right of first refusal</li>
+<li>Drag-along / tag-along rights</li>
+</ul>
+<h2>Step 2: Determine Trustee's Authority</h2>
+<h3>Review Trust Document</h3>
+<p><strong>Questions to answer:</strong></p>
+<ol>
+<li>
+<p><strong>Can you continue operating the business?</strong></p>
+<ul>
+<li>Some trusts require liquidation</li>
+<li>Others allow continued operation</li>
+<li>May have time limits</li>
+</ul>
+</li>
+<li>
+<p><strong>Do you have management authority?</strong></p>
+<ul>
+<li>Can you make business decisions?</li>
+<li>Are you limited to passive ownership?</li>
+<li>Must you appoint professional management?</li>
+</ul>
+</li>
+<li>
+<p><strong>Can you sell or transfer the business?</strong></p>
+<ul>
+<li>Does trust require distribution to specific beneficiary?</li>
+<li>Must you obtain beneficiary consent?</li>
+<li>Are there restrictions on sale?</li>
+</ul>
+</li>
+</ol>
+<h3>California Statutory Authority</h3>
+<p><strong>Probate Code §16200-16249</strong> grants trustees broad powers over trust property, including:</p>
+<ul>
+<li>Operating a business (§16249)</li>
+<li>Continuing existing business</li>
+<li>Incorporating, dissolving, or reorganizing business</li>
+<li>Voting shares</li>
+<li>Entering contracts on behalf of business</li>
+</ul>
+<p><strong>However:</strong> Trust document controls. Explicit restrictions in trust override statutory authority.</p>
+<h3>Operating Agreement Restrictions</h3>
+<p>Even if trust document allows business operations, the operating agreement may:</p>
+<ul>
+<li>Prohibit management by non-members</li>
+<li>Require unanimous consent for certain actions</li>
+<li>Trigger mandatory buyout upon member's death</li>
+<li>Restrict trustee's authority</li>
+</ul>
+<h2>Step 3: Obtain Professional Business Valuation</h2>
+<h3>Why Valuation Is Critical</h3>
+<p><strong>You need accurate valuation for:</strong></p>
+<ol>
+<li><strong>Estate tax purposes</strong> (if estate over $13.61M)</li>
+<li><strong>Capital gains basis</strong> for future sale</li>
+<li><strong>Equal distribution</strong> among beneficiaries</li>
+<li><strong>Buy-sell transactions</strong> if agreement triggered</li>
+<li><strong>Financial planning</strong> for trust administration</li>
+<li><strong>Defending against beneficiary disputes</strong></li>
+</ol>
+<h3>Valuation Methods</h3>
+<p><strong>Asset-based valuation:</strong></p>
+<ul>
+<li>Business value = assets minus liabilities</li>
+<li>Used for asset-heavy businesses</li>
+<li>Ignores earning potential</li>
+</ul>
+<p><strong>Income-based valuation:</strong></p>
+<ul>
+<li>Discounted cash flow analysis</li>
+<li>Capitalization of earnings</li>
+<li>Used for profitable, ongoing businesses</li>
+</ul>
+<p><strong>Market-based valuation:</strong></p>
+<ul>
+<li>Comparable company analysis</li>
+<li>Comparable transaction multiples</li>
+<li>Used when comparables exist</li>
+</ul>
+<h3>Valuation Discounts</h3>
+<p><strong>Minority interest discount:</strong>
+If trust owns less than 50%:</p>
+<ul>
+<li>No control over business decisions</li>
+<li>Cannot force sale or distributions</li>
+<li>Discount typically 20-40%</li>
+</ul>
+<p><strong>Lack of marketability discount:</strong>
+Private company interests are hard to sell:</p>
+<ul>
+<li>No public market</li>
+<li>Transfer restrictions</li>
+<li>Limited buyers</li>
+<li>Discount typically 20-35%</li>
+</ul>
+<p><strong>Example:</strong></p>
+<ul>
+<li>Pro-rata value of 30% interest: $1,000,000</li>
+<li>Minus minority discount (25%): -$250,000</li>
+<li>Minus marketability discount (30%): -$225,000</li>
+<li><strong>Fair market value: $525,000</strong></li>
+</ul>
+<p>These discounts can significantly reduce estate tax.</p>
+<h3>Hire Qualified Appraiser</h3>
+<p><strong>Qualifications to look for:</strong></p>
+<ul>
+<li>Accredited Senior Appraiser (ASA)</li>
+<li>Certified Valuation Analyst (CVA)</li>
+<li>Accredited in Business Valuation (ABV)</li>
+<li>Experience with your industry</li>
+<li>Experience with estate/gift tax valuations</li>
+</ul>
+<p><strong>Cost:</strong></p>
+<ul>
+<li>Small businesses: $5,000-$15,000</li>
+<li>Complex businesses: $15,000-$50,000+</li>
+<li>Litigation-quality valuations: $25,000-$100,000+</li>
+</ul>
+<p><strong>Timeline:</strong>
+Expect 4-8 weeks for comprehensive valuation.</p>
+<h2>Step 4: Handle Buy-Sell Agreements</h2>
+<h3>Types of Buy-Sell Agreements</h3>
+<p><strong>Cross-purchase agreement:</strong></p>
+<ul>
+<li>Other owners buy deceased owner's interest</li>
+<li>Personally, not through business entity</li>
+<li>Common in partnerships and small LLCs</li>
+</ul>
+<p><strong>Entity redemption:</strong></p>
+<ul>
+<li>Business entity buys deceased owner's interest</li>
+<li>LLC or corporation becomes sole buyer</li>
+<li>Simpler than cross-purchase</li>
+</ul>
+<p><strong>Hybrid (wait-and-see):</strong></p>
+<ul>
+<li>Business entity has first option</li>
+<li>If entity doesn't buy, other owners must buy</li>
+<li>Flexibility for tax planning</li>
+</ul>
+<h3>Triggering Events</h3>
+<p><strong>Common triggers:</strong></p>
+<ul>
+<li>Death</li>
+<li>Disability</li>
+<li>Retirement</li>
+<li>Termination of employment</li>
+<li>Bankruptcy</li>
+<li>Divorce</li>
+<li>Voluntary sale</li>
+</ul>
+<p><strong>Death almost always triggers buy-sell provisions.</strong></p>
+<h3>Valuation Under Buy-Sell</h3>
+<p><strong>Fixed price:</strong></p>
+<ul>
+<li>Agreement states specific dollar amount</li>
+<li>Often outdated if not regularly updated</li>
+<li>Binds IRS for estate tax if legitimate</li>
+</ul>
+<p><strong>Formula:</strong></p>
+<ul>
+<li>Book value</li>
+<li>Multiple of earnings (3x-5x EBITDA)</li>
+<li>Revenue multiple</li>
+<li>Must apply formula as of date of death</li>
+</ul>
+<p><strong>Appraisal:</strong></p>
+<ul>
+<li>Independent appraiser determines value</li>
+<li>Most accurate but most expensive</li>
+<li>May specify appraiser selection process</li>
+</ul>
+<h3>Payment Terms</h3>
+<p><strong>Lump sum:</strong></p>
+<ul>
+<li>Buyers pay full amount at closing</li>
+<li>Requires financing or insurance proceeds</li>
+<li>Clean and final</li>
+</ul>
+<p><strong>Installment sale:</strong></p>
+<ul>
+<li>Payments over time (typically 5-10 years)</li>
+<li>Interest required (AFR rates)</li>
+<li>Trust receives payments during administration</li>
+<li>Creates note receivable</li>
+</ul>
+<p><strong>Life insurance funded:</strong></p>
+<ul>
+<li>Business or owners maintained life insurance</li>
+<li>Insurance proceeds fund purchase</li>
+<li>Most common and cleanest method</li>
+<li>Verify policies are current and adequate</li>
+</ul>
+<h3>Enforcing Buy-Sell Terms</h3>
+<p>If agreement is triggered:</p>
+<ol>
+<li><strong>Notify other parties</strong> of death and triggering event</li>
+<li><strong>Provide required documentation</strong> (death certificate, trust documents)</li>
+<li><strong>Initiate valuation process</strong> per agreement terms</li>
+<li><strong>Negotiate closing</strong> (timing, payment method, transition)</li>
+<li><strong>Prepare purchase documents</strong> (assignment, bill of sale)</li>
+<li><strong>Close transaction</strong> and transfer ownership</li>
+</ol>
+<p><strong>If other parties won't comply:</strong></p>
+<ul>
+<li>Send formal demand letter</li>
+<li>Consult business litigation attorney</li>
+<li>File lawsuit for specific performance</li>
+<li>Seek damages for breach of contract</li>
+</ul>
+<h2>Step 5: Manage Business During Administration</h2>
+<h3>Decision: Continue or Liquidate?</h3>
+<p><strong>Factors to consider:</strong></p>
+<p><strong>Continue operating if:</strong></p>
+<ul>
+<li>Business is profitable and stable</li>
+<li>Competent management is in place</li>
+<li>Beneficiary intends to take over</li>
+<li>Buy-sell process will take time</li>
+<li>Trust authorizes continuation</li>
+</ul>
+<p><strong>Liquidate if:</strong></p>
+<ul>
+<li>Business dependent on deceased's skills</li>
+<li>No qualified management available</li>
+<li>Business is unprofitable</li>
+<li>Trust requires liquidation</li>
+<li>High liability risk</li>
+<li>Beneficiaries want cash, not business</li>
+</ul>
+<h3>Ongoing Management Decisions</h3>
+<p>If continuing operations:</p>
+<p><strong>Financial management:</strong></p>
+<ul>
+<li>Review financial statements monthly</li>
+<li>Monitor cash flow carefully</li>
+<li>Ensure bills and payroll are paid</li>
+<li>Maintain adequate insurance</li>
+<li>File all required tax returns</li>
+</ul>
+<p><strong>Operational oversight:</strong></p>
+<ul>
+<li>Ensure competent management in place</li>
+<li>Make major decisions (new contracts, major purchases)</li>
+<li>Protect business assets</li>
+<li>Maintain customer relationships</li>
+<li>Preserve goodwill</li>
+</ul>
+<p><strong>Legal compliance:</strong></p>
+<ul>
+<li>File annual reports with California Secretary of State</li>
+<li>Maintain good standing</li>
+<li>Comply with employment laws</li>
+<li>Renew licenses and permits</li>
+<li>Maintain required insurance</li>
+</ul>
+<h3>Delegating Management</h3>
+<p><strong>You're not required to personally manage the business.</strong></p>
+<p>Options:</p>
+<ol>
+<li>
+<p><strong>Existing management continues:</strong></p>
+<ul>
+<li>Manager, president, or GM stays in place</li>
+<li>You oversee from governance level</li>
+<li>Review financial reports</li>
+</ul>
+</li>
+<li>
+<p><strong>Hire professional management:</strong></p>
+<ul>
+<li>Recruit qualified manager</li>
+<li>Set compensation</li>
+<li>Monitor performance</li>
+</ul>
+</li>
+<li>
+<p><strong>Appoint special trustee:</strong></p>
+<ul>
+<li>Co-trustee with business expertise</li>
+<li>Handles only business decisions</li>
+<li>You handle other trust matters</li>
+</ul>
+</li>
+<li>
+<p><strong>Family member takes over:</strong></p>
+<ul>
+<li>If qualified and trust allows</li>
+<li>Must pay reasonable compensation</li>
+<li>Avoid conflicts of interest</li>
+</ul>
+</li>
+</ol>
+<h2>Step 6: Address Tax Issues</h2>
+<h3>Entity-Level Taxes</h3>
+<p><strong>Partnership/LLC (pass-through):</strong></p>
+<ul>
+<li>File Form 1065 (partnership return)</li>
+<li>Issue K-1s to trust</li>
+<li>Trust reports income on Form 1041</li>
+<li>Income may be distributed to beneficiaries</li>
+</ul>
+<p><strong>C-Corporation:</strong></p>
+<ul>
+<li>File Form 1120 (corporate return)</li>
+<li>Corporation pays its own taxes</li>
+<li>Dividends to trust are taxable income</li>
+</ul>
+<p><strong>S-Corporation:</strong></p>
+<ul>
+<li>File Form 1120-S</li>
+<li>Pass-through taxation</li>
+<li><strong>Critical:</strong> Ensure trust is eligible S-corp shareholder</li>
+</ul>
+<h3>S-Corporation Trust Rules</h3>
+<p><strong>Eligible trust types:</strong></p>
+<p>After death, trust typically qualifies as:</p>
+<ol>
+<li><strong>Qualified Subchapter S Trust (QSST)</strong> - If single beneficiary, all income distributed</li>
+<li><strong>Electing Small Business Trust (ESBT)</strong> - More flexible, but higher tax rates</li>
+</ol>
+<p><strong>Election must be filed:</strong></p>
+<ul>
+<li>QSST: Beneficiary files Form 2553 within 2 months and 16 days</li>
+<li>ESBT: Trustee files Form 2553 within same timeframe</li>
+</ul>
+<p><strong>Missing deadline = Loss of S-election = Corporate double tax</strong></p>
+<h3>Estate Tax</h3>
+<p><strong>Business included in gross estate:</strong></p>
+<ul>
+<li>Fair market value as of date of death</li>
+<li>Valuation discounts apply</li>
+<li>Buy-sell agreement may establish value</li>
+</ul>
+<p><strong>Special valuation rules:</strong></p>
+<ul>
+<li>IRC §2032A - Special use valuation for family farms/businesses</li>
+<li>IRC §6166 - Deferred estate tax payments for business interests</li>
+</ul>
+<h3>Income During Administration</h3>
+<p><strong>Business income received by trust:</strong></p>
+<ul>
+<li>Reported on Form 1041</li>
+<li>Taxed at trust rates (reach 37% quickly)</li>
+<li>Consider distributing income to beneficiaries (lower tax rates)</li>
+</ul>
+<p><strong>Deductions:</strong></p>
+<ul>
+<li>Trust administration expenses</li>
+<li>Business losses (if any)</li>
+<li>Depreciation</li>
+</ul>
+<h2>Step 7: Transfer to Beneficiaries</h2>
+<h3>Distribution Options</h3>
+<p><strong>Distribute business interest in-kind:</strong></p>
+<ul>
+<li>Transfer membership interest/shares to beneficiary</li>
+<li>Beneficiary takes stepped-up basis</li>
+<li>Beneficiary continues or sells business</li>
+</ul>
+<p><strong>Sell business and distribute proceeds:</strong></p>
+<ul>
+<li>Liquidate business interest</li>
+<li>Distribute cash to beneficiaries</li>
+<li>Cleaner if multiple beneficiaries want different things</li>
+</ul>
+<p><strong>Partial distribution:</strong></p>
+<ul>
+<li>Distribute percentage interests to multiple beneficiaries</li>
+<li>Creates co-ownership</li>
+<li>May lead to future disputes</li>
+</ul>
+<h3>Transfer Mechanics</h3>
+<p><strong>LLC/Partnership:</strong></p>
+<ol>
+<li>Prepare assignment of membership interest</li>
+<li>Amend operating agreement (if required)</li>
+<li>Update company records</li>
+<li>File amended annual reports if ownership changes</li>
+<li>Update EIN if necessary</li>
+</ol>
+<p><strong>Corporation:</strong></p>
+<ol>
+<li>Endorse and deliver stock certificates</li>
+<li>Update stock ledger</li>
+<li>Issue new certificates in beneficiary names</li>
+<li>Update bylaws if required</li>
+<li>File amended annual reports</li>
+</ol>
+<p><strong>Sole proprietorship:</strong></p>
+<ol>
+<li>Transfer individual assets (equipment, inventory, contracts)</li>
+<li>Transfer business name registration</li>
+<li>Transfer licenses and permits (if transferable)</li>
+<li>Close business accounts in trust's name</li>
+<li>Open new accounts in beneficiary's name</li>
+</ol>
+<h3>Co-Ownership Issues</h3>
+<p><strong>If distributing to multiple beneficiaries:</strong></p>
+<p><strong>Consider:</strong></p>
+<ul>
+<li>How will they make decisions?</li>
+<li>What if one wants to sell and others don't?</li>
+<li>Who will manage operations?</li>
+<li>How will profits be distributed?</li>
+<li>Exit strategy if relationship deteriorates?</li>
+</ul>
+<p><strong>Options:</strong></p>
+<ol>
+<li><strong>Force sale and distribute cash</strong></li>
+<li><strong>One beneficiary buys out others</strong></li>
+<li><strong>Create new LLC with operating agreement</strong></li>
+<li><strong>Establish management buy-sell agreement</strong></li>
+</ol>
+<h2>Special Considerations</h2>
+<h3>Professional Practices</h3>
+<p><strong>Medical, dental, legal, accounting practices:</strong></p>
+<p><strong>Challenges:</strong></p>
+<ul>
+<li>May not be transferable</li>
+<li>Value tied to professional's reputation</li>
+<li>May have ethical restrictions</li>
+<li>Partnership may dissolve upon death</li>
+</ul>
+<p><strong>Typical resolution:</strong></p>
+<ul>
+<li>Collect accounts receivable</li>
+<li>Distribute or sell equipment</li>
+<li>Transfer client files (if permitted)</li>
+<li>Close practice</li>
+</ul>
+<h3>Family Businesses</h3>
+<p><strong>Emotional issues:</strong></p>
+<ul>
+<li>Not all children work in business</li>
+<li>Disputes over who should inherit</li>
+<li>Different valuations placed by family members</li>
+<li>Legacy and family identity concerns</li>
+</ul>
+<p><strong>Solutions:</strong></p>
+<ul>
+<li>Life insurance to equalize inheritances</li>
+<li>Transfer business to active child, other assets to others</li>
+<li>Clear communication during estate planning</li>
+</ul>
+<h3>Franchise Businesses</h3>
+<p><strong>Special rules:</strong></p>
+<ul>
+<li>Franchise agreement may restrict transfer</li>
+<li>Franchisor approval often required</li>
+<li>May have first right of refusal</li>
+<li>May require training/qualification of successor</li>
+</ul>
+<p><strong>Process:</strong></p>
+<ol>
+<li>Review franchise agreement</li>
+<li>Notify franchisor</li>
+<li>Request consent to transfer</li>
+<li>Provide beneficiary information</li>
+<li>Meet franchisor requirements</li>
+</ol>
+<h2>Common Mistakes</h2>
+<h3>1. Ignoring Buy-Sell Agreements</h3>
+<p><strong>Failing to enforce agreement terms:</strong></p>
+<ul>
+<li>Missing valuation deadlines</li>
+<li>Not notifying other parties</li>
+<li>Assuming agreement doesn't apply</li>
+</ul>
+<h3>2. Poor Interim Management</h3>
+<p><strong>Letting business deteriorate:</strong></p>
+<ul>
+<li>No oversight of operations</li>
+<li>Bills unpaid</li>
+<li>Customers lost</li>
+<li>Employees leave</li>
+<li>Value destroyed</li>
+</ul>
+<h3>3. S-Corporation Election Failure</h3>
+<p><strong>Missing QSST/ESBT election deadline:</strong></p>
+<ul>
+<li>Corporation loses S-election</li>
+<li>Double taxation triggered</li>
+<li>Massive tax liability</li>
+</ul>
+<h3>4. Commingling Business and Trust Funds</h3>
+<p><strong>Mixing trust and business assets:</strong></p>
+<ul>
+<li>Using business account for trust expenses</li>
+<li>Using trust account for business expenses</li>
+<li>Confusion about what belongs where</li>
+</ul>
+<h3>5. Unauthorized Business Decisions</h3>
+<p><strong>Acting outside your authority:</strong></p>
+<ul>
+<li>Making major decisions without reviewing operating agreement</li>
+<li>Binding business to contracts you can't authorize</li>
+<li>Personal liability risk</li>
+</ul>
+<h2>Conclusion</h2>
+<p>Administering business interests in a trust requires specialized knowledge about business law, valuation, tax rules, and operational management. The stakes are high—businesses can be the most valuable trust asset and the most vulnerable to mismanagement.</p>
+<p><strong>Key takeaways:</strong></p>
+<ul>
+<li>Secure business immediately after death</li>
+<li>Review all governing documents carefully</li>
+<li>Obtain professional business valuation</li>
+<li>Understand and enforce buy-sell agreements</li>
+<li>Maintain business operations or liquidate prudently</li>
+<li>Address S-corporation elections immediately</li>
+<li>Work with CPAs and business attorneys</li>
+<li>Consider beneficiaries' goals and capabilities</li>
+<li>Document all business decisions</li>
+<li>Transfer ownership properly</li>
+</ul>
+<p>Business interests require more time, expertise, and professional help than most trust assets, but proper administration preserves value and protects beneficiaries' inheritance.</p>
+<h2>Related Articles</h2>
+<p><strong>Learn more about complex trust assets:</strong></p>
+<ul>
+<li>
+<p><strong><a href="/form-1041-trust-administration-guide-california">Form 1041 Trust Tax Return Guide</a></strong> - How to report business income, K-1s from pass-through entities, and distributable net income with business assets.</p>
+</li>
+<li>
+<p><strong><a href="/capital-gains-tax-selling-trust-property-california">Capital Gains Tax on Trust Property Sales</a></strong> - Tax implications of selling business interests, valuation for basis purposes, and minimizing capital gains.</p>
+</li>
+<li>
+<p><strong><a href="/income-vs-principal-trust-administration-california">Income vs. Principal Trust Administration</a></strong> - Allocating business income, retained earnings, and sale proceeds between income and remainder beneficiaries.</p>
+</li>
+<li>
+<p><strong><a href="/generation-skipping-transfer-tax-california">Generation-Skipping Transfer Tax California</a></strong> - GST planning for multi-generational family businesses and dynasty trusts holding business interests.</p>
+</li>
+<li>
+<p><strong><a href="/real-estate-trust-administration-california-selling-transferring">Real Estate in Trust Administration California</a></strong> - When business owns real estate, coordinating property transfers with business succession planning.</p>
+</li>
+</ul>
+<h2>Frequently Asked Questions</h2>
+<h3>Can I continue operating the business while administering the trust?</h3>
+<p>Whether you can continue business operations depends on the trust document and the business's operating agreement. California law grants trustees broad authority to operate businesses under Probate Code Section 16249, but the trust document may impose restrictions or require liquidation within a specific timeframe. Additionally, the operating agreement or shareholder agreement may restrict who can manage the business or trigger mandatory buy-sell provisions upon the owner's death. Review both documents carefully before making operational decisions.</p>
+<h3>How do I determine the value of a business held in a trust?</h3>
+<p>Business valuation requires hiring a qualified appraiser with credentials such as ASA, CVA, or ABV designation. They'll use one or more methods: asset-based valuation for asset-heavy businesses, income-based valuation using discounted cash flow for profitable ongoing businesses, or market-based valuation using comparable companies. For minority interests or private companies, expect significant valuation discounts of 20-40% for minority interest and 20-35% for lack of marketability. Professional valuations typically cost between $5,000-$50,000 depending on complexity.</p>
+<h3>What happens if the trust owns S-corporation stock?</h3>
+<p>S-corporations have strict ownership requirements that continue after death. After the settlor dies, the trust must qualify as either a Qualified Subchapter S Trust (QSST) or an Electing Small Business Trust (ESBT) to avoid losing the S-election. You must file the appropriate election with the IRS within 2 months and 16 days of the death. Missing this deadline causes the corporation to lose its S-election status and triggers double taxation as a C-corporation, which can create massive tax liability.</p>
+<h3>Does a buy-sell agreement automatically transfer ownership when someone dies?</h3>
+<p>Not automatically, but death typically triggers the buy-sell provisions. Most buy-sell agreements require either the business entity or co-owners to purchase the deceased owner's interest, but you must initiate the process. Start by notifying all parties, providing required documentation, initiating the valuation process specified in the agreement, and negotiating the closing timeline and payment method. If other parties refuse to comply with the agreement terms, you may need to send a formal demand letter or file a lawsuit for specific performance.</p>
+<h3>Can I sell the business instead of transferring it to beneficiaries?</h3>
+<p>Your authority to sell depends on the trust document's provisions. Some trusts require distribution of the business to specific beneficiaries, while others give the trustee discretion to sell and distribute proceeds. Selling may be the better option when beneficiaries want cash rather than business ownership, the business was dependent on the deceased's personal skills, no qualified family member can take over, or liquidation provides better value than forced transfer. Always review the trust terms and consult with beneficiaries before making major decisions about business disposition.</p>
+<h2>Need Help With Business Interests in a Trust?</h2>
+<p>If you're administering a trust that holds business interests, our experienced trust administration attorneys can help you navigate the complexities of business valuation, buy-sell agreements, and transfer to beneficiaries.</p>
+<p>Contact us for a consultation to discuss your trust administration needs.</p>
+<p><em>This article is for informational purposes only and does not constitute legal, tax, or business advice. Business interests in trust administration involve complex legal, tax, and valuation issues. Consult with qualified legal, tax, and business professionals about your specific situation.</em></p>
+a:T4e2,{"@context":"https://schema.org","@type":"Article","headline":"Trust Administration for Business Owners: Handling Business Interests in California","description":"Trust holds business interests? Learn valuation, operating agreements, buy-sell provisions, tax issues, transferring ownership. California business trust administration.","image":"https://livingtrust-attorneys.com/images/blog/living-trust-cost.jpg","keywords":"business trust administration, business valuation, California business law, LLC in trust","wordCount":2755,"author":{"@type":"Person","name":"Rozsa Gyene","jobTitle":"Estate Planning Attorney","credentials":"California State Bar #208356","url":"https://livingtrust-attorneys.com/about.html"},"publisher":{"@type":"LegalService","name":"Law Offices of Rozsa Gyene","url":"https://livingtrust-attorneys.com","telephone":"818-291-6217","address":{"@type":"PostalAddress","streetAddress":"450 N Brand Blvd, Suite 600","addressLocality":"Glendale","addressRegion":"CA","postalCode":"91203"}},"datePublished":"2025-10-20","dateModified":"2025-12-24","mainEntityOfPage":{"@type":"WebPage","@id":"https://livingtrust-attorneys.com/blog/trust-administration-business-owners-california"},"inLanguage":"en-US","isAccessibleForFree":true}b:Tde1,{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Can I continue operating the business while administering the trust?","acceptedAnswer":{"@type":"Answer","text":"Whether you can continue business operations depends on the trust document and the business's operating agreement. California law grants trustees broad authority to operate businesses under Probate Code Section 16249, but the trust document may impose restrictions or require liquidation within a specific timeframe. Additionally, the operating agreement or shareholder agreement may restrict who can manage the business or trigger mandatory buy-sell provisions upon the owner's death. Review both documents carefully before making operational decisions."}},{"@type":"Question","name":"How do I determine the value of a business held in a trust?","acceptedAnswer":{"@type":"Answer","text":"Business valuation requires hiring a qualified appraiser with credentials such as ASA, CVA, or ABV designation. They'll use one or more methods: asset-based valuation for asset-heavy businesses, income-based valuation using discounted cash flow for profitable ongoing businesses, or market-based valuation using comparable companies. For minority interests or private companies, expect significant valuation discounts of 20-40% for minority interest and 20-35% for lack of marketability. Professional valuations typically cost between $5,000-$50,000 depending on complexity."}},{"@type":"Question","name":"What happens if the trust owns S-corporation stock?","acceptedAnswer":{"@type":"Answer","text":"S-corporations have strict ownership requirements that continue after death. After the settlor dies, the trust must qualify as either a Qualified Subchapter S Trust (QSST) or an Electing Small Business Trust (ESBT) to avoid losing the S-election. You must file the appropriate election with the IRS within 2 months and 16 days of the death. Missing this deadline causes the corporation to lose its S-election status and triggers double taxation as a C-corporation, which can create massive tax liability."}},{"@type":"Question","name":"Does a buy-sell agreement automatically transfer ownership when someone dies?","acceptedAnswer":{"@type":"Answer","text":"Not automatically, but death typically triggers the buy-sell provisions. Most buy-sell agreements require either the business entity or co-owners to purchase the deceased owner's interest, but you must initiate the process. Start by notifying all parties, providing required documentation, initiating the valuation process specified in the agreement, and negotiating the closing timeline and payment method. If other parties refuse to comply with the agreement terms, you may need to send a formal demand letter or file a lawsuit for specific performance."}},{"@type":"Question","name":"Can I sell the business instead of transferring it to beneficiaries?","acceptedAnswer":{"@type":"Answer","text":"Your authority to sell depends on the trust document's provisions. Some trusts require distribution of the business to specific beneficiaries, while others give the trustee discretion to sell and distribute proceeds. Selling may be the better option when beneficiaries want cash rather than business ownership, the business was dependent on the deceased's personal skills, no qualified family member can take over, or liquidation provides better value than forced transfer. Always review the trust terms and consult with beneficiaries before making major decisions about business disposition."}}]}2:["$","div",null,{"className":"min-h-screen","children":[["$","div",null,{"className":"bg-primary-blue/20 py-4 no-print","children":["$","div",null,{"className":"container-custom","children":["$","nav",null,{"aria-label":"Breadcrumb","className":"flex items-center gap-2 text-sm text-white/70","children":[["$","a",null,{"href":"/","className":"hover:text-white transition-colors","children":"Home"}],["$","span",null,{"children":"/"}],["$","a",null,{"href":"/blog","className":"hover:text-white transition-colors","children":"Blog"}],["$","span",null,{"children":"/"}],["$","span",null,{"className":"text-white","children":"$undefined"}]]}]}]}],["$","section",null,{"className":"section-padding bg-gradient-to-b from-transparent to-primary-blue/20","children":["$","div",null,{"className":"container-custom","children":["$","div",null,{"className":"max-w-4xl mx-auto text-center","children":[["$","div",null,{"className":"mb-6","children":["$","span",null,{"className":"inline-block bg-accent-gold text-white px-4 py-2 rounded-full text-sm font-semibold","children":"$undefined"}]}],["$","h1",null,{"className":"font-playfair text-4xl md:text-5xl lg:text-6xl text-white mb-6 text-shadow-lg leading-tight","children":"Trust Administration for Business Owners: Handling Business Interests in California"}],["$","div",null,{"className":"flex flex-wrap items-center justify-center gap-6 text-white/80 mb-8","children":[["$","span",null,{"className":"flex items-center gap-2","children":[["$","svg",null,{"className":"w-5 h-5","fill":"currentColor","viewBox":"0 0 20 20","children":["$","path",null,{"fillRule":"evenodd","d":"M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z","clipRule":"evenodd"}]}],"Rozsa Gyene"]}],["$","span",null,{"className":"flex items-center gap-2","children":[["$","svg",null,{"className":"w-5 h-5","fill":"currentColor","viewBox":"0 0 20 20","children":["$","path",null,{"fillRule":"evenodd","d":"M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z","clipRule":"evenodd"}]}],"October 20, 2025"]}],["$","span",null,{"className":"flex items-center gap-2","children":[["$","svg",null,{"className":"w-5 h-5","fill":"currentColor","viewBox":"0 0 20 20","children":["$","path",null,{"fillRule":"evenodd","d":"M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z","clipRule":"evenodd"}]}],16," min read"]}]]}],null]}]}]}],["$","section",null,{"className":"section-padding","children":["$","div",null,{"className":"container-custom","children":[["$","div",null,{"className":"grid lg:grid-cols-[1fr_300px] gap-8 mb-12","children":[["$","div",null,{"children":[["$","div",null,{"className":"\n      glass-card\n      p-8\n      mb-8\n    ","children":["$","div",null,{"className":"prose-blog","dangerouslySetInnerHTML":{"__html":"$7"}}]}],["$","div",null,{"className":"mb-8","children":["$","div",null,{"className":"\n      glass-card\n      p-4\n      \n    ","children":["$","div",null,{"className":"flex flex-wrap items-center gap-3","children":[["$","span",null,{"className":"text-white/70 font-semibold","children":"Tags:"}],[["$","span","business trust administration",{"className":"bg-white/10 text-white px-3 py-1 rounded-full text-sm border border-white/20","children":["#","business trust administration"]}],["$","span","business valuation",{"className":"bg-white/10 text-white px-3 py-1 rounded-full text-sm border border-white/20","children":["#","business valuation"]}],["$","span","California business law",{"className":"bg-white/10 text-white px-3 py-1 rounded-full text-sm border border-white/20","children":["#","California business law"]}],["$","span","LLC in trust",{"className":"bg-white/10 text-white px-3 py-1 rounded-full text-sm border border-white/20","children":["#","LLC in trust"]}]]]}]}]}],["$","div",null,{"className":"mb-8","children":["$","$L8",null,{"title":"Trust Administration for Business Owners: Handling Business Interests in California","slug":"trust-administration-business-owners-california"}]}],["$","div",null,{"style":{"margin":"20px auto","padding":"15px 20px","background":"linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%)","borderLeft":"4px solid #8a6a2f","borderRadius":"8px","maxWidth":"800px"},"children":["$","p",null,{"style":{"margin":0,"fontSize":"14px","color":"#2c3e50","lineHeight":1.6},"children":[["$","strong",null,{"style":{"color":"#1e3a5f"},"children":"Written by Rozsa Gyene, Esq."}],["$","br",null,{}],"California State Bar #208356 | 25+ Years Probate & Estate Experience",["$","br",null,{}],["$","em",null,{"style":{"color":"#6c757d"},"children":"Last Updated: November 28, 2025"}]]}]}]]}],["$","aside",null,{"className":"no-print","children":["$","aside",null,{"className":"no-print","children":["$","div",null,{"className":"\n      glass-card\n      p-8\n      sticky top-24\n    ","children":["$","div",null,{"className":"text-center","children":[["$","div",null,{"className":"text-4xl mb-4","children":"⚖️"}],["$","h3",null,{"className":"font-playfair text-2xl text-white mb-3","children":"Need Legal Guidance?"}],["$","p",null,{"className":"text-white/90 mb-6 leading-relaxed","children":"Schedule a free consultation with Attorney Rozsa Gyene to discuss your estate planning needs."}],["$","a",null,{"href":"tel:8182916217","className":"block w-full bg-accent-gold text-white py-3 px-6 rounded-full font-semibold hover:bg-[#b8982f] transition-all mb-3","children":"📞 (818) 291-6217"}],["$","a",null,{"href":"https://portal.livingtrust-attorneys.com/book","className":"block w-full bg-white/10 text-white py-3 px-6 rounded-full font-semibold hover:bg-white/20 transition-all border border-white/30","target":"_blank","rel":"noopener noreferrer","children":"Book Consultation"}],["$","div",null,{"className":"mt-6 pt-6 border-t border-white/10","children":[["$","p",null,{"className":"text-white/70 text-sm mb-2","children":["$","strong",null,{"className":"text-white","children":"Office Location:"}]}],["$","p",null,{"className":"text-white/70 text-sm","children":["450 N Brand Blvd Ste 600",["$","br",null,{}],"Glendale, CA 91203"]}]]}],["$","div",null,{"className":"mt-4 pt-4 border-t border-white/10","children":["$","div",null,{"className":"flex items-center justify-center gap-2 text-accent-gold text-sm","children":[["$","svg",null,{"className":"w-5 h-5","fill":"currentColor","viewBox":"0 0 20 20","children":["$","path",null,{"fillRule":"evenodd","d":"M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z","clipRule":"evenodd"}]}],["$","span",null,{"className":"font-semibold","children":"25+ Years Experience"}]]}]}]]}]}]}]}]]}],["$","section",null,{"className":"mt-16","children":[["$","h2",null,{"className":"font-playfair text-3xl text-white mb-8 text-center","children":"Related Articles"}],["$","div",null,{"className":"grid md:grid-cols-3 gap-6","children":[["$","$L9","no-contest-clauses-california-trusts",{"href":"/no-contest-clauses-california-trusts","className":"block","children":["$","div",null,{"className":"\n      glass-card-hover\n      p-8\n      h-full flex flex-col\n    ","children":[["$","div",null,{"className":"mb-3","children":["$","span",null,{"className":"inline-block bg-accent-gold/20 text-accent-gold px-3 py-1 rounded-full text-xs font-semibold border border-accent-gold/30","children":"$undefined"}]}],["$","h3",null,{"className":"font-playfair text-xl text-white mb-3 leading-tight flex-1","children":"No-Contest Clauses in California Trusts: Enforceability and Strategy"}],["$","div",null,{"className":"flex items-center justify-between text-sm text-white/60 pt-3 border-t border-white/10","children":[["$","span",null,{"children":"Nov 4, 2025"}],["$","span",null,{"children":[12," min"]}]]}]]}]}],["$","$L9","trust-mediation-settlement-california",{"href":"/trust-mediation-settlement-california","className":"block","children":["$","div",null,{"className":"\n      glass-card-hover\n      p-8\n      h-full flex flex-col\n    ","children":[["$","div",null,{"className":"mb-3","children":["$","span",null,{"className":"inline-block bg-accent-gold/20 text-accent-gold px-3 py-1 rounded-full text-xs font-semibold border border-accent-gold/30","children":"$undefined"}]}],["$","h3",null,{"className":"font-playfair text-xl text-white mb-3 leading-tight flex-1","children":"Trust Mediation and Settlement California: Resolving Disputes Without Trial"}],["$","div",null,{"className":"flex items-center justify-between text-sm text-white/60 pt-3 border-t border-white/10","children":[["$","span",null,{"children":"Nov 3, 2025"}],["$","span",null,{"children":[12," min"]}]]}]]}]}],["$","$L9","trust-litigation-vs-probate-litigation-california",{"href":"/trust-litigation-vs-probate-litigation-california","className":"block","children":["$","div",null,{"className":"\n      glass-card-hover\n      p-8\n      h-full flex flex-col\n    ","children":[["$","div",null,{"className":"mb-3","children":["$","span",null,{"className":"inline-block bg-accent-gold/20 text-accent-gold px-3 py-1 rounded-full text-xs font-semibold border border-accent-gold/30","children":"$undefined"}]}],["$","h3",null,{"className":"font-playfair text-xl text-white mb-3 leading-tight flex-1","children":"Trust Litigation vs Probate Litigation California: Key Differences"}],["$","div",null,{"className":"flex items-center justify-between text-sm text-white/60 pt-3 border-t border-white/10","children":[["$","span",null,{"children":"Nov 2, 2025"}],["$","span",null,{"children":[12," min"]}]]}]]}]}]]}]]}]]}]}],["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"$a"}}],["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"$b"}}]]}]
+6:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"Trust Administration for Business Owners: Handling Business Interests in California | Law Offices of Rozsa Gyene"}],["$","meta","3",{"name":"description","content":"Trust holds business interests? Learn valuation, operating agreements, buy-sell provisions, tax issues, transferring ownership. California business trust administration."}],["$","meta","4",{"name":"author","content":"Rozsa Gyene"}],["$","meta","5",{"name":"keywords","content":"business trust administration,business valuation,California business law,LLC in trust,,estate planning,Rozsa Gyene,Glendale attorney"}],["$","link","6",{"rel":"canonical","href":"https://livingtrust-attorneys.com/blog/trust-administration-business-owners-california"}],["$","meta","7",{"property":"og:title","content":"Trust Administration for Business Owners: Handling Business Interests in California"}],["$","meta","8",{"property":"og:description","content":"Trust holds business interests? Learn valuation, operating agreements, buy-sell provisions, tax issues, transferring ownership. California business trust administration."}],["$","meta","9",{"property":"og:type","content":"article"}],["$","meta","10",{"property":"article:published_time","content":"2025-10-20"}],["$","meta","11",{"property":"article:author","content":"Rozsa Gyene"}],["$","meta","12",{"property":"article:tag","content":"business trust administration"}],["$","meta","13",{"property":"article:tag","content":"business valuation"}],["$","meta","14",{"property":"article:tag","content":"California business law"}],["$","meta","15",{"property":"article:tag","content":"LLC in trust"}],["$","meta","16",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","17",{"name":"twitter:title","content":"Estate Planning & Trust Law Blog"}],["$","meta","18",{"name":"twitter:description","content":"Expert legal insights from Rozsa Gyene"}],["$","meta","19",{"name":"next-size-adjust"}]]
+1:null

@@ -1,0 +1,379 @@
+3:I[4707,[],""]
+5:I[6423,[],""]
+4:["slug","what-happens-after-trust-grantor-dies-california","d"]
+0:["XNl8EPT-Q30wSTcV-gnhM",[[["",{"children":[["slug","what-happens-after-trust-grantor-dies-california","d"],{"children":["__PAGE__?{\"slug\":\"what-happens-after-trust-grantor-dies-california\"}",{}]}]},"$undefined","$undefined",true],["",{"children":[["slug","what-happens-after-trust-grantor-dies-california","d"],{"children":["__PAGE__",{},[["$L1","$L2",null],null],null]},[null,["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","$4","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]],null]},[[[["$","link","0",{"rel":"stylesheet","href":"/blog/_next/static/css/76af30a148da119e.css","precedence":"next","crossOrigin":"$undefined"}]],["$","html",null,{"lang":"en","className":"__variable_fbaf84 __variable_774662","children":[["$","head",null,{"children":[["$","link",null,{"rel":"icon","href":"/favicon.ico"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}]]}],["$","body",null,{"className":"bg-gradient-blue min-h-screen","children":[["$","div",null,{"className":"bg-primary-blue text-white py-2.5 text-sm","children":["$","div",null,{"className":"container-custom flex justify-between items-center","children":[["$","div",null,{"className":"flex items-center gap-6","children":["$","span",null,{"children":"Over 25 Years Serving Los Angeles County"}]}],["$","a",null,{"href":"tel:8182916217","className":"text-accent-gold font-semibold hover:underline","children":"(818) 291-6217"}]]}]}],["$","nav",null,{"className":"bg-transparent py-5","children":["$","div",null,{"className":"container-custom flex justify-between items-center","children":[["$","a",null,{"href":"https://livingtrust-attorneys.com","className":"flex items-center gap-3 text-white no-print","children":["$","div",null,{"className":"flex flex-col","children":[["$","span",null,{"className":"font-playfair text-xl font-bold text-shadow-md","children":"Law Offices of Rozsa Gyene"}],["$","span",null,{"className":"text-sm text-accent-gold","children":"Estate Planning & Trust Law Blog"}]]}]}],["$","div",null,{"className":"flex items-center gap-4 no-print","children":[["$","a",null,{"href":"https://livingtrust-attorneys.com","className":"text-white hover:text-accent-gold transition-colors font-medium","children":"Home"}],["$","a",null,{"href":"/","className":"text-accent-gold font-semibold","children":"Blog"}],["$","a",null,{"href":"https://portal.livingtrust-attorneys.com/book","className":"btn-primary text-base py-3 px-6","target":"_blank","rel":"noopener noreferrer","children":"Free Consultation"}]]}]]}]}],["$","main",null,{"className":"min-h-screen","children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[]}]}],["$","footer",null,{"className":"bg-primary-blue text-white mt-20 no-print","children":["$","div",null,{"className":"container-custom py-12","children":[["$","div",null,{"className":"grid md:grid-cols-3 gap-8","children":[["$","div",null,{"children":[["$","h3",null,{"className":"font-playfair text-2xl mb-4","children":"Law Offices of Rozsa Gyene"}],["$","p",null,{"className":"text-white/80 mb-4","children":"Over 25 years of experience serving Los Angeles County families with comprehensive estate planning and trust services."}]]}],["$","div",null,{"children":[["$","h4",null,{"className":"font-semibold text-lg mb-4 text-accent-gold","children":"Contact"}],["$","div",null,{"className":"space-y-2 text-white/80","children":[["$","p",null,{"children":"450 N Brand Blvd Ste 600"}],["$","p",null,{"children":"Glendale, CA 91203"}],["$","p",null,{"className":"mt-4","children":["$","a",null,{"href":"tel:8182916217","className":"text-accent-gold hover:underline","children":"(818) 291-6217"}]}]]}]]}],["$","div",null,{"children":[["$","h4",null,{"className":"font-semibold text-lg mb-4 text-accent-gold","children":"Practice Areas"}],["$","ul",null,{"className":"space-y-2 text-white/80","children":[["$","li",null,{"children":["$","a",null,{"href":"https://livingtrust-attorneys.com/living-trusts.html","className":"hover:text-accent-gold transition-colors","children":"Living Trusts"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://livingtrust-attorneys.com/probate.html","className":"hover:text-accent-gold transition-colors","children":"Probate"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://livingtrust-attorneys.com/trust-administration.html","className":"hover:text-accent-gold transition-colors","children":"Trust Administration"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://livingtrust-attorneys.com/conservatorship.html","className":"hover:text-accent-gold transition-colors","children":"Conservatorship"}]}]]}]]}]]}],["$","div",null,{"className":"border-t border-white/10 mt-8 pt-8 text-center text-white/70 text-sm","children":["$","p",null,{"children":["© ",2025," Law Offices of Rozsa Gyene. All rights reserved."]}]}]]}]}]]}]]}]],null],null],["$L6",null]]]]
+8:I[2578,["972","static/chunks/972-6296c3e7f99d3665.js","42","static/chunks/app/%5Bslug%5D/page-27e08b5d2052b651.js"],"default"]
+9:I[2972,["972","static/chunks/972-6296c3e7f99d3665.js","42","static/chunks/app/%5Bslug%5D/page-27e08b5d2052b651.js"],""]
+7:T3dc9,<p>Someone you loved has passed away. They had a living trust, and now you're trying to understand what comes next. The grief is overwhelming, and the legal responsibilities feel daunting.</p>
+<p>This guide walks you through what happens in the weeks and months following a trust grantor's death in California.</p>
+<h2>The Moment of Death: What Changes</h2>
+<p>When the person who created the trust (called the grantor, settlor, or trustor) dies, several things happen automatically:</p>
+<h3>The Trust Becomes Irrevocable</h3>
+<p>While alive, the grantor could change or revoke the trust anytime. Upon death, the trust becomes permanent—its terms are locked in and cannot be changed.</p>
+<h3>The Successor Trustee Takes Over</h3>
+<p>The person named as successor trustee now has full authority to manage and distribute trust assets. No court appointment is needed—authority begins immediately.</p>
+<h3>Trust Administration Begins</h3>
+<p>The process of settling the trust—paying debts, filing taxes, and distributing assets to beneficiaries—officially starts.</p>
+<h2>The First Week: Immediate Priorities</h2>
+<h3>Day 1-2: Secure Everything</h3>
+<p>Before worrying about legal steps, focus on protecting assets:</p>
+<p><strong>The home:</strong></p>
+<ul>
+<li>Lock all doors and windows</li>
+<li>Consider changing locks</li>
+<li>Don't leave it unattended for long periods</li>
+<li>Notify a trusted neighbor</li>
+</ul>
+<p><strong>Valuables:</strong></p>
+<ul>
+<li>Secure jewelry, cash, and collectibles</li>
+<li>Don't let anyone "borrow" items</li>
+<li>Consider moving high-value items to a safe location</li>
+</ul>
+<p><strong>Mail:</strong></p>
+<ul>
+<li>Collect daily</li>
+<li>Watch for bills, legal notices, and financial statements</li>
+</ul>
+<p><strong>Vehicles:</strong></p>
+<ul>
+<li>Secure all cars</li>
+<li>Locate keys and titles</li>
+</ul>
+<h3>Day 2-3: Find the Trust</h3>
+<p>The trust document is your roadmap. Without it, you can't proceed.</p>
+<p><strong>Where to look:</strong></p>
+<ul>
+<li>Home safe or filing cabinet</li>
+<li>Safe deposit box</li>
+<li>Attorney who prepared the trust</li>
+<li>Family members who might have copies</li>
+</ul>
+<p><strong>What you need:</strong></p>
+<ul>
+<li>Original trust document</li>
+<li>ALL amendments (First Amendment, Second Amendment, etc.)</li>
+<li>Any restatement</li>
+</ul>
+<h3>Day 3-5: Order Death Certificates</h3>
+<p>You'll need certified death certificates for almost everything—banks, insurance companies, government agencies all require originals.</p>
+<p><strong>Order 10-15 copies from:</strong></p>
+<ul>
+<li>Funeral home (easiest)</li>
+<li>County Registrar's office</li>
+<li>California Department of Public Health</li>
+</ul>
+<p><strong>Why so many?</strong> Each institution needs its own copy, and running out causes delays.</p>
+<h3>Day 5-7: Identify the Successor Trustee</h3>
+<p>Read the trust to confirm who should be managing things.</p>
+<p><strong>Look for language like:</strong>
+"Upon my death, my daughter Jane Smith shall serve as Successor Trustee."</p>
+<p><strong>If you're the successor trustee:</strong> You have authority to act now.</p>
+<p><strong>If you're not:</strong> Contact the named successor trustee to ensure they're aware and willing to serve.</p>
+<h2>Weeks 2-4: Establishing Authority</h2>
+<h3>Get a Tax ID Number (EIN)</h3>
+<p>The trust now needs its own tax identification number. You cannot continue using the deceased's Social Security number.</p>
+<p><strong>How:</strong> Apply online at IRS.gov (takes about 10 minutes) or mail Form SS-4.</p>
+<h3>Open a Trust Bank Account</h3>
+<p>Open a new checking account titled in the trust's name:</p>
+<p><strong>Example:</strong> "Smith Family Trust dated January 15, 2015, Jane Smith, Trustee"</p>
+<p><strong>You'll need:</strong></p>
+<ul>
+<li>Trust document (or certification)</li>
+<li>Death certificate</li>
+<li>Your ID</li>
+<li>Trust's EIN</li>
+</ul>
+<p><strong>Use this account for:</strong></p>
+<ul>
+<li>All trust income</li>
+<li>All trust expenses</li>
+<li>Keeping trust funds separate from personal funds</li>
+</ul>
+<h3>Notify Financial Institutions</h3>
+<p>Contact every bank, brokerage, and financial company where the deceased had accounts:</p>
+<ul>
+<li>Notify them of the death</li>
+<li>Provide death certificate and trust certification</li>
+<li>Ask what they need to recognize you as trustee</li>
+<li>Don't request withdrawals yet—just establish your authority</li>
+</ul>
+<h3>Record Real Property Documents</h3>
+<p>If the trust owns real estate, record an "Affidavit of Death of Trustee" with the county recorder's office where each property is located.</p>
+<p>This puts the world on notice that the original trustee died and you're now in charge.</p>
+<h2>Month 1-2: Required Notices and Inventory</h2>
+<h3>Send the 60-Day Notice (CRITICAL DEADLINE)</h3>
+<p>Within 60 days of the death (or becoming trustee), you MUST send written notice to:</p>
+<ul>
+<li>All beneficiaries named in the trust</li>
+<li>All legal heirs (people who would inherit if there were no trust)</li>
+</ul>
+<p><strong>The notice must include:</strong></p>
+<ul>
+<li>Trust name and date</li>
+<li>Your contact information</li>
+<li>Statement that the trust is now irrevocable</li>
+<li>Their right to request trust terms</li>
+<li>The 120-day period to contest the trust</li>
+</ul>
+<p>Send via certified mail and keep proof. Missing this deadline causes serious problems.</p>
+<h3>Create a Complete Asset Inventory</h3>
+<p>List everything the trust owns:</p>
+<table>
+<thead>
+<tr>
+<th>Asset Type</th>
+<th>Examples</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Real estate</td>
+<td>Home, rental property, vacant land</td>
+</tr>
+<tr>
+<td>Bank accounts</td>
+<td>Checking, savings, CDs</td>
+</tr>
+<tr>
+<td>Investments</td>
+<td>Stocks, bonds, mutual funds</td>
+</tr>
+<tr>
+<td>Retirement accounts</td>
+<td>IRAs, 401(k)s (check beneficiary designations)</td>
+</tr>
+<tr>
+<td>Life insurance</td>
+<td>Check if trust or individuals are beneficiaries</td>
+</tr>
+<tr>
+<td>Vehicles</td>
+<td>Cars, boats, RVs</td>
+</tr>
+<tr>
+<td>Personal property</td>
+<td>Jewelry, art, collectibles, furniture</td>
+</tr>
+<tr>
+<td>Business interests</td>
+<td>Partnership interests, LLC membership</td>
+</tr>
+</tbody>
+</table>
+<p>Get date-of-death values for everything—this establishes the "stepped-up basis" for tax purposes.</p>
+<h3>Inventory Debts</h3>
+<p>List all money the deceased owed:</p>
+<ul>
+<li>Mortgages</li>
+<li>Credit cards</li>
+<li>Medical bills</li>
+<li>Personal loans</li>
+<li>Taxes</li>
+<li>Utilities</li>
+</ul>
+<p>Don't pay debts yet (except essentials like mortgage and utilities). You'll address them systematically later.</p>
+<h2>Months 2-4: Administration and Waiting</h2>
+<h3>The 120-Day Contest Period</h3>
+<p>After you send the required notices, beneficiaries and heirs have 120 days to contest the trust.</p>
+<p><strong>During this period:</strong></p>
+<ul>
+<li>Don't make final distributions to beneficiaries</li>
+<li>You can make preliminary distributions if necessary, but it's risky</li>
+<li>Continue managing assets and paying necessary expenses</li>
+</ul>
+<p><strong>Why wait?</strong> If someone successfully contests the trust after you've distributed assets, you may be personally liable to recover them.</p>
+<h3>Manage Assets Prudently</h3>
+<p>While waiting, you must manage trust property responsibly:</p>
+<p><strong>Do:</strong></p>
+<ul>
+<li>Maintain insurance coverage</li>
+<li>Pay property taxes</li>
+<li>Make necessary repairs</li>
+<li>Collect rent (if applicable)</li>
+<li>Manage investments reasonably</li>
+</ul>
+<p><strong>Don't:</strong></p>
+<ul>
+<li>Make speculative investments</li>
+<li>Let property deteriorate</li>
+<li>Mix trust funds with personal funds</li>
+<li>Make major decisions without considering beneficiary interests</li>
+</ul>
+<h3>Address Creditor Claims</h3>
+<ul>
+<li>Review all debts for validity</li>
+<li>Negotiate settlements if appropriate</li>
+<li>Pay legitimate debts from trust funds</li>
+<li>Document all payments</li>
+</ul>
+<h3>Communicate with Beneficiaries</h3>
+<p>Keep beneficiaries informed:</p>
+<ul>
+<li>What you're doing and why</li>
+<li>Expected timeline</li>
+<li>Any issues that arise</li>
+</ul>
+<p>Silence breeds suspicion. Over-communicate rather than under-communicate.</p>
+<h2>Months 4-6: Taxes and Preparing for Distribution</h2>
+<h3>File Required Tax Returns</h3>
+<p><strong>Deceased's Final Income Tax Returns:</strong></p>
+<ul>
+<li>Federal Form 1040</li>
+<li>California Form 540</li>
+<li>Due: April 15 of the year following death</li>
+<li>Report income from January 1 through date of death</li>
+</ul>
+<p><strong>Trust Income Tax Returns:</strong></p>
+<ul>
+<li>Federal Form 1041</li>
+<li>California Form 541</li>
+<li>Report trust income after date of death</li>
+<li>Issue K-1s to beneficiaries for distributions</li>
+</ul>
+<p><strong>Estate Tax Return (rare):</strong></p>
+<ul>
+<li>Federal Form 706</li>
+<li>Only if estate exceeds $13.61 million</li>
+<li>Due 9 months from death</li>
+</ul>
+<h3>Confirm Contest Period Expired</h3>
+<p>Calculate when 120 days from your notices have passed. Once this deadline passes without a contest, you can proceed with confidence.</p>
+<h3>Prepare Distribution Documents</h3>
+<p>Start preparing the paperwork for distributions:</p>
+<ul>
+<li>Trustee's deeds for real property</li>
+<li>Investment account transfer forms</li>
+<li>Vehicle title transfers</li>
+<li>Distribution schedule showing each beneficiary's share</li>
+</ul>
+<h2>Months 5-12: Distribution</h2>
+<h3>When You Can Distribute</h3>
+<p>Distribute after:</p>
+<ul>
+<li>120-day contest period expires</li>
+<li>All debts are paid</li>
+<li>All taxes are filed (or funds reserved)</li>
+<li>No pending disputes</li>
+</ul>
+<h3>How Assets Are Distributed</h3>
+<p><strong>Real estate:</strong></p>
+<ul>
+<li>Prepare and sign trustee's deed</li>
+<li>Record with county recorder</li>
+<li>Provide title insurance (if selling)</li>
+</ul>
+<p><strong>Cash and bank accounts:</strong></p>
+<ul>
+<li>Write checks or wire funds</li>
+<li>Close accounts after final distributions</li>
+</ul>
+<p><strong>Investment accounts:</strong></p>
+<ul>
+<li>Transfer to beneficiary accounts</li>
+<li>Provide cost basis documentation</li>
+</ul>
+<p><strong>Vehicles:</strong></p>
+<ul>
+<li>Sign over title</li>
+<li>DMV transfer process</li>
+</ul>
+<p><strong>Personal property:</strong></p>
+<ul>
+<li>Physical delivery</li>
+<li>Consider fair division if multiple beneficiaries</li>
+</ul>
+<h3>Get Receipts</h3>
+<p>Have each beneficiary sign a receipt acknowledging what they received. This protects you from later claims.</p>
+<h2>Final Steps: Closing the Trust</h2>
+<h3>Prepare Final Accounting</h3>
+<p>Create a report showing:</p>
+<ul>
+<li>All assets at the beginning</li>
+<li>All income received</li>
+<li>All expenses paid</li>
+<li>All distributions made</li>
+<li>Final balance (should be zero or near zero)</li>
+</ul>
+<p>Provide this to all beneficiaries.</p>
+<h3>Close Accounts</h3>
+<ul>
+<li>Close trust bank account</li>
+<li>Close any remaining investment accounts</li>
+<li>Cancel insurance policies</li>
+<li>Cancel subscriptions</li>
+</ul>
+<h3>Retain Records</h3>
+<p>Keep all records for at least 5 years (7 is safer):</p>
+<ul>
+<li>Trust documents</li>
+<li>Bank statements</li>
+<li>Tax returns</li>
+<li>Correspondence</li>
+<li>Receipts and invoices</li>
+</ul>
+<p>Store securely and tell beneficiaries where records are located.</p>
+<h2>Timeline Summary</h2>
+<table>
+<thead>
+<tr>
+<th>Timeframe</th>
+<th>What Happens</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Day 1</td>
+<td>Trust becomes irrevocable; successor trustee has authority</td>
+</tr>
+<tr>
+<td>Week 1</td>
+<td>Secure assets, find trust, order death certificates</td>
+</tr>
+<tr>
+<td>Week 2-4</td>
+<td>Get EIN, open trust account, notify institutions</td>
+</tr>
+<tr>
+<td>Day 60</td>
+<td>DEADLINE: Send notices to beneficiaries/heirs</td>
+</tr>
+<tr>
+<td>Months 1-4</td>
+<td>Inventory assets, manage property, pay debts</td>
+</tr>
+<tr>
+<td>Day 120+</td>
+<td>Contest period expires (after notices sent)</td>
+</tr>
+<tr>
+<td>Months 4-6</td>
+<td>File tax returns, prepare for distribution</td>
+</tr>
+<tr>
+<td>Months 6-12</td>
+<td>Distribute assets, close trust</td>
+</tr>
+</tbody>
+</table>
+<h2>Frequently Asked Questions</h2>
+<h3>What happens to a revocable trust when the grantor dies?</h3>
+<p>When the grantor dies, a revocable living trust automatically becomes irrevocable, meaning its terms can no longer be changed or amended. The successor trustee immediately assumes authority to manage and distribute trust assets according to the trust document. Trust administration begins, which includes notifying beneficiaries within 60 days, inventorying assets, paying debts and taxes, and ultimately distributing inheritances to beneficiaries after the 120-day contest period expires.</p>
+<h3>How long does it take to distribute assets from a trust after death in California?</h3>
+<p>Most California trusts are fully administered and assets distributed within 12 to 18 months after the grantor's death. However, the successor trustee cannot make final distributions until after the 120-day contest period expires following required beneficiary notices, all debts are paid, and tax returns are filed. Simple trusts with liquid assets and no complications may distribute sooner, while complex estates with real property or business interests may take 2 years or longer.</p>
+<h3>Do beneficiaries have to pay taxes on trust distributions in California?</h3>
+<p>Beneficiaries generally don't pay income tax on principal distributions from a trust because they receive assets with a stepped-up basis to fair market value as of the grantor's date of death. However, beneficiaries must pay income tax on any earnings the trust generates after the grantor's death, which are reported on K-1 forms issued by the trustee. California has no inheritance tax or estate tax, though federal estate tax applies to estates exceeding $13.61 million.</p>
+<h3>Can trust assets be distributed before the 120-day contest period ends?</h3>
+<p>While the successor trustee has authority to manage trust assets and pay necessary expenses during the 120-day contest period, making final distributions to beneficiaries before this period expires is risky. If someone successfully contests the trust after you've distributed assets, you may be personally liable to recover them. Most experienced trustees wait until the contest period passes before making final distributions, though preliminary or partial distributions may be appropriate in certain circumstances.</p>
+<h3>What happens if there's no successor trustee named in the trust?</h3>
+<p>If no successor trustee is named, is willing to serve, or is able to serve, the trust doesn't fail. Beneficiaries can petition the probate court to appoint a successor trustee. The court will consider qualified individuals or professional trustees who can properly administer the trust. The court's goal is to ensure the trust is administered according to the grantor's wishes while protecting beneficiary interests.</p>
+<h2>You Don't Have to Do This Alone</h2>
+<p>Trust administration after losing someone you love is overwhelming. You're grieving AND handling complex legal responsibilities.</p>
+<p>The Law Offices of Rozsa Gyene guides families through California trust administration with compassion and expertise. We help you meet deadlines, avoid mistakes, and honor your loved one's wishes.</p>
+<p><strong>Call (818) 291-6217</strong> for a consultation, or visit our <a href="/estate-planning-questionnaire.html">contact page</a>.</p>
+<p>Serving Glendale, Burbank, Pasadena, and all of Los Angeles County.</p>
+<hr>
+<p><em>This article provides general information about what happens after a trust grantor dies in California. Every trust is different. Consult an attorney for guidance specific to your situation.</em></p>
+a:T546,{"@context":"https://schema.org","@type":"Article","headline":"What Happens After the Trust Grantor Dies in California?","description":"What happens after trust grantor dies California? Trust becomes irrevocable, successor trustee assumes authority. Complete timeline from week 1 to closing. Glendale attorney guide.","image":"https://livingtrust-attorneys.com/images/blog/avoid-probate.jpg","articleSection":"Trust Administration","keywords":"what happens after trust grantor dies, trust grantor dies California, trust administration timeline, after death trust process, California trust law, Glendale attorney","wordCount":1832,"author":{"@type":"Person","name":"Rozsa Gyene","jobTitle":"Estate Planning Attorney","credentials":"California State Bar #208356","url":"https://livingtrust-attorneys.com/about.html"},"publisher":{"@type":"LegalService","name":"Law Offices of Rozsa Gyene","url":"https://livingtrust-attorneys.com","telephone":"818-291-6217","address":{"@type":"PostalAddress","streetAddress":"450 N Brand Blvd, Suite 600","addressLocality":"Glendale","addressRegion":"CA","postalCode":"91203"}},"datePublished":"2025-11-09","dateModified":"2025-12-24","mainEntityOfPage":{"@type":"WebPage","@id":"https://livingtrust-attorneys.com/blog/what-happens-after-trust-grantor-dies-california"},"inLanguage":"en-US","isAccessibleForFree":true}b:Tc65,{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What happens to a revocable trust when the grantor dies?","acceptedAnswer":{"@type":"Answer","text":"When the grantor dies, a revocable living trust automatically becomes irrevocable, meaning its terms can no longer be changed or amended. The successor trustee immediately assumes authority to manage and distribute trust assets according to the trust document. Trust administration begins, which includes notifying beneficiaries within 60 days, inventorying assets, paying debts and taxes, and ultimately distributing inheritances to beneficiaries after the 120-day contest period expires."}},{"@type":"Question","name":"How long does it take to distribute assets from a trust after death in California?","acceptedAnswer":{"@type":"Answer","text":"Most California trusts are fully administered and assets distributed within 12 to 18 months after the grantor's death. However, the successor trustee cannot make final distributions until after the 120-day contest period expires following required beneficiary notices, all debts are paid, and tax returns are filed. Simple trusts with liquid assets and no complications may distribute sooner, while complex estates with real property or business interests may take 2 years or longer."}},{"@type":"Question","name":"Do beneficiaries have to pay taxes on trust distributions in California?","acceptedAnswer":{"@type":"Answer","text":"Beneficiaries generally don't pay income tax on principal distributions from a trust because they receive assets with a stepped-up basis to fair market value as of the grantor's date of death. However, beneficiaries must pay income tax on any earnings the trust generates after the grantor's death, which are reported on K-1 forms issued by the trustee. California has no inheritance tax or estate tax, though federal estate tax applies to estates exceeding $13.61 million."}},{"@type":"Question","name":"Can trust assets be distributed before the 120-day contest period ends?","acceptedAnswer":{"@type":"Answer","text":"While the successor trustee has authority to manage trust assets and pay necessary expenses during the 120-day contest period, making final distributions to beneficiaries before this period expires is risky. If someone successfully contests the trust after you've distributed assets, you may be personally liable to recover them. Most experienced trustees wait until the contest period passes before making final distributions, though preliminary or partial distributions may be appropriate in certain circumstances."}},{"@type":"Question","name":"What happens if there's no successor trustee named in the trust?","acceptedAnswer":{"@type":"Answer","text":"If no successor trustee is named, is willing to serve, or is able to serve, the trust doesn't fail. Beneficiaries can petition the probate court to appoint a successor trustee. The court will consider qualified individuals or professional trustees who can properly administer the trust. The court's goal is to ensure the trust is administered according to the grantor's wishes while protecting beneficiary interests."}}]}2:["$","div",null,{"className":"min-h-screen","children":[["$","div",null,{"className":"bg-primary-blue/20 py-4 no-print","children":["$","div",null,{"className":"container-custom","children":["$","nav",null,{"aria-label":"Breadcrumb","className":"flex items-center gap-2 text-sm text-white/70","children":[["$","a",null,{"href":"/","className":"hover:text-white transition-colors","children":"Home"}],["$","span",null,{"children":"/"}],["$","a",null,{"href":"/blog","className":"hover:text-white transition-colors","children":"Blog"}],["$","span",null,{"children":"/"}],["$","span",null,{"className":"text-white","children":"Trust Administration"}]]}]}]}],["$","section",null,{"className":"section-padding bg-gradient-to-b from-transparent to-primary-blue/20","children":["$","div",null,{"className":"container-custom","children":["$","div",null,{"className":"max-w-4xl mx-auto text-center","children":[["$","div",null,{"className":"mb-6","children":["$","span",null,{"className":"inline-block bg-accent-gold text-white px-4 py-2 rounded-full text-sm font-semibold","children":"Trust Administration"}]}],["$","h1",null,{"className":"font-playfair text-4xl md:text-5xl lg:text-6xl text-white mb-6 text-shadow-lg leading-tight","children":"What Happens After the Trust Grantor Dies in California?"}],["$","div",null,{"className":"flex flex-wrap items-center justify-center gap-6 text-white/80 mb-8","children":[["$","span",null,{"className":"flex items-center gap-2","children":[["$","svg",null,{"className":"w-5 h-5","fill":"currentColor","viewBox":"0 0 20 20","children":["$","path",null,{"fillRule":"evenodd","d":"M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z","clipRule":"evenodd"}]}],"Rozsa Gyene"]}],["$","span",null,{"className":"flex items-center gap-2","children":[["$","svg",null,{"className":"w-5 h-5","fill":"currentColor","viewBox":"0 0 20 20","children":["$","path",null,{"fillRule":"evenodd","d":"M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z","clipRule":"evenodd"}]}],"November 9, 2025"]}],["$","span",null,{"className":"flex items-center gap-2","children":[["$","svg",null,{"className":"w-5 h-5","fill":"currentColor","viewBox":"0 0 20 20","children":["$","path",null,{"fillRule":"evenodd","d":"M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z","clipRule":"evenodd"}]}],11," min read"]}]]}],null]}]}]}],["$","section",null,{"className":"section-padding","children":["$","div",null,{"className":"container-custom","children":[["$","div",null,{"className":"grid lg:grid-cols-[1fr_300px] gap-8 mb-12","children":[["$","div",null,{"children":[["$","div",null,{"className":"\n      glass-card\n      p-8\n      mb-8\n    ","children":["$","div",null,{"className":"prose-blog","dangerouslySetInnerHTML":{"__html":"$7"}}]}],["$","div",null,{"className":"mb-8","children":["$","div",null,{"className":"\n      glass-card\n      p-4\n      \n    ","children":["$","div",null,{"className":"flex flex-wrap items-center gap-3","children":[["$","span",null,{"className":"text-white/70 font-semibold","children":"Tags:"}],[["$","span","what happens after trust grantor dies",{"className":"bg-white/10 text-white px-3 py-1 rounded-full text-sm border border-white/20","children":["#","what happens after trust grantor dies"]}],["$","span","trust grantor dies California",{"className":"bg-white/10 text-white px-3 py-1 rounded-full text-sm border border-white/20","children":["#","trust grantor dies California"]}],["$","span","trust administration timeline",{"className":"bg-white/10 text-white px-3 py-1 rounded-full text-sm border border-white/20","children":["#","trust administration timeline"]}],["$","span","after death trust process",{"className":"bg-white/10 text-white px-3 py-1 rounded-full text-sm border border-white/20","children":["#","after death trust process"]}],["$","span","California trust law",{"className":"bg-white/10 text-white px-3 py-1 rounded-full text-sm border border-white/20","children":["#","California trust law"]}],["$","span","Glendale attorney",{"className":"bg-white/10 text-white px-3 py-1 rounded-full text-sm border border-white/20","children":["#","Glendale attorney"]}]]]}]}]}],["$","div",null,{"className":"mb-8","children":["$","$L8",null,{"title":"What Happens After the Trust Grantor Dies in California?","slug":"what-happens-after-trust-grantor-dies-california"}]}],["$","div",null,{"style":{"margin":"20px auto","padding":"15px 20px","background":"linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%)","borderLeft":"4px solid #8a6a2f","borderRadius":"8px","maxWidth":"800px"},"children":["$","p",null,{"style":{"margin":0,"fontSize":"14px","color":"#2c3e50","lineHeight":1.6},"children":[["$","strong",null,{"style":{"color":"#1e3a5f"},"children":"Written by Rozsa Gyene, Esq."}],["$","br",null,{}],"California State Bar #208356 | 25+ Years Probate & Estate Experience",["$","br",null,{}],["$","em",null,{"style":{"color":"#6c757d"},"children":"Last Updated: November 28, 2025"}]]}]}]]}],["$","aside",null,{"className":"no-print","children":["$","aside",null,{"className":"no-print","children":["$","div",null,{"className":"\n      glass-card\n      p-8\n      sticky top-24\n    ","children":["$","div",null,{"className":"text-center","children":[["$","div",null,{"className":"text-4xl mb-4","children":"⚖️"}],["$","h3",null,{"className":"font-playfair text-2xl text-white mb-3","children":"Need Legal Guidance?"}],["$","p",null,{"className":"text-white/90 mb-6 leading-relaxed","children":"Schedule a free consultation with Attorney Rozsa Gyene to discuss your estate planning needs."}],["$","a",null,{"href":"tel:8182916217","className":"block w-full bg-accent-gold text-white py-3 px-6 rounded-full font-semibold hover:bg-[#b8982f] transition-all mb-3","children":"📞 (818) 291-6217"}],["$","a",null,{"href":"https://portal.livingtrust-attorneys.com/book","className":"block w-full bg-white/10 text-white py-3 px-6 rounded-full font-semibold hover:bg-white/20 transition-all border border-white/30","target":"_blank","rel":"noopener noreferrer","children":"Book Consultation"}],["$","div",null,{"className":"mt-6 pt-6 border-t border-white/10","children":[["$","p",null,{"className":"text-white/70 text-sm mb-2","children":["$","strong",null,{"className":"text-white","children":"Office Location:"}]}],["$","p",null,{"className":"text-white/70 text-sm","children":["450 N Brand Blvd Ste 600",["$","br",null,{}],"Glendale, CA 91203"]}]]}],["$","div",null,{"className":"mt-4 pt-4 border-t border-white/10","children":["$","div",null,{"className":"flex items-center justify-center gap-2 text-accent-gold text-sm","children":[["$","svg",null,{"className":"w-5 h-5","fill":"currentColor","viewBox":"0 0 20 20","children":["$","path",null,{"fillRule":"evenodd","d":"M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z","clipRule":"evenodd"}]}],["$","span",null,{"className":"font-semibold","children":"25+ Years Experience"}]]}]}]]}]}]}]}]]}],["$","section",null,{"className":"mt-16","children":[["$","h2",null,{"className":"font-playfair text-3xl text-white mb-8 text-center","children":"Related Articles"}],["$","div",null,{"className":"grid md:grid-cols-3 gap-6","children":[["$","$L9","how-long-does-trust-administration-take-california",{"href":"/how-long-does-trust-administration-take-california","className":"block","children":["$","div",null,{"className":"\n      glass-card-hover\n      p-8\n      h-full flex flex-col\n    ","children":[["$","div",null,{"className":"mb-3","children":["$","span",null,{"className":"inline-block bg-accent-gold/20 text-accent-gold px-3 py-1 rounded-full text-xs font-semibold border border-accent-gold/30","children":"Trust Administration"}]}],["$","h3",null,{"className":"font-playfair text-xl text-white mb-3 leading-tight flex-1","children":"How Long Does Trust Administration Take in California?"}],["$","div",null,{"className":"flex items-center justify-between text-sm text-white/60 pt-3 border-t border-white/10","children":[["$","span",null,{"children":"Oct 27, 2025"}],["$","span",null,{"children":[9," min"]}]]}]]}]}],["$","$L9","trust-administration-after-both-parents-die-california",{"href":"/trust-administration-after-both-parents-die-california","className":"block","children":["$","div",null,{"className":"\n      glass-card-hover\n      p-8\n      h-full flex flex-col\n    ","children":[["$","div",null,{"className":"mb-3","children":["$","span",null,{"className":"inline-block bg-accent-gold/20 text-accent-gold px-3 py-1 rounded-full text-xs font-semibold border border-accent-gold/30","children":"Trust Administration"}]}],["$","h3",null,{"className":"font-playfair text-xl text-white mb-3 leading-tight flex-1","children":"Trust Administration After Both Parents Die in California"}],["$","div",null,{"className":"flex items-center justify-between text-sm text-white/60 pt-3 border-t border-white/10","children":[["$","span",null,{"children":"Nov 13, 2025"}],["$","span",null,{"children":[10," min"]}]]}]]}]}],["$","$L9","how-to-distribute-trust-assets-california",{"href":"/how-to-distribute-trust-assets-california","className":"block","children":["$","div",null,{"className":"\n      glass-card-hover\n      p-8\n      h-full flex flex-col\n    ","children":[["$","div",null,{"className":"mb-3","children":["$","span",null,{"className":"inline-block bg-accent-gold/20 text-accent-gold px-3 py-1 rounded-full text-xs font-semibold border border-accent-gold/30","children":"Trust Administration"}]}],["$","h3",null,{"className":"font-playfair text-xl text-white mb-3 leading-tight flex-1","children":"How to Distribute Trust Assets in California: A Practical Guide"}],["$","div",null,{"className":"flex items-center justify-between text-sm text-white/60 pt-3 border-t border-white/10","children":[["$","span",null,{"children":"Nov 12, 2025"}],["$","span",null,{"children":[12," min"]}]]}]]}]}]]}]]}]]}]}],["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"$a"}}],["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"$b"}}]]}]
+6:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"What Happens After the Trust Grantor Dies in California? | Law Offices of Rozsa Gyene"}],["$","meta","3",{"name":"description","content":"What happens after trust grantor dies California? Trust becomes irrevocable, successor trustee assumes authority. Complete timeline from week 1 to closing. Glendale attorney guide."}],["$","meta","4",{"name":"author","content":"Rozsa Gyene"}],["$","meta","5",{"name":"keywords","content":"what happens after trust grantor dies,trust grantor dies California,trust administration timeline,after death trust process,California trust law,Glendale attorney,Trust Administration,estate planning,Rozsa Gyene,Glendale attorney"}],["$","link","6",{"rel":"canonical","href":"https://livingtrust-attorneys.com/blog/what-happens-after-trust-grantor-dies-california"}],["$","meta","7",{"property":"og:title","content":"What Happens After the Trust Grantor Dies in California?"}],["$","meta","8",{"property":"og:description","content":"What happens after trust grantor dies California? Trust becomes irrevocable, successor trustee assumes authority. Complete timeline from week 1 to closing. Glendale attorney guide."}],["$","meta","9",{"property":"og:type","content":"article"}],["$","meta","10",{"property":"article:published_time","content":"2025-11-09"}],["$","meta","11",{"property":"article:author","content":"Rozsa Gyene"}],["$","meta","12",{"property":"article:tag","content":"what happens after trust grantor dies"}],["$","meta","13",{"property":"article:tag","content":"trust grantor dies California"}],["$","meta","14",{"property":"article:tag","content":"trust administration timeline"}],["$","meta","15",{"property":"article:tag","content":"after death trust process"}],["$","meta","16",{"property":"article:tag","content":"California trust law"}],["$","meta","17",{"property":"article:tag","content":"Glendale attorney"}],["$","meta","18",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","19",{"name":"twitter:title","content":"Estate Planning & Trust Law Blog"}],["$","meta","20",{"name":"twitter:description","content":"Expert legal insights from Rozsa Gyene"}],["$","meta","21",{"name":"next-size-adjust"}]]
+1:null

@@ -1,0 +1,534 @@
+3:I[4707,[],""]
+5:I[6423,[],""]
+4:["slug","california-inheritance-laws-without-will","d"]
+0:["XNl8EPT-Q30wSTcV-gnhM",[[["",{"children":[["slug","california-inheritance-laws-without-will","d"],{"children":["__PAGE__?{\"slug\":\"california-inheritance-laws-without-will\"}",{}]}]},"$undefined","$undefined",true],["",{"children":[["slug","california-inheritance-laws-without-will","d"],{"children":["__PAGE__",{},[["$L1","$L2",null],null],null]},[null,["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","$4","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]],null]},[[[["$","link","0",{"rel":"stylesheet","href":"/blog/_next/static/css/76af30a148da119e.css","precedence":"next","crossOrigin":"$undefined"}]],["$","html",null,{"lang":"en","className":"__variable_fbaf84 __variable_774662","children":[["$","head",null,{"children":[["$","link",null,{"rel":"icon","href":"/favicon.ico"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}]]}],["$","body",null,{"className":"bg-gradient-blue min-h-screen","children":[["$","div",null,{"className":"bg-primary-blue text-white py-2.5 text-sm","children":["$","div",null,{"className":"container-custom flex justify-between items-center","children":[["$","div",null,{"className":"flex items-center gap-6","children":["$","span",null,{"children":"Over 25 Years Serving Los Angeles County"}]}],["$","a",null,{"href":"tel:8182916217","className":"text-accent-gold font-semibold hover:underline","children":"(818) 291-6217"}]]}]}],["$","nav",null,{"className":"bg-transparent py-5","children":["$","div",null,{"className":"container-custom flex justify-between items-center","children":[["$","a",null,{"href":"https://livingtrust-attorneys.com","className":"flex items-center gap-3 text-white no-print","children":["$","div",null,{"className":"flex flex-col","children":[["$","span",null,{"className":"font-playfair text-xl font-bold text-shadow-md","children":"Law Offices of Rozsa Gyene"}],["$","span",null,{"className":"text-sm text-accent-gold","children":"Estate Planning & Trust Law Blog"}]]}]}],["$","div",null,{"className":"flex items-center gap-4 no-print","children":[["$","a",null,{"href":"https://livingtrust-attorneys.com","className":"text-white hover:text-accent-gold transition-colors font-medium","children":"Home"}],["$","a",null,{"href":"/","className":"text-accent-gold font-semibold","children":"Blog"}],["$","a",null,{"href":"https://portal.livingtrust-attorneys.com/book","className":"btn-primary text-base py-3 px-6","target":"_blank","rel":"noopener noreferrer","children":"Free Consultation"}]]}]]}]}],["$","main",null,{"className":"min-h-screen","children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[]}]}],["$","footer",null,{"className":"bg-primary-blue text-white mt-20 no-print","children":["$","div",null,{"className":"container-custom py-12","children":[["$","div",null,{"className":"grid md:grid-cols-3 gap-8","children":[["$","div",null,{"children":[["$","h3",null,{"className":"font-playfair text-2xl mb-4","children":"Law Offices of Rozsa Gyene"}],["$","p",null,{"className":"text-white/80 mb-4","children":"Over 25 years of experience serving Los Angeles County families with comprehensive estate planning and trust services."}]]}],["$","div",null,{"children":[["$","h4",null,{"className":"font-semibold text-lg mb-4 text-accent-gold","children":"Contact"}],["$","div",null,{"className":"space-y-2 text-white/80","children":[["$","p",null,{"children":"450 N Brand Blvd Ste 600"}],["$","p",null,{"children":"Glendale, CA 91203"}],["$","p",null,{"className":"mt-4","children":["$","a",null,{"href":"tel:8182916217","className":"text-accent-gold hover:underline","children":"(818) 291-6217"}]}]]}]]}],["$","div",null,{"children":[["$","h4",null,{"className":"font-semibold text-lg mb-4 text-accent-gold","children":"Practice Areas"}],["$","ul",null,{"className":"space-y-2 text-white/80","children":[["$","li",null,{"children":["$","a",null,{"href":"https://livingtrust-attorneys.com/living-trusts.html","className":"hover:text-accent-gold transition-colors","children":"Living Trusts"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://livingtrust-attorneys.com/probate.html","className":"hover:text-accent-gold transition-colors","children":"Probate"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://livingtrust-attorneys.com/trust-administration.html","className":"hover:text-accent-gold transition-colors","children":"Trust Administration"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://livingtrust-attorneys.com/conservatorship.html","className":"hover:text-accent-gold transition-colors","children":"Conservatorship"}]}]]}]]}]]}],["$","div",null,{"className":"border-t border-white/10 mt-8 pt-8 text-center text-white/70 text-sm","children":["$","p",null,{"children":["© ",2025," Law Offices of Rozsa Gyene. All rights reserved."]}]}]]}]}]]}]]}]],null],null],["$L6",null]]]]
+8:I[2578,["972","static/chunks/972-6296c3e7f99d3665.js","42","static/chunks/app/%5Bslug%5D/page-27e08b5d2052b651.js"],"default"]
+9:I[2972,["972","static/chunks/972-6296c3e7f99d3665.js","42","static/chunks/app/%5Bslug%5D/page-27e08b5d2052b651.js"],""]
+7:T7628,<p>What happens to your house, your bank accounts, your car, and everything else you own if you die without a will or trust in California?</p>
+<p>Most people assume "it all goes to my spouse" or "my kids will split it equally." In reality, California's intestate succession laws are far more complex—and they probably don't distribute your property the way you'd want.</p>
+<p>As a <a href="/blog/glendale-probate-attorney">Glendale probate attorney</a> who regularly guides families through intestate estates, I've seen the confusion, conflict, and costly surprises that result when someone dies without proper estate planning. Parents inadvertently disinherit children. Spouses receive less than expected. Estranged relatives inherit. Assets freeze for months or years.</p>
+<p>In this comprehensive guide, I'll explain exactly who inherits your property under California law when you die without a will or trust, how community property affects inheritance, what the probate process looks like, and why California's default inheritance rules probably don't match your wishes.</p>
+<h2>What Does "Dying Intestate" Mean?</h2>
+<p>"Intestate" is the legal term for dying without a valid will. When this happens in California, state law—not your personal wishes—determines who inherits your property.</p>
+<p>California's intestate succession laws are found in Probate Code Sections 6400-6455. These statutes create a rigid formula based on your family relationships at the time of death.</p>
+<h3>Who Dies Without a Will or Trust?</h3>
+<p>You might be surprised. According to surveys, approximately 60-70% of Americans don't have a will or trust. In my Glendale practice, I regularly see intestate estates from:</p>
+<ul>
+<li>Young adults who thought they had "plenty of time"</li>
+<li>Middle-aged people who kept postponing estate planning</li>
+<li>Elderly individuals who created wills decades ago that were lost or destroyed</li>
+<li>People who started estate planning but never finished</li>
+<li>Individuals whose wills were invalid due to improper execution</li>
+</ul>
+<p><strong>The Unfortunate Reality:</strong> Intestacy doesn't just affect the unprepared. It affects anyone whose will is invalid, lost, or successfully contested.</p>
+<h2>California Community Property: The Critical First Step</h2>
+<p>Before we can determine who inherits, we must understand a uniquely California concept: community property.</p>
+<h3>What Is Community Property?</h3>
+<p>California is one of only nine community property states. Under California Family Code Section 760, almost everything acquired during marriage is owned 50/50 by both spouses—regardless of whose name is on the title.</p>
+<p><strong>Community Property Includes:</strong></p>
+<ul>
+<li>Wages and income earned during marriage</li>
+<li>Real estate purchased during marriage (with community funds)</li>
+<li>Bank accounts funded during marriage</li>
+<li>Retirement benefits earned during marriage</li>
+<li>Business interests acquired during marriage</li>
+<li>Cars, furniture, and personal property purchased during marriage</li>
+</ul>
+<p><strong>Separate Property Includes:</strong></p>
+<ul>
+<li>Property owned before marriage</li>
+<li>Gifts and inheritances received by one spouse (even during marriage)</li>
+<li>Property acquired after legal separation</li>
+<li>Income from separate property (though this can be complex)</li>
+<li>Property designated as separate in a valid prenuptial or postnuptial agreement</li>
+</ul>
+<h3>Why This Matters for Inheritance</h3>
+<p>When a married person dies in California, intestate succession only applies to:</p>
+<ol>
+<li>The deceased spouse's half of community property (50%)</li>
+<li>Any separate property owned by the deceased spouse (100%)</li>
+</ol>
+<p>The surviving spouse automatically keeps their own half of community property—this doesn't go through intestate succession or probate.</p>
+<p><strong>Example:</strong>
+Juan and Maria are married and own a Glendale home worth $1,000,000, purchased during marriage with community funds. Juan dies without a will.</p>
+<ul>
+<li>Maria automatically keeps her 50% community property share ($500,000)</li>
+<li>Juan's 50% community property share ($500,000) passes under intestate succession</li>
+<li>Who inherits Juan's half depends on California's intestacy rules (explained below)</li>
+</ul>
+<p>This surprises many people. Maria doesn't automatically inherit the entire house just because Juan died.</p>
+<h2>Who Inherits Under California Intestate Succession Laws</h2>
+<p>Now let's walk through exactly who inherits based on your specific family situation.</p>
+<h3>Scenario 1: You're Married with No Children</h3>
+<p><strong>Result:</strong> Your spouse inherits everything (both your share of community property and all separate property).</p>
+<p><strong>California Probate Code Section 6401(a)</strong></p>
+<p><strong>Example:</strong>
+You and your spouse own:</p>
+<ul>
+<li>House worth $900,000 (community property)</li>
+<li>Bank account with $100,000 (community property)</li>
+<li>Investment account you inherited from your parents worth $200,000 (your separate property)</li>
+</ul>
+<p>If you die without a will:</p>
+<ul>
+<li>Spouse keeps their $500,000 community property share (house + bank)</li>
+<li>Spouse inherits your $500,000 community property share</li>
+<li>Spouse inherits your $200,000 separate property inheritance</li>
+<li><strong>Spouse gets everything: $1,200,000</strong></li>
+</ul>
+<p>This is the one scenario where intestacy might match what you'd want.</p>
+<h3>Scenario 2: You're Married with Children (All from Current Marriage)</h3>
+<p><strong>Result:</strong></p>
+<ul>
+<li>Spouse inherits all community property</li>
+<li>Spouse inherits all separate property (if you have one child) OR one-half of separate property (if you have multiple children)</li>
+</ul>
+<p><strong>California Probate Code Section 6401(c)</strong></p>
+<p><strong>Example 1: One Child</strong>
+Assets:</p>
+<ul>
+<li>$800,000 home (community property)</li>
+<li>$300,000 investment account (your separate property from inheritance)</li>
+</ul>
+<p>Distribution:</p>
+<ul>
+<li>Spouse inherits all community property: $400,000 (keeps own half) + $400,000 (inherits your half) = $800,000</li>
+<li>Spouse inherits all separate property: $300,000</li>
+<li><strong>Spouse total: $1,100,000</strong></li>
+<li><strong>Child: $0</strong> (child inherits nothing until surviving spouse dies)</li>
+</ul>
+<p><strong>Example 2: Multiple Children</strong>
+Same assets as above.</p>
+<p>Distribution:</p>
+<ul>
+<li>Spouse inherits all community property: $800,000</li>
+<li>Spouse inherits one-half of separate property: $150,000</li>
+<li>Children share one-half of separate property: $150,000 (divided among all children)</li>
+<li><strong>Spouse total: $950,000</strong></li>
+<li><strong>Each child: $150,000 ÷ number of children</strong></li>
+</ul>
+<p>This surprises most parents. If you have multiple children, they inherit part of your separate property immediately—not when your spouse dies.</p>
+<h3>Scenario 3: You're Married with Children from Prior Relationship</h3>
+<p><strong>Result:</strong></p>
+<ul>
+<li>Spouse inherits all community property</li>
+<li>Spouse inherits one-half of separate property</li>
+<li>Children inherit one-half of separate property</li>
+</ul>
+<p><strong>California Probate Code Section 6401(c)(2)</strong></p>
+<p>This is where intestacy creates serious problems.</p>
+<p><strong>Example:</strong>
+You're remarried. You have two children from your first marriage. You and your current spouse own:</p>
+<ul>
+<li>$1,000,000 home (community property)</li>
+<li>$500,000 retirement account (your separate property from before remarriage)</li>
+</ul>
+<p>Distribution:</p>
+<ul>
+<li>Current spouse: $500,000 (community property) + $250,000 (half of separate property) = $750,000</li>
+<li>Your two children from first marriage: $250,000 total ($125,000 each)</li>
+</ul>
+<p><strong>The Problems:</strong></p>
+<ol>
+<li>Your current spouse and children from your first marriage now co-own the house (spouse owns 87.5%, children own 12.5%)</li>
+<li>Selling the house requires agreement from everyone or court proceedings</li>
+<li>Your children may feel shortchanged; your spouse may feel your children got too much</li>
+<li>This creates family conflict and potential litigation</li>
+</ol>
+<p><strong>What You Probably Wanted:</strong>
+Most people in this situation want their spouse to inherit everything during their lifetime, with children inheriting after the spouse dies. Intestacy doesn't accomplish this.</p>
+<h3>Scenario 4: You're Married with No Living Parents, But Have Siblings</h3>
+<p>Same as Scenarios 1-3. Siblings don't inherit if you have a surviving spouse, except in extremely rare circumstances.</p>
+<h3>Scenario 5: You're Not Married, But Have Children</h3>
+<p><strong>Result:</strong> Children inherit everything equally.</p>
+<p><strong>California Probate Code Section 6402(a)</strong></p>
+<p><strong>Example:</strong>
+You're divorced with three children. You own:</p>
+<ul>
+<li>$750,000 house</li>
+<li>$200,000 in bank and investment accounts</li>
+</ul>
+<p>Distribution:</p>
+<ul>
+<li>Each child inherits one-third: $316,666 each</li>
+</ul>
+<p><strong>If One Child Predeceased You:</strong></p>
+<ul>
+<li>If that child had children (your grandchildren), they inherit their parent's share</li>
+<li>If that child had no children, the two surviving children split everything</li>
+</ul>
+<h3>Scenario 6: You're Not Married and Have No Living Children</h3>
+<p><strong>Result:</strong> Your parents inherit everything.</p>
+<p><strong>California Probate Code Section 6402(b)</strong></p>
+<p>Even if you're 60 years old, if your parents are alive and you have no spouse or children, California law gives your entire estate to your parents.</p>
+<h3>Scenario 7: No Spouse, No Children, No Living Parents</h3>
+<p><strong>Result:</strong> Your siblings inherit equally (or their children if a sibling predeceased you).</p>
+<p><strong>California Probate Code Section 6402(c)</strong></p>
+<p><strong>Example:</strong>
+You're unmarried with no children. Your parents are deceased. You have two siblings.</p>
+<p>Distribution:</p>
+<ul>
+<li>Each sibling inherits 50%</li>
+</ul>
+<p><strong>If One Sibling Predeceased You:</strong></p>
+<ul>
+<li>If that sibling had children, those children (your nieces/nephews) inherit their parent's share</li>
+<li>If that sibling had no children, the surviving sibling inherits everything</li>
+</ul>
+<h3>Scenario 8: No Spouse, Children, Parents, or Siblings</h3>
+<p>California law continues down the family tree:</p>
+<ol>
+<li><strong>Grandparents or their descendants</strong> (your aunts, uncles, cousins)</li>
+<li><strong>Great-grandparents or their descendants</strong></li>
+<li><strong>Predeceased spouse's relatives</strong> (if you were married but spouse predeceased you)</li>
+</ol>
+<p><strong>California Probate Code Sections 6402(d)-(h)</strong></p>
+<h3>Scenario 9: No Living Relatives Can Be Found</h3>
+<p><strong>Result:</strong> Your property "escheats" to the State of California.</p>
+<p><strong>California Probate Code Section 6800</strong></p>
+<p>The state takes your house, bank accounts, everything. This is extremely rare but does happen.</p>
+<h2>Special Inheritance Situations in California</h2>
+<h3>Domestic Partners</h3>
+<p>California treats registered domestic partners identically to married spouses for inheritance purposes under California Probate Code Section 6401(a).</p>
+<p><strong>Unmarried Partners:</strong>
+If you're in a relationship but not married or registered domestic partners, your partner inherits <strong>nothing</strong> under intestate succession. Everything goes to your children, parents, or siblings.</p>
+<h3>Stepchildren</h3>
+<p><strong>Stepchildren do not inherit</strong> under California intestate succession unless you legally adopted them.</p>
+<p><strong>Example:</strong>
+You married someone with two children. You helped raise them for 20 years but never formally adopted them. If you die without a will, they inherit nothing. Your estate goes to your spouse, your own children, your parents, or your siblings.</p>
+<h3>Half-Siblings</h3>
+<p>Half-siblings (sharing one parent with you) inherit the same as full siblings under California law.</p>
+<h3>Adopted Children</h3>
+<p>Legally adopted children inherit exactly the same as biological children.</p>
+<p><strong>Exception:</strong> If you're adopted, you generally don't inherit from your biological parents under intestate succession (only from adoptive parents).</p>
+<h3>Children Born Out of Wedlock</h3>
+<p>Children inherit from their mother automatically. They inherit from their father if paternity was established through:</p>
+<ul>
+<li>Marriage to mother</li>
+<li>Paternity judgment</li>
+<li>Father's acknowledgment</li>
+<li>DNA evidence after death</li>
+</ul>
+<p><strong>California Probate Code Section 6453</strong></p>
+<h3>Posthumous Children</h3>
+<p>Children conceived before but born after your death inherit as if they were born during your lifetime.</p>
+<h3>Disinheritance</h3>
+<p>You <strong>cannot</strong> disinherit relatives by intestate succession. If you die without a will, California's formula applies regardless of your relationships.</p>
+<p>If you're estranged from your children, siblings, or other relatives, they still inherit. The only way to prevent this is with a valid will or trust.</p>
+<h2>Assets That Don't Go Through Intestate Succession</h2>
+<p>Not everything you own passes under California's intestate succession laws. These assets pass outside intestacy and probate:</p>
+<h3>1. Joint Tenancy Property</h3>
+<p>Real estate or accounts owned in joint tenancy automatically pass to the surviving joint tenant(s).</p>
+<p><strong>Example:</strong>
+You and your brother own a rental property as joint tenants. When you die, your brother automatically owns the entire property—even if intestate succession would give it to your children.</p>
+<h3>2. Beneficiary Designations</h3>
+<p>These assets pass to named beneficiaries:</p>
+<ul>
+<li>Life insurance policies</li>
+<li>Retirement accounts (IRA, 401k, 403b)</li>
+<li>Payable-on-death (POD) bank accounts</li>
+<li>Transfer-on-death (TOD) investment accounts</li>
+</ul>
+<p><strong>Critical Issue:</strong>
+Many people have outdated beneficiary designations. I've seen ex-spouses inherit entire retirement accounts because beneficiary forms were never updated after divorce.</p>
+<h3>3. Trust Assets</h3>
+<p>Property held in a living trust passes according to trust terms, not intestate succession.</p>
+<h3>4. Community Property with Right of Survivorship</h3>
+<p>Community property specifically designated with "right of survivorship" automatically passes to surviving spouse.</p>
+<h2>The Probate Process for Intestate Estates</h2>
+<p>When you die without a will in California, your estate still goes through probate—the same expensive, time-consuming court process you'd face with a will.</p>
+<h3>Intestate Probate Timeline</h3>
+<p><strong>Typical Timeline: 12-24 months</strong></p>
+<ol>
+<li><strong>Months 1-2:</strong> Someone (usually family member) files petition to become administrator</li>
+<li><strong>Months 2-4:</strong> Court hearing, administrator appointed</li>
+<li><strong>Months 4-6:</strong> Administrator posts bond, notifies creditors, publishes notice</li>
+<li><strong>Months 6-9:</strong> Creditor claim period (minimum 4 months)</li>
+<li><strong>Months 9-15:</strong> Inventory assets, pay debts and expenses</li>
+<li><strong>Months 15-18:</strong> File accounting, petition for final distribution</li>
+<li><strong>Months 18-24:</strong> Final hearing, distribution to heirs</li>
+</ol>
+<h3>Intestate Probate Costs</h3>
+<p>California probate costs are based on gross estate value:</p>
+<table>
+<thead>
+<tr>
+<th>Estate Value</th>
+<th>Attorney Fee</th>
+<th>Administrator Fee</th>
+<th>Total</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>$500,000</td>
+<td>$13,000</td>
+<td>$13,000</td>
+<td>$26,000</td>
+</tr>
+<tr>
+<td>$1,000,000</td>
+<td>$23,000</td>
+<td>$23,000</td>
+<td>$46,000</td>
+</tr>
+<tr>
+<td>$2,000,000</td>
+<td>$43,000</td>
+<td>$43,000</td>
+<td>$86,000</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Plus:</strong></p>
+<ul>
+<li>Court filing fees ($435-$500)</li>
+<li>Publication costs ($300-$500)</li>
+<li>Appraisal fees</li>
+<li>Accounting fees</li>
+<li>Bond premiums for administrator</li>
+</ul>
+<h3>Who Can Be Administrator?</h3>
+<p>When there's no will naming an executor, the court appoints an administrator using this priority order (California Probate Code Section 8461):</p>
+<ol>
+<li>Surviving spouse or domestic partner</li>
+<li>Children</li>
+<li>Grandchildren</li>
+<li>Other heirs</li>
+<li>Public administrator (if no family member qualifies or is willing)</li>
+</ol>
+<p>Family members often fight over who should be administrator, creating additional delays and legal expenses.</p>
+<h2>Real-World Consequences: Case Studies</h2>
+<p>Let me share real situations I've handled to illustrate how intestacy creates problems:</p>
+<h3>Case Study 1: The Blended Family Disaster</h3>
+<p><strong>Situation:</strong>
+Mark, 65, remarried after his first wife died. He had two adult children from his first marriage. He and his second wife, Lisa, owned a $1.2 million <a href="/locations/burbank.html">Burbank</a> home (community property) and he had $400,000 in separate property investments. Mark kept meaning to create a trust but never did. He died suddenly of a heart attack.</p>
+<p><strong>Intestate Distribution:</strong></p>
+<ul>
+<li>Lisa: $600,000 (her community property half) + $600,000 (Mark's community property half) + $200,000 (half his separate property) = $1,400,000</li>
+<li>Mark's two children: $200,000 total ($100,000 each)</li>
+</ul>
+<p><strong>The Problem:</strong>
+Lisa wanted to sell the house and move. Mark's children had to agree as co-owners of part of Mark's separate property. They felt their father's estate should have been distributed differently. Relationships deteriorated. The situation required mediation costing $18,000 to resolve.</p>
+<p><strong>What Mark Wanted:</strong>
+Mark told his children he wanted Lisa to have everything during her lifetime, with his children inheriting after Lisa died. Intestacy didn't accomplish this.</p>
+<h3>Case Study 2: The Unmarried Partner's Shock</h3>
+<p><strong>Situation:</strong>
+Jennifer and Robert lived together for 15 years in a Glendale home Robert owned before they met (his separate property). They weren't married but were committed partners. Robert died without a will, assuming the home would go to Jennifer.</p>
+<p><strong>Intestate Distribution:</strong>
+The entire $850,000 home went to Robert's two adult children from a prior marriage. Jennifer inherited nothing and had to move out.</p>
+<p><strong>What Could Have Prevented This:</strong>
+A will leaving the home to Jennifer, or a transfer-on-death deed, or a trust, or getting married.</p>
+<h3>Case Study 3: The Estranged Child</h3>
+<p><strong>Situation:</strong>
+David was estranged from his daughter for 20 years after a bitter falling out. He was very close to his son and his three grandchildren. He died without a will.</p>
+<p><strong>Intestate Distribution:</strong>
+His daughter inherited 50%, same as his beloved son. His grandchildren inherited nothing.</p>
+<p><strong>What David Wanted:</strong>
+David specifically didn't want his daughter to inherit. He wanted his son to receive most of his estate and his grandchildren to receive educational funds. Intestacy gave his estate to the exact person he didn't want to benefit.</p>
+<h3>Case Study 4: The Outdated Beneficiaries</h3>
+<p><strong>Situation:</strong>
+Patricia divorced in 2005 but never updated beneficiary designations on her $600,000 IRA. She died in 2023 without a will.</p>
+<p><strong>What Happened:</strong></p>
+<ul>
+<li>IRA went to ex-husband (named beneficiary)</li>
+<li>Her $400,000 home went through intestate probate to her two children</li>
+<li>18 months, $38,000 in fees, massive family conflict</li>
+</ul>
+<p><strong>What She Wanted:</strong>
+Her children to inherit everything. Instead, her ex-husband got more than her children.</p>
+<h2>Why California's Intestate Succession Laws Don't Work for Most People</h2>
+<p>Based on 20+ years practicing estate planning and probate law in California, here's why I believe intestate succession fails most families:</p>
+<h3>1. Doesn't Reflect Modern Families</h3>
+<p>California's intestacy laws were designed for traditional nuclear families. They don't work well for:</p>
+<ul>
+<li>Blended families</li>
+<li>Unmarried couples</li>
+<li>Stepchildren you helped raise</li>
+<li>Close friends you consider family</li>
+<li>Same-sex couples who haven't formalized their relationship</li>
+</ul>
+<h3>2. Creates Co-Ownership Problems</h3>
+<p>Intestacy often creates multiple co-owners of property (especially homes), requiring everyone to agree on decisions or forcing court proceedings.</p>
+<h3>3. No Lifetime Support for Spouse</h3>
+<p>In situations with children from prior relationships, California gives children immediate inheritance rather than allowing your spouse to use all assets during their lifetime.</p>
+<h3>4. No Asset Protection</h3>
+<p>Intestacy provides no protection for:</p>
+<ul>
+<li>Beneficiaries with substance abuse issues</li>
+<li>Beneficiaries with financial irresponsibility</li>
+<li>Beneficiaries in bad marriages (assets become community property with their spouse)</li>
+<li>Minor children (court-supervised guardianship of assets required)</li>
+</ul>
+<h3>5. No Control Over Timing</h3>
+<p>Everyone inherits immediately (after probate). You can't specify:</p>
+<ul>
+<li>Children inherit at age 25, 30, 35</li>
+<li>Distributions for education, health, home purchase</li>
+<li>Incentive provisions</li>
+</ul>
+<h3>6. No Tax Planning</h3>
+<p>Intestacy includes no tax planning strategies that could save your family hundreds of thousands in taxes.</p>
+<h3>7. No Charitable Giving</h3>
+<p>If you wanted to leave money to church, charity, or causes you care about, intestacy leaves them nothing.</p>
+<h3>8. Maximum Probate Expense</h3>
+<p>Intestate estates go through full probate with maximum costs and delays.</p>
+<h2>How to Avoid Intestate Succession in California</h2>
+<p>The solution is straightforward: create a valid estate plan.</p>
+<h3>Option 1: Last Will and Testament</h3>
+<p><strong>Advantages:</strong></p>
+<ul>
+<li>Relatively inexpensive ($500-$1,500)</li>
+<li>Better than intestacy</li>
+<li>You control who inherits</li>
+<li>Nominate guardian for minor children</li>
+</ul>
+<p><strong>Disadvantages:</strong></p>
+<ul>
+<li>Still requires full probate</li>
+<li>Public record</li>
+<li>12-18 month process</li>
+<li>Costs $20,000-$100,000+ in probate fees</li>
+</ul>
+<h3>Option 2: Revocable Living Trust (Recommended for Most Californians)</h3>
+<p><strong>Advantages:</strong></p>
+<ul>
+<li>Avoids probate entirely</li>
+<li>Private</li>
+<li>Immediate distribution (4-8 weeks)</li>
+<li>Minimal costs ($3,000-$8,000 total)</li>
+<li>Incapacity planning included</li>
+<li>Complete control over distributions</li>
+<li>Asset protection for beneficiaries</li>
+</ul>
+<p><strong>Disadvantages:</strong></p>
+<ul>
+<li>Higher upfront cost ($2,500-$5,000)</li>
+<li>Requires transferring assets to trust</li>
+</ul>
+<h3>Option 3: Hybrid Approach</h3>
+<p>For maximum protection with moderate cost:</p>
+<ul>
+<li>Living trust for real estate and major assets</li>
+<li>Beneficiary designations for retirement accounts and life insurance</li>
+<li>Transfer-on-death designations for bank accounts</li>
+<li>Pour-over will as backup</li>
+</ul>
+<h2>What You Should Do Now</h2>
+<p>If you don't have a will or trust, you're currently relying on California's intestate succession laws. Ask yourself:</p>
+<p><strong>Does California's intestacy formula match what you want?</strong></p>
+<ul>
+<li>Will the right people inherit?</li>
+<li>In the right amounts?</li>
+<li>At the right time?</li>
+<li>With appropriate protections?</li>
+</ul>
+<p>For most people, the answer is no.</p>
+<h3>Take Action Today</h3>
+<p><strong>Step 1: Decide Your Distribution Plan</strong></p>
+<ul>
+<li>Who should inherit what?</li>
+<li>When should they inherit (immediately or over time)?</li>
+<li>Who shouldn't inherit?</li>
+<li>Any special provisions needed?</li>
+</ul>
+<p><strong>Step 2: Choose Your Estate Planning Approach</strong></p>
+<ul>
+<li>Will (if estate is simple and probate is acceptable)</li>
+<li>Trust (recommended for California homeowners)</li>
+</ul>
+<p><strong>Step 3: Consult an Estate Planning Attorney</strong></p>
+<p><strong>Don't Use Online DIY Forms:</strong></p>
+<ul>
+<li>California has specific requirements for valid wills and trusts</li>
+<li>Community property requires specialized knowledge</li>
+<li>Invalid documents are worse than no documents</li>
+<li>Ambiguous provisions create litigation</li>
+</ul>
+<p><strong>Investment:</strong></p>
+<ul>
+<li>Will: $500-$1,500</li>
+<li>Trust: $2,500-$5,000</li>
+</ul>
+<p><strong>Compare to:</strong></p>
+<ul>
+<li>Intestate probate: $30,000-$100,000+</li>
+<li>Family litigation: $50,000-$500,000+</li>
+<li>Unintended distributions: Priceless family heirlooms going to wrong people</li>
+</ul>
+<h2>Related Articles</h2>
+<p><strong>Understanding California intestate succession:</strong></p>
+<ul>
+<li>
+<p><strong><a href="/blog/died-without-will-california/">Died Without Will California</a></strong> - Complete guide to the intestate succession process and probate.</p>
+</li>
+<li>
+<p><strong><a href="/blog/avoid-probate-california/">How to Avoid Probate in California</a></strong> - 7 strategies to prevent intestacy problems with proper planning.</p>
+</li>
+<li>
+<p><strong><a href="/blog/spousal-property-petition-california/">Spousal Property Petition California</a></strong> - Simplified procedure for surviving spouse inheritance.</p>
+</li>
+<li>
+<p><strong><a href="/blog/how-much-does-probate-cost-california/">How Much Does Probate Cost in California?</a></strong> - Intestate probate costs $20,000-$100,000+.</p>
+</li>
+<li>
+<p><strong><a href="/blog/executor-duties-california/">California Executor Duties &#x26; Responsibilities</a></strong> - Administrator duties in intestate estates.</p>
+</li>
+</ul>
+<h2>Schedule Your Estate Planning Consultation</h2>
+<p>Don't leave your family's future to California's intestate succession laws. Take control with a proper estate plan that reflects your wishes and protects your loved ones.</p>
+<p><strong>Call (818) 291-6217</strong> or visit our <a href="/estate-planning-questionnaire.html">estate planning page</a> to schedule your consultation.</p>
+<h3>What to Expect:</h3>
+<p><strong>Initial Consultation (Free):</strong></p>
+<ul>
+<li>Review your assets and family situation</li>
+<li>Explain options (will vs. trust)</li>
+<li>Provide specific recommendations</li>
+<li>Quote fees (flat rate, no surprises)</li>
+</ul>
+<p><strong>Estate Plan Creation (2-4 weeks):</strong></p>
+<ul>
+<li>Draft documents customized to your situation</li>
+<li>Review meeting to explain everything</li>
+<li>Signing appointment</li>
+<li>Guidance on asset transfers</li>
+</ul>
+<p><strong>Peace of Mind:</strong>
+Knowing your family is protected and your wishes will be honored.</p>
+<hr>
+<h2>Frequently Asked Questions</h2>
+<h3>What if I'm married but my spouse and I can't agree on an estate plan?</h3>
+<p>You can each create your own estate plan for your separate property and your half of community property. However, community property requires spousal consent to transfer, so coordination is important.</p>
+<h3>Do I have to leave anything to my children?</h3>
+<p>California law doesn't require you to leave anything to adult children. However, you should explicitly disinherit them in your will or trust to avoid claims they were accidentally omitted.</p>
+<h3>Can I disinherit my spouse?</h3>
+<p>California community property law protects spouses from complete disinheritance of community property. You can only fully control your separate property.</p>
+<h3>What if someone dies before they inherit from me?</h3>
+<p>Your will or trust should specify "per stirpes" (their children inherit their share) or "per capita" (share is redistributed among surviving beneficiaries). Intestacy uses per stirpes.</p>
+<h3>How long does someone have to claim they're an heir?</h3>
+<p>Creditors have 4 months. Heirs who weren't notified may have years to make claims. Proper estate planning avoids this uncertainty.</p>
+<h3>Can intestacy be challenged?</h3>
+<p>Generally no. However, people can challenge:</p>
+<ul>
+<li>Paternity claims</li>
+<li>Marriage validity</li>
+<li>Whether something is community vs separate property</li>
+<li>Whether property passed outside intestacy</li>
+</ul>
+<hr>
+<p><strong>About the Author</strong></p>
+<p>Rozsa Gyene (State Bar No. 208356) is a California probate and estate planning attorney serving Glendale, Burbank, Pasadena, and throughout Los Angeles County. With extensive experience guiding families through both intestate probate proceedings and contested estate litigation, Rozsa helps clients create estate plans that actually protect their families and avoid California's costly default inheritance rules.</p>
+<hr>
+<h2>Related Articles</h2>
+<ul>
+<li><a href="/blog/california-probate-complete-guide-2025">California Probate Complete Guide 2025: Costs, Timeline, and Process</a></li>
+<li><a href="/blog/california-small-estate-affidavit">California Small Estate Affidavit: Skip Probate for Estates Under $184,500</a></li>
+<li><a href="/blog/beneficiary-rights-california-probate-2025">Beneficiary Rights in California Probate 2025</a></li>
+<li><a href="/blog/can-executor-sell-property-without-beneficiaries-approval-california">Can Executor Sell Property Without Beneficiaries Approval in California?</a></li>
+<li><a href="/blog/glendale-probate-attorney">Glendale Probate Attorney: How I Help Families Through Probate</a></li>
+</ul>
+<hr>
+<p><em>Disclaimer: This article provides general information about California intestate succession laws and should not be construed as legal advice. Every family's situation is unique. California laws change regularly, and this article reflects laws in effect as of January 2025. Consult with a qualified California estate planning attorney about your specific circumstances.</em></p>
+a:T503,{"@context":"https://schema.org","@type":"Article","headline":"California Inheritance Laws: Who Gets What When You Die Without a Will or Trust?","description":"California inheritance laws without will explained. Who inherits your house, assets when you die intestate. Probate attorney guide. State Bar 208356.","image":"https://livingtrust-attorneys.com/images/blog/california-inheritance-laws.jpg","articleSection":"Probate","keywords":"California inheritance laws, intestate succession, probate, estate planning, community property, Glendale attorney","wordCount":3449,"author":{"@type":"Person","name":"Rozsa Gyene","jobTitle":"Estate Planning Attorney","credentials":"California State Bar #208356","url":"https://livingtrust-attorneys.com/about.html"},"publisher":{"@type":"LegalService","name":"Law Offices of Rozsa Gyene","url":"https://livingtrust-attorneys.com","telephone":"818-291-6217","address":{"@type":"PostalAddress","streetAddress":"450 N Brand Blvd, Suite 600","addressLocality":"Glendale","addressRegion":"CA","postalCode":"91203"}},"datePublished":"2025-10-22","dateModified":"2025-12-24","mainEntityOfPage":{"@type":"WebPage","@id":"https://livingtrust-attorneys.com/blog/california-inheritance-laws-without-will"},"inLanguage":"en-US","isAccessibleForFree":true}b:T731,{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What if I'm married but my spouse and I can't agree on an estate plan?","acceptedAnswer":{"@type":"Answer","text":"You can each create your own estate plan for your separate property and your half of community property. However, community property requires spousal consent to transfer, so coordination is important."}},{"@type":"Question","name":"Do I have to leave anything to my children?","acceptedAnswer":{"@type":"Answer","text":"California law doesn't require you to leave anything to adult children. However, you should explicitly disinherit them in your will or trust to avoid claims they were accidentally omitted."}},{"@type":"Question","name":"Can I disinherit my spouse?","acceptedAnswer":{"@type":"Answer","text":"California community property law protects spouses from complete disinheritance of community property. You can only fully control your separate property."}},{"@type":"Question","name":"What if someone dies before they inherit from me?","acceptedAnswer":{"@type":"Answer","text":"Your will or trust should specify \"per stirpes\" (their children inherit their share) or \"per capita\" (share is redistributed among surviving beneficiaries). Intestacy uses per stirpes."}},{"@type":"Question","name":"How long does someone have to claim they're an heir?","acceptedAnswer":{"@type":"Answer","text":"Creditors have 4 months. Heirs who weren't notified may have years to make claims. Proper estate planning avoids this uncertainty."}},{"@type":"Question","name":"Can intestacy be challenged?","acceptedAnswer":{"@type":"Answer","text":"Generally no. However, people can challenge:\n- Paternity claims\n- Marriage validity\n- Whether something is community vs separate property\n- Whether property passed outside intestacy"}}]}2:["$","div",null,{"className":"min-h-screen","children":[["$","div",null,{"className":"bg-primary-blue/20 py-4 no-print","children":["$","div",null,{"className":"container-custom","children":["$","nav",null,{"aria-label":"Breadcrumb","className":"flex items-center gap-2 text-sm text-white/70","children":[["$","a",null,{"href":"/","className":"hover:text-white transition-colors","children":"Home"}],["$","span",null,{"children":"/"}],["$","a",null,{"href":"/blog","className":"hover:text-white transition-colors","children":"Blog"}],["$","span",null,{"children":"/"}],["$","span",null,{"className":"text-white","children":"Probate"}]]}]}]}],["$","section",null,{"className":"section-padding bg-gradient-to-b from-transparent to-primary-blue/20","children":["$","div",null,{"className":"container-custom","children":["$","div",null,{"className":"max-w-4xl mx-auto text-center","children":[["$","div",null,{"className":"mb-6","children":["$","span",null,{"className":"inline-block bg-accent-gold text-white px-4 py-2 rounded-full text-sm font-semibold","children":"Probate"}]}],["$","h1",null,{"className":"font-playfair text-4xl md:text-5xl lg:text-6xl text-white mb-6 text-shadow-lg leading-tight","children":"California Inheritance Laws: Who Gets What When You Die Without a Will or Trust?"}],["$","div",null,{"className":"flex flex-wrap items-center justify-center gap-6 text-white/80 mb-8","children":[["$","span",null,{"className":"flex items-center gap-2","children":[["$","svg",null,{"className":"w-5 h-5","fill":"currentColor","viewBox":"0 0 20 20","children":["$","path",null,{"fillRule":"evenodd","d":"M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z","clipRule":"evenodd"}]}],"Rozsa Gyene"]}],["$","span",null,{"className":"flex items-center gap-2","children":[["$","svg",null,{"className":"w-5 h-5","fill":"currentColor","viewBox":"0 0 20 20","children":["$","path",null,{"fillRule":"evenodd","d":"M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z","clipRule":"evenodd"}]}],"October 22, 2025"]}],["$","span",null,{"className":"flex items-center gap-2","children":[["$","svg",null,{"className":"w-5 h-5","fill":"currentColor","viewBox":"0 0 20 20","children":["$","path",null,{"fillRule":"evenodd","d":"M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z","clipRule":"evenodd"}]}],19," min read"]}]]}],null]}]}]}],["$","section",null,{"className":"section-padding","children":["$","div",null,{"className":"container-custom","children":[["$","div",null,{"className":"grid lg:grid-cols-[1fr_300px] gap-8 mb-12","children":[["$","div",null,{"children":[["$","div",null,{"className":"\n      glass-card\n      p-8\n      mb-8\n    ","children":["$","div",null,{"className":"prose-blog","dangerouslySetInnerHTML":{"__html":"$7"}}]}],["$","div",null,{"className":"mb-8","children":["$","div",null,{"className":"\n      glass-card\n      p-4\n      \n    ","children":["$","div",null,{"className":"flex flex-wrap items-center gap-3","children":[["$","span",null,{"className":"text-white/70 font-semibold","children":"Tags:"}],[["$","span","California inheritance laws",{"className":"bg-white/10 text-white px-3 py-1 rounded-full text-sm border border-white/20","children":["#","California inheritance laws"]}],["$","span","intestate succession",{"className":"bg-white/10 text-white px-3 py-1 rounded-full text-sm border border-white/20","children":["#","intestate succession"]}],["$","span","probate",{"className":"bg-white/10 text-white px-3 py-1 rounded-full text-sm border border-white/20","children":["#","probate"]}],["$","span","estate planning",{"className":"bg-white/10 text-white px-3 py-1 rounded-full text-sm border border-white/20","children":["#","estate planning"]}],["$","span","community property",{"className":"bg-white/10 text-white px-3 py-1 rounded-full text-sm border border-white/20","children":["#","community property"]}],["$","span","Glendale attorney",{"className":"bg-white/10 text-white px-3 py-1 rounded-full text-sm border border-white/20","children":["#","Glendale attorney"]}]]]}]}]}],["$","div",null,{"className":"mb-8","children":["$","$L8",null,{"title":"California Inheritance Laws: Who Gets What When You Die Without a Will or Trust?","slug":"california-inheritance-laws-without-will"}]}],["$","div",null,{"style":{"margin":"20px auto","padding":"15px 20px","background":"linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%)","borderLeft":"4px solid #8a6a2f","borderRadius":"8px","maxWidth":"800px"},"children":["$","p",null,{"style":{"margin":0,"fontSize":"14px","color":"#2c3e50","lineHeight":1.6},"children":[["$","strong",null,{"style":{"color":"#1e3a5f"},"children":"Written by Rozsa Gyene, Esq."}],["$","br",null,{}],"California State Bar #208356 | 25+ Years Probate & Estate Experience",["$","br",null,{}],["$","em",null,{"style":{"color":"#6c757d"},"children":"Last Updated: November 28, 2025"}]]}]}]]}],["$","aside",null,{"className":"no-print","children":["$","aside",null,{"className":"no-print","children":["$","div",null,{"className":"\n      glass-card\n      p-8\n      sticky top-24\n    ","children":["$","div",null,{"className":"text-center","children":[["$","div",null,{"className":"text-4xl mb-4","children":"⚖️"}],["$","h3",null,{"className":"font-playfair text-2xl text-white mb-3","children":"Need Legal Guidance?"}],["$","p",null,{"className":"text-white/90 mb-6 leading-relaxed","children":"Schedule a free consultation with Attorney Rozsa Gyene to discuss your estate planning needs."}],["$","a",null,{"href":"tel:8182916217","className":"block w-full bg-accent-gold text-white py-3 px-6 rounded-full font-semibold hover:bg-[#b8982f] transition-all mb-3","children":"📞 (818) 291-6217"}],["$","a",null,{"href":"https://portal.livingtrust-attorneys.com/book","className":"block w-full bg-white/10 text-white py-3 px-6 rounded-full font-semibold hover:bg-white/20 transition-all border border-white/30","target":"_blank","rel":"noopener noreferrer","children":"Book Consultation"}],["$","div",null,{"className":"mt-6 pt-6 border-t border-white/10","children":[["$","p",null,{"className":"text-white/70 text-sm mb-2","children":["$","strong",null,{"className":"text-white","children":"Office Location:"}]}],["$","p",null,{"className":"text-white/70 text-sm","children":["450 N Brand Blvd Ste 600",["$","br",null,{}],"Glendale, CA 91203"]}]]}],["$","div",null,{"className":"mt-4 pt-4 border-t border-white/10","children":["$","div",null,{"className":"flex items-center justify-center gap-2 text-accent-gold text-sm","children":[["$","svg",null,{"className":"w-5 h-5","fill":"currentColor","viewBox":"0 0 20 20","children":["$","path",null,{"fillRule":"evenodd","d":"M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z","clipRule":"evenodd"}]}],["$","span",null,{"className":"font-semibold","children":"25+ Years Experience"}]]}]}]]}]}]}]}]]}],["$","section",null,{"className":"mt-16","children":[["$","h2",null,{"className":"font-playfair text-3xl text-white mb-8 text-center","children":"Related Articles"}],["$","div",null,{"className":"grid md:grid-cols-3 gap-6","children":[["$","$L9","intestate-succession-california",{"href":"/intestate-succession-california","className":"block","children":["$","div",null,{"className":"\n      glass-card-hover\n      p-8\n      h-full flex flex-col\n    ","children":[["$","div",null,{"className":"mb-3","children":["$","span",null,{"className":"inline-block bg-accent-gold/20 text-accent-gold px-3 py-1 rounded-full text-xs font-semibold border border-accent-gold/30","children":"Probate"}]}],["$","h3",null,{"className":"font-playfair text-xl text-white mb-3 leading-tight flex-1","children":"Intestate Succession California: Who Inherits When There's No Will?"}],["$","div",null,{"className":"flex items-center justify-between text-sm text-white/60 pt-3 border-t border-white/10","children":[["$","span",null,{"children":"Oct 25, 2025"}],["$","span",null,{"children":[13," min"]}]]}]]}]}],["$","$L9","what-happens-house-die-without-trust-california",{"href":"/what-happens-house-die-without-trust-california","className":"block","children":["$","div",null,{"className":"\n      glass-card-hover\n      p-8\n      h-full flex flex-col\n    ","children":[["$","div",null,{"className":"mb-3","children":["$","span",null,{"className":"inline-block bg-accent-gold/20 text-accent-gold px-3 py-1 rounded-full text-xs font-semibold border border-accent-gold/30","children":"Probate"}]}],["$","h3",null,{"className":"font-playfair text-xl text-white mb-3 leading-tight flex-1","children":"What Happens to Your House When You Die Without a Trust in California?"}],["$","div",null,{"className":"flex items-center justify-between text-sm text-white/60 pt-3 border-t border-white/10","children":[["$","span",null,{"children":"Nov 23, 2025"}],["$","span",null,{"children":[17," min"]}]]}]]}]}],["$","$L9","what-assets-go-through-probate-california",{"href":"/what-assets-go-through-probate-california","className":"block","children":["$","div",null,{"className":"\n      glass-card-hover\n      p-8\n      h-full flex flex-col\n    ","children":[["$","div",null,{"className":"mb-3","children":["$","span",null,{"className":"inline-block bg-accent-gold/20 text-accent-gold px-3 py-1 rounded-full text-xs font-semibold border border-accent-gold/30","children":"Probate"}]}],["$","h3",null,{"className":"font-playfair text-xl text-white mb-3 leading-tight flex-1","children":"What Assets Go Through Probate in California? Complete Guide 2025"}],["$","div",null,{"className":"flex items-center justify-between text-sm text-white/60 pt-3 border-t border-white/10","children":[["$","span",null,{"children":"Oct 25, 2025"}],["$","span",null,{"children":[14," min"]}]]}]]}]}]]}]]}]]}]}],["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"$a"}}],["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"$b"}}]]}]
+6:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"California Inheritance Laws: Who Gets What When You Die Without a Will or Trust? | Law Offices of Rozsa Gyene"}],["$","meta","3",{"name":"description","content":"California inheritance laws without will explained. Who inherits your house, assets when you die intestate. Probate attorney guide. State Bar 208356."}],["$","meta","4",{"name":"author","content":"Rozsa Gyene"}],["$","meta","5",{"name":"keywords","content":"California inheritance laws,intestate succession,probate,estate planning,community property,Glendale attorney,Probate,estate planning,Rozsa Gyene,Glendale attorney"}],["$","link","6",{"rel":"canonical","href":"https://livingtrust-attorneys.com/blog/california-inheritance-laws-without-will"}],["$","meta","7",{"property":"og:title","content":"California Inheritance Laws: Who Gets What When You Die Without a Will or Trust?"}],["$","meta","8",{"property":"og:description","content":"California inheritance laws without will explained. Who inherits your house, assets when you die intestate. Probate attorney guide. State Bar 208356."}],["$","meta","9",{"property":"og:type","content":"article"}],["$","meta","10",{"property":"article:published_time","content":"2025-10-22"}],["$","meta","11",{"property":"article:author","content":"Rozsa Gyene"}],["$","meta","12",{"property":"article:tag","content":"California inheritance laws"}],["$","meta","13",{"property":"article:tag","content":"intestate succession"}],["$","meta","14",{"property":"article:tag","content":"probate"}],["$","meta","15",{"property":"article:tag","content":"estate planning"}],["$","meta","16",{"property":"article:tag","content":"community property"}],["$","meta","17",{"property":"article:tag","content":"Glendale attorney"}],["$","meta","18",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","19",{"name":"twitter:title","content":"Estate Planning & Trust Law Blog"}],["$","meta","20",{"name":"twitter:description","content":"Expert legal insights from Rozsa Gyene"}],["$","meta","21",{"name":"next-size-adjust"}]]
+1:null

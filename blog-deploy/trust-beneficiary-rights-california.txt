@@ -1,0 +1,233 @@
+3:I[4707,[],""]
+5:I[6423,[],""]
+4:["slug","trust-beneficiary-rights-california","d"]
+0:["XNl8EPT-Q30wSTcV-gnhM",[[["",{"children":[["slug","trust-beneficiary-rights-california","d"],{"children":["__PAGE__?{\"slug\":\"trust-beneficiary-rights-california\"}",{}]}]},"$undefined","$undefined",true],["",{"children":[["slug","trust-beneficiary-rights-california","d"],{"children":["__PAGE__",{},[["$L1","$L2",null],null],null]},[null,["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","$4","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]],null]},[[[["$","link","0",{"rel":"stylesheet","href":"/blog/_next/static/css/76af30a148da119e.css","precedence":"next","crossOrigin":"$undefined"}]],["$","html",null,{"lang":"en","className":"__variable_fbaf84 __variable_774662","children":[["$","head",null,{"children":[["$","link",null,{"rel":"icon","href":"/favicon.ico"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}]]}],["$","body",null,{"className":"bg-gradient-blue min-h-screen","children":[["$","div",null,{"className":"bg-primary-blue text-white py-2.5 text-sm","children":["$","div",null,{"className":"container-custom flex justify-between items-center","children":[["$","div",null,{"className":"flex items-center gap-6","children":["$","span",null,{"children":"Over 25 Years Serving Los Angeles County"}]}],["$","a",null,{"href":"tel:8182916217","className":"text-accent-gold font-semibold hover:underline","children":"(818) 291-6217"}]]}]}],["$","nav",null,{"className":"bg-transparent py-5","children":["$","div",null,{"className":"container-custom flex justify-between items-center","children":[["$","a",null,{"href":"https://livingtrust-attorneys.com","className":"flex items-center gap-3 text-white no-print","children":["$","div",null,{"className":"flex flex-col","children":[["$","span",null,{"className":"font-playfair text-xl font-bold text-shadow-md","children":"Law Offices of Rozsa Gyene"}],["$","span",null,{"className":"text-sm text-accent-gold","children":"Estate Planning & Trust Law Blog"}]]}]}],["$","div",null,{"className":"flex items-center gap-4 no-print","children":[["$","a",null,{"href":"https://livingtrust-attorneys.com","className":"text-white hover:text-accent-gold transition-colors font-medium","children":"Home"}],["$","a",null,{"href":"/","className":"text-accent-gold font-semibold","children":"Blog"}],["$","a",null,{"href":"https://portal.livingtrust-attorneys.com/book","className":"btn-primary text-base py-3 px-6","target":"_blank","rel":"noopener noreferrer","children":"Free Consultation"}]]}]]}]}],["$","main",null,{"className":"min-h-screen","children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[]}]}],["$","footer",null,{"className":"bg-primary-blue text-white mt-20 no-print","children":["$","div",null,{"className":"container-custom py-12","children":[["$","div",null,{"className":"grid md:grid-cols-3 gap-8","children":[["$","div",null,{"children":[["$","h3",null,{"className":"font-playfair text-2xl mb-4","children":"Law Offices of Rozsa Gyene"}],["$","p",null,{"className":"text-white/80 mb-4","children":"Over 25 years of experience serving Los Angeles County families with comprehensive estate planning and trust services."}]]}],["$","div",null,{"children":[["$","h4",null,{"className":"font-semibold text-lg mb-4 text-accent-gold","children":"Contact"}],["$","div",null,{"className":"space-y-2 text-white/80","children":[["$","p",null,{"children":"450 N Brand Blvd Ste 600"}],["$","p",null,{"children":"Glendale, CA 91203"}],["$","p",null,{"className":"mt-4","children":["$","a",null,{"href":"tel:8182916217","className":"text-accent-gold hover:underline","children":"(818) 291-6217"}]}]]}]]}],["$","div",null,{"children":[["$","h4",null,{"className":"font-semibold text-lg mb-4 text-accent-gold","children":"Practice Areas"}],["$","ul",null,{"className":"space-y-2 text-white/80","children":[["$","li",null,{"children":["$","a",null,{"href":"https://livingtrust-attorneys.com/living-trusts.html","className":"hover:text-accent-gold transition-colors","children":"Living Trusts"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://livingtrust-attorneys.com/probate.html","className":"hover:text-accent-gold transition-colors","children":"Probate"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://livingtrust-attorneys.com/trust-administration.html","className":"hover:text-accent-gold transition-colors","children":"Trust Administration"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://livingtrust-attorneys.com/conservatorship.html","className":"hover:text-accent-gold transition-colors","children":"Conservatorship"}]}]]}]]}]]}],["$","div",null,{"className":"border-t border-white/10 mt-8 pt-8 text-center text-white/70 text-sm","children":["$","p",null,{"children":["© ",2025," Law Offices of Rozsa Gyene. All rights reserved."]}]}]]}]}]]}]]}]],null],null],["$L6",null]]]]
+8:I[2578,["972","static/chunks/972-6296c3e7f99d3665.js","42","static/chunks/app/%5Bslug%5D/page-27e08b5d2052b651.js"],"default"]
+9:I[2972,["972","static/chunks/972-6296c3e7f99d3665.js","42","static/chunks/app/%5Bslug%5D/page-27e08b5d2052b651.js"],""]
+7:T2ec9,<p>As a trust beneficiary, you have legal rights under California law—even if the trustee doesn't tell you about them. Knowing your rights helps you ensure you receive what you're entitled to and that the trust is being administered properly.</p>
+<h2>Your Right to Information</h2>
+<h3>Right to Receive Notice</h3>
+<p>When a trust becomes irrevocable (usually at the settlor's death), the trustee must notify you within 60 days. This notice must include:</p>
+<ul>
+<li>Identity of the trust and settlor</li>
+<li>That the trust is now irrevocable</li>
+<li>Trustee's contact information</li>
+<li>Your right to request trust terms</li>
+<li>The 120-day contest deadline</li>
+</ul>
+<p>If you didn't receive this notice, the trustee may have violated their duties.</p>
+<h3>Right to Trust Terms</h3>
+<p>Under California Probate Code §16061, you can request a copy of the trust provisions that affect your interest.</p>
+<p><strong>What you can request:</strong></p>
+<ul>
+<li>Portions of the trust that relate to your inheritance</li>
+<li>Amendments affecting your interest</li>
+<li>Information about your rights and conditions</li>
+</ul>
+<p><strong>What the trustee must provide:</strong></p>
+<p>The trustee must give you relevant trust terms—though they may redact portions that don't affect your interest.</p>
+<h3>Right to Information About Administration</h3>
+<p>California Probate Code §16060 requires trustees to keep beneficiaries "reasonably informed" about trust administration.</p>
+<p><strong>You're entitled to know:</strong></p>
+<ul>
+<li>What assets are in the trust</li>
+<li>Major actions taken by the trustee</li>
+<li>Status of the administration</li>
+<li>Anticipated timeline for distributions</li>
+</ul>
+<p>You don't have to sit in the dark wondering what's happening.</p>
+<h3>Right to Accounting</h3>
+<p>Under Probate Code §16062, you can request a formal accounting from the trustee. The accounting must show:</p>
+<ul>
+<li>All trust assets at beginning of period</li>
+<li>All receipts (income, sales proceeds, etc.)</li>
+<li>All disbursements (expenses, distributions, etc.)</li>
+<li>All assets at end of period</li>
+<li>Trustee compensation taken</li>
+</ul>
+<p><strong>Who can request:</strong></p>
+<ul>
+<li>Current income beneficiaries</li>
+<li>Beneficiaries entitled to principal distributions</li>
+<li>Beneficiaries who would receive assets if the trust terminated</li>
+</ul>
+<p><strong>How often:</strong></p>
+<p>At least once per year, and at the end of administration.</p>
+<h2>Your Right to Timely Distribution</h2>
+<h3>When Distribution Should Happen</h3>
+<p>The trustee should distribute trust assets according to the trust terms within a reasonable time after:</p>
+<ul>
+<li>The 120-day contest period expires</li>
+<li>Debts and taxes are paid</li>
+<li>The trustee knows what's available for distribution</li>
+</ul>
+<h3>What's "Reasonable"?</h3>
+<p>There's no fixed deadline, but trustees shouldn't delay unnecessarily. A delay of several months might be justified if:</p>
+<ul>
+<li>Real estate must be sold</li>
+<li>Tax issues are being resolved</li>
+<li>Disputes need resolution</li>
+</ul>
+<p>A delay of years without good reason is likely a breach of duty.</p>
+<h3>Preliminary Distributions</h3>
+<p>Trustees can make partial distributions before final administration if:</p>
+<ul>
+<li>Sufficient funds remain for debts, taxes, and expenses</li>
+<li>No trust contest is pending</li>
+<li>The trustee is confident in remaining obligations</li>
+</ul>
+<p>You can ask the trustee about preliminary distributions if you have financial needs.</p>
+<h2>Your Right to Fair Treatment</h2>
+<h3>Duty of Impartiality</h3>
+<p>If there are multiple beneficiaries, the trustee must treat all of you fairly—not favoring one over another.</p>
+<p><strong>This means:</strong></p>
+<ul>
+<li>Not giving better information to some beneficiaries</li>
+<li>Not prioritizing one beneficiary's interests</li>
+<li>Balancing current vs. future beneficiaries' needs</li>
+<li>Following trust terms equally for everyone</li>
+</ul>
+<h3>No Self-Dealing</h3>
+<p>The trustee cannot use their position for personal gain at your expense. Prohibited actions include:</p>
+<ul>
+<li>Buying trust assets for themselves</li>
+<li>Selling their property to the trust</li>
+<li>Using trust funds for personal benefit</li>
+<li>Taking excessive compensation</li>
+<li>Hiring themselves or family for paid services</li>
+</ul>
+<h2>Your Right to Prudent Management</h2>
+<h3>Investment Standards</h3>
+<p>The trustee must invest and manage trust assets as a "prudent investor" would, considering:</p>
+<ul>
+<li>Risk and return objectives</li>
+<li>Need for diversification</li>
+<li>Need for liquidity</li>
+<li>Tax consequences</li>
+<li>The trust's purposes</li>
+</ul>
+<p>Keeping large amounts in non-interest accounts, making speculative investments, or failing to invest at all may be breaches.</p>
+<h3>Asset Protection</h3>
+<p>The trustee must protect trust assets from:</p>
+<ul>
+<li>Theft or loss</li>
+<li>Physical damage (property insurance)</li>
+<li>Waste or deterioration</li>
+<li>Missed opportunities (uncollected income)</li>
+</ul>
+<h2>Your Right to Enforce Trust Terms</h2>
+<h3>The Trust Is Binding</h3>
+<p>The trustee must follow the trust document. They cannot:</p>
+<ul>
+<li>Change distribution amounts</li>
+<li>Add conditions not in the trust</li>
+<li>Ignore mandatory distribution requirements</li>
+<li>Override the settlor's intent</li>
+</ul>
+<p>If the trust says you get 25%, you get 25%—not less because the trustee thinks someone else deserves more.</p>
+<h3>Court Enforcement</h3>
+<p>If the trustee violates trust terms, you can petition the court to:</p>
+<ul>
+<li>Order the trustee to comply</li>
+<li>Compel distributions</li>
+<li>Require accounting</li>
+<li>Remove the trustee</li>
+<li>Award damages (surcharge)</li>
+</ul>
+<h2>What If the Trustee Isn't Cooperating?</h2>
+<h3>Step 1: Request in Writing</h3>
+<p>Put your requests in writing:</p>
+<ul>
+<li>Send via email with read receipt, or</li>
+<li>Send via certified mail</li>
+</ul>
+<p>Written requests create a record and often prompt action.</p>
+<h3>Step 2: Be Specific</h3>
+<p>State exactly what you want:</p>
+<ul>
+<li>"Please provide a copy of trust provisions affecting my interest"</li>
+<li>"Please provide an accounting for the period [date] to [date]"</li>
+<li>"Please provide an update on distribution timeline"</li>
+</ul>
+<h3>Step 3: Set a Deadline</h3>
+<p>Give the trustee a reasonable deadline:</p>
+<ul>
+<li>30 days for most requests</li>
+<li>60 days for complex accountings</li>
+</ul>
+<h3>Step 4: Escalate if Necessary</h3>
+<p>If the trustee still doesn't respond:</p>
+<ul>
+<li>Consult with an attorney</li>
+<li>Consider formal demand letter</li>
+<li>Petition the court if needed</li>
+</ul>
+<h2>Red Flags to Watch For</h2>
+<p><strong>Be concerned if:</strong></p>
+<h3>Communication problems:</h3>
+<ul>
+<li>Trustee won't return calls or emails</li>
+<li>Trustee gives vague answers</li>
+<li>Trustee refuses to provide information</li>
+<li>Long periods of silence</li>
+</ul>
+<h3>Financial red flags:</h3>
+<ul>
+<li>No distributions despite trust terms requiring them</li>
+<li>Trustee living in trust property rent-free</li>
+<li>Trust assets diminishing without explanation</li>
+<li>Trustee taking large fees without disclosure</li>
+</ul>
+<h3>Procedural problems:</h3>
+<ul>
+<li>No 60-day notice received</li>
+<li>No accounting provided when requested</li>
+<li>Trustee making decisions without informing beneficiaries</li>
+<li>Trustee favoring certain beneficiaries</li>
+</ul>
+<h2>Limits on Beneficiary Rights</h2>
+<p>Your rights aren't unlimited:</p>
+<h3>Discretionary Trusts</h3>
+<p>If the trustee has discretion over distributions, they can decide when and how much to distribute. You can't demand distributions—but the trustee must exercise discretion reasonably and in good faith.</p>
+<h3>Spendthrift Provisions</h3>
+<p>Many trusts include spendthrift clauses that:</p>
+<ul>
+<li>Prevent you from assigning your interest</li>
+<li>Protect your inheritance from creditors</li>
+<li>Give the trustee control over timing</li>
+</ul>
+<h3>Trust Terms Control</h3>
+<p>If the trust says you receive income only (not principal), you're entitled to income only. The trust terms define your rights.</p>
+<h3>Contest Deadline</h3>
+<p>Your right to challenge the trust expires 120 days after receiving proper notice. After that, most challenges are barred.</p>
+<h2>When to Hire an Attorney</h2>
+<p>Consider legal help if:</p>
+<ul>
+<li>Trustee won't communicate or provide information</li>
+<li>You suspect mismanagement or self-dealing</li>
+<li>Distributions are unreasonably delayed</li>
+<li>You believe trust terms are being violated</li>
+<li>You want to contest the trust</li>
+<li>You need help understanding your rights</li>
+</ul>
+<h2>Frequently Asked Questions</h2>
+<h3>Can a trustee refuse to give me a copy of the trust?</h3>
+<p>No. Under California Probate Code 16061, you have the right to request trust provisions that affect your interest, and the trustee must provide them. While the trustee can redact portions that don't relate to your inheritance, they cannot refuse your request entirely. If a trustee refuses, you can petition the court to compel disclosure.</p>
+<h3>How long can a trustee delay distributing my inheritance?</h3>
+<p>There is no fixed deadline, but trustees must distribute within a reasonable time after the 120-day contest period expires, debts and taxes are paid, and they know what's available for distribution. Several months may be justified for complex estates, but delays of years without good reason likely constitute a breach of fiduciary duty. You can petition the court to compel distribution if delays are unreasonable.</p>
+<h3>What can I do if the trustee won't communicate with me?</h3>
+<p>Start by putting your requests in writing via email with read receipt or certified mail. Be specific about what you need and set a reasonable deadline (30-60 days). If the trustee still doesn't respond, consult with an attorney about sending a formal demand letter or filing a court petition. Trustees have a legal duty to keep beneficiaries reasonably informed, and failure to communicate is a breach of that duty.</p>
+<h3>Can I sue the trustee for mismanaging trust assets?</h3>
+<p>Yes. If the trustee breaches their fiduciary duties through mismanagement, self-dealing, or failing to follow trust terms, you can petition the court for remedies including: ordering the trustee to comply with their duties, requiring an accounting, removing the trustee, and surcharging the trustee (requiring them to personally repay losses caused by their misconduct). You should consult with a trust litigation attorney to evaluate your case.</p>
+<h3>Does the 120-day contest deadline apply to all beneficiary rights?</h3>
+<p>No. The 120-day deadline only applies to contesting the validity of the trust itself (challenging it based on lack of capacity, undue influence, fraud, etc.). Your other rights as a beneficiary—to receive accountings, request information, compel distributions, or challenge trustee misconduct—are not subject to this 120-day deadline and can be enforced throughout the administration.</p>
+<h2>Protect Your Inheritance</h2>
+<p>Understanding your rights as a trust beneficiary helps you ensure proper administration. If something seems wrong, don't wait—delays can make problems harder to fix.</p>
+<p>The Law Offices of Rozsa Gyene represents trust beneficiaries throughout Los Angeles County. We help you understand your rights and take action when trustees don't perform.</p>
+<p><strong>Call (818) 291-6217</strong> for a consultation, or visit our <a href="/estate-planning-questionnaire.html">contact page</a>.</p>
+<p>Serving Glendale, Burbank, Pasadena, and all of Los Angeles County.</p>
+<hr>
+<p><em>This article provides general information about trust beneficiary rights in California. Every trust is different. Consult an attorney for advice specific to your situation.</em></p>
+a:T52d,{"@context":"https://schema.org","@type":"Article","headline":"Trust Beneficiary Rights in California: What You're Entitled To","description":"Trust beneficiary rights California: Right to information, accounting, distribution, fair treatment. What to do if trustee won't cooperate. Glendale attorney. Free consultation.","image":"https://livingtrust-attorneys.com/images/blog/trustee-warning-signs.jpg","articleSection":"Trust Administration","keywords":"trust beneficiary rights, California trust law, beneficiary rights, trust administration, trustee duties, Probate Code 16060, Glendale attorney","wordCount":1503,"author":{"@type":"Person","name":"Rozsa Gyene","jobTitle":"Estate Planning Attorney","credentials":"California State Bar #208356","url":"https://livingtrust-attorneys.com/about.html"},"publisher":{"@type":"LegalService","name":"Law Offices of Rozsa Gyene","url":"https://livingtrust-attorneys.com","telephone":"818-291-6217","address":{"@type":"PostalAddress","streetAddress":"450 N Brand Blvd, Suite 600","addressLocality":"Glendale","addressRegion":"CA","postalCode":"91203"}},"datePublished":"2025-10-31","dateModified":"2025-12-24","mainEntityOfPage":{"@type":"WebPage","@id":"https://livingtrust-attorneys.com/blog/trust-beneficiary-rights-california"},"inLanguage":"en-US","isAccessibleForFree":true}b:Taae,{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Can a trustee refuse to give me a copy of the trust?","acceptedAnswer":{"@type":"Answer","text":"No. Under California Probate Code 16061, you have the right to request trust provisions that affect your interest, and the trustee must provide them. While the trustee can redact portions that don't relate to your inheritance, they cannot refuse your request entirely. If a trustee refuses, you can petition the court to compel disclosure."}},{"@type":"Question","name":"How long can a trustee delay distributing my inheritance?","acceptedAnswer":{"@type":"Answer","text":"There is no fixed deadline, but trustees must distribute within a reasonable time after the 120-day contest period expires, debts and taxes are paid, and they know what's available for distribution. Several months may be justified for complex estates, but delays of years without good reason likely constitute a breach of fiduciary duty. You can petition the court to compel distribution if delays are unreasonable."}},{"@type":"Question","name":"What can I do if the trustee won't communicate with me?","acceptedAnswer":{"@type":"Answer","text":"Start by putting your requests in writing via email with read receipt or certified mail. Be specific about what you need and set a reasonable deadline (30-60 days). If the trustee still doesn't respond, consult with an attorney about sending a formal demand letter or filing a court petition. Trustees have a legal duty to keep beneficiaries reasonably informed, and failure to communicate is a breach of that duty."}},{"@type":"Question","name":"Can I sue the trustee for mismanaging trust assets?","acceptedAnswer":{"@type":"Answer","text":"Yes. If the trustee breaches their fiduciary duties through mismanagement, self-dealing, or failing to follow trust terms, you can petition the court for remedies including: ordering the trustee to comply with their duties, requiring an accounting, removing the trustee, and surcharging the trustee (requiring them to personally repay losses caused by their misconduct). You should consult with a trust litigation attorney to evaluate your case."}},{"@type":"Question","name":"Does the 120-day contest deadline apply to all beneficiary rights?","acceptedAnswer":{"@type":"Answer","text":"No. The 120-day deadline only applies to contesting the validity of the trust itself (challenging it based on lack of capacity, undue influence, fraud, etc.). Your other rights as a beneficiary—to receive accountings, request information, compel distributions, or challenge trustee misconduct—are not subject to this 120-day deadline and can be enforced throughout the administration."}}]}2:["$","div",null,{"className":"min-h-screen","children":[["$","div",null,{"className":"bg-primary-blue/20 py-4 no-print","children":["$","div",null,{"className":"container-custom","children":["$","nav",null,{"aria-label":"Breadcrumb","className":"flex items-center gap-2 text-sm text-white/70","children":[["$","a",null,{"href":"/","className":"hover:text-white transition-colors","children":"Home"}],["$","span",null,{"children":"/"}],["$","a",null,{"href":"/blog","className":"hover:text-white transition-colors","children":"Blog"}],["$","span",null,{"children":"/"}],["$","span",null,{"className":"text-white","children":"Trust Administration"}]]}]}]}],["$","section",null,{"className":"section-padding bg-gradient-to-b from-transparent to-primary-blue/20","children":["$","div",null,{"className":"container-custom","children":["$","div",null,{"className":"max-w-4xl mx-auto text-center","children":[["$","div",null,{"className":"mb-6","children":["$","span",null,{"className":"inline-block bg-accent-gold text-white px-4 py-2 rounded-full text-sm font-semibold","children":"Trust Administration"}]}],["$","h1",null,{"className":"font-playfair text-4xl md:text-5xl lg:text-6xl text-white mb-6 text-shadow-lg leading-tight","children":"Trust Beneficiary Rights in California: What You're Entitled To"}],["$","div",null,{"className":"flex flex-wrap items-center justify-center gap-6 text-white/80 mb-8","children":[["$","span",null,{"className":"flex items-center gap-2","children":[["$","svg",null,{"className":"w-5 h-5","fill":"currentColor","viewBox":"0 0 20 20","children":["$","path",null,{"fillRule":"evenodd","d":"M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z","clipRule":"evenodd"}]}],"Rozsa Gyene"]}],["$","span",null,{"className":"flex items-center gap-2","children":[["$","svg",null,{"className":"w-5 h-5","fill":"currentColor","viewBox":"0 0 20 20","children":["$","path",null,{"fillRule":"evenodd","d":"M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z","clipRule":"evenodd"}]}],"October 31, 2025"]}],["$","span",null,{"className":"flex items-center gap-2","children":[["$","svg",null,{"className":"w-5 h-5","fill":"currentColor","viewBox":"0 0 20 20","children":["$","path",null,{"fillRule":"evenodd","d":"M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z","clipRule":"evenodd"}]}],9," min read"]}]]}],null]}]}]}],["$","section",null,{"className":"section-padding","children":["$","div",null,{"className":"container-custom","children":[["$","div",null,{"className":"grid lg:grid-cols-[1fr_300px] gap-8 mb-12","children":[["$","div",null,{"children":[["$","div",null,{"className":"\n      glass-card\n      p-8\n      mb-8\n    ","children":["$","div",null,{"className":"prose-blog","dangerouslySetInnerHTML":{"__html":"$7"}}]}],["$","div",null,{"className":"mb-8","children":["$","div",null,{"className":"\n      glass-card\n      p-4\n      \n    ","children":["$","div",null,{"className":"flex flex-wrap items-center gap-3","children":[["$","span",null,{"className":"text-white/70 font-semibold","children":"Tags:"}],[["$","span","trust beneficiary rights",{"className":"bg-white/10 text-white px-3 py-1 rounded-full text-sm border border-white/20","children":["#","trust beneficiary rights"]}],["$","span","California trust law",{"className":"bg-white/10 text-white px-3 py-1 rounded-full text-sm border border-white/20","children":["#","California trust law"]}],["$","span","beneficiary rights",{"className":"bg-white/10 text-white px-3 py-1 rounded-full text-sm border border-white/20","children":["#","beneficiary rights"]}],["$","span","trust administration",{"className":"bg-white/10 text-white px-3 py-1 rounded-full text-sm border border-white/20","children":["#","trust administration"]}],["$","span","trustee duties",{"className":"bg-white/10 text-white px-3 py-1 rounded-full text-sm border border-white/20","children":["#","trustee duties"]}],["$","span","Probate Code 16060",{"className":"bg-white/10 text-white px-3 py-1 rounded-full text-sm border border-white/20","children":["#","Probate Code 16060"]}],["$","span","Glendale attorney",{"className":"bg-white/10 text-white px-3 py-1 rounded-full text-sm border border-white/20","children":["#","Glendale attorney"]}]]]}]}]}],["$","div",null,{"className":"mb-8","children":["$","$L8",null,{"title":"Trust Beneficiary Rights in California: What You're Entitled To","slug":"trust-beneficiary-rights-california"}]}],["$","div",null,{"style":{"margin":"20px auto","padding":"15px 20px","background":"linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%)","borderLeft":"4px solid #8a6a2f","borderRadius":"8px","maxWidth":"800px"},"children":["$","p",null,{"style":{"margin":0,"fontSize":"14px","color":"#2c3e50","lineHeight":1.6},"children":[["$","strong",null,{"style":{"color":"#1e3a5f"},"children":"Written by Rozsa Gyene, Esq."}],["$","br",null,{}],"California State Bar #208356 | 25+ Years Probate & Estate Experience",["$","br",null,{}],["$","em",null,{"style":{"color":"#6c757d"},"children":"Last Updated: November 28, 2025"}]]}]}]]}],["$","aside",null,{"className":"no-print","children":["$","aside",null,{"className":"no-print","children":["$","div",null,{"className":"\n      glass-card\n      p-8\n      sticky top-24\n    ","children":["$","div",null,{"className":"text-center","children":[["$","div",null,{"className":"text-4xl mb-4","children":"⚖️"}],["$","h3",null,{"className":"font-playfair text-2xl text-white mb-3","children":"Need Legal Guidance?"}],["$","p",null,{"className":"text-white/90 mb-6 leading-relaxed","children":"Schedule a free consultation with Attorney Rozsa Gyene to discuss your estate planning needs."}],["$","a",null,{"href":"tel:8182916217","className":"block w-full bg-accent-gold text-white py-3 px-6 rounded-full font-semibold hover:bg-[#b8982f] transition-all mb-3","children":"📞 (818) 291-6217"}],["$","a",null,{"href":"https://portal.livingtrust-attorneys.com/book","className":"block w-full bg-white/10 text-white py-3 px-6 rounded-full font-semibold hover:bg-white/20 transition-all border border-white/30","target":"_blank","rel":"noopener noreferrer","children":"Book Consultation"}],["$","div",null,{"className":"mt-6 pt-6 border-t border-white/10","children":[["$","p",null,{"className":"text-white/70 text-sm mb-2","children":["$","strong",null,{"className":"text-white","children":"Office Location:"}]}],["$","p",null,{"className":"text-white/70 text-sm","children":["450 N Brand Blvd Ste 600",["$","br",null,{}],"Glendale, CA 91203"]}]]}],["$","div",null,{"className":"mt-4 pt-4 border-t border-white/10","children":["$","div",null,{"className":"flex items-center justify-center gap-2 text-accent-gold text-sm","children":[["$","svg",null,{"className":"w-5 h-5","fill":"currentColor","viewBox":"0 0 20 20","children":["$","path",null,{"fillRule":"evenodd","d":"M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z","clipRule":"evenodd"}]}],["$","span",null,{"className":"font-semibold","children":"25+ Years Experience"}]]}]}]]}]}]}]}]]}],["$","section",null,{"className":"mt-16","children":[["$","h2",null,{"className":"font-playfair text-3xl text-white mb-8 text-center","children":"Related Articles"}],["$","div",null,{"className":"grid md:grid-cols-3 gap-6","children":[["$","$L9","trustee-not-distributing-trust-assets",{"href":"/trustee-not-distributing-trust-assets","className":"block","children":["$","div",null,{"className":"\n      glass-card-hover\n      p-8\n      h-full flex flex-col\n    ","children":[["$","div",null,{"className":"mb-3","children":["$","span",null,{"className":"inline-block bg-accent-gold/20 text-accent-gold px-3 py-1 rounded-full text-xs font-semibold border border-accent-gold/30","children":"Trust Administration"}]}],["$","h3",null,{"className":"font-playfair text-xl text-white mb-3 leading-tight flex-1","children":"What to Do When a Trustee Won't Distribute Trust Assets in California"}],["$","div",null,{"className":"flex items-center justify-between text-sm text-white/60 pt-3 border-t border-white/10","children":[["$","span",null,{"children":"Nov 1, 2025"}],["$","span",null,{"children":[8," min"]}]]}]]}]}],["$","$L9","how-to-become-successor-trustee-california",{"href":"/how-to-become-successor-trustee-california","className":"block","children":["$","div",null,{"className":"\n      glass-card-hover\n      p-8\n      h-full flex flex-col\n    ","children":[["$","div",null,{"className":"mb-3","children":["$","span",null,{"className":"inline-block bg-accent-gold/20 text-accent-gold px-3 py-1 rounded-full text-xs font-semibold border border-accent-gold/30","children":"Trust Administration"}]}],["$","h3",null,{"className":"font-playfair text-xl text-white mb-3 leading-tight flex-1","children":"How to Become a Successor Trustee in California"}],["$","div",null,{"className":"flex items-center justify-between text-sm text-white/60 pt-3 border-t border-white/10","children":[["$","span",null,{"children":"Nov 7, 2025"}],["$","span",null,{"children":[10," min"]}]]}]]}]}],["$","$L9","can-successor-trustee-be-beneficiary-california",{"href":"/can-successor-trustee-be-beneficiary-california","className":"block","children":["$","div",null,{"className":"\n      glass-card-hover\n      p-8\n      h-full flex flex-col\n    ","children":[["$","div",null,{"className":"mb-3","children":["$","span",null,{"className":"inline-block bg-accent-gold/20 text-accent-gold px-3 py-1 rounded-full text-xs font-semibold border border-accent-gold/30","children":"Trust Administration"}]}],["$","h3",null,{"className":"font-playfair text-xl text-white mb-3 leading-tight flex-1","children":"Can a Successor Trustee Also Be a Beneficiary in California?"}],["$","div",null,{"className":"flex items-center justify-between text-sm text-white/60 pt-3 border-t border-white/10","children":[["$","span",null,{"children":"Nov 5, 2025"}],["$","span",null,{"children":[8," min"]}]]}]]}]}]]}]]}]]}]}],["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"$a"}}],["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"$b"}}]]}]
+6:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"Trust Beneficiary Rights in California: What You're Entitled To | Law Offices of Rozsa Gyene"}],["$","meta","3",{"name":"description","content":"Trust beneficiary rights California: Right to information, accounting, distribution, fair treatment. What to do if trustee won't cooperate. Glendale attorney. Free consultation."}],["$","meta","4",{"name":"author","content":"Rozsa Gyene"}],["$","meta","5",{"name":"keywords","content":"trust beneficiary rights,California trust law,beneficiary rights,trust administration,trustee duties,Probate Code 16060,Glendale attorney,Trust Administration,estate planning,Rozsa Gyene,Glendale attorney"}],["$","link","6",{"rel":"canonical","href":"https://livingtrust-attorneys.com/blog/trust-beneficiary-rights-california"}],["$","meta","7",{"property":"og:title","content":"Trust Beneficiary Rights in California: What You're Entitled To"}],["$","meta","8",{"property":"og:description","content":"Trust beneficiary rights California: Right to information, accounting, distribution, fair treatment. What to do if trustee won't cooperate. Glendale attorney. Free consultation."}],["$","meta","9",{"property":"og:type","content":"article"}],["$","meta","10",{"property":"article:published_time","content":"2025-10-31"}],["$","meta","11",{"property":"article:author","content":"Rozsa Gyene"}],["$","meta","12",{"property":"article:tag","content":"trust beneficiary rights"}],["$","meta","13",{"property":"article:tag","content":"California trust law"}],["$","meta","14",{"property":"article:tag","content":"beneficiary rights"}],["$","meta","15",{"property":"article:tag","content":"trust administration"}],["$","meta","16",{"property":"article:tag","content":"trustee duties"}],["$","meta","17",{"property":"article:tag","content":"Probate Code 16060"}],["$","meta","18",{"property":"article:tag","content":"Glendale attorney"}],["$","meta","19",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","20",{"name":"twitter:title","content":"Estate Planning & Trust Law Blog"}],["$","meta","21",{"name":"twitter:description","content":"Expert legal insights from Rozsa Gyene"}],["$","meta","22",{"name":"next-size-adjust"}]]
+1:null

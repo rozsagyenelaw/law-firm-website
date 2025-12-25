@@ -1,0 +1,350 @@
+3:I[4707,[],""]
+5:I[6423,[],""]
+4:["slug","trust-administration-vs-probate-california","d"]
+0:["XNl8EPT-Q30wSTcV-gnhM",[[["",{"children":[["slug","trust-administration-vs-probate-california","d"],{"children":["__PAGE__?{\"slug\":\"trust-administration-vs-probate-california\"}",{}]}]},"$undefined","$undefined",true],["",{"children":[["slug","trust-administration-vs-probate-california","d"],{"children":["__PAGE__",{},[["$L1","$L2",null],null],null]},[null,["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","$4","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]],null]},[[[["$","link","0",{"rel":"stylesheet","href":"/blog/_next/static/css/76af30a148da119e.css","precedence":"next","crossOrigin":"$undefined"}]],["$","html",null,{"lang":"en","className":"__variable_fbaf84 __variable_774662","children":[["$","head",null,{"children":[["$","link",null,{"rel":"icon","href":"/favicon.ico"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}]]}],["$","body",null,{"className":"bg-gradient-blue min-h-screen","children":[["$","div",null,{"className":"bg-primary-blue text-white py-2.5 text-sm","children":["$","div",null,{"className":"container-custom flex justify-between items-center","children":[["$","div",null,{"className":"flex items-center gap-6","children":["$","span",null,{"children":"Over 25 Years Serving Los Angeles County"}]}],["$","a",null,{"href":"tel:8182916217","className":"text-accent-gold font-semibold hover:underline","children":"(818) 291-6217"}]]}]}],["$","nav",null,{"className":"bg-transparent py-5","children":["$","div",null,{"className":"container-custom flex justify-between items-center","children":[["$","a",null,{"href":"https://livingtrust-attorneys.com","className":"flex items-center gap-3 text-white no-print","children":["$","div",null,{"className":"flex flex-col","children":[["$","span",null,{"className":"font-playfair text-xl font-bold text-shadow-md","children":"Law Offices of Rozsa Gyene"}],["$","span",null,{"className":"text-sm text-accent-gold","children":"Estate Planning & Trust Law Blog"}]]}]}],["$","div",null,{"className":"flex items-center gap-4 no-print","children":[["$","a",null,{"href":"https://livingtrust-attorneys.com","className":"text-white hover:text-accent-gold transition-colors font-medium","children":"Home"}],["$","a",null,{"href":"/","className":"text-accent-gold font-semibold","children":"Blog"}],["$","a",null,{"href":"https://portal.livingtrust-attorneys.com/book","className":"btn-primary text-base py-3 px-6","target":"_blank","rel":"noopener noreferrer","children":"Free Consultation"}]]}]]}]}],["$","main",null,{"className":"min-h-screen","children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[]}]}],["$","footer",null,{"className":"bg-primary-blue text-white mt-20 no-print","children":["$","div",null,{"className":"container-custom py-12","children":[["$","div",null,{"className":"grid md:grid-cols-3 gap-8","children":[["$","div",null,{"children":[["$","h3",null,{"className":"font-playfair text-2xl mb-4","children":"Law Offices of Rozsa Gyene"}],["$","p",null,{"className":"text-white/80 mb-4","children":"Over 25 years of experience serving Los Angeles County families with comprehensive estate planning and trust services."}]]}],["$","div",null,{"children":[["$","h4",null,{"className":"font-semibold text-lg mb-4 text-accent-gold","children":"Contact"}],["$","div",null,{"className":"space-y-2 text-white/80","children":[["$","p",null,{"children":"450 N Brand Blvd Ste 600"}],["$","p",null,{"children":"Glendale, CA 91203"}],["$","p",null,{"className":"mt-4","children":["$","a",null,{"href":"tel:8182916217","className":"text-accent-gold hover:underline","children":"(818) 291-6217"}]}]]}]]}],["$","div",null,{"children":[["$","h4",null,{"className":"font-semibold text-lg mb-4 text-accent-gold","children":"Practice Areas"}],["$","ul",null,{"className":"space-y-2 text-white/80","children":[["$","li",null,{"children":["$","a",null,{"href":"https://livingtrust-attorneys.com/living-trusts.html","className":"hover:text-accent-gold transition-colors","children":"Living Trusts"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://livingtrust-attorneys.com/probate.html","className":"hover:text-accent-gold transition-colors","children":"Probate"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://livingtrust-attorneys.com/trust-administration.html","className":"hover:text-accent-gold transition-colors","children":"Trust Administration"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://livingtrust-attorneys.com/conservatorship.html","className":"hover:text-accent-gold transition-colors","children":"Conservatorship"}]}]]}]]}]]}],["$","div",null,{"className":"border-t border-white/10 mt-8 pt-8 text-center text-white/70 text-sm","children":["$","p",null,{"children":["© ",2025," Law Offices of Rozsa Gyene. All rights reserved."]}]}]]}]}]]}]]}]],null],null],["$L6",null]]]]
+8:I[2578,["972","static/chunks/972-6296c3e7f99d3665.js","42","static/chunks/app/%5Bslug%5D/page-27e08b5d2052b651.js"],"default"]
+9:I[2972,["972","static/chunks/972-6296c3e7f99d3665.js","42","static/chunks/app/%5Bslug%5D/page-27e08b5d2052b651.js"],""]
+7:T33a6,<p>When someone dies in California, their assets must be transferred to beneficiaries. How that happens depends on whether they had a living trust or just a will.</p>
+<p>Understanding the differences between trust administration and probate helps families know what to expect—and shows why estate planning matters.</p>
+<h2>The Fundamental Difference</h2>
+<p><strong>Probate:</strong> A court-supervised process to validate a will and distribute assets. Required when someone dies with assets in their name alone and no trust.</p>
+<p><strong>Trust Administration:</strong> A private process where a successor trustee distributes assets according to trust terms. No court involvement required.</p>
+<p>Both accomplish the same goal—transferring assets to beneficiaries—but through very different paths.</p>
+<h2>Side-by-Side Comparison</h2>
+<table>
+<thead>
+<tr>
+<th>Factor</th>
+<th>Trust Administration</th>
+<th>Probate</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Court required</td>
+<td>No</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Timeline</td>
+<td>3-12 months</td>
+<td>12-18+ months</td>
+</tr>
+<tr>
+<td>Cost</td>
+<td>$3,000-$15,000 typical</td>
+<td>$25,000-$100,000+ (statutory fees)</td>
+</tr>
+<tr>
+<td>Privacy</td>
+<td>Completely private</td>
+<td>Public record</td>
+</tr>
+<tr>
+<td>Oversight</td>
+<td>Trustee self-directed</td>
+<td>Court supervised</td>
+</tr>
+<tr>
+<td>Flexibility</td>
+<td>Based on trust terms</td>
+<td>Strict legal procedures</td>
+</tr>
+<tr>
+<td>Incapacity planning</td>
+<td>Included</td>
+<td>Separate conservatorship needed</td>
+</tr>
+<tr>
+<td>Out-of-state property</td>
+<td>One administration</td>
+<td>Probate in each state</td>
+</tr>
+</tbody>
+</table>
+<h2>Cost Comparison: The Numbers</h2>
+<h3>Probate Costs</h3>
+<p>California law sets statutory fees for attorneys and executors based on gross estate value:</p>
+<table>
+<thead>
+<tr>
+<th>Gross Estate</th>
+<th>Attorney Fee</th>
+<th>Executor Fee</th>
+<th>Total Fees</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>$500,000</td>
+<td>$13,000</td>
+<td>$13,000</td>
+<td>$26,000</td>
+</tr>
+<tr>
+<td>$750,000</td>
+<td>$18,000</td>
+<td>$18,000</td>
+<td>$36,000</td>
+</tr>
+<tr>
+<td>$1,000,000</td>
+<td>$23,000</td>
+<td>$23,000</td>
+<td>$46,000</td>
+</tr>
+<tr>
+<td>$1,500,000</td>
+<td>$33,000</td>
+<td>$33,000</td>
+<td>$66,000</td>
+</tr>
+<tr>
+<td>$2,000,000</td>
+<td>$43,000</td>
+<td>$43,000</td>
+<td>$86,000</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Additional probate costs:</strong></p>
+<ul>
+<li>Filing fees: $435-$550</li>
+<li>Probate referee: 0.1% of assets</li>
+<li>Publication: $200-$400</li>
+<li>Bond premiums: varies</li>
+</ul>
+<p><strong>Important:</strong> Fees are based on GROSS value—before mortgages. A $1 million home with a $600,000 mortgage still generates fees based on $1 million.</p>
+<h3>Trust Administration Costs</h3>
+<p>Trust administration has no statutory fees. Costs depend on complexity:</p>
+<p><strong>Typical costs:</strong></p>
+<ul>
+<li>Attorney guidance: $3,000-$10,000</li>
+<li>CPA/tax preparation: $500-$3,000</li>
+<li>Deed recording: $50-$200</li>
+<li>Appraisals (if needed): $300-$500</li>
+</ul>
+<p><strong>Total typical range:</strong> $4,000-$15,000</p>
+<h3>The Savings Are Real</h3>
+<p><strong>For a $1 million estate:</strong></p>
+<ul>
+<li>Probate costs: $46,000+ in statutory fees alone</li>
+<li>Trust administration: ~$8,000 typical</li>
+<li><strong>Savings: $38,000+</strong></li>
+</ul>
+<p><strong>For a $1.5 million estate:</strong></p>
+<ul>
+<li>Probate costs: $66,000+ in statutory fees</li>
+<li>Trust administration: ~$10,000 typical</li>
+<li><strong>Savings: $56,000+</strong></li>
+</ul>
+<h2>Timeline Comparison</h2>
+<h3>Probate Timeline</h3>
+<table>
+<thead>
+<tr>
+<th>Stage</th>
+<th>Duration</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>File petition, schedule hearing</td>
+<td>4-6 weeks</td>
+</tr>
+<tr>
+<td>Court appoints executor</td>
+<td>1 day (at hearing)</td>
+</tr>
+<tr>
+<td>Creditor notification period</td>
+<td>4 months</td>
+</tr>
+<tr>
+<td>Inventory and appraisal</td>
+<td>4 months</td>
+</tr>
+<tr>
+<td>Estate administration</td>
+<td>6-12 months</td>
+</tr>
+<tr>
+<td>Final accounting and hearing</td>
+<td>1-2 months</td>
+</tr>
+<tr>
+<td><strong>Total</strong></td>
+<td><strong>12-18+ months</strong></td>
+</tr>
+</tbody>
+</table>
+<h3>Trust Administration Timeline</h3>
+<table>
+<thead>
+<tr>
+<th>Stage</th>
+<th>Duration</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Trustee takes control</td>
+<td>Immediate</td>
+</tr>
+<tr>
+<td>Notice to beneficiaries</td>
+<td>Within 60 days</td>
+</tr>
+<tr>
+<td>Contest period</td>
+<td>120 days</td>
+</tr>
+<tr>
+<td>Pay debts and taxes</td>
+<td>2-4 months</td>
+</tr>
+<tr>
+<td>Distribute assets</td>
+<td>After contest period</td>
+</tr>
+<tr>
+<td><strong>Total</strong></td>
+<td><strong>3-12 months</strong></td>
+</tr>
+</tbody>
+</table>
+<p>Trust administration is faster because there's no waiting for court dates, no required hearings, and no judicial oversight of routine decisions.</p>
+<h2>Privacy Comparison</h2>
+<h3>Probate: Completely Public</h3>
+<p>Everything filed in probate becomes public record:</p>
+<ul>
+<li>The will</li>
+<li>List of all assets and values</li>
+<li>Names and addresses of beneficiaries</li>
+<li>Creditor claims</li>
+<li>Disputes and litigation</li>
+<li>Final distribution details</li>
+</ul>
+<p>Anyone can go to the courthouse and see what you owned and who received it.</p>
+<p><strong>Real-world consequence:</strong> "Heir hunters," scammers, and salespeople regularly search probate records to target beneficiaries.</p>
+<h3>Trust Administration: Completely Private</h3>
+<p>Trust administration happens outside the court system:</p>
+<ul>
+<li>Trust document is not filed publicly</li>
+<li>Asset lists remain private</li>
+<li>Beneficiary information stays confidential</li>
+<li>Only involved parties know the details</li>
+</ul>
+<p>The only people who see trust information are those entitled to it under California law (beneficiaries, heirs who receive the required notice).</p>
+<h2>Control and Flexibility</h2>
+<h3>Probate: Court Controlled</h3>
+<p>The executor must:</p>
+<ul>
+<li>Follow statutory procedures exactly</li>
+<li>Get court approval for many actions</li>
+<li>File regular reports with the court</li>
+<li>Attend multiple hearings</li>
+<li>Wait for court schedules</li>
+</ul>
+<p>Even with Independent Administration authority (IAEA), some actions require court involvement.</p>
+<h3>Trust Administration: Trustee Controlled</h3>
+<p>The trustee:</p>
+<ul>
+<li>Follows trust terms (not court procedures)</li>
+<li>Makes most decisions independently</li>
+<li>Doesn't need court approval for routine matters</li>
+<li>Works on their own timeline</li>
+<li>Has flexibility to respond to circumstances</li>
+</ul>
+<p>The trust document—not a judge—controls the process.</p>
+<h2>Out-of-State Property</h2>
+<h3>Probate: Multiple Proceedings</h3>
+<p>If someone dies owning real estate in multiple states, their family faces:</p>
+<ul>
+<li><strong>Domiciliary probate:</strong> In the state where they lived</li>
+<li><strong>Ancillary probate:</strong> In each additional state where they owned property</li>
+</ul>
+<p>Each ancillary probate means:</p>
+<ul>
+<li>Hiring local attorneys</li>
+<li>Filing separate court cases</li>
+<li>Paying additional fees</li>
+<li>Extended timelines</li>
+</ul>
+<p><strong>Example:</strong> California resident owns a vacation home in Arizona. Family must complete full probate in California AND separate probate in Arizona.</p>
+<h3>Trust Administration: One Process</h3>
+<p>A properly funded living trust avoids this entirely:</p>
+<ul>
+<li>Trust covers property in all states</li>
+<li>One administration process</li>
+<li>One set of professionals</li>
+<li>No ancillary proceedings</li>
+</ul>
+<p>The successor trustee simply transfers property in each state according to trust terms.</p>
+<h2>Incapacity Planning</h2>
+<h3>Will Only: No Protection</h3>
+<p>A will only takes effect at death. It provides no help if you become incapacitated while alive.</p>
+<p>Without a trust, if you become unable to manage your affairs:</p>
+<ul>
+<li>Family may need court conservatorship</li>
+<li>Conservatorship is expensive and intrusive</li>
+<li>Court supervises all financial decisions</li>
+<li>Annual accountings required</li>
+</ul>
+<h3>Living Trust: Built-In Protection</h3>
+<p>A living trust includes incapacity planning:</p>
+<ul>
+<li>If you become incapacitated, successor trustee takes over</li>
+<li>No court proceeding needed</li>
+<li>Seamless transition of management</li>
+<li>Privacy maintained</li>
+</ul>
+<p>This is a significant benefit many people overlook when comparing trusts to wills.</p>
+<h2>When Probate Is Unavoidable</h2>
+<p>Even with a trust, you might face probate if:</p>
+<h3>Assets weren't transferred to the trust</h3>
+<p>A trust only controls assets actually transferred to it. Property left in your individual name goes through probate.</p>
+<h3>Small amounts left outside trust</h3>
+<p>If amounts are under $184,500, simplified procedures may apply—but it's still a form of probate.</p>
+<h3>Trust is invalid</h3>
+<p>If the trust wasn't properly executed, assets may go through probate.</p>
+<h2>When Trust Administration Has Court Involvement</h2>
+<p>While most trust administration is private, courts get involved for:</p>
+<ul>
+<li>Trust contests by beneficiaries or heirs</li>
+<li>Disputes between trustee and beneficiaries</li>
+<li>Requests for instructions on ambiguous terms</li>
+<li>Trustee removal petitions</li>
+<li>Trust modification requests</li>
+</ul>
+<p>These situations are relatively rare for well-drafted trusts with clear terms.</p>
+<h2>Which Is Better?</h2>
+<p>For most California families—especially homeowners—trust administration is clearly better:</p>
+<p>✓ Faster (months vs. years)
+✓ Cheaper (saves $30,000-$80,000+ for typical estates)
+✓ Private (no public record)
+✓ Flexible (trustee-controlled)
+✓ Includes incapacity planning
+✓ Simpler for multi-state property</p>
+<p><strong>The catch:</strong> You must create the trust AND fund it properly during your lifetime. The upfront cost ($2,000-$5,000) pays for itself many times over.</p>
+<h2>Frequently Asked Questions</h2>
+<h3>Can I avoid probate if I only have a will?</h3>
+<p>No. A will does not avoid probate—it actually ensures probate will occur. Wills only take effect after death through the probate process. To avoid probate, you need a properly funded living trust that holds your assets during your lifetime and transfers them to beneficiaries after death without court involvement.</p>
+<h3>How much does it cost to set up a trust to avoid probate?</h3>
+<p>Creating a living trust in California typically costs between $2,000 and $5,000 for professional preparation and funding. While this seems expensive, it pays for itself many times over by avoiding probate costs of $30,000 to $80,000 or more for typical estates. The upfront investment saves your family significant money and time later.</p>
+<h3>What happens if some assets were left out of my trust?</h3>
+<p>Assets not transferred to your trust go through probate unless they qualify for simplified procedures. California allows estates under $184,500 to use simplified transfer methods, but this is still a form of probate. This is why proper trust funding is critical—every asset should be titled in the trust's name or have beneficiary designations to avoid probate entirely.</p>
+<h3>Is trust administration completely private or can anyone access the trust?</h3>
+<p>Trust administration is private—the trust document is not filed with any court and does not become public record. Only entitled parties can access trust information: current beneficiaries, trustees, and heirs who receive the legally required 60-day notice. Unlike probate where anyone can go to the courthouse and see your will, assets, and beneficiaries, trust administration keeps your family's financial affairs confidential.</p>
+<h3>Do I need an attorney for trust administration or can the trustee do it alone?</h3>
+<p>While trustees can legally administer trusts without an attorney, most benefit from professional guidance. Trust administration involves tax filings, creditor notices, asset valuations, accounting requirements, and distribution timing—mistakes can lead to personal liability. Attorney fees for trust administration ($3,000-$10,000) are far less than probate costs and help ensure the trustee fulfills all legal duties properly.</p>
+<h2>Already Facing Probate or Trust Administration?</h2>
+<p>Whether you're a successor trustee needing guidance or an executor navigating probate court, the Law Offices of Rozsa Gyene can help.</p>
+<p>We handle both trust administration and probate throughout Los Angeles County—and help families create trusts to avoid probate in the future.</p>
+<p><strong>Call (818) 291-6217</strong> for a consultation, or visit our <a href="/trust-administration-questionnaire.html">trust administration questionnaire</a> or <a href="/probate-intake-form.html">probate intake form</a>.</p>
+<p>Serving Glendale, Burbank, Pasadena, and all of Los Angeles County.</p>
+<hr>
+<p><em>This article provides general information comparing trust administration and probate in California. Every situation is unique. Consult an attorney for advice specific to your circumstances.</em></p>
+a:T52b,{"@context":"https://schema.org","@type":"Article","headline":"Trust Administration vs. Probate in California: Key Differences 2025","description":"Trust administration vs probate California: Complete comparison of costs, timeline, privacy. Glendale attorney explains differences. Save $30K-$80K. Free consultation.","image":"https://livingtrust-attorneys.com/images/blog/avoid-probate.jpg","articleSection":"Trust Administration","keywords":"trust administration, probate, California probate, trust vs probate, trust administration vs probate California, estate planning, Glendale attorney","wordCount":1439,"author":{"@type":"Person","name":"Rozsa Gyene","jobTitle":"Estate Planning Attorney","credentials":"California State Bar #208356","url":"https://livingtrust-attorneys.com/about.html"},"publisher":{"@type":"LegalService","name":"Law Offices of Rozsa Gyene","url":"https://livingtrust-attorneys.com","telephone":"818-291-6217","address":{"@type":"PostalAddress","streetAddress":"450 N Brand Blvd, Suite 600","addressLocality":"Glendale","addressRegion":"CA","postalCode":"91203"}},"datePublished":"2025-10-28","dateModified":"2025-12-24","mainEntityOfPage":{"@type":"WebPage","@id":"https://livingtrust-attorneys.com/blog/trust-administration-vs-probate-california"},"inLanguage":"en-US","isAccessibleForFree":true}b:Ta4f,{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Can I avoid probate if I only have a will?","acceptedAnswer":{"@type":"Answer","text":"No. A will does not avoid probate—it actually ensures probate will occur. Wills only take effect after death through the probate process. To avoid probate, you need a properly funded living trust that holds your assets during your lifetime and transfers them to beneficiaries after death without court involvement."}},{"@type":"Question","name":"How much does it cost to set up a trust to avoid probate?","acceptedAnswer":{"@type":"Answer","text":"Creating a living trust in California typically costs between $2,000 and $5,000 for professional preparation and funding. While this seems expensive, it pays for itself many times over by avoiding probate costs of $30,000 to $80,000 or more for typical estates. The upfront investment saves your family significant money and time later."}},{"@type":"Question","name":"What happens if some assets were left out of my trust?","acceptedAnswer":{"@type":"Answer","text":"Assets not transferred to your trust go through probate unless they qualify for simplified procedures. California allows estates under $184,500 to use simplified transfer methods, but this is still a form of probate. This is why proper trust funding is critical—every asset should be titled in the trust's name or have beneficiary designations to avoid probate entirely."}},{"@type":"Question","name":"Is trust administration completely private or can anyone access the trust?","acceptedAnswer":{"@type":"Answer","text":"Trust administration is private—the trust document is not filed with any court and does not become public record. Only entitled parties can access trust information: current beneficiaries, trustees, and heirs who receive the legally required 60-day notice. Unlike probate where anyone can go to the courthouse and see your will, assets, and beneficiaries, trust administration keeps your family's financial affairs confidential."}},{"@type":"Question","name":"Do I need an attorney for trust administration or can the trustee do it alone?","acceptedAnswer":{"@type":"Answer","text":"While trustees can legally administer trusts without an attorney, most benefit from professional guidance. Trust administration involves tax filings, creditor notices, asset valuations, accounting requirements, and distribution timing—mistakes can lead to personal liability. Attorney fees for trust administration ($3,000-$10,000) are far less than probate costs and help ensure the trustee fulfills all legal duties properly."}}]}2:["$","div",null,{"className":"min-h-screen","children":[["$","div",null,{"className":"bg-primary-blue/20 py-4 no-print","children":["$","div",null,{"className":"container-custom","children":["$","nav",null,{"aria-label":"Breadcrumb","className":"flex items-center gap-2 text-sm text-white/70","children":[["$","a",null,{"href":"/","className":"hover:text-white transition-colors","children":"Home"}],["$","span",null,{"children":"/"}],["$","a",null,{"href":"/blog","className":"hover:text-white transition-colors","children":"Blog"}],["$","span",null,{"children":"/"}],["$","span",null,{"className":"text-white","children":"Trust Administration"}]]}]}]}],["$","section",null,{"className":"section-padding bg-gradient-to-b from-transparent to-primary-blue/20","children":["$","div",null,{"className":"container-custom","children":["$","div",null,{"className":"max-w-4xl mx-auto text-center","children":[["$","div",null,{"className":"mb-6","children":["$","span",null,{"className":"inline-block bg-accent-gold text-white px-4 py-2 rounded-full text-sm font-semibold","children":"Trust Administration"}]}],["$","h1",null,{"className":"font-playfair text-4xl md:text-5xl lg:text-6xl text-white mb-6 text-shadow-lg leading-tight","children":"Trust Administration vs. Probate in California: Key Differences 2025"}],["$","div",null,{"className":"flex flex-wrap items-center justify-center gap-6 text-white/80 mb-8","children":[["$","span",null,{"className":"flex items-center gap-2","children":[["$","svg",null,{"className":"w-5 h-5","fill":"currentColor","viewBox":"0 0 20 20","children":["$","path",null,{"fillRule":"evenodd","d":"M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z","clipRule":"evenodd"}]}],"Rozsa Gyene"]}],["$","span",null,{"className":"flex items-center gap-2","children":[["$","svg",null,{"className":"w-5 h-5","fill":"currentColor","viewBox":"0 0 20 20","children":["$","path",null,{"fillRule":"evenodd","d":"M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z","clipRule":"evenodd"}]}],"October 28, 2025"]}],["$","span",null,{"className":"flex items-center gap-2","children":[["$","svg",null,{"className":"w-5 h-5","fill":"currentColor","viewBox":"0 0 20 20","children":["$","path",null,{"fillRule":"evenodd","d":"M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z","clipRule":"evenodd"}]}],9," min read"]}]]}],null]}]}]}],["$","section",null,{"className":"section-padding","children":["$","div",null,{"className":"container-custom","children":[["$","div",null,{"className":"grid lg:grid-cols-[1fr_300px] gap-8 mb-12","children":[["$","div",null,{"children":[["$","div",null,{"className":"\n      glass-card\n      p-8\n      mb-8\n    ","children":["$","div",null,{"className":"prose-blog","dangerouslySetInnerHTML":{"__html":"$7"}}]}],["$","div",null,{"className":"mb-8","children":["$","div",null,{"className":"\n      glass-card\n      p-4\n      \n    ","children":["$","div",null,{"className":"flex flex-wrap items-center gap-3","children":[["$","span",null,{"className":"text-white/70 font-semibold","children":"Tags:"}],[["$","span","trust administration",{"className":"bg-white/10 text-white px-3 py-1 rounded-full text-sm border border-white/20","children":["#","trust administration"]}],["$","span","probate",{"className":"bg-white/10 text-white px-3 py-1 rounded-full text-sm border border-white/20","children":["#","probate"]}],["$","span","California probate",{"className":"bg-white/10 text-white px-3 py-1 rounded-full text-sm border border-white/20","children":["#","California probate"]}],["$","span","trust vs probate",{"className":"bg-white/10 text-white px-3 py-1 rounded-full text-sm border border-white/20","children":["#","trust vs probate"]}],["$","span","trust administration vs probate California",{"className":"bg-white/10 text-white px-3 py-1 rounded-full text-sm border border-white/20","children":["#","trust administration vs probate California"]}],["$","span","estate planning",{"className":"bg-white/10 text-white px-3 py-1 rounded-full text-sm border border-white/20","children":["#","estate planning"]}],["$","span","Glendale attorney",{"className":"bg-white/10 text-white px-3 py-1 rounded-full text-sm border border-white/20","children":["#","Glendale attorney"]}]]]}]}]}],["$","div",null,{"className":"mb-8","children":["$","$L8",null,{"title":"Trust Administration vs. Probate in California: Key Differences 2025","slug":"trust-administration-vs-probate-california"}]}],["$","div",null,{"style":{"margin":"20px auto","padding":"15px 20px","background":"linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%)","borderLeft":"4px solid #8a6a2f","borderRadius":"8px","maxWidth":"800px"},"children":["$","p",null,{"style":{"margin":0,"fontSize":"14px","color":"#2c3e50","lineHeight":1.6},"children":[["$","strong",null,{"style":{"color":"#1e3a5f"},"children":"Written by Rozsa Gyene, Esq."}],["$","br",null,{}],"California State Bar #208356 | 25+ Years Probate & Estate Experience",["$","br",null,{}],["$","em",null,{"style":{"color":"#6c757d"},"children":"Last Updated: November 28, 2025"}]]}]}]]}],["$","aside",null,{"className":"no-print","children":["$","aside",null,{"className":"no-print","children":["$","div",null,{"className":"\n      glass-card\n      p-8\n      sticky top-24\n    ","children":["$","div",null,{"className":"text-center","children":[["$","div",null,{"className":"text-4xl mb-4","children":"⚖️"}],["$","h3",null,{"className":"font-playfair text-2xl text-white mb-3","children":"Need Legal Guidance?"}],["$","p",null,{"className":"text-white/90 mb-6 leading-relaxed","children":"Schedule a free consultation with Attorney Rozsa Gyene to discuss your estate planning needs."}],["$","a",null,{"href":"tel:8182916217","className":"block w-full bg-accent-gold text-white py-3 px-6 rounded-full font-semibold hover:bg-[#b8982f] transition-all mb-3","children":"📞 (818) 291-6217"}],["$","a",null,{"href":"https://portal.livingtrust-attorneys.com/book","className":"block w-full bg-white/10 text-white py-3 px-6 rounded-full font-semibold hover:bg-white/20 transition-all border border-white/30","target":"_blank","rel":"noopener noreferrer","children":"Book Consultation"}],["$","div",null,{"className":"mt-6 pt-6 border-t border-white/10","children":[["$","p",null,{"className":"text-white/70 text-sm mb-2","children":["$","strong",null,{"className":"text-white","children":"Office Location:"}]}],["$","p",null,{"className":"text-white/70 text-sm","children":["450 N Brand Blvd Ste 600",["$","br",null,{}],"Glendale, CA 91203"]}]]}],["$","div",null,{"className":"mt-4 pt-4 border-t border-white/10","children":["$","div",null,{"className":"flex items-center justify-center gap-2 text-accent-gold text-sm","children":[["$","svg",null,{"className":"w-5 h-5","fill":"currentColor","viewBox":"0 0 20 20","children":["$","path",null,{"fillRule":"evenodd","d":"M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z","clipRule":"evenodd"}]}],["$","span",null,{"className":"font-semibold","children":"25+ Years Experience"}]]}]}]]}]}]}]}]]}],["$","section",null,{"className":"mt-16","children":[["$","h2",null,{"className":"font-playfair text-3xl text-white mb-8 text-center","children":"Related Articles"}],["$","div",null,{"className":"grid md:grid-cols-3 gap-6","children":[["$","$L9","trust-administration-process-california",{"href":"/trust-administration-process-california","className":"block","children":["$","div",null,{"className":"\n      glass-card-hover\n      p-8\n      h-full flex flex-col\n    ","children":[["$","div",null,{"className":"mb-3","children":["$","span",null,{"className":"inline-block bg-accent-gold/20 text-accent-gold px-3 py-1 rounded-full text-xs font-semibold border border-accent-gold/30","children":"Trust Administration"}]}],["$","h3",null,{"className":"font-playfair text-xl text-white mb-3 leading-tight flex-1","children":"The Trust Administration Process in California: A Complete Overview"}],["$","div",null,{"className":"flex items-center justify-between text-sm text-white/60 pt-3 border-t border-white/10","children":[["$","span",null,{"children":"Nov 10, 2025"}],["$","span",null,{"children":[11," min"]}]]}]]}]}],["$","$L9","how-to-become-successor-trustee-california",{"href":"/how-to-become-successor-trustee-california","className":"block","children":["$","div",null,{"className":"\n      glass-card-hover\n      p-8\n      h-full flex flex-col\n    ","children":[["$","div",null,{"className":"mb-3","children":["$","span",null,{"className":"inline-block bg-accent-gold/20 text-accent-gold px-3 py-1 rounded-full text-xs font-semibold border border-accent-gold/30","children":"Trust Administration"}]}],["$","h3",null,{"className":"font-playfair text-xl text-white mb-3 leading-tight flex-1","children":"How to Become a Successor Trustee in California"}],["$","div",null,{"className":"flex items-center justify-between text-sm text-white/60 pt-3 border-t border-white/10","children":[["$","span",null,{"children":"Nov 7, 2025"}],["$","span",null,{"children":[10," min"]}]]}]]}]}],["$","$L9","can-successor-trustee-be-beneficiary-california",{"href":"/can-successor-trustee-be-beneficiary-california","className":"block","children":["$","div",null,{"className":"\n      glass-card-hover\n      p-8\n      h-full flex flex-col\n    ","children":[["$","div",null,{"className":"mb-3","children":["$","span",null,{"className":"inline-block bg-accent-gold/20 text-accent-gold px-3 py-1 rounded-full text-xs font-semibold border border-accent-gold/30","children":"Trust Administration"}]}],["$","h3",null,{"className":"font-playfair text-xl text-white mb-3 leading-tight flex-1","children":"Can a Successor Trustee Also Be a Beneficiary in California?"}],["$","div",null,{"className":"flex items-center justify-between text-sm text-white/60 pt-3 border-t border-white/10","children":[["$","span",null,{"children":"Nov 5, 2025"}],["$","span",null,{"children":[8," min"]}]]}]]}]}]]}]]}]]}]}],["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"$a"}}],["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"$b"}}]]}]
+6:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"Trust Administration vs. Probate in California: Key Differences 2025 | Law Offices of Rozsa Gyene"}],["$","meta","3",{"name":"description","content":"Trust administration vs probate California: Complete comparison of costs, timeline, privacy. Glendale attorney explains differences. Save $30K-$80K. Free consultation."}],["$","meta","4",{"name":"author","content":"Rozsa Gyene"}],["$","meta","5",{"name":"keywords","content":"trust administration,probate,California probate,trust vs probate,trust administration vs probate California,estate planning,Glendale attorney,Trust Administration,estate planning,Rozsa Gyene,Glendale attorney"}],["$","link","6",{"rel":"canonical","href":"https://livingtrust-attorneys.com/blog/trust-administration-vs-probate-california"}],["$","meta","7",{"property":"og:title","content":"Trust Administration vs. Probate in California: Key Differences 2025"}],["$","meta","8",{"property":"og:description","content":"Trust administration vs probate California: Complete comparison of costs, timeline, privacy. Glendale attorney explains differences. Save $30K-$80K. Free consultation."}],["$","meta","9",{"property":"og:type","content":"article"}],["$","meta","10",{"property":"article:published_time","content":"2025-10-28"}],["$","meta","11",{"property":"article:author","content":"Rozsa Gyene"}],["$","meta","12",{"property":"article:tag","content":"trust administration"}],["$","meta","13",{"property":"article:tag","content":"probate"}],["$","meta","14",{"property":"article:tag","content":"California probate"}],["$","meta","15",{"property":"article:tag","content":"trust vs probate"}],["$","meta","16",{"property":"article:tag","content":"trust administration vs probate California"}],["$","meta","17",{"property":"article:tag","content":"estate planning"}],["$","meta","18",{"property":"article:tag","content":"Glendale attorney"}],["$","meta","19",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","20",{"name":"twitter:title","content":"Estate Planning & Trust Law Blog"}],["$","meta","21",{"name":"twitter:description","content":"Expert legal insights from Rozsa Gyene"}],["$","meta","22",{"name":"next-size-adjust"}]]
+1:null

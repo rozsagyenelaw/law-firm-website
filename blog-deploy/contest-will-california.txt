@@ -1,0 +1,625 @@
+3:I[4707,[],""]
+5:I[6423,[],""]
+4:["slug","contest-will-california","d"]
+0:["XNl8EPT-Q30wSTcV-gnhM",[[["",{"children":[["slug","contest-will-california","d"],{"children":["__PAGE__?{\"slug\":\"contest-will-california\"}",{}]}]},"$undefined","$undefined",true],["",{"children":[["slug","contest-will-california","d"],{"children":["__PAGE__",{},[["$L1","$L2",null],null],null]},[null,["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","$4","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]],null]},[[[["$","link","0",{"rel":"stylesheet","href":"/blog/_next/static/css/76af30a148da119e.css","precedence":"next","crossOrigin":"$undefined"}]],["$","html",null,{"lang":"en","className":"__variable_fbaf84 __variable_774662","children":[["$","head",null,{"children":[["$","link",null,{"rel":"icon","href":"/favicon.ico"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}]]}],["$","body",null,{"className":"bg-gradient-blue min-h-screen","children":[["$","div",null,{"className":"bg-primary-blue text-white py-2.5 text-sm","children":["$","div",null,{"className":"container-custom flex justify-between items-center","children":[["$","div",null,{"className":"flex items-center gap-6","children":["$","span",null,{"children":"Over 25 Years Serving Los Angeles County"}]}],["$","a",null,{"href":"tel:8182916217","className":"text-accent-gold font-semibold hover:underline","children":"(818) 291-6217"}]]}]}],["$","nav",null,{"className":"bg-transparent py-5","children":["$","div",null,{"className":"container-custom flex justify-between items-center","children":[["$","a",null,{"href":"https://livingtrust-attorneys.com","className":"flex items-center gap-3 text-white no-print","children":["$","div",null,{"className":"flex flex-col","children":[["$","span",null,{"className":"font-playfair text-xl font-bold text-shadow-md","children":"Law Offices of Rozsa Gyene"}],["$","span",null,{"className":"text-sm text-accent-gold","children":"Estate Planning & Trust Law Blog"}]]}]}],["$","div",null,{"className":"flex items-center gap-4 no-print","children":[["$","a",null,{"href":"https://livingtrust-attorneys.com","className":"text-white hover:text-accent-gold transition-colors font-medium","children":"Home"}],["$","a",null,{"href":"/","className":"text-accent-gold font-semibold","children":"Blog"}],["$","a",null,{"href":"https://portal.livingtrust-attorneys.com/book","className":"btn-primary text-base py-3 px-6","target":"_blank","rel":"noopener noreferrer","children":"Free Consultation"}]]}]]}]}],["$","main",null,{"className":"min-h-screen","children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[]}]}],["$","footer",null,{"className":"bg-primary-blue text-white mt-20 no-print","children":["$","div",null,{"className":"container-custom py-12","children":[["$","div",null,{"className":"grid md:grid-cols-3 gap-8","children":[["$","div",null,{"children":[["$","h3",null,{"className":"font-playfair text-2xl mb-4","children":"Law Offices of Rozsa Gyene"}],["$","p",null,{"className":"text-white/80 mb-4","children":"Over 25 years of experience serving Los Angeles County families with comprehensive estate planning and trust services."}]]}],["$","div",null,{"children":[["$","h4",null,{"className":"font-semibold text-lg mb-4 text-accent-gold","children":"Contact"}],["$","div",null,{"className":"space-y-2 text-white/80","children":[["$","p",null,{"children":"450 N Brand Blvd Ste 600"}],["$","p",null,{"children":"Glendale, CA 91203"}],["$","p",null,{"className":"mt-4","children":["$","a",null,{"href":"tel:8182916217","className":"text-accent-gold hover:underline","children":"(818) 291-6217"}]}]]}]]}],["$","div",null,{"children":[["$","h4",null,{"className":"font-semibold text-lg mb-4 text-accent-gold","children":"Practice Areas"}],["$","ul",null,{"className":"space-y-2 text-white/80","children":[["$","li",null,{"children":["$","a",null,{"href":"https://livingtrust-attorneys.com/living-trusts.html","className":"hover:text-accent-gold transition-colors","children":"Living Trusts"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://livingtrust-attorneys.com/probate.html","className":"hover:text-accent-gold transition-colors","children":"Probate"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://livingtrust-attorneys.com/trust-administration.html","className":"hover:text-accent-gold transition-colors","children":"Trust Administration"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://livingtrust-attorneys.com/conservatorship.html","className":"hover:text-accent-gold transition-colors","children":"Conservatorship"}]}]]}]]}]]}],["$","div",null,{"className":"border-t border-white/10 mt-8 pt-8 text-center text-white/70 text-sm","children":["$","p",null,{"children":["© ",2025," Law Offices of Rozsa Gyene. All rights reserved."]}]}]]}]}]]}]]}]],null],null],["$L6",null]]]]
+8:I[2578,["972","static/chunks/972-6296c3e7f99d3665.js","42","static/chunks/app/%5Bslug%5D/page-27e08b5d2052b651.js"],"default"]
+9:I[2972,["972","static/chunks/972-6296c3e7f99d3665.js","42","static/chunks/app/%5Bslug%5D/page-27e08b5d2052b651.js"],""]
+7:T7739,<p>"My father changed his will shortly before his death, disinheriting me and leaving everything to his caregiver. Can I challenge this?"</p>
+<p>As a Glendale trust litigation attorney, I hear variations of this question regularly from people who believe a will doesn't reflect their loved one's true wishes. Contesting a will is a serious legal matter that requires valid grounds, strict adherence to deadlines, and often involves complex litigation.</p>
+<p>In this comprehensive guide, I'll explain when you can contest a will in California, what constitutes valid grounds, the critical 120-day deadline, the litigation process from start to finish, costs involved, and your chances of success.</p>
+<h2>What Is a Will Contest?</h2>
+<p>A <strong>will contest</strong> is a legal challenge to the validity of a will filed in probate court.</p>
+<p><strong>You're arguing:</strong> The will should not be admitted to probate because it's invalid.</p>
+<p><strong>If successful:</strong> The will is set aside, and either:</p>
+<ul>
+<li>An earlier will is admitted to probate instead, OR</li>
+<li>The estate passes by intestate succession (as if there were no will)</li>
+</ul>
+<p><strong>Important distinction:</strong> A will contest challenges whether the will is valid. This is different from:</p>
+<ul>
+<li>Disputes over will interpretation (what the will means)</li>
+<li>Claims against the estate (creditor claims)</li>
+<li>Disputes over executor's actions</li>
+<li>Trust litigation (separate procedures)</li>
+</ul>
+<h2>Who Can Contest a Will in California?</h2>
+<p><strong>Not just anyone can contest a will.</strong> California law limits who has "standing" to challenge a will.</p>
+<p><strong>California Probate Code Section 48:</strong> "Interested person" includes heirs, beneficiaries, creditors, and anyone who has a property right in or claim against the estate.</p>
+<h3>People Who Can Contest</h3>
+<p><strong>1. Beneficiaries Under the Will Being Contested</strong></p>
+<ul>
+<li>Named in the will but received less than expected</li>
+<li>Named but provisions are ambiguous</li>
+</ul>
+<p><strong>2. Beneficiaries Under a Prior Will</strong></p>
+<ul>
+<li>Would inherit more under earlier will</li>
+<li>Disinherited in new will</li>
+</ul>
+<p><strong>3. Heirs at Law</strong></p>
+<ul>
+<li>Would inherit if there were no will (intestate succession)</li>
+<li>Includes children, spouse, parents, siblings</li>
+</ul>
+<p><strong>4. Beneficiaries of a Trust</strong></p>
+<ul>
+<li>If trust would receive assets under earlier will</li>
+<li>If trust provisions affected by will</li>
+</ul>
+<h3>People Who CANNOT Contest</h3>
+<p><strong>No standing:</strong></p>
+<ul>
+<li>Friends with no legal claim</li>
+<li>Distant relatives with no inheritance rights</li>
+<li>Caregivers (unless also beneficiaries)</li>
+<li>Charities (unless named in earlier will)</li>
+<li>People disinherited in all versions of will</li>
+</ul>
+<p><strong>The "standing" requirement:</strong> You must show you would benefit if the contest succeeds.</p>
+<h2>Valid Grounds for Contesting a Will</h2>
+<p>California law recognizes specific grounds for invalidating a will. You cannot contest simply because you're unhappy with the distribution.</p>
+<h3>Ground #1: Lack of Testamentary Capacity</h3>
+<p><strong>California Probate Code Section 6100.5</strong></p>
+<p><strong>The claim:</strong> The person who made the will lacked the mental capacity to understand what they were doing.</p>
+<p><strong>Requirements for capacity:</strong></p>
+<ul>
+<li>Understand the nature of making a will</li>
+<li>Understand the nature and extent of their property</li>
+<li>Remember their natural beneficiaries (family)</li>
+<li>Understand the disposition they're making</li>
+</ul>
+<p><strong>When capacity issues arise:</strong></p>
+<ul>
+<li>Advanced dementia or Alzheimer's disease</li>
+<li>Severe mental illness</li>
+<li>Delirium or confusion</li>
+<li>Medication effects</li>
+<li>Stroke or brain injury</li>
+</ul>
+<p><strong>Important timing:</strong> Capacity is judged at the moment the will was signed, not before or after.</p>
+<p><strong>Evidence to prove lack of capacity:</strong></p>
+<ul>
+<li>Medical records from period around will signing</li>
+<li>Doctor testimony about mental state</li>
+<li>Statements by people who observed testator</li>
+<li>Prior diagnosis of dementia or cognitive impairment</li>
+<li>Irrational provisions in will</li>
+<li>Unusual behavior around time of signing</li>
+</ul>
+<p><strong>Challenge:</strong> Capacity is presumed. You must overcome this presumption with clear and convincing evidence.</p>
+<h3>Ground #2: Undue Influence</h3>
+<p><strong>California Probate Code Section 86</strong></p>
+<p><strong>The claim:</strong> Someone exerted excessive pressure on the testator, overcoming their free will and causing them to make a will they wouldn't have made otherwise.</p>
+<p><strong>Undue influence means:</strong></p>
+<ul>
+<li>More than just persuasion or suggestion</li>
+<li>Coercion, pressure, or manipulation</li>
+<li>Taking advantage of weakness or dependency</li>
+<li>Isolating testator from family</li>
+<li>Creating fear or obligation</li>
+</ul>
+<p><strong>Common undue influence scenarios:</strong></p>
+<ul>
+<li>Caregiver receives large bequest</li>
+<li>New spouse disinherits children from prior marriage</li>
+<li>Family member isolates elderly parent</li>
+<li>Financial advisor receives substantial gift</li>
+<li>Person in position of trust benefits inappropriately</li>
+</ul>
+<p><strong>Elements to prove undue influence:</strong></p>
+<ol>
+<li>Testator was vulnerable (illness, age, dependency)</li>
+<li>Influencer had opportunity to exert influence</li>
+<li>Influencer had disposition to exert influence (motive)</li>
+<li>Result was unnatural (disinherits family, benefits influencer)</li>
+</ol>
+<p><strong>Presumption of undue influence (California Probate Code Section 21380):</strong></p>
+<p>If gift is to person who:</p>
+<ul>
+<li>Drafted the will</li>
+<li>Is in fiduciary relationship with testator</li>
+<li>Is caregiver</li>
+</ul>
+<p><strong>Then:</strong> Burden shifts to them to prove gift was not product of undue influence</p>
+<p><strong>Evidence of undue influence:</strong></p>
+<ul>
+<li>Isolation of testator from family</li>
+<li>Rapid changes after influencer enters life</li>
+<li>Testator dependent on influencer</li>
+<li>Influencer controlled access to testator</li>
+<li>Changes in estate plan benefiting influencer</li>
+<li>Secrecy surrounding will execution</li>
+<li>Testator expressed fear or reluctance</li>
+<li>Influencer present when will signed</li>
+</ul>
+<h3>Ground #3: Fraud</h3>
+<p><strong>California Probate Code Section 6104</strong></p>
+<p><strong>The claim:</strong> Testator was deceived about material facts, causing them to make a will they wouldn't have made if they knew the truth.</p>
+<p><strong>Types of fraud:</strong></p>
+<p><strong>Fraud in the execution:</strong></p>
+<ul>
+<li>Testator deceived about nature of document</li>
+<li>Told they're signing something else (power of attorney, deed)</li>
+<li>Not told document is a will</li>
+</ul>
+<p><strong>Fraud in the inducement:</strong></p>
+<ul>
+<li>Testator deceived about facts</li>
+<li>Lied to about family member's conduct</li>
+<li>Told false information about beneficiaries</li>
+<li>Misled about nature or extent of property</li>
+</ul>
+<p><strong>Example:</strong>
+Brother tells father (falsely) that daughter has stolen from him. Father disinherits daughter based on false information. This is fraud in the inducement.</p>
+<p><strong>Evidence needed:</strong></p>
+<ul>
+<li>Proof of false statement</li>
+<li>Testator believed false statement</li>
+<li>False statement influenced will provisions</li>
+<li>Intent to deceive</li>
+</ul>
+<h3>Ground #4: Forgery</h3>
+<p><strong>The claim:</strong> The signature on the will is not the testator's actual signature, or the will was altered after signing.</p>
+<p><strong>Forms of forgery:</strong></p>
+<ul>
+<li>Someone else signed testator's name</li>
+<li>Will created after testator's death</li>
+<li>Provisions added or changed after execution</li>
+<li>Pages substituted</li>
+</ul>
+<p><strong>Evidence:</strong></p>
+<ul>
+<li>Handwriting expert analysis</li>
+<li>Comparison to known signatures</li>
+<li>Testimony about signing ceremony</li>
+<li>Document examination (paper, ink, printing)</li>
+<li>Witness testimony</li>
+</ul>
+<p><strong>Rare:</strong> Forgery cases are less common than capacity or undue influence cases.</p>
+<h3>Ground #5: Improper Execution</h3>
+<p><strong>California Probate Code Sections 6110-6113</strong></p>
+<p><strong>The claim:</strong> The will doesn't meet California's formal requirements for valid execution.</p>
+<p><strong>California requirements for valid will:</strong></p>
+<ul>
+<li>In writing</li>
+<li>Signed by testator (or by someone at testator's direction in testator's presence)</li>
+<li>Signed by two witnesses who:
+<ul>
+<li>Witnessed testator's signing (or testator's acknowledgment of signature)</li>
+<li>Understood document was testator's will</li>
+<li>Signed as witnesses during testator's lifetime</li>
+<li>Were competent at time of witnessing</li>
+</ul>
+</li>
+</ul>
+<p><strong>Common execution problems:</strong></p>
+<ul>
+<li>Only one witness (requires two)</li>
+<li>Witnesses didn't sign in testator's presence</li>
+<li>Witnesses didn't know it was a will</li>
+<li>Signature by someone other than testator without proper authorization</li>
+</ul>
+<p><strong>California's substantial compliance doctrine:</strong> Courts may uphold will with minor technical defects if clear and convincing evidence shows testator intended document to be their will.</p>
+<p><strong>Holographic wills:</strong> Different rules apply (material provisions in testator's handwriting, signed by testator—no witnesses required)</p>
+<h3>Ground #6: Revocation</h3>
+<p><strong>California Probate Code Sections 6120-6124</strong></p>
+<p><strong>The claim:</strong> The will was revoked before testator's death.</p>
+<p><strong>Methods of revocation:</strong></p>
+<ul>
+<li>Physical destruction (tearing, burning, canceling)</li>
+<li>Creation of new will</li>
+<li>Written revocation</li>
+<li>Certain life events (marriage, divorce)</li>
+</ul>
+<p><strong>Burden:</strong> Contestant must prove revocation occurred</p>
+<h3>Ground #7: Duress or Menace</h3>
+<p><strong>The claim:</strong> Testator was forced to make the will under threat of harm.</p>
+<p><strong>Requirements:</strong></p>
+<ul>
+<li>Actual threat to testator or family</li>
+<li>Fear induced in testator</li>
+<li>Will created due to fear</li>
+</ul>
+<p><strong>Rare:</strong> Duress cases are uncommon and difficult to prove</p>
+<h2>The Critical 120-Day Deadline</h2>
+<p><strong>California Probate Code Section 8200</strong></p>
+<p><strong>Most important rule:</strong> Will contests must be filed <strong>within 120 days after the will is admitted to probate.</strong></p>
+<h3>Understanding the Timeline</h3>
+<p><strong>Not 120 days from death:</strong> The 120 days starts when the court admits the will to probate (at the first hearing).</p>
+<p><strong>Typical timeline:</strong></p>
+<ul>
+<li>Death: January 1</li>
+<li>Petition filed: February 1</li>
+<li>First hearing: March 15 (will admitted to probate)</li>
+<li>Contest deadline: July 13 (120 days after March 15)</li>
+</ul>
+<p><strong>Strict deadline:</strong> Courts rarely extend this deadline. If you miss it, you likely lose your right to contest forever.</p>
+<h3>Before the 120-Day Period Starts</h3>
+<p><strong>Good news:</strong> You can contest before the will is admitted to probate.</p>
+<p><strong>How:</strong> File objection to Petition for Probate</p>
+<p><strong>At the first hearing:</strong> Raise your objections, and judge may:</p>
+<ul>
+<li>Deny admission of will immediately</li>
+<li>Order evidentiary hearing</li>
+<li>Admit will to probate and allow contest within 120 days</li>
+</ul>
+<p><strong>Advantage:</strong> Contesting early may prevent probate from starting</p>
+<h3>What Happens If You Miss the Deadline?</h3>
+<p><strong>General rule:</strong> Your contest is barred</p>
+<p><strong>Very limited exceptions:</strong></p>
+<ul>
+<li>You didn't receive proper notice of probate proceeding</li>
+<li>Fraud or mistake prevented you from filing timely</li>
+<li>Will wasn't actually admitted to probate (procedural issue)</li>
+</ul>
+<p><strong>These exceptions are rare and difficult to establish.</strong></p>
+<h3>Strategic Consideration: When to File</h3>
+<p><strong>Early (before 120 days):</strong></p>
+<ul>
+<li>Shows seriousness</li>
+<li>May encourage settlement</li>
+<li>Preserves all options</li>
+</ul>
+<p><strong>Near deadline:</strong></p>
+<ul>
+<li>More time to investigate</li>
+<li>Gather evidence</li>
+<li>Assess chances of success</li>
+<li>Consider settlement options</li>
+</ul>
+<p><strong>My advice:</strong> File earlier rather than later. You can always settle or dismiss later, but you can't undo missing the deadline.</p>
+<h2>The Will Contest Process: Step-by-Step</h2>
+<h3>Step 1: Consult with Attorney (Immediately)</h3>
+<p><strong>Critical first step:</strong> Consult experienced probate litigation attorney</p>
+<p><strong>Attorney will evaluate:</strong></p>
+<ul>
+<li>Whether you have standing</li>
+<li>Strength of your grounds</li>
+<li>Available evidence</li>
+<li>Likelihood of success</li>
+<li>Cost vs. potential benefit</li>
+</ul>
+<p><strong>Timeline:</strong> Do this immediately after learning of will provisions</p>
+<p><strong>Cost:</strong> Initial consultations often free or low-cost</p>
+<h3>Step 2: Gather Evidence</h3>
+<p><strong>Before filing, collect:</strong></p>
+<p><strong>Medical records:</strong></p>
+<ul>
+<li>From period around will signing</li>
+<li>Diagnosis of dementia, mental illness</li>
+<li>Medications prescribed</li>
+<li>Doctor notes about cognitive function</li>
+</ul>
+<p><strong>Financial records:</strong></p>
+<ul>
+<li>Estate planning documents</li>
+<li>Prior wills</li>
+<li>Account statements showing unusual transactions</li>
+<li>Transfers to potential influencer</li>
+</ul>
+<p><strong>Witness information:</strong></p>
+<ul>
+<li>People who observed testator's condition</li>
+<li>Family members who were isolated</li>
+<li>Healthcare providers</li>
+<li>Prior attorneys</li>
+</ul>
+<p><strong>Documents:</strong></p>
+<ul>
+<li>Earlier wills and trusts</li>
+<li>Correspondence with testator</li>
+<li>Emails or texts showing influence</li>
+<li>Financial power of attorney documents</li>
+</ul>
+<p><strong>Timeline:</strong> This investigation may take several weeks</p>
+<h3>Step 3: File Contest Petition</h3>
+<p><strong>Form:</strong> Contest to Will (no specific form, usually custom-drafted petition)</p>
+<p><strong>Must include:</strong></p>
+<ul>
+<li>Your relationship to testator</li>
+<li>Your standing to contest</li>
+<li>Specific grounds for contest</li>
+<li>Facts supporting each ground</li>
+<li>Request for relief</li>
+</ul>
+<p><strong>Filing fee:</strong> $435</p>
+<p><strong>Where to file:</strong> Same probate court handling estate</p>
+<p><strong>Service:</strong> Must serve on executor and all beneficiaries</p>
+<h3>Step 4: Probate Court Hearing</h3>
+<p><strong>Timeline:</strong> Hearing scheduled 4-6 weeks after filing</p>
+<p><strong>What happens:</strong></p>
+<ul>
+<li>Judge hears initial arguments</li>
+<li>Determines if contest has merit</li>
+<li>May dismiss if clearly without merit</li>
+<li>Usually sets for further proceedings if contest has facial validity</li>
+</ul>
+<p><strong>Possible outcomes:</strong></p>
+<ul>
+<li>Case proceeds to discovery</li>
+<li>Summary judgment against contestant</li>
+<li>Settlement discussions ordered</li>
+</ul>
+<h3>Step 5: Discovery</h3>
+<p><strong>Process:</strong> Both sides gather evidence through formal discovery</p>
+<p><strong>Discovery methods:</strong></p>
+<ul>
+<li>Interrogatories (written questions)</li>
+<li>Requests for production of documents</li>
+<li>Depositions (testimony under oath)</li>
+<li>Subpoenas for records</li>
+<li>Expert witness retention</li>
+</ul>
+<p><strong>Timeline:</strong> 6-12 months typically</p>
+<p><strong>Cost:</strong> Discovery is expensive (see costs section below)</p>
+<h3>Step 6: Mediation</h3>
+<p><strong>Often required:</strong> Court may order mediation before trial</p>
+<p><strong>Process:</strong></p>
+<ul>
+<li>Neutral mediator facilitates settlement discussions</li>
+<li>Both sides present positions</li>
+<li>Mediator helps find middle ground</li>
+</ul>
+<p><strong>Benefits:</strong></p>
+<ul>
+<li>Saves cost of trial</li>
+<li>Provides certainty</li>
+<li>Preserves family relationships (relatively)</li>
+<li>Confidential</li>
+</ul>
+<p><strong>Success rate:</strong> Many will contests settle at mediation</p>
+<h3>Step 7: Trial</h3>
+<p><strong>If no settlement:</strong> Case proceeds to trial</p>
+<p><strong>Bench trial:</strong> Decided by judge (not jury) in California probate matters</p>
+<p><strong>Length:</strong> 2-5 days typical for will contest</p>
+<p><strong>Presentation:</strong></p>
+<ul>
+<li>Opening statements</li>
+<li>Contestant's case (evidence and witnesses)</li>
+<li>Proponent's case (executor defends will)</li>
+<li>Closing arguments</li>
+<li>Judge's decision</li>
+</ul>
+<p><strong>Evidence presented:</strong></p>
+<ul>
+<li>Expert testimony (doctors, handwriting experts)</li>
+<li>Lay witness testimony (family, friends, caregivers)</li>
+<li>Documentary evidence (medical records, financial records)</li>
+<li>Will execution evidence (attorney who drafted will, witnesses)</li>
+</ul>
+<p><strong>Timeline:</strong> 12-24 months from filing to trial</p>
+<h3>Step 8: Judgment and Appeal</h3>
+<p><strong>Judge's decision:</strong></p>
+<ul>
+<li>Upholds will (contest fails)</li>
+<li>Invalidates entire will</li>
+<li>Invalidates specific provisions</li>
+<li>Admits earlier will instead</li>
+</ul>
+<p><strong>Appeal:</strong> Losing party can appeal (adds 1-2 years)</p>
+<p><strong>Final:</strong> After appeals exhausted, decision is final</p>
+<h2>Costs of Contesting a Will</h2>
+<p><strong>Will contests are expensive.</strong> You should understand the financial commitment before filing.</p>
+<h3>Attorney Fees</h3>
+<p><strong>Hourly rates:</strong> $350-$650/hour for experienced probate litigators</p>
+<p><strong>Phases and typical costs:</strong></p>
+<p><strong>Initial consultation and filing:</strong> $2,500-$5,000</p>
+<p><strong>Discovery phase:</strong> $20,000-$50,000</p>
+<ul>
+<li>Interrogatories and document requests</li>
+<li>Depositions (multiple witnesses)</li>
+<li>Expert witness retention</li>
+</ul>
+<p><strong>Mediation:</strong> $5,000-$10,000</p>
+<ul>
+<li>Attorney preparation time</li>
+<li>Mediation session</li>
+<li>Mediator fees</li>
+</ul>
+<p><strong>Trial:</strong> $30,000-$75,000</p>
+<ul>
+<li>Trial preparation</li>
+<li>Expert witness fees</li>
+<li>Trial days</li>
+<li>Post-trial motions</li>
+</ul>
+<p><strong>Total if going to trial:</strong> $60,000-$150,000+</p>
+<p><strong>Total if settling after discovery:</strong> $25,000-$60,000</p>
+<p><strong>Appeal (if needed):</strong> $25,000-$50,000 additional</p>
+<h3>Expert Witness Fees</h3>
+<p><strong>Medical experts:</strong> $500-$800/hour</p>
+<ul>
+<li>Review records: $3,000-$8,000</li>
+<li>Deposition: $3,000-$6,000</li>
+<li>Trial testimony: $5,000-$10,000</li>
+</ul>
+<p><strong>Forensic document examiners:</strong> $5,000-$15,000 total</p>
+<p><strong>Financial experts:</strong> $10,000-$25,000 (if needed)</p>
+<h3>Court Costs</h3>
+<ul>
+<li>Filing fees: $435</li>
+<li>Service of process: $500-$1,000</li>
+<li>Court reporter fees: $2,000-$5,000</li>
+<li>Copying and exhibits: $500-$2,000</li>
+</ul>
+<h3>Fee Arrangements</h3>
+<p><strong>Hourly billing:</strong> Most common</p>
+<p><strong>Contingency fees:</strong> Rare in will contests</p>
+<ul>
+<li>Some attorneys will take on contingency (percentage of recovery)</li>
+<li>Usually 25-40% of what you recover</li>
+<li>Only if strong case with significant assets at stake</li>
+</ul>
+<p><strong>Hybrid arrangements:</strong> Combination of reduced hourly rate plus contingency</p>
+<p><strong>Retainer:</strong> Expect to pay $10,000-$25,000 retainer upfront</p>
+<h2>Can You Recover Your Attorney Fees?</h2>
+<p><strong>General rule:</strong> Each side pays their own attorney fees</p>
+<p><strong>Exception (California Probate Code Section 11003):</strong> Court may award fees from estate if:</p>
+<ul>
+<li>Contest was brought or defended in good faith</li>
+<li>Issue benefited the estate</li>
+</ul>
+<p><strong>Reality:</strong> Fee awards are rare and discretionary</p>
+<p><strong>Don't count on fee recovery.</strong> Plan to pay your own attorney fees.</p>
+<h2>What Are Your Chances of Success?</h2>
+<p><strong>Honest assessment:</strong> Will contests are difficult to win.</p>
+<p><strong>Success rates (approximate):</strong></p>
+<ul>
+<li>Lack of capacity cases: 20-30% success</li>
+<li>Undue influence cases: 15-25% success</li>
+<li>Fraud cases: 25-35% success</li>
+<li>Forgery cases: 40-50% success (if you have proof)</li>
+<li>Execution defects: 30-40% success</li>
+</ul>
+<p><strong>Why success rates are low:</strong></p>
+<ul>
+<li>Presumption of validity</li>
+<li>High burden of proof</li>
+<li>Testator can't testify (deceased)</li>
+<li>Substantial compliance doctrine</li>
+<li>Courts respect testamentary freedom</li>
+</ul>
+<p><strong>Factors that improve your chances:</strong></p>
+<ul>
+<li>Strong medical evidence of incapacity</li>
+<li>Clear evidence of isolation and control</li>
+<li>Dramatic last-minute changes</li>
+<li>Beneficiary was drafter or caregiver (presumption)</li>
+<li>Multiple witnesses to undue influence</li>
+<li>Prior consistent estate plan changed suddenly</li>
+</ul>
+<p><strong>Factors that hurt your chances:</strong></p>
+<ul>
+<li>Testator had capacity evaluation by attorney</li>
+<li>Will was explained thoroughly to testator</li>
+<li>Testator expressed clear reasons for changes</li>
+<li>Changes were made gradually over time</li>
+<li>Testator had history of favoring beneficiary</li>
+<li>No medical evidence of incapacity</li>
+</ul>
+<h2>Settlement: Often the Best Outcome</h2>
+<p><strong>Reality:</strong> Most will contests settle rather than going to trial.</p>
+<p><strong>Typical settlement structure:</strong></p>
+<ul>
+<li>Contestant receives portion of estate</li>
+<li>Less than full inheritance but more than will provides</li>
+<li>Avoids cost and uncertainty of trial</li>
+<li>Preserves family relationships (somewhat)</li>
+</ul>
+<p><strong>Example:</strong></p>
+<ul>
+<li>Will leaves everything to Brother A</li>
+<li>Brother B contests (would get 50% if will invalid)</li>
+<li>Settlement: Brother B receives 20-30% of estate</li>
+<li>Both sides save $50,000+ in attorney fees</li>
+</ul>
+<p><strong>When to consider settlement:</strong></p>
+<ul>
+<li>Both sides have reasonable arguments</li>
+<li>Cost of litigation is high relative to estate value</li>
+<li>Family relationships matter</li>
+<li>Uncertainty of trial outcome</li>
+<li>Desire for closure</li>
+</ul>
+<p><strong>Mediation advantage:</strong> Neutral mediator helps parties see risks on both sides and find middle ground.</p>
+<h2>No-Contest Clauses</h2>
+<p><strong>California Probate Code Section 21311</strong></p>
+<p><strong>No-contest clause:</strong> Will provision that disinherits anyone who contests the will</p>
+<p><strong>Example:</strong> "If any beneficiary contests this will, they shall receive nothing."</p>
+<p><strong>Effect:</strong> Creates risk that if you lose contest, you get nothing (not even what will left you)</p>
+<p><strong>California law:</strong> No-contest clauses are enforceable ONLY if contest was brought without probable cause</p>
+<p><strong>"Probable cause" means:</strong> You had reasonable basis for contest based on known facts at time of filing</p>
+<p><strong>Effect:</strong> No-contest clauses are less scary than they used to be. If you have good grounds, clause won't punish you for losing.</p>
+<p><strong>Strategic consideration:</strong> Evaluate whether contest has probable cause before filing</p>
+<h2>Special Situations</h2>
+<h3>Contesting a Trust Instead of a Will</h3>
+<p><strong>Different procedures:</strong> Trust contests follow different rules</p>
+<p><strong>Timeline:</strong> Usually 120 days after receiving notice of trust after trustor's death</p>
+<p><strong>Grounds:</strong> Similar (capacity, undue influence, fraud)</p>
+<p><strong>Process:</strong> Often more complex than will contests</p>
+<h3>Multiple Wills</h3>
+<p><strong>Situation:</strong> Multiple wills found, potentially conflicting</p>
+<p><strong>Process:</strong> Court determines which will is valid and latest</p>
+<p><strong>Contest strategy:</strong> May argue earlier will is valid, later will is not</p>
+<h3>Partial Contest</h3>
+<p><strong>Possibility:</strong> Contest specific provisions rather than entire will</p>
+<p><strong>Example:</strong> "I contest the bequest to the caregiver, but not the rest of the will"</p>
+<p><strong>Strategic benefit:</strong> Reduces risk, focuses on most problematic provisions</p>
+<h2>Should You Contest a Will?</h2>
+<p><strong>Consider these factors:</strong></p>
+<p><strong>Strong grounds exist:</strong></p>
+<ul>
+<li>Clear medical evidence of incapacity</li>
+<li>Evidence of isolation and control</li>
+<li>Dramatic last-minute changes</li>
+<li>Beneficiary was drafter or caregiver</li>
+</ul>
+<p><strong>Significant assets at stake:</strong></p>
+<ul>
+<li>Estate value justifies litigation costs</li>
+<li>Your potential inheritance is substantial</li>
+<li>Cost-benefit analysis favorable</li>
+</ul>
+<p><strong>Evidence is available:</strong></p>
+<ul>
+<li>Medical records accessible</li>
+<li>Witnesses willing to testify</li>
+<li>Documentary evidence exists</li>
+</ul>
+<p><strong>You can afford litigation:</strong></p>
+<ul>
+<li>Have funds for attorney fees</li>
+<li>Can sustain multi-year process</li>
+<li>Emotional fortitude for litigation</li>
+</ul>
+<p><strong>When NOT to contest:</strong></p>
+<ul>
+<li>Weak grounds (just unhappy with distribution)</li>
+<li>Small estate (costs exceed potential recovery)</li>
+<li>Little evidence available</li>
+<li>No-contest clause and risky case</li>
+<li>Testator clearly wanted distribution</li>
+<li>Settlement negotiations refused</li>
+</ul>
+<h2>Related Articles</h2>
+<p><strong>California will contest and probate litigation:</strong></p>
+<ul>
+<li>
+<p><strong><a href="/blog/trust-litigation-vs-probate-litigation-california/">Trust Litigation vs Probate Litigation California</a></strong> - Key differences in contesting trusts vs. wills.</p>
+</li>
+<li>
+<p><strong><a href="/blog/how-long-does-probate-take-california/">How Long Does Probate Take in California?</a></strong> - Will contests extend probate timeline significantly.</p>
+</li>
+<li>
+<p><strong><a href="/blog/executor-duties-california/">California Executor Duties &#x26; Responsibilities</a></strong> - How executors handle will contest challenges.</p>
+</li>
+<li>
+<p><strong><a href="/blog/died-without-will-california/">Died Without Will California</a></strong> - What happens if will is invalidated (intestate succession).</p>
+</li>
+<li>
+<p><strong><a href="/blog/file-probate-los-angeles-county/">How to File Probate in Los Angeles County</a></strong> - Where to file will contest objections.</p>
+</li>
+</ul>
+<h2>Frequently Asked Questions</h2>
+<h3>How long do I have to contest a will in California?</h3>
+<p>You have 120 days from the date the will is admitted to probate to file a will contest. You can also object before admission. Missing this deadline severely limits your options. If you have concerns about a will, consult an attorney immediately—don't wait.</p>
+<h3>What are valid grounds to contest a will in California?</h3>
+<p>Valid grounds include: lack of testamentary capacity (the person didn't understand what they were signing), undue influence (someone improperly pressured them), fraud (deception about the will's contents), forgery, improper execution (missing witnesses or signatures), and revocation by a later will.</p>
+<h3>How much does it cost to contest a will in California?</h3>
+<p>Will contests typically cost $15,000-$50,000 for straightforward cases and can exceed $100,000 for complex litigation. Costs include attorney fees, expert witnesses, court fees, and depositions. Most attorneys require a retainer and bill hourly, though some take cases on contingency.</p>
+<h3>What are the chances of winning a will contest?</h3>
+<p>Most will contests settle before trial—estimates suggest 70-80% end in negotiated settlements. Cases with strong evidence of incapacity or undue influence have better success rates. However, contesting a will with weak evidence often fails and can be expensive.</p>
+<h3>Can I contest a will if I was disinherited?</h3>
+<p>You need "standing" to contest. If you were named in a prior will, or would inherit under intestate succession laws (as a spouse, child, or other heir), you likely have standing. Simply being upset about being left out isn't enough—you need valid legal grounds.</p>
+<h2>Get Expert Help with Will Contests</h2>
+<p>Will contests are complex, expensive, and emotionally draining. Whether you're considering challenging a will or defending against a contest, experienced legal guidance is essential.</p>
+<p><strong>Call (818) 291-6217</strong> to schedule a consultation at my Glendale office, or complete our <a href="/probate-intake-form.html">probate questionnaire</a> to discuss your situation.</p>
+<p>As a California probate and trust litigation attorney serving Los Angeles County, I provide honest assessments of will contest cases, help you gather evidence, handle all aspects of litigation, and pursue settlement when appropriate while protecting your rights if trial is necessary.</p>
+<hr>
+<p><strong>About the Author</strong></p>
+<p>Rozsa Gyene (State Bar No. 208356) is a California estate planning and probate attorney serving Glendale, Burbank, Pasadena, and throughout Los Angeles County. With extensive experience in probate litigation and will contests, Rozsa represents both contestants and estate representatives in complex will disputes.</p>
+<hr>
+<p><em>Disclaimer: This article provides general information about California will contests and should not be construed as legal advice. Every situation is unique. California laws and procedures change regularly, and this article reflects laws in effect as of January 2025. Consult with a qualified California probate litigation attorney about your specific circumstances. Will contest success rates are approximations based on general experience and vary significantly based on specific facts of each case.</em></p>
+a:T4e7,{"@context":"https://schema.org","@type":"Article","headline":"How to Contest a Will in California | Grounds, Process & Timeline","description":"How to contest a will in California: Valid grounds, 120-day deadline, undue influence, lack of capacity, process, costs, and timeline. Expert guide from Glendale attorney.","image":"https://livingtrust-attorneys.com/images/blog/contest-will.jpg","articleSection":"Probate","keywords":"will contest, California probate litigation, undue influence, lack of capacity, will challenge, probate dispute","wordCount":3252,"author":{"@type":"Person","name":"Rozsa Gyene","jobTitle":"Estate Planning Attorney","credentials":"California State Bar #208356","url":"https://livingtrust-attorneys.com/about.html"},"publisher":{"@type":"LegalService","name":"Law Offices of Rozsa Gyene","url":"https://livingtrust-attorneys.com","telephone":"818-291-6217","address":{"@type":"PostalAddress","streetAddress":"450 N Brand Blvd, Suite 600","addressLocality":"Glendale","addressRegion":"CA","postalCode":"91203"}},"datePublished":"2025-10-23","dateModified":"2025-12-24","mainEntityOfPage":{"@type":"WebPage","@id":"https://livingtrust-attorneys.com/blog/contest-will-california"},"inLanguage":"en-US","isAccessibleForFree":true}b:T817,{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How long do I have to contest a will in California?","acceptedAnswer":{"@type":"Answer","text":"You have 120 days from the date the will is admitted to probate to file a will contest. You can also object before admission. Missing this deadline severely limits your options. If you have concerns about a will, consult an attorney immediately—don't wait."}},{"@type":"Question","name":"What are valid grounds to contest a will in California?","acceptedAnswer":{"@type":"Answer","text":"Valid grounds include: lack of testamentary capacity (the person didn't understand what they were signing), undue influence (someone improperly pressured them), fraud (deception about the will's contents), forgery, improper execution (missing witnesses or signatures), and revocation by a later will."}},{"@type":"Question","name":"How much does it cost to contest a will in California?","acceptedAnswer":{"@type":"Answer","text":"Will contests typically cost $15,000-$50,000 for straightforward cases and can exceed $100,000 for complex litigation. Costs include attorney fees, expert witnesses, court fees, and depositions. Most attorneys require a retainer and bill hourly, though some take cases on contingency."}},{"@type":"Question","name":"What are the chances of winning a will contest?","acceptedAnswer":{"@type":"Answer","text":"Most will contests settle before trial—estimates suggest 70-80% end in negotiated settlements. Cases with strong evidence of incapacity or undue influence have better success rates. However, contesting a will with weak evidence often fails and can be expensive."}},{"@type":"Question","name":"Can I contest a will if I was disinherited?","acceptedAnswer":{"@type":"Answer","text":"You need \"standing\" to contest. If you were named in a prior will, or would inherit under intestate succession laws (as a spouse, child, or other heir), you likely have standing. Simply being upset about being left out isn't enough—you need valid legal grounds."}}]}2:["$","div",null,{"className":"min-h-screen","children":[["$","div",null,{"className":"bg-primary-blue/20 py-4 no-print","children":["$","div",null,{"className":"container-custom","children":["$","nav",null,{"aria-label":"Breadcrumb","className":"flex items-center gap-2 text-sm text-white/70","children":[["$","a",null,{"href":"/","className":"hover:text-white transition-colors","children":"Home"}],["$","span",null,{"children":"/"}],["$","a",null,{"href":"/blog","className":"hover:text-white transition-colors","children":"Blog"}],["$","span",null,{"children":"/"}],["$","span",null,{"className":"text-white","children":"Probate"}]]}]}]}],["$","section",null,{"className":"section-padding bg-gradient-to-b from-transparent to-primary-blue/20","children":["$","div",null,{"className":"container-custom","children":["$","div",null,{"className":"max-w-4xl mx-auto text-center","children":[["$","div",null,{"className":"mb-6","children":["$","span",null,{"className":"inline-block bg-accent-gold text-white px-4 py-2 rounded-full text-sm font-semibold","children":"Probate"}]}],["$","h1",null,{"className":"font-playfair text-4xl md:text-5xl lg:text-6xl text-white mb-6 text-shadow-lg leading-tight","children":"How to Contest a Will in California | Grounds, Process & Timeline"}],["$","div",null,{"className":"flex flex-wrap items-center justify-center gap-6 text-white/80 mb-8","children":[["$","span",null,{"className":"flex items-center gap-2","children":[["$","svg",null,{"className":"w-5 h-5","fill":"currentColor","viewBox":"0 0 20 20","children":["$","path",null,{"fillRule":"evenodd","d":"M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z","clipRule":"evenodd"}]}],"Rozsa Gyene"]}],["$","span",null,{"className":"flex items-center gap-2","children":[["$","svg",null,{"className":"w-5 h-5","fill":"currentColor","viewBox":"0 0 20 20","children":["$","path",null,{"fillRule":"evenodd","d":"M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z","clipRule":"evenodd"}]}],"October 23, 2025"]}],["$","span",null,{"className":"flex items-center gap-2","children":[["$","svg",null,{"className":"w-5 h-5","fill":"currentColor","viewBox":"0 0 20 20","children":["$","path",null,{"fillRule":"evenodd","d":"M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z","clipRule":"evenodd"}]}],18," min read"]}]]}],null]}]}]}],["$","section",null,{"className":"section-padding","children":["$","div",null,{"className":"container-custom","children":[["$","div",null,{"className":"grid lg:grid-cols-[1fr_300px] gap-8 mb-12","children":[["$","div",null,{"children":[["$","div",null,{"className":"\n      glass-card\n      p-8\n      mb-8\n    ","children":["$","div",null,{"className":"prose-blog","dangerouslySetInnerHTML":{"__html":"$7"}}]}],["$","div",null,{"className":"mb-8","children":["$","div",null,{"className":"\n      glass-card\n      p-4\n      \n    ","children":["$","div",null,{"className":"flex flex-wrap items-center gap-3","children":[["$","span",null,{"className":"text-white/70 font-semibold","children":"Tags:"}],[["$","span","will contest",{"className":"bg-white/10 text-white px-3 py-1 rounded-full text-sm border border-white/20","children":["#","will contest"]}],["$","span","California probate litigation",{"className":"bg-white/10 text-white px-3 py-1 rounded-full text-sm border border-white/20","children":["#","California probate litigation"]}],["$","span","undue influence",{"className":"bg-white/10 text-white px-3 py-1 rounded-full text-sm border border-white/20","children":["#","undue influence"]}],["$","span","lack of capacity",{"className":"bg-white/10 text-white px-3 py-1 rounded-full text-sm border border-white/20","children":["#","lack of capacity"]}],["$","span","will challenge",{"className":"bg-white/10 text-white px-3 py-1 rounded-full text-sm border border-white/20","children":["#","will challenge"]}],["$","span","probate dispute",{"className":"bg-white/10 text-white px-3 py-1 rounded-full text-sm border border-white/20","children":["#","probate dispute"]}]]]}]}]}],["$","div",null,{"className":"mb-8","children":["$","$L8",null,{"title":"How to Contest a Will in California | Grounds, Process & Timeline","slug":"contest-will-california"}]}],["$","div",null,{"style":{"margin":"20px auto","padding":"15px 20px","background":"linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%)","borderLeft":"4px solid #8a6a2f","borderRadius":"8px","maxWidth":"800px"},"children":["$","p",null,{"style":{"margin":0,"fontSize":"14px","color":"#2c3e50","lineHeight":1.6},"children":[["$","strong",null,{"style":{"color":"#1e3a5f"},"children":"Written by Rozsa Gyene, Esq."}],["$","br",null,{}],"California State Bar #208356 | 25+ Years Probate & Estate Experience",["$","br",null,{}],["$","em",null,{"style":{"color":"#6c757d"},"children":"Last Updated: November 28, 2025"}]]}]}]]}],["$","aside",null,{"className":"no-print","children":["$","aside",null,{"className":"no-print","children":["$","div",null,{"className":"\n      glass-card\n      p-8\n      sticky top-24\n    ","children":["$","div",null,{"className":"text-center","children":[["$","div",null,{"className":"text-4xl mb-4","children":"⚖️"}],["$","h3",null,{"className":"font-playfair text-2xl text-white mb-3","children":"Need Legal Guidance?"}],["$","p",null,{"className":"text-white/90 mb-6 leading-relaxed","children":"Schedule a free consultation with Attorney Rozsa Gyene to discuss your estate planning needs."}],["$","a",null,{"href":"tel:8182916217","className":"block w-full bg-accent-gold text-white py-3 px-6 rounded-full font-semibold hover:bg-[#b8982f] transition-all mb-3","children":"📞 (818) 291-6217"}],["$","a",null,{"href":"https://portal.livingtrust-attorneys.com/book","className":"block w-full bg-white/10 text-white py-3 px-6 rounded-full font-semibold hover:bg-white/20 transition-all border border-white/30","target":"_blank","rel":"noopener noreferrer","children":"Book Consultation"}],["$","div",null,{"className":"mt-6 pt-6 border-t border-white/10","children":[["$","p",null,{"className":"text-white/70 text-sm mb-2","children":["$","strong",null,{"className":"text-white","children":"Office Location:"}]}],["$","p",null,{"className":"text-white/70 text-sm","children":["450 N Brand Blvd Ste 600",["$","br",null,{}],"Glendale, CA 91203"]}]]}],["$","div",null,{"className":"mt-4 pt-4 border-t border-white/10","children":["$","div",null,{"className":"flex items-center justify-center gap-2 text-accent-gold text-sm","children":[["$","svg",null,{"className":"w-5 h-5","fill":"currentColor","viewBox":"0 0 20 20","children":["$","path",null,{"fillRule":"evenodd","d":"M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z","clipRule":"evenodd"}]}],["$","span",null,{"className":"font-semibold","children":"25+ Years Experience"}]]}]}]]}]}]}]}]]}],["$","section",null,{"className":"mt-16","children":[["$","h2",null,{"className":"font-playfair text-3xl text-white mb-8 text-center","children":"Related Articles"}],["$","div",null,{"className":"grid md:grid-cols-3 gap-6","children":[["$","$L9","will-contest-california-time-limits-2025",{"href":"/will-contest-california-time-limits-2025","className":"block","children":["$","div",null,{"className":"\n      glass-card-hover\n      p-8\n      h-full flex flex-col\n    ","children":[["$","div",null,{"className":"mb-3","children":["$","span",null,{"className":"inline-block bg-accent-gold/20 text-accent-gold px-3 py-1 rounded-full text-xs font-semibold border border-accent-gold/30","children":"Probate"}]}],["$","h3",null,{"className":"font-playfair text-xl text-white mb-3 leading-tight flex-1","children":"How Long Do You Have to Contest a Will in California? Time Limits & Deadlines 2025"}],["$","div",null,{"className":"flex items-center justify-between text-sm text-white/60 pt-3 border-t border-white/10","children":[["$","span",null,{"children":"Nov 15, 2025"}],["$","span",null,{"children":[12," min"]}]]}]]}]}],["$","$L9","probate-attorney-vs-diy-california",{"href":"/probate-attorney-vs-diy-california","className":"block","children":["$","div",null,{"className":"\n      glass-card-hover\n      p-8\n      h-full flex flex-col\n    ","children":[["$","div",null,{"className":"mb-3","children":["$","span",null,{"className":"inline-block bg-accent-gold/20 text-accent-gold px-3 py-1 rounded-full text-xs font-semibold border border-accent-gold/30","children":"Probate"}]}],["$","h3",null,{"className":"font-playfair text-xl text-white mb-3 leading-tight flex-1","children":"Probate Attorney vs DIY: Can You Handle California Probate Yourself? (2025)"}],["$","div",null,{"className":"flex items-center justify-between text-sm text-white/60 pt-3 border-t border-white/10","children":[["$","span",null,{"children":"Dec 24, 2025"}],["$","span",null,{"children":[10," min"]}]]}]]}]}],["$","$L9","do-you-need-probate-attorney",{"href":"/do-you-need-probate-attorney","className":"block","children":["$","div",null,{"className":"\n      glass-card-hover\n      p-8\n      h-full flex flex-col\n    ","children":[["$","div",null,{"className":"mb-3","children":["$","span",null,{"className":"inline-block bg-accent-gold/20 text-accent-gold px-3 py-1 rounded-full text-xs font-semibold border border-accent-gold/30","children":"Probate"}]}],["$","h3",null,{"className":"font-playfair text-xl text-white mb-3 leading-tight flex-1","children":"Do You Need a Probate Attorney? When to Hire Help for California Estates"}],["$","div",null,{"className":"flex items-center justify-between text-sm text-white/60 pt-3 border-t border-white/10","children":[["$","span",null,{"children":"Dec 17, 2025"}],["$","span",null,{"children":[13," min"]}]]}]]}]}]]}]]}]]}]}],["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"$a"}}],["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"$b"}}]]}]
+6:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"How to Contest a Will in California | Grounds, Process & Timeline | Law Offices of Rozsa Gyene"}],["$","meta","3",{"name":"description","content":"How to contest a will in California: Valid grounds, 120-day deadline, undue influence, lack of capacity, process, costs, and timeline. Expert guide from Glendale attorney."}],["$","meta","4",{"name":"author","content":"Rozsa Gyene"}],["$","meta","5",{"name":"keywords","content":"will contest,California probate litigation,undue influence,lack of capacity,will challenge,probate dispute,Probate,estate planning,Rozsa Gyene,Glendale attorney"}],["$","link","6",{"rel":"canonical","href":"https://livingtrust-attorneys.com/blog/contest-will-california"}],["$","meta","7",{"property":"og:title","content":"How to Contest a Will in California | Grounds, Process & Timeline"}],["$","meta","8",{"property":"og:description","content":"How to contest a will in California: Valid grounds, 120-day deadline, undue influence, lack of capacity, process, costs, and timeline. Expert guide from Glendale attorney."}],["$","meta","9",{"property":"og:type","content":"article"}],["$","meta","10",{"property":"article:published_time","content":"2025-10-23"}],["$","meta","11",{"property":"article:author","content":"Rozsa Gyene"}],["$","meta","12",{"property":"article:tag","content":"will contest"}],["$","meta","13",{"property":"article:tag","content":"California probate litigation"}],["$","meta","14",{"property":"article:tag","content":"undue influence"}],["$","meta","15",{"property":"article:tag","content":"lack of capacity"}],["$","meta","16",{"property":"article:tag","content":"will challenge"}],["$","meta","17",{"property":"article:tag","content":"probate dispute"}],["$","meta","18",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","19",{"name":"twitter:title","content":"Estate Planning & Trust Law Blog"}],["$","meta","20",{"name":"twitter:description","content":"Expert legal insights from Rozsa Gyene"}],["$","meta","21",{"name":"next-size-adjust"}]]
+1:null

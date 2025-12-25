@@ -1,0 +1,521 @@
+3:I[4707,[],""]
+5:I[6423,[],""]
+4:["slug","what-assets-go-through-probate-california","d"]
+0:["XNl8EPT-Q30wSTcV-gnhM",[[["",{"children":[["slug","what-assets-go-through-probate-california","d"],{"children":["__PAGE__?{\"slug\":\"what-assets-go-through-probate-california\"}",{}]}]},"$undefined","$undefined",true],["",{"children":[["slug","what-assets-go-through-probate-california","d"],{"children":["__PAGE__",{},[["$L1","$L2",null],null],null]},[null,["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","$4","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]],null]},[[[["$","link","0",{"rel":"stylesheet","href":"/blog/_next/static/css/76af30a148da119e.css","precedence":"next","crossOrigin":"$undefined"}]],["$","html",null,{"lang":"en","className":"__variable_fbaf84 __variable_774662","children":[["$","head",null,{"children":[["$","link",null,{"rel":"icon","href":"/favicon.ico"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}]]}],["$","body",null,{"className":"bg-gradient-blue min-h-screen","children":[["$","div",null,{"className":"bg-primary-blue text-white py-2.5 text-sm","children":["$","div",null,{"className":"container-custom flex justify-between items-center","children":[["$","div",null,{"className":"flex items-center gap-6","children":["$","span",null,{"children":"Over 25 Years Serving Los Angeles County"}]}],["$","a",null,{"href":"tel:8182916217","className":"text-accent-gold font-semibold hover:underline","children":"(818) 291-6217"}]]}]}],["$","nav",null,{"className":"bg-transparent py-5","children":["$","div",null,{"className":"container-custom flex justify-between items-center","children":[["$","a",null,{"href":"https://livingtrust-attorneys.com","className":"flex items-center gap-3 text-white no-print","children":["$","div",null,{"className":"flex flex-col","children":[["$","span",null,{"className":"font-playfair text-xl font-bold text-shadow-md","children":"Law Offices of Rozsa Gyene"}],["$","span",null,{"className":"text-sm text-accent-gold","children":"Estate Planning & Trust Law Blog"}]]}]}],["$","div",null,{"className":"flex items-center gap-4 no-print","children":[["$","a",null,{"href":"https://livingtrust-attorneys.com","className":"text-white hover:text-accent-gold transition-colors font-medium","children":"Home"}],["$","a",null,{"href":"/","className":"text-accent-gold font-semibold","children":"Blog"}],["$","a",null,{"href":"https://portal.livingtrust-attorneys.com/book","className":"btn-primary text-base py-3 px-6","target":"_blank","rel":"noopener noreferrer","children":"Free Consultation"}]]}]]}]}],["$","main",null,{"className":"min-h-screen","children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[]}]}],["$","footer",null,{"className":"bg-primary-blue text-white mt-20 no-print","children":["$","div",null,{"className":"container-custom py-12","children":[["$","div",null,{"className":"grid md:grid-cols-3 gap-8","children":[["$","div",null,{"children":[["$","h3",null,{"className":"font-playfair text-2xl mb-4","children":"Law Offices of Rozsa Gyene"}],["$","p",null,{"className":"text-white/80 mb-4","children":"Over 25 years of experience serving Los Angeles County families with comprehensive estate planning and trust services."}]]}],["$","div",null,{"children":[["$","h4",null,{"className":"font-semibold text-lg mb-4 text-accent-gold","children":"Contact"}],["$","div",null,{"className":"space-y-2 text-white/80","children":[["$","p",null,{"children":"450 N Brand Blvd Ste 600"}],["$","p",null,{"children":"Glendale, CA 91203"}],["$","p",null,{"className":"mt-4","children":["$","a",null,{"href":"tel:8182916217","className":"text-accent-gold hover:underline","children":"(818) 291-6217"}]}]]}]]}],["$","div",null,{"children":[["$","h4",null,{"className":"font-semibold text-lg mb-4 text-accent-gold","children":"Practice Areas"}],["$","ul",null,{"className":"space-y-2 text-white/80","children":[["$","li",null,{"children":["$","a",null,{"href":"https://livingtrust-attorneys.com/living-trusts.html","className":"hover:text-accent-gold transition-colors","children":"Living Trusts"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://livingtrust-attorneys.com/probate.html","className":"hover:text-accent-gold transition-colors","children":"Probate"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://livingtrust-attorneys.com/trust-administration.html","className":"hover:text-accent-gold transition-colors","children":"Trust Administration"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://livingtrust-attorneys.com/conservatorship.html","className":"hover:text-accent-gold transition-colors","children":"Conservatorship"}]}]]}]]}]]}],["$","div",null,{"className":"border-t border-white/10 mt-8 pt-8 text-center text-white/70 text-sm","children":["$","p",null,{"children":["© ",2025," Law Offices of Rozsa Gyene. All rights reserved."]}]}]]}]}]]}]]}]],null],null],["$L6",null]]]]
+8:I[2578,["972","static/chunks/972-6296c3e7f99d3665.js","42","static/chunks/app/%5Bslug%5D/page-27e08b5d2052b651.js"],"default"]
+9:I[2972,["972","static/chunks/972-6296c3e7f99d3665.js","42","static/chunks/app/%5Bslug%5D/page-27e08b5d2052b651.js"],""]
+7:T5b94,<p>"Do I need to go through probate for my mother's house? What about her bank accounts?"</p>
+<p>As a Glendale probate attorney, this is one of the most common questions I hear from families dealing with a loved one's death. The answer depends entirely on how assets were titled and whether beneficiaries were designated.</p>
+<p>Understanding which assets go through probate—and which don't—is critical for both families handling an estate and anyone doing estate planning to help their family avoid probate.</p>
+<p>This comprehensive guide explains exactly which assets require California probate, which assets pass outside probate, the $184,500 threshold that matters, and proven strategies to keep assets out of probate entirely.</p>
+<h2>What Does "Going Through Probate" Mean?</h2>
+<p><strong>Probate</strong> is the court-supervised legal process of:</p>
+<ul>
+<li>Validating a will (if one exists)</li>
+<li>Appointing an executor or administrator</li>
+<li>Identifying and inventorying assets</li>
+<li>Paying debts and taxes</li>
+<li>Distributing remaining assets to beneficiaries</li>
+</ul>
+<p><strong>California probate typically takes:</strong></p>
+<ul>
+<li><strong>Timeline:</strong> 12-18 months minimum</li>
+<li><strong>Cost:</strong> $20,000-$100,000+ in fees</li>
+<li><strong>Public record:</strong> Court files are accessible to anyone</li>
+</ul>
+<p><strong>Assets that "go through probate"</strong> must be transferred through this formal court process.</p>
+<p><strong>Assets that "pass outside probate"</strong> transfer directly to beneficiaries without court involvement.</p>
+<h2>The $184,500 Threshold</h2>
+<p><strong>California Probate Code Section 13100</strong></p>
+<p><strong>If total probate assets are worth $184,500 or less</strong>, heirs can use simplified procedures instead of formal probate:</p>
+<ul>
+<li>Small estate affidavit</li>
+<li>Affidavit for Real Property (if real estate under $61,500)</li>
+</ul>
+<p><strong>If probate assets exceed $184,500</strong>, formal probate is required.</p>
+<p><strong>Note:</strong> This threshold is for probate assets only. Non-probate assets don't count toward this limit.</p>
+<h2>Assets That GO THROUGH Probate</h2>
+<h3>1. Real Estate in Deceased's Name Alone</h3>
+<p><strong>Probate required if:</strong></p>
+<ul>
+<li>Deed shows decedent as sole owner</li>
+<li>Titled as "tenants in common" (not joint tenancy)</li>
+<li>No transfer-on-death deed</li>
+<li>Not held in trust</li>
+</ul>
+<p><strong>Examples:</strong></p>
+<ul>
+<li>House owned solely by decedent</li>
+<li>Vacant land in decedent's name</li>
+<li>Rental property without beneficiary designation</li>
+<li>Timeshare in individual name</li>
+</ul>
+<p><strong>Even if will says "leave house to daughter,"</strong> probate is required to transfer title.</p>
+<h3>2. Bank Accounts in Sole Name (No Beneficiary)</h3>
+<p><strong>Probate required if:</strong></p>
+<ul>
+<li>Account in decedent's name only</li>
+<li>No "payable on death" (POD) beneficiary</li>
+<li>Not joint account with right of survivorship</li>
+</ul>
+<p><strong>Examples:</strong></p>
+<ul>
+<li>Checking account: "John Smith"</li>
+<li>Savings account without POD designation</li>
+<li>Certificates of deposit (CDs) without beneficiary</li>
+</ul>
+<p><strong>The bank cannot release funds without probate.</strong></p>
+<h3>3. Investment Accounts Without Transfer-on-Death</h3>
+<p><strong>Probate required if:</strong></p>
+<ul>
+<li>Brokerage account in sole name</li>
+<li>No "transfer on death" (TOD) beneficiary</li>
+<li>Individual account (not joint)</li>
+</ul>
+<p><strong>Examples:</strong></p>
+<ul>
+<li>E*TRADE account: "Mary Johnson"</li>
+<li>Vanguard account without TOD</li>
+<li>Individual stock certificates</li>
+</ul>
+<h3>4. Vehicles in Decedent's Name Only</h3>
+<p><strong>Generally probate required</strong> unless using simplified DMV procedures.</p>
+<p><strong>Exception:</strong> California allows simplified transfer for vehicles if estate qualifies for small estate procedures.</p>
+<p><strong>Probate needed for:</strong></p>
+<ul>
+<li>Cars, trucks, motorcycles</li>
+<li>Boats</li>
+<li>RVs</li>
+<li>Aircraft</li>
+</ul>
+<p><strong>Without additional owners or TOD beneficiary.</strong></p>
+<h3>5. Business Interests Without Succession Plan</h3>
+<p><strong>Probate required for:</strong></p>
+<ul>
+<li>Sole proprietorships</li>
+<li>Partnership interests without buy-sell agreement</li>
+<li>LLC membership interests in individual name</li>
+<li>Corporate stock in individual name</li>
+<li>Professional practices</li>
+</ul>
+<h3>6. Personal Property in Deceased's Name</h3>
+<p><strong>Probate may be required for:</strong></p>
+<ul>
+<li>Jewelry</li>
+<li>Art and collectibles</li>
+<li>Furniture and household items</li>
+<li>Valuable personal effects</li>
+</ul>
+<p><strong>Practical reality:</strong> Small personal items often distributed informally, but technically should go through probate if estate exceeds $184,500.</p>
+<h3>7. Money Owed to Decedent</h3>
+<p><strong>Probate required to collect:</strong></p>
+<ul>
+<li>Promissory notes payable to decedent</li>
+<li>Lawsuit settlements</li>
+<li>Unpaid wages or commissions</li>
+<li>Security deposits</li>
+<li>Tax refunds (sometimes)</li>
+</ul>
+<h3>8. Intellectual Property Rights</h3>
+<p><strong>Probate required for:</strong></p>
+<ul>
+<li>Copyrights</li>
+<li>Patents</li>
+<li>Royalty rights</li>
+<li>Licensing agreements</li>
+</ul>
+<h3>9. Cryptocurrency in Individual Wallets</h3>
+<p><strong>Probate likely required</strong> if:</p>
+<ul>
+<li>Crypto held in personal wallet (not exchange)</li>
+<li>No beneficiary designation</li>
+<li>Access requires private keys</li>
+</ul>
+<p><strong>Practical challenge:</strong> Locating and accessing crypto can be difficult.</p>
+<h2>Assets That DO NOT Go Through Probate</h2>
+<h3>1. Joint Tenancy Property (With Right of Survivorship)</h3>
+<p><strong>Passes automatically to surviving joint tenant(s).</strong></p>
+<p><strong>Requirements:</strong></p>
+<ul>
+<li>Deed or title must specify "joint tenancy"</li>
+<li>Must say "with right of survivorship"</li>
+<li>Surviving owner inherits automatically</li>
+</ul>
+<p><strong>Examples:</strong></p>
+<ul>
+<li>House: "John Smith and Mary Smith, as joint tenants"</li>
+<li>Bank account: "Joint tenants with right of survivorship"</li>
+</ul>
+<p><strong>Process:</strong></p>
+<ul>
+<li>Record death certificate with county recorder</li>
+<li>Property passes to survivor immediately</li>
+<li>No probate required</li>
+</ul>
+<p><strong>Important:</strong> If all joint tenants die, probate is required.</p>
+<h3>2. Community Property with Right of Survivorship</h3>
+<p><strong>California allows this special title form.</strong></p>
+<p><strong>Passes automatically to surviving spouse</strong> without probate.</p>
+<p><strong>Requirements:</strong></p>
+<ul>
+<li>Must be married or registered domestic partners</li>
+<li>Deed must say "community property with right of survivorship"</li>
+</ul>
+<p><strong>Advantage over regular community property:</strong> Regular community property may require spousal property petition; this form passes automatically.</p>
+<h3>3. Assets in Living Trust</h3>
+<p><strong>Trust assets avoid probate entirely.</strong></p>
+<p><strong>If property titled:</strong></p>
+<ul>
+<li>"John Smith, Trustee of the Smith Family Trust"</li>
+<li>Assets held in trust name</li>
+</ul>
+<p><strong>At death:</strong></p>
+<ul>
+<li>Successor trustee takes over</li>
+<li>Distributes assets per trust terms</li>
+<li>No court involvement (trust administration is private)</li>
+</ul>
+<p><strong>Most effective probate avoidance strategy.</strong></p>
+<h3>4. Payable-on-Death (POD) Bank Accounts</h3>
+<p><strong>Bank accounts with POD beneficiaries pass directly to beneficiaries.</strong></p>
+<p><strong>How it works:</strong></p>
+<ul>
+<li>Account owner designates beneficiary on bank form</li>
+<li>Account remains in owner's control during life</li>
+<li>At death, beneficiary presents death certificate to bank</li>
+<li>Bank transfers funds directly to beneficiary</li>
+</ul>
+<p><strong>Also called:</strong> Totten trust, in trust for (ITF) account</p>
+<h3>5. Transfer-on-Death (TOD) Investment Accounts</h3>
+<p><strong>Brokerage accounts with TOD beneficiaries pass outside probate.</strong></p>
+<p><strong>Process:</strong></p>
+<ul>
+<li>Owner completes TOD registration form</li>
+<li>Beneficiary has no rights until owner's death</li>
+<li>At death, beneficiary provides death certificate</li>
+<li>Assets transfer directly</li>
+</ul>
+<p><strong>California law</strong> allows TOD registration for stocks, bonds, and brokerage accounts.</p>
+<h3>6. Retirement Accounts with Beneficiary Designations</h3>
+<p><strong>Pass directly to named beneficiaries:</strong></p>
+<ul>
+<li><strong>401(k) plans</strong> → To designated beneficiary</li>
+<li><strong>IRA accounts</strong> → To designated beneficiary</li>
+<li><strong>403(b) plans</strong> → To designated beneficiary</li>
+<li><strong>Pension benefits</strong> → Per plan rules</li>
+</ul>
+<p><strong>Critical:</strong> Beneficiary designation controls, even if will says something different.</p>
+<p><strong>Common problem:</strong> Outdated beneficiary designations (ex-spouse still listed).</p>
+<h3>7. Life Insurance Policies with Named Beneficiaries</h3>
+<p><strong>Death benefits pass directly to beneficiaries.</strong></p>
+<p><strong>Process:</strong></p>
+<ul>
+<li>Beneficiary files claim with insurance company</li>
+<li>Provides death certificate</li>
+<li>Receives proceeds directly</li>
+<li>No probate required</li>
+</ul>
+<p><strong>Exception:</strong> If estate is named beneficiary, proceeds go through probate.</p>
+<h3>8. Transfer-on-Death Deeds for Real Estate</h3>
+<p><strong>California allows TOD deeds</strong> (California Probate Code Section 5600).</p>
+<p><strong>How it works:</strong></p>
+<ul>
+<li>Owner records revocable TOD deed</li>
+<li>Property stays in owner's control during life</li>
+<li>Owner can revoke anytime</li>
+<li>At death, property passes to named beneficiary</li>
+<li>Beneficiary records death certificate</li>
+</ul>
+<p><strong>Advantages:</strong></p>
+<ul>
+<li>Avoids probate</li>
+<li>Retains full control during life</li>
+<li>Can be changed anytime</li>
+<li>Lower cost than trust</li>
+</ul>
+<p><strong>Limitations:</strong></p>
+<ul>
+<li>Only for owner-occupied residential property (1-4 units)</li>
+<li>Can't use for rental or commercial property</li>
+<li>Can trigger property tax reassessment</li>
+<li>Limited protection compared to trust</li>
+</ul>
+<h3>9. Property Held in Survivorship Forms</h3>
+<p><strong>Special title forms that avoid probate:</strong></p>
+<ul>
+<li><strong>Tenancy by the entirety</strong> (limited California recognition)</li>
+<li><strong>Joint tenancy</strong></li>
+<li><strong>Community property with right of survivorship</strong></li>
+</ul>
+<h3>10. Assets With Contractual Beneficiaries</h3>
+<p><strong>Any asset with valid beneficiary designation passes outside probate:</strong></p>
+<ul>
+<li>Annuities</li>
+<li>Certain bonds (with TOD)</li>
+<li>Credit union accounts with POD</li>
+<li>Some club memberships with transfer rights</li>
+</ul>
+<h2>Special Situations and Grey Areas</h2>
+<h3>Community Property (Regular, Without Right of Survivorship)</h3>
+<p><strong>California community property without WROS designation:</strong></p>
+<p><strong>Does it require probate?</strong> Sometimes yes, sometimes no.</p>
+<p><strong>Options for surviving spouse:</strong></p>
+<ol>
+<li><strong>Spousal Property Petition</strong> (simplified procedure)</li>
+<li><strong>Full probate</strong> (if other issues exist)</li>
+<li><strong>Small estate procedures</strong> (if under threshold)</li>
+</ol>
+<p><strong>Not automatic transfer</strong> like joint tenancy.</p>
+<h3>Jointly Owned Property Without "Right of Survivorship"</h3>
+<p><strong>"Tenants in common" ownership:</strong></p>
+<p><strong>Probate required</strong> for deceased's share.</p>
+<p><strong>Example:</strong>
+Property owned 50/50 as tenants in common.</p>
+<ul>
+<li>One owner dies</li>
+<li>Deceased's 50% goes through probate</li>
+<li>Surviving owner keeps their 50%</li>
+</ul>
+<p><strong>Tenancy in common is default</strong> in California unless deed specifies joint tenancy.</p>
+<h3>Property in Decedent's Trust Not Properly Funded</h3>
+<p><strong>If trust exists but property wasn't transferred to it:</strong></p>
+<p><strong>Probate required</strong> because property is still in individual name.</p>
+<p><strong>Common issue:</strong> Trust created but real estate never deeded to trust.</p>
+<p><strong>Solution during life:</strong> Pour-over will (sends probate assets to trust after probate).</p>
+<h3>Property Outside California</h3>
+<p><strong>California probate only covers California property.</strong></p>
+<p><strong>Out-of-state real estate requires:</strong></p>
+<ul>
+<li>Ancillary probate in that state, OR</li>
+<li>Avoid by holding in trust</li>
+</ul>
+<h3>Property Acquired After Trust Funded</h3>
+<p><strong>Property acquired after trust created:</strong></p>
+<p><strong>Requires probate unless:</strong></p>
+<ul>
+<li>Specifically transferred to trust</li>
+<li>Has beneficiary designation</li>
+<li>Held in joint tenancy</li>
+</ul>
+<h3>Retirement Accounts With No Beneficiary</h3>
+<p><strong>If retirement account has NO designated beneficiary:</strong></p>
+<p><strong>Passes to estate → Requires probate</strong></p>
+<p><strong>Also triggers worst tax consequences</strong> (must be distributed quickly, losing tax deferral).</p>
+<h3>Vehicles: Special California Rules</h3>
+<p><strong>California allows simplified transfer</strong> for vehicles if:</p>
+<ul>
+<li>Estate qualifies for small estate procedures (under $184,500)</li>
+<li>Vehicle value under certain threshold</li>
+</ul>
+<p><strong>DMV Form:</strong> REG 5 (Affidavit for Transfer Without Probate)</p>
+<p><strong>If estate exceeds threshold:</strong> Vehicle technically requires probate, though often transferred informally.</p>
+<h2>How to Determine If Probate Is Required</h2>
+<h3>Step 1: Make Complete Asset List</h3>
+<p><strong>List every asset decedent owned:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Asset</th>
+<th>Title/Ownership</th>
+<th>Estimated Value</th>
+<th>Beneficiary?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>House</td>
+<td>Individual name</td>
+<td>$800,000</td>
+<td>None</td>
+</tr>
+<tr>
+<td>Bank account</td>
+<td>POD to daughter</td>
+<td>$50,000</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>IRA</td>
+<td>TOD to son</td>
+<td>$200,000</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Car</td>
+<td>Individual</td>
+<td>$25,000</td>
+<td>None</td>
+</tr>
+</tbody>
+</table>
+<h3>Step 2: Identify Non-Probate Assets</h3>
+<p><strong>Remove from probate calculation:</strong></p>
+<ul>
+<li>Joint tenancy property</li>
+<li>Assets with beneficiaries</li>
+<li>Trust assets</li>
+<li>All non-probate transfers</li>
+</ul>
+<h3>Step 3: Calculate Total Probate Assets</h3>
+<p><strong>Add up remaining assets in individual name:</strong></p>
+<p>From example above:</p>
+<ul>
+<li>House: $800,000 (no beneficiary)</li>
+<li>Car: $25,000 (no beneficiary)</li>
+<li><strong>Total probate assets: $825,000</strong></li>
+</ul>
+<p><strong>Conclusion:</strong> Exceeds $184,500 → Formal probate required</p>
+<h3>Step 4: Consider Simplified Procedures</h3>
+<p><strong>If total is $184,500 or less:</strong></p>
+<ul>
+<li>Small estate affidavit</li>
+<li>Simplified procedures</li>
+<li>No formal probate</li>
+</ul>
+<h2>Strategies to Avoid Probate</h2>
+<h3>Strategy #1: Create Living Trust</h3>
+<p><strong>Most comprehensive solution.</strong></p>
+<p><strong>How it works:</strong></p>
+<ul>
+<li>Transfer all assets to trust</li>
+<li>You remain trustee during life</li>
+<li>Successor trustee takes over at death</li>
+<li>Assets distributed per trust terms</li>
+<li>No probate required</li>
+</ul>
+<p><strong>Best for:</strong> California homeowners, anyone with assets over $200K</p>
+<h3>Strategy #2: Add Transfer-on-Death Designations</h3>
+<p><strong>For specific assets:</strong></p>
+<ul>
+<li>Bank accounts → Add POD beneficiary</li>
+<li>Investment accounts → Add TOD beneficiary</li>
+<li>Consider TOD deed for real estate (if eligible)</li>
+</ul>
+<p><strong>Advantage:</strong> Simple, low-cost, retains full control</p>
+<p><strong>Disadvantage:</strong> Less comprehensive than trust, no incapacity planning</p>
+<h3>Strategy #3: Convert to Joint Tenancy</h3>
+<p><strong>Add joint owner with right of survivorship.</strong></p>
+<p><strong>Caution:</strong></p>
+<ul>
+<li>Joint owner has immediate rights to property</li>
+<li>Can't be undone without joint owner's consent</li>
+<li>May have gift tax implications</li>
+<li>Property becomes joint owner's community property if they're married</li>
+</ul>
+<p><strong>Use carefully and with legal advice.</strong></p>
+<h3>Strategy #4: Life Estate Deeds</h3>
+<p><strong>Transfer property but retain life estate:</strong></p>
+<ul>
+<li>You live in/use property during life</li>
+<li>Property passes to remainder beneficiary at death</li>
+<li>Avoids probate</li>
+</ul>
+<p><strong>Downsides:</strong></p>
+<ul>
+<li>Can't sell easily without remainder beneficiary's consent</li>
+<li>Property tax issues</li>
+<li>Less flexible than trust</li>
+</ul>
+<h3>Strategy #5: Beneficiary Designations on All Eligible Assets</h3>
+<p><strong>Maximum use of beneficiary designations:</strong></p>
+<ul>
+<li>Life insurance</li>
+<li>Retirement accounts</li>
+<li>Bank accounts (POD)</li>
+<li>Investment accounts (TOD)</li>
+<li>Any asset allowing beneficiary designation</li>
+</ul>
+<p><strong>Remember:</strong> Keep beneficiaries updated!</p>
+<h3>Strategy #6: Gift Assets During Life</h3>
+<p><strong>Transfer property before death:</strong></p>
+<ul>
+<li>No longer in your estate at death</li>
+<li>No probate for gifted assets</li>
+</ul>
+<p><strong>Consider:</strong></p>
+<ul>
+<li>Gift tax rules</li>
+<li>Loss of control</li>
+<li>Medicaid lookback (if relevant)</li>
+</ul>
+<p><strong>Not usually recommended as primary strategy.</strong></p>
+<h3>Strategy #7: Small Estate Planning</h3>
+<p><strong>If estate under $184,500:</strong></p>
+<ul>
+<li>May not need extensive planning</li>
+<li>Small estate procedures available</li>
+<li>Consider POD/TOD for convenience</li>
+</ul>
+<h2>Common Probate Avoidance Mistakes</h2>
+<h3>Mistake #1: Failing to Fund Trust</h3>
+<p><strong>Creating trust but not transferring assets</strong> defeats the purpose.</p>
+<p><strong>All assets must be retitled</strong> to trust to avoid probate.</p>
+<h3>Mistake #2: Outdated Beneficiary Designations</h3>
+<p><strong>Most common issue I see:</strong></p>
+<p>Ex-spouse still listed on 401(k) 10 years after divorce.</p>
+<p><strong>Beneficiary designations override will.</strong></p>
+<h3>Mistake #3: Assuming Joint Accounts Avoid Probate for Everyone</h3>
+<p><strong>Adding child as joint owner on account:</strong></p>
+<ul>
+<li>Child has immediate access</li>
+<li>Funds become child's if you don't spend them</li>
+<li>Other children may not receive fair share</li>
+<li>May cause gift tax issues</li>
+</ul>
+<p><strong>Better:</strong> POD designation</p>
+<h3>Mistake #4: No Plan for Out-of-State Property</h3>
+<p><strong>Vacation home in another state requires ancillary probate</strong> unless held in trust or joint tenancy.</p>
+<h3>Mistake #5: DIY Estate Planning Without Full Understanding</h3>
+<p><strong>Using online forms without legal advice risks:</strong></p>
+<ul>
+<li>Invalid documents</li>
+<li>Incorrect titling</li>
+<li>Unintended tax consequences</li>
+<li>Assets not properly covered</li>
+</ul>
+<h2>Frequently Asked Questions</h2>
+<h3>What if someone dies with both probate and non-probate assets?</h3>
+<p>Non-probate assets transfer directly to beneficiaries. Probate assets go through probate. This is common.</p>
+<h3>Do all assets have to go through probate if one asset requires it?</h3>
+<p>No. Only assets in individual name without beneficiaries require probate. Other assets transfer outside probate.</p>
+<h3>How do I know how property is titled?</h3>
+<p>Check deed (for real estate), account statements, title documents. County recorder has property records. Banks can provide account registration.</p>
+<h3>Can I avoid probate with just a will?</h3>
+<p>No. A will does NOT avoid probate. Wills must be probated. Only trusts and beneficiary designations avoid probate.</p>
+<h3>What about property in an LLC?</h3>
+<p>If LLC membership interest is in your individual name, it goes through probate (unless in trust or other arrangement).</p>
+<h3>Do retirement accounts ever go through probate?</h3>
+<p>Only if estate is named beneficiary or no beneficiary designated. Otherwise they pass directly to beneficiaries.</p>
+<h3>What happens if property is titled incorrectly?</h3>
+<p>May require probate even if you intended to avoid it. This is why proper titling is critical.</p>
+<h2>Related Articles</h2>
+<p><strong>Learn more about California probate:</strong></p>
+<ul>
+<li>
+<p><strong><a href="/blog/avoid-probate-california/">How to Avoid Probate in California</a></strong> - 7 comprehensive strategies to keep assets out of probate.</p>
+</li>
+<li>
+<p><strong><a href="/blog/how-much-does-probate-cost-california/">How Much Does Probate Cost in California?</a></strong> - What you'll pay if assets do go through probate ($20K-$100K+).</p>
+</li>
+<li>
+<p><strong><a href="/blog/california-small-estate-affidavit/">California Small Estate Affidavit</a></strong> - Simplified procedure for estates under $184,500.</p>
+</li>
+<li>
+<p><strong><a href="/blog/trust-administration-vs-probate-california/">Trust Administration vs. Probate California</a></strong> - Side-by-side comparison of trust vs. probate process.</p>
+</li>
+<li>
+<p><strong><a href="/blog/how-long-does-probate-take-california/">How Long Does Probate Take in California?</a></strong> - 12-18 month timeline you'll avoid with proper planning.</p>
+</li>
+</ul>
+<h2>Get Help Determining If Probate Is Required</h2>
+<p>Whether you're trying to determine if a deceased family member's assets require probate, or you want to ensure your own assets avoid probate, experienced legal guidance provides clarity and peace of mind.</p>
+<p><strong>Call (818) 291-6217</strong> to schedule a consultation at my Glendale office, or complete our <a href="/probate-intake-form.html">probate questionnaire</a> for current probate matters or <a href="/estate-planning-questionnaire.html">estate planning questionnaire</a> for probate avoidance planning.</p>
+<p>As a California probate and estate planning attorney serving Los Angeles County, I help families determine which assets require probate, guide them through the probate process when necessary, and create comprehensive estate plans that keep assets out of probate entirely.</p>
+<hr>
+<p><strong>About the Author</strong></p>
+<p>Rozsa Gyene (State Bar No. 208356) is a California estate planning and probate attorney serving Glendale, Burbank, Pasadena, and throughout Los Angeles County. With extensive experience in both probate administration and estate planning to avoid probate, Rozsa helps clients understand California's complex probate rules and create plans that actually protect their families from the probate process.</p>
+<hr>
+<p><em>Disclaimer: This article provides general information about California probate and should not be construed as legal advice. Every situation is unique. Laws, thresholds, and procedures change regularly, and this article reflects California law as of January 2025. Consult with a qualified California probate attorney about your specific circumstances.</em></p>
+a:T4ea,{"@context":"https://schema.org","@type":"Article","headline":"What Assets Go Through Probate in California? Complete Guide 2025","description":"What assets go through probate California? Learn which assets require probate, which pass outside probate, and how to avoid the 12-18 month process. Complete guide.","image":"https://livingtrust-attorneys.com/images/blog/probate-court.jpg","articleSection":"Probate","keywords":"probate assets, California probate, probate process, estate planning, avoid probate, Glendale attorney","wordCount":2394,"author":{"@type":"Person","name":"Rozsa Gyene","jobTitle":"Estate Planning Attorney","credentials":"California State Bar #208356","url":"https://livingtrust-attorneys.com/about.html"},"publisher":{"@type":"LegalService","name":"Law Offices of Rozsa Gyene","url":"https://livingtrust-attorneys.com","telephone":"818-291-6217","address":{"@type":"PostalAddress","streetAddress":"450 N Brand Blvd, Suite 600","addressLocality":"Glendale","addressRegion":"CA","postalCode":"91203"}},"datePublished":"2025-10-25","dateModified":"2025-12-24","mainEntityOfPage":{"@type":"WebPage","@id":"https://livingtrust-attorneys.com/blog/what-assets-go-through-probate-california"},"inLanguage":"en-US","isAccessibleForFree":true}b:T6c1,{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What if someone dies with both probate and non-probate assets?","acceptedAnswer":{"@type":"Answer","text":"Non-probate assets transfer directly to beneficiaries. Probate assets go through probate. This is common."}},{"@type":"Question","name":"Do all assets have to go through probate if one asset requires it?","acceptedAnswer":{"@type":"Answer","text":"No. Only assets in individual name without beneficiaries require probate. Other assets transfer outside probate."}},{"@type":"Question","name":"How do I know how property is titled?","acceptedAnswer":{"@type":"Answer","text":"Check deed (for real estate), account statements, title documents. County recorder has property records. Banks can provide account registration."}},{"@type":"Question","name":"Can I avoid probate with just a will?","acceptedAnswer":{"@type":"Answer","text":"No. A will does NOT avoid probate. Wills must be probated. Only trusts and beneficiary designations avoid probate."}},{"@type":"Question","name":"What about property in an LLC?","acceptedAnswer":{"@type":"Answer","text":"If LLC membership interest is in your individual name, it goes through probate (unless in trust or other arrangement)."}},{"@type":"Question","name":"Do retirement accounts ever go through probate?","acceptedAnswer":{"@type":"Answer","text":"Only if estate is named beneficiary or no beneficiary designated. Otherwise they pass directly to beneficiaries."}},{"@type":"Question","name":"What happens if property is titled incorrectly?","acceptedAnswer":{"@type":"Answer","text":"May require probate even if you intended to avoid it. This is why proper titling is critical."}}]}2:["$","div",null,{"className":"min-h-screen","children":[["$","div",null,{"className":"bg-primary-blue/20 py-4 no-print","children":["$","div",null,{"className":"container-custom","children":["$","nav",null,{"aria-label":"Breadcrumb","className":"flex items-center gap-2 text-sm text-white/70","children":[["$","a",null,{"href":"/","className":"hover:text-white transition-colors","children":"Home"}],["$","span",null,{"children":"/"}],["$","a",null,{"href":"/blog","className":"hover:text-white transition-colors","children":"Blog"}],["$","span",null,{"children":"/"}],["$","span",null,{"className":"text-white","children":"Probate"}]]}]}]}],["$","section",null,{"className":"section-padding bg-gradient-to-b from-transparent to-primary-blue/20","children":["$","div",null,{"className":"container-custom","children":["$","div",null,{"className":"max-w-4xl mx-auto text-center","children":[["$","div",null,{"className":"mb-6","children":["$","span",null,{"className":"inline-block bg-accent-gold text-white px-4 py-2 rounded-full text-sm font-semibold","children":"Probate"}]}],["$","h1",null,{"className":"font-playfair text-4xl md:text-5xl lg:text-6xl text-white mb-6 text-shadow-lg leading-tight","children":"What Assets Go Through Probate in California? Complete Guide 2025"}],["$","div",null,{"className":"flex flex-wrap items-center justify-center gap-6 text-white/80 mb-8","children":[["$","span",null,{"className":"flex items-center gap-2","children":[["$","svg",null,{"className":"w-5 h-5","fill":"currentColor","viewBox":"0 0 20 20","children":["$","path",null,{"fillRule":"evenodd","d":"M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z","clipRule":"evenodd"}]}],"Rozsa Gyene"]}],["$","span",null,{"className":"flex items-center gap-2","children":[["$","svg",null,{"className":"w-5 h-5","fill":"currentColor","viewBox":"0 0 20 20","children":["$","path",null,{"fillRule":"evenodd","d":"M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z","clipRule":"evenodd"}]}],"October 25, 2025"]}],["$","span",null,{"className":"flex items-center gap-2","children":[["$","svg",null,{"className":"w-5 h-5","fill":"currentColor","viewBox":"0 0 20 20","children":["$","path",null,{"fillRule":"evenodd","d":"M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z","clipRule":"evenodd"}]}],14," min read"]}]]}],null]}]}]}],["$","section",null,{"className":"section-padding","children":["$","div",null,{"className":"container-custom","children":[["$","div",null,{"className":"grid lg:grid-cols-[1fr_300px] gap-8 mb-12","children":[["$","div",null,{"children":[["$","div",null,{"className":"\n      glass-card\n      p-8\n      mb-8\n    ","children":["$","div",null,{"className":"prose-blog","dangerouslySetInnerHTML":{"__html":"$7"}}]}],["$","div",null,{"className":"mb-8","children":["$","div",null,{"className":"\n      glass-card\n      p-4\n      \n    ","children":["$","div",null,{"className":"flex flex-wrap items-center gap-3","children":[["$","span",null,{"className":"text-white/70 font-semibold","children":"Tags:"}],[["$","span","probate assets",{"className":"bg-white/10 text-white px-3 py-1 rounded-full text-sm border border-white/20","children":["#","probate assets"]}],["$","span","California probate",{"className":"bg-white/10 text-white px-3 py-1 rounded-full text-sm border border-white/20","children":["#","California probate"]}],["$","span","probate process",{"className":"bg-white/10 text-white px-3 py-1 rounded-full text-sm border border-white/20","children":["#","probate process"]}],["$","span","estate planning",{"className":"bg-white/10 text-white px-3 py-1 rounded-full text-sm border border-white/20","children":["#","estate planning"]}],["$","span","avoid probate",{"className":"bg-white/10 text-white px-3 py-1 rounded-full text-sm border border-white/20","children":["#","avoid probate"]}],["$","span","Glendale attorney",{"className":"bg-white/10 text-white px-3 py-1 rounded-full text-sm border border-white/20","children":["#","Glendale attorney"]}]]]}]}]}],["$","div",null,{"className":"mb-8","children":["$","$L8",null,{"title":"What Assets Go Through Probate in California? Complete Guide 2025","slug":"what-assets-go-through-probate-california"}]}],["$","div",null,{"style":{"margin":"20px auto","padding":"15px 20px","background":"linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%)","borderLeft":"4px solid #8a6a2f","borderRadius":"8px","maxWidth":"800px"},"children":["$","p",null,{"style":{"margin":0,"fontSize":"14px","color":"#2c3e50","lineHeight":1.6},"children":[["$","strong",null,{"style":{"color":"#1e3a5f"},"children":"Written by Rozsa Gyene, Esq."}],["$","br",null,{}],"California State Bar #208356 | 25+ Years Probate & Estate Experience",["$","br",null,{}],["$","em",null,{"style":{"color":"#6c757d"},"children":"Last Updated: November 28, 2025"}]]}]}]]}],["$","aside",null,{"className":"no-print","children":["$","aside",null,{"className":"no-print","children":["$","div",null,{"className":"\n      glass-card\n      p-8\n      sticky top-24\n    ","children":["$","div",null,{"className":"text-center","children":[["$","div",null,{"className":"text-4xl mb-4","children":"⚖️"}],["$","h3",null,{"className":"font-playfair text-2xl text-white mb-3","children":"Need Legal Guidance?"}],["$","p",null,{"className":"text-white/90 mb-6 leading-relaxed","children":"Schedule a free consultation with Attorney Rozsa Gyene to discuss your estate planning needs."}],["$","a",null,{"href":"tel:8182916217","className":"block w-full bg-accent-gold text-white py-3 px-6 rounded-full font-semibold hover:bg-[#b8982f] transition-all mb-3","children":"📞 (818) 291-6217"}],["$","a",null,{"href":"https://portal.livingtrust-attorneys.com/book","className":"block w-full bg-white/10 text-white py-3 px-6 rounded-full font-semibold hover:bg-white/20 transition-all border border-white/30","target":"_blank","rel":"noopener noreferrer","children":"Book Consultation"}],["$","div",null,{"className":"mt-6 pt-6 border-t border-white/10","children":[["$","p",null,{"className":"text-white/70 text-sm mb-2","children":["$","strong",null,{"className":"text-white","children":"Office Location:"}]}],["$","p",null,{"className":"text-white/70 text-sm","children":["450 N Brand Blvd Ste 600",["$","br",null,{}],"Glendale, CA 91203"]}]]}],["$","div",null,{"className":"mt-4 pt-4 border-t border-white/10","children":["$","div",null,{"className":"flex items-center justify-center gap-2 text-accent-gold text-sm","children":[["$","svg",null,{"className":"w-5 h-5","fill":"currentColor","viewBox":"0 0 20 20","children":["$","path",null,{"fillRule":"evenodd","d":"M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z","clipRule":"evenodd"}]}],["$","span",null,{"className":"font-semibold","children":"25+ Years Experience"}]]}]}]]}]}]}]}]]}],["$","section",null,{"className":"mt-16","children":[["$","h2",null,{"className":"font-playfair text-3xl text-white mb-8 text-center","children":"Related Articles"}],["$","div",null,{"className":"grid md:grid-cols-3 gap-6","children":[["$","$L9","intestate-succession-california",{"href":"/intestate-succession-california","className":"block","children":["$","div",null,{"className":"\n      glass-card-hover\n      p-8\n      h-full flex flex-col\n    ","children":[["$","div",null,{"className":"mb-3","children":["$","span",null,{"className":"inline-block bg-accent-gold/20 text-accent-gold px-3 py-1 rounded-full text-xs font-semibold border border-accent-gold/30","children":"Probate"}]}],["$","h3",null,{"className":"font-playfair text-xl text-white mb-3 leading-tight flex-1","children":"Intestate Succession California: Who Inherits When There's No Will?"}],["$","div",null,{"className":"flex items-center justify-between text-sm text-white/60 pt-3 border-t border-white/10","children":[["$","span",null,{"children":"Oct 25, 2025"}],["$","span",null,{"children":[13," min"]}]]}]]}]}],["$","$L9","petition-for-probate-california",{"href":"/petition-for-probate-california","className":"block","children":["$","div",null,{"className":"\n      glass-card-hover\n      p-8\n      h-full flex flex-col\n    ","children":[["$","div",null,{"className":"mb-3","children":["$","span",null,{"className":"inline-block bg-accent-gold/20 text-accent-gold px-3 py-1 rounded-full text-xs font-semibold border border-accent-gold/30","children":"Probate"}]}],["$","h3",null,{"className":"font-playfair text-xl text-white mb-3 leading-tight flex-1","children":"Petition for Probate California: Complete Guide to Form DE-111"}],["$","div",null,{"className":"flex items-center justify-between text-sm text-white/60 pt-3 border-t border-white/10","children":[["$","span",null,{"children":"Oct 25, 2025"}],["$","span",null,{"children":[12," min"]}]]}]]}]}],["$","$L9","probate-referee-california",{"href":"/probate-referee-california","className":"block","children":["$","div",null,{"className":"\n      glass-card-hover\n      p-8\n      h-full flex flex-col\n    ","children":[["$","div",null,{"className":"mb-3","children":["$","span",null,{"className":"inline-block bg-accent-gold/20 text-accent-gold px-3 py-1 rounded-full text-xs font-semibold border border-accent-gold/30","children":"Probate"}]}],["$","h3",null,{"className":"font-playfair text-xl text-white mb-3 leading-tight flex-1","children":"Probate Referee California: What They Do & Why You Need One"}],["$","div",null,{"className":"flex items-center justify-between text-sm text-white/60 pt-3 border-t border-white/10","children":[["$","span",null,{"children":"Oct 25, 2025"}],["$","span",null,{"children":[11," min"]}]]}]]}]}]]}]]}]]}]}],["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"$a"}}],["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"$b"}}]]}]
+6:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"What Assets Go Through Probate in California? Complete Guide 2025 | Law Offices of Rozsa Gyene"}],["$","meta","3",{"name":"description","content":"What assets go through probate California? Learn which assets require probate, which pass outside probate, and how to avoid the 12-18 month process. Complete guide."}],["$","meta","4",{"name":"author","content":"Rozsa Gyene"}],["$","meta","5",{"name":"keywords","content":"probate assets,California probate,probate process,estate planning,avoid probate,Glendale attorney,Probate,estate planning,Rozsa Gyene,Glendale attorney"}],["$","link","6",{"rel":"canonical","href":"https://livingtrust-attorneys.com/blog/what-assets-go-through-probate-california"}],["$","meta","7",{"property":"og:title","content":"What Assets Go Through Probate in California? Complete Guide 2025"}],["$","meta","8",{"property":"og:description","content":"What assets go through probate California? Learn which assets require probate, which pass outside probate, and how to avoid the 12-18 month process. Complete guide."}],["$","meta","9",{"property":"og:type","content":"article"}],["$","meta","10",{"property":"article:published_time","content":"2025-10-25"}],["$","meta","11",{"property":"article:author","content":"Rozsa Gyene"}],["$","meta","12",{"property":"article:tag","content":"probate assets"}],["$","meta","13",{"property":"article:tag","content":"California probate"}],["$","meta","14",{"property":"article:tag","content":"probate process"}],["$","meta","15",{"property":"article:tag","content":"estate planning"}],["$","meta","16",{"property":"article:tag","content":"avoid probate"}],["$","meta","17",{"property":"article:tag","content":"Glendale attorney"}],["$","meta","18",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","19",{"name":"twitter:title","content":"Estate Planning & Trust Law Blog"}],["$","meta","20",{"name":"twitter:description","content":"Expert legal insights from Rozsa Gyene"}],["$","meta","21",{"name":"next-size-adjust"}]]
+1:null

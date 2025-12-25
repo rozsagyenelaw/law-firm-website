@@ -1,0 +1,228 @@
+3:I[4707,[],""]
+5:I[6423,[],""]
+4:["slug","60-day-notice-trust-california","d"]
+0:["XNl8EPT-Q30wSTcV-gnhM",[[["",{"children":[["slug","60-day-notice-trust-california","d"],{"children":["__PAGE__?{\"slug\":\"60-day-notice-trust-california\"}",{}]}]},"$undefined","$undefined",true],["",{"children":[["slug","60-day-notice-trust-california","d"],{"children":["__PAGE__",{},[["$L1","$L2",null],null],null]},[null,["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","$4","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]],null]},[[[["$","link","0",{"rel":"stylesheet","href":"/blog/_next/static/css/76af30a148da119e.css","precedence":"next","crossOrigin":"$undefined"}]],["$","html",null,{"lang":"en","className":"__variable_fbaf84 __variable_774662","children":[["$","head",null,{"children":[["$","link",null,{"rel":"icon","href":"/favicon.ico"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}]]}],["$","body",null,{"className":"bg-gradient-blue min-h-screen","children":[["$","div",null,{"className":"bg-primary-blue text-white py-2.5 text-sm","children":["$","div",null,{"className":"container-custom flex justify-between items-center","children":[["$","div",null,{"className":"flex items-center gap-6","children":["$","span",null,{"children":"Over 25 Years Serving Los Angeles County"}]}],["$","a",null,{"href":"tel:8182916217","className":"text-accent-gold font-semibold hover:underline","children":"(818) 291-6217"}]]}]}],["$","nav",null,{"className":"bg-transparent py-5","children":["$","div",null,{"className":"container-custom flex justify-between items-center","children":[["$","a",null,{"href":"https://livingtrust-attorneys.com","className":"flex items-center gap-3 text-white no-print","children":["$","div",null,{"className":"flex flex-col","children":[["$","span",null,{"className":"font-playfair text-xl font-bold text-shadow-md","children":"Law Offices of Rozsa Gyene"}],["$","span",null,{"className":"text-sm text-accent-gold","children":"Estate Planning & Trust Law Blog"}]]}]}],["$","div",null,{"className":"flex items-center gap-4 no-print","children":[["$","a",null,{"href":"https://livingtrust-attorneys.com","className":"text-white hover:text-accent-gold transition-colors font-medium","children":"Home"}],["$","a",null,{"href":"/","className":"text-accent-gold font-semibold","children":"Blog"}],["$","a",null,{"href":"https://portal.livingtrust-attorneys.com/book","className":"btn-primary text-base py-3 px-6","target":"_blank","rel":"noopener noreferrer","children":"Free Consultation"}]]}]]}]}],["$","main",null,{"className":"min-h-screen","children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[]}]}],["$","footer",null,{"className":"bg-primary-blue text-white mt-20 no-print","children":["$","div",null,{"className":"container-custom py-12","children":[["$","div",null,{"className":"grid md:grid-cols-3 gap-8","children":[["$","div",null,{"children":[["$","h3",null,{"className":"font-playfair text-2xl mb-4","children":"Law Offices of Rozsa Gyene"}],["$","p",null,{"className":"text-white/80 mb-4","children":"Over 25 years of experience serving Los Angeles County families with comprehensive estate planning and trust services."}]]}],["$","div",null,{"children":[["$","h4",null,{"className":"font-semibold text-lg mb-4 text-accent-gold","children":"Contact"}],["$","div",null,{"className":"space-y-2 text-white/80","children":[["$","p",null,{"children":"450 N Brand Blvd Ste 600"}],["$","p",null,{"children":"Glendale, CA 91203"}],["$","p",null,{"className":"mt-4","children":["$","a",null,{"href":"tel:8182916217","className":"text-accent-gold hover:underline","children":"(818) 291-6217"}]}]]}]]}],["$","div",null,{"children":[["$","h4",null,{"className":"font-semibold text-lg mb-4 text-accent-gold","children":"Practice Areas"}],["$","ul",null,{"className":"space-y-2 text-white/80","children":[["$","li",null,{"children":["$","a",null,{"href":"https://livingtrust-attorneys.com/living-trusts.html","className":"hover:text-accent-gold transition-colors","children":"Living Trusts"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://livingtrust-attorneys.com/probate.html","className":"hover:text-accent-gold transition-colors","children":"Probate"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://livingtrust-attorneys.com/trust-administration.html","className":"hover:text-accent-gold transition-colors","children":"Trust Administration"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://livingtrust-attorneys.com/conservatorship.html","className":"hover:text-accent-gold transition-colors","children":"Conservatorship"}]}]]}]]}]]}],["$","div",null,{"className":"border-t border-white/10 mt-8 pt-8 text-center text-white/70 text-sm","children":["$","p",null,{"children":["© ",2025," Law Offices of Rozsa Gyene. All rights reserved."]}]}]]}]}]]}]]}]],null],null],["$L6",null]]]]
+8:I[2578,["972","static/chunks/972-6296c3e7f99d3665.js","42","static/chunks/app/%5Bslug%5D/page-27e08b5d2052b651.js"],"default"]
+9:I[2972,["972","static/chunks/972-6296c3e7f99d3665.js","42","static/chunks/app/%5Bslug%5D/page-27e08b5d2052b651.js"],""]
+7:T324c,<p>If you've just become a successor trustee in California, one of your first legal obligations is sending proper notice to beneficiaries and heirs. Miss this requirement, and you could face serious consequences.</p>
+<p>Here's everything you need to know about California's trust notification rules.</p>
+<h2>What Is the 60-Day Notice?</h2>
+<p>California Probate Code §16061.7 requires successor trustees to notify beneficiaries and heirs when a revocable trust becomes irrevocable—typically at the trust creator's death.</p>
+<p>This notification:</p>
+<ul>
+<li>Informs people of their interest in the trust</li>
+<li>Starts the 120-day period for contesting the trust</li>
+<li>Protects the trustee from later claims of inadequate notice</li>
+<li>Gives recipients the right to request trust information</li>
+</ul>
+<h2>Who Must Receive Notice?</h2>
+<p>You must send notice to:</p>
+<h3>1. Trust Beneficiaries</h3>
+<p>Anyone named as a beneficiary in the trust, including:</p>
+<ul>
+<li>Primary beneficiaries who receive distributions</li>
+<li>Contingent beneficiaries (who receive if primary beneficiaries don't)</li>
+<li>Remainder beneficiaries (who receive after current beneficiaries)</li>
+</ul>
+<h3>2. Legal Heirs</h3>
+<p>Anyone who would inherit under California intestate succession if there were no trust, including:</p>
+<ul>
+<li>Surviving spouse</li>
+<li>Children</li>
+<li>Grandchildren (if their parent predeceased)</li>
+<li>Parents (if no spouse or children)</li>
+<li>Siblings (if no closer relatives)</li>
+</ul>
+<p><strong>Important:</strong> You must notify heirs even if they receive nothing under the trust. The law assumes they might want to contest.</p>
+<h3>3. The Person Who Created the Prior Trust</h3>
+<p>If the current trust amended or replaced an earlier trust, notify beneficiaries of both versions.</p>
+<h2>What Must the Notice Include?</h2>
+<p>California law specifies required content:</p>
+<h3>1. Identity of the settlor(s)</h3>
+<p>Name of the person who created the trust</p>
+<h3>2. Trust name and date</h3>
+<p>Title of the trust and date it was executed</p>
+<h3>3. That the trust has become irrevocable</h3>
+<p>Typically because the settlor died</p>
+<h3>4. Trustee contact information</h3>
+<p>Name, address, and phone number of the trustee</p>
+<h3>5. Attorney contact information</h3>
+<p>Name, address, and phone number of trustee's attorney (if any)</p>
+<h3>6. Notification of right to receive trust terms</h3>
+<p>Statement that the recipient can request a copy of trust provisions affecting their interest</p>
+<h3>7. The 120-day contest period</h3>
+<p>Statement that any contest must be brought within 120 days of receipt of notice</p>
+<h3>8. Date of death</h3>
+<p>When the settlor died</p>
+<h2>The 60-Day Deadline</h2>
+<h3>When does the clock start?</h3>
+<p>The 60-day deadline runs from the later of:</p>
+<ul>
+<li>The date of the settlor's death, OR</li>
+<li>The date you become trustee</li>
+</ul>
+<p><strong>Example 1:</strong> Settlor dies January 1. You're named successor trustee in the trust. Your deadline is March 1 (60 days from death).</p>
+<p><strong>Example 2:</strong> Original successor trustee declines to serve. You're appointed on February 15 after settlor died January 1. Your deadline is April 15 (60 days from becoming trustee).</p>
+<h2>How to Send Notice</h2>
+<h3>Proper Delivery Methods</h3>
+<p>California allows:</p>
+<ul>
+<li>Personal delivery (hand-delivered)</li>
+<li>First-class mail to last known address</li>
+</ul>
+<p><strong>Keep proof:</strong> Use certified mail with return receipt, or have someone sign an acknowledgment of personal delivery.</p>
+<h3>For Recipients Whose Address Is Unknown</h3>
+<p>Make reasonable efforts to find them:</p>
+<ul>
+<li>Check deceased's records and address book</li>
+<li>Search online</li>
+<li>Ask family members</li>
+<li>Consider professional locator services</li>
+</ul>
+<p>Document your search efforts. If you truly cannot locate someone after reasonable effort, that's generally sufficient.</p>
+<h2>The 120-Day Contest Period</h2>
+<p>The notice triggers a critical timeline:</p>
+<p><strong>120 days from receipt of notice = deadline to contest the trust</strong></p>
+<p>After 120 days, recipients generally lose the right to challenge:</p>
+<ul>
+<li>Trust validity</li>
+<li>Trustee appointment</li>
+<li>Trust terms</li>
+</ul>
+<h3>Why This Matters for Trustees</h3>
+<p>Until the 120-day period expires, there's risk that someone could contest the trust. Most trustees:</p>
+<ul>
+<li>Wait until 120 days pass before final distributions</li>
+<li>Make only preliminary distributions (if any) before then</li>
+<li>Reserve funds for potential contest</li>
+</ul>
+<h3>Why This Matters for Beneficiaries</h3>
+<p>If you have concerns about the trust, you have only 120 days to act. After that, your ability to challenge is severely limited.</p>
+<h2>What Happens If You Don't Send Notice?</h2>
+<h3>For the Trustee</h3>
+<p>Failure to send required notice can result in:</p>
+<p><strong>Extended contest period:</strong> The 120-day clock never starts, meaning trust can be contested indefinitely.</p>
+<p><strong>Personal liability:</strong> Beneficiaries who didn't receive proper notice may sue the trustee.</p>
+<p><strong>Removal as trustee:</strong> Court may remove trustee for failure to perform duties.</p>
+<p><strong>Surcharge:</strong> Trustee may have to pay damages from personal funds.</p>
+<h3>For the Administration</h3>
+<p>Without proper notice, you cannot safely:</p>
+<ul>
+<li>Make final distributions</li>
+<li>Close the trust</li>
+<li>Obtain releases from beneficiaries</li>
+</ul>
+<h2>Sample Notice Letter</h2>
+<p>While you should use a proper legal form (or have an attorney prepare it), here's the general content:</p>
+<pre><code>NOTIFICATION BY TRUSTEE
+(California Probate Code §16061.7)
+
+To: [Recipient Name and Address]
+
+You are hereby notified that:
+
+1. [Settlor Name] ("Settlor"), the creator of the [Trust Name]
+   dated [Trust Date] ("Trust"), died on [Date of Death].
+
+2. [Your Name] is now serving as Trustee of the Trust.
+
+3. The Trust has become irrevocable due to the Settlor's death.
+
+4. You have the right to request a copy of the terms of the Trust
+   that affect your interest.
+
+5. If you wish to contest the Trust, you must bring an action
+   within 120 days of the date you receive this notification.
+
+Trustee Contact Information:
+[Name, Address, Phone]
+
+Attorney Contact Information:
+[Name, Address, Phone] (or "None")
+
+Date: [Date]
+
+Signature: [Trustee Signature]
+</code></pre>
+<h2>Common Mistakes to Avoid</h2>
+<h3>Missing the 60-Day Deadline</h3>
+<p>Set a calendar reminder immediately upon becoming trustee. This deadline is firm.</p>
+<h3>Forgetting Heirs Who Aren't Beneficiaries</h3>
+<p>You must notify intestate heirs even if they get nothing under the trust. A disinherited child still receives notice.</p>
+<h3>Using Wrong Addresses</h3>
+<p>Make reasonable efforts to find current addresses. Notice sent to an old address may not be effective.</p>
+<h3>Not Keeping Proof</h3>
+<p>Without proof of mailing, you can't demonstrate compliance. Always use certified mail or get signed acknowledgments.</p>
+<h3>Omitting Required Content</h3>
+<p>The notice must include all elements specified by statute. Incomplete notices may not start the 120-day clock.</p>
+<h3>Sending Notice Too Early</h3>
+<p>If you send notice before formally becoming trustee, it may not be valid. Wait until you're officially serving.</p>
+<h2>What About Amended or Restated Trusts?</h2>
+<p>If the trust was amended multiple times:</p>
+<ul>
+<li>Send notice to beneficiaries of the current (final) version</li>
+<li>Also notify beneficiaries of prior versions if their interests were affected</li>
+<li>Include notice about all relevant trust documents</li>
+</ul>
+<h2>After Sending Notice</h2>
+<h3>Document Everything</h3>
+<p>Maintain records showing:</p>
+<ul>
+<li>Who received notice</li>
+<li>What address was used</li>
+<li>Date sent</li>
+<li>Proof of mailing/delivery</li>
+</ul>
+<h3>Respond to Requests</h3>
+<p>Recipients may request copies of trust terms affecting their interest. Provide these promptly.</p>
+<h3>Track the 120-Day Period</h3>
+<p>Calculate when the contest period expires for each recipient. Don't make final distributions until all periods have run.</p>
+<h2>Related Articles</h2>
+<p><strong>Learn more about trust notice and beneficiary rights:</strong></p>
+<ul>
+<li>
+<p><strong><a href="/trust-contest-california-grounds-process">Trust Contest California: Grounds and Process</a></strong> - Why proper 60-day notice is critical and the 120-day statute of limitations for trust contests.</p>
+</li>
+<li>
+<p><strong><a href="/no-contest-clauses-california-trusts">No-Contest Clauses in California Trusts</a></strong> - How improper notice affects no-contest clauses and beneficiary rights to challenge the trust.</p>
+</li>
+<li>
+<p><strong><a href="/common-trust-administration-mistakes-california">Common Trust Administration Mistakes</a></strong> - Failure to send proper notice is one of the most common and serious trustee mistakes.</p>
+</li>
+<li>
+<p><strong><a href="/when-trustees-fail-to-communicate-california">When Trustees Fail to Communicate California</a></strong> - Legal duties to communicate with beneficiaries beyond the initial 60-day notice.</p>
+</li>
+<li>
+<p><strong><a href="/trustee-removal-california-process-grounds">Trustee Removal California</a></strong> - How failure to provide proper notice can be grounds for trustee removal.</p>
+</li>
+</ul>
+<h2>Frequently Asked Questions</h2>
+<h3>What happens if I miss the 60-day notice deadline in California?</h3>
+<p>If you miss the 60-day deadline, the 120-day contest period never starts running. This means beneficiaries and heirs can potentially contest the trust indefinitely. You may also face personal liability, removal as trustee, and surcharge for any damages caused by the delay. Send the notice as soon as possible even if late.</p>
+<h3>Who must receive the 60-day trust notice in California?</h3>
+<p>You must send notice to all trust beneficiaries (primary, contingent, and remainder), all legal heirs who would inherit under California intestate succession laws (even if they receive nothing under the trust), and beneficiaries of any prior versions of the trust if it was amended.</p>
+<h3>Can I make distributions before the 120-day contest period expires?</h3>
+<p>Most trustees wait until the 120-day period expires before making final distributions. You may make preliminary distributions if the estate clearly has sufficient assets, but you should reserve funds for potential contests. Making full distributions before 120 days creates risk if someone contests the trust.</p>
+<h3>What must be included in a California trust notification?</h3>
+<p>The notice must include: the settlor's identity, trust name and date, statement that trust is irrevocable, trustee contact information, attorney contact information (if any), beneficiary's right to receive trust terms, the 120-day contest deadline, and the settlor's date of death.</p>
+<h3>How do I send the 60-day notice properly?</h3>
+<p>California allows personal delivery or first-class mail to the recipient's last known address. Use certified mail with return receipt to prove delivery. Keep copies of all notices sent, along with proof of mailing. If an address is unknown, document your reasonable efforts to locate the person.</p>
+<h2>Need Help With Trust Notice Requirements?</h2>
+<p>The 60-day notice is one of the first and most important steps in trust administration. Getting it right protects you as trustee and moves the administration forward.</p>
+<p>The Law Offices of Rozsa Gyene prepares proper notices and guides successor trustees through all California trust administration requirements.</p>
+<p><strong>Call (818) 291-6217</strong> for a consultation, or visit our <a href="/trust-administration-questionnaire.html">trust administration questionnaire</a>.</p>
+<p>Serving Glendale, Burbank, Pasadena, and all of Los Angeles County.</p>
+<hr>
+<h2>Related Articles</h2>
+<ul>
+<li><a href="/blog/trust-administration-checklist-california">Trust Administration Checklist California: The Complete Guide</a></li>
+<li><a href="/blog/how-much-does-living-trust-cost-california-2024">How Much Does a Living Trust Cost in California?</a></li>
+<li><a href="/blog/avoid-probate-california">How to Avoid Probate in California: 7 Proven Strategies</a></li>
+<li><a href="/blog/california-probate-complete-guide-2025">California Probate Complete Guide 2025</a></li>
+</ul>
+<hr>
+<p><em>This article provides general information about California trust notice requirements. Every trust is different. Consult an attorney to ensure compliance with your specific situation.</em></p>
+<p>For the complete list of all trustee tasks, see our <a href="/blog/trust-administration-checklist-california">Trust Administration Checklist California</a>.</p>
+a:T523,{"@context":"https://schema.org","@type":"Article","headline":"60-Day Notice Requirement for California Trusts (2025)","description":"60-day notice requirement California trusts: Who gets notice, what to include, deadline consequences. Probate Code §16061.7 explained. Glendale attorney. Free consultation.","image":"https://livingtrust-attorneys.com/images/blog/trust-amendment-update.jpg","articleSection":"Trust Administration","keywords":"trust administration, 60 day notice, California trust law, successor trustee, trust notification requirements, Probate Code 16061.7, Glendale attorney","wordCount":1589,"author":{"@type":"Person","name":"Rozsa Gyene","jobTitle":"Estate Planning Attorney","credentials":"California State Bar #208356","url":"https://livingtrust-attorneys.com/about.html"},"publisher":{"@type":"LegalService","name":"Law Offices of Rozsa Gyene","url":"https://livingtrust-attorneys.com","telephone":"818-291-6217","address":{"@type":"PostalAddress","streetAddress":"450 N Brand Blvd, Suite 600","addressLocality":"Glendale","addressRegion":"CA","postalCode":"91203"}},"datePublished":"2025-10-30","dateModified":"2025-12-24","mainEntityOfPage":{"@type":"WebPage","@id":"https://livingtrust-attorneys.com/blog/60-day-notice-trust-california"},"inLanguage":"en-US","isAccessibleForFree":true}b:T8b1,{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What happens if I miss the 60-day notice deadline in California?","acceptedAnswer":{"@type":"Answer","text":"If you miss the 60-day deadline, the 120-day contest period never starts running. This means beneficiaries and heirs can potentially contest the trust indefinitely. You may also face personal liability, removal as trustee, and surcharge for any damages caused by the delay. Send the notice as soon as possible even if late."}},{"@type":"Question","name":"Who must receive the 60-day trust notice in California?","acceptedAnswer":{"@type":"Answer","text":"You must send notice to all trust beneficiaries (primary, contingent, and remainder), all legal heirs who would inherit under California intestate succession laws (even if they receive nothing under the trust), and beneficiaries of any prior versions of the trust if it was amended."}},{"@type":"Question","name":"Can I make distributions before the 120-day contest period expires?","acceptedAnswer":{"@type":"Answer","text":"Most trustees wait until the 120-day period expires before making final distributions. You may make preliminary distributions if the estate clearly has sufficient assets, but you should reserve funds for potential contests. Making full distributions before 120 days creates risk if someone contests the trust."}},{"@type":"Question","name":"What must be included in a California trust notification?","acceptedAnswer":{"@type":"Answer","text":"The notice must include: the settlor's identity, trust name and date, statement that trust is irrevocable, trustee contact information, attorney contact information (if any), beneficiary's right to receive trust terms, the 120-day contest deadline, and the settlor's date of death."}},{"@type":"Question","name":"How do I send the 60-day notice properly?","acceptedAnswer":{"@type":"Answer","text":"California allows personal delivery or first-class mail to the recipient's last known address. Use certified mail with return receipt to prove delivery. Keep copies of all notices sent, along with proof of mailing. If an address is unknown, document your reasonable efforts to locate the person."}}]}2:["$","div",null,{"className":"min-h-screen","children":[["$","div",null,{"className":"bg-primary-blue/20 py-4 no-print","children":["$","div",null,{"className":"container-custom","children":["$","nav",null,{"aria-label":"Breadcrumb","className":"flex items-center gap-2 text-sm text-white/70","children":[["$","a",null,{"href":"/","className":"hover:text-white transition-colors","children":"Home"}],["$","span",null,{"children":"/"}],["$","a",null,{"href":"/blog","className":"hover:text-white transition-colors","children":"Blog"}],["$","span",null,{"children":"/"}],["$","span",null,{"className":"text-white","children":"Trust Administration"}]]}]}]}],["$","section",null,{"className":"section-padding bg-gradient-to-b from-transparent to-primary-blue/20","children":["$","div",null,{"className":"container-custom","children":["$","div",null,{"className":"max-w-4xl mx-auto text-center","children":[["$","div",null,{"className":"mb-6","children":["$","span",null,{"className":"inline-block bg-accent-gold text-white px-4 py-2 rounded-full text-sm font-semibold","children":"Trust Administration"}]}],["$","h1",null,{"className":"font-playfair text-4xl md:text-5xl lg:text-6xl text-white mb-6 text-shadow-lg leading-tight","children":"60-Day Notice Requirement for California Trusts (2025)"}],["$","div",null,{"className":"flex flex-wrap items-center justify-center gap-6 text-white/80 mb-8","children":[["$","span",null,{"className":"flex items-center gap-2","children":[["$","svg",null,{"className":"w-5 h-5","fill":"currentColor","viewBox":"0 0 20 20","children":["$","path",null,{"fillRule":"evenodd","d":"M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z","clipRule":"evenodd"}]}],"Rozsa Gyene"]}],["$","span",null,{"className":"flex items-center gap-2","children":[["$","svg",null,{"className":"w-5 h-5","fill":"currentColor","viewBox":"0 0 20 20","children":["$","path",null,{"fillRule":"evenodd","d":"M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z","clipRule":"evenodd"}]}],"October 30, 2025"]}],["$","span",null,{"className":"flex items-center gap-2","children":[["$","svg",null,{"className":"w-5 h-5","fill":"currentColor","viewBox":"0 0 20 20","children":["$","path",null,{"fillRule":"evenodd","d":"M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z","clipRule":"evenodd"}]}],9," min read"]}]]}],null]}]}]}],["$","section",null,{"className":"section-padding","children":["$","div",null,{"className":"container-custom","children":[["$","div",null,{"className":"grid lg:grid-cols-[1fr_300px] gap-8 mb-12","children":[["$","div",null,{"children":[["$","div",null,{"className":"\n      glass-card\n      p-8\n      mb-8\n    ","children":["$","div",null,{"className":"prose-blog","dangerouslySetInnerHTML":{"__html":"$7"}}]}],["$","div",null,{"className":"mb-8","children":["$","div",null,{"className":"\n      glass-card\n      p-4\n      \n    ","children":["$","div",null,{"className":"flex flex-wrap items-center gap-3","children":[["$","span",null,{"className":"text-white/70 font-semibold","children":"Tags:"}],[["$","span","trust administration",{"className":"bg-white/10 text-white px-3 py-1 rounded-full text-sm border border-white/20","children":["#","trust administration"]}],["$","span","60 day notice",{"className":"bg-white/10 text-white px-3 py-1 rounded-full text-sm border border-white/20","children":["#","60 day notice"]}],["$","span","California trust law",{"className":"bg-white/10 text-white px-3 py-1 rounded-full text-sm border border-white/20","children":["#","California trust law"]}],["$","span","successor trustee",{"className":"bg-white/10 text-white px-3 py-1 rounded-full text-sm border border-white/20","children":["#","successor trustee"]}],["$","span","trust notification requirements",{"className":"bg-white/10 text-white px-3 py-1 rounded-full text-sm border border-white/20","children":["#","trust notification requirements"]}],["$","span","Probate Code 16061.7",{"className":"bg-white/10 text-white px-3 py-1 rounded-full text-sm border border-white/20","children":["#","Probate Code 16061.7"]}],["$","span","Glendale attorney",{"className":"bg-white/10 text-white px-3 py-1 rounded-full text-sm border border-white/20","children":["#","Glendale attorney"]}]]]}]}]}],["$","div",null,{"className":"mb-8","children":["$","$L8",null,{"title":"60-Day Notice Requirement for California Trusts (2025)","slug":"60-day-notice-trust-california"}]}],["$","div",null,{"style":{"margin":"20px auto","padding":"15px 20px","background":"linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%)","borderLeft":"4px solid #8a6a2f","borderRadius":"8px","maxWidth":"800px"},"children":["$","p",null,{"style":{"margin":0,"fontSize":"14px","color":"#2c3e50","lineHeight":1.6},"children":[["$","strong",null,{"style":{"color":"#1e3a5f"},"children":"Written by Rozsa Gyene, Esq."}],["$","br",null,{}],"California State Bar #208356 | 25+ Years Probate & Estate Experience",["$","br",null,{}],["$","em",null,{"style":{"color":"#6c757d"},"children":"Last Updated: November 28, 2025"}]]}]}]]}],["$","aside",null,{"className":"no-print","children":["$","aside",null,{"className":"no-print","children":["$","div",null,{"className":"\n      glass-card\n      p-8\n      sticky top-24\n    ","children":["$","div",null,{"className":"text-center","children":[["$","div",null,{"className":"text-4xl mb-4","children":"⚖️"}],["$","h3",null,{"className":"font-playfair text-2xl text-white mb-3","children":"Need Legal Guidance?"}],["$","p",null,{"className":"text-white/90 mb-6 leading-relaxed","children":"Schedule a free consultation with Attorney Rozsa Gyene to discuss your estate planning needs."}],["$","a",null,{"href":"tel:8182916217","className":"block w-full bg-accent-gold text-white py-3 px-6 rounded-full font-semibold hover:bg-[#b8982f] transition-all mb-3","children":"📞 (818) 291-6217"}],["$","a",null,{"href":"https://portal.livingtrust-attorneys.com/book","className":"block w-full bg-white/10 text-white py-3 px-6 rounded-full font-semibold hover:bg-white/20 transition-all border border-white/30","target":"_blank","rel":"noopener noreferrer","children":"Book Consultation"}],["$","div",null,{"className":"mt-6 pt-6 border-t border-white/10","children":[["$","p",null,{"className":"text-white/70 text-sm mb-2","children":["$","strong",null,{"className":"text-white","children":"Office Location:"}]}],["$","p",null,{"className":"text-white/70 text-sm","children":["450 N Brand Blvd Ste 600",["$","br",null,{}],"Glendale, CA 91203"]}]]}],["$","div",null,{"className":"mt-4 pt-4 border-t border-white/10","children":["$","div",null,{"className":"flex items-center justify-center gap-2 text-accent-gold text-sm","children":[["$","svg",null,{"className":"w-5 h-5","fill":"currentColor","viewBox":"0 0 20 20","children":["$","path",null,{"fillRule":"evenodd","d":"M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z","clipRule":"evenodd"}]}],["$","span",null,{"className":"font-semibold","children":"25+ Years Experience"}]]}]}]]}]}]}]}]]}],["$","section",null,{"className":"mt-16","children":[["$","h2",null,{"className":"font-playfair text-3xl text-white mb-8 text-center","children":"Related Articles"}],["$","div",null,{"className":"grid md:grid-cols-3 gap-6","children":[["$","$L9","how-to-become-successor-trustee-california",{"href":"/how-to-become-successor-trustee-california","className":"block","children":["$","div",null,{"className":"\n      glass-card-hover\n      p-8\n      h-full flex flex-col\n    ","children":[["$","div",null,{"className":"mb-3","children":["$","span",null,{"className":"inline-block bg-accent-gold/20 text-accent-gold px-3 py-1 rounded-full text-xs font-semibold border border-accent-gold/30","children":"Trust Administration"}]}],["$","h3",null,{"className":"font-playfair text-xl text-white mb-3 leading-tight flex-1","children":"How to Become a Successor Trustee in California"}],["$","div",null,{"className":"flex items-center justify-between text-sm text-white/60 pt-3 border-t border-white/10","children":[["$","span",null,{"children":"Nov 7, 2025"}],["$","span",null,{"children":[10," min"]}]]}]]}]}],["$","$L9","can-successor-trustee-be-beneficiary-california",{"href":"/can-successor-trustee-be-beneficiary-california","className":"block","children":["$","div",null,{"className":"\n      glass-card-hover\n      p-8\n      h-full flex flex-col\n    ","children":[["$","div",null,{"className":"mb-3","children":["$","span",null,{"className":"inline-block bg-accent-gold/20 text-accent-gold px-3 py-1 rounded-full text-xs font-semibold border border-accent-gold/30","children":"Trust Administration"}]}],["$","h3",null,{"className":"font-playfair text-xl text-white mb-3 leading-tight flex-1","children":"Can a Successor Trustee Also Be a Beneficiary in California?"}],["$","div",null,{"className":"flex items-center justify-between text-sm text-white/60 pt-3 border-t border-white/10","children":[["$","span",null,{"children":"Nov 5, 2025"}],["$","span",null,{"children":[8," min"]}]]}]]}]}],["$","$L9","what-does-successor-trustee-do-california",{"href":"/what-does-successor-trustee-do-california","className":"block","children":["$","div",null,{"className":"\n      glass-card-hover\n      p-8\n      h-full flex flex-col\n    ","children":[["$","div",null,{"className":"mb-3","children":["$","span",null,{"className":"inline-block bg-accent-gold/20 text-accent-gold px-3 py-1 rounded-full text-xs font-semibold border border-accent-gold/30","children":"Trust Administration"}]}],["$","h3",null,{"className":"font-playfair text-xl text-white mb-3 leading-tight flex-1","children":"What Does a Successor Trustee Do in California? Complete Guide"}],["$","div",null,{"className":"flex items-center justify-between text-sm text-white/60 pt-3 border-t border-white/10","children":[["$","span",null,{"children":"Nov 2, 2025"}],["$","span",null,{"children":[9," min"]}]]}]]}]}]]}]]}]]}]}],["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"$a"}}],["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"$b"}}]]}]
+6:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"60-Day Notice Requirement for California Trusts (2025) | Law Offices of Rozsa Gyene"}],["$","meta","3",{"name":"description","content":"60-day notice requirement California trusts: Who gets notice, what to include, deadline consequences. Probate Code §16061.7 explained. Glendale attorney. Free consultation."}],["$","meta","4",{"name":"author","content":"Rozsa Gyene"}],["$","meta","5",{"name":"keywords","content":"trust administration,60 day notice,California trust law,successor trustee,trust notification requirements,Probate Code 16061.7,Glendale attorney,Trust Administration,estate planning,Rozsa Gyene,Glendale attorney"}],["$","link","6",{"rel":"canonical","href":"https://livingtrust-attorneys.com/blog/60-day-notice-trust-california"}],["$","meta","7",{"property":"og:title","content":"60-Day Notice Requirement for California Trusts (2025)"}],["$","meta","8",{"property":"og:description","content":"60-day notice requirement California trusts: Who gets notice, what to include, deadline consequences. Probate Code §16061.7 explained. Glendale attorney. Free consultation."}],["$","meta","9",{"property":"og:type","content":"article"}],["$","meta","10",{"property":"article:published_time","content":"2025-10-30"}],["$","meta","11",{"property":"article:author","content":"Rozsa Gyene"}],["$","meta","12",{"property":"article:tag","content":"trust administration"}],["$","meta","13",{"property":"article:tag","content":"60 day notice"}],["$","meta","14",{"property":"article:tag","content":"California trust law"}],["$","meta","15",{"property":"article:tag","content":"successor trustee"}],["$","meta","16",{"property":"article:tag","content":"trust notification requirements"}],["$","meta","17",{"property":"article:tag","content":"Probate Code 16061.7"}],["$","meta","18",{"property":"article:tag","content":"Glendale attorney"}],["$","meta","19",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","20",{"name":"twitter:title","content":"Estate Planning & Trust Law Blog"}],["$","meta","21",{"name":"twitter:description","content":"Expert legal insights from Rozsa Gyene"}],["$","meta","22",{"name":"next-size-adjust"}]]
+1:null
