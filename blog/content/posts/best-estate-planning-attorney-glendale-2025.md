@@ -1,8 +1,8 @@
 ---
 title: "Best Estate Planning Attorney in Glendale CA: How to Choose (2025 Guide)"
 slug: "best-estate-planning-attorney-glendale-2025"
-publishDate: "2025-12-24"
-updatedDate: ""
+publishDate: "2025-12-24T08:00:00-08:00"
+updatedDate: "2025-12-25T17:00:00-08:00"
 author:
   name: "Rozsa Gyene"
   title: "Estate Planning & Trust Litigation Attorney"

@@ -263,6 +263,53 @@ export default async function BlogPostPage({ params }: PageProps) {
           }}
         />
       )}
+
+      {/* Hardcoded FAQ schema for best-estate-planning-attorney-glendale-2025 */}
+      {post.slug === 'best-estate-planning-attorney-glendale-2025' && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              '@context': 'https://schema.org',
+              '@type': 'FAQPage',
+              mainEntity: [
+                {
+                  '@type': 'Question',
+                  name: 'How much should I pay for a living trust in Glendale?',
+                  acceptedAnswer: {
+                    '@type': 'Answer',
+                    text: 'Glendale estate planning attorneys typically charge $1,500-$5,000 for living trust packages. However, some attorneys offer more affordable options without sacrificing quality. Complete living trust packages are available starting at $575 for individuals and $675 for married couples, including deed transfer, all essential documents, and personalized legal advice.',
+                  },
+                },
+                {
+                  '@type': 'Question',
+                  name: 'What questions should I ask an estate planning attorney?',
+                  acceptedAnswer: {
+                    '@type': 'Answer',
+                    text: 'Ask: (1) How long have you practiced estate planning in California? (2) What\'s included in your living trust package and what are the total costs? (3) Do you prepare and record the deed to transfer my home? (4) Will I work directly with you or staff? (5) Do you offer a free consultation? (6) What happens if I need to make changes later?',
+                  },
+                },
+                {
+                  '@type': 'Question',
+                  name: 'What are red flags when choosing an estate planning attorney?',
+                  acceptedAnswer: {
+                    '@type': 'Answer',
+                    text: 'Red flags include: refusing to provide pricing information upfront, high-pressure sales tactics, pushing expensive unnecessary products, unwillingness to explain what you\'re getting, no clear answer about who prepares documents, significantly lower prices than market (may indicate inexperience or shortcuts), and no California State Bar number provided.',
+                  },
+                },
+                {
+                  '@type': 'Question',
+                  name: 'Do I need a local Glendale estate planning attorney?',
+                  acceptedAnswer: {
+                    '@type': 'Answer',
+                    text: 'While not strictly required, a local Glendale attorney offers advantages: understanding of local property values and common estate situations, convenience for in-person meetings, familiarity with local recording offices for deed transfers, and availability for ongoing relationship.',
+                  },
+                },
+              ],
+            }),
+          }}
+        />
+      )}
     </div>
   )
 }
