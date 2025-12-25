@@ -276,17 +276,20 @@
 
         /* Header */
         header { background: var(--primary-blue); padding: 15px 0; }
-        header .container { display: flex; justify-content: space-between; align-items: center; }
-        .logo { color: #fff; text-decoration: none; font-family: 'Playfair Display', serif; font-size: 18px; font-weight: 700; }
+        header .container { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 15px; }
+        .logo { color: #fff; text-decoration: none; font-family: 'Playfair Display', serif; font-size: 20px; font-weight: 700; }
+        .header-cta { display: flex; align-items: center; gap: 20px; }
+        .header-phone { color: var(--accent-gold); text-decoration: none; font-weight: 600; font-size: 18px; }
+        .header-phone i { margin-right: 8px; }
         .nav-menu { display: flex; list-style: none; gap: 0; align-items: center; }
         .nav-item { position: relative; }
         .nav-link { display: block; padding: 10px 15px; color: #fff; text-decoration: none; font-weight: 500; transition: all 0.3s; }
         .nav-link:hover { color: var(--accent-gold); }
         .dropdown { position: absolute; top: 100%; left: 0; min-width: 250px; background: #fff; box-shadow: 0 5px 20px rgba(0,0,0,0.15); border-radius: 8px; opacity: 0; visibility: hidden; transform: translateY(-10px); transition: all 0.3s; border-top: 3px solid var(--accent-gold); max-height: 400px; overflow-y: auto; z-index: 1000; }
         .nav-item:hover .dropdown { opacity: 1; visibility: visible; transform: translateY(0); }
-        .dropdown-item { display: block; padding: 12px 20px; color: var(--text-dark); text-decoration: none; transition: all 0.3s; border-bottom: 1px solid #f0f0f0; }
+        .dropdown-item { display: block; padding: 12px 20px; color: var(--text-dark); text-decoration: none; transition: all 0.3s; border-bottom: 1px solid #f0f0f0; font-size: 15px; }
         .dropdown-item:hover { background: #f8f9fa; color: var(--accent-gold); padding-left: 25px; }
-        .header-phone { color: var(--accent-gold); text-decoration: none; font-weight: 600; font-size: 16px; }
+        .dropdown-item:last-child { border-bottom: none; }
         .mobile-menu-btn { display: none; background: none; border: none; color: #fff; font-size: 24px; cursor: pointer; }
 
         /* Hero */
@@ -388,12 +391,14 @@
             .content-section { padding: 50px 0; }
             .mobile-call-button { display: block; }
             .top-bar .container { justify-content: center; text-align: center; }
-            .header-phone { display: none; }
+            .header-cta { display: none; }
             .mobile-menu-btn { display: block; }
             .nav-menu { display: none; position: absolute; top: 100%; left: 0; right: 0; background: var(--primary-blue); flex-direction: column; padding: 20px; }
             .nav-menu.active { display: flex; }
-            .dropdown { position: static; opacity: 1; visibility: visible; transform: none; box-shadow: none; background: rgba(255,255,255,0.1); }
-            .dropdown-item { color: #fff; }
+            .nav-item { width: 100%; }
+            .dropdown { position: static; opacity: 1; visibility: visible; transform: none; box-shadow: none; border-radius: 0; border-top: none; background: rgba(255,255,255,0.1); max-height: none; }
+            .dropdown-item { color: #fff; border-bottom-color: rgba(255,255,255,0.1); }
+            .dropdown-item:hover { background: rgba(255,255,255,0.1); color: var(--accent-gold); }
             .services-grid { grid-template-columns: 1fr; }
             .testimonials-grid { grid-template-columns: 1fr; }
             .badges-container { gap: 20px; }
@@ -421,8 +426,9 @@
                             <a href="living-trusts.html" class="dropdown-item">Living Trusts</a>
                             <a href="wills.html" class="dropdown-item">Wills</a>
                             <a href="power-of-attorney.html" class="dropdown-item">Power of Attorney</a>
-                            <a href="estate-planning-attorney-glendale.html" class="dropdown-item">Estate Planning Attorney Glendale</a>
-                            <a href="trust-administration.html" class="dropdown-item">Trust Administration</a>
+                            <a href="healthcare-directive.html" class="dropdown-item">Healthcare Directive</a>
+                            <a href="special-needs-trust.html" class="dropdown-item">Special Needs Trust</a>
+                            <a href="estate-planning-questionnaire.html" class="dropdown-item">Estate Planning Form</a>
                             <a href="trust-litigation-attorney-glendale.html" class="dropdown-item">Trust Litigation Attorney</a>
                             <a href="conservatorship-attorney-glendale.html" class="dropdown-item">Conservatorship Attorney</a>
                         </div>
@@ -432,6 +438,8 @@
                         <div class="dropdown">
                             <a href="probate.html" class="dropdown-item">Probate Overview</a>
                             <a href="probate-attorney-glendale.html" class="dropdown-item">Probate Attorney Glendale</a>
+                            <a href="trust-administration.html" class="dropdown-item">Trust Administration</a>
+                            <a href="probate-intake-form.html" class="dropdown-item">Probate Intake Form</a>
                         </div>
                     </li>
                     <li class="nav-item">
@@ -439,6 +447,8 @@
                         <div class="dropdown">
                             <a href="conservatorship.html" class="dropdown-item">Conservatorship</a>
                             <a href="guardianship.html" class="dropdown-item">Guardianship</a>
+                            <a href="conservatorship-questionnaire.html" class="dropdown-item">Conservatorship Form</a>
+                            <a href="guardianship-questionnaire.html" class="dropdown-item">Guardianship Form</a>
                         </div>
                     </li>
                     <li class="nav-item">
@@ -448,6 +458,7 @@
                             <a href="locations/burbank.html" class="dropdown-item">Burbank</a>
                             <a href="locations/pasadena.html" class="dropdown-item">Pasadena</a>
                             <a href="locations/los-angeles.html" class="dropdown-item">Los Angeles</a>
+                            <a href="locations/san-fernando-valley.html" class="dropdown-item">San Fernando Valley</a>
                         </div>
                     </li>
                     <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
