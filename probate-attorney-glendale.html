@@ -282,7 +282,7 @@
         .nav-item { position: relative; }
         .nav-link { display: block; padding: 10px 15px; color: #fff; text-decoration: none; font-weight: 500; transition: all 0.3s; }
         .nav-link:hover { color: var(--accent-gold); }
-        .dropdown { position: absolute; top: 100%; left: 0; min-width: 250px; background: #fff; box-shadow: 0 5px 20px rgba(0,0,0,0.15); border-radius: 8px; opacity: 0; visibility: hidden; transform: translateY(-10px); transition: all 0.3s; border-top: 3px solid var(--accent-gold); z-index: 1000; }
+        .dropdown { position: absolute; top: 100%; left: 0; min-width: 250px; background: #fff; box-shadow: 0 5px 20px rgba(0,0,0,0.15); border-radius: 8px; opacity: 0; visibility: hidden; transform: translateY(-10px); transition: all 0.3s; border-top: 3px solid var(--accent-gold); max-height: 400px; overflow-y: auto; z-index: 1000; }
         .nav-item:hover .dropdown { opacity: 1; visibility: visible; transform: translateY(0); }
         .dropdown-item { display: block; padding: 12px 20px; color: var(--text-dark); text-decoration: none; transition: all 0.3s; border-bottom: 1px solid #f0f0f0; }
         .dropdown-item:hover { background: #f8f9fa; color: var(--accent-gold); padding-left: 25px; }
@@ -422,6 +422,7 @@
                             <a href="wills.html" class="dropdown-item">Wills</a>
                             <a href="power-of-attorney.html" class="dropdown-item">Power of Attorney</a>
                             <a href="estate-planning-attorney-glendale.html" class="dropdown-item">Estate Planning Attorney Glendale</a>
+                            <a href="trust-administration.html" class="dropdown-item">Trust Administration</a>
                             <a href="trust-litigation-attorney-glendale.html" class="dropdown-item">Trust Litigation Attorney</a>
                             <a href="conservatorship-attorney-glendale.html" class="dropdown-item">Conservatorship Attorney</a>
                         </div>
@@ -431,7 +432,6 @@
                         <div class="dropdown">
                             <a href="probate.html" class="dropdown-item">Probate Overview</a>
                             <a href="probate-attorney-glendale.html" class="dropdown-item">Probate Attorney Glendale</a>
-                            <a href="trust-administration.html" class="dropdown-item">Trust Administration</a>
                         </div>
                     </li>
                     <li class="nav-item">
