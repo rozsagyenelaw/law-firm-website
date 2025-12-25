@@ -164,7 +164,7 @@ export async function getPostBySlug(slug: string): Promise<Post | null> {
       coverImage: data.coverImage ? `/blog${data.coverImage}` : '/blog/images/blog/default-cover.jpg',
       content: contentHtml,
       readingTime: calculateReadingTime(content),
-      faqs: extractFAQs(content),
+      faqs: data.faqSchema || extractFAQs(content),
     }
 
     // Cache the result
