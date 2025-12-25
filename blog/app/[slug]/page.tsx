@@ -245,6 +245,45 @@ export default async function BlogPostPage({ params }: PageProps) {
           }}
         />
       )}
+
+      {/* Hardcoded FAQ Schema for California Probate Guide */}
+      {post.slug === 'california-probate-complete-guide-2025' && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              '@context': 'https://schema.org',
+              '@type': 'FAQPage',
+              mainEntity: [
+                {
+                  '@type': 'Question',
+                  name: 'How much does probate cost in California in 2025?',
+                  acceptedAnswer: {
+                    '@type': 'Answer',
+                    text: 'In 2025, California probate costs are statutory, meaning they are set by Probate Code §10800. For both the attorney and executor, the fee is 4% of the first $100k, 3% of the next $100k, and 2% of the next $800k. A typical $1,000,000 estate will pay $46,000 in combined statutory fees plus court costs.',
+                  },
+                },
+                {
+                  '@type': 'Question',
+                  name: 'What is the new California probate limit for 2025?',
+                  acceptedAnswer: {
+                    '@type': 'Answer',
+                    text: 'As of April 1, 2025, the threshold for a Small Estate Affidavit is $208,850. Additionally, Assembly Bill 2016 (AB 2016) allows primary residences valued up to $750,000 to be transferred using a simplified court procedure for deaths occurring on or after April 1, 2025.',
+                  },
+                },
+                {
+                  '@type': 'Question',
+                  name: 'How long does probate take in Los Angeles County?',
+                  acceptedAnswer: {
+                    '@type': 'Answer',
+                    text: 'Due to court backlogs at the Stanley Mosk Courthouse, probate in Los Angeles County typically takes 12-18 months. Using the Independent Administration of Estates Act (IAEA) can help expedite the process.',
+                  },
+                },
+              ],
+            }),
+          }}
+        />
+      )}
     </div>
   )
 }
