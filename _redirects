@@ -20,6 +20,7 @@
 
 # Santa Ynez → Santa Ynez Valley (renamed)
 /locations/santa-ynez /locations/santa-ynez-valley 301
+/locations/santa-ynez.html /locations/santa-ynez-valley 301
 
 # Estate Planning Glendale → Location page
 /estate-planning-attorney-glendale /locations/glendale 301
