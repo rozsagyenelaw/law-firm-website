@@ -20,6 +20,7 @@
 
 # Estate Planning Glendale → Location page
 /estate-planning-attorney-glendale /locations/glendale 301
+/estate-planning-attorney-glendale.html /locations/glendale 301
 
 # Specific redirects for common pages
 /index.html / 301
