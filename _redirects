@@ -18,6 +18,9 @@
 # Santa Barbara County → Santa Barbara
 /locations/santa-barbara-county /locations/santa-barbara 301
 
+# Santa Ynez → Santa Ynez Valley (renamed)
+/locations/santa-ynez /locations/santa-ynez-valley 301
+
 # Estate Planning Glendale → Location page
 /estate-planning-attorney-glendale /locations/glendale 301
 /estate-planning-attorney-glendale.html /locations/glendale 301
