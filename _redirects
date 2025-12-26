@@ -3,3 +3,7 @@
 
 # Specific redirects for common pages
 /index.html / 301
+
+# Keyword Cannibalization Fixes - Phase 1
+/conservatorship-attorney-glendale.html /conservatorship.html 301
+/guardianship-attorney-glendale.html /guardianship.html 301
