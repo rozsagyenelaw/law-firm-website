@@ -4,21 +4,16 @@
 /guardianship-attorney-glendale /guardianship 301
 /guardianship-attorney-glendale.html /guardianship 301
 
-# Trust Administration Consolidation - Redirect location pages to main
-/trust-administration-attorney-burbank /trust-administration 301
-/trust-administration-attorney-torrance /trust-administration 301
-/trust-administration-attorney-glendale /trust-administration 301
-/trust-administration-attorney-santa-clarita /trust-administration 301
-/trust-administration-attorney-los-angeles /trust-administration 301
-/trust-administration-attorney-arcadia /trust-administration 301
-/trust-administration-attorney-pasadena /trust-administration 301
+# Trust Admin - Redirect low-priority cities to main page
+/trust-administration-attorney-alhambra /trust-administration 301
 /trust-administration-attorney-downey /trust-administration 301
 /trust-administration-attorney-long-beach /trust-administration 301
+/trust-administration-attorney-santa-clarita /trust-administration 301
+/trust-administration-attorney-thousand-oaks /trust-administration 301
+/trust-administration-attorney-torrance /trust-administration 301
 /trust-administration-attorney-van-nuys /trust-administration 301
 /trust-administration-attorney-west-covina /trust-administration 301
 /trust-administration-attorney-whittier /trust-administration 301
-/trust-administration-attorney-alhambra /trust-administration 301
-/trust-administration-attorney-thousand-oaks /trust-administration 301
 
 # Santa Barbara County → Santa Barbara
 /locations/santa-barbara-county /locations/santa-barbara 301
