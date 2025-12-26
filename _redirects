@@ -1,9 +1,12 @@
-# Redirect all .html URLs to clean URLs (301 permanent redirects)
-/*.html /:splat 301
+# Keyword Cannibalization Fixes - Phase 1 (MUST BE FIRST)
+/conservatorship-attorney-glendale /conservatorship 301
+/conservatorship-attorney-glendale.html /conservatorship 301
+/guardianship-attorney-glendale /guardianship 301
+/guardianship-attorney-glendale.html /guardianship 301
 
 # Specific redirects for common pages
 /index.html / 301
 
-# Keyword Cannibalization Fixes - Phase 1
-/conservatorship-attorney-glendale.html /conservatorship.html 301
-/guardianship-attorney-glendale.html /guardianship.html 301
+# Redirect all .html URLs to clean URLs (301 permanent redirects)
+# This MUST be last because it's a wildcard
+/*.html /:splat 301
